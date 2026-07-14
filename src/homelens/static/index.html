@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Explainable, evidence-grounded HDB resale recommendations for Singapore."
+    />
+    <title>HomeLens SG — See the trade-offs clearly</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="HomeLens SG home">
+          <span class="brand-mark" aria-hidden="true">HL</span>
+          <span><strong>HomeLens</strong><small>Singapore</small></span>
+        </a>
+        <div id="healthBadge" class="health-badge"><span></span> Checking knowledge base…</div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div>
+            <p class="eyebrow">HDB RESALE DECISION SUPPORT</p>
+            <h1>See the trade-offs.<br /><em>Choose with evidence.</em></h1>
+          </div>
+          <p class="hero-copy">
+            Describe the home you want. HomeLens filters official transactions,
+            compares price, space and lease, then explains why each option appears.
+          </p>
+        </section>
+
+        <section class="workspace">
+          <aside class="search-panel">
+            <form id="recommendForm">
+              <div class="section-heading">
+                <span>01</span>
+                <div><h2>Your brief</h2><p>Hard needs first, preferences second.</p></div>
+              </div>
+
+              <label for="query">Describe what matters</label>
+              <textarea
+                id="query"
+                rows="4"
+                placeholder="A spacious 4-room flat under 650k, preferably in Tampines and close to MRT…"
+              ></textarea>
+              <button id="sampleButton" class="text-button" type="button">Use an example brief</button>
+
+              <div class="field-grid">
+                <div>
+                  <label for="budget">Maximum budget (S$)</label>
+                  <input id="budget" type="number" min="100000" step="10000" placeholder="650000" />
+                </div>
+                <div>
+                  <label for="topK">Results</label>
+                  <select id="topK">
+                    <option value="5">Top 5</option>
+                    <option value="8" selected>Top 8</option>
+                    <option value="10">Top 10</option>
+                  </select>
+                </div>
+              </div>
+
+              <fieldset>
+                <legend>Flat type</legend>
+                <div class="choice-row" id="flatTypes">
+                  <label class="choice"><input type="checkbox" value="3 ROOM" /><span>3-room</span></label>
+                  <label class="choice"><input type="checkbox" value="4 ROOM" /><span>4-room</span></label>
+                  <label class="choice"><input type="checkbox" value="5 ROOM" /><span>5-room</span></label>
+                  <label class="choice"><input type="checkbox" value="EXECUTIVE" /><span>Executive</span></label>
+                </div>
+              </fieldset>
+
+              <label for="towns">Preferred towns <small>optional, comma-separated</small></label>
+              <input id="towns" list="townList" placeholder="e.g. Tampines, Bedok" />
+              <datalist id="townList"></datalist>
+
+              <details class="advanced">
+                <summary>Adjust priorities</summary>
+                <div class="sliders">
+                  <label>Affordability <output id="affordabilityValue">32</output></label>
+                  <input id="affordability" type="range" min="0" max="100" value="32" />
+                  <label>Space <output id="spaceValue">18</output></label>
+                  <input id="space" type="range" min="0" max="100" value="18" />
+                  <label>Remaining lease <output id="leaseValue">13</output></label>
+                  <input id="lease" type="range" min="0" max="100" value="13" />
+                  <label>Preferred town <output id="locationValue">15</output></label>
+                  <input id="location" type="range" min="0" max="100" value="15" />
+                  <label>Transit <output id="transitValue">12</output></label>
+                  <input id="transit" type="range" min="0" max="100" value="12" />
+                  <label>Amenities <output id="amenitiesValue">6</output></label>
+                  <input id="amenities" type="range" min="0" max="100" value="6" />
+                  <label>Market evidence <output id="marketValue">4</output></label>
+                  <input id="market" type="range" min="0" max="100" value="4" />
+                </div>
+              </details>
+
+              <label id="llmOption" class="toggle-row">
+                <input id="useLlm" type="checkbox" />
+                <span><strong>AI intent extraction</strong><small>Optional; API response storage disabled; provider safety logs may still apply</small></span>
+              </label>
+
+              <button id="submitButton" class="primary-button" type="submit">
+                Find evidence-backed options <span aria-hidden="true">→</span>
+              </button>
+            </form>
+          </aside>
+
+          <section class="results-panel" aria-live="polite">
+            <div id="introState" class="intro-state">
+              <div class="orbital" aria-hidden="true"><span></span><span></span><span></span></div>
+              <p class="eyebrow">TRANSPARENT BY DESIGN</p>
+              <h2>Not a black box.</h2>
+              <p>
+                Hard constraints are never relaxed silently. Every result carries its observed
+                price range, transaction count, score breakdown and missing-data flags.
+              </p>
+              <div class="principles">
+                <article><b>01</b><span>Filter</span><small>Budget &amp; flat type</small></article>
+                <article><b>02</b><span>Compare</span><small>Multiple objectives</small></article>
+                <article><b>03</b><span>Explain</span><small>Traceable evidence</small></article>
+              </div>
+            </div>
+            <div id="loadingState" class="loading-state hidden">
+              <div class="loader"></div><h2>Comparing trade-offs…</h2>
+              <p>Applying hard constraints and ranking available evidence.</p>
+            </div>
+            <div id="resultsState" class="hidden">
+              <div class="results-header">
+                <div><p class="eyebrow">YOUR SHORTLIST</p><h2 id="resultsTitle">Best-fitting options</h2></div>
+                <p id="resultCount"></p>
+              </div>
+              <div id="warningBox"></div>
+              <div id="modelContext" class="model-context hidden"></div>
+              <div id="cards" class="cards"></div>
+              <p id="disclaimer" class="disclaimer"></p>
+            </div>
+          </section>
+        </section>
+      </main>
+
+      <footer>
+        <span>HomeLens SG · Web Mining Project</span>
+        <span>Historical evidence, not live listings or financial advice.</span>
+      </footer>
+    </div>
+    <script src="/app.js" defer></script>
+  </body>
+</html>

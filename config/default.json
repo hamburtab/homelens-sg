@@ -1,0 +1,24 @@
+{
+  "hdb_dataset_id": "d_8b84c4ee58e3cfc0ece0d773c8ca6abc",
+  "download_page_size": 5000,
+  "candidate_lookback_months": 24,
+  "minimum_transactions_per_candidate": 3,
+  "test_months": 6,
+  "random_seed": 42,
+  "default_top_k": 8,
+  "official_geospatial_layers": {
+    "bus_stops": "d_3f172c6feb3f4f92a2f47d93eed2908a",
+    "mrt_exits": "d_b39d3a0871985372d7e1637193335da5",
+    "hawker_centres": "d_4a086da0a5553be1d89383cd90d07ecd",
+    "parks": "d_0542d48f0991541706b58059381a6eca"
+  },
+  "default_weights": {
+    "affordability": 0.32,
+    "space": 0.18,
+    "lease": 0.13,
+    "location": 0.15,
+    "transit": 0.12,
+    "amenities": 0.06,
+    "market_activity": 0.04
+  }
+}
