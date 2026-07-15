@@ -136,24 +136,7 @@ python3 -m pip install -e .
 
 ### 3.2 网页测试
 
-```bash
-python3 scripts/serve.py --port 8000
-```
 
-浏览器打开：
-
-```text
-http://127.0.0.1:8000
-```
-
-建议测试：
-
-| 输入 | 预期结果 |
-| --- | --- |
-| `A spacious 4-room flat under 650k, preferably in Tampines` | 正常返回推荐并提高面积和区域权重 |
-| `预算65万以内，想要四房，最好在Tampines` | 能识别中文预算、房型和区域 |
-| `4-room under 100k` | 没有精确结果，不会偷偷放宽预算 |
-| `4-room under 650k, within 800m of MRT` | 提示目前没有OneMap坐标，无法验证MRT距离 |
 
 按 `Ctrl+C` 停止服务器。
 
@@ -161,9 +144,9 @@ http://127.0.0.1:8000
 
 暂时没有
 
-## 4. 从GitHub克隆后怎么测试
+## 4. 测试
 
-仓库已经包含候选知识库、完整处理后数据、随机森林模型、指标和图表。小组成员可以直接运行：
+仓库已经包含候选知识库、完整处理后数据、随机森林模型、指标和图表。可以直接运行：
 
 ```bash
 git clone https://github.com/hamburtab/homelens-sg.git
@@ -175,6 +158,15 @@ python3 scripts/serve.py --port 8000
 
 然后打开 `http://127.0.0.1:8000`。
 
+建议测试：
+
+| 输入 | 预期结果 |
+| --- | --- |
+| `A spacious 4-room flat under 650k, preferably in Tampines` | 正常返回推荐并提高面积和区域权重 |
+| `预算65万以内，想要四房，最好在Tampines` | 能识别中文预算、房型和区域 |
+| `4-room under 100k` | 没有精确结果，不会偷偷放宽预算 |
+| `4-room under 650k, within 800m of MRT` | 提示目前没有OneMap坐标，无法验证MRT距离 |
+
 下面的命令只在需要下载最新数据并重新生成研究结果时运行：
 
 ```bash
@@ -183,5 +175,3 @@ python3 scripts/download_layers.py
 python3 scripts/train_model.py --trees 80
 python3 scripts/explore_data.py
 ```
-
-重新生成流程需要网络，并且下载和训练会花费一些时间。
