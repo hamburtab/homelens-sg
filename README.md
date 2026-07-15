@@ -1,5 +1,3 @@
-# HomeLens SG
-
 用户输入预算、房型、区域、面积等需求后，系统会先筛选满足硬条件的候选，再进行综合排名，并说明推荐理由。
 
 ## 1. 已实现的
@@ -165,17 +163,19 @@ http://127.0.0.1:8000
 
 ## 4. 从GitHub克隆后怎么测试
 
-大型原始数据、处理后CSV和模型文件不会上传到GitHub。小组成员刚克隆项目时，可以先用离线小数据测试：
+仓库已经包含候选知识库、完整处理后数据、随机森林模型、指标和图表。小组成员可以直接运行：
 
 ```bash
+git clone https://github.com/hamburtab/homelens-sg.git
+cd homelens-sg
 python3 -m pip install -e .
-python3 scripts/build_dataset.py --fixture
-python3 scripts/train_model.py --trees 12
 python3 -m unittest discover -s tests -v
 python3 scripts/serve.py --port 8000
 ```
 
-如果需要重新生成完整数据和研究结果：
+然后打开 `http://127.0.0.1:8000`。
+
+下面的命令只在需要下载最新数据并重新生成研究结果时运行：
 
 ```bash
 python3 scripts/build_dataset.py
@@ -184,4 +184,4 @@ python3 scripts/train_model.py --trees 80
 python3 scripts/explore_data.py
 ```
 
-完整流程需要网络，并且下载和训练会花费一些时间。
+重新生成流程需要网络，并且下载和训练会花费一些时间。

@@ -1,0 +1,14 @@
+{
+  "initial_rows": 235356,
+  "duplicate_rows_removed": 0,
+  "suspected_identical_rows_retained": 631,
+  "duplicate_policy": "retain identical field rows because the complete CSV has no transaction ID",
+  "missing_required_rows_removed": 0,
+  "implausible_rows_removed": 1,
+  "clean_rows": 235355,
+  "retained_fraction": 0.9999957511174561,
+  "minimum_month": "2017-01-01T00:00:00",
+  "maximum_month": "2026-07-01T00:00:00",
+  "town_count": 26,
+  "flat_type_count": 7
+}

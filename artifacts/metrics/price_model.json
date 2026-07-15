@@ -1,0 +1,52 @@
+{
+  "experiment": "chronological HDB resale-price holdout",
+  "feature_columns": [
+    "town",
+    "flat_type",
+    "flat_model",
+    "storey_range",
+    "floor_area_sqm",
+    "remaining_lease_years",
+    "storey_mid",
+    "month_index"
+  ],
+  "categorical_features": [
+    "town",
+    "flat_type",
+    "flat_model",
+    "storey_range"
+  ],
+  "numeric_features": [
+    "floor_area_sqm",
+    "remaining_lease_years",
+    "storey_mid",
+    "month_index"
+  ],
+  "target": "resale_price",
+  "training_rows": 222066,
+  "test_rows": 12243,
+  "training_start_month": "2017-01-01T00:00:00",
+  "training_end_month": "2025-12-01T00:00:00",
+  "test_start_month": "2026-01-01T00:00:00",
+  "test_end_month": "2026-06-01T00:00:00",
+  "cutoff_month": "2026-01-01T00:00:00",
+  "test_months": 6,
+  "source_latest_month": "2026-07-01T00:00:00",
+  "source_latest_month_was_partial_and_excluded": true,
+  "partial_month_rows_excluded": 1046,
+  "random_seed": 42,
+  "n_estimators": 80,
+  "baseline": {
+    "mae": 157422.12148329656,
+    "rmse": 197774.76938938437,
+    "mape_percent": 21.91627727726857,
+    "r2": 0.14387675144992373
+  },
+  "random_forest": {
+    "mae": 39685.86738409514,
+    "rmse": 57453.844057906266,
+    "mape_percent": 5.904847564039549,
+    "r2": 0.9277508570378106
+  },
+  "mae_improvement_over_baseline_percent": 74.79015845412422
+}

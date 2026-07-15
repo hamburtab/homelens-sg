@@ -1,0 +1,24 @@
+{
+  "candidate_unit": "town + block + street + flat_type",
+  "lookback_months": 24,
+  "minimum_transactions": 3,
+  "observation_cutoff": "2024-07-01T00:00:00",
+  "latest_observation_month": "2026-06-01T00:00:00",
+  "source_latest_month": "2026-07-01T00:00:00",
+  "source_latest_month_was_partial_and_excluded": true,
+  "partial_month_rows_excluded": 1046,
+  "input_transaction_rows": 235355,
+  "recent_transaction_rows": 51338,
+  "candidate_rows": 7730,
+  "town_count": 26,
+  "flat_type_count": 6,
+  "optional_enrichment_columns": [
+    "latitude",
+    "longitude",
+    "nearest_mrt_name",
+    "nearest_mrt_distance_m",
+    "bus_stops_500m",
+    "amenities_1km",
+    "nearest_park_distance_m"
+  ]
+}

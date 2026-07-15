@@ -1,0 +1,27 @@
+{
+  "source": "data.gov.sg — Resale Flat Prices (Based on Registration Date), From Jan 2017",
+  "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8b84c4ee58e3cfc0ece0d773c8ca6abc",
+  "dataset_id": "d_8b84c4ee58e3cfc0ece0d773c8ca6abc",
+  "downloaded_at_utc": "2026-07-14T09:13:49.266030+00:00",
+  "snapshot_path": "data/raw/hdb_resale_20260714T091349Z.csv",
+  "sha256": "aae78e9e1ac02a276fe2a2c860e15640b14336c611eab395908118747d397bda",
+  "rows_downloaded": 235356,
+  "source_total_rows": 235356,
+  "is_complete_snapshot": true,
+  "requested_max_records": null,
+  "fields": [
+    "month",
+    "town",
+    "flat_type",
+    "block",
+    "street_name",
+    "storey_range",
+    "floor_area_sqm",
+    "flat_model",
+    "lease_commence_date",
+    "remaining_lease",
+    "resale_price"
+  ],
+  "minimum_month": "2017-01",
+  "maximum_month": "2026-07"
+}

@@ -1,0 +1,27 @@
+{
+  "01_monthly_price_trend.png": {
+    "question": "How have typical prices moved over time for common flat types?",
+    "family": "trend / highlighted multi-series line",
+    "takeaway_scope": "shape and divergence over 115+ monthly observations"
+  },
+  "02_town_price_per_sqm.png": {
+    "question": "Which towns have the highest recent four-room price per sqm?",
+    "family": "comparison / ranked horizontal bar",
+    "takeaway_scope": "descriptive town comparison with transaction counts"
+  },
+  "03_price_distribution.png": {
+    "question": "How do recent price levels and spreads differ by flat type?",
+    "family": "distribution / horizontal box plot",
+    "takeaway_scope": "median and interquartile spread; outlier points hidden"
+  },
+  "04_candidate_tradeoffs.png": {
+    "question": "What price, space and lease trade-offs exist among candidates?",
+    "family": "relationship / scatter",
+    "takeaway_scope": "block + flat-type grain with volume context"
+  },
+  "05_model_comparison.png": {
+    "question": "Does the learned model improve on the historical-median baseline?",
+    "family": "comparison / grouped bar",
+    "takeaway_scope": "MAE and RMSE on a chronological holdout"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "source": "data.gov.sg HDB resale transactions",
+  "transaction_rows": 235355,
+  "analysis_transaction_rows": 234309,
+  "candidate_rows": 7730,
+  "minimum_month": "2017-01-01T00:00:00",
+  "maximum_month": "2026-07-01T00:00:00",
+  "analysis_maximum_month": "2026-06-01T00:00:00",
+  "latest_month_is_partial": true,
+  "partial_month_rows_excluded_from_analysis": 1046,
+  "recent_window_start": "2024-07-01T00:00:00",
+  "recent_window_rows": 51338,
+  "latest_complete_12m_start": "2025-07-01T00:00:00",
+  "latest_complete_12m_end": "2026-06-01T00:00:00",
+  "median_price_change_vs_previous_12m_percent": {
+    "1 ROOM": 1.4671698113207565,
+    "2 ROOM": 4.748603351955305,
+    "3 ROOM": 2.298850574712641,
+    "4 ROOM": 1.9417475728155331,
+    "5 ROOM": 3.064066852367686,
+    "EXECUTIVE": 3.409090909090917,
+    "MULTI-GENERATION": 0.09099181073703999
+  },
+  "charts": {
+    "monthly_price_trend": {
+      "temporal_points": 114,
+      "series": [
+        "3 ROOM",
+        "4 ROOM",
+        "5 ROOM"
+      ]
+    },
+    "town_price_per_sqm": {
+      "towns": 15,
+      "highest_town": "CENTRAL AREA",
+      "highest_median_price_per_sqm": 12698.252688172044
+    },
+    "price_distribution": {
+      "observations": 51338,
+      "flat_types": [
+        "2 ROOM",
+        "3 ROOM",
+        "4 ROOM",
+        "5 ROOM",
+        "EXECUTIVE",
+        "MULTI-GENERATION"
+      ]
+    },
+    "candidate_tradeoffs": {
+      "candidate_points": 7730,
+      "grain": "block + flat type"
+    },
+    "model_comparison": {
+      "baseline_mae": 157422.12148329656,
+      "random_forest_mae": 39685.86738409514,
+      "mae_improvement_percent": 74.79015845412422
+    }
+  }
+}
