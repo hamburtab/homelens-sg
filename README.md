@@ -136,31 +136,7 @@ cd homelens-sg
 python3 -m pip install -e .
 ```
 
-### 3.2 自动化测试
-
-```bash
-python3 -m unittest discover -s tests -v
-```
-
-预期看到：
-
-```text
-Ran 36 tests
-OK
-```
-
-如果运行环境禁止本地端口，HTTP测试可能显示一次 `skipped`，其他测试仍应通过。
-
-### 3.3 命令行推荐
-
-```bash
-python3 scripts/run_demo.py \
-  --query "I want a spacious 4-room flat under 650k, preferably in Tampines" \
-  --budget 650000 \
-  --top-k 5
-```
-
-### 3.4 网页测试
+### 3.2 网页测试
 
 ```bash
 python3 scripts/serve.py --port 8000
@@ -183,32 +159,9 @@ http://127.0.0.1:8000
 
 按 `Ctrl+C` 停止服务器。
 
-### 3.5 API测试
+### 3.3 API测试
 
-服务器运行时，在另一个终端执行：
-
-```bash
-curl http://127.0.0.1:8000/api/health | python3 -m json.tool
-```
-
-```bash
-curl -X POST http://127.0.0.1:8000/api/recommend \
-  -H "Content-Type: application/json" \
-  -d '{
-    "query": "预算65万以内，想要四房，最好在Tampines",
-    "top_k": 5
-  }' | python3 -m json.tool
-```
-
-查看模型指标和图表：
-
-```bash
-python3 -m json.tool artifacts/metrics/price_model.json
-```
-
-```text
-artifacts/figures/
-```
+暂时没有
 
 ## 4. 从GitHub克隆后怎么测试
 
@@ -232,46 +185,3 @@ python3 scripts/explore_data.py
 ```
 
 完整流程需要网络，并且下载和训练会花费一些时间。
-
-## 5. 后续连接OneMap
-
-不要把API Key发到群聊或提交到GitHub。
-
-```bash
-cp .env.example .env
-```
-
-在 `.env` 中填写 OneMap Token，或者填写 OneMap邮箱和密码。建议先测试20个地址：
-
-```bash
-python3 scripts/enrich_geospatial.py --limit 20
-```
-
-确认地址匹配正常后再运行全部地址：
-
-```bash
-python3 scripts/enrich_geospatial.py
-```
-
-## 6. 主要目录
-
-```text
-src/homelens/        核心代码
-scripts/             数据、训练和运行脚本
-tests/               自动化测试
-data/                原始与处理后数据
-artifacts/           模型、指标和图表
-docs/                项目提案和方法说明
-.env.example         API配置模板
-```
-
-更完整的说明在：
-
-- `docs/PROJECT_PROPOSAL.md`
-- `docs/METHODOLOGY.md`
-- `docs/DATA_SOURCES.md`
-- `docs/ARCHITECTURE.md`
-
-## 一句话总结
-
-我们已经完成了HDB数据处理、知识库、中英文规则解析、硬条件筛选、多条件推荐、随机森林参考价格、网页、API、EDA和自动测试；OneMap地理增强、任意地点附近找房、实时交通、实时房源、大模型解析和人工评价仍需后续完成。
