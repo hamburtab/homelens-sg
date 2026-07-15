@@ -2,8 +2,6 @@
 
 用户输入预算、房型、区域、面积等需求后，系统会先筛选满足硬条件的候选，再进行综合排名，并说明推荐理由。
 
-> 当前推荐的是根据历史成交数据整理出的“代表性楼栋＋房型”，不是实时在售房源，也不是正式估值。
-
 ## 1. 已实现的
 
 ### 1.1 数据下载、清洗和知识库
@@ -134,7 +132,7 @@ I want a spacious 4-room flat under 650k, preferably in Tampines.
 ### 3.1 安装
 
 ```bash
-cd "/Users/tab/Documents/2026NUS/Web mining/homelens-sg"
+cd homelens-sg
 python3 -m pip install -e .
 ```
 
