@@ -1,0 +1,5215 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-16T04:16:29Z",
+    "timestamp_areas_base": "2026-05-12T07:36:16Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1314763925,
+      "lat": 1.3130252,
+      "lon": 103.9390816,
+      "tags": {
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1953986198,
+      "lat": 1.385469,
+      "lon": 103.94342,
+      "tags": {
+        "addr:country": "SG",
+        "addr:housename": "Water-Venture Pasir Ris",
+        "addr:housenumber": "125",
+        "addr:postcode": "519926",
+        "addr:street": "Elias Road",
+        "alt_name": "Water-Venture Pasir Ris",
+        "fixme": "should probably have more specific tagging of sports",
+        "leisure": "sports_centre",
+        "name": "PA Water-Venture Pasir Ris",
+        "name:zh": "巴西立 百盛亲水天地"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1954018992,
+      "lat": 1.303371,
+      "lon": 103.868015,
+      "tags": {
+        "addr:country": "SG",
+        "addr:housename": "Water-Venture Kallang",
+        "addr:housenumber": "4876",
+        "addr:postcode": "119587",
+        "addr:street": "Beach Road",
+        "fixme": "should probably have more specific tagging of sports",
+        "leisure": "sports_centre",
+        "name": "PA Water-Venture Kallang"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1954034607,
+      "lat": 1.459562,
+      "lon": 103.843461,
+      "tags": {
+        "addr:country": "SG",
+        "addr:housename": "Water-Venture Sembawang",
+        "addr:housenumber": "57",
+        "addr:postcode": "759057",
+        "addr:street": "Jalan Mempurong",
+        "alt_name": "Water-Venture Sembawang",
+        "building": "yes",
+        "fixme": "should probably have more specific tagging of sports",
+        "leisure": "sports_centre",
+        "name": "PA Water-Venture Sembawang"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1954039722,
+      "lat": 1.4105438,
+      "lon": 103.8437231,
+      "tags": {
+        "addr:country": "SG",
+        "addr:housename": "Water-Venture Lower Seletar Reservoir",
+        "addr:place": "Lower Seletar Reservoir Park",
+        "addr:postcode": "769130",
+        "alt_name": "Water-Venture Lower Seletar Reservoir",
+        "building": "yes",
+        "fixme": "should probably have more specific tagging of sports",
+        "leisure": "sports_centre",
+        "name": "PA Water-Venture Lower Seletar Reservoir"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3121115892,
+      "lat": 1.3213756,
+      "lon": 103.7469046,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Playlor! Arena"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3633792260,
+      "lat": 1.3015997,
+      "lon": 103.8731747,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Shimano Cycling World",
+        "sport": "cycling",
+        "website": "https://shimanocyclingworld.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3664212199,
+      "lat": 1.3104737,
+      "lon": 103.8578323,
+      "tags": {
+        "access": "private",
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3670493655,
+      "lat": 1.3077112,
+      "lon": 103.7726272,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Multi Purpose Hall",
+        "name:zh": "多功能礼堂"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3937136100,
+      "lat": 1.3058338,
+      "lon": 103.8789075,
+      "tags": {
+        "leisure": "sports_centre",
+        "lit": "yes",
+        "name": "Kallang Squash & Tennis Centre",
+        "sport": "tennis",
+        "surface": "hardcourt",
+        "wikidata": "Q4042046",
+        "wikipedia": "en:Kallang Tennis Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4483878495,
+      "lat": 1.2989185,
+      "lon": 103.853792,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Pool Fusion",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621781797,
+      "lat": 1.3198407,
+      "lon": 103.826727,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Blade Fencing Club"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4702468242,
+      "lat": 1.3060755,
+      "lon": 103.9047812,
+      "tags": {
+        "addr:street": "Joo Chiat Road",
+        "leisure": "sports_centre",
+        "name": "JH Kim Taekwondo Spingapore",
+        "source": "Kaart Ground Survey 2017",
+        "sport": "taekwondo",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4703885617,
+      "lat": 1.3078049,
+      "lon": 103.9038117,
+      "tags": {
+        "addr:street": "Joo Chiat Road",
+        "leisure": "sports_centre",
+        "name": "Spartans Boxing Club",
+        "source": "Kaart Ground Survey 2017",
+        "sport": "boxing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4734935251,
+      "lat": 1.3406949,
+      "lon": 103.7726526,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "102",
+        "addr:street": "Jalan Jurong Kechil",
+        "check_date": "2025-04-13",
+        "contact:facebook": "https://www.facebook.com/marsdenswimschoolsg/",
+        "contact:instagram": "https://www.instagram.com/marsdenswimschool",
+        "leisure": "sports_centre",
+        "name": "Marsden Swim School",
+        "opening_hours": "10:00-18:00",
+        "operator:type": "private",
+        "phone": "+65 6015 0637",
+        "sport": "swimming",
+        "website": "https://marsdenswimschool.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4839369206,
+      "lat": 1.4434561,
+      "lon": 103.8244366,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4839369366,
+      "lat": 1.4429889,
+      "lon": 103.8245003,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4911838149,
+      "lat": 1.2982127,
+      "lon": 103.8379334,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Muve"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4971980521,
+      "lat": 1.3444606,
+      "lon": 103.8350161,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Singapore Canoe Federation"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5283985423,
+      "lat": 1.322153,
+      "lon": 103.940179,
+      "tags": {
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5339090521,
+      "lat": 1.3146164,
+      "lon": 103.8573717,
+      "tags": {
+        "addr:housenumber": "511",
+        "addr:postcode": "218153",
+        "addr:street": "Serangoon Road",
+        "air_conditioning": "no",
+        "climbing:boulder": "yes",
+        "climbing:toprope": "4",
+        "indoor": "yes",
+        "leisure": "sports_centre",
+        "name": "Kinetics Climbing",
+        "name:de": "Kletterhalle Kinetics",
+        "opening_hours": "Mo 16:00-22:00; Tu-Fr 13:00-22:00; Sa-Su,PH 10:00-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:grabpay": "yes",
+        "payment:nets": "yes",
+        "payment:paylah": "yes",
+        "phone": "+6562915045",
+        "sport": "climbing",
+        "survey:date": "2021-08-13",
+        "website": "https://www.kineticsclimbing.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5339102122,
+      "lat": 1.3160066,
+      "lon": 103.8560632,
+      "tags": {
+        "addr:housenumber": "60",
+        "addr:postcode": "217664",
+        "addr:street": "Tessensohn Road",
+        "climbing:boulder": "yes",
+        "climbing:sport": "yes",
+        "climbing:toprope": "yes",
+        "fee": "yes",
+        "indoor": "yes",
+        "leisure": "sports_centre",
+        "level": "2",
+        "name": "Ground Up",
+        "opening_hours": "Mo 17:00-23:00; Tu-Th 12:00-23:00; Fr 12:00-22:30; Sa, Su, PH 10:00-21:00",
+        "outdoor": "yes",
+        "phone": "+6562927701",
+        "sport": "climbing",
+        "website": "https://www.groundupsg.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5419475636,
+      "lat": 1.3027842,
+      "lon": 103.8734095,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Kallang Wave Mall",
+        "addr:housenumber": "1",
+        "addr:postcode": "397628",
+        "addr:street": "Stadium Place",
+        "addr:unit": "#B1-01",
+        "email": "info@climbcentral.sg",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "level": "-1",
+        "name": "Climb Central",
+        "opening_hours": "Mo-Fr 11:00-23:00; Sa-Su 09:00-21:00",
+        "operator": "Climb Central",
+        "operator:type": "private",
+        "phone": "+65 67027972",
+        "sport": "climbing",
+        "website": "https://climbcentral.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5451045406,
+      "lat": 1.3239118,
+      "lon": 103.9217641,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Gorilla Climbing Gym",
+        "name:de": "Kletterhalle Gorilla",
+        "sport": "climbing",
+        "website": "https://gorillaclimbing.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5813931536,
+      "lat": 1.3538198,
+      "lon": 103.9400726,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "1",
+        "addr:level": "1",
+        "addr:postcode": "528523",
+        "addr:street": "Tampines Walk",
+        "addr:unit": "81",
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "BFF Climb",
+        "operator": "BFF Climb",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5909036326,
+      "lat": 1.3967204,
+      "lon": 103.8859557,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Water Sports Centre @ Anchorvale"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5923848605,
+      "lat": 1.2772792,
+      "lon": 103.8486231,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "6A",
+        "addr:postcode": "068815",
+        "addr:street": "Shenton Way",
+        "leisure": "sports_centre",
+        "level": "#B1-03",
+        "name": "Boulder Movement",
+        "name:de": "Kletterhalle Boulder Movement",
+        "phone": "+65 6817 8340",
+        "sport": "climbing",
+        "website": "https://www.boulderm.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5923855321,
+      "lat": 1.3097138,
+      "lon": 103.8638367,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:floor": "3",
+        "addr:housename": "The Aperia Mall",
+        "addr:housenumber": "12",
+        "addr:postcode": "339511",
+        "addr:street": "Kallang Avenue",
+        "addr:unit": "#03-17",
+        "check_date": "2023-07-28",
+        "climbing:boulder": "yes",
+        "climbing:toprope": "no",
+        "contact:facebook": "https://www.facebook.com/boulderplusclimbing",
+        "contact:instagram": "https://www.instagram.com/boulder_plus",
+        "email": "contact@boulderplusclimbing.com",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "level": "2",
+        "name": "Boulder+",
+        "name:de": "Kletterhalle Boulder+",
+        "opening_hours": "Mo 12:00-20:30;Tu 07:30-20:30;We 10:00-20:30;Th 07:30-20:30;Fr 10:00-20:30;Sa-Su 09:00-20:00",
+        "operator": "Boulder+",
+        "operator:type": "private",
+        "phone": "+65 6282 7530",
+        "sport": "climbing",
+        "website": "https://www.boulderplusclimbing.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6185890987,
+      "lat": 1.3419001,
+      "lon": 103.9319154,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "MOE Water Sports Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6185890989,
+      "lat": 1.3425299,
+      "lon": 103.9305342,
+      "tags": {
+        "email": "info@forestadventure.com.sg",
+        "leisure": "sports_centre",
+        "name": "Forest Adventure",
+        "opening_hours": "Tu-Su,PH 09:30-18:30; Mo off",
+        "phone": "+65 8100 7420",
+        "website": "https://www.forestadventure.com.sg/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6356102177,
+      "lat": 1.3010851,
+      "lon": 103.8358928,
+      "tags": {
+        "leisure": "sports_centre",
+        "level": "2",
+        "name": "Equilibrium Mixed Martial Arts",
+        "sport": "martial_arts"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6356102183,
+      "lat": 1.3010822,
+      "lon": 103.8357798,
+      "tags": {
+        "description": "specializes in augmented reality sports games",
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "Hado Singapore"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6499063517,
+      "lat": 1.3854064,
+      "lon": 103.8727742,
+      "tags": {
+        "addr:housenumber": "28",
+        "addr:postcode": "808446",
+        "addr:street": "Jalan Selaseh",
+        "contact:email": "selaseh@littlesplashes.com.sg",
+        "description": "Heated Swimming Pool",
+        "leisure": "sports_centre",
+        "name": "Little Splashes",
+        "opening_hours": "Mo-Su 09:30-18:30; We off; Fr off",
+        "phone": "+65 6219 2555",
+        "sport": "swimming",
+        "website": "https://www.littlesplashes.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6499063739,
+      "lat": 1.3600544,
+      "lon": 103.8598217,
+      "tags": {
+        "addr:housenumber": "45 #01-07",
+        "addr:street": "Burghley Drive",
+        "description": "Indoor heated pool",
+        "leisure": "sports_centre",
+        "name": "Aquabambinos Swimming School",
+        "opening_hours": "Mo 15:30-19:30; Tu-Fr 09:00-12:00, 15:30-19:30, 09:00-18:00; Sa, Su 09:00-19:00",
+        "phone": "+65 6487 3225",
+        "sport": "swimming",
+        "website": "http://www.aquabambinos.com.sg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6499063744,
+      "lat": 1.4025773,
+      "lon": 103.8704076,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Aquabambinos Swim School",
+        "phone": "+65 9021 9965",
+        "sport": "swimming",
+        "website": "http://www.aquabambinos.com.sg/contact-us/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6510975848,
+      "lat": 1.2908564,
+      "lon": 103.8568797,
+      "tags": {
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "Modern Fencing",
+        "sport": "fencing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6566042605,
+      "lat": 1.4295105,
+      "lon": 103.782486,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:postcode": "738209",
+        "addr:street": "Woodgrove Drive",
+        "building": "residential",
+        "leisure": "sports_centre",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6583281553,
+      "lat": 1.29141,
+      "lon": 103.8498818,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Funan Singapore",
+        "addr:housenumber": "107",
+        "addr:postcode": "179105",
+        "addr:street": "North Bridge Road",
+        "addr:unit": "#B2-19/21",
+        "check_date": "2025-12-15",
+        "climbing": "indoor",
+        "email": "info@climbcentral.sg",
+        "leisure": "sports_centre",
+        "level": "-2",
+        "name": "Climb Central",
+        "opening_hours": "Mo-Fr 11:00-23:00; Sa-Su 09:00-21:00",
+        "operator": "Climb Central",
+        "operator:type": "private",
+        "phone": "+65 69063918",
+        "sport": "climbing",
+        "website": "https://climbcentral.sg/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6665235799,
+      "lat": 1.3071866,
+      "lon": 103.8468709,
+      "tags": {
+        "access": "customers",
+        "addr:housenumber": "148",
+        "addr:street": "MacKenzie Road",
+        "air_conditioning": "yes",
+        "charge": "18 SGD",
+        "check_date": "2024-04-16",
+        "climbing:boulder": "yes",
+        "climbing:speed": "no",
+        "climbing:sport": "no",
+        "climbing:toprope": "no",
+        "climbing:traditional": "no",
+        "description": "Indoor Climbing Gym",
+        "fee": "yes",
+        "indoor": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "leisure": "sports_centre",
+        "name": "Oyeyo Boulder Home",
+        "opening_hours": "Mo-Fr 13:00-22:00; Sa, Su, PH 10:00-19:00",
+        "operator:type": "private",
+        "phone": "+65 6996 2095",
+        "shower": "yes",
+        "sport": "climbing",
+        "website": "https://www.facebook.com/oyeyoboulderhome/about/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6749840690,
+      "lat": 1.2878252,
+      "lon": 103.7905355,
+      "tags": {
+        "access": "customers",
+        "addr:floor": "3",
+        "addr:housenumber": "87",
+        "addr:street": "Science Park Drive",
+        "addr:unit": "#03-03",
+        "check_date": "2024-04-13",
+        "climbing:boulder": "yes",
+        "climbing:sport": "no",
+        "climbing:toprope": "no",
+        "fee": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "leisure": "sports_centre",
+        "level": "2",
+        "name": "Fit · Bloc",
+        "opening_hours": "Mo-Fr 10:00-23:00; Sa, Su,PH 10:00-21:00",
+        "operator:type": "private",
+        "phone": "+65 6612 2046",
+        "sport": "climbing;fitness",
+        "website": "https://fitbloc.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938823539,
+      "lat": 1.3050192,
+      "lon": 103.7720031,
+      "tags": {
+        "leisure": "sports_centre",
+        "level": "0",
+        "name": "UT Sports Hall 2",
+        "name:zh": "大学城2号体育馆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6938823541,
+      "lat": 1.3051115,
+      "lon": 103.7720157,
+      "tags": {
+        "leisure": "sports_centre",
+        "level": "0",
+        "name": "UT Sports Hall 1",
+        "name:zh": "大学城1号体育馆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7049680860,
+      "lat": 1.3204058,
+      "lon": 103.8437628,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Novena Square",
+        "addr:housenumber": "238",
+        "addr:postcode": "307683",
+        "addr:street": "Thomson Road",
+        "addr:unit": "23/25",
+        "branch": "Novena",
+        "brand": "Climb Central",
+        "climbing:boulder": "yes",
+        "climbing:toprope": "yes",
+        "email": "info@climbcentral.sg",
+        "indoor": "yes",
+        "leisure": "sports_centre",
+        "level": "3",
+        "name": "Climb Central",
+        "opening_hours": "Mo-Fr 11:00-23:00; Sa-Su 09:00-21:00",
+        "operator": "Climb Central",
+        "phone": "+65 6353 6885",
+        "sport": "climbing",
+        "website": "https://climbcentral.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7096022514,
+      "lat": 1.301607,
+      "lon": 103.8115793,
+      "tags": {
+        "addr:housenumber": "72",
+        "addr:postcode": "248848",
+        "addr:street": "Loewen Road",
+        "addr:unit": "#01-08",
+        "description": "Swimming lessons",
+        "facebook": "https://www.facebook.com/swishswimming",
+        "indoor": "yes",
+        "leisure": "sports_centre",
+        "name": "Swish Swimming",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "+65 98322522",
+        "sport": "swimming",
+        "website": "https://www.swishswimming.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100769681,
+      "lat": 1.304723,
+      "lon": 103.8620774,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Singapore",
+        "addr:housenumber": "464",
+        "addr:postcode": "190464",
+        "addr:street": "Crawford Lane",
+        "climbing:boulder": "yes",
+        "climbing:courses": "yes",
+        "climbing:toprope": "yes",
+        "contact:facebook": "https://www.facebook.com/outpostclimbing",
+        "contact:instagram": "https://www.instagram.com/outpostclimbing/",
+        "email": "hello@outpostclimbing.sg",
+        "leisure": "sports_centre",
+        "name": "Outpost Climbing",
+        "opening_hours": "Mo 17:00-22:00; Tu-Fr 10:00-22:00; Sa, Su, PH 10:00-20:00",
+        "phone": "+65 9832 7656",
+        "sport": "climbing",
+        "website": "https://www.outpostclimbing.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7263710682,
+      "lat": 1.3291444,
+      "lon": 103.8702674,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "judo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7288902865,
+      "lat": 1.3708125,
+      "lon": 103.8435558,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "128",
+        "addr:postcode": "560128",
+        "addr:street": "Ang Mo Kio Avenue 3",
+        "designation": "Badminton",
+        "leisure": "sports_centre",
+        "name": "E-link Sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7728515114,
+      "lat": 1.3516648,
+      "lon": 103.8353051,
+      "tags": {
+        "addr:street": "Upper Thomson Road",
+        "leisure": "sports_centre",
+        "name": "9Round",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7731068077,
+      "lat": 1.3432974,
+      "lon": 103.7759396,
+      "tags": {
+        "access": "customers",
+        "addr:housenumber": "170",
+        "addr:postcode": "588179",
+        "addr:street": "Upper Bukit Timah Road",
+        "addr:unit": "B2-20B",
+        "charge": "18 SGD",
+        "check_date": "2026-03-29",
+        "climbing:boulder": "yes",
+        "email": "zvertigobouldergym@gmail.com",
+        "facebook": "https://www.facebook.com/zvertigoboulder/",
+        "fee": "yes",
+        "indoor": "yes",
+        "instagram": "https://www.instagram.com/zvertigobouldergym/",
+        "leisure": "sports_centre",
+        "level": "-2",
+        "location": "Bukit Timah Shopping Centre",
+        "name": "Z-Vertigo",
+        "opening_hours": "Mo-Th 12:00-22:00; Fr 15:00-22:00; Sa-Su,PH 10:00-18:00",
+        "operator:type": "private",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "payment:paynow": "yes",
+        "sport": "climbing",
+        "website": "https://zvertigobouldergym.wixsite.com/zvert/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8229112483,
+      "lat": 1.2918779,
+      "lon": 103.7670054,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "2A",
+        "addr:postcode": "129803",
+        "addr:street": "Clementi Road",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "Salt & Light Archery @ West Coast",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+6584886424",
+        "sport": "archery",
+        "website": "https://www.slarchery.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8474529312,
+      "lat": 1.3942219,
+      "lon": 103.912735,
+      "tags": {
+        "fixme": "tag",
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "Jeong-In",
+        "sport": "taekwondo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8665003717,
+      "lat": 1.3061638,
+      "lon": 103.9347584,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1212",
+        "addr:postcode": "449886",
+        "addr:street": "East Coast Parkway",
+        "email": "info@alohaseasports.com.sg",
+        "leisure": "sports_centre",
+        "name": "Aloha Sea Sports Centre",
+        "name:zh": "阿罗哈水上运动中心",
+        "opening_hours": "Mo-Fr 09:00-17:30; Sa,Su,PH 08:00-18:30",
+        "phone": "+65 6241 9212",
+        "website": "http://www.alohaseasports.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9269072792,
+      "lat": 1.4169443,
+      "lon": 103.9022406,
+      "tags": {
+        "access": "customers",
+        "club": "sport",
+        "description": "Taekwondo training school",
+        "leisure": "sports_centre",
+        "level": "2",
+        "name": "Kickmatics Taekwondo",
+        "sport": "taekwondo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9574589610,
+      "lat": 1.300071,
+      "lon": 103.8491796,
+      "tags": {
+        "addr:unit": "11",
+        "description": "indoor skateboarding park and scholl",
+        "leisure": "sports_centre",
+        "level": "-1",
+        "name": "Por Vida Skateboarding",
+        "sport": "skateboard"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9621282309,
+      "lat": 1.3096765,
+      "lon": 103.8619152,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Fortitude"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9710870184,
+      "lat": 1.3053887,
+      "lon": 103.9049275,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "112",
+        "addr:postcode": "428802",
+        "addr:street": "East Coast Road",
+        "email": "info@climbcentral.sg",
+        "leisure": "sports_centre",
+        "level": "4",
+        "name": "Climb Central",
+        "operator": "Climb Central",
+        "sport": "climbing",
+        "unit": "01/02",
+        "website": "https://www.climbcentral.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9714409960,
+      "lat": 1.2740843,
+      "lon": 103.8037843,
+      "tags": {
+        "addr:housenumber": "991A",
+        "addr:postcode": "119969",
+        "addr:street": "Alexandra Road",
+        "leisure": "sports_centre",
+        "level": "2",
+        "name": "Boruda Climbing",
+        "sport": "climbing",
+        "website": "https://www.boruda.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9858416826,
+      "lat": 1.3123626,
+      "lon": 103.8627173,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "CT Hub",
+        "addr:housenumber": "2",
+        "addr:postcode": "339407",
+        "addr:street": "Kallang Avenue",
+        "addr:unit": "01-20",
+        "check_date": "2024-02-21",
+        "contact:whatsapp": "+6591196575",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "BFF Climb",
+        "opening_hours": "Mo-Su 09:30-22:45",
+        "operator": "BFF Climb",
+        "operator:type": "private",
+        "phone": "+6596494145",
+        "sport": "climbing",
+        "website": "https://bffclimb.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9942071348,
+      "lat": 1.3032211,
+      "lon": 103.8731757,
+      "tags": {
+        "leisure": "sports_centre",
+        "level": "0",
+        "name": "Gymkraft",
+        "sport": "gymnastics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9942071351,
+      "lat": 1.3031532,
+      "lon": 103.8731728,
+      "tags": {
+        "description": "indoor golf facility, also conducts lessons",
+        "leisure": "sports_centre",
+        "level": "0",
+        "name": "GolfWav",
+        "sport": "golf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10287172748,
+      "lat": 1.3229479,
+      "lon": 103.8119068,
+      "tags": {
+        "check_date": "2022-12-11",
+        "leisure": "sports_centre",
+        "name": "Happy Fish",
+        "sport": "swimming",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10702069363,
+      "lat": 1.2892982,
+      "lon": 103.8562701,
+      "tags": {
+        "addr:floor": "2",
+        "addr:housenumber": "8",
+        "addr:postcode": "039802",
+        "addr:street": "Raffles Avenue",
+        "addr:unit": "02-29",
+        "check_date": "2025-06-24",
+        "contact:facebook": "https://www.facebook.com/projectsend.sg",
+        "contact:instagram": "https://www.instagram.com/projectsend.sg",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "Project Send",
+        "opening_hours": "Mo-Sa 09:30-22:30; Su,PH 09:30-17:30",
+        "operator:type": "private",
+        "sport": "climbing",
+        "website": "https://www.projectsend.co/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10779500490,
+      "lat": 1.3496177,
+      "lon": 103.7521598,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Il Jin Taekwondo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10808393885,
+      "lat": 1.3339554,
+      "lon": 103.8881781,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "601",
+        "addr:level": "1",
+        "addr:postcode": "368242",
+        "addr:street": "MacPherson Road",
+        "addr:unit": "02-07",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "Boulder Planet",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa-Su 10:00-21:00",
+        "sport": "climbing",
+        "website": "https://www.boulderplanet.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10822273528,
+      "lat": 1.3321592,
+      "lon": 103.8832914,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "490",
+        "addr:postcode": "368198",
+        "addr:street": "MacPherson Road",
+        "charge": "40 SGD",
+        "contact:facebook": "https://www.facebook.com/thefragmentroom/",
+        "contact:instagram": "https://www.instagram.com/thefragmentroom/",
+        "email": "info@thefragmentroom.com",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "The Fragment Room",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+65 69700343",
+        "toilets": "customers",
+        "website": "https://www.thefragmentroom.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10857516874,
+      "lat": 1.4472385,
+      "lon": 103.8235983,
+      "tags": {
+        "contact:facebook": "activesg.bukitcanberra",
+        "contact:instagram": "activesg.bukitcanberra",
+        "leisure": "sports_centre",
+        "name": "ActiveSG Sembawang Sport Centre",
+        "website": "https://www.sportsingapore.gov.sg/newsroom/media-releases/2018/7/sembawang-sports-and-community-hub-groundbreaking-event"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10875234785,
+      "lat": 1.3411178,
+      "lon": 103.7189046,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "badminton"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10901301146,
+      "lat": 1.2995312,
+      "lon": 103.7754269,
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10933822710,
+      "lat": 1.2992678,
+      "lon": 103.8541792,
+      "tags": {
+        "addr:floor": "5",
+        "addr:housename": "Bugis+",
+        "addr:housenumber": "201",
+        "addr:postcode": "188067",
+        "addr:street": "Victoria Street",
+        "addr:unit": "#05-07",
+        "branch": "Bugis",
+        "check_date": "2024-04-18",
+        "climbing:boulder": "yes",
+        "contact:facebook": "https://www.facebook.com/BoulderMovementSG",
+        "contact:instagram": "https://www.instagram.com/bouldermovementsg",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "level": "4",
+        "name": "Boulder Movement",
+        "opening_hours": "Mo 17:30-22:00; Tu-Fr 11:00-16:30,17:30-22:00; Sa-Su,PH 10:00-14:00,15:00-20:00",
+        "operator": "Boulder Movement",
+        "operator:type": "private",
+        "phone": "+65 6993 9228",
+        "sport": "climbing",
+        "website": "https://www.boulderm.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10968864664,
+      "lat": 1.3052846,
+      "lon": 103.8514331,
+      "tags": {
+        "addr:floor": "2",
+        "addr:housenumber": "2",
+        "addr:postcode": "218227",
+        "addr:street": "Serangoon Road",
+        "addr:unit": "#02-12",
+        "branch": "Rochor",
+        "check_date": "2024-04-18",
+        "contact:facebook": "https://www.facebook.com/BoulderMovementSG",
+        "contact:instagram": "https://www.instagram.com/bouldermovementsg",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "Boulder Movement",
+        "opening_hours": "Mo 17:30-22:00; Tu-Fr 11:00-16:30,17:30-22:00; Sa-Su,PH 10:00-14:00,15:00-20:00",
+        "operator": "Boulder Movement",
+        "operator:type": "private",
+        "phone": "+65 6993 2100",
+        "sport": "climbing",
+        "website": "https://www.boulderm.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178310821,
+      "lat": 1.3447925,
+      "lon": 103.941863,
+      "tags": {
+        "leisure": "sports_centre",
+        "level": "1.5",
+        "name": "Lagoon Snooker Centre",
+        "sport": "snooker"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11297615939,
+      "lat": 1.2933997,
+      "lon": 103.8310531,
+      "tags": {
+        "check_date": "2023-10-26",
+        "leisure": "sports_centre",
+        "level": "0",
+        "name": "Taeseong Taekwondo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11452276380,
+      "lat": 1.3321376,
+      "lon": 103.8363562,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Atoms Polo Academy",
+        "name:en": "Atoms Polo Academy",
+        "sport": "polo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11645244307,
+      "lat": 1.3888688,
+      "lon": 103.7475212,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:floor": "3",
+        "addr:housenumber": "28",
+        "addr:postcode": "689964",
+        "addr:street": "Choa Chu Kang Drive",
+        "addr:unit": "02A",
+        "email": "info@climbcentral.sg",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "level": "3",
+        "name": "Climb Central",
+        "operator": "Climb Central",
+        "operator:type": "private",
+        "phone": "+6566778452",
+        "sport": "climbing",
+        "website": "https://www.climbcentral.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11645927080,
+      "lat": 1.3436233,
+      "lon": 103.9414366,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "6",
+        "addr:level": "2",
+        "addr:postcode": "528893",
+        "addr:street": "Tampines Street 92",
+        "addr:unit": "03-06",
+        "email": "contact@bffclimb.com",
+        "leisure": "sports_centre",
+        "level": "2",
+        "name": "BFF Climb",
+        "operator": "BFF Climb",
+        "phone": "+6586919790",
+        "sport": "climbing",
+        "website": "https://bffclimb.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11645974498,
+      "lat": 1.3311134,
+      "lon": 103.7482078,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housename": "The Chevrons",
+        "addr:housenumber": "48",
+        "addr:level": "3",
+        "addr:postcode": "609961",
+        "addr:street": "Boon Lay Way",
+        "addr:unit": "04-01",
+        "email": "contact@boulderplusclimbing.com",
+        "leisure": "sports_centre",
+        "level": "3",
+        "name": "Boulder+",
+        "operator": "Boulder+",
+        "sport": "climbing",
+        "website": "https://www.boulderplusclimbing.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11646014037,
+      "lat": 1.2812137,
+      "lon": 103.8100344,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:floor": "2",
+        "addr:housename": "Depot Heights Shopping Center",
+        "addr:housenumber": "108",
+        "addr:postcode": "100108",
+        "addr:street": "Depot Road",
+        "addr:unit": "02-01",
+        "branch": "Depot Heights",
+        "brand": "fit bloc",
+        "check_date": "2024-04-27",
+        "contact:facebook": "https://www.facebook.com/fitbloc",
+        "contact:instagram": "https://www.instagram.com/fitbloc",
+        "contact:whatsapp": "+6566122046",
+        "email": "hello@fitbloc.com",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "fit · bloc Depot Heights",
+        "opening_hours": "Mo-Su 10:00-22:30",
+        "operator:type": "private",
+        "phone": "+6562529161",
+        "source": "local knowledge",
+        "sport": "climbing",
+        "website": "https://fitbloc.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11646024962,
+      "lat": 1.2792895,
+      "lon": 103.8493117,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "61",
+        "addr:level": "4",
+        "addr:postcode": "068893",
+        "addr:street": "Robinson Road",
+        "addr:unit": "05-03/04",
+        "check_date": "2024-04-18",
+        "contact:instagram": "https://www.instagram.com/climba_gym",
+        "contact:telegram": "https://t.me/climbagym",
+        "email": "climba.gym@gmail.com",
+        "leisure": "sports_centre",
+        "level": "4",
+        "name": "Climba",
+        "opening_hours": "Mo,Su 17:00-22:00; Tu-Fr 11:00-22:00; Sa,PH 10:00-18:00",
+        "operator": "Climba",
+        "phone": "+6580406534",
+        "sport": "climbing",
+        "website": "https://www.climba.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11646067411,
+      "lat": 1.3037634,
+      "lon": 103.8355136,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "290",
+        "addr:level": "5",
+        "addr:postcode": "238859",
+        "addr:street": "Orchard Road",
+        "addr:unit": "06-25/26",
+        "leisure": "sports_centre",
+        "level": "5",
+        "name": "Boulder World",
+        "opening_hours": "Mo-Fr 09:00-22:30; Sa-Su 09:00-21:00",
+        "phone": "+6566105464",
+        "sport": "climbing",
+        "website": "https://boulderworld.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11646283397,
+      "lat": 1.4418486,
+      "lon": 103.8248492,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housename": "Sembawang Shopping Centre",
+        "addr:housenumber": "604",
+        "addr:level": "1",
+        "addr:postcode": "758459",
+        "addr:street": "Sembawang Road",
+        "addr:unit": "02-07",
+        "email": "info@boulderplanet.sg",
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "Boulder Planet",
+        "phone": "+6594692386",
+        "sport": "climbing",
+        "website": "https://boulderplanet.sg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11802121087,
+      "lat": 1.3209835,
+      "lon": 103.8526606,
+      "tags": {
+        "addr:housenumber": "207",
+        "addr:street": "Balestier Road",
+        "check_date": "2024-04-06",
+        "leisure": "sports_centre",
+        "name": "Little Splashes",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11813463332,
+      "lat": 1.3097898,
+      "lon": 103.8642945,
+      "tags": {
+        "leisure": "sports_centre",
+        "level": "2",
+        "name": "City Golfer",
+        "sport": "golf"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11850350154,
+      "lat": 1.2907173,
+      "lon": 103.8451881,
+      "tags": {
+        "description": "indoor roller skating, part of The Xperience",
+        "leisure": "sports_centre",
+        "name": "Rollermania",
+        "sport": "roller_skating"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12103622441,
+      "lat": 1.3753954,
+      "lon": 103.8828348,
+      "tags": {
+        "leisure": "sports_centre",
+        "level": "1",
+        "name": "Beary Fun Gym",
+        "sport": "gymnastics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12219352635,
+      "lat": 1.4099721,
+      "lon": 103.8320245,
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Lower Seletar Water Sports Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12619455901,
+      "lat": 1.2895152,
+      "lon": 103.8307967,
+      "tags": {
+        "addr:housenumber": "570",
+        "addr:postcode": "169640",
+        "addr:street": "Havelock Road",
+        "contact:facebook": "singaporejudoclub",
+        "email": "singaporejudoclub@gmail.com",
+        "leisure": "sports_centre",
+        "name": "Singapore Judo Club",
+        "opening_hours": "Su 10:00-14:30; Tu, Th 19:30-21:00",
+        "website": "https://www.judo.sg/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13258926701,
+      "lat": 1.3024928,
+      "lon": 103.88052,
+      "tags": {
+        "addr:housenumber": "26",
+        "addr:postcode": "399629",
+        "addr:street": "Jalan Benaan Kapal",
+        "leisure": "sports_centre",
+        "name": "RED Quarters"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13306246808,
+      "lat": 1.2862527,
+      "lon": 103.8115427,
+      "tags": {
+        "access": "yes",
+        "contact:instagram": "https://www.instagram.com/pop_padel_my/",
+        "courts": "6",
+        "covered": "yes",
+        "email": "hello@pop-padel.com",
+        "fee": "yes",
+        "indoor": "yes",
+        "leisure": "sports_centre",
+        "lit": "yes",
+        "name": "Pop Padel",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "Davy Sanh",
+        "operator:type": "private",
+        "phone": "+6580245700",
+        "sport": "padel",
+        "website": "https://www.pop-padel.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32722569,
+      "center": {
+        "lat": 1.3960762,
+        "lon": 103.8864511
+      },
+      "nodes": [
+        368208070,
+        368208072,
+        368208073,
+        370000676,
+        368208070
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "59",
+        "addr:postcode": "544965",
+        "addr:street": "Anchorvale Road",
+        "leisure": "sports_centre",
+        "name": "Sengkang Sports Complex"
+      }
+    },
+    {
+      "type": "way",
+      "id": 35096509,
+      "center": {
+        "lat": 1.3603139,
+        "lon": 103.8880764
+      },
+      "nodes": [
+        411730022,
+        411730023,
+        411730024,
+        411730025,
+        411730022
+      ],
+      "tags": {
+        "addr:street": "Hougang Avenue 1",
+        "alt_name": "50",
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "sports_centre",
+        "name": "JForté Sportainment Centre",
+        "sport": "10pin",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 35310233,
+      "center": {
+        "lat": 1.3910825,
+        "lon": 103.7485346
+      },
+      "nodes": [
+        1731082225,
+        413874312,
+        8382652116,
+        413874313,
+        413874314,
+        413874315,
+        13795189253,
+        6682978054,
+        13795189252,
+        413874316,
+        12592516528,
+        12592657683,
+        413874317,
+        12592516530,
+        12592516531,
+        13795189251,
+        13795189250,
+        413874318,
+        413874319,
+        12592516532,
+        1731082132,
+        1731082162,
+        413874320,
+        1731082168,
+        413874321,
+        13795188907,
+        13795188906,
+        1731082181,
+        13795188908,
+        1731082193,
+        1731082219,
+        1731082222,
+        13795188909,
+        13795188910,
+        1731082225
+      ],
+      "tags": {
+        "layer": "-1",
+        "leisure": "sports_centre",
+        "name": "Choa Chu Kang Stadium",
+        "name:th": "สนามกีฬาชั่วชู่กั้ง",
+        "name:zh": "蔡厝港操场",
+        "wheelchair": "yes",
+        "wikidata": "Q5103415",
+        "wikipedia": "en:Choa Chu Kang Stadium"
+      }
+    },
+    {
+      "type": "way",
+      "id": 44352722,
+      "center": {
+        "lat": 1.3118491,
+        "lon": 103.9526665
+      },
+      "nodes": [
+        563672932,
+        563672937,
+        563672939,
+        563672945,
+        563672932
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Water Venture East Coast",
+        "addr:housenumber": "1390",
+        "addr:postcode": "468961",
+        "addr:street": "East Coast Parkway",
+        "alt_name": "Water-Venture East Coast",
+        "barrier": "fence",
+        "check_date": "2023-06-18",
+        "fixme": "should probably have more specific tagging of sports",
+        "leisure": "sports_centre",
+        "name": "PA Water-Venture East Coast Sea Sports Club",
+        "name:zh": "人协水上探险 东海岸水上运动俱乐部",
+        "operator:type": "public",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 44628867,
+      "center": {
+        "lat": 1.2994572,
+        "lon": 103.7769646
+      },
+      "nodes": [
+        566531267,
+        10560694045,
+        566531268,
+        566531269,
+        566531270,
+        2489562564,
+        566531271,
+        566531272,
+        566531273,
+        566531274,
+        10976450012,
+        566531275,
+        566531276,
+        2489562432,
+        566531277,
+        566531278,
+        566531279,
+        4780782049,
+        4780782050,
+        1854386482,
+        566531280,
+        566531281,
+        566531282,
+        2489562473,
+        566531284,
+        2489562460,
+        2489562456,
+        2489562492,
+        2489562487,
+        13652393426,
+        5243843759,
+        9189466064,
+        687603680,
+        687603678,
+        8681686123,
+        8681686130,
+        8681686129,
+        8681686127,
+        8681686128,
+        8681686131,
+        8681686126,
+        8681686125,
+        8681686124,
+        8681686132,
+        566531267
+      ],
+      "tags": {
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46337827,
+      "center": {
+        "lat": 1.2969186,
+        "lon": 103.8814224
+      },
+      "nodes": [
+        4008524205,
+        591879395,
+        591879396,
+        591879397,
+        12390326372,
+        14011532012,
+        12390326373,
+        4008524205
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Singapore Swimming Club",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49989240,
+      "center": {
+        "lat": 1.3486227,
+        "lon": 103.688562
+      },
+      "nodes": [
+        634987564,
+        634987566,
+        3879835632,
+        634987567,
+        634987569,
+        634987571,
+        634987574,
+        634987584,
+        634987589,
+        634987592,
+        634987596,
+        634987599,
+        634987602,
+        634987604,
+        634987608,
+        3736568988,
+        4316718016,
+        634987611,
+        6326847293,
+        634987616,
+        634987564
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Sports and Recreation Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 54964959,
+      "center": {
+        "lat": 1.4164573,
+        "lon": 103.9374403
+      },
+      "nodes": [
+        691529348,
+        5351517849,
+        691529351,
+        691529355,
+        691529359,
+        691529362,
+        691529363,
+        691529364,
+        691529366,
+        691529367,
+        691529368,
+        691529370,
+        691529371,
+        691529380,
+        691529388,
+        691529391,
+        691529348
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Outward Bound Singapore Camp 2",
+        "name:zh": "新加坡外展训练中心2号营地"
+      }
+    },
+    {
+      "type": "way",
+      "id": 85006386,
+      "center": {
+        "lat": 1.3911455,
+        "lon": 103.9893846
+      },
+      "nodes": [
+        986663563,
+        8010141751,
+        986663570,
+        8594448023,
+        1749792421,
+        8594448026,
+        8594448025,
+        1749792417,
+        1749792415,
+        8010141747,
+        986663563
+      ],
+      "tags": {
+        "addr:country": "SG",
+        "addr:housename": "Water-Venture Changi",
+        "addr:housenumber": "285",
+        "addr:postcode": "498998",
+        "addr:street": "Nicoll Drive",
+        "alt_name": "Water-Venture Changi",
+        "landuse": "commercial",
+        "leisure": "sports_centre",
+        "name": "PA Water-Venture Changi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 97191738,
+      "center": {
+        "lat": 1.3385009,
+        "lon": 103.6944568
+      },
+      "nodes": [
+        1125896869,
+        1125896793,
+        1125896883,
+        1125896790,
+        1125896887,
+        1125896791,
+        1125896863,
+        1125896797,
+        1125896805,
+        1125896879,
+        1125896922,
+        1125896856,
+        1125896919,
+        1125896942,
+        1125896912,
+        1125896911,
+        1125896894,
+        1125896796,
+        1125896920,
+        1125896864,
+        7443777787,
+        1125896848,
+        1125896807,
+        1125896792,
+        1125896869
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "20",
+        "addr:postcode": "648965",
+        "addr:street": "Jurong West Street 93",
+        "leisure": "sports_centre",
+        "name": "Jurong West Sports Complex",
+        "name:th": "ศูนย์กีฬาจูรงตะวันตก",
+        "name:zh": "裕廊西体育中心"
+      }
+    },
+    {
+      "type": "way",
+      "id": 104660738,
+      "center": {
+        "lat": 1.3092083,
+        "lon": 103.7780329
+      },
+      "nodes": [
+        1207256104,
+        1207246816,
+        1207252218,
+        6243463361,
+        1207251406,
+        1207256104
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Street Soccer Court",
+        "name:zh": "街头足球场",
+        "sport": "soccer"
+      }
+    },
+    {
+      "type": "way",
+      "id": 104661369,
+      "center": {
+        "lat": 1.3073435,
+        "lon": 103.7787247
+      },
+      "nodes": [
+        1207249014,
+        1207251635,
+        1207254786,
+        1207248291,
+        1207249014
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Tennis Court",
+        "name:zh": "网球场",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108542264,
+      "center": {
+        "lat": 1.4192536,
+        "lon": 103.7612577
+      },
+      "nodes": [
+        1245124493,
+        1245124547,
+        1245124467,
+        1245124544,
+        1245124493
+      ],
+      "tags": {
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108542277,
+      "center": {
+        "lat": 1.419568,
+        "lon": 103.7610861
+      },
+      "nodes": [
+        1245124397,
+        1245124571,
+        1245124324,
+        1245124375,
+        1245124397
+      ],
+      "tags": {
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108542285,
+      "center": {
+        "lat": 1.4189749,
+        "lon": 103.7618585
+      },
+      "nodes": [
+        1245124552,
+        1245124313,
+        1245124445,
+        1245124277,
+        1245124552
+      ],
+      "tags": {
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 111983704,
+      "center": {
+        "lat": 1.3257766,
+        "lon": 103.861628
+      },
+      "nodes": [
+        1274162531,
+        1274162443,
+        1274162953,
+        1274162883,
+        1274162551,
+        2078410393,
+        2078410386,
+        2078414173,
+        2078414175,
+        2078414174,
+        1274162531
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "St Wilfrid Sport Complex",
+        "sport": "tennis;squash;soccer"
+      }
+    },
+    {
+      "type": "way",
+      "id": 117055185,
+      "center": {
+        "lat": 1.35553,
+        "lon": 103.8509964
+      },
+      "nodes": [
+        1318666973,
+        7140814426,
+        1318667239,
+        7140814427,
+        7140814428,
+        7140814429,
+        7140814430,
+        1318667008,
+        7140814431,
+        7140814432,
+        7140814433,
+        7140814434,
+        7140814435,
+        7140814436,
+        7140814437,
+        7140814438,
+        7140814439,
+        7140814440,
+        13704222386,
+        1318667098,
+        13704222385,
+        7140814442,
+        7140814443,
+        7140814444,
+        7140814446,
+        7140814447,
+        7140814445,
+        12201156431,
+        1318667056,
+        7140814411,
+        3394734132,
+        13704222384,
+        3394734131,
+        7140814412,
+        1318666864,
+        7140814413,
+        7140814417,
+        12201156429,
+        1318667274,
+        7140814420,
+        7140814421,
+        7140814422,
+        7140814423,
+        7140814424,
+        7140814425,
+        1318666973
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "5",
+        "addr:postcode": "579783",
+        "addr:street": "Bishan Street 14",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Bishan Sports Hall",
+        "wikidata": "Q4917333",
+        "wikipedia": "en:Bishan Sports Hall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 123035297,
+      "center": {
+        "lat": 1.3597997,
+        "lon": 103.752289
+      },
+      "nodes": [
+        4943274452,
+        4943274457,
+        4943274456,
+        4943274451,
+        1373253188,
+        4943274453,
+        1373253149,
+        1373253159,
+        1373253127,
+        1373253137,
+        1373253139,
+        1373253141,
+        1373253107,
+        4943274450,
+        1373253142,
+        1373253118,
+        1373253170,
+        1373253168,
+        1373253162,
+        1373253173,
+        1373253121,
+        4943274454,
+        1373253124,
+        4943274449,
+        4943274459,
+        4943274455,
+        4943274458,
+        9754462344,
+        4943274452
+      ],
+      "tags": {
+        "addr:street": "Bukit Batok West Avenue 5",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Bukit Gombak Sports Hall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 153583762,
+      "center": {
+        "lat": 1.3836332,
+        "lon": 103.8458624
+      },
+      "nodes": [
+        1662362781,
+        1662362792,
+        1662362743,
+        1662362740,
+        1662362780,
+        1662362784,
+        1662362742,
+        1662362779,
+        1662362752,
+        1662362763,
+        1662362786,
+        1662362746,
+        1662362773,
+        1662362770,
+        1662362741,
+        1662362762,
+        1662362761,
+        1662362760,
+        1662362776,
+        1662362758,
+        1662362769,
+        1662362767,
+        1662362755,
+        1662362757,
+        1662362765,
+        1662362768,
+        1662362747,
+        1662362748,
+        1662362766,
+        1662362756,
+        1662362777,
+        1662362788,
+        1662362751,
+        1662362772,
+        1662362793,
+        1662362745,
+        1662362774,
+        1662362750,
+        1662362775,
+        1662362782,
+        1662362778,
+        1662362790,
+        1662362754,
+        1662362759,
+        1662362764,
+        1662362744,
+        1662362783,
+        1662362749,
+        1662362771,
+        1662362753,
+        1662362781
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "214",
+        "addr:postcode": "569780",
+        "addr:street": "Ang Mo Kio Avenue 9",
+        "building": "sports_centre",
+        "leisure": "sports_centre",
+        "name": "Yio Chu Kang Sport Hall",
+        "name:ms": "Pusat Sukan Yio Chu Kang",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 153584957,
+      "center": {
+        "lat": 1.3632033,
+        "lon": 103.8496988
+      },
+      "nodes": [
+        1662367511,
+        13397836808,
+        13397836807,
+        13397836806,
+        5717391093,
+        1662367500,
+        6102967971,
+        11472634625,
+        11472634626,
+        1662367505,
+        13397836804,
+        13397836805,
+        1662367511
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1771",
+        "addr:postcode": "569978",
+        "addr:street": "Ang Mo Kio Avenue 1",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "ActiveSG Sport Park @ Teck Ghee",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 154143762,
+      "center": {
+        "lat": 1.4236426,
+        "lon": 103.8340334
+      },
+      "nodes": [
+        1667281335,
+        5258098664,
+        5258098663,
+        5258098660,
+        1667281327,
+        1667281333,
+        5258098656,
+        5258098655,
+        5338441814,
+        5258098652,
+        5258098667,
+        5258098666,
+        1667281335
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Yishun Swimming Complex"
+      }
+    },
+    {
+      "type": "way",
+      "id": 154160655,
+      "center": {
+        "lat": 1.4341467,
+        "lon": 103.7798498
+      },
+      "nodes": [
+        4926182649,
+        4926182650,
+        4926182651,
+        4926182652,
+        4926182653,
+        4926182654,
+        4926182655,
+        4926182656,
+        1667421218,
+        1667421214,
+        4926182643,
+        4926182644,
+        11731171630,
+        4926182645,
+        4926182646,
+        4926182647,
+        4926182648,
+        1667421207,
+        1667421220,
+        1667421212,
+        4926182649
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Woodlands Sports Hall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 154160657,
+      "center": {
+        "lat": 1.4348516,
+        "lon": 103.7791431
+      },
+      "nodes": [
+        4926182677,
+        4926182678,
+        4926182679,
+        4926182680,
+        4926182681,
+        4926182682,
+        4926182683,
+        4926182684,
+        1667421215,
+        1667421219,
+        4926182670,
+        4926182671,
+        4926182672,
+        4926182673,
+        4926182674,
+        4926182675,
+        4926182676,
+        1667421224,
+        1667421202,
+        4926182677
+      ],
+      "tags": {
+        "barrier": "wall",
+        "leisure": "sports_centre",
+        "name": "Woodlands Swimming Complex"
+      }
+    },
+    {
+      "type": "way",
+      "id": 154259832,
+      "center": {
+        "lat": 1.3043725,
+        "lon": 103.8699988
+      },
+      "nodes": [
+        1668237943,
+        1668237942,
+        1668237944,
+        1668237945,
+        1668237943
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Kallang Water Sports Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 160119685,
+      "center": {
+        "lat": 1.3354832,
+        "lon": 103.7744288
+      },
+      "nodes": [
+        1721939797,
+        1721939820,
+        1721939806,
+        1721939813,
+        1721939797
+      ],
+      "tags": {
+        "addr:suburb": "Bukit Timah",
+        "leisure": "sports_centre",
+        "name": "Kismis Adventure Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173518535,
+      "center": {
+        "lat": 1.3697214,
+        "lon": 103.8870624
+      },
+      "nodes": [
+        1843142493,
+        1843142492,
+        1843142491,
+        1843142490,
+        1843142489,
+        1843142486,
+        1843142484,
+        1843142483,
+        1843142482,
+        1843142476,
+        1843142472,
+        1843142464,
+        1843142461,
+        1843142459,
+        1843142456,
+        1843142454,
+        1843142451,
+        1843142448,
+        1843142445,
+        1843142444,
+        1843142442,
+        1843142441,
+        1843142440,
+        1843142443,
+        1843142446,
+        1843142447,
+        1843142449,
+        1843142450,
+        1843142452,
+        1843142453,
+        1843142455,
+        1843142457,
+        1843142458,
+        1843142460,
+        1843142462,
+        1843142463,
+        1843142465,
+        1843142466,
+        1843142467,
+        1843142468,
+        1843142469,
+        1843142470,
+        1843142471,
+        1843142473,
+        1843142474,
+        1843142475,
+        1843142477,
+        13943367395,
+        1843142478,
+        1843142479,
+        1843142480,
+        1843142481,
+        13943367396,
+        13943367398,
+        13943367397,
+        1843142485,
+        1843142487,
+        13943367399,
+        1843142488,
+        13943367400,
+        1843142493
+      ],
+      "tags": {
+        "landuse": "recreation_ground",
+        "leisure": "sports_centre",
+        "name": "Hougang Sports Complex",
+        "source": "https://www.mccy.gov.sg/about-us/news-and-resources/parliamentary-matters/2024/Jul/Improvement-works-at-Hougang-Sport-Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 178582378,
+      "center": {
+        "lat": 1.4456509,
+        "lon": 103.78362
+      },
+      "nodes": [
+        1889242042,
+        1889241995,
+        1889241959,
+        1889241955,
+        1889242039,
+        1889242042
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "15",
+        "addr:postcode": "738967",
+        "addr:street": "Woodlands Avenue 9",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Sports Complex",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 178591211,
+      "center": {
+        "lat": 1.3736906,
+        "lon": 103.8336312
+      },
+      "nodes": [
+        1889319546,
+        1889319540,
+        1889319536,
+        1889319533,
+        1889319527,
+        1889319525,
+        1889319531,
+        1889319534,
+        1889319548,
+        1889319551,
+        1889319559,
+        1889319561,
+        1889319552,
+        1889319546
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182827362,
+      "center": {
+        "lat": 1.3054083,
+        "lon": 103.8727115
+      },
+      "nodes": [
+        11401075545,
+        1931942778,
+        3633794733,
+        1931942769,
+        1931942723,
+        1931942696,
+        3633794647,
+        4837890244,
+        4837890243,
+        11401075548,
+        11401075546,
+        11401075547,
+        11401075545
+      ],
+      "tags": {
+        "alt_name": "Aquatic Centre",
+        "building": "stadium",
+        "building:colour": "#e6ddc7",
+        "building:levels": "4",
+        "charge": "2 SGD",
+        "fee": "yes",
+        "height": "20",
+        "leisure": "sports_centre",
+        "name": "OCBC Aquatic Centre",
+        "opening_hours": "07:00-21:30; Tu off",
+        "roof:colour": "#b2bdbd",
+        "roof:material": "metal",
+        "sport": "swimming",
+        "website": "https://www.sportshub.com.sg/sport-fitness/swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201924379,
+      "center": {
+        "lat": 1.320963,
+        "lon": 103.8877152
+      },
+      "nodes": [
+        2119306089,
+        6404114919,
+        2119306109,
+        2119306107,
+        2119306088,
+        2119306089
+      ],
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "sports_centre",
+        "name": "Singapore Basketball Centre",
+        "roof:colour": "#dbe4e4",
+        "roof:levels": "1",
+        "roof:material": "metal",
+        "roof:orientation": "along",
+        "roof:shape": "round",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "way",
+      "id": 224604975,
+      "center": {
+        "lat": 1.3430775,
+        "lon": 103.7939187
+      },
+      "nodes": [
+        1645548042,
+        2870022435,
+        2870022436,
+        2870022437,
+        5272796839,
+        2334081416,
+        1645548018,
+        1645548001,
+        1645548042
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "220",
+        "addr:postcode": "288001",
+        "addr:street": "Turf Club Road",
+        "contact:facebook": "https://www.facebook.com/TanglinAcademy/",
+        "contact:twitter": "https://twitter.com/TanglinAcademy",
+        "designation": "Tennis School",
+        "leisure": "sports_centre",
+        "name": "Tanglin Academy",
+        "phone": "+65 9108 6516",
+        "sport": "tennis",
+        "website": "http://tanglinacademy.com.sg"
+      }
+    },
+    {
+      "type": "way",
+      "id": 231670457,
+      "center": {
+        "lat": 1.3530446,
+        "lon": 103.9403031
+      },
+      "nodes": [
+        2400125460,
+        13340231711,
+        5157129283,
+        5157129282,
+        5157129281,
+        13340231710,
+        13340231709,
+        5157129280,
+        2400125458,
+        8208608783,
+        8208608782,
+        8208608780,
+        8208608781,
+        2400125454,
+        2400125465,
+        8208608779,
+        5157129279,
+        8208608778,
+        5157129278,
+        8236304113,
+        5157129277,
+        5157129276,
+        2400125463,
+        8208608777,
+        11359824053,
+        13340231730,
+        2400125467,
+        8239317151,
+        13340231726,
+        13340231728,
+        13340231729,
+        13340231727,
+        13340231724,
+        13340231723,
+        13340231722,
+        13340231721,
+        13340231720,
+        13340231719,
+        13340231718,
+        6728757742,
+        5157129288,
+        8208608784,
+        5157129284,
+        8208609958,
+        2400125460
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "528523",
+        "addr:street": "Tampines Walk",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Our Tampines Hub",
+        "name:zh": "淡滨尼天地",
+        "website": "https://ourtampineshub.sg/",
+        "wheelchair": "limited",
+        "wikidata": "Q5930688",
+        "wikipedia": "en:Our Tampines Hub"
+      }
+    },
+    {
+      "type": "way",
+      "id": 255774307,
+      "center": {
+        "lat": 1.3492146,
+        "lon": 103.68771
+      },
+      "nodes": [
+        2614613125,
+        2614613114,
+        2614613105,
+        2614613110,
+        2614613125
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Sport Hall",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "way",
+      "id": 283723592,
+      "center": {
+        "lat": 1.3573476,
+        "lon": 103.8854017
+      },
+      "nodes": [
+        2875593210,
+        2875593211,
+        10784278945,
+        2875593212,
+        2875593213,
+        2875593210
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "60",
+        "addr:postcode": "538738",
+        "addr:street": "Hougang Street 21",
+        "contact:facebook": "https://www.facebook.com/pg/KovanSports/about/?ref=page_internal",
+        "email": "enquiries@kovansports.com",
+        "leisure": "sports_centre",
+        "name": "Kick Off!",
+        "opening_hours": "09:00-22:30",
+        "phone": "+65 6286 0256",
+        "website": "https://kickoffsg.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 310640043,
+      "center": {
+        "lat": 1.3114451,
+        "lon": 103.9014188
+      },
+      "nodes": [
+        3160950157,
+        3160950154,
+        3160950152,
+        3160950149,
+        3160950844,
+        3160950840,
+        3160950834,
+        3160950839,
+        3160950836,
+        3160950845,
+        3160950842,
+        3160950150,
+        3160950157
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "225",
+        "addr:street": "Joo Chiat Road",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Singapore Gujarati School",
+        "source": "Kaart Ground Survey 2017",
+        "sport": "boxing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 333972740,
+      "center": {
+        "lat": 1.3415971,
+        "lon": 103.9648681
+      },
+      "nodes": [
+        3410442255,
+        3410442256,
+        3410442257,
+        3410442258,
+        3410442255
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Changi South Avenue 1",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "SUTD Multifunction Sport Center",
+        "sport": "tennis"
+      }
+    },
+    {
+      "type": "way",
+      "id": 358462346,
+      "center": {
+        "lat": 1.301025,
+        "lon": 103.8729199
+      },
+      "nodes": [
+        6485346659,
+        6485346652,
+        3633794510,
+        6485346653,
+        6485346654,
+        3633792287,
+        3633792279,
+        6485346657,
+        6485346658,
+        3633792280,
+        3633792291,
+        3633794494,
+        3633794501,
+        3633794504,
+        3633794507,
+        3633794513,
+        3633794520,
+        3633794523,
+        6485346662,
+        6485346661,
+        6485346659
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Water Sports Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362898714,
+      "center": {
+        "lat": 1.3818793,
+        "lon": 103.8469594
+      },
+      "nodes": [
+        3671373170,
+        13464602384,
+        3671373163,
+        3671373133,
+        3671373132,
+        3671373169,
+        3671373126,
+        3671373146,
+        3671373131,
+        3671373130,
+        3671373128,
+        3671373129,
+        3671373165,
+        3671373138,
+        3671373157,
+        3671373139,
+        3671373154,
+        3671373164,
+        3671373125,
+        3671373136,
+        3671373143,
+        3671373159,
+        3671373147,
+        3671373148,
+        3671373155,
+        13464602394,
+        3671373161,
+        3671373137,
+        13464602393,
+        13464602392,
+        3671373145,
+        3671373166,
+        3671373144,
+        3671373127,
+        3671373142,
+        13464602391,
+        3671373134,
+        3671373167,
+        3671373168,
+        13464602390,
+        3671373149,
+        3671373160,
+        3671373162,
+        3671373140,
+        3671373156,
+        13464602389,
+        13464602388,
+        3671373135,
+        3671373158,
+        3671373153,
+        3671373141,
+        3671373152,
+        3671373151,
+        13464602385,
+        13464602386,
+        13464602387,
+        3671373150,
+        3671373170
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "202",
+        "addr:postcode": "569771",
+        "addr:street": "Ang Mo Kio Avenue 9",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Yio Chu Kang Swimming Complex",
+        "name:ms": "Kompleks Renang Yio Chu Kang",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 389325963,
+      "center": {
+        "lat": 1.3823388,
+        "lon": 103.7646453
+      },
+      "nodes": [
+        2405760619,
+        2299107927,
+        243704360,
+        243704368,
+        243704379,
+        243704390,
+        3924788742,
+        3924788743,
+        4651833337,
+        3924788749,
+        5172247686,
+        5172247685,
+        4651833341,
+        4651833342,
+        2405760618,
+        4651833340,
+        3924788731,
+        2405760619
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "101",
+        "addr:postcode": "679910",
+        "addr:street": "Bukit Panjang Road",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "Senja-Cashew Swimming Complex",
+        "opening_hours": "Mo,Fr,Su 08:00-21:30; Tu,Th,Sa 06:30-21:30; We off",
+        "operator": "ActiveSG",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 390827454,
+      "center": {
+        "lat": 1.3036427,
+        "lon": 103.8797025
+      },
+      "nodes": [
+        3939626789,
+        13190353192,
+        13190358342,
+        3939626790,
+        3939626791,
+        3939626792,
+        13190358341,
+        13190358320,
+        3939626793,
+        3939626794,
+        3939626795,
+        13190358346,
+        3939626796,
+        13190358347,
+        3939626797,
+        13190358345,
+        2925443276,
+        13190358344,
+        3939626800,
+        3939626789
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "31",
+        "addr:postcode": "397639",
+        "addr:street": "Stadium Crescent",
+        "leisure": "sports_centre",
+        "name": "Kallang Football Hub"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397050211,
+      "center": {
+        "lat": 1.3742863,
+        "lon": 103.9519281
+      },
+      "nodes": [
+        3998777683,
+        12237785343,
+        12237785342,
+        12237785341,
+        3998777684,
+        12237785340,
+        12237785339,
+        3998777686,
+        12237785338,
+        3998777687,
+        5256798553,
+        12237785345,
+        12237785347,
+        12237785348,
+        12237785349,
+        3998777683
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "120",
+        "addr:postcode": "519640",
+        "addr:street": "Pasir Ris Central",
+        "leisure": "sports_centre",
+        "name": "Pasir Ris Sports Centre",
+        "name:zh": "巴西立体育中心",
+        "phone": "+65 6583 2696",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.myactivesg.com/facilities/pasir-ris-sports-centre",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 400386606,
+      "center": {
+        "lat": 1.304724,
+        "lon": 103.8711225
+      },
+      "nodes": [
+        4029526989,
+        4029526990,
+        4029526991,
+        4029526992,
+        4029526993,
+        4029526994,
+        137353081,
+        137353055,
+        4029526989
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "National Youth Sports Institute",
+        "short_name": "NYSI",
+        "website": "https://www.nysi.org.sg/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 407288208,
+      "center": {
+        "lat": 1.3107072,
+        "lon": 103.8599637
+      },
+      "nodes": [
+        4203252361,
+        4203252378,
+        4203252362,
+        4203252376,
+        4203252361
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Jalan Besar Swimming Complex",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 428426534,
+      "center": {
+        "lat": 1.3497587,
+        "lon": 103.6880404
+      },
+      "nodes": [
+        4275263721,
+        4275263722,
+        4275263723,
+        4275263724,
+        4275263721
+      ],
+      "tags": {
+        "access": "permissive",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452646021,
+      "center": {
+        "lat": 1.3139129,
+        "lon": 103.8806863
+      },
+      "nodes": [
+        4494059761,
+        4494059758,
+        4494059759,
+        4494059757,
+        4494059755,
+        4494059754,
+        4494059756,
+        4494059760,
+        4494059761
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Singapore Badminton Hall",
+        "source": "Kaart Ground Survey 2017",
+        "sport": "badminton",
+        "wikidata": "Q53474379",
+        "wikipedia": "en:Singapore Badminton Hall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452723810,
+      "center": {
+        "lat": 1.3338462,
+        "lon": 103.7963913
+      },
+      "nodes": [
+        4494721497,
+        4494721515,
+        4494721527,
+        4494721516,
+        4494721497
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Happy Fish",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452723878,
+      "center": {
+        "lat": 1.3337301,
+        "lon": 103.796125
+      },
+      "nodes": [
+        4494721473,
+        4494721488,
+        4494721502,
+        4494721490,
+        4494721473
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Alpha Indoor Golf",
+        "sport": "golf"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452723879,
+      "center": {
+        "lat": 1.3341151,
+        "lon": 103.796322
+      },
+      "nodes": [
+        4494721540,
+        4494721550,
+        4494721560,
+        4494721549,
+        4494721540
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "(formerly Otter Swim)",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453382086,
+      "center": {
+        "lat": 1.411886,
+        "lon": 103.8312124
+      },
+      "nodes": [
+        4501231619,
+        4501231620,
+        4501231621,
+        4501231622,
+        4501231646,
+        8828834801,
+        4501231642,
+        4501231624,
+        4501231623,
+        4501231619
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "101",
+        "addr:postcode": "769130",
+        "addr:street": "Yishun Avenue 1",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Yishun Sports Hall",
+        "opening_hours": "Mo-Su 07:00-22:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453695956,
+      "center": {
+        "lat": 1.382298,
+        "lon": 103.8458673
+      },
+      "nodes": [
+        4503984630,
+        4503984631,
+        4503984628,
+        13464602399,
+        13464602398,
+        4503984629,
+        4503984625,
+        4503984621,
+        4503984624,
+        4503984623,
+        4503984626,
+        4503984630
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "200",
+        "addr:postcode": "569770",
+        "addr:street": "Ang Mo Kio Avenue 9",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Yio Chu Kang Squash & Tennis Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 463202700,
+      "center": {
+        "lat": 1.4274848,
+        "lon": 103.8388058
+      },
+      "nodes": [
+        4584968821,
+        4584968822,
+        4683504456,
+        6649662323,
+        6649662324,
+        6649662322,
+        6649662321,
+        4584968828,
+        4584968821
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "32",
+        "addr:postcode": "768809",
+        "addr:street": "Yishun Central 1",
+        "building": "public",
+        "leisure": "sports_centre",
+        "name": "Nee Soon Sports Centre",
+        "sport": "futsal;basketball",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 464118250,
+      "center": {
+        "lat": 1.3909587,
+        "lon": 103.9869298
+      },
+      "nodes": [
+        4592712880,
+        4592712686,
+        4592712687,
+        8000478328,
+        8000478327,
+        8000478329,
+        4592712879,
+        3982746913,
+        8000478330,
+        4592712880
+      ],
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:postcode": "508503",
+        "addr:street": "Netheravon Road",
+        "building": "yes",
+        "building:levels": "3",
+        "leisure": "sports_centre",
+        "name": "Civil Service Club Changi",
+        "name:en": "Civil Service Club Changi",
+        "name:zh": "樟宜公务员俱乐",
+        "name:zh-Hans": "樟宜公务员俱乐",
+        "name:zh-Hant": "樟宜公務員俱樂",
+        "source": "Mapbox",
+        "sport": "10pin"
+      }
+    },
+    {
+      "type": "way",
+      "id": 468581490,
+      "center": {
+        "lat": 1.3541746,
+        "lon": 103.8501091
+      },
+      "nodes": [
+        4631007700,
+        4631007701,
+        4631007702,
+        4631007703,
+        13704222368,
+        13704222369,
+        13704222370,
+        13704222371,
+        4631007700
+      ],
+      "tags": {
+        "access": "customers",
+        "addr:city": "Singapore",
+        "addr:housenumber": "1",
+        "addr:postcode": "579778",
+        "addr:street": "Bishan Street 14",
+        "leisure": "sports_centre",
+        "name": "Bishan Swimming Complex",
+        "operator": "Sports Council",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 475665379,
+      "center": {
+        "lat": 1.3914706,
+        "lon": 103.7479048
+      },
+      "nodes": [
+        4693902933,
+        4693902934,
+        4693902935,
+        1963685616,
+        1963685605,
+        4693902937,
+        5257934940,
+        5257934939,
+        13795189203,
+        4693902933
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Choa Chu Kang Swimming Complex",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 480561924,
+      "center": {
+        "lat": 1.3491318,
+        "lon": 103.6893526
+      },
+      "nodes": [
+        4735497465,
+        4735497464,
+        5264862114,
+        4735497463,
+        5264862115,
+        4735497462,
+        4735497465
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "The Wave Sport Hall",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "way",
+      "id": 481003181,
+      "center": {
+        "lat": 1.3284404,
+        "lon": 103.7757021
+      },
+      "nodes": [
+        4739490982,
+        4739490983,
+        4739490984,
+        4739490985,
+        4739490986,
+        4739490987,
+        4739490988,
+        4739490989,
+        4739490990,
+        4739490991,
+        4739490992,
+        4739490982
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 482047204,
+      "center": {
+        "lat": 1.3737781,
+        "lon": 103.8289572
+      },
+      "nodes": [
+        4749198614,
+        4749198615,
+        4749198616,
+        4749198617,
+        4749198614
+      ],
+      "tags": {
+        "addr:street": "Upper Thomson Road",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544436538,
+      "center": {
+        "lat": 1.3287201,
+        "lon": 103.7896917
+      },
+      "nodes": [
+        5262914467,
+        5262914468,
+        5262914469,
+        5262914470,
+        5262914467
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "sports_centre",
+        "operator": "Eleven@Holland",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 585724868,
+      "center": {
+        "lat": 1.3924205,
+        "lon": 103.836036
+      },
+      "nodes": [
+        5596829667,
+        5596829668,
+        5596829669,
+        5596829670,
+        5596829667
+      ],
+      "tags": {
+        "access": "private",
+        "leisure": "sports_centre",
+        "name": "Changing Rooms",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 588632083,
+      "center": {
+        "lat": 1.3861192,
+        "lon": 103.8410999
+      },
+      "nodes": [
+        5621751107,
+        5621751108,
+        5621751114,
+        5621751116,
+        5621751115,
+        5621751109,
+        5621751120,
+        5621751128,
+        5621751124,
+        5621751129,
+        5621751125,
+        5621751122,
+        5621751131,
+        5621751126,
+        5621751135,
+        5621751123,
+        5621751133,
+        5621751121,
+        5621751110,
+        5621751111,
+        5621750952,
+        5621751107
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 590855542,
+      "center": {
+        "lat": 1.3660386,
+        "lon": 103.8314409
+      },
+      "nodes": [
+        5640353619,
+        5640353620,
+        5640353821,
+        5640353837,
+        5640353835,
+        5640353836,
+        5640353831,
+        5640353834,
+        5640353832,
+        5640353833,
+        5593984685,
+        5640353822,
+        5640353827,
+        5640353826,
+        5640353828,
+        5640353823,
+        5640353829,
+        5640353825,
+        5640353830,
+        5640353824,
+        5640353619
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 593435637,
+      "center": {
+        "lat": 1.3603884,
+        "lon": 103.8293687
+      },
+      "nodes": [
+        5661315959,
+        5661315981,
+        5661315960,
+        5661315961,
+        5661315962,
+        5661315963,
+        5661315964,
+        5661315965,
+        5661315980,
+        5661315972,
+        5661315979,
+        5661315970,
+        5661315978,
+        5661315971,
+        5661315977,
+        5661315966,
+        5661315976,
+        5661315969,
+        5661315975,
+        5661315967,
+        5661315974,
+        5661315968,
+        5661315973,
+        5661315959
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 593883852,
+      "center": {
+        "lat": 1.3182559,
+        "lon": 103.819109
+      },
+      "nodes": [
+        5664487697,
+        5664487696,
+        5713178055,
+        5664487695,
+        5664487694,
+        5664487693,
+        5664487692,
+        5664487691,
+        5664487690,
+        5713178058,
+        5664487689,
+        5664487688,
+        5713178042,
+        5664487687,
+        5664487686,
+        5664487685,
+        5664487684,
+        5664487683,
+        5664487682,
+        5664487681,
+        5664487680,
+        5664487679,
+        3756077022,
+        5679800996,
+        5664487697
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "21",
+        "addr:postcode": "259366",
+        "addr:street": "Evans Road",
+        "leisure": "sports_centre",
+        "name": "Ministry of Education Sports & Recreation Club",
+        "name:en": "Ministry of Education Sports & Recreation Club",
+        "name:zh": "教育部体育娱乐俱乐部",
+        "operator": "Ministry of Education"
+      }
+    },
+    {
+      "type": "way",
+      "id": 594744662,
+      "center": {
+        "lat": 1.363451,
+        "lon": 103.8323362
+      },
+      "nodes": [
+        5670568392,
+        5670568393,
+        5670568394,
+        5670568395,
+        5670568392
+      ],
+      "tags": {
+        "access": "private",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Squash Courts",
+        "sport": "squash"
+      }
+    },
+    {
+      "type": "way",
+      "id": 623280720,
+      "center": {
+        "lat": 1.3524407,
+        "lon": 103.939582
+      },
+      "nodes": [
+        5886561471,
+        5886561472,
+        5886561473,
+        5886561474,
+        5886561475,
+        5886561476,
+        5886561477,
+        5886561478,
+        5886561479,
+        5886561480,
+        5886561481,
+        5886561482,
+        5886561483,
+        5886561484,
+        5886561471
+      ],
+      "tags": {
+        "building": "sports_centre",
+        "leisure": "sports_centre",
+        "name": "Arena @ OTH"
+      }
+    },
+    {
+      "type": "way",
+      "id": 624699147,
+      "center": {
+        "lat": 1.3626776,
+        "lon": 103.8310897
+      },
+      "nodes": [
+        5899099728,
+        5899099729,
+        5899099730,
+        5899099731,
+        5899099732,
+        5899102793,
+        5899099733,
+        5899099734,
+        5899099735,
+        5899099736,
+        5899102794,
+        5899099737,
+        5899099738,
+        5899102803,
+        5899099739,
+        5899099740,
+        5899099741,
+        5899099742,
+        5899099743,
+        5899099744,
+        5899099745,
+        5899099746,
+        5899099747,
+        5899099748,
+        5899099749,
+        5899099750,
+        5899099751,
+        5899102802,
+        5899099752,
+        5899099753,
+        5899099754,
+        5899099755,
+        5899099756,
+        5899099757,
+        5899099758,
+        5899099759,
+        5899099760,
+        5899099761,
+        5899099762,
+        5899099763,
+        5899099764,
+        5899099765,
+        5899099766,
+        5899099728
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 640806635,
+      "center": {
+        "lat": 1.3600979,
+        "lon": 103.8297245
+      },
+      "nodes": [
+        6036246621,
+        6036246622,
+        6036246623,
+        6036246624,
+        6036246621
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Pool Deck",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 677411869,
+      "center": {
+        "lat": 1.3262193,
+        "lon": 103.9378453
+      },
+      "nodes": [
+        6342888838,
+        6342889507,
+        6342889367,
+        6342888839,
+        1314943679,
+        6342889502,
+        6342889503,
+        6342889504,
+        6342889505,
+        6342889506,
+        6342889509,
+        6342889508,
+        6342888838
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Bedok Sports Complex",
+        "name:th": "ศูนย์กีฬาเบอดก"
+      }
+    },
+    {
+      "type": "way",
+      "id": 679018578,
+      "center": {
+        "lat": 1.3019672,
+        "lon": 103.8798071
+      },
+      "nodes": [
+        6357886873,
+        6357886874,
+        6357886875,
+        6357886876,
+        6357886873
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "38",
+        "addr:postcode": "399635",
+        "addr:street": "Jalan Benaan Kapal",
+        "leisure": "sports_centre",
+        "name": "The Cage",
+        "sport": "football;soccer"
+      }
+    },
+    {
+      "type": "way",
+      "id": 683697287,
+      "center": {
+        "lat": 1.3212677,
+        "lon": 103.8882348
+      },
+      "nodes": [
+        6404114919,
+        2119306109,
+        6404114920,
+        6404114921,
+        6404114922,
+        6404114923,
+        6404114919
+      ],
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "leisure": "sports_centre",
+        "name": "Geylang East Swimming Complex",
+        "roof:colour": "#dbe4e4",
+        "roof:levels": "1",
+        "roof:material": "metal",
+        "roof:orientation": "along",
+        "roof:shape": "round",
+        "sport": "swimming",
+        "wikidata": "Q140485447"
+      }
+    },
+    {
+      "type": "way",
+      "id": 722269771,
+      "center": {
+        "lat": 1.3304725,
+        "lon": 103.7256146
+      },
+      "nodes": [
+        6775027729,
+        10779944066,
+        6775027728,
+        9223111387,
+        9223111388,
+        6775027727,
+        6775027726,
+        6775027725,
+        6775028061,
+        6775028060,
+        6775028059,
+        10779944068,
+        6775028058,
+        10779944067,
+        6775028057,
+        6775028056,
+        6775028055,
+        6775028054,
+        10779944069,
+        6775027729
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "ActiveSG Park",
+        "name:zh": "ActiveSG 公园",
+        "website": "https://www.myactivesg.com/Facilities/jurong-lake-gardens-gym",
+        "wikidata": "Q140133056"
+      }
+    },
+    {
+      "type": "way",
+      "id": 738819172,
+      "center": {
+        "lat": 1.3622647,
+        "lon": 103.7699548
+      },
+      "nodes": [
+        7541310089,
+        6918007408,
+        6918007409,
+        6918007410,
+        6918007411,
+        6918007412,
+        6918007413,
+        6918007414,
+        6918007415,
+        6918007416,
+        6918007417,
+        6918007418,
+        6918007420,
+        6918007428,
+        7541310085,
+        7541310086,
+        7541310087,
+        7541310088,
+        7541310089
+      ],
+      "tags": {
+        "access": "customers",
+        "addr:city": "Singapore",
+        "addr:housenumber": "30",
+        "addr:postcode": "679058",
+        "addr:street": "Dairy Farm Road",
+        "leisure": "sports_centre",
+        "name": "MOE Dairy Farm Adventure Centre",
+        "name:zh": "教育部 牛乳场探索中心",
+        "operator": "MOE",
+        "operator:type": "public"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746276704,
+      "center": {
+        "lat": 1.3594083,
+        "lon": 103.860492
+      },
+      "nodes": [
+        6984006722,
+        6984006723,
+        6984006724,
+        6984006725,
+        6984006726,
+        6984006727,
+        6984006722
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "43",
+        "addr:street": "Burghley Drive",
+        "building": "sports_centre",
+        "leisure": "sports_centre",
+        "levels": "4",
+        "name": "Burghley Squash & Tennis Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 765756271,
+      "center": {
+        "lat": 1.3442337,
+        "lon": 103.9650516
+      },
+      "nodes": [
+        7151773794,
+        7151773793,
+        7151773792,
+        7151773791,
+        7151773790,
+        7151773789,
+        7151773788,
+        7151773787,
+        2518561288,
+        7151773786,
+        7151773785,
+        2518561089,
+        7151757784,
+        7151757783,
+        7151757782,
+        7151757781,
+        7151757780,
+        7151757779,
+        7151757778,
+        7151757777,
+        7151757776,
+        7151757775,
+        7151757774,
+        7151757773,
+        7151757772,
+        7151757771,
+        7151757770,
+        7151757769,
+        2518561375,
+        7151757768,
+        7151757767,
+        7151757766,
+        7151757759,
+        7151757758,
+        7151757765,
+        7151757764,
+        7151757763,
+        7151757762,
+        7151757761,
+        7151757760,
+        7151773794
+      ],
+      "tags": {
+        "addr:housenumber": "726",
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "sports_centre",
+        "name": "SIA Sports Club"
+      }
+    },
+    {
+      "type": "way",
+      "id": 776915899,
+      "center": {
+        "lat": 1.3018542,
+        "lon": 103.8860978
+      },
+      "nodes": [
+        7249270284,
+        7249283685,
+        7249283686,
+        7249283687,
+        7249270284
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Katong Swimming Complex",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 776917547,
+      "center": {
+        "lat": 1.3445266,
+        "lon": 103.7483725
+      },
+      "nodes": [
+        7249276077,
+        7249276071,
+        7249276072,
+        7249276073,
+        7249276074,
+        7249276075,
+        7249276076,
+        6674046667,
+        6674046666,
+        6674046665,
+        6674046664,
+        7249276077
+      ],
+      "tags": {
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 777238826,
+      "center": {
+        "lat": 1.3209673,
+        "lon": 103.8880663
+      },
+      "nodes": [
+        6942480802,
+        6942480801,
+        7252400973,
+        7252400974,
+        6942480802
+      ],
+      "tags": {
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 777462227,
+      "center": {
+        "lat": 1.3108705,
+        "lon": 103.7649762
+      },
+      "nodes": [
+        1142143426,
+        7255078066,
+        7255078067,
+        1142143342,
+        1142143426
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Clementi Sports Hall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 827595150,
+      "center": {
+        "lat": 1.4086737,
+        "lon": 103.9067642
+      },
+      "nodes": [
+        7726261572,
+        7726261573,
+        11370506102,
+        7726261574,
+        7726261575,
+        11370506103,
+        11370506104,
+        7726261576,
+        11370506105,
+        7726261577,
+        11370506106,
+        7726261578,
+        11370506109,
+        7726261579,
+        7726261580,
+        11370506107,
+        11370506108,
+        7726261581,
+        7726261582,
+        1913644915,
+        7726309188,
+        1913644914,
+        7726309187,
+        7726261572
+      ],
+      "tags": {
+        "construction": "recreation_ground",
+        "landuse": "construction",
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 930113503,
+      "center": {
+        "lat": 1.3203144,
+        "lon": 103.8671622
+      },
+      "nodes": [
+        8624780305,
+        8669100652,
+        8669100638,
+        8669100653,
+        8639340710,
+        8669100654,
+        8669100637,
+        8669100655,
+        8624780306,
+        8669100656,
+        8669100636,
+        8669100646,
+        8639340705,
+        8669100647,
+        8669100635,
+        8669100648,
+        8624780307,
+        8624780309,
+        8669100645,
+        8669100659,
+        8624780313,
+        8669100660,
+        8669100644,
+        8669100661,
+        8624780310,
+        8669100662,
+        8669100643,
+        8639340707,
+        8669100642,
+        8639340708,
+        8669100641,
+        8669100658,
+        8624780311,
+        8669100657,
+        8669100640,
+        8669100649,
+        8639340709,
+        8669100651,
+        8669100639,
+        8669100650,
+        8624780305
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Kolam Ayer Kayaking Centre",
+        "sport": "canoe"
+      }
+    },
+    {
+      "type": "way",
+      "id": 949082628,
+      "center": {
+        "lat": 1.30748,
+        "lon": 103.7698784
+      },
+      "nodes": [
+        8785708450,
+        9154705535,
+        8785708451,
+        10846689854,
+        8785708452,
+        10310454070,
+        10310454071,
+        1843451217,
+        8509972020,
+        1843451204,
+        2494612931,
+        10310454072,
+        10310454073,
+        10310454074,
+        9154705534,
+        8785708450
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Indoor Sports Hall",
+        "name:zh": "室内体育场",
+        "sport": "basketball;volleyball;netball"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986571392,
+      "center": {
+        "lat": 1.448914,
+        "lon": 103.8237672
+      },
+      "nodes": [
+        10857475268,
+        9119308609,
+        9119308608,
+        10857475267,
+        10857475268
+      ],
+      "tags": {
+        "addr:city": "Sembawang",
+        "addr:country": "SG",
+        "addr:housenumber": "21",
+        "addr:postcode": "756973",
+        "addr:street": "Canberra Link",
+        "building": "public",
+        "building:colour": "brown",
+        "building:levels": "4",
+        "leisure": "sports_centre",
+        "name": "Bukit Canberra Indoor Sports Hall",
+        "roof:colour": "green",
+        "roof:material": "grass",
+        "start_date": "2022-10-23",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013481619,
+      "center": {
+        "lat": 1.441283,
+        "lon": 103.7868801
+      },
+      "nodes": [
+        9350387229,
+        9350387230,
+        9350387231,
+        9350387232,
+        9350387233,
+        9350387234,
+        9350387229
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1060096953,
+      "center": {
+        "lat": 1.3424039,
+        "lon": 103.7927912
+      },
+      "nodes": [
+        9739834313,
+        9739834312,
+        4385078793,
+        9739834311,
+        9864033793,
+        9739834318,
+        9739834317,
+        9864033769,
+        9739834313
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "220",
+        "addr:postcode": "288001",
+        "addr:street": "Turf Club Road",
+        "barrier": "fence",
+        "email": "info@weplaypaintball.com",
+        "leisure": "sports_centre",
+        "name": "Red Dynasty Paintball Park",
+        "name:en": "Red Dynasty Paintball Park",
+        "opening_hours": "Mo-Su 09:00-20:00 || \"by appointment\"",
+        "phone": "+65 6659 4782",
+        "source": "Kaart Ground Survey 2017",
+        "sport": "paintball",
+        "website": "https://weplaypaintball.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1075543079,
+      "center": {
+        "lat": 1.3429018,
+        "lon": 103.7930199
+      },
+      "nodes": [
+        9864033769,
+        9739834316,
+        9739834315,
+        9739834314,
+        9739834313,
+        9864033769
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "220",
+        "addr:street": "Turf Club Road",
+        "barrier": "fence",
+        "email": "dmarchery@hotmail.com",
+        "leisure": "sports_centre",
+        "name": "DM Archery",
+        "phone": "+65 9852 3542",
+        "sport": "archery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1090382300,
+      "center": {
+        "lat": 1.3745736,
+        "lon": 103.7474788
+      },
+      "nodes": [
+        7317998845,
+        9987413611,
+        5889514313,
+        9987413612,
+        12394207446,
+        9987413613,
+        12394207451,
+        12394207450,
+        12394207449,
+        12394207448,
+        12394207447,
+        9987413614,
+        9987413615,
+        12394207445,
+        9987413616,
+        9987446817,
+        9987446818,
+        7317998845
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "The Bricks: Sport-In-Precinct & Cycle Park",
+        "note": "Expected to be completed in 2025"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1090980353,
+      "center": {
+        "lat": 1.4531798,
+        "lon": 103.8218834
+      },
+      "nodes": [
+        9992672986,
+        9992672987,
+        9992672988,
+        9992672989,
+        9992672986
+      ],
+      "tags": {
+        "addr:postcode": "751507",
+        "addr:street": "Wellington Circle",
+        "fee": "no",
+        "leisure": "sports_centre",
+        "name": "ActiveSG Sports Facilities",
+        "sport": "fitness_corner;tennis"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1097492641,
+      "center": {
+        "lat": 1.3034677,
+        "lon": 103.775775
+      },
+      "nodes": [
+        10049128038,
+        10049128044,
+        10049128039,
+        10049128040,
+        10049128041,
+        10049128042,
+        10049128043,
+        10049128038
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "sport": "climbing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1164103938,
+      "center": {
+        "lat": 1.2998112,
+        "lon": 103.8391955
+      },
+      "nodes": [
+        10826652626,
+        10826652627,
+        11282778287,
+        10826652628,
+        11282778288,
+        10826652629,
+        10826652626
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "10A",
+        "addr:postcode": "239958",
+        "addr:street": "Exeter Road",
+        "landuse": "recreation_ground",
+        "leisure": "sports_centre",
+        "name": "Trifecta",
+        "website": "https://trifectasingapore.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1173865728,
+      "center": {
+        "lat": 1.3326,
+        "lon": 103.7196941
+      },
+      "nodes": [
+        10907386325,
+        10907386326,
+        13329708439,
+        10907386327,
+        7384409619,
+        10907386328,
+        10907386329,
+        13329708443,
+        13329708444,
+        10907386325
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "2",
+        "addr:postcode": "619618",
+        "addr:street": "International Road",
+        "leisure": "sports_centre",
+        "name": "ActiveSG Sport Village @ Jurong Town",
+        "name:zh": "ActiveSG裕廊镇运动村"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1175894506,
+      "center": {
+        "lat": 1.3415629,
+        "lon": 103.9324261
+      },
+      "nodes": [
+        1954023524,
+        10926210081,
+        10926210082,
+        10926210083,
+        10926210084,
+        10926210085,
+        10926210086,
+        10926210087,
+        10926210088,
+        10926210089,
+        10926210090,
+        10926210091,
+        10926210092,
+        10926210093,
+        1954023524
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Water Venture Bedok Reservoir",
+        "addr:housenumber": "911",
+        "addr:postcode": "479311",
+        "addr:street": "Bedok Reservoir Road",
+        "alt_name": "PAssion WaVe @ Bedok Reservoir;Water-Venture Bedok Reservoir",
+        "building": "yes",
+        "email": "PA_WVBEDOKRESERVOIR@pa.gov.sg",
+        "layer": "1",
+        "leisure": "sports_centre",
+        "name": "PAssion Wave @ Bedok Reservoir",
+        "name:zh": "勿洛 百盛亲水天地",
+        "opening_hours": "Rental Hours: Wed-Fri: 9am-6pm; Sat-Sun: 8am-6pm",
+        "phone": "+65 9710 1697",
+        "sport": "Dragon_boats;Kayaks",
+        "start_date": "2005-06",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.pa.gov.sg/our-programmes/water-venture/locate-wv/detail/Water-Venture-Bedok-Reservoir-",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1187533429,
+      "center": {
+        "lat": 1.459025,
+        "lon": 103.8436114
+      },
+      "nodes": [
+        11027177146,
+        11027177147,
+        9709249272,
+        9709249267,
+        9709249269,
+        9709249273,
+        621176098,
+        621176097,
+        621176096,
+        9709249276,
+        9709249270,
+        9709249277,
+        621176095,
+        9709249274,
+        9709249271,
+        621176094,
+        621176093,
+        9709249268,
+        621176092,
+        11027177146
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "PAssion Wave @ Sembawang",
+        "name:zh": "三巴旺 百盛亲水天地"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1216806682,
+      "center": {
+        "lat": 1.2898312,
+        "lon": 103.8201389
+      },
+      "nodes": [
+        11274643753,
+        11274643754,
+        11274643755,
+        11274643756,
+        11274643757,
+        11274643758,
+        1831692877,
+        1831692875,
+        11274643753
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "900",
+        "addr:postcode": "158790",
+        "addr:street": "Tiong Bahru Road",
+        "leisure": "sports_centre",
+        "name": "Delta Sports Complex"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1226134817,
+      "center": {
+        "lat": 1.4086404,
+        "lon": 103.9067847
+      },
+      "nodes": [
+        11370490332,
+        11370490365,
+        11370490364,
+        11370506077,
+        11370506076,
+        11370490331,
+        11370490330,
+        11370490329,
+        11370490320,
+        11370490328,
+        11370490327,
+        11370490326,
+        11370490325,
+        11370506089,
+        11370490363,
+        11370490362,
+        11370490361,
+        11370490360,
+        11370490359,
+        11370490358,
+        11370490357,
+        11370490356,
+        11370490355,
+        11370490354,
+        11370490353,
+        11370490352,
+        11370490351,
+        11370490350,
+        11370490349,
+        11370490348,
+        11370490347,
+        11370490346,
+        11370490345,
+        11370490344,
+        11370490343,
+        11370490342,
+        11370490341,
+        11370490340,
+        11370490339,
+        11370490338,
+        11370490337,
+        11370490336,
+        11370490335,
+        11370490334,
+        11370490333,
+        11370490332
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "11",
+        "addr:postcode": "828656",
+        "addr:street": "Sentul Crescent",
+        "building": "construction",
+        "construction": "sports_centre",
+        "leisure": "sports_centre",
+        "name": "Punggol Regional Sports Centre",
+        "name:ms": "Pusat Sukan Daerah Punggol"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1233745017,
+      "center": {
+        "lat": 1.3174008,
+        "lon": 103.856325
+      },
+      "nodes": [
+        11448808336,
+        11448808337,
+        11448808338,
+        11448808339,
+        11448808336
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "49",
+        "addr:postcode": "329676",
+        "addr:street": "Balestier Road",
+        "building": "sports_centre",
+        "leisure": "sports_centre",
+        "name": "Singapore Chinese Recreation Club",
+        "name:zh": "新加坡中华俱乐部"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1387593891,
+      "center": {
+        "lat": 1.375301,
+        "lon": 103.7134145
+      },
+      "nodes": [
+        12844688426,
+        12844688430,
+        12844688431,
+        12844688427,
+        12844688428,
+        12844688429,
+        12844688426
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Old Choa Chu Kang Road",
+        "building": "yes",
+        "building:levels": "0",
+        "leisure": "sports_centre",
+        "sport": "swimming"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1449603440,
+      "center": {
+        "lat": 1.3033811,
+        "lon": 103.8110784
+      },
+      "nodes": [
+        13296187465,
+        13296187466,
+        13296187467,
+        2489486833,
+        13296187468,
+        13296187469,
+        13296187470,
+        13296187471,
+        13296187472,
+        13296187473,
+        13296187474,
+        13296187465
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "The Cage Dempsey",
+        "sport": "padel;pickleball;cricket;soccer"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1460961797,
+      "center": {
+        "lat": 1.3902993,
+        "lon": 103.7719482
+      },
+      "nodes": [
+        13970108590,
+        13970108591,
+        13970108594,
+        13970108592,
+        13970108593,
+        13970108590
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "ARK Sports Village",
+        "operator": "The Ark",
+        "operator:type": "private",
+        "sport": "futsal;basketball"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1468050244,
+      "center": {
+        "lat": 1.3825616,
+        "lon": 103.8465863
+      },
+      "nodes": [
+        1699512798,
+        13464602289,
+        13464602290,
+        13464602291,
+        13464602292,
+        13464602293,
+        13464602294,
+        13464602295,
+        13464602296,
+        13464602297,
+        13464602298,
+        13464602299,
+        13464602300,
+        13464602301,
+        13464602302,
+        13464602303,
+        13464602304,
+        13464602305,
+        13464602306,
+        13464602307,
+        13464602308,
+        13464602309,
+        13464602310,
+        13464602311,
+        13464602312,
+        13464602313,
+        13464602314,
+        13464602315,
+        13464602316,
+        13464602317,
+        436691178,
+        13464602331,
+        13446175638,
+        436691180,
+        13464602318,
+        13464602319,
+        13464602320,
+        13464602321,
+        13464602322,
+        13464602323,
+        13464602324,
+        13464602325,
+        13464602326,
+        13464602327,
+        13464602328,
+        13464602329,
+        13464602330,
+        1699512798
+      ],
+      "tags": {
+        "landuse": "recreation_ground",
+        "leisure": "sports_centre",
+        "name": "Yio Chu Kang Sports Complex",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1495920123,
+      "center": {
+        "lat": 1.3546469,
+        "lon": 103.8510189
+      },
+      "nodes": [
+        13704222330,
+        13704222329,
+        13704222327,
+        13704222328,
+        13704222326,
+        5265320891,
+        5265320885,
+        11297326637,
+        13704226603,
+        13704226602,
+        13704226601,
+        13704222400,
+        13704222399,
+        13704222398,
+        13704222397,
+        13704222396,
+        13704222395,
+        1699512710,
+        13704226615,
+        13704226616,
+        13704226617,
+        13704226618,
+        13704226619,
+        5242556754,
+        4631007704,
+        5242556771,
+        5242556770,
+        4631007707,
+        5242556767,
+        13704226620,
+        13704226621,
+        13704226622,
+        13704226623,
+        5242556762,
+        13704226624,
+        13704226625,
+        13704226626,
+        13704226627,
+        13704226628,
+        13704226629,
+        13704226630,
+        13704222330
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Bishan Sport Complex"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1503361283,
+      "center": {
+        "lat": 1.3059053,
+        "lon": 103.9319657
+      },
+      "nodes": [
+        13758734211,
+        13758734212,
+        13758734213,
+        13758734214,
+        13758734215,
+        13758734216,
+        13758734211
+      ],
+      "tags": {
+        "area": "yes",
+        "leisure": "sports_centre",
+        "name": "Cable Ski",
+        "sport": "water ski"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1534244619,
+      "center": {
+        "lat": 1.3966142,
+        "lon": 103.8763159
+      },
+      "nodes": [
+        13980238841,
+        13980238842,
+        13980238843,
+        13980238844,
+        13980238847,
+        13980238841
+      ],
+      "tags": {
+        "landuse": "recreation_ground",
+        "leisure": "sports_centre",
+        "name": "The Sports Arina @ Jalan Kayu"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2243172,
+      "center": {
+        "lat": 1.4206156,
+        "lon": 103.9295503
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 54710532,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 168277050,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Outward Bound Singapore Camp 1",
+        "name:zh": "新加坡外展训练中心1号营地",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2297297,
+      "center": {
+        "lat": 1.2893102,
+        "lon": 103.8197333
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 104352649,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 104352651,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 104352648,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Delta Swimming Complex",
+        "sport": "swimming",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2301066,
+      "center": {
+        "lat": 1.2818586,
+        "lon": 103.8180109
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 44584730,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 97588114,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 97588107,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "3500A",
+        "addr:postcode": "159837",
+        "addr:street": "Bukit Merah Central",
+        "leisure": "sports_centre",
+        "name": "Sports Lifestyle Centre",
+        "opening_hours": "Mo-Su 07:30-21:00",
+        "phone": "+65 6100 0754",
+        "sport": "swimming",
+        "type": "multipolygon",
+        "website": "https://sportslifestyle.com.sg/"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2317294,
+      "center": {
+        "lat": 1.3103116,
+        "lon": 103.7658372
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 98728970,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 98728966,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 98728968,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 98728967,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Clementi Swimming Complex",
+        "sport": "swimming",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2383406,
+      "center": {
+        "lat": 1.4459297,
+        "lon": 103.7840595
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 178582407,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 178582411,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 178582415,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "Swimming Complex",
+        "sport": "swimming",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2746775,
+      "center": {
+        "lat": 1.4288592,
+        "lon": 103.7680069
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 204877767,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 204643965,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 204652039,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Singapore Turf Club Riding Centre",
+        "sport": "equestrian",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2746776,
+      "center": {
+        "lat": 1.4222605,
+        "lon": 103.7640908
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 204877768,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 44361157,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 204652039,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:postcode": "738078",
+        "addr:street": "Turf Club Avenue",
+        "fee": "yes",
+        "leisure": "sports_centre",
+        "name": "Kranji Racecourse",
+        "name:en": "Kranji Racecourse",
+        "name:th": "สนามแข่งกรันจี",
+        "name:zh": "克兰芝马场",
+        "name:zh-Hans": "克兰芝马场",
+        "name:zh-Hant": "克蘭芝馬場",
+        "operator": "Singapore Turf Club",
+        "operator:en": "Singapore Turf Club",
+        "operator:wikidata": "Q6147800",
+        "operator:wikipedia": "en:Singapore Turf Club",
+        "operator:zh": "新加坡赛马公会",
+        "operator:zh-Hans": "新加坡赛马公会",
+        "operator:zh-Hant": "新加坡賽馬公會",
+        "sport": "horse_racing",
+        "start_date": "2000-03-04",
+        "type": "multipolygon",
+        "website": "https://www.turfclub.com.sg",
+        "wikidata": "Q6436091",
+        "wikipedia": "en:Kranji Racecourse"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 8350580,
+      "center": {
+        "lat": 1.3575191,
+        "lon": 103.8305276
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 593533899,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 593533896,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "leisure": "sports_centre",
+        "name": "Island Lounges",
+        "sport": "swimming",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11109403,
+      "center": {
+        "lat": 1.3117762,
+        "lon": 103.9362137
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 804875529,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 116674974,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "56",
+        "addr:neighbourhood": "Bayshore Park",
+        "addr:postcode": "469980",
+        "addr:street": "Bayshore Road",
+        "building": "yes",
+        "building:levels": "1",
+        "leisure": "sports_centre",
+        "roof:colour": "#657745",
+        "roof:levels": "1",
+        "roof:shape": "mansard",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11109653,
+      "center": {
+        "lat": 1.3464459,
+        "lon": 103.7809866
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 390781231,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804896520,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "131",
+        "addr:postcode": "588406",
+        "addr:street": "Rifle Range Road",
+        "addr:unit": "#03-03",
+        "club": "social",
+        "leisure": "sports_centre",
+        "name": "Temasek Clubhouse",
+        "phone": "+65 6801 4242",
+        "type": "multipolygon",
+        "website": "https://www.temasekclub.org.sg/"
+      }
+    }
+  ]
+}

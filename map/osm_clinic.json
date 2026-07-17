@@ -1,0 +1,7309 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-16T04:06:19Z",
+    "timestamp_areas_base": "2026-05-12T07:36:16Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1652500499,
+      "lat": 1.2961959,
+      "lon": 103.7869593,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "69",
+        "addr:postcode": "139961",
+        "addr:street": "Ayer Rajah Crescent",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dover Medical Centre",
+        "opening_hours": "Mo-Fr 08:30-17:30",
+        "phone": "+65 67756266"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1843450677,
+      "lat": 1.3126992,
+      "lon": 103.7656185,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "451",
+        "addr:postcode": "120451",
+        "addr:street": "Clementi Avenue 3",
+        "addr:unit": "#02-307",
+        "amenity": "clinic",
+        "branch": "Clementi",
+        "healthcare": "clinic",
+        "name": "Clementi Polyclinic",
+        "name:ms": "Poliklinik Clementi",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "National University Polyclinics",
+        "phone": "+65 6355 3000",
+        "website": "https://www.nup.com.sg/Pages/Our%20Clinics/our-clinics-clemp.aspx",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2491833332,
+      "lat": 1.3098536,
+      "lon": 103.7685997,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "My Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2491836241,
+      "lat": 1.3098704,
+      "lon": 103.7686377,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "dental_oral_maxillo_facial_surgery",
+        "name": "Casa Dental"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3038816607,
+      "lat": 1.2836914,
+      "lon": 103.8170178,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:flats": "#04-3565",
+        "addr:housenumber": "163",
+        "addr:postcode": "150163",
+        "addr:street": "Bukit Merah Central",
+        "amenity": "clinic",
+        "branch": "Bukit Merah",
+        "email": "bukitmerahpolyclinic@singhealth.com.sg",
+        "healthcare": "clinic",
+        "name": "Bukit Merah Polyclinic",
+        "name:ms": "Poliklinik Bukit Merah",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "SingHealth",
+        "phone": "+65 6643 6969",
+        "website": "https://polyclinic.singhealth.com.sg/AboutSingHealthPolyclinics/OurPolyclinics/BukitMerah/Pages/Home.aspx"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3923016227,
+      "lat": 1.3771215,
+      "lon": 103.772944,
+      "tags": {
+        "addr:housenumber": "259",
+        "addr:street": "Bukit Panjang Ring Road",
+        "amenity": "clinic",
+        "check_date": "2024-08-31",
+        "healthcare": "clinic",
+        "name": "Prohealth",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4368147044,
+      "lat": 1.3110846,
+      "lon": 103.7952681,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Lorong Mambong",
+        "amenity": "clinic",
+        "name": "BOEY @ Holland V Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4465898691,
+      "lat": 1.3935916,
+      "lon": 103.909454,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4483878497,
+      "lat": 1.29925,
+      "lon": 103.8534007,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2025-03-12",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Inmed",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4494189991,
+      "lat": 1.301773,
+      "lon": 103.8577221,
+      "tags": {
+        "addr:housenumber": "390 #03-34",
+        "addr:postcode": "188061",
+        "addr:street": "Victoria Street",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "KiroLounge - The Spine Place",
+        "opening_hours": "Tu-Fr 10:00-12:30, 16:00-19:30; Sa 09:00-12:30; PH off",
+        "operator": "KiroLounge",
+        "phone": "+6563363738",
+        "website": "https://thekirolounge.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4502007590,
+      "lat": 1.3208122,
+      "lon": 103.8621964,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "102",
+        "addr:postcode": "322102",
+        "addr:street": "Towner Road",
+        "addr:unit": "#01-272",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "dermatology",
+        "name": "Trans Island Medical Group",
+        "name:zh": "环岛西药房",
+        "opening_hours": "Mo-Fr 10:30-13:00, 14:00-18:00; Sa 09:30-12:00",
+        "phone": "+6562991898"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4583783511,
+      "lat": 1.3195749,
+      "lon": 103.88731,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "21",
+        "addr:postcode": "389707",
+        "addr:street": "Geylang East Central",
+        "amenity": "clinic",
+        "branch": "Geylang",
+        "email": "geylangpolyclinic@singhealth.com.sg",
+        "healthcare": "clinic",
+        "name": "Geylang Polyclinic",
+        "name:ms": "Poliklinik Geylang",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "SingHealth",
+        "phone": "+65 6643 6969",
+        "source": "Kaart Ground Survey 2017",
+        "website": "https://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-Geylang.aspx"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4583841487,
+      "lat": 1.4307876,
+      "lon": 103.7752254,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "10",
+        "addr:postcode": "738579",
+        "addr:street": "Woodlands Street 31",
+        "amenity": "clinic",
+        "branch": "Woodlands",
+        "healthcare": "clinic",
+        "name": "Woodlands Polyclinic",
+        "name:ms": "Poliklinik Woodlands",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "National Healthcare Group",
+        "phone": "+65 6355 3000",
+        "website": "https://www.nhgp.com.sg/Our_Clinics/Woodlands_Polyclinic/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4583842089,
+      "lat": 1.3496231,
+      "lon": 103.7307295,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "190",
+        "addr:postcode": "609788",
+        "addr:street": "Jurong East Avenue 1",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Jurong Polyclinic",
+        "name:ms": "Poliklinik Jurong",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "National Healthcare Group",
+        "phone": "+65 6355 3000",
+        "website": "https://www.nhgp.com.sg/Our_Clinics/Jurong_Polyclinic/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4583842091,
+      "lat": 1.3520458,
+      "lon": 103.747842,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "50",
+        "addr:postcode": "659164",
+        "addr:street": "Bukit Batok West Avenue 3",
+        "amenity": "clinic",
+        "branch": "Bukit Batok",
+        "name": "Bukit Batok Polyclinic",
+        "name:ms": "Poliklinik Bukit Batok",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "National Healthcare Group",
+        "phone": "+65 6355 3000",
+        "website": "https://www.nhgp.com.sg/Our_Clinics/Bukit_Batok_Polyclinic/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4583842093,
+      "lat": 1.3572803,
+      "lon": 103.9458598,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "529203",
+        "addr:street": "Tampines Street 41",
+        "amenity": "clinic",
+        "branch": "Tampines",
+        "email": "tampinespolyclinic@singhealth.com.sg",
+        "healthcare": "clinic",
+        "name": "Tampines Polyclinic",
+        "name:ms": "Poliklinik Tampines",
+        "name:zh": "淡滨尼综合诊疗所",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "SingHealth",
+        "phone": "+65 6643 6969",
+        "website": "https://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-Tampines.aspx"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4583842094,
+      "lat": 1.3926934,
+      "lon": 103.8941112,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "2",
+        "addr:postcode": "545025",
+        "addr:street": "Sengkang Square",
+        "addr:unit": "#01-06",
+        "amenity": "clinic",
+        "branch": "Sengkang",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "level": "0;1;2",
+        "name": "Sengkang Polyclinic",
+        "name:ms": "Poliklinik Sengkang",
+        "opening_hours": "Mo-Fr 08:00-13:00,14:00-16:30; Sa 08:00-12:30; Su off; PH off",
+        "operator": "SingHealth"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4583842097,
+      "lat": 1.2799045,
+      "lon": 103.8381683,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Health Promotion Board Building",
+        "addr:housenumber": "3",
+        "addr:postcode": "168937",
+        "addr:street": "Second Hospital Avenue",
+        "addr:unit": "#02-00",
+        "amenity": "clinic",
+        "branch": "Outram",
+        "email": "outrampolyclinic@singhealth.com.sg",
+        "healthcare": "clinic",
+        "name": "Outram Polyclinic",
+        "name:ms": "Poliklinik Outram",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "SingHealth",
+        "phone": "+65 6643 6969",
+        "website": "https://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-Outram.aspx"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4583842098,
+      "lat": 1.3025477,
+      "lon": 103.9077648,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "80",
+        "addr:postcode": "440080",
+        "addr:street": "Marine Parade Central",
+        "amenity": "clinic",
+        "branch": "Marine Parade",
+        "email": "marineparadepolyclinic@singhealth.com.sg",
+        "healthcare": "clinic",
+        "name": "Marine Parade Polyclinic",
+        "name:ms": "Poliklinik Marine Parade",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "SingHealth",
+        "phone": "+65 6643 6969",
+        "website": "https://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-MarineParade.aspx#"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4583842101,
+      "lat": 1.3269378,
+      "lon": 103.9316066,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "212",
+        "addr:postcode": "460212",
+        "addr:street": "Bedok North Street 1",
+        "addr:unit": "#03-147",
+        "amenity": "clinic",
+        "branch": "Bedok",
+        "email": "bedokpolyclinic@singhealth.com.sg",
+        "healthcare": "clinic",
+        "healthcare:speciality": "fertility",
+        "name": "Bedok Polyclinic",
+        "name:ms": "Poliklinik Bedok",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "SingHealth",
+        "phone": "+65 6643 6969",
+        "website": "https://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-Bedok.aspx"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4583845858,
+      "lat": 1.3686674,
+      "lon": 103.9592631,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "519457",
+        "addr:street": "Pasir Ris Drive 4",
+        "addr:unit": "#01-11",
+        "amenity": "clinic",
+        "branch": "Pasir Ris",
+        "email": "pasirrispolyclinic@singhealth.com.sg",
+        "healthcare": "clinic",
+        "name": "Pasir Ris Polyclinic",
+        "name:ms": "Poliklinik Pasir Ris",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "SingHealth",
+        "phone": "+65 6643 6969",
+        "website": "https://polyclinic.singhealth.com.sg/AboutUs/OurPolyclinics/Pages/SHP-.aspx"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4599780491,
+      "lat": 1.3277349,
+      "lon": 103.9213776,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "351",
+        "addr:postcode": "468982",
+        "addr:street": "Chai Chee Street",
+        "alt_name": "Econ Medicare Centre",
+        "amenity": "clinic",
+        "branch": "Uttamram",
+        "healthcare": "clinic",
+        "name": "SATA CommHealth Uttamram Medical Centre",
+        "opening_hours": "Mo-Fr 08:00-17:30; Sa 08:00-13:30",
+        "operator": "SATA CommHealth",
+        "phone": "+65 6244 6688",
+        "source": "Bing",
+        "website": "https://www.sata.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4619401089,
+      "lat": 1.3278759,
+      "lon": 103.9211969,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sata",
+        "name:en": "Sata"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621781812,
+      "lat": 1.3710916,
+      "lon": 103.848313,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "OneDoctors"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621805804,
+      "lat": 1.4172444,
+      "lon": 103.8345881,
+      "tags": {
+        "amenity": "clinic",
+        "name": "OneDoctors"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621805805,
+      "lat": 1.3499221,
+      "lon": 103.8730547,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "OneDoctors"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4631657933,
+      "lat": 1.3024631,
+      "lon": 103.7930402,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "8",
+        "addr:postcode": "138665",
+        "addr:street": "Biomedical Grove",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Osteopathic Healthcare Pte Ltd"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4631661761,
+      "lat": 1.3023049,
+      "lon": 103.7930458,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "8",
+        "addr:postcode": "138648",
+        "addr:street": "Biomedical Grove",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "The Rehab Practice (Paediatric) Pte Ltd",
+        "opening_hours": "09:15-17:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4633815489,
+      "lat": 1.3023032,
+      "lon": 103.7932408,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ear, Nose & Throat Specialist Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4634033881,
+      "lat": 1.3290692,
+      "lon": 103.8869128,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Lifecare Medical Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4634041220,
+      "lat": 1.3288707,
+      "lon": 103.8871937,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ang Liang Medical Hall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4664735179,
+      "lat": 1.3620169,
+      "lon": 103.952748,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Cecilia Family Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4664735180,
+      "lat": 1.3619964,
+      "lon": 103.9534674,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Choong's Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4670075217,
+      "lat": 1.3521815,
+      "lon": 103.954022,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4682762243,
+      "lat": 1.3119584,
+      "lon": 103.922067,
+      "tags": {
+        "addr:street": "East Coast Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Frankel Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4682762244,
+      "lat": 1.3119289,
+      "lon": 103.9219988,
+      "tags": {
+        "addr:street": "East Coast Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Liang Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4683756262,
+      "lat": 1.3132177,
+      "lon": 103.9293425,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "108",
+        "addr:postcode": "455297",
+        "addr:street": "Upper East Coast Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "C & K Family Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4684139323,
+      "lat": 1.3062498,
+      "lon": 103.9056588,
+      "tags": {
+        "addr:street": "East Coast Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Thomson Women's Centre",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4685494137,
+      "lat": 1.3275353,
+      "lon": 103.9347244,
+      "tags": {
+        "addr:street": "Bedok North Street 1",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Bedok Family Clinic & Surgery",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4689375096,
+      "lat": 1.3181617,
+      "lon": 103.9071018,
+      "tags": {
+        "addr:street": "Changi Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Lim Clinic",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4689443914,
+      "lat": 1.3149067,
+      "lon": 103.8905887,
+      "tags": {
+        "addr:street": "Geylang Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "M. Lam Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4689499454,
+      "lat": 1.31277,
+      "lon": 103.8794922,
+      "tags": {
+        "addr:street": "Geylang Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Xinhuo Medical Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4689590455,
+      "lat": 1.3167538,
+      "lon": 103.9016327,
+      "tags": {
+        "addr:street": "Changi Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Geylang Serai Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4695847066,
+      "lat": 1.3150317,
+      "lon": 103.8829388,
+      "tags": {
+        "addr:street": "Sims Avenue",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "ECM X-Ray Centre PTE LTD",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4695847067,
+      "lat": 1.3149644,
+      "lon": 103.8826951,
+      "tags": {
+        "addr:street": "Sims Avenue",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "ECM Clinic & Surgery PTE LTD",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4696036288,
+      "lat": 1.3213131,
+      "lon": 103.9027504,
+      "tags": {
+        "addr:street": "Eunos Crescent",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Crescent Clinic & Surgery",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4696246671,
+      "lat": 1.319258,
+      "lon": 103.8866552,
+      "tags": {
+        "addr:housenumber": "119",
+        "addr:street": "Geylang East Central",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4701839583,
+      "lat": 1.3725723,
+      "lon": 103.8856713,
+      "tags": {
+        "addr:street": "Hougang Avenue 4",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Central 24-Hr Clinic (Hougang)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4701887198,
+      "lat": 1.309495,
+      "lon": 103.9119627,
+      "tags": {
+        "addr:street": "Telok Kurau Court",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Siglap Clinic",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4702309475,
+      "lat": 1.3105762,
+      "lon": 103.9016544,
+      "tags": {
+        "addr:housenumber": "259",
+        "addr:street": "Joo Chiat Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Wong Pang Ong Bone Injury Specialists",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4702468229,
+      "lat": 1.3070444,
+      "lon": 103.9040604,
+      "tags": {
+        "addr:street": "Joo Chiat Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "EstheClinic Paris",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4703167425,
+      "lat": 1.3784112,
+      "lon": 103.7638595,
+      "tags": {
+        "addr:floor": "2",
+        "addr:housenumber": "17",
+        "addr:postcode": "678278",
+        "addr:street": "Petir Road",
+        "addr:unit": "#02-07/08",
+        "amenity": "clinic",
+        "check_date": "2026-04-19",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Raffles Medical",
+        "opening_hours": "Mo-Fr 08:30-13:00,14:00-17:30,18:30-21:30; Sa 08:30-13:00,14:00-17:30; Su 08:30-13:00",
+        "operator": "Raffles Medical",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:nets": "yes",
+        "payment:visa": "yes",
+        "phone": "+65 6769 0571",
+        "website": "https://www.rafflesmedicalgroup.com/clinic/raffles-medical-hillion-mall/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4703885628,
+      "lat": 1.3065917,
+      "lon": 103.9047052,
+      "tags": {
+        "addr:street": "Joo Chiat Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Lee Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4703890889,
+      "lat": 1.3544962,
+      "lon": 103.8791387,
+      "tags": {
+        "addr:street": "Upper Serangoon Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Rhema",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4712211965,
+      "lat": 1.3620171,
+      "lon": 103.8856749,
+      "tags": {
+        "addr:street": "Simon Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "FHC Dialysis Centre Pte Ltd",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4712230311,
+      "lat": 1.2893158,
+      "lon": 103.8171453,
+      "tags": {
+        "addr:unit": "07",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Redwood Clinic And Surgery",
+        "name:zh": "红杉诊所"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4712355458,
+      "lat": 1.3586125,
+      "lon": 103.8875676,
+      "tags": {
+        "addr:street": "Hougang Street 21",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nam Ann Siang Theon Medical Centre",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4714211698,
+      "lat": 1.3698791,
+      "lon": 103.8703705,
+      "tags": {
+        "addr:street": "Serangoon North Avenue 1",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Medicane Associates",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4715503141,
+      "lat": 1.3291615,
+      "lon": 103.8733882,
+      "tags": {
+        "addr:street": "MacPherson Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "TCM Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4715753016,
+      "lat": 1.3401269,
+      "lon": 103.8850836,
+      "tags": {
+        "addr:street": "Jalan Bunga Rampai",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Kong Kian Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4722664181,
+      "lat": 1.4369623,
+      "lon": 103.8374022,
+      "tags": {
+        "addr:street": "Yishun Street 22",
+        "amenity": "clinic",
+        "name": "Sincere",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4723114956,
+      "lat": 1.3653193,
+      "lon": 103.8661529,
+      "tags": {
+        "addr:street": "Kensington Park Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Kensing On Family Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4723114958,
+      "lat": 1.3651898,
+      "lon": 103.8661498,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "14",
+        "addr:postcode": "557265",
+        "addr:street": "Kensington Park Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Mediline Wei Min Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4723114966,
+      "lat": 1.3647782,
+      "lon": 103.8660983,
+      "tags": {
+        "addr:street": "Kensington Park Road",
+        "amenity": "clinic",
+        "check_date": "2024-11-24",
+        "healthcare": "clinic",
+        "name": "K.N. Lau Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4723219338,
+      "lat": 1.2846024,
+      "lon": 103.8496846,
+      "tags": {
+        "addr:street": "Phillip Street",
+        "amenity": "clinic",
+        "fixme": "name",
+        "healthcare": "clinic",
+        "name": "The Medical Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4724531533,
+      "lat": 1.3154371,
+      "lon": 103.881475,
+      "tags": {
+        "addr:street": "Ajunied Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Singapore Buddhist Free Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4726888118,
+      "lat": 1.2938773,
+      "lon": 103.8513543,
+      "tags": {
+        "addr:street": "Stamford Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Medical Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4732557585,
+      "lat": 1.294114,
+      "lon": 103.8422718,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "240",
+        "addr:street": "River Valley Road",
+        "amenity": "clinic",
+        "contact:facebook": "pinnaclefamilyclinic",
+        "email": "pinnaclefcrv@gmail.com",
+        "healthcare": "clinic",
+        "name": "Pinnacle Family Clinic",
+        "opening_hours": "Mo-Fr 08:30-13:00, 14:00-17:00; Sa 09:00-13:00; Su 09:00-12:00",
+        "phone": "+6568366986",
+        "source": "Kaart Ground Survey 2017",
+        "website": "https://www.pinnaclefamilyclinic.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4734935259,
+      "lat": 1.3404956,
+      "lon": 103.7731508,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "84",
+        "addr:street": "Jalan Jurong Kechil",
+        "amenity": "clinic",
+        "name": "Tang Family Clinic",
+        "opening_hours": "Mo-Fr 09:00-16:00; Sa 09:00-14:30; Su 09:00-12:30",
+        "source": "Reconocimiento terrestre por Kaart 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4734935262,
+      "lat": 1.340453,
+      "lon": 103.7733342,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "76",
+        "addr:street": "Jalan Jurong Kechil",
+        "amenity": "clinic",
+        "name": "Cheong Medical Clinic",
+        "name:zh": "张大药房",
+        "source": "Reconocimiento terrestre por Kaart 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4737144032,
+      "lat": 1.3072509,
+      "lon": 103.8578754,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "New World Clinic & Surgery",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4738363991,
+      "lat": 1.3066129,
+      "lon": 103.8569422,
+      "tags": {
+        "addr:street": "Kelantan Lane",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "DSC",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4740088246,
+      "lat": 1.3258868,
+      "lon": 103.8422296,
+      "tags": {
+        "addr:street": "Thomson Road",
+        "amenity": "clinic",
+        "check_date": "2024-04-09",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Family Health Clinic & Surgery",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa-Su 10:00-17:00",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4745613613,
+      "lat": 1.2850445,
+      "lon": 103.8293517,
+      "tags": {
+        "addr:street": "Kim Tian Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Tiong Bahru Medical Centre",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4745692774,
+      "lat": 1.3022975,
+      "lon": 103.8527701,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Bencoolen Street",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ong's Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4745692781,
+      "lat": 1.2987062,
+      "lon": 103.8499262,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Bencoolen Street",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Singapura Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4749012559,
+      "lat": 1.3225193,
+      "lon": 103.8533757,
+      "tags": {
+        "addr:street": "Whampoa Drive",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "N B Tham Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4749012561,
+      "lat": 1.324766,
+      "lon": 103.8578117,
+      "tags": {
+        "addr:street": "Whampoa Drive",
+        "amenity": "clinic",
+        "fixme": "name",
+        "healthcare": "clinic",
+        "name": "No Ai TCM Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4749237935,
+      "lat": 1.3524338,
+      "lon": 103.8349052,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "215H",
+        "addr:street": "Upper Thomson Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Suwen TCM Clinic Pte Ltd",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4789166721,
+      "lat": 1.3579669,
+      "lon": 103.9864825,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2024-12-29",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Raffles Medicial",
+        "name:en": "Raffles Medicial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4791725123,
+      "lat": 1.3506468,
+      "lon": 103.8762537,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:postcode": "531003",
+        "addr:street": "Lorong Lew Lian",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sterling Clinic & Surgery",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4843850222,
+      "lat": 1.3620335,
+      "lon": 103.885093,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Chiew Clinic",
+        "name:en": "Chiew Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4972138593,
+      "lat": 1.4112949,
+      "lon": 103.9005482,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "PanHealth Family Clinic",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4984715572,
+      "lat": 1.2893739,
+      "lon": 103.8277584,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "727",
+        "addr:street": "Havelock Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Kerbal-Basic TCM Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5070707366,
+      "lat": 1.2891531,
+      "lon": 103.8162302,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "75D",
+        "addr:postcode": "154075",
+        "addr:street": "Redhill Road",
+        "addr:unit": "01-114",
+        "amenity": "clinic",
+        "bench": "yes",
+        "healthcare": "clinic",
+        "name": "Great Wall Acupuncture Clinic",
+        "name:zh": "长城中医"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5217201147,
+      "lat": 1.2774422,
+      "lon": 103.8402447,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "#01-27",
+        "addr:postcode": "080001",
+        "addr:street": "1 Everton Park",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "image": "https://www.google.com/maps/uv?pb=!1s0x31da192d60411f87:0xacf7d1551f91fe19!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipN4HzmAgUIj86OQHr6Ux6GtTWu3kYqHnBsnTbOU%3Dw329-h160-k-no!5sA+Medical+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e10!2sAF1QipN4Hz",
+        "name": "A Medical Clinic",
+        "phone": "+65 6226 2066",
+        "website": "https://amedicalclinic.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5414652951,
+      "lat": 1.3063613,
+      "lon": 103.905867,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Mount Pleasant Animal Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5414652966,
+      "lat": 1.30727,
+      "lon": 103.906717,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Katong Baby & Child Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5414652967,
+      "lat": 1.3072951,
+      "lon": 103.9067488,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Wisteria Xuan TCM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5414652970,
+      "lat": 1.3076062,
+      "lon": 103.9071726,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Kai Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5473001620,
+      "lat": 1.3004442,
+      "lon": 103.8538867,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "中国中医 Chinese medical centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5474435683,
+      "lat": 1.3134311,
+      "lon": 103.7655012,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central 24-hr clinic",
+        "opening_hours": "24/7",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5479259708,
+      "lat": 1.2890851,
+      "lon": 103.8161898,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "75A",
+        "addr:postcode": "151075",
+        "addr:street": "Redhill Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "Aesthetics;laser_clinic",
+        "name": "Dr Steven Ang Asthetic & Family Clinic",
+        "opening_hours": "Mo-Fr 09:00-20:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5479259728,
+      "lat": 1.289209,
+      "lon": 103.8162429,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pacific Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5484076754,
+      "lat": 1.3027238,
+      "lon": 103.8524129,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ong's Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5488345800,
+      "lat": 1.4176987,
+      "lon": 103.8371166,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "627",
+        "addr:postcode": "760627",
+        "addr:street": "Yishun Street 61",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "United Health Family Clinic & Surgery",
+        "opening_hours": "Mo-Fr 08:30-21:00, Sa-Su 08:30-12:30",
+        "operator": "United Health Family Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5495171375,
+      "lat": 1.4171724,
+      "lon": 103.8345517,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "555",
+        "addr:postcode": "560555",
+        "addr:street": "Ang Mo Kio Avenue 10, #01-1974",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Roy's Family Clinic",
+        "opening_hours": "Mo-We 09:00-12:00,14:00-16:00,18:30-20:30; Th,Fr 09:00-12:00,14:00-16:00; Sa 09:00-12:00",
+        "operator": "Roy's Family Clinic",
+        "operator:type": "private"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5515378640,
+      "lat": 1.3937889,
+      "lon": 103.8891266,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sunbeam",
+        "opening_hours": "Mo-Su 09:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5515387924,
+      "lat": 1.3968872,
+      "lon": 103.889332,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Medivene Clinic & Surgery",
+        "name:zh": "全康医疗中心",
+        "opening_hours": "Mo-Th 08:30-14:00,15:00-20:30; Fr 08:30-14:00; Sa 09:00-13:00; Su closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5628644021,
+      "lat": 1.3923951,
+      "lon": 103.8763298,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "ProHealth Medical Group @ Fernvale LRT",
+        "opening_hours": "08:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5686498322,
+      "lat": 1.3476746,
+      "lon": 103.7570747,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Family Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5689277521,
+      "lat": 1.3480298,
+      "lon": 103.7571578,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Lifeline Neighbourhood Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5689277921,
+      "lat": 1.3487394,
+      "lon": 103.7577652,
+      "tags": {
+        "amenity": "clinic",
+        "name": "First Light Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5697972921,
+      "lat": 1.3469753,
+      "lon": 103.7571639,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Excelsior Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5697973121,
+      "lat": 1.347154,
+      "lon": 103.7573318,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Goh Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5717760518,
+      "lat": 1.3330877,
+      "lon": 103.9260241,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "S.T. Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5717760519,
+      "lat": 1.3331026,
+      "lon": 103.9260888,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Northeast Medical Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5717760520,
+      "lat": 1.3323682,
+      "lon": 103.9242805,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "KHO Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5720634943,
+      "lat": 1.3317292,
+      "lon": 103.9258356,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "539",
+        "addr:postcode": "460539",
+        "addr:street": "Bedok North Street 3",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "YSL Bedok Clinic & Surgery",
+        "opening_hours": "Mo-Fr 08:00-12:30,14:99-17:00,19:00-22:00; Sa,Su,PH 08:00-13:00",
+        "phone": "+65 6245 2684"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5720634944,
+      "lat": 1.3312289,
+      "lon": 103.9252282,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Wong Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5808854452,
+      "lat": 1.302259,
+      "lon": 103.8766971,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "The Balmoral Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5813931533,
+      "lat": 1.353639,
+      "lon": 103.9396652,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "2",
+        "name": "Tampines Family Medicine Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5850832714,
+      "lat": 1.2921193,
+      "lon": 103.8597838,
+      "tags": {
+        "alt_name": "G Aesthetic Wellness Medical Clinic",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "G-Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5867134478,
+      "lat": 1.3321484,
+      "lon": 103.9145848,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "632",
+        "addr:postcode": "470632",
+        "addr:street": "Bedok Reservoir Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Phoon Clinic and Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5877104947,
+      "lat": 1.3826272,
+      "lon": 103.8937854,
+      "tags": {
+        "addr:housenumber": "275D",
+        "addr:postcode": "544275",
+        "addr:street": "Compassvale Link",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "ProHealth Medical Group",
+        "phone": "+65 6481 8066",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5886939632,
+      "lat": 1.332343,
+      "lon": 103.9146544,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "632",
+        "addr:postcode": "470632",
+        "addr:street": "Bedok Reservoir Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "K. L. Tay Clinic & Surgery",
+        "opening_hours": "Mo,We,Fr 09:00-12:30,14:00-16:30,19:00-21:00; Tu,Th 09:00-12:30,14:00-16:30; Sa,Su 09:00-12:30; PH off"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5886948359,
+      "lat": 1.3331379,
+      "lon": 103.9156241,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "631",
+        "addr:postcode": "470631",
+        "addr:street": "Bedok Reservoir Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Healthplus Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5892228514,
+      "lat": 1.3332007,
+      "lon": 103.9156911,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "631",
+        "addr:postcode": "470631",
+        "addr:street": "Bedok Reservoir Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Eastern Medical Centre",
+        "opening_hours": "Mo,Tu 08:30-13:00,14:00-16:00,19:00-21:00; We,Sa 08:30-12:30; Th,Fr 08:30-13:00,14:00-18:30; Su,PH off",
+        "operator": "Dr Fong Chiu Yan",
+        "phone": "+65 6448 7628"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5892423976,
+      "lat": 1.332581,
+      "lon": 103.9143056,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "632",
+        "addr:postcode": "470632",
+        "addr:street": "Bedok Reservoir Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pam Island Clinic & Surgery",
+        "opening_hours": "Mo-Fr 09:30-12:30,14:30-16:30,19:00-21:00; Sa,Su,PH 09:30-12:00",
+        "operator": "Dr Tan Soo Liang"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5898125649,
+      "lat": 1.3871009,
+      "lon": 103.8904646,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "The Olive Tree Family Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5899419164,
+      "lat": 1.3313435,
+      "lon": 103.9097041,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "121",
+        "addr:postcode": "470121",
+        "addr:street": "Bedok Reservoir Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Tan & Koh Clinic & Surgery",
+        "opening_hours": "Mo,Tu,Th 08:30-12:00,14:00-16:30,19:00-21:00; We,Fr 08:30-12:00,14:00-16:30; Sa 08:30-12:00; Su 09:00-12:00; PH off"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041115575,
+      "lat": 1.3990265,
+      "lon": 103.88987,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Island Family Clinic (Anchorvale)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6091678815,
+      "lat": 1.3314315,
+      "lon": 103.9089331,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "117 #01-68",
+        "addr:postcode": "470117",
+        "addr:street": "Bedok Reservoir Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Wong Family Clinic & Surgery",
+        "opening_hours": "Mo-Th 08:30-12:30,14:00-17:00,19:00-22:00; Fr,Sa 08:30-12:30; Su,PH off",
+        "phone": "+65 6846 1613"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6091678816,
+      "lat": 1.3314484,
+      "lon": 103.9088054,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "117 #01-62",
+        "addr:postcode": "470117",
+        "addr:street": "Bedok Reservoir Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Tay Clinic",
+        "opening_hours": "Mo-Fr 08:00-13:00,14:00-17:30; Sa,Su 08:00-13:00; PH off",
+        "phone": "+65 6741 9936"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6091678817,
+      "lat": 1.3314614,
+      "lon": 103.9086289,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "171 #01-58",
+        "addr:postcode": "470117",
+        "addr:street": "Bedok Reservoir Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Bok Family Clinic",
+        "opening_hours": "Mo-Fr 08:30-12:30,14:00-16:30,19:00-21:00; Sa 08:30-12:30; Su 09:00-12:30; PH 09:00-12:30; Closed on Hari Raya Puasa",
+        "operator": "Dr Bok Teck Sun",
+        "phone": "7478200"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6139736335,
+      "lat": 1.389895,
+      "lon": 103.8927828,
+      "tags": {
+        "addr:unit": "02",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Acumed Medical Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6212980053,
+      "lat": 1.3707002,
+      "lon": 103.8947294,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "My Family Clinic (Hougang Central)",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6212980057,
+      "lat": 1.3716219,
+      "lon": 103.8934328,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Radiant Medical & Aesthetic Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6212980058,
+      "lat": 1.3708928,
+      "lon": 103.8947603,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Hougang Central Medical Clinic",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259750351,
+      "lat": 1.395961,
+      "lon": 103.8728442,
+      "tags": {
+        "addr:country": "SG",
+        "addr:housenumber": "229",
+        "addr:street": "Jalan Kayu",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Kang Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259798704,
+      "lat": 1.298913,
+      "lon": 103.8395433,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "61",
+        "addr:street": "Killiney Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Killiney Medical Clinic",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259836148,
+      "lat": 1.3787067,
+      "lon": 103.9422417,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Shenton Medical Group",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259836152,
+      "lat": 1.3787806,
+      "lon": 103.9422286,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Healthway Medical Clinic",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259836153,
+      "lat": 1.3788465,
+      "lon": 103.9421928,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Healthway Medical Clinic",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259836154,
+      "lat": 1.3788978,
+      "lon": 103.9421381,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Elias Family Clinic & Surgery",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259836156,
+      "lat": 1.3785468,
+      "lon": 103.9418327,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Kidneycare Dialysis Centre",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259836163,
+      "lat": 1.3787575,
+      "lon": 103.9417791,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "K.B. Tan Clinic & Laser Surgery",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6260001643,
+      "lat": 1.3591034,
+      "lon": 103.9551593,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "AcuHealth TCM Medical Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6260133666,
+      "lat": 1.3394086,
+      "lon": 103.8857179,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Lotus Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6260139147,
+      "lat": 1.3381874,
+      "lon": 103.8866123,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Medora Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6260139172,
+      "lat": 1.3388128,
+      "lon": 103.8862053,
+      "tags": {
+        "addr:street": "Jalan Bunga Rampai",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Tai Seng Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6260204896,
+      "lat": 1.4342345,
+      "lon": 103.7755304,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "166",
+        "addr:postcode": "730166",
+        "addr:street": "Woodlands Street 13",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "T.S. Wong Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6321635811,
+      "lat": 1.3100182,
+      "lon": 103.8522813,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ayush Ayurvedic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6321635813,
+      "lat": 1.3101296,
+      "lon": 103.8523607,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ayush Ayurvedic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6373343758,
+      "lat": 1.3084318,
+      "lon": 103.8514547,
+      "tags": {
+        "addr:housenumber": "43",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Kerala Ayuverda Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6391185162,
+      "lat": 1.3141948,
+      "lon": 103.8708068,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Boon Keng Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6391185173,
+      "lat": 1.3143585,
+      "lon": 103.8712262,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "New Town Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6403503364,
+      "lat": 1.3290079,
+      "lon": 103.8869933,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "LifeCare Medical Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6403503367,
+      "lat": 1.3292358,
+      "lon": 103.8862708,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Chin Choo Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6403503371,
+      "lat": 1.3276612,
+      "lon": 103.8852231,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "MacPherson Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6405142318,
+      "lat": 1.286088,
+      "lon": 103.8287953,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "11A",
+        "addr:postcode": "161011",
+        "addr:street": "Boon Tiong Road #01-08",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "OneCare Medical Tiong Bahru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6405142328,
+      "lat": 1.2857232,
+      "lon": 103.8267238,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Chua and Partners Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6437695185,
+      "lat": 1.3363319,
+      "lon": 103.8885834,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "The Clinic @ Tai Seng"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6441942885,
+      "lat": 1.3110371,
+      "lon": 103.8736811,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Balance&Cleanse",
+        "website": "http://balancecleanse.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6486919687,
+      "lat": 1.386049,
+      "lon": 103.8932903,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Island Family Clinic (Sengkang)",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6496976785,
+      "lat": 1.3506791,
+      "lon": 103.8757569,
+      "tags": {
+        "addr:postcode": "531002",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Drs Lim & Chan Clinic",
+        "phone": "+65 6280 3009"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6499063521,
+      "lat": 1.3982332,
+      "lon": 103.8779152,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "AE Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6515034591,
+      "lat": 1.284741,
+      "lon": 103.8447974,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "level": "1",
+        "name": "Family Medicine Clinic Chinatown",
+        "name:zh": "全科医疗诊所",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00; PH,Su closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6515042556,
+      "lat": 1.3491163,
+      "lon": 103.7296144,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Fresenius Medical Care"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6515042564,
+      "lat": 1.347685,
+      "lon": 103.730558,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Eastern Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6542055685,
+      "lat": 1.3050898,
+      "lon": 103.8353997,
+      "tags": {
+        "addr:postcode": "228510",
+        "addr:street": "3 Mount Elizabeth, Mount Elizabeth Hospital Level 2",
+        "amenity": "clinic",
+        "email": "clickr.parkwaycancercentre@gmail.com",
+        "healthcare": "clinic",
+        "internet_access": "wlan",
+        "name": "Parkway Cancer Centre",
+        "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-11:30",
+        "phone": "+65 6737 0733",
+        "website": "https://www.parkwaycancercentre.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6549207787,
+      "lat": 1.2648169,
+      "lon": 103.820005,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "2",
+        "name": "Raffles Medical",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6618303036,
+      "lat": 1.392089,
+      "lon": 103.8955251,
+      "tags": {
+        "amenity": "clinic",
+        "branch": "Sengkang",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Northeast Medical Group",
+        "opening_hours": "Mo-Su 08:00-22:00; PH 10:00-18:00",
+        "opening_hours:url": "https://www.nemg.com.sg/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6639726957,
+      "lat": 1.4064469,
+      "lon": 103.901691,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Minmed Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6639726971,
+      "lat": 1.4060276,
+      "lon": 103.9021658,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics",
+        "level": "1",
+        "name": "Thomson Paediatric Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6639726976,
+      "lat": 1.4060373,
+      "lon": 103.9022079,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Raffles Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6639726977,
+      "lat": 1.4065447,
+      "lon": 103.9017623,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "One Doctors Family Clinic",
+        "opening_hours": "Mo-Sa 09:00-21:00; PH,Su 09:00-17:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6648988790,
+      "lat": 1.3588217,
+      "lon": 103.7519793,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "OneCare Clinic",
+        "opening_hours": "Mo-Fr 08:00-15:00,17:00-21:30; Sa 08:00-13:00; Su 08:00-13:00,17:00-21:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6663098601,
+      "lat": 1.3371143,
+      "lon": 103.9199923,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "703",
+        "addr:postcode": "470703",
+        "addr:street": "Bedok Reservoir Road",
+        "amenity": "clinic",
+        "description": "Note: Registration closed 15 min before closing",
+        "healthcare": "clinic",
+        "name": "Joy Family Clinic",
+        "opening_hours": "Mo,We,Fr 09:00-13:00,14:00-16:00; Tu,Th 09:00-13:00,18:30-20:30; Sa,Su,PH off",
+        "operator": "Dr Lee Hai Ean (李海燕医生)",
+        "operator:type": "private",
+        "phone": "+65 6442 2483"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6665009119,
+      "lat": 1.3318806,
+      "lon": 103.868308,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Procross Medical Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6665216260,
+      "lat": 1.3247768,
+      "lon": 103.8422485,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Thomson Road",
+        "addr:unit": "#01-330",
+        "amenity": "clinic",
+        "check_date": "2024-04-04",
+        "healthcare": "clinic",
+        "name": "Hyperbaric Medical Services",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00; Su,PH off",
+        "operator:type": "private",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6714919363,
+      "lat": 1.4023201,
+      "lon": 103.891881,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:floor": "01",
+        "addr:housenumber": "231A",
+        "addr:postcode": "821231",
+        "addr:street": "Sumang Lane",
+        "addr:unit": "03",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "traditional_chinese_medicine",
+        "name": "Hock Leong Ann TCM Clinic",
+        "name:zh": "福隆安中医诊所",
+        "operator": "Hock Leong Ann Tcm",
+        "operator:type": "private"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6714948994,
+      "lat": 1.4022893,
+      "lon": 103.8920392,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:floor": "01",
+        "addr:housenumber": "231A",
+        "addr:postcode": "821231",
+        "addr:street": "Sumang Lane",
+        "addr:unit": "05",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Calrose Medical",
+        "operator": "Calrose Medical",
+        "operator:type": "private",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6744902185,
+      "lat": 1.3239775,
+      "lon": 103.9298248,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "One Care Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6832566762,
+      "lat": 1.2990796,
+      "lon": 103.7875642,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "1",
+        "addr:postcode": "138632",
+        "addr:street": "Fusionopolis Way",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "level": "2",
+        "name": "Carelite Medical Centre",
+        "opening_hours": "Mo-Fr 08:30-17:45",
+        "website": "https://carelite.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6832566769,
+      "lat": 1.3432993,
+      "lon": 103.6887311,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "940",
+        "addr:postcode": "640940",
+        "addr:street": "Jurong West Street 91",
+        "amenity": "clinic",
+        "healthcare": "dialysis",
+        "healthcare:speciality": "nephrology",
+        "name": "NKF Dialysis Centre",
+        "opening_hours": "24/7",
+        "operator": "National Kidney Foundation",
+        "operator:type": "private_non_profit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6842646798,
+      "lat": 1.3916316,
+      "lon": 103.8949411,
+      "tags": {
+        "addr:unit": "34",
+        "amenity": "clinic",
+        "branch": "TCM Clinic",
+        "brand": "Eu Yan Sang",
+        "brand:en": "Eu Yan Sang",
+        "brand:wikidata": "Q4207246",
+        "brand:zh": "余仁生",
+        "healthcare": "clinic",
+        "healthcare:speciality": "traditional_chinese_medicine",
+        "level": "1",
+        "name": "Eu Yan Sang",
+        "name:en": "Eu Yan Sang",
+        "name:zh": "余仁生",
+        "opening_hours": "10:00-22:00",
+        "shop": "herbalist",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6842646799,
+      "lat": 1.391592,
+      "lon": 103.8949847,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics",
+        "level": "1",
+        "name": "The Kid's Clinic",
+        "opening_hours": "Mo-Fr 09:00-16:00; Sa 09:00-13:00; Su, PH off",
+        "opening_hours:url": "https://compassone.sg/the-kids-clinic/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6895025385,
+      "lat": 1.2807119,
+      "lon": 103.8497728,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Parkway Shenton Medical Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7012854485,
+      "lat": 1.304979,
+      "lon": 103.9045224,
+      "tags": {
+        "addr:unit": "07",
+        "amenity": "clinic",
+        "email": "katong@imc-healthcare.com",
+        "healthcare": "clinic",
+        "internet_access": "wlan",
+        "level": "1",
+        "name": "International Medical Clinic",
+        "phone": "+65 6342 4440",
+        "website": "https://www.imc-healthcare.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7072183820,
+      "lat": 1.3069464,
+      "lon": 103.8515389,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Wahweda's"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7088254213,
+      "lat": 1.3846616,
+      "lon": 103.7431167,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "CCK Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7088254214,
+      "lat": 1.3847135,
+      "lon": 103.7431023,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "The Premier Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7195215426,
+      "lat": 1.3404871,
+      "lon": 103.7732416,
+      "tags": {
+        "addr:housenumber": "80",
+        "addr:street": "Jalan Jurong Kechil",
+        "amenity": "clinic",
+        "name": "Bukit Timah Nam Sang Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7196776997,
+      "lat": 1.3272878,
+      "lon": 103.919211,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Low & Lee Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7196777009,
+      "lat": 1.3271135,
+      "lon": 103.918916,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "FamilyCare Clinic and Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7196923404,
+      "lat": 1.3232712,
+      "lon": 103.9242809,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Chai Chee Clinic & Surgery",
+        "name:en": "Chai Chee Clinic & Surgery",
+        "name:zh": "菜市西药房"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7196923408,
+      "lat": 1.3234738,
+      "lon": 103.9239452,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "HealthLine Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7249160485,
+      "lat": 1.3074333,
+      "lon": 103.7936658,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sefton Medical Centre Pte. Ltd."
+      }
+    },
+    {
+      "type": "node",
+      "id": 7249160487,
+      "lat": 1.307553,
+      "lon": 103.7934864,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "May Medical Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7249160488,
+      "lat": 1.3076768,
+      "lon": 103.7933325,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Healthway Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7249170685,
+      "lat": 1.3074786,
+      "lon": 103.7928071,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Family Health Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7263781545,
+      "lat": 1.3290723,
+      "lon": 103.8700587,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:postcode": "347919",
+        "addr:street": "Siang Kuang Avenue",
+        "amenity": "clinic",
+        "branch": "Potong Pasir",
+        "healthcare": "clinic",
+        "name": "SATA CommHealth Potong Pasir Medical Centre",
+        "opening_hours": "Sa,Su 08:30-13:00; Mo-Fr 08:30-12:00,13:00-17:00; PH off",
+        "operator": "SATA",
+        "website": "https://www.sata.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7391293284,
+      "lat": 1.3046845,
+      "lon": 103.7816359,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "28",
+        "addr:postcode": "130028",
+        "addr:street": "Dover Crescent",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Dover Clinic and Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7451054818,
+      "lat": 1.3259807,
+      "lon": 103.8501156,
+      "tags": {
+        "addr:floor": "2",
+        "addr:housenumber": "400",
+        "addr:street": "Balestier Road",
+        "amenity": "clinic",
+        "check_date": "2023-12-20",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Carelink"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7501508683,
+      "lat": 1.3197728,
+      "lon": 103.9439983,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Tanamera Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7501508684,
+      "lat": 1.3198308,
+      "lon": 103.9439857,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Temasek Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7501513333,
+      "lat": 1.3201119,
+      "lon": 103.9445402,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Shim Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7528434220,
+      "lat": 1.3372021,
+      "lon": 103.921278,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "746",
+        "addr:postcode": "470746",
+        "addr:street": "Bedok Reservoir Road",
+        "addr:unit": "#01-3013",
+        "amenity": "clinic",
+        "branch": "Bedok",
+        "healthcare": "clinic",
+        "name": "Faith Clinic",
+        "opening_hours": "Mo-Fr 08:30-16:00,18:30-21:00; Sa 08:30-12:30",
+        "phone": "+65 67020820",
+        "website": "https://www.faithmedical.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7528488885,
+      "lat": 1.3374415,
+      "lon": 103.9219446,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Shenton Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7530395444,
+      "lat": 1.3024141,
+      "lon": 103.9072184,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Clinic Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7637549777,
+      "lat": 1.3187727,
+      "lon": 103.9118537,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "430",
+        "addr:street": "Changi Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Jinmin Clinic",
+        "name:zh": "仁民药房",
+        "roof:levels": "1",
+        "roof:material": "roof_tiles",
+        "roof:orientation": "across",
+        "roof:shape": "gabled",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7669837770,
+      "lat": 1.3404756,
+      "lon": 103.7738881,
+      "tags": {
+        "addr:housenumber": "66",
+        "addr:street": "Jalan Jurong Kechil",
+        "amenity": "clinic",
+        "name": "Mandarin Central & Dental Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7672647634,
+      "lat": 1.3335469,
+      "lon": 103.8493034,
+      "tags": {
+        "amenity": "clinic",
+        "branch": "Toa Payoh",
+        "brand": "Unihealth",
+        "healthcare": "clinic",
+        "name": "Unihealth Toa Payoh",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7672665880,
+      "lat": 1.333908,
+      "lon": 103.8495277,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Raffles Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7729441634,
+      "lat": 1.3829151,
+      "lon": 103.8933453,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Shenton Medical Group",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7729510643,
+      "lat": 1.3716615,
+      "lon": 103.8940304,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7765639771,
+      "lat": 1.3399856,
+      "lon": 103.773216,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "Toh Yi Drive",
+        "amenity": "clinic",
+        "name": "Toh Yi Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7773239463,
+      "lat": 1.3702358,
+      "lon": 103.8727691,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Chen Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7773262888,
+      "lat": 1.3267486,
+      "lon": 103.8465576,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Ah Hood Road",
+        "addr:unit": "#01-08",
+        "amenity": "clinic",
+        "check_date": "2024-01-10",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "LiveWell Medical",
+        "opening_hours": "Mo-Fr 08:30-13:30,18:00-21:30; Sa-Su,PH 18:30-21:30",
+        "operator:type": "private",
+        "phone": "+65 6909 9888",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7824826999,
+      "lat": 1.391998,
+      "lon": 103.8949214,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "3",
+        "name": "Minmed Clinic (Sengkang)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7852030477,
+      "lat": 1.3950646,
+      "lon": 103.8958158,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Healthmark Family Clinic (Compassvale)",
+        "name:en": "Healthmark Family Clinic (Compassvale)",
+        "name:zh": "康脉家庭诊所",
+        "opening_hours": "Mo-We 08:30-12:30,13:30-16:30,18:00-21:00; Th,Sa-Su 08:30-12:30; Fr 08:30-12:30,13:30-16:30; PH closed",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7877095297,
+      "lat": 1.3164845,
+      "lon": 103.8055343,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Empress Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Dr. W Family Clinic",
+        "opening_hours": "Mo-We 08:00-17:00, Th-Sa 08:00-12:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7877101081,
+      "lat": 1.3165799,
+      "lon": 103.805643,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Empress Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Yap Medicare Clinic & Surgery",
+        "opening_hours": "Mo 08:30-20:30, Tu-Fr 08:30-15:30, Sa-Su 08:30-11:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7888659219,
+      "lat": 1.3536722,
+      "lon": 103.8677737,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "304",
+        "addr:postcode": "550304",
+        "addr:street": "Serangoon Avenue 2",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics",
+        "name": "Garden Clinic",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7897270722,
+      "lat": 1.2825111,
+      "lon": 103.8255999,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "26",
+        "addr:postcode": "161026",
+        "addr:street": "Jalan Membina",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "traditional_chinese_medicine",
+        "name": "Liu TCM clinic",
+        "opening_hours": "Mo-Sa 09:00-21:00",
+        "opening_hours:covid19": "Walk in"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7897272703,
+      "lat": 1.2825856,
+      "lon": 103.825695,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "26",
+        "addr:postcode": "161026",
+        "addr:street": "Jalan Membina",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;clinic",
+        "name": "Health First Family Clinic",
+        "opening_hours": "Su-Fr 08:30-21:30",
+        "opening_hours:covid19": "Walk in",
+        "phone": "+65 6793 2833",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7958441749,
+      "lat": 1.3404871,
+      "lon": 103.7737993,
+      "tags": {
+        "addr:housenumber": "68",
+        "addr:street": "Jalan Jurong Kechil",
+        "addr:unit": "#01-01",
+        "amenity": "clinic",
+        "name": "Chungkiaw Clinic",
+        "phone": "+65 6466 2255"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7958458460,
+      "lat": 1.3043747,
+      "lon": 103.8598693,
+      "tags": {
+        "addr:street": "Jalan Klapa",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Marti Derm La Formula"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8083777917,
+      "lat": 1.3453694,
+      "lon": 103.7188357,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8083778017,
+      "lat": 1.3454017,
+      "lon": 103.7188383,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Lakeside Family Medicine Clinic",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8208607237,
+      "lat": 1.35752,
+      "lon": 103.9402818,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "VIVA Medical Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8226112317,
+      "lat": 1.3275529,
+      "lon": 103.924687,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Evangel Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8419773590,
+      "lat": 1.3933433,
+      "lon": 103.8870606,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "DA Clinic@Anchorvale"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8441984958,
+      "lat": 1.264975,
+      "lon": 103.8190429,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8448240729,
+      "lat": 1.3854786,
+      "lon": 103.9015722,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Healthway Medical",
+        "name:zh": "康威医疗",
+        "opening_hours": "Mo-Sa 08:00-17:00,18:00-22:00; Su,PH 08:00-14:00,18:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8448240740,
+      "lat": 1.3858049,
+      "lon": 103.9020987,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Rivervale Family Clinic & Surgery",
+        "opening_hours": "Mo-Th 08:00-15:00,18:00-21:00; Fr 08:00-15:00; Sa 08:00-14:00; PH,Su closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8448240752,
+      "lat": 1.3854882,
+      "lon": 103.9016163,
+      "tags": {
+        "amenity": "clinic",
+        "branch": "Rivervale Plaza",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics",
+        "level": "1",
+        "name": "SBCC Baby & Child Clinic (Rivervale Plaza)",
+        "opening_hours": "Mo,Th 09:00-13:00,18:00-21:00; Tu-We,Fr 09:00-13:00,14:00-17:00; Sa 08:30-13:00; PH,Su closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8448240756,
+      "lat": 1.385525,
+      "lon": 103.9015933,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Lifeline Medical Group",
+        "name:zh": "生命线西药房",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:covid19": "Mo-Fr 08:00-21:00; Sa-Su 09:00-13:00; PH closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8448300513,
+      "lat": 1.384419,
+      "lon": 103.9007925,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Sengkang Free Clinic",
+        "name:zh": "盛港慈善诊所",
+        "opening_hours": "Mo-Fr 09:00-12:30,14:00-17:00,19:00-21:00; Sa 09:00-12:30,14:00-19:00; PH,Su closed",
+        "operator": "Kwan-In Welfare Society"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8448423017,
+      "lat": 1.3857092,
+      "lon": 103.8972981,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Mutual Healthcare Medical Clinic",
+        "name:zh": "互康诊所",
+        "opening_hours": "Mo-Tu,Th 08:30-12:30,14:00-16:00,18:30-21:30; We,Fr 08:30-12:30,14:00-16:00; PH,Sa-Su 08:30-12:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8459997651,
+      "lat": 1.2868999,
+      "lon": 103.8187598,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "HeartlandHealth",
+        "opening_hours": "08:00-13:00, 18:00-23:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8459997654,
+      "lat": 1.2869037,
+      "lon": 103.8188227,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Providence Clinic @ Redhill"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8460232077,
+      "lat": 1.2863998,
+      "lon": 103.8279775,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "SBCC Baby & Child Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8460300242,
+      "lat": 1.2860934,
+      "lon": 103.8286335,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Yim Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8460300256,
+      "lat": 1.286071,
+      "lon": 103.8289334,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics",
+        "level": "0",
+        "name": "SOG Clinic for Children"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8460359365,
+      "lat": 1.2856271,
+      "lon": 103.8268548,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Thomson Women's Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8460359366,
+      "lat": 1.2855801,
+      "lon": 103.8268785,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "The iClinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8463929213,
+      "lat": 1.3598346,
+      "lon": 103.9317795,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8474547231,
+      "lat": 1.394315,
+      "lon": 103.9129975,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "OneCare Clinic Punggol Plaza",
+        "name:zh": "益心诊疗所榜鹅"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8474939114,
+      "lat": 1.403537,
+      "lon": 103.9059814,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "My Family Clinic (Punggol Central)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8481704619,
+      "lat": 1.3976235,
+      "lon": 103.8969541,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Pinnacle Family Clinic (Compassvale)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8481940634,
+      "lat": 1.394781,
+      "lon": 103.8880698,
+      "tags": {
+        "amenity": "clinic",
+        "branch": "Anchorvale",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "My Family Clinic (Anchorvale)",
+        "opening_hours": "Mo,We-Th 08:00-14:00,18:00-21:00; Tu,Fr-Sa 08:00-14:00; PH,Su closed",
+        "operator": "My Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8496654269,
+      "lat": 1.3202162,
+      "lon": 103.9033134,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Neoh & Ong Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8496654270,
+      "lat": 1.3211592,
+      "lon": 103.9032353,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Kirin Clinic & Surgery",
+        "name:zh": "祥麟诊所"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8496654280,
+      "lat": 1.3198925,
+      "lon": 103.9038068,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "EC Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8505795931,
+      "lat": 1.2887871,
+      "lon": 103.8146922,
+      "tags": {
+        "amenity": "clinic",
+        "branch": "Lengkok Bahru",
+        "healthcare": "clinic",
+        "name": "Meden Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8520102601,
+      "lat": 1.3483241,
+      "lon": 103.8495404,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "ophthalmology",
+        "level": "0",
+        "name": "Eye Care Clinic Bishan",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8520102612,
+      "lat": 1.3484422,
+      "lon": 103.8495658,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "T P Sim Family Clinic & Surgery",
+        "name:zh": "沈氏西药房",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8520114129,
+      "lat": 1.3494771,
+      "lon": 103.8499904,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Prudence Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8520114130,
+      "lat": 1.3483221,
+      "lon": 103.8493688,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "DA Clinic @ Bishan",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8520114138,
+      "lat": 1.3485176,
+      "lon": 103.8485376,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "gynaecology",
+        "level": "0",
+        "name": "Astra Women's Specialist Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8520114139,
+      "lat": 1.3482867,
+      "lon": 103.8495324,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Lifeline Bishan Medical Clinic",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8527380222,
+      "lat": 1.2914685,
+      "lon": 103.85115,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "2",
+        "name": "The Hearing Room"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8527380227,
+      "lat": 1.2912098,
+      "lon": 103.851479,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "psychiatry",
+        "level": "3",
+        "name": "Adelphi Psych Medicine Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8548140738,
+      "lat": 1.3833115,
+      "lon": 103.8929226,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Q&M Medical Clinic (Buangkok Mrt)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8548247947,
+      "lat": 1.3777985,
+      "lon": 103.8915104,
+      "tags": {
+        "amenity": "clinic",
+        "bunker_type": "bomb_shelter",
+        "healthcare": "clinic",
+        "level": "-1",
+        "military": "bunker",
+        "name": "Everhealth Medical Centre",
+        "name:zh": "永康西药房",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8548350142,
+      "lat": 1.3733522,
+      "lon": 103.8861324,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Neighbourhood Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8548399938,
+      "lat": 1.3721376,
+      "lon": 103.8864401,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Hougang Specialist Eye Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8548481855,
+      "lat": 1.3701565,
+      "lon": 103.8839615,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Pow Family Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8556405245,
+      "lat": 1.3724889,
+      "lon": 103.8474507,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Raffles Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8556405246,
+      "lat": 1.3723101,
+      "lon": 103.8474714,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Kids First Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8556405260,
+      "lat": 1.3714569,
+      "lon": 103.8467562,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Life Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8566305138,
+      "lat": 1.4029763,
+      "lon": 103.9128899,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Parkway Shenton Medical Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8566472184,
+      "lat": 1.3047759,
+      "lon": 103.8302232,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "ophthalmology",
+        "level": "4",
+        "name": "Shinagawa Eye Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8566563488,
+      "lat": 1.3061,
+      "lon": 103.8288073,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics",
+        "level": "1",
+        "name": "Olive Tree"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8577871962,
+      "lat": 1.3586058,
+      "lon": 103.8847533,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Goh Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8577937531,
+      "lat": 1.3578976,
+      "lon": 103.8835025,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Eastern Hougang Eye Specialist",
+        "opening_hours": "Mo-Tu,Fr 14:00-18:00; Th 17:00-21:00; We,Sa 09:00-13:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8578225058,
+      "lat": 1.3587045,
+      "lon": 103.8867242,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Lim Country Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8578225073,
+      "lat": 1.3587141,
+      "lon": 103.886752,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Healthcare Medical @ Kovan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8578225074,
+      "lat": 1.3593415,
+      "lon": 103.8880613,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dr Chan Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8578225077,
+      "lat": 1.3593376,
+      "lon": 103.887589,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "gynaecology",
+        "level": "0",
+        "name": "Gynae Health Clinic For Women"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8578243896,
+      "lat": 1.3593732,
+      "lon": 103.8865521,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Intemedical Kovan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8597349717,
+      "lat": 1.3174634,
+      "lon": 103.892736,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "3",
+        "name": "True Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8597884839,
+      "lat": 1.3146784,
+      "lon": 103.8948875,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "orthopaedics",
+        "level": "1",
+        "name": "Chiro Time"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8598400970,
+      "lat": 1.3191671,
+      "lon": 103.8946109,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Parkway Shenton Medical Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8598400987,
+      "lat": 1.3187616,
+      "lon": 103.8943566,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "traditional_chinese_medicine",
+        "level": "1",
+        "name": "Kin Teck Kong"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8620920469,
+      "lat": 1.3915161,
+      "lon": 103.8762046,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "2",
+        "name": "Etern Medical Clinic (Sengkang)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8621159313,
+      "lat": 1.3920201,
+      "lon": 103.8716567,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Island Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8621159315,
+      "lat": 1.3918621,
+      "lon": 103.8713239,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "traditional_chinese_medicine",
+        "level": "0",
+        "name": "Xing Juan TCM Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8621159316,
+      "lat": 1.3918582,
+      "lon": 103.8715542,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Holistic Care Family Clinic",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8627982665,
+      "lat": 1.3335559,
+      "lon": 103.8496979,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Doctors Inc Medical Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8642464804,
+      "lat": 1.2761097,
+      "lon": 103.8458445,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "DA Clinic @ Anson"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8642680423,
+      "lat": 1.2794961,
+      "lon": 103.8535499,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Fullerton Healthcare"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8658564750,
+      "lat": 1.3719474,
+      "lon": 103.9467099,
+      "tags": {
+        "amenity": "clinic",
+        "fixme": "name",
+        "healthcare": "clinic",
+        "level": "0"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8658564751,
+      "lat": 1.3731372,
+      "lon": 103.9455918,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Pinnacle Family Clinic (Pasir Ris)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8658809929,
+      "lat": 1.3725843,
+      "lon": 103.9494868,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "1",
+        "addr:postcode": "518457",
+        "addr:street": "Pasir Ris Central Street 3",
+        "amenity": "clinic",
+        "branch": "Pasir Ris",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "level": "4",
+        "name": "Minmed Clinic",
+        "opening_hours": "Mo-Su 08:30-21:00",
+        "phone": "+65 6585 0123",
+        "website": "https://minmed.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8658809930,
+      "lat": 1.3725809,
+      "lon": 103.9496416,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "1",
+        "addr:postcode": "518457",
+        "addr:street": "Pasir Ris Central Street 3",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "level": "3",
+        "name": "Raffles Medical",
+        "phone": "+65 6585 1279"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8704529554,
+      "lat": 1.3885085,
+      "lon": 103.771415,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "My Family Clinic (Segar)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8772904268,
+      "lat": 1.3144784,
+      "lon": 103.8541035,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2024-05-24",
+        "healthcare": "clinic",
+        "name": "True care Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9061403818,
+      "lat": 1.3739658,
+      "lon": 103.85489,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Kang Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9061403917,
+      "lat": 1.3738781,
+      "lon": 103.8549642,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Atrio Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9061404019,
+      "lat": 1.3733471,
+      "lon": 103.8546373,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Gainhealth Clinic and Homecare"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9061417523,
+      "lat": 1.3722759,
+      "lon": 103.8553457,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Immanuel Dialysis Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9061417621,
+      "lat": 1.3723173,
+      "lon": 103.8550581,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Chua Medico Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9061428517,
+      "lat": 1.3725978,
+      "lon": 103.8540144,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Vital Care"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9061507021,
+      "lat": 1.2760068,
+      "lon": 103.8411354,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Shenton Family Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9065755996,
+      "lat": 1.3210349,
+      "lon": 103.7669293,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "308",
+        "addr:postcode": "120308",
+        "addr:street": "Clementi Avenue 4",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Clementi Family Healthpoint Clinic & Surgery",
+        "note": "Part of Chronic Disease Management Programme (CDMP) network",
+        "phone": "+65 6774 4373",
+        "website": "https://www.healthhub.sg/directory/14/57236/clementi-family-healthpoint-clinic-n-surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9066255053,
+      "lat": 1.3630401,
+      "lon": 103.8885051,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "1030",
+        "addr:postcode": "534767",
+        "addr:street": "Upper Serangoon Rd",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Joash Family Clinic and Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9077439698,
+      "lat": 1.3084808,
+      "lon": 103.7847028,
+      "tags": {
+        "addr:postcode": "271029",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Cornerstone Medical",
+        "operator": "Cornerstone Medical",
+        "operator:type": "private",
+        "phone": "+6562620018"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9080508878,
+      "lat": 1.3266952,
+      "lon": 103.7232314,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "DA Clinic @ Taman Jurong"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9081639930,
+      "lat": 1.3588127,
+      "lon": 103.9548835,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "W Y Teh Family Clinic And Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9082240451,
+      "lat": 1.4042887,
+      "lon": 103.9017647,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Etern Medical Clinic",
+        "name:en": "Etern Medical Clinic",
+        "operator": "Etern Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9107521298,
+      "lat": 1.3152781,
+      "lon": 103.7668558,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "325",
+        "addr:postcode": "120325",
+        "addr:street": "Clementi Avenue 5",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "My Family Clinic (Clementi 325)",
+        "operator": "My Family Clinic",
+        "operator:type": "private",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9107781243,
+      "lat": 1.3142867,
+      "lon": 103.7651961,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "3151",
+        "addr:postcode": "129581",
+        "addr:street": "Commonwealth Avenue West",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "level": "4",
+        "name": "Frontier Family Medicine Clinic",
+        "operator": "Frontier Healthcare Group",
+        "operator:type": "private",
+        "phone": "+65 6778 8362"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9229857617,
+      "lat": 1.3626523,
+      "lon": 103.8507325,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Healthway Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9269019959,
+      "lat": 1.4167142,
+      "lon": 103.9017682,
+      "tags": {
+        "addr:unit": "18",
+        "amenity": "clinic",
+        "branch": "Northshore",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Pinnacle Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9271015958,
+      "lat": 1.3529096,
+      "lon": 103.8362889,
+      "tags": {
+        "addr:unit": "07",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "L&L Family Medicine Clinic",
+        "name:zh": "刘林药方",
+        "opening_hours": "Mo-Tu,Th 08:30-12:30,14:00-16:30,18:45-21:00; We 08:30-12:30,14:00-16:30; Fr-Sa 08:30-12:30; PH,Su closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9271315659,
+      "lat": 1.3549123,
+      "lon": 103.8308474,
+      "tags": {
+        "addr:unit": "09",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "gynaecology",
+        "level": "2",
+        "name": "Y. C. Goh Clinic & Surgery for Women"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9271315660,
+      "lat": 1.3550521,
+      "lon": 103.8306268,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics",
+        "level": "2",
+        "name": "KidsNexus Paediatric Centee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9271352212,
+      "lat": 1.3550308,
+      "lon": 103.830618,
+      "tags": {
+        "addr:unit": "02",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "child_psychiatry",
+        "level": "1",
+        "name": "SpecialKids Child Health & Development Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9371385017,
+      "lat": 1.440225,
+      "lon": 103.8021087,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Chung Hwa Medical Institution",
+        "name:zh": "中华医院"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9378513491,
+      "lat": 1.2739437,
+      "lon": 103.8085649,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "78B",
+        "addr:postcode": "102078",
+        "addr:street": "Telok Blangah Street 32",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Elyon Family Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9422326720,
+      "lat": 1.2825995,
+      "lon": 103.8234166,
+      "tags": {
+        "addr:postcode": "150128",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "NKF Dialysis Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9457411810,
+      "lat": 1.3687218,
+      "lon": 103.8555019,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ma Kuang TCM Medical Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9457439309,
+      "lat": 1.3322949,
+      "lon": 103.8513408,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "640",
+        "addr:postcode": "319522",
+        "addr:street": "Lorong 4 Toa Payoh",
+        "alt_name": "Chung Hwa Free Clinic",
+        "amenity": "clinic",
+        "branch": "大巴窑总院",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "中华医院",
+        "name:en": "Singapore Chung Hwa Medical Institution",
+        "name:zh": "中华医院",
+        "office": "educational_institution",
+        "phone": "+65 62513304",
+        "website": "https://www.zhonghuayiyuan.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9482768232,
+      "lat": 1.3708296,
+      "lon": 103.8570836,
+      "tags": {
+        "addr:housenumber": "555",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Blessed health tcm",
+        "phone": "+65 6452 4272"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9574586533,
+      "lat": 1.3019416,
+      "lon": 103.8623493,
+      "tags": {
+        "addr:unit": "01",
+        "amenity": "clinic",
+        "branch": "City Gate",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "T Medical Clinic (City Gate)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9653246019,
+      "lat": 1.3167036,
+      "lon": 103.8977913,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "GoodDoctors Medical Clinic",
+        "opening_hours": "08:00-12:00,18:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9683071449,
+      "lat": 1.3316137,
+      "lon": 103.8676072,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "146",
+        "addr:postcode": "350146",
+        "addr:street": "Potong Pasir Avenue 1",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Ban Kok Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9710656496,
+      "lat": 1.3035333,
+      "lon": 103.9005451,
+      "tags": {
+        "addr:unit": "81H",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Chan Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9710728211,
+      "lat": 1.3048875,
+      "lon": 103.9040216,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "6",
+        "name": "Insync Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9710780958,
+      "lat": 1.3723779,
+      "lon": 103.8471951,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "723",
+        "addr:postcode": "560723",
+        "addr:street": "Ang Mo Kio Avenue 8",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "AMK Specialist Centre",
+        "operator": "Tan Tock Seng Hospital",
+        "start_date": "1981"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9772174872,
+      "lat": 1.3349022,
+      "lon": 103.962505,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "-1",
+        "name": "Raffles Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9810563656,
+      "lat": 1.3427788,
+      "lon": 103.9536387,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Northeast Medical Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9843964168,
+      "lat": 1.3825278,
+      "lon": 103.8911956,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Slikroutes @ Sengkang Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9871657811,
+      "lat": 1.3914507,
+      "lon": 103.8901654,
+      "tags": {
+        "addr:unit": "92",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Mutual Healthcare Medical Clinic",
+        "name:zh": "互康诊所",
+        "opening_hours": "Mo-Fr 08:30-12:30,14:00-16:00,18:30-21:30; Sa,Su,PH 08:30-12:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9872240485,
+      "lat": 1.3898718,
+      "lon": 103.8985765,
+      "tags": {
+        "addr:unit": "532",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics",
+        "level": "0",
+        "name": "Kidslink Children's Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885134555,
+      "lat": 1.3999411,
+      "lon": 103.9191908,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Kenneth Tan Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9897405224,
+      "lat": 1.3751487,
+      "lon": 103.8828083,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Hougang Family Medicine Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9950628517,
+      "lat": 1.3356811,
+      "lon": 103.9629861,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Shenton Medical Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9954715129,
+      "lat": 1.4021552,
+      "lon": 103.9013253,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Trinity Medical (Punggol)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9991784395,
+      "lat": 1.302075,
+      "lon": 103.7980969,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "01-02",
+        "addr:postcode": "141088",
+        "addr:street": "Tanglin Halt Road",
+        "amenity": "clinic",
+        "description": "medical and dental centre",
+        "healthcare": "clinic",
+        "level": "0",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "phone": "+65 6475 6116",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9998842633,
+      "lat": 1.3728753,
+      "lon": 103.8538831,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "24 Hr Clinic",
+        "operator": "Doctor anywhere",
+        "operator:type": "private"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10001980675,
+      "lat": 1.4051418,
+      "lon": 103.8976301,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Zenith Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10002004732,
+      "lat": 1.4083592,
+      "lon": 103.8990035,
+      "tags": {
+        "addr:postcode": "823308",
+        "addr:unit": "302",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Etern Medical Clinic (Punggol Sumang LRT)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10036337913,
+      "lat": 1.3737179,
+      "lon": 103.8908413,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Family Healthcare Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10089531512,
+      "lat": 1.3024931,
+      "lon": 103.77589,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "College Clinic",
+        "name:zh": "学院诊疗所"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10095149493,
+      "lat": 1.3751009,
+      "lon": 103.8821732,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "PanHealth Family Clinic (Hougang)",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10095179601,
+      "lat": 1.3757868,
+      "lon": 103.8796958,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Elissa Medical Clinic",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10106223467,
+      "lat": 1.2957062,
+      "lon": 103.8585405,
+      "tags": {
+        "addr:unit": "482",
+        "amenity": "clinic",
+        "check_date": "2026-07-02",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Crawfurd Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10218210066,
+      "lat": 1.3779293,
+      "lon": 103.9556067,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10225332317,
+      "lat": 1.3834403,
+      "lon": 103.8971415,
+      "tags": {
+        "addr:postcode": "540267",
+        "amenity": "clinic",
+        "name": "Healthway Medical",
+        "phone": "+65 6343 8770"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10225570289,
+      "lat": 1.3727302,
+      "lon": 103.8936732,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "chiropractic",
+        "level": "4",
+        "name": "Chiropractic First"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10225581003,
+      "lat": 1.3713249,
+      "lon": 103.8939429,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Raffles Medical",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10225581009,
+      "lat": 1.3718288,
+      "lon": 103.8935956,
+      "tags": {
+        "addr:unit": "208",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Grace (SL) Medical Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10230659946,
+      "lat": 1.2963561,
+      "lon": 103.8500685,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "70",
+        "addr:postcode": "178901",
+        "addr:street": "Stamford Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "The Clinic @ Campus",
+        "operator": "The Clinic Group",
+        "operator:type": "private"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10288804609,
+      "lat": 1.3688314,
+      "lon": 103.8565262,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Healthway Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10702091660,
+      "lat": 1.3209029,
+      "lon": 103.9047441,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2023-02-19",
+        "healthcare": "clinic",
+        "name": "Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10808393886,
+      "lat": 1.3338071,
+      "lon": 103.8875457,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "601",
+        "addr:postcode": "368242",
+        "addr:street": "MacPherson Road",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "email": "grantral@bethesda.com.sg",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Bethesda Medical",
+        "opening_hours": "Mo-Fr 08:00-13:00,14:00-17:00; Sa 08:00-13:00; Su,PH off",
+        "phone": "+65 69046678",
+        "website": "https://www.bethesdamedical.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10808393887,
+      "lat": 1.3337201,
+      "lon": 103.8874844,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "601",
+        "addr:postcode": "368242",
+        "addr:street": "MacPherson Road",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "fax": "+65 60150716",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Frontier Family Medicine Clinic",
+        "opening_hours": "Mo-Fr 08:30-13:00,14:00-17:30,18:30-20:00; Sa 08:30-13:00; Su,PH off",
+        "phone": "+65 69500592",
+        "website": "https://frontierhealthcare.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10833950726,
+      "lat": 1.4531482,
+      "lon": 103.8165964,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:postcode": "750406",
+        "addr:street": "406 Sembawang Drive",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Healthway Medical",
+        "website": "https://healthwaymedical.com/clinics/406-sembawang",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10833950730,
+      "lat": 1.4529786,
+      "lon": 103.8169122,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Temasek Medical Centre",
+        "name:en": "Temasek Medical Centre",
+        "name:zh": "得生醫藥中心",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10857516875,
+      "lat": 1.4482078,
+      "lon": 103.8228151,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "21",
+        "addr:postcode": "756973",
+        "addr:street": "21 Canberra Link",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sembawang Polyclinic",
+        "name:ms": "Poliklinik Sembawang",
+        "operator": "National Healthcare Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10883740295,
+      "lat": 1.3950826,
+      "lon": 103.900574,
+      "tags": {
+        "addr:unit": "36",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Compassvale 297A Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10891405952,
+      "lat": 1.3386411,
+      "lon": 103.8720397,
+      "tags": {
+        "addr:unit": "#02-25/26/27",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "branch": "The Woodleigh Mall",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Parkway MediCentre",
+        "operator": "IHH Healthcare",
+        "operator:type": "private"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10894263105,
+      "lat": 1.3357219,
+      "lon": 103.8566962,
+      "tags": {
+        "amenity": "clinic",
+        "name": "OEI & KOH",
+        "name:en": "OEI & KHO Clinic and Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10895584805,
+      "lat": 1.3345021,
+      "lon": 103.858959,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "National Health Group Diagnostics X-Ray"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10940122713,
+      "lat": 1.3267682,
+      "lon": 103.8424618,
+      "tags": {
+        "addr:housenumber": "592G",
+        "addr:street": "Balestier Road",
+        "amenity": "clinic",
+        "check_date": "2023-05-18",
+        "healthcare": "clinic",
+        "name": "Oaklife Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10945269894,
+      "lat": 1.3641077,
+      "lon": 103.84861,
+      "tags": {
+        "addr:unit": "1625",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Intemedical Teck Ghee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10968880932,
+      "lat": 1.3006418,
+      "lon": 103.8493335,
+      "tags": {
+        "addr:unit": "25A",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Parklane Medical Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10991987491,
+      "lat": 1.3166845,
+      "lon": 103.7827841,
+      "tags": {
+        "addr:unit": "#01-09/10",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Proventia Medical & Dental"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10991987492,
+      "lat": 1.3165315,
+      "lon": 103.7827039,
+      "tags": {
+        "addr:unit": "#01-07",
+        "amenity": "clinic",
+        "healthcare": "alternative",
+        "healthcare:speciality": "traditional_chinese_medicine",
+        "name": "Pulse TCM Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10992300824,
+      "lat": 1.3263295,
+      "lon": 103.8427332,
+      "tags": {
+        "addr:housenumber": "627",
+        "addr:street": "Balestier Road",
+        "amenity": "clinic",
+        "branch": "Balestier",
+        "check_date": "2023-06-21",
+        "healthcare": "clinic",
+        "name": "Q&M Dental Center (Balestier)",
+        "operator:type": "private"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11012000760,
+      "lat": 1.3741186,
+      "lon": 103.8870422,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Medlife Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11015790546,
+      "lat": 1.3740616,
+      "lon": 103.8938451,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "MyCLINQ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11017139057,
+      "lat": 1.3096639,
+      "lon": 103.8844532,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "34",
+        "addr:postcode": "390034",
+        "addr:street": "Cassia Crescent #01-80",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Eiddwen Family Medicine Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178690818,
+      "lat": 1.3150925,
+      "lon": 103.7668554,
+      "tags": {
+        "addr:housenumber": "139",
+        "addr:street": "Clementi Avenue 5",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Ally Health",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178690819,
+      "lat": 1.313717,
+      "lon": 103.7670566,
+      "tags": {
+        "addr:housenumber": "328",
+        "addr:street": "Clementi Avenue 2",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "The Neptune Clinic",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11178690820,
+      "lat": 1.3140032,
+      "lon": 103.7670575,
+      "tags": {
+        "addr:housenumber": "328",
+        "addr:street": "Clementi Avenue 2",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Canterbury Family Clinic & Surgery",
+        "opening_hours": "24/7",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11185644970,
+      "lat": 1.3418231,
+      "lon": 103.7760786,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Kinsway Medical Clinic(Beauty World)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11279549794,
+      "lat": 1.3560251,
+      "lon": 103.7405206,
+      "tags": {
+        "amenity": "clinic",
+        "branch": "Le Quest Mall",
+        "brand": "Prohealth Medical Group",
+        "healthcare": "clinic",
+        "name": "Prohealth Medical Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11297639070,
+      "lat": 1.3254703,
+      "lon": 103.8423768,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Thomson Road",
+        "amenity": "clinic",
+        "check_date": "2023-10-29",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "K C Yeo Surgery & Clinic for Women"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11297639082,
+      "lat": 1.3220087,
+      "lon": 103.853098,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2023-10-20",
+        "healthcare": "clinic",
+        "level": "0"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11343336039,
+      "lat": 1.3201236,
+      "lon": 103.8446597,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2026-01-19",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Novena Specialist Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11361641837,
+      "lat": 1.3364427,
+      "lon": 103.7870051,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11381484475,
+      "lat": 1.3213048,
+      "lon": 103.8532002,
+      "tags": {
+        "addr:housenumber": "221",
+        "addr:street": "Balestier Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Balestier Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11383343395,
+      "lat": 1.3994341,
+      "lon": 103.9159399,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Healthmark Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11395308823,
+      "lat": 1.3016846,
+      "lon": 103.8634603,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "420",
+        "addr:postcode": "199582",
+        "addr:street": "Beach Road",
+        "amenity": "clinic",
+        "healthcare": "centre",
+        "name": "St John Singapore Dementia Centre",
+        "operator": "St John Singapore",
+        "operator:type": "private_non_profit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11530465287,
+      "lat": 1.330635,
+      "lon": 103.8157691,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "120",
+        "addr:postcode": "289899",
+        "addr:street": "Adam Road",
+        "amenity": "clinic",
+        "fax": "+65 6467 1298",
+        "healthcare": "clinic",
+        "name": "Japanese Association Clinic, Singapore",
+        "phone": "+65 6469 6488",
+        "website": "https://www.japanese-clinic.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11627248773,
+      "lat": 1.2867403,
+      "lon": 103.8477685,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2024-04-04",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "LKF Medical",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11640417874,
+      "lat": 1.2834149,
+      "lon": 103.8429716,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Peace Family TCM Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11813463326,
+      "lat": 1.3095086,
+      "lon": 103.8644963,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "Quantum Medical Imaging"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11813463337,
+      "lat": 1.3096636,
+      "lon": 103.8640917,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "2",
+        "name": "The Clinic @ Aperia"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11898833279,
+      "lat": 1.2848614,
+      "lon": 103.8469329,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2024-05-09",
+        "healthcare": "clinic",
+        "name": "MobileDoctorClinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11900974649,
+      "lat": 1.3961432,
+      "lon": 103.8914706,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "NKF Dialysis Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11915129138,
+      "lat": 1.3220092,
+      "lon": 103.8441955,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "38",
+        "addr:postcode": "329563",
+        "addr:street": "Irrawaddy Road",
+        "addr:unit": "06-33",
+        "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/axisorthocentre",
+        "email": "contact@axisortho.com.sg",
+        "healthcare": "doctor",
+        "healthcare:speciality": "orthopaedics",
+        "name": "Singapore Orthopaedic Clinic",
+        "phone": "+65 9711 8888",
+        "website": "https://www.axisortho.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11935055725,
+      "lat": 1.3150224,
+      "lon": 103.8811219,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2024-05-25",
+        "healthcare": "clinic",
+        "name": "The Other Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11952455721,
+      "lat": 1.3197988,
+      "lon": 103.861451,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Healthway Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11952455723,
+      "lat": 1.3204719,
+      "lon": 103.8619888,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "El Shaddai"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11952455734,
+      "lat": 1.3192674,
+      "lon": 103.8609969,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Tan Teoh Clinic & Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11952455735,
+      "lat": 1.3204059,
+      "lon": 103.8619348,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Yooi Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12053284797,
+      "lat": 1.3331325,
+      "lon": 103.8491921,
+      "tags": {
+        "addr:housenumber": "190",
+        "addr:street": "Lorong 6 Toa Payoh",
+        "addr:unit": "#01-572",
+        "amenity": "clinic",
+        "check_date": "2024-06-21",
+        "healthcare": "clinic",
+        "name": "HC Endoscopy & Piles Centre",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa-Su 08:00-15:30",
+        "operator:type": "private",
+        "phone": "+65 6686 6542"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12083098127,
+      "lat": 1.3773537,
+      "lon": 103.7555006,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Zara Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12093257642,
+      "lat": 1.3130921,
+      "lon": 103.9262669,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2024-08-04",
+        "healthcare": "clinic",
+        "name": "Health Partners Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12143316873,
+      "lat": 1.373491,
+      "lon": 103.9483825,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "7",
+        "addr:postcode": "519612",
+        "addr:street": "Pasir Ris Central",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "branch": "Pasir Ris Mall",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "level": "1",
+        "name": "Fullerton Health Hub",
+        "phone": "+65 6011 8090"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12143894998,
+      "lat": 1.3739779,
+      "lon": 103.9485133,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Pasir Ris Central",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "branch": "Pasir Ris Mall",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Parkway Shenton Medical Clinic",
+        "phone": "+65 6904 2875",
+        "website": "https://parkwayshenton.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12144247921,
+      "lat": 1.3806587,
+      "lon": 103.7697056,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "443C",
+        "addr:postcode": "673443",
+        "addr:street": "Fajar Road",
+        "addr:unit": "#01-76",
+        "amenity": "clinic",
+        "check_date": "2024-09-07",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Sunbeam Medical Clinic",
+        "opening_hours": "Mo-Fr 08:30-14:00,18:00-22:00; Sa-Su,PH 08:30-13:00",
+        "payment:credit_cards": "no",
+        "payment:mastercard": "no",
+        "payment:nets": "yes",
+        "payment:paynow": "yes",
+        "payment:visa": "no",
+        "phone": "+65 6610 0968"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12179539344,
+      "lat": 1.3242466,
+      "lon": 103.8565822,
+      "tags": {
+        "addr:housenumber": "81",
+        "addr:street": "Whampoa Drive",
+        "amenity": "clinic",
+        "check_date": "2024-09-14",
+        "healthcare": "clinic",
+        "name": "Winsome"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12229313745,
+      "lat": 1.2834262,
+      "lon": 103.8440475,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Ooagachaga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12231230443,
+      "lat": 1.3125904,
+      "lon": 103.8539957,
+      "tags": {
+        "amenity": "clinic",
+        "name": "OrthoSportsAtConnexion"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12231269751,
+      "lat": 1.2913006,
+      "lon": 103.8575122,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Singapore Paincare TCM Wellness"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12232184751,
+      "lat": 1.2910677,
+      "lon": 103.8589975,
+      "tags": {
+        "addr:floor": "1",
+        "amenity": "clinic",
+        "check_date": "2024-10-07",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Raffles Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12260962365,
+      "lat": 1.3025494,
+      "lon": 103.8580478,
+      "tags": {
+        "addr:floor": "1",
+        "addr:housenumber": "140",
+        "addr:street": "Arab Street",
+        "amenity": "clinic",
+        "check_date": "2024-10-18",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "X Maris B. Clinic",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12369210996,
+      "lat": 1.3005009,
+      "lon": 103.849542,
+      "tags": {
+        "addr:unit": "08",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "ophthalmology",
+        "level": "3",
+        "name": "Voon Eye Clinic",
+        "opening_hours": "Mo-Fr 09:30-12:30,14:00-17:00; Sa 09:30-12:30; PH,Su closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12375007603,
+      "lat": 1.2953713,
+      "lon": 103.8094704,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:postcode": "141085",
+        "addr:street": "85 Dawson Rd, #01-05, Singapore 141085",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dawson Medical Singapore"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12375013310,
+      "lat": 1.28884,
+      "lon": 103.8464372,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:postcode": "059818",
+        "addr:street": "Eu Tong Sen Street, 8 13-99",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Jade Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12375018537,
+      "lat": 1.2900423,
+      "lon": 103.8170888,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:postcode": "158736",
+        "addr:street": "Alexandra View, #01-16",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Minmed Clinic (Redhill)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12406505954,
+      "lat": 1.3703931,
+      "lon": 103.8954608,
+      "tags": {
+        "addr:unit": "54",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Dr Plus Medical & Paincare Hougang",
+        "name:zh": "全嘉诊所"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12406505965,
+      "lat": 1.3703744,
+      "lon": 103.8954267,
+      "tags": {
+        "addr:unit": "53",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Trucare Medical & Surgery",
+        "name:zh": "信康诊所"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12406515154,
+      "lat": 1.3705083,
+      "lon": 103.8954421,
+      "tags": {
+        "addr:unit": "56",
+        "amenity": "clinic",
+        "branch": "Hougang Midtown",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Fundamental Aesthetic Medical Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12406515189,
+      "lat": 1.3704387,
+      "lon": 103.8954645,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics",
+        "level": "1",
+        "name": "The Cheery Child Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12422724509,
+      "lat": 1.3870608,
+      "lon": 103.7621248,
+      "tags": {
+        "addr:housenumber": "642",
+        "addr:street": "Senja Close",
+        "addr:unit": "#01-07",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Onecare Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12468938078,
+      "lat": 1.3310478,
+      "lon": 103.8796607,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "364D",
+        "addr:postcode": "368112",
+        "addr:street": "MacPherson Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Singapore Chee Chung Huay Free Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12525987404,
+      "lat": 1.3224108,
+      "lon": 103.7637757,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:floor": "1",
+        "addr:housenumber": "209A",
+        "addr:postcode": "121209",
+        "addr:street": "Clementi Avenue 6",
+        "amenity": "clinic",
+        "name": "Pinnacle Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12543170686,
+      "lat": 1.3246212,
+      "lon": 103.8091001,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Bukit Timah Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12566028902,
+      "lat": 1.3539705,
+      "lon": 103.9452485,
+      "tags": {
+        "addr:housenumber": "#03-28",
+        "addr:street": "Tampines 1",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Raffles Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12570330429,
+      "lat": 1.3917097,
+      "lon": 103.8800584,
+      "tags": {
+        "addr:unit": "10",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "HMI Onecare Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12570330433,
+      "lat": 1.3916529,
+      "lon": 103.8796958,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Vitacare Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12606919704,
+      "lat": 1.2864907,
+      "lon": 103.8035632,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Shalom Clinic + Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12612264345,
+      "lat": 1.3661446,
+      "lon": 103.775101,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2025-02-21",
+        "healthcare": "clinic",
+        "name": "Pinnacle Family Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12883335515,
+      "lat": 1.337244,
+      "lon": 103.6968324,
+      "tags": {
+        "addr:door": "01-06",
+        "addr:housenumber": "651",
+        "addr:street": "Jurong West Street 41",
+        "amenity": "clinic",
+        "check_date": "2025-06-03",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Pioneer Medical Centre Pte Ltd",
+        "operator:type": "private"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12946718344,
+      "lat": 1.3784729,
+      "lon": 103.7627375,
+      "tags": {
+        "addr:floor": "2",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "branch": "Bukit Panjang Bus Interchange",
+        "check_date": "2025-06-15",
+        "healthcare": "clinic",
+        "level": "1",
+        "name": "HMI Onecare Clinic",
+        "opening_hours": "Mo-Fr 08:00-15:00,17:00-21:00; Sa-Su 08:00-13:00,18:00-21:00",
+        "operator:type": "private",
+        "website": "https://www.onecaremedical.com.sg",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13003637805,
+      "lat": 1.3682847,
+      "lon": 103.8372232,
+      "tags": {
+        "addr:unit": "1208",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Yap Family Clinic and Surgery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13075439175,
+      "lat": 1.3920328,
+      "lon": 103.743044,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "2",
+        "name": "Healthway Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13076095140,
+      "lat": 1.3009074,
+      "lon": 103.8605511,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2025-08-04",
+        "healthcare": "clinic",
+        "name": "Town Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13093867601,
+      "lat": 1.2894279,
+      "lon": 103.8276234,
+      "tags": {
+        "addr:housenumber": "733",
+        "addr:postcode": "169651",
+        "addr:street": "Havelock Road",
+        "amenity": "clinic",
+        "email": "enquiry@icaremedicalwellnessclinic.com",
+        "name": "iCare Medical Centre",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 10:00-22:00",
+        "phone": "+6562527808",
+        "website": "https://www.icaremedical.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13095416601,
+      "lat": 1.2951257,
+      "lon": 103.8417149,
+      "tags": {
+        "addr:housenumber": "286",
+        "addr:street": "River Valley Road",
+        "amenity": "clinic",
+        "name": "River Valley Doctors",
+        "opening_hours": "Mo-Fr 08:30-17:30; Sa 08:30-13:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13127579453,
+      "lat": 1.4149092,
+      "lon": 103.9123226,
+      "tags": {
+        "addr:unit": "215/216",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "dermatology",
+        "level": "1",
+        "name": "V Medical Aesthetics & Laser Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13127579455,
+      "lat": 1.4149093,
+      "lon": 103.9125158,
+      "tags": {
+        "addr:unit": "215",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "2",
+        "name": "Slim Doc"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13253239240,
+      "lat": 1.3532894,
+      "lon": 103.9423182,
+      "tags": {
+        "addr:unit": "01A",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Sata CommHealth Medical Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13253504639,
+      "lat": 1.3537933,
+      "lon": 103.939755,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "4",
+        "name": "Ultimed Medical Centre & Surgical Suites (OTH)",
+        "opening_hours": "Mo-Fr 08:30-17:30; Sa 08:30-13:00; Su closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13533995131,
+      "lat": 1.3983348,
+      "lon": 103.8762759,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:floor": "1",
+        "addr:housenumber": "465",
+        "addr:postcode": "790465",
+        "addr:street": "Fernvale Road",
+        "addr:unit": "4",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Our Fernvale Family Clinic",
+        "opening_hours": "Mo 08:00-14:00,17:30-21:00; Tu-Fr 08:00-13:00,17:30-21:00; Sa 14:00-18:00; Su 08:30-12:30,17:30-21:00; PH off",
+        "phone": "+65 6592 9833"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13626120545,
+      "lat": 1.3604716,
+      "lon": 103.7389353,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "302",
+        "addr:postcode": "690302",
+        "addr:street": "Tengah Park Avenue",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;psychiatry;physiotherapy",
+        "name": "Tengah Polyclinic",
+        "name:ms": "Poliklinik Tengah",
+        "opening_hours": "Mo-Fr 08:00-13:00,14:00-16:30; Sa 08:00-12:30",
+        "operator": "National University Polyclinics",
+        "operator:type": "government",
+        "phone": "+65 69082222",
+        "website": "https://www.nup.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13904384014,
+      "lat": 1.4408954,
+      "lon": 103.7996418,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "717",
+        "addr:postcode": "730717",
+        "addr:street": "Woodlands Drive 70",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Healthway Medical (Admiralty)",
+        "opening_hours": "Mo-Fr 08:00-13:00,14:00-17:00,18:00-24:00; Sa 08:00-13:00,14:00-17:00,18:00-21:00; Su 08:00-13:00,14:00-17:00,18:00-21:00; PH 08:00-13:00,14:00-17:00,18:00-21:00; "
+      }
+    },
+    {
+      "type": "way",
+      "id": 49968787,
+      "center": {
+        "lat": 1.3454092,
+        "lon": 103.6826509
+      },
+      "nodes": [
+        634871249,
+        4910112775,
+        4910112774,
+        1303595698,
+        1303595677,
+        634871252,
+        634871254,
+        634871256,
+        1303595741,
+        1303595792,
+        634871249
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "University Health Service",
+        "addr:housenumber": "36",
+        "addr:postcode": "639801",
+        "addr:street": "Nanyang Avenue",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "University Health Service",
+        "name:en": "University Health Service",
+        "operator": "Fullerton Healthcare Group"
+      }
+    },
+    {
+      "type": "way",
+      "id": 54583487,
+      "center": {
+        "lat": 1.2990697,
+        "lon": 103.7764275
+      },
+      "nodes": [
+        687166628,
+        687166629,
+        687166630,
+        13652393424,
+        13652393422,
+        13652393423,
+        13652393425,
+        687166631,
+        13732235689,
+        13732235696,
+        13732235695,
+        13732235694,
+        13732235691,
+        13732235690,
+        687166632,
+        687166633,
+        687166634,
+        1554931157,
+        1554931160,
+        5204802847,
+        5204802848,
+        5204802849,
+        687166635,
+        1555167835,
+        687166628
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "2",
+        "healthcare": "clinic",
+        "name": "University Health Centre",
+        "name:zh": "大学医务中心",
+        "short_name": "UHC"
+      }
+    },
+    {
+      "type": "way",
+      "id": 71395044,
+      "center": {
+        "lat": 1.3596366,
+        "lon": 103.7676375
+      },
+      "nodes": [
+        849538386,
+        849538356,
+        12252288057,
+        849538325,
+        849538350,
+        12252288058,
+        849538386
+      ],
+      "tags": {
+        "addr:housenumber": "446",
+        "addr:street": "Upper Bukit Timah Road",
+        "amenity": "clinic",
+        "building": "retail",
+        "check_date": "2024-02-19",
+        "healthcare": "clinic",
+        "name": "Healthcare Medical @ Rail Mall",
+        "operator:type": "private",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107936191,
+      "center": {
+        "lat": 1.3384858,
+        "lon": 103.6990234
+      },
+      "nodes": [
+        1239441101,
+        1239441129,
+        1239441082,
+        1239441100,
+        1239441101
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "26",
+        "addr:postcode": "648201",
+        "addr:street": "Jurong West Street 61",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "8",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;community",
+        "layer": "-1",
+        "name": "Pioneer Polyclinic",
+        "name:ms": "Poliklinik Pioneer",
+        "operator": "National University Polyclinics (NUHS)",
+        "operator:type": "government",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 148543923,
+      "center": {
+        "lat": 1.3345912,
+        "lon": 103.8589427
+      },
+      "nodes": [
+        4583841486,
+        1616311916,
+        13315937523,
+        13315937524,
+        1616311902,
+        1616311904,
+        1616311926,
+        1616311919,
+        4583841486
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "2003",
+        "addr:postcode": "319260",
+        "addr:street": "Lorong 8 Toa Payoh",
+        "amenity": "clinic",
+        "branch": "Toa Payoh",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Toa Payoh Polyclinic",
+        "name:ms": "Poliklinik Toa Payoh",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "National Healthcare Group",
+        "phone": "+65 6355 3000",
+        "source": "Kaart Ground Survey 2017",
+        "website": "https://www.nhgp.com.sg/Our_Clinics/Toa_Payoh_Polyclinic/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 158541400,
+      "center": {
+        "lat": 1.3955747,
+        "lon": 103.8727392
+      },
+      "nodes": [
+        1707239192,
+        1707239190,
+        1707239187,
+        6687600908,
+        1707239192
+      ],
+      "tags": {
+        "addr:housenumber": "219",
+        "addr:postcode": "799442",
+        "addr:street": "Jalan Kayu",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Sian Chay Medical Institution",
+        "operator": "Pei Hwa Foundation"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173391659,
+      "center": {
+        "lat": 1.2984718,
+        "lon": 103.8010321
+      },
+      "nodes": [
+        1842170619,
+        1842170603,
+        1842170600,
+        1842170599,
+        1842170608,
+        1842170628,
+        1842170642,
+        1842170630,
+        1842170617,
+        1842170619
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "580",
+        "addr:postcode": "148958",
+        "addr:street": "Stirling Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "email": "queenstownpolyclinic@singhealth.com.sg",
+        "healthcare": "clinic",
+        "name": "Queenstown Polyclinic",
+        "name:ms": "Poliklinik Queenstown",
+        "name:zh": "女皇镇综合诊疗所",
+        "opening_hours": "Mo-Fr 08:00-13:00,14:00-16:30; Sa 08:00-12:30; Su off; PH off",
+        "operator": "National University Health System",
+        "operator:type": "public",
+        "phone": "+65 6643 6969",
+        "source": "Bing;local knowledge",
+        "website": "https://www.nup.com.sg/Pages/Our%20Clinics/our-clinics-queenstownp.aspx"
+      }
+    },
+    {
+      "type": "way",
+      "id": 213638992,
+      "center": {
+        "lat": 1.3686044,
+        "lon": 103.959237
+      },
+      "nodes": [
+        2233039249,
+        2233039229,
+        2233039202,
+        2233039207,
+        2233039249
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "519457",
+        "addr:street": "Pasir Ris Drive 4",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "6",
+        "healthcare": "clinic",
+        "name": "Pasir Ris Polyclinic",
+        "name:ms": "Poliklinik Pasir Ris",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 327193356,
+      "center": {
+        "lat": 1.3643718,
+        "lon": 103.8649915
+      },
+      "nodes": [
+        3339205871,
+        3339205872,
+        3339205891,
+        11810035873,
+        11810035874,
+        3339205888,
+        3339205871
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "84",
+        "addr:postcode": "555980",
+        "addr:street": "Serangoon Garden Way",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "SG Clinic Family Practice",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 372345058,
+      "center": {
+        "lat": 1.3091159,
+        "lon": 103.8517737
+      },
+      "nodes": [
+        3759026057,
+        3759018753,
+        3759026058,
+        3759026065,
+        3759026057
+      ],
+      "tags": {
+        "addr:street": "Chander Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "5",
+        "healthcare": "clinic",
+        "name": "Caring Community Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397219596,
+      "center": {
+        "lat": 1.3203613,
+        "lon": 103.9054692
+      },
+      "nodes": [
+        4000370938,
+        5229048342,
+        5907242691,
+        4000370940,
+        4000370941,
+        5229048341,
+        4000370938
+      ],
+      "tags": {
+        "addr:housenumber": "34",
+        "addr:street": "Jalan Eunos",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Kwan In Welfare Free Clinic",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452655475,
+      "center": {
+        "lat": 1.3785128,
+        "lon": 103.7593691
+      },
+      "nodes": [
+        4738911761,
+        4494118736,
+        4494118727,
+        4494118721,
+        4738911761
+      ],
+      "tags": {
+        "addr:street": "Choa Chu Kang Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Econ Medicare Centre",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453237415,
+      "center": {
+        "lat": 1.3211833,
+        "lon": 104.020107
+      },
+      "nodes": [
+        4499987183,
+        4499987185,
+        4499987184,
+        4499987182,
+        4499987194,
+        4499987190,
+        4499987200,
+        4499987187,
+        4499987196,
+        4499987197,
+        4499987186,
+        4499987201,
+        4499987198,
+        4499987188,
+        4499987193,
+        4499987192,
+        4499987189,
+        4499987199,
+        4499987191,
+        4499987195,
+        4499987183
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 455156643,
+      "center": {
+        "lat": 1.3150341,
+        "lon": 103.8598005
+      },
+      "nodes": [
+        4515970117,
+        4515970123,
+        4515970126,
+        4515970121,
+        4515970117
+      ],
+      "tags": {
+        "addr:street": "Lavender Street",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Trinity Mediplus",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 482041617,
+      "center": {
+        "lat": 1.3249228,
+        "lon": 103.8536681
+      },
+      "nodes": [
+        4515986846,
+        13468542071,
+        4749144141,
+        4749144142,
+        4515986849,
+        4515986846
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "50",
+        "addr:street": "Kim Keat Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "yes",
+        "name": "Tan Kan Ming Chinese Medical Care",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 547136601,
+      "center": {
+        "lat": 1.3383609,
+        "lon": 103.6839208
+      },
+      "nodes": [
+        5286639803,
+        5286639796,
+        5286639799,
+        5286639798,
+        5286639797,
+        5286639802,
+        5286639801,
+        5286639800,
+        5286639803
+      ],
+      "tags": {
+        "addr:housenumber": "209",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Jurong Camp Medical Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 589619347,
+      "center": {
+        "lat": 1.4304666,
+        "lon": 103.8392201
+      },
+      "nodes": [
+        5630314333,
+        5630314334,
+        5630314335,
+        5630314336,
+        5630314337,
+        5630314338,
+        10811571298,
+        10811571297,
+        5630314333
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "2",
+        "addr:postcode": "768898",
+        "addr:street": "Yishun Avenue 9",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;diagnostics;Breast/Cervical_Cancer_Screening;pharmaceutical_Services",
+        "name": "Yishun Polyclinic",
+        "name:ms": "Poliklinik Yishun",
+        "opening_hours": "Mo-Fr 08:00-13:00, 14:00-16:30, Sa 08:00-12:30",
+        "operator": "National Health Group (NHG)",
+        "website": "https://www.nhgp.com.sg/Our_Clinics/Yishun_Polyclinic/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 737457214,
+      "center": {
+        "lat": 1.4196386,
+        "lon": 103.6972929
+      },
+      "nodes": [
+        6904391555,
+        6904391556,
+        6904391557,
+        6904391558,
+        6904391555
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "225",
+        "addr:postcode": "718921",
+        "addr:street": "Sungei Gedong Road",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "building": "hospital",
+        "healthcare": "clinic",
+        "name": "Sungei Gedong Medical Centre",
+        "opening_hours": "Mo-Fr 08:00-15:30",
+        "phone": "+65 67965106"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746032999,
+      "center": {
+        "lat": 1.3011235,
+        "lon": 103.9055104
+      },
+      "nodes": [
+        6981883609,
+        6982120820,
+        6981883600,
+        6981879205,
+        6981883625,
+        6981883626,
+        6981883627,
+        6981883628,
+        6981883609
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "Oriental Hair Studio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746033000,
+      "center": {
+        "lat": 1.3010694,
+        "lon": 103.9056066
+      },
+      "nodes": [
+        6981879205,
+        6981883629,
+        6981879206,
+        6981879207,
+        6981883630,
+        6981883626,
+        6981883625,
+        6981879205
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "Urban Homme Face and Beauty studio"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746033001,
+      "center": {
+        "lat": 1.3010996,
+        "lon": 103.9056621
+      },
+      "nodes": [
+        6981879206,
+        6981883631,
+        6981883632,
+        6981879207,
+        6981879206
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "Mary Chia Beauty and Slimming Specialist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746033003,
+      "center": {
+        "lat": 1.3011449,
+        "lon": 103.9057288
+      },
+      "nodes": [
+        6981883885,
+        6981883639,
+        6981883637,
+        6981883638,
+        6981883885
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "Thomson Pediatric Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746033004,
+      "center": {
+        "lat": 1.3011686,
+        "lon": 103.9057632
+      },
+      "nodes": [
+        6981883639,
+        6982120821,
+        6981879194,
+        6981883641,
+        6981883637,
+        6981883639
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "Datsumo Labo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746033010,
+      "center": {
+        "lat": 1.3013959,
+        "lon": 103.9054874
+      },
+      "nodes": [
+        6982467251,
+        6981883646,
+        6981883650,
+        6981883654,
+        6981883652,
+        6982467251
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "SKN Mediesthetics and Hair Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746033013,
+      "center": {
+        "lat": 1.3014214,
+        "lon": 103.9056949
+      },
+      "nodes": [
+        6982120825,
+        6981883695,
+        6981883658,
+        6981883659,
+        6981883660,
+        6981883604,
+        6982120825
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "Parkway Women & Fertility Clinic"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746033015,
+      "center": {
+        "lat": 1.3013387,
+        "lon": 103.9057601
+      },
+      "nodes": [
+        6981879214,
+        6978635798,
+        6981883887,
+        6981883662,
+        6981879214
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "Aesthetic Work Medical Associates"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746033016,
+      "center": {
+        "lat": 1.3012901,
+        "lon": 103.905794
+      },
+      "nodes": [
+        6978635798,
+        6981883665,
+        6981883664,
+        6981883887,
+        6978635798
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "Spacio Beauty"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746033018,
+      "center": {
+        "lat": 1.3012164,
+        "lon": 103.9058506
+      },
+      "nodes": [
+        6982027892,
+        6982467231,
+        6982120828,
+        6982120829,
+        6981883603,
+        6978637795,
+        6982027892
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "Kinder Clinic"
+      }
+    },
+    {
+      "type": "way",
+      "id": 747196861,
+      "center": {
+        "lat": 1.3013632,
+        "lon": 103.9056299
+      },
+      "nodes": [
+        6991557938,
+        6991557939,
+        6981883690,
+        6991557935,
+        6991557938
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "Live Skin Face"
+      }
+    },
+    {
+      "type": "way",
+      "id": 747196864,
+      "center": {
+        "lat": 1.3012032,
+        "lon": 103.9055939
+      },
+      "nodes": [
+        6991557945,
+        6991557946,
+        6991557947,
+        6981883613,
+        6991557945
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "Eurosense"
+      }
+    },
+    {
+      "type": "way",
+      "id": 747196865,
+      "center": {
+        "lat": 1.3012546,
+        "lon": 103.9055999
+      },
+      "nodes": [
+        6991557941,
+        6991557942,
+        6991557943,
+        6991557944,
+        6991557947,
+        6991557946,
+        6991557945,
+        6991557937,
+        6991557936,
+        6991557941
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "level": "5",
+        "name": "Sixth Sense Beauty"
+      }
+    },
+    {
+      "type": "way",
+      "id": 819300336,
+      "center": {
+        "lat": 1.3633315,
+        "lon": 103.9375543
+      },
+      "nodes": [
+        12959386988,
+        7651060266,
+        7651060267,
+        7651060268,
+        7651060269,
+        13074129864,
+        13074129867,
+        13074129870,
+        13074129869,
+        13074129868,
+        13074129865,
+        13074129866,
+        13074129863,
+        13074129862,
+        13074129861,
+        13074129860,
+        7651060270,
+        12959386988
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "35",
+        "addr:postcode": "528566",
+        "addr:street": "Tampines Street 61",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;radiology;community;blood_check;dentist",
+        "name": "Tampines North Polyclinic",
+        "name:ms": "Poliklinik Tampines North",
+        "opening_hours": "Mo-Sa 08:00-16:00",
+        "operator": "SingHealth Polyclinics",
+        "operator:type": "government",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+65 6643 6969",
+        "website": "https://polyclinic.singhealth.com.sg/our-polyclinics/shp-tampines-north",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 847211393,
+      "center": {
+        "lat": 1.3168059,
+        "lon": 103.8587533
+      },
+      "nodes": [
+        7905523937,
+        7905523938,
+        11741247046,
+        11741247045,
+        7905523939,
+        7905523940,
+        7905523937
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "701",
+        "addr:postcode": "328263",
+        "addr:street": "Serangoon Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "12",
+        "check_date": "2022-10-27",
+        "healthcare": "yes",
+        "name": "Kallang Polyclinic And Long Term Care",
+        "operator": "Nacional Healthcare Group"
+      }
+    },
+    {
+      "type": "way",
+      "id": 914305181,
+      "center": {
+        "lat": 1.3173741,
+        "lon": 103.9057677
+      },
+      "nodes": [
+        8493510336,
+        8493510341,
+        8493510337,
+        8493510338,
+        8493510339,
+        8493510336
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Eunos Polyclinic",
+        "name:ms": "Poliklinik Eunos",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 972885989,
+      "center": {
+        "lat": 1.3828717,
+        "lon": 103.7603904
+      },
+      "nodes": [
+        9004576998,
+        11800231919,
+        11800231918,
+        9004576999,
+        9004577000,
+        9139347276,
+        9004577001,
+        9004577002,
+        9004577003,
+        9004576998
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "50",
+        "addr:postcode": "677726",
+        "addr:street": "Woodlands Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "12",
+        "healthcare": "clinic",
+        "name": "Bukit Panjang Polyclinic and Senja Nursing Home",
+        "operator": "National University Polyclinics",
+        "operator:type": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1098777566,
+      "center": {
+        "lat": 1.4114286,
+        "lon": 103.897722
+      },
+      "nodes": [
+        10060577831,
+        10058037537,
+        10060577833,
+        10060577832,
+        10060577831
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "indoor": "room",
+        "level": "0",
+        "name": "Punggol Family Clinic"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1127462205,
+      "center": {
+        "lat": 1.4398639,
+        "lon": 103.8006274
+      },
+      "nodes": [
+        10308418469,
+        10308418468,
+        10308418463,
+        10308418467,
+        10308418473,
+        10308418472,
+        10308418471,
+        10308418470,
+        10308418466,
+        10308418462,
+        10308418465,
+        10308418464,
+        10308418442,
+        8903549974,
+        4952030629,
+        1667364031,
+        4952030630,
+        4952030622,
+        4952030623,
+        10308429113,
+        10308418441,
+        10308418443,
+        10308418469
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "building:levels": "5",
+        "building:min_level": "3",
+        "building:part": "yes",
+        "description": "4-5th floor medical centre + 6th floor roof garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1209228748,
+      "center": {
+        "lat": 1.3907822,
+        "lon": 103.8533174
+      },
+      "nodes": [
+        11203820921,
+        11203820920,
+        11203820925,
+        11203820926,
+        11203820924,
+        11203820921
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "barrier": "fence",
+        "building": "no",
+        "healthcare": "clinic",
+        "name": "Econ Medicare"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1210029859,
+      "center": {
+        "lat": 1.3031436,
+        "lon": 103.8238969
+      },
+      "nodes": [
+        11210098574,
+        11210098575,
+        11210098576,
+        11210098577,
+        11210098578,
+        11210098579,
+        11210098580,
+        11210098581,
+        11210098582,
+        11210098583,
+        11210098584,
+        11210098585,
+        11210098586,
+        11210098587,
+        11210098588,
+        11210098589,
+        11210098590,
+        11210098591,
+        11210098598,
+        11210098592,
+        11210098593,
+        11210098594,
+        11210098595,
+        11210098596,
+        11210098597,
+        11210098574
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "1",
+        "addr:postcode": "248649",
+        "addr:street": "Orchard Boulevard",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Camden Medical Centre",
+        "wikidata": "Q5025792",
+        "wikipedia": "en:Camden Medical Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1266801658,
+      "center": {
+        "lat": 1.3743474,
+        "lon": 103.845657
+      },
+      "nodes": [
+        11766325423,
+        11766325424,
+        11766325425,
+        11766325426,
+        11766325427,
+        11766325428,
+        11766325429,
+        11766325423
+      ],
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "landuse": "public"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1284869860,
+      "center": {
+        "lat": 1.4182141,
+        "lon": 103.8344173
+      },
+      "nodes": [
+        11919782545,
+        11919782546,
+        11919782547,
+        11919782548,
+        11919782549,
+        11919782550,
+        11919782551,
+        11919782552,
+        11919782545
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "690",
+        "addr:postcode": "769567",
+        "addr:street": "Yishun Ring Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "5",
+        "healthcare": "clinic",
+        "name": "Khatib Polyclinic",
+        "name:ms": "Poliklinik Khatib",
+        "operator": "National Healthcare Group Polycinics"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1435864244,
+      "center": {
+        "lat": 1.3508736,
+        "lon": 103.8740701
+      },
+      "nodes": [
+        13197514575,
+        13197514576,
+        13197514577,
+        13197514578,
+        13197514579,
+        13197514580,
+        13197514581,
+        13197514582,
+        13197514583,
+        13197514584,
+        13197514585,
+        13197514586,
+        13197514587,
+        13197514588,
+        13197514589,
+        13197514590,
+        13197514591,
+        13197514592,
+        13197514593,
+        13197514594,
+        13197514595,
+        13197514596,
+        13366457271,
+        13197514597,
+        13197514598,
+        13197514600,
+        13197514599,
+        13197514575
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "587",
+        "addr:postcode": "534564",
+        "addr:street": "Upper Serangoon Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "7",
+        "building:levels:underground": "1",
+        "healthcare": "clinic",
+        "name": "Serangoon Polyclinic",
+        "name:en": "Serangoon Polyclinic",
+        "name:ms": "Poliklinik Serangoon",
+        "name:zh": "实龙岗综合诊疗所"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 4117409,
+      "center": {
+        "lat": 1.369934,
+        "lon": 103.8890148
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 104146290,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 308313502,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "89",
+        "addr:postcode": "538829",
+        "addr:street": "Hougang Avenue 4",
+        "amenity": "clinic",
+        "branch": "Hougang",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Hougang Polyclinic",
+        "name:ms": "Poliklinik Hougang",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "National Healthcare Group",
+        "phone": "+65 6355 3000",
+        "type": "multipolygon",
+        "website": "https://www.nhgp.com.sg/Our_Clinics/Hougang_Polyclinic/"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11843883,
+      "center": {
+        "lat": 1.3822883,
+        "lon": 103.750752
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 867739507,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 193421791,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "2",
+        "addr:postcode": "688846",
+        "addr:street": "Teck Whye Crescent",
+        "amenity": "clinic",
+        "building": "public",
+        "building:levels": "3",
+        "name": "Choa Chu Kang Polyclinic",
+        "name:ms": "Poliklinik Choa Chu Kang",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-16:30; Sa 08:00-12:00; Su off; PH off",
+        "operator": "National Healthcare Group",
+        "phone": "+65 6355 3000",
+        "type": "multipolygon",
+        "website": "https://www.nhgp.com.sg/Our_Clinics/Choa_Chu_Kang_Polyclinic/"
+      }
+    }
+  ]
+}

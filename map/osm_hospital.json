@@ -1,0 +1,2483 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-16T04:06:19Z",
+    "timestamp_areas_base": "2026-07-15T13:36:12Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4004913148,
+      "lat": 1.3413012,
+      "lon": 103.9483102,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Integrated Building (CGH-SACH)",
+        "operator": "Eastern Healthcare Alliance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4800589700,
+      "lat": 1.3818667,
+      "lon": 103.8845994,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Institute of Mental Health",
+        "name:zh": "心理卫生学院",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5599594021,
+      "lat": 1.3010276,
+      "lon": 103.7931057,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Singapore Advanced Medicine Proton Therapy",
+        "name:en": "Singapore Institute of Advanced Medicine - Proton Therapy Centre",
+        "website": "https://www.proton.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5599599523,
+      "lat": 1.2813333,
+      "lon": 103.8380544,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Outram Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "National Cancer Centre Singapore Proton Therapy Centre",
+        "name:zh": "新癌症中心质子治疗中心",
+        "website": "https://www.nccs.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5717278581,
+      "lat": 1.2869166,
+      "lon": 103.8016072,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "emergency",
+        "level": "1",
+        "name": "Urgent Care Centre",
+        "name:zh": "急诊中心",
+        "operator": "Alexandra Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6746490215,
+      "lat": 1.3126,
+      "lon": 103.854,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "217562",
+        "addr:street": "Farrer Park Station Road",
+        "amenity": "hospital",
+        "contact:email": "enquiries@farrerpark.com",
+        "contact:facebook": "https://www.facebook.com/farrerparkhospital",
+        "contact:fax": "+65 6705 2728",
+        "contact:instagram": "https://www.instagram.com/farrerparkhospital/",
+        "contact:website": "https://www.farrerpark.com/hospital/ContactUs/Pages/ContactUs.aspx",
+        "healthcare": "hospital",
+        "name": "Farrer Park Hospital",
+        "name:ms": "Hospital Farrer Park",
+        "name:zh": "花拉公园医院",
+        "opening_hours": "24/7",
+        "operator": "The Farrer Park Company",
+        "operator:type": "private_for_profit",
+        "phone": "+65 6363 1818",
+        "website": "https://www.farrerpark.com/hospital/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7143761653,
+      "lat": 1.3225665,
+      "lon": 103.8136561,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:postcode": "258748",
+        "addr:street": "Serene Centre #02-03",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dermatology",
+        "name": "Priya Sen Skin & Laser Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8894273783,
+      "lat": 1.3206085,
+      "lon": 103.8484559,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Blk 101, TTSH Foot and Limb Center",
+        "name:en": "Blk 101, TTSH Foot and Limb Center",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9152442812,
+      "lat": 1.2941992,
+      "lon": 103.7830593,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "National University Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9723990867,
+      "lat": 1.3122814,
+      "lon": 103.8546429,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "12",
+        "addr:postcode": "217565",
+        "addr:street": "Farrer Park Station Road",
+        "addr:unit": "#05-01",
+        "amenity": "hospital",
+        "email": "info@starmedspecialist.com",
+        "healthcare": "hospital",
+        "mobile": "+65 96552101",
+        "name": "StarMed Specialist Centre",
+        "phone": "+65 63226333",
+        "website": "https://starmedspecialist.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10301741631,
+      "lat": 1.2870419,
+      "lon": 103.801972,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Nursing Training Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10899296569,
+      "lat": 1.4376172,
+      "lon": 103.7865619,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Woodlands Joint Testing & Vaccination Centre",
+        "name:ms": "Pusat Ujian & Vaksinasi Bersama Woodlands",
+        "name:zh": "兀兰联合检测与疫苗接种中心"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11462165516,
+      "lat": 1.3224903,
+      "lon": 103.8450626,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "radiotherapy",
+        "man_made": "particle_accelerator",
+        "name": "Mount Elizabeth Proton Therapy Centre",
+        "operator": "Mount Elizabeth",
+        "particle_accelerator": "circular",
+        "substance": "proton"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13199896801,
+      "lat": 1.3071589,
+      "lon": 103.8202554,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:postcode": "258499",
+        "addr:street": "Napier Road",
+        "amenity": "hospital",
+        "level": "8",
+        "name": "Gleneagles Medical Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13245292326,
+      "lat": 1.3063204,
+      "lon": 103.820416,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "6",
+        "addr:postcode": "258499",
+        "addr:street": "Napier Road",
+        "amenity": "hospital",
+        "contact:facebook": "https://www.linkedin.com/in/chi-chiu-tan-new-life-coach-doctor/",
+        "description": "Life coaching In Singapore",
+        "email": "tancc@gastromed.com.sg",
+        "healthcare": "hospital",
+        "healthcare:speciality": "coach",
+        "name": "New Life Coach Doctor",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "phone": "+65 6471 2212",
+        "website": "https://newlifecoachdr.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 33570275,
+      "center": {
+        "lat": 1.3952091,
+        "lon": 103.8925269
+      },
+      "nodes": [
+        383455381,
+        10856048158,
+        10856048159,
+        10856048160,
+        390909646,
+        10856048161,
+        10856048162,
+        10856048163,
+        383455382,
+        390909647,
+        383455383,
+        10856048170,
+        10856048171,
+        10856048172,
+        10856048174,
+        10856048175,
+        10856048173,
+        383455384,
+        10856048176,
+        10856048177,
+        10856048178,
+        5302971575,
+        10856048179,
+        10856048180,
+        390909648,
+        10856048154,
+        10856048153,
+        383455385,
+        10856048155,
+        383455386,
+        10856048156,
+        10856048157,
+        390910619,
+        383455381
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "110",
+        "addr:postcode": "544886",
+        "addr:street": "Sengkang East Way",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sengkang General & Community Hospital",
+        "name:ms": "Hospital Masyarakat Sengkang",
+        "operator": "SingHealth",
+        "website": "https://www.skh.com.sg/",
+        "wikidata": "Q19646383",
+        "wikimedia_commons": "Category:Sengkang General Hospital",
+        "wikipedia": "en:Sengkang General Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 34403524,
+      "center": {
+        "lat": 1.3403638,
+        "lon": 103.9491054
+      },
+      "nodes": [
+        395072708,
+        6981898878,
+        7495666522,
+        5144118921,
+        395072710,
+        395072711,
+        3274085662,
+        6981898882,
+        1818899873,
+        1818899874,
+        1818899867,
+        6981898880,
+        6981898879,
+        10773336405,
+        4599831341,
+        4599831338,
+        4599831339,
+        4599831340,
+        395072708
+      ],
+      "tags": {
+        "addr:street": "Simei Street 3",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Changi General Hospital",
+        "name:ms": "Hospital Besar Changi",
+        "wheelchair": "yes",
+        "wikidata": "Q5071993",
+        "wikimedia_commons": "Category:Changi General Hospital",
+        "wikipedia": "en:Changi General Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 34587438,
+      "center": {
+        "lat": 1.3819475,
+        "lon": 103.8860997
+      },
+      "nodes": [
+        4362802721,
+        4362802717,
+        401519656,
+        401519657,
+        401519658,
+        401519659,
+        401519660,
+        401519568,
+        401519569,
+        4362802702,
+        4362802701,
+        4362802703,
+        4362802704,
+        4362802707,
+        4362802706,
+        1411329316,
+        401519565,
+        1411329252,
+        4362802710,
+        4362802709,
+        4362802712,
+        4362802711,
+        4362802715,
+        4362802720,
+        4362802716,
+        4362802722,
+        4362802721
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Ren Ci Hospital",
+        "name:ms": "Hospital Ren Ci",
+        "name:zh": "仁慈医院"
+      }
+    },
+    {
+      "type": "way",
+      "id": 37410453,
+      "center": {
+        "lat": 1.3840243,
+        "lon": 103.8402375
+      },
+      "nodes": [
+        437138881,
+        437138883,
+        437138885,
+        437138887,
+        437138881
+      ],
+      "tags": {
+        "alt_name": "Thye Hua Kwan Hospital",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ang Mo Kio Community Hospital",
+        "name:ms": "Hospital Masyarakat Ang Mo Kio",
+        "name:zh": "宏茂桥社区医院"
+      }
+    },
+    {
+      "type": "way",
+      "id": 41663272,
+      "center": {
+        "lat": 1.3105457,
+        "lon": 103.8467818
+      },
+      "nodes": [
+        512075427,
+        512075428,
+        1834279482,
+        3201038604,
+        1834279481,
+        5280740027,
+        1834279480,
+        5280740032,
+        1834279479,
+        1834279478,
+        512075429,
+        1834279477,
+        1834279475,
+        512075430,
+        512075431,
+        512075433,
+        7495551308,
+        13476295896,
+        512075427
+      ],
+      "tags": {
+        "alt_name": "KK Hospital",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "2",
+        "building:part": "yes",
+        "emergency": "yes",
+        "full_name": "Kandang Kerbau Women's and Children's Hospital",
+        "healthcare": "hospital",
+        "name": "KK Women's and Children's Hospital",
+        "name:ms": "Hospital Wanita dan Kanak-kanak KK",
+        "name:zh": "竹脚妇幼医院",
+        "wikidata": "Q6332329",
+        "wikipedia": "en:KK Women's and Children's Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 41890511,
+      "center": {
+        "lat": 1.3073675,
+        "lon": 103.8198296
+      },
+      "nodes": [
+        518302148,
+        518302150,
+        518302151,
+        518302152,
+        518302153,
+        518302154,
+        11262843970,
+        11262843971,
+        518302156,
+        518302157,
+        518302148
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "6",
+        "addr:street": "Napier Road",
+        "amenity": "hospital",
+        "contact:facebook": "https://www.facebook.com/GleneaglesHospitalSingapore",
+        "contact:whatsapp": "+65 8111 9777",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Gleneagles Hospital",
+        "name:ms": "Hospital Gleneagles",
+        "name:zh": "鹰阁医院",
+        "phone": "+65 6575 7575",
+        "start_date": "1957",
+        "website": "https://www.gleneagles.com.sg/",
+        "wikidata": "Q14874254",
+        "wikimedia_commons": "Category:Gleneagles Hospital and Medical Centre",
+        "wikipedia": "en:Gleneagles Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 47134077,
+      "center": {
+        "lat": 1.3011633,
+        "lon": 103.857147
+      },
+      "nodes": [
+        600935667,
+        11584408977,
+        6924421328,
+        3979870490,
+        2015923721,
+        600935668,
+        600935669,
+        2015923703,
+        1764839470,
+        5123276736,
+        600935670,
+        9808392965,
+        4391392128,
+        4391392127,
+        600935672,
+        2015923735,
+        600935667
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "585",
+        "addr:postcode": "188770",
+        "addr:street": "North Bridge Road",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "height": "0",
+        "internet_access": "wlan",
+        "name": "Raffles Hospital",
+        "name:ms": "Hospital Raffles",
+        "name:zh": "莱佛士医院",
+        "opening_hours": "24/7",
+        "start_date": "2001",
+        "wheelchair": "yes",
+        "wikidata": "Q7282578",
+        "wikimedia_commons": "Category:Raffles_Hospital",
+        "wikipedia": "en:Raffles Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 74715098,
+      "center": {
+        "lat": 1.342202,
+        "lon": 103.8379314
+      },
+      "nodes": [
+        882483835,
+        882483836,
+        882483837,
+        882483838,
+        2402430226,
+        882483835
+      ],
+      "tags": {
+        "addr:housenumber": "820",
+        "addr:postcode": "574623",
+        "addr:street": "Thomson Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Mount Alvernia Hospital",
+        "name:ms": "Hospital Mount Alvernia",
+        "name:zh": "安微尼亚山医院",
+        "website": "https://mtalvernia.sg/",
+        "wikidata": "Q6919390",
+        "wikipedia": "en:Mount Alvernia Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 75468299,
+      "center": {
+        "lat": 1.2794979,
+        "lon": 103.8347388
+      },
+      "nodes": [
+        890976950,
+        890976952,
+        890976953,
+        890976955,
+        890976956,
+        890976958,
+        890976959,
+        890976961,
+        1831767073,
+        1814203869,
+        890976962,
+        890976964,
+        890976965,
+        890976966,
+        1831767102,
+        890976967,
+        890976968,
+        7097406745,
+        1831767043,
+        890976969,
+        890976970,
+        1814209880,
+        1814209881,
+        1814209882,
+        1814209883,
+        1831767106,
+        890976972,
+        1831767078,
+        890976973,
+        1704365538,
+        2491205140,
+        2508066141,
+        2508066129,
+        9787676272,
+        9787653980,
+        2508066122,
+        2508066125,
+        2508066127,
+        2508066147,
+        5233184147,
+        9787676274,
+        9787676275,
+        9787676276,
+        9787676279,
+        9787676278,
+        9787676277,
+        890976975,
+        890976976,
+        890976978,
+        890976950
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Singapore General Hospital",
+        "name:en": "Singapore General Hospital",
+        "name:ms": "Hospital Besar Singapore",
+        "name:ta": "சிங்கப்பூர் தேசிய மருத்துவமனை",
+        "name:th": "รงพยาบาลสิงคโปร์",
+        "name:zh": "新加坡中央医院",
+        "short_name": "SGH",
+        "url": "http://www.sgh.com.sg/",
+        "wikidata": "Q7522983",
+        "wikimedia_commons": "Category:Singapore General Hospital",
+        "wikipedia": "en:Singapore General Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 96696099,
+      "center": {
+        "lat": 1.3407464,
+        "lon": 103.7045823
+      },
+      "nodes": [
+        1119816508,
+        6961536813,
+        1119816480,
+        6961536810,
+        6961536811,
+        6961536812,
+        1119816541,
+        1119816590,
+        1119816556,
+        1119816483,
+        1119816555,
+        1119816495,
+        1119816586,
+        6961536803,
+        6961536802,
+        6961536801,
+        6961536800,
+        1119816605,
+        7919150396,
+        6961536799,
+        6961536798,
+        1119816597,
+        1119816608,
+        1119816508
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "layer": "1",
+        "name": "Jurong Medical Centre",
+        "name:en": "Jurong Medical Centre",
+        "name:zh": "裕廊医疗中心",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 107830083,
+      "center": {
+        "lat": 1.3525818,
+        "lon": 103.7268897
+      },
+      "nodes": [
+        1238543049,
+        1238543059,
+        1238543069,
+        6438945867,
+        6438945868,
+        6438945866,
+        6438945865,
+        1238543058,
+        1238543062,
+        1238543046,
+        1238543070,
+        6458443939,
+        1238543049
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "931",
+        "addr:postcode": "649370",
+        "addr:street": "Jurong West Street 42",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Jurong West Joint Testing & Vaccination Centre",
+        "name:ms": "Pusat Ujian & Vaksinasi Bersama Jurong West",
+        "name:zh": "裕廊西联合检测与疫苗接种中心"
+      }
+    },
+    {
+      "type": "way",
+      "id": 108841365,
+      "center": {
+        "lat": 1.3404883,
+        "lon": 103.7395646
+      },
+      "nodes": [
+        1247820715,
+        1247820696,
+        1247820694,
+        1247820708,
+        1247820701,
+        1247820689,
+        2971098657,
+        1247820714,
+        1247820699,
+        1247820718,
+        1247820697,
+        1247820710,
+        1247820715
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "450",
+        "addr:postcode": "609604",
+        "addr:street": "Jurong East Street 21",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Jurong East Joint Testing & Vaccination Centre",
+        "name:ms": "Pusat Ujian & Vaksinasi Bersama Jurong East",
+        "name:zh": "裕廊东联合检测与疫苗接种中心"
+      }
+    },
+    {
+      "type": "way",
+      "id": 109100976,
+      "center": {
+        "lat": 1.2864822,
+        "lon": 103.7995836
+      },
+      "nodes": [
+        1250041328,
+        1250041298,
+        1250041379,
+        1250041875,
+        13478669904,
+        13478669892,
+        13478669891,
+        1250041328
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "description": "This used to be the Married Quarters of the British Military Hospital.",
+        "healthcare": "hospital",
+        "name": "Block 22 - Mortuary"
+      }
+    },
+    {
+      "type": "way",
+      "id": 109104578,
+      "center": {
+        "lat": 1.2868961,
+        "lon": 103.8011777
+      },
+      "nodes": [
+        1250103358,
+        1250103506,
+        1250103363,
+        1250103386,
+        1250103348,
+        13806085076,
+        1250103398,
+        1250103558,
+        1250103551,
+        1250103381,
+        1250103446,
+        1250103426,
+        1250103499,
+        13478649961,
+        1250103576,
+        1250103613,
+        1250103611,
+        1250103532,
+        1250103598,
+        1250103419,
+        1250103543,
+        1250103415,
+        1250103271,
+        1250103358
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Alexandra Hospital",
+        "name:ms": "Hospital Alexandra",
+        "name:zh": "亚历山大医院",
+        "wikidata": "Q4720666",
+        "wikipedia": "en:Alexandra Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 117178559,
+      "center": {
+        "lat": 1.4237475,
+        "lon": 103.8372373
+      },
+      "nodes": [
+        1319900186,
+        1319900184,
+        1319900185,
+        1319900183,
+        1319900186
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Yishun Community Hospital",
+        "name:ms": "Hospital Masyarakat Yishun",
+        "name:zh": "义顺社区医院",
+        "wheelchair": "yes",
+        "wikidata": "Q65052043",
+        "wikipedia": "en:Yishun Community Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 117325081,
+      "center": {
+        "lat": 1.3720577,
+        "lon": 103.8780282
+      },
+      "nodes": [
+        1321355112,
+        1321355474,
+        7546410062,
+        1321355271,
+        1321355825,
+        1321355112
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "5",
+        "addr:postcode": "547530",
+        "addr:street": "Lor Napiri",
+        "amenity": "hospital",
+        "email": "enquiries@bvh.org.sg",
+        "fax": "+65 6881 3872",
+        "healthcare": "hospital",
+        "name": "Bright Vision Hospital",
+        "name:ms": "Hospital Bright Vision",
+        "phone": "+65 6248 5755",
+        "website": "http://www.bvh.org.sg/",
+        "wikidata": "Q4967491",
+        "wikipedia": "en:Bright Vision Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 162644392,
+      "center": {
+        "lat": 1.3494673,
+        "lon": 103.7421088
+      },
+      "nodes": [
+        1745074012,
+        1745073969,
+        1745074003,
+        1745073973,
+        1745073984,
+        1745073970,
+        1745073990,
+        1745073994,
+        1745074006,
+        1745074008,
+        1745073992,
+        1745073974,
+        1745073976,
+        1745074012
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "2",
+        "addr:postcode": "659674",
+        "addr:street": "Bukit Batok Street 11",
+        "amenity": "hospital",
+        "email": "general@stluke.org.sg",
+        "fax": "+65 65618205",
+        "name": "St Luke’s Hospital",
+        "name:ms": "Hospital St Luke",
+        "phone": "+65 65632281",
+        "source": "https://www.slh.org.sg/",
+        "website": "https://www.slh.org.sg/",
+        "wheelchair": "yes",
+        "wikidata": "Q7594065",
+        "wikipedia": "en:St Luke's Hospital, Singapore"
+      }
+    },
+    {
+      "type": "way",
+      "id": 170744577,
+      "center": {
+        "lat": 1.3416535,
+        "lon": 103.9488264
+      },
+      "nodes": [
+        1818899867,
+        1818899868,
+        1818899869,
+        1818899870,
+        1818899871,
+        1818899872,
+        1818899873,
+        1818899874,
+        1818899867
+      ],
+      "tags": {
+        "addr:street": "Simei Street 3",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Saint Andrew's Community Hospital",
+        "name:ms": "Hospital Masyarakat Saint Andrew's",
+        "operator": "St. Andrew's Mission Hospital",
+        "website": "https://www.sach.org.sg/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172530221,
+      "center": {
+        "lat": 1.3228173,
+        "lon": 103.8459864
+      },
+      "nodes": [
+        1834257060,
+        1834256995,
+        7191487608,
+        7191487616,
+        7191487615,
+        7191487614,
+        7191487613,
+        1834256959,
+        7191487611,
+        7191487612,
+        1834257056,
+        1834257063,
+        1834257065,
+        1834257062,
+        1834257060
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "71",
+        "addr:postcode": "329562",
+        "addr:street": "Irrawaddy Road",
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2024-04-17",
+        "email": "renci@renci.org.sg",
+        "fax": "+65 63580900",
+        "healthcare": "hospital",
+        "height": "0",
+        "name": "Ren Ci Community Hospital",
+        "name:ms": "Hospital Masyarakat Ren Ci",
+        "name:zh": "仁慈社区医院",
+        "opening_hours": "Mo-Fr 08:30-17:30;Sa 08:00-13:00",
+        "phone": "+65 63850288",
+        "website": "https://www.renci.org.sg/",
+        "wikidata": "Q17053224",
+        "wikipedia": "en:Ren Ci Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 238933465,
+      "center": {
+        "lat": 1.2943464,
+        "lon": 103.7831409
+      },
+      "nodes": [
+        1249570064,
+        2467430651,
+        2467430650,
+        2467430646,
+        2467430623,
+        10595350815,
+        2467430614,
+        12180634028,
+        10595350814,
+        10595350817,
+        4941538227,
+        1249570066,
+        1249570099,
+        1249570065,
+        1249570095,
+        1249570070,
+        1249570084,
+        1249570079,
+        1249570105,
+        1249570080,
+        1249570062,
+        1362160414,
+        1249570107,
+        1362160438,
+        1249570096,
+        1362160459,
+        1249570106,
+        1249570102,
+        1249570098,
+        1249570075,
+        1362160543,
+        1249570076,
+        1249570074,
+        1249570073,
+        1362160583,
+        1249570069,
+        1249570091,
+        1249570092,
+        1249570088,
+        1249570082,
+        1249570094,
+        1249570059,
+        1249570090,
+        1249570097,
+        2391320027,
+        1249570068,
+        1249570108,
+        1249570064
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "National University Hospital",
+        "name:en": "National University Hospital",
+        "name:ms": "Hospital Universiti Nasional Singapura",
+        "name:ta": "தேசிய பல்கலைக்கழக மருத்துவமனையில்",
+        "name:zh": "国立大学医院",
+        "start_date": "1985",
+        "url": "http://www.nuh.com.sg/",
+        "wikidata": "Q6979219",
+        "wikimedia_commons": "Category:National University Hospital",
+        "wikipedia": "en:National University Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 260472491,
+      "center": {
+        "lat": 1.3212804,
+        "lon": 103.8510187
+      },
+      "nodes": [
+        2659553353,
+        2659552781,
+        8011791054,
+        2659552790,
+        2659552792,
+        2659552794,
+        13325813012,
+        13325813011,
+        2659552788,
+        13325813010,
+        13325813008,
+        13325813009,
+        2659552811,
+        2659552943,
+        2659552941,
+        13325813059,
+        13325813006,
+        13325813007,
+        13325813005,
+        13325813004,
+        13325813065,
+        2659553267,
+        2659553265,
+        13325813117,
+        2659553352,
+        13469985917,
+        2659553355,
+        13469985921,
+        13469985920,
+        13469985919,
+        13469985918,
+        2659553384,
+        2659553375,
+        2659553391,
+        13470119468,
+        13470119467,
+        2659553390,
+        2659553353
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Communicable Disease Centre",
+        "wheelchair": "yes",
+        "wikidata": "Q5154059",
+        "wikipedia": "en:Communicable Disease Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 260549167,
+      "center": {
+        "lat": 1.3220014,
+        "lon": 103.8445055
+      },
+      "nodes": [
+        2660517096,
+        2660517111,
+        2660517123,
+        2655880082,
+        2607722270,
+        1541260961,
+        2660517122,
+        7230944113,
+        2660957681,
+        2660517096
+      ],
+      "tags": {
+        "addr:housenumber": "38",
+        "addr:street": "Irrawaddy Road",
+        "amenity": "hospital",
+        "check_date": "2024-12-27",
+        "email": "mnpac@parkwaypantai.com",
+        "healthcare": "hospital",
+        "name": "Mount Elizabeth Novena Hospital",
+        "name:ms": "Hospital Mount Elizabeth Novena",
+        "name:zh": "伊丽莎白医诺维娜院",
+        "operator": "Parkway Health",
+        "phone": "+65 69330000",
+        "website": "https://www.mountelizabeth.com.sg/",
+        "wikidata": "Q7138809",
+        "wikipedia": "en:Mount Elizabeth Novena Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 292420394,
+      "center": {
+        "lat": 1.3749701,
+        "lon": 103.8573449
+      },
+      "nodes": [
+        2959763467,
+        2959763460,
+        2959763211,
+        2959763444,
+        2959763469,
+        2959763471,
+        2959763472,
+        5173209390,
+        2959763468,
+        5173209394,
+        2959763467
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "4300",
+        "addr:postcode": "569869",
+        "addr:street": "Ang Mo Kio Avenue 5",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ang Mo Kio Joint Testing & Vaccination Centre",
+        "name:ms": "Pusat Ujian dan Vaksinasi Bersama Ang Mo Kio",
+        "name:zh": "宏茂桥联合检测与疫苗接种中心",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 319962500,
+      "center": {
+        "lat": 1.30467,
+        "lon": 103.8352479
+      },
+      "nodes": [
+        1834172628,
+        1834172627,
+        1834172623,
+        1834172622,
+        1834172613,
+        1834172611,
+        1834172600,
+        1834172601,
+        1834172592,
+        1834172593,
+        1834172589,
+        1834172588,
+        1834172578,
+        1834172579,
+        1834172576,
+        1834172577,
+        6397684706,
+        1834172570,
+        1834172571,
+        6397684703,
+        1834172574,
+        1834172573,
+        1834172580,
+        1834172581,
+        1834172583,
+        1834172582,
+        1834172585,
+        1834172584,
+        1834172587,
+        1834172586,
+        1834172591,
+        1834172590,
+        1834172594,
+        1834172595,
+        1834172602,
+        1834172603,
+        1834172618,
+        1834172617,
+        1834172628
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building:levels": "10",
+        "building:min_levels": "5",
+        "building:part": "yes",
+        "healthcare": "hospital",
+        "name": "Elizabeth Hospital Wards",
+        "name:zh": "伊丽莎白医院病房"
+      }
+    },
+    {
+      "type": "way",
+      "id": 320763066,
+      "center": {
+        "lat": 1.3346266,
+        "lon": 103.7442056
+      },
+      "nodes": [
+        3274061031,
+        3274061032,
+        3359272118,
+        3274061033,
+        6365006750,
+        3718704960,
+        6365006749,
+        3718704811,
+        3718704812,
+        3570890924,
+        6365006751,
+        6365006742,
+        6365006752,
+        6365006753,
+        6365006754,
+        6365006755,
+        6365006756,
+        3274061034,
+        6365006743,
+        3718705051,
+        6365006757,
+        6365006758,
+        6365006759,
+        3718705052,
+        3718705041,
+        6365006745,
+        3718705036,
+        3718705044,
+        6365006746,
+        6365006747,
+        6365006748,
+        3274061031
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "609606",
+        "addr:street": "Jurong East Street 21",
+        "alt_name": "Ng Teng Fong General Hospital Tower A",
+        "amenity": "hospital",
+        "building": "hospital",
+        "height": "0",
+        "name": "Jurong Health Specialist Outpatient Clinics"
+      }
+    },
+    {
+      "type": "way",
+      "id": 320764872,
+      "center": {
+        "lat": 1.3406555,
+        "lon": 103.9494359
+      },
+      "nodes": [
+        6981898877,
+        6981900185,
+        6981898881,
+        3274085663,
+        6466633085,
+        6466633084,
+        6466633083,
+        6466633082,
+        6466633081,
+        5254679789,
+        6466633080,
+        3274085664,
+        3274085665,
+        3274085666,
+        3274085667,
+        3274085668,
+        7495666526,
+        3274085669,
+        3274085670,
+        3274085671,
+        6981898877
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "4",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 368005259,
+      "center": {
+        "lat": 1.3327304,
+        "lon": 103.7465675
+      },
+      "nodes": [
+        3718704708,
+        3718702949,
+        3718704689,
+        3718704679,
+        3718704671,
+        3718704513,
+        7490754558,
+        7490754557,
+        3718704516,
+        3718704514,
+        3718704507,
+        3718704678,
+        3718704672,
+        3718704584,
+        7490754538,
+        3718704571,
+        7490754537,
+        6365006700,
+        7490754536,
+        3718704569,
+        3718704572,
+        6365006702,
+        6365006701,
+        3718704578,
+        3718704494,
+        3718704511,
+        6365006703,
+        3718704673,
+        6365006704,
+        3718704684,
+        3718702943,
+        3718702942,
+        3718702957,
+        6365006709,
+        3718704699,
+        7490754559,
+        3718704712,
+        7490754560,
+        7490754539,
+        3718704589,
+        6365006705,
+        7490754540,
+        3718704594,
+        6365006707,
+        7490754545,
+        3718704595,
+        3718704599,
+        7490754561,
+        3718704520,
+        7490754544,
+        7490754565,
+        7490754541,
+        3718704727,
+        7490754542,
+        7490754563,
+        3718704521,
+        3718704603,
+        7490754543,
+        7490754564,
+        7490754562,
+        3718704593,
+        3718704588,
+        7490754546,
+        3718704714,
+        3718704705,
+        7490754547,
+        7490754549,
+        7490754548,
+        7490754550,
+        7490754551,
+        3718704592,
+        7490754552,
+        3718704586,
+        3718704591,
+        3718704708
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "609606",
+        "addr:street": "Jurong East Street 21",
+        "alt_name": "Ng Teng Fong General Hospital Tower C",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "height": "0",
+        "name": "Jurong Community Hospital",
+        "name:ms": "Hospital Masyarakat Jurong",
+        "name:zh": "裕廊社区医院",
+        "wikidata": "Q23926492",
+        "wikipedia": "en:Jurong Community Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 368005260,
+      "center": {
+        "lat": 1.334218,
+        "lon": 103.745174
+      },
+      "nodes": [
+        3718704852,
+        6259778863,
+        6259778864,
+        3718704956,
+        3718704718,
+        3718704567,
+        3718704561,
+        3718704667,
+        3718704562,
+        3718702963,
+        3718704700,
+        3718704706,
+        3718704730,
+        4281654164,
+        4281654162,
+        3718704813,
+        3718705049,
+        4281654166,
+        3718704852
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "609606",
+        "addr:street": "Jurong East Street 21",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Jurong Health Services"
+      }
+    },
+    {
+      "type": "way",
+      "id": 368005263,
+      "center": {
+        "lat": 1.3333962,
+        "lon": 103.745529
+      },
+      "nodes": [
+        3718704958,
+        7490754526,
+        7490754527,
+        7490754528,
+        3718704959,
+        3718704957,
+        3718704955,
+        7490754529,
+        3718704954,
+        3718704953,
+        7490754530,
+        3718704946,
+        7490754525,
+        7490754531,
+        7490754532,
+        7490754533,
+        3718704766,
+        3718704761,
+        3718704747,
+        3718704933,
+        3718704621,
+        7490754534,
+        7490754535,
+        3718704615,
+        3718704612,
+        3570890927,
+        3718704704,
+        3718704690,
+        7490754553,
+        3718704688,
+        3718704692,
+        7490754554,
+        3718702944,
+        7490754555,
+        3718702953,
+        7490754556,
+        3718704696,
+        3718704702,
+        3718704708,
+        3718704591,
+        3718704586,
+        7490754552,
+        3718704592,
+        7490754551,
+        7490754550,
+        3718704606,
+        3718704523,
+        3718704731,
+        7490754523,
+        3718704740,
+        7490754524,
+        3718704722,
+        3718704958
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "609606",
+        "addr:street": "Jurong East Street 21",
+        "alt_name": "Ng Teng Fong General Hospital Tower B",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:colour": "#543d45",
+        "building:levels": "4",
+        "building:material": "metal",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Ng Teng Fong General Hospital",
+        "name:ms": "Hospital Besar Ng Teng Fong",
+        "name:zh": "黄廷方综合医院0",
+        "operator": "Jurong Health",
+        "wikidata": "Q18639988",
+        "wikipedia": "en:Ng Teng Fong General Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397219610,
+      "center": {
+        "lat": 1.3151223,
+        "lon": 103.9089808
+      },
+      "nodes": [
+        4000370998,
+        13426260085,
+        4000370999,
+        4000371000,
+        4000371001,
+        4000370998
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Parkway East Hospital",
+        "name:ms": "Hospital Parkway East",
+        "name:zh": "百汇东岸医院",
+        "opening_hours": "24/7",
+        "wheelchair": "yes",
+        "wikidata": "Q7138794",
+        "wikipedia": "en:Parkway East Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 454254134,
+      "center": {
+        "lat": 1.3149667,
+        "lon": 103.8829355
+      },
+      "nodes": [
+        4508337929,
+        4508337931,
+        4508337930,
+        4508337812,
+        4508337813,
+        4508337928,
+        4508337929
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "260",
+        "addr:street": "Sims Avenue",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "ECM Building",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 464928931,
+      "center": {
+        "lat": 1.3174073,
+        "lon": 103.8590435
+      },
+      "nodes": [
+        4599780057,
+        8137479102,
+        6874552239,
+        10171933586,
+        10171932914,
+        11741247047,
+        6874552238,
+        10171932913,
+        10171932912,
+        11741247048,
+        4599780056,
+        4599780055,
+        6176179785,
+        8137479106,
+        4599780057
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "705",
+        "addr:postcode": "328127",
+        "addr:street": "Serangoon Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Kwong Wai Shiu Hospital",
+        "name:ms": "Hospital Kwong Wai Shiu",
+        "name:zh": "广惠肇医院",
+        "wikidata": "Q6450553"
+      }
+    },
+    {
+      "type": "way",
+      "id": 480737108,
+      "center": {
+        "lat": 1.2889703,
+        "lon": 103.8252552
+      },
+      "nodes": [
+        4737086416,
+        4737086417,
+        10829005554,
+        10829005556,
+        3366896018,
+        3366896007,
+        4737086416
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "8",
+        "addr:street": "Lower Delta Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Bukit Merah Joint Testing & Vaccination Centre",
+        "name:ms": "Pusat Ujian & Vaksinasi Bersama Bukit Merah",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 554570809,
+      "center": {
+        "lat": 1.3497175,
+        "lon": 103.7306922
+      },
+      "nodes": [
+        5351804597,
+        5365065945,
+        11245962949,
+        5351804598,
+        5351804599,
+        5357156805,
+        5351804600,
+        5351804597
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 575304529,
+      "center": {
+        "lat": 1.3821353,
+        "lon": 103.8847334
+      },
+      "nodes": [
+        3895966900,
+        5520747869,
+        5520747864,
+        4631030891,
+        4631030892,
+        4631030893,
+        4631030894,
+        4631030895,
+        4631030896,
+        5520747865,
+        5520747866,
+        5520747867,
+        5520747868,
+        3895966898,
+        3895966897,
+        3895966901,
+        3895966900
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "fixme:name:zh": "-",
+        "healthcare": "hospital",
+        "name": "Buangkok Green Medical Park",
+        "name:zh": "万国埔医疗园"
+      }
+    },
+    {
+      "type": "way",
+      "id": 586389089,
+      "center": {
+        "lat": 1.424561,
+        "lon": 103.7945949
+      },
+      "nodes": [
+        5602725332,
+        5602725333,
+        5602725337,
+        10913840083,
+        5602725342,
+        5602725344,
+        5602725346,
+        10913840081,
+        5602725347,
+        10913840092,
+        10913840091,
+        10913840088,
+        10913840089,
+        10913840090,
+        5602725348,
+        5602725349,
+        10913840086,
+        10913840084,
+        10913840085,
+        5602725350,
+        5602725351,
+        10913840087,
+        5602725332
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Woodlands Health Campus"
+      }
+    },
+    {
+      "type": "way",
+      "id": 661998662,
+      "center": {
+        "lat": 1.3908033,
+        "lon": 103.9035976
+      },
+      "nodes": [
+        6197639717,
+        6197639718,
+        6197639719,
+        6197639720,
+        6197639717
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "60",
+        "addr:street": "Sengkang East Way",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sengkang Joint Testing & Vaccination Centre",
+        "name:ms": "Pusat Ujian & Vaksinasi Bersama Sengkang"
+      }
+    },
+    {
+      "type": "way",
+      "id": 678967931,
+      "center": {
+        "lat": 1.3198366,
+        "lon": 103.8490258
+      },
+      "nodes": [
+        6357431387,
+        11380885375,
+        6357431388,
+        6357431389,
+        11380885374,
+        11380885371,
+        6357431390,
+        6357431391,
+        6357431392,
+        6357431393,
+        6357431394,
+        11380885377,
+        11380885376,
+        6357431387
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "landuse": "healthcare"
+      }
+    },
+    {
+      "type": "way",
+      "id": 695937161,
+      "center": {
+        "lat": 1.363278,
+        "lon": 103.9376016
+      },
+      "nodes": [
+        8197864243,
+        4578734129,
+        13074129871,
+        6534981184,
+        13074129856,
+        13074129857,
+        13074129858,
+        13074129859,
+        13074129855,
+        6534988185,
+        13074129853,
+        6534988186,
+        6534988188,
+        8197864243
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 727076984,
+      "center": {
+        "lat": 1.3237311,
+        "lon": 103.8464927
+      },
+      "nodes": [
+        6813920839,
+        6813920840,
+        6813920841,
+        6813920842,
+        6813920843,
+        6813920844,
+        6813920845,
+        6813920846,
+        6813920847,
+        6813920848,
+        6813920849,
+        6813920850,
+        6813920851,
+        6813920852,
+        6813920853,
+        6813920854,
+        6813920855,
+        6813920856,
+        6813920857,
+        6813920858,
+        6813920859,
+        6813920860,
+        6813920861,
+        6813920862,
+        6813920863,
+        6813920864,
+        6813920865,
+        6813920866,
+        6813920867,
+        6813920868,
+        6813920869,
+        6813920870,
+        6813920871,
+        6813920872,
+        6813920873,
+        6813920874,
+        6813920875,
+        6813920876,
+        6813920877,
+        6813920878,
+        6813920879,
+        6813920880,
+        6813920881,
+        6813920882,
+        6813920883,
+        6813920884,
+        6813943185,
+        6813943186,
+        6813943187,
+        6813943188,
+        6813943189,
+        6813943190,
+        6813943191,
+        6813943192,
+        6813943193,
+        6813943194,
+        6813943195,
+        6813943196,
+        6813943197,
+        6813943198,
+        6813943199,
+        6813943200,
+        6813943201,
+        6813943202,
+        6813943203,
+        6813943204,
+        6813943205,
+        6813943206,
+        11381484494,
+        6813943207,
+        6813943208,
+        6813920839
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "307382",
+        "addr:street": "Tan Tock Seng Link",
+        "alt_name": "TTSH Integrated Care Hub",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "16",
+        "check_date": "2023-11-13",
+        "healthcare": "hospital",
+        "healthcare:speciality": "palliative;rehabilitation",
+        "name": "Tan Tock Seng Hospital Integrated Care Hub",
+        "operator": "Tan Tok Seng Hospital",
+        "operator:type": "public",
+        "short_name": "TTSH-ICH"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746034993,
+      "center": {
+        "lat": 1.4242698,
+        "lon": 103.8386476
+      },
+      "nodes": [
+        1319900183,
+        3120223832,
+        3120223831,
+        3120223829,
+        6981898875,
+        6981898876,
+        1319900185,
+        1319900183
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "90",
+        "addr:postcode": "768828",
+        "addr:street": "Yishun Central",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Khoo Teck Puat Hospital",
+        "name:ms": "Hospital Khoo Teck Puat",
+        "name:zh": "邱德拔医院",
+        "website": "https://www.ktph.com.sg/",
+        "wheelchair": "yes",
+        "wikidata": "Q6402273"
+      }
+    },
+    {
+      "type": "way",
+      "id": 751064398,
+      "center": {
+        "lat": 1.3051574,
+        "lon": 103.8352868
+      },
+      "nodes": [
+        7021777733,
+        7021777734,
+        7021777735,
+        7021777736,
+        7021777747,
+        7021777737,
+        7021777745,
+        7021777746,
+        7021777738,
+        7021777739,
+        7021777728,
+        7021777727,
+        7021777744,
+        7021777740,
+        7021777741,
+        7021777742,
+        7021777743,
+        7021777733
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mount Elizabeth Hospital",
+        "name:ms": "Hospital Mount Elizabeth",
+        "name:zh": "伊丽莎白医院",
+        "wikidata": "Q1320916",
+        "wikimedia_commons": "Category:Mount Elizabeth Medical Centre",
+        "wikipedia": "en:Mount Elizabeth Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 809888784,
+      "center": {
+        "lat": 1.3370448,
+        "lon": 103.8750694
+      },
+      "nodes": [
+        7571956073,
+        7571956074,
+        7571956075,
+        7571970668,
+        7571970669,
+        10792254852,
+        7571970670,
+        10170877222,
+        10170877221,
+        10170877220,
+        7571956073
+      ],
+      "tags": {
+        "addr:street": "Alkaff Crescent",
+        "amenity": "hospital",
+        "construction": "healthcare",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;community",
+        "landuse": "construction",
+        "name": "Bidadari Polyclinic & Nursing Home",
+        "name:zh": "比达达利综合诊疗所和疗养院",
+        "operator": "National Healthcare Group",
+        "operator:type": "public"
+      }
+    },
+    {
+      "type": "way",
+      "id": 886859478,
+      "center": {
+        "lat": 1.3215775,
+        "lon": 103.8467939
+      },
+      "nodes": [
+        2660517096,
+        5733482831,
+        5733482832,
+        5733482833,
+        5733482834,
+        7191522069,
+        7191487684,
+        7191522070,
+        7191522071,
+        7191522072,
+        7192020560,
+        7192020559,
+        7192020558,
+        11380885372,
+        2659552781,
+        2659553353,
+        5733482849,
+        4441480360,
+        1361159865,
+        7191487660,
+        7191487661,
+        8011722066,
+        1361159853,
+        7191487644,
+        7192020573,
+        7192020574,
+        7192020534,
+        8246614819,
+        7192020533,
+        7192020532,
+        7192020531,
+        7192020530,
+        7192020529,
+        7192020528,
+        5733482845,
+        1541260961,
+        2660517122,
+        7230944113,
+        2660957681,
+        2660517096
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "HealthCity Novena",
+        "name:zh": "维娜健康城"
+      }
+    },
+    {
+      "type": "way",
+      "id": 893603790,
+      "center": {
+        "lat": 1.3370467,
+        "lon": 103.9176372
+      },
+      "nodes": [
+        8305115590,
+        8305115591,
+        11245990922,
+        9075012007,
+        9075012006,
+        8305115590
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Eastern General Hospital",
+        "name:ms": "Hospital Besar Timur",
+        "operator": "SingHealth",
+        "operator:type": "government"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1041665295,
+      "center": {
+        "lat": 1.3218881,
+        "lon": 103.8809285
+      },
+      "nodes": [
+        9589789468,
+        13736925890,
+        13736925881,
+        9589789470,
+        13736925880,
+        13736925882,
+        13736925908,
+        9589789472,
+        9589789473,
+        9589789474,
+        9589789468
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "St Andrew's Nursing Home (Aljunied)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1110683914,
+      "center": {
+        "lat": 1.3122008,
+        "lon": 103.8460767
+      },
+      "nodes": [
+        10161074262,
+        10161074263,
+        3201029267,
+        10161074264,
+        2112314922,
+        2112314931,
+        10161074262
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "KKH@Halifax"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1164409385,
+      "center": {
+        "lat": 1.3310728,
+        "lon": 103.7229451
+      },
+      "nodes": [
+        4424800038,
+        4424799995,
+        6627229137,
+        10829480654,
+        10829480655,
+        10829480656,
+        10829480657,
+        4424800038
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "West Point Hospital",
+        "name:ms": "Hospital West Point",
+        "name:zh": "康裕医院"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1286187574,
+      "center": {
+        "lat": 1.3266442,
+        "lon": 103.8545912
+      },
+      "nodes": [
+        2767318462,
+        2767318470,
+        2767318465,
+        11930071743,
+        11930071742,
+        11930071741,
+        2767318462
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "81",
+        "addr:postcode": "328836",
+        "addr:street": "Kim Keat Road",
+        "alt_name": "NKF Centre",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "National Kidney Foundation Dialysis Centre",
+        "name:zh": "全国肾脏基金会洗肾中心",
+        "source": "Bing",
+        "website": "https://www.nkfs.org/",
+        "wikidata": "Q6973911",
+        "wikipedia": "en:National Kidney Foundation Singapore"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1332147158,
+      "center": {
+        "lat": 1.3254213,
+        "lon": 103.841494
+      },
+      "nodes": [
+        12325434518,
+        12325434517,
+        12325434514,
+        12325434540,
+        12325434541,
+        12325434542,
+        12325434543,
+        12325434518
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1345623876,
+      "center": {
+        "lat": 1.3268013,
+        "lon": 103.8133285
+      },
+      "nodes": [
+        12447442229,
+        12447442228,
+        12447442227,
+        12447442226,
+        12447442229
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "19",
+        "addr:postcode": "289891",
+        "addr:street": "Adam Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Crawfurd Hospital",
+        "name:ms": "Hospital Crawfurd",
+        "name:zh": "福德医院",
+        "operator": "Crawfurd Medical"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1424056384,
+      "center": {
+        "lat": 1.3154475,
+        "lon": 103.9322002
+      },
+      "nodes": [
+        13088650907,
+        13088650906,
+        13088650905,
+        13088650904,
+        13088650908,
+        13088650909,
+        13088650910,
+        13088650907
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "208",
+        "addr:postcode": "469726",
+        "addr:street": "Bedok South Avenue 1",
+        "amenity": "hospital",
+        "email": "general@sach.org.sg",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "St. Andrew's Community Hospital (Bedok)",
+        "phone": "+65 6399 3888"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1507451259,
+      "center": {
+        "lat": 1.335228,
+        "lon": 103.8639634
+      },
+      "nodes": [
+        13784631888,
+        13784631889,
+        13784631890,
+        13784631891,
+        13784631892,
+        13784631893,
+        13784631894,
+        13784631895,
+        13784631896,
+        13784631897,
+        13784631898,
+        13784631899,
+        13784631900,
+        13784681101,
+        13784681102,
+        13784681103,
+        13784681104,
+        13784681105,
+        13784631888
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 1726418,
+      "center": {
+        "lat": 1.3827907,
+        "lon": 103.8843179
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 127545784,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 127545788,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 127545785,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 127545786,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 438541860,
+          "role": "inner"
+        }
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Institute Of Mental Health",
+        "name:zh": "心理卫生学院",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 2303411,
+      "center": {
+        "lat": 1.3212799,
+        "lon": 103.8462045
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 455158799,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 121516447,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 172529156,
+          "role": "inner"
+        },
+        {
+          "type": "way",
+          "ref": 121516443,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 261020649,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "11",
+        "addr:postcode": "308433",
+        "addr:street": "Jalan Tan Tock Seng",
+        "amenity": "hospital",
+        "building": "hospital",
+        "email": "contact@ttsh.com.sg",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "height": "0",
+        "layer": "1",
+        "name": "Tan Tock Seng Hospital",
+        "name:en": "Tan Tock Seng Hospital",
+        "name:ms": "Hospital Tan Tock Seng",
+        "name:zh": "陈笃生医院",
+        "name:zh-Hans": "陈笃生医院",
+        "name:zh-Hant": "陳篤生醫院",
+        "phone": "+65 62566011",
+        "short_name": "TTSH",
+        "type": "multipolygon",
+        "url": "http://www.ttsh.com.sg/",
+        "website": "https://www.ttsh.com.sg/",
+        "wheelchair": "yes",
+        "wikidata": "Q7682145",
+        "wikipedia": "en:Tan Tock Seng Hospital"
+      }
+    }
+  ]
+}

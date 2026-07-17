@@ -1,0 +1,85 @@
+\documentclass[10pt, a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{mathpazo} % Palatino font for an elegant look
+
+% --- Custom Colors ---
+\definecolor{primary}{RGB}{0, 0, 0} % A professional steel blue
+\definecolor{darkgray}{RGB}{70, 70, 70}
+
+% --- Heading Formatting ---
+\titleformat{\section}
+  {\Large\bfseries\color{primary}}
+  {\thesection}{1em}{}[\vspace{-0.5em}\rule{\textwidth}{0.4pt}]
+\titlespacing*{\section}{0pt}{1.5ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+\titleformat{\subsection}
+  {\large\bfseries\color{darkgray}}
+  {\thesubsection}{1em}{}
+
+% --- Document Info ---
+\title{\vspace{-2cm}\textbf{\color{primary}Project Proposal: SG HomeRadar}\\
+}
+\author{\textbf{Group 3:} Zhao Jing, Zhao Liangyi, Liu Tianyi, Zhang Junming, Cao Tianhan}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\vspace{-0.5cm} % Reduce space after title
+
+\section*{1. Problem Statement}
+Traditional property platforms use hard filters such as price and room count, but fail to reflect neighborhood liveability, requiring users to consult maps and amenity information separately.
+
+We aim to integrate current and historical prices, periodically refreshed listings, geospatial facilities and community data into an LLM-powered platform for efficient, personalized area and property discovery.
+
+
+\section*{2. Proposed Solution}
+We propose a web-based interactive recommendation system featuring two core interaction paths:
+\begin{itemize}[itemsep=2pt, parsep=0pt]
+    \item \textbf{Macro Exploration (Map UI):} An interactive map of Singapore's 55 URA planning areas. Hover cards show median housing prices and a "Liveability Score" based on Transport accessibility, Food and shopping, Education, Healthcare, and other factors.
+    \item \textbf{Micro Retrieval (NLP Engine):} Users describe their housing needs in natural language. An LLM extracts constraints and preferences; a deterministic engine filters and ranks evidence-backed options from the knowledge base and periodically refreshed listings.
+\end{itemize}
+
+\section*{3. Data Strategy \& Web Mining}
+We combine web-mined information with authoritative public datasets:
+\begin{itemize}[itemsep=2pt, parsep=0pt]
+    \item \textbf{Web-Mined Market Data:} Periodically refreshed property listings, infrastructure and amenities such as MRT stations, food, shopping, education and healthcare, partial sale and rental transaction records and community reviews.
+    \item \textbf{Official Public Datasets:} Historical housing transactions, planning-area and subzone boundaries, addresses, and other authoritative housing and geospatial attributes.
+\end{itemize}
+
+\section*{4. Technical Architecture}
+Our system consists of five main parts:
+
+\begin{itemize}
+  \item \textbf{Data and Knowledge Layer:} We regularly collect housing listings, transaction records,
+  nearby facilities and community reviews. After cleaning and map location, the data is stored in a shared
+  knowledge base.
+
+  \item \textbf{Interactive Map:} Users can explore Singapore without entering a request. The map displays
+  planning areas, subzones, facilities, listings, median prices, facility counts, ratings and reviews.
+
+  \item \textbf{Recommendation Service:} Users describe their housing needs in natural language. The LLM
+  identifies their budget, location, housing type and other preferences. The system applies hard constraints
+  from their requirements, such as a maximum price, then ranks the remaining options using LLM-identified
+  preferences and a predefined weighted scoring function. Finally, a structured recommendation list is generated, with each recommendation explained by LLM based on the knowledge base.
+
+  \item \textbf{Data Updates and System Connection:} Both functions use the same knowledge base.
+  Housing listings are updated periodically, while other data is cleaned and processed regularly.
+
+  \item \textbf{Evaluation:} We will test the stability and accuracy of the filtering and ranking systems,
+  compare predicted prices with observed listing prices, and conduct a small user study.
+\end{itemize}
+
+\end{document}

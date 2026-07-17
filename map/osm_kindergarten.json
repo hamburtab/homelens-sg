@@ -1,0 +1,4105 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-16T04:15:28Z",
+    "timestamp_areas_base": "2026-07-15T13:36:12Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1376336836,
+      "lat": 1.4258908,
+      "lon": 103.774685,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Singapore American School Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1697947905,
+      "lat": 1.3902277,
+      "lon": 103.8600748,
+      "tags": {
+        "amenity": "kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1697947908,
+      "lat": 1.3900034,
+      "lon": 103.8605889,
+      "tags": {
+        "amenity": "kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1721947740,
+      "lat": 1.3314987,
+      "lon": 103.7749358,
+      "tags": {
+        "amenity": "kindergarten",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1800145768,
+      "lat": 1.3357505,
+      "lon": 103.7385078,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Seventh-day Adventist Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1800147544,
+      "lat": 1.3192937,
+      "lon": 103.8344587,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Methodist Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2491837407,
+      "lat": 1.3099684,
+      "lon": 103.7688317,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Playgroup",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2730498625,
+      "lat": 1.374758,
+      "lon": 103.837277,
+      "tags": {
+        "addr:housename": "Bethesdal Hall",
+        "addr:housenumber": "601",
+        "addr:postcode": "569898",
+        "addr:street": "Ang Mo Kio Ave 4",
+        "amenity": "kindergarten",
+        "name": "Bethesda Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3943860291,
+      "lat": 1.376743,
+      "lon": 103.7659135,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Korean Church Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4579716967,
+      "lat": 1.2875652,
+      "lon": 103.841044,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "my first skool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4583783610,
+      "lat": 1.2752138,
+      "lon": 103.8425777,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Tanjong Pagar Plaza",
+        "addr:housenumber": "2",
+        "addr:postcode": "082002",
+        "addr:street": "Tanjong Pagar Road",
+        "amenity": "kindergarten",
+        "branch": "Tanjong Pagar Plaza",
+        "name": "my first skool",
+        "website": "https://www.myfirstskool.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4584780262,
+      "lat": 1.4413659,
+      "lon": 103.8256028,
+      "tags": {
+        "addr:city": "Sembawang",
+        "addr:housenumber": "10B",
+        "addr:postcode": "768443",
+        "addr:street": "Jalan Jeruju",
+        "amenity": "kindergarten",
+        "name": "Edelweiss Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4631818433,
+      "lat": 1.3296676,
+      "lon": 103.8885767,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "17",
+        "addr:postcode": "370017",
+        "addr:street": "Circuit Road",
+        "amenity": "kindergarten",
+        "name": "E-Bridge Preschool",
+        "operator": "EtonHouse International Education Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4682779759,
+      "lat": 1.3065363,
+      "lon": 103.9055033,
+      "tags": {
+        "addr:street": "East Coast Road",
+        "amenity": "kindergarten",
+        "name": "Pink Tower Montessori",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4683830795,
+      "lat": 1.3082445,
+      "lon": 103.9093444,
+      "tags": {
+        "addr:street": "East Coast Road",
+        "amenity": "kindergarten",
+        "name": "Dynamic World Montessori",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4683830796,
+      "lat": 1.3082307,
+      "lon": 103.9092445,
+      "tags": {
+        "addr:street": "East Coast Road",
+        "amenity": "kindergarten",
+        "name": "House of Hot Shotz",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4687519348,
+      "lat": 1.312812,
+      "lon": 103.9228559,
+      "tags": {
+        "addr:street": "Burnfoot Terrace",
+        "amenity": "kindergarten",
+        "name": "Zoo-phonics Kindergarten",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4723344722,
+      "lat": 1.2875987,
+      "lon": 103.8438475,
+      "tags": {
+        "addr:street": "Havelock Road",
+        "amenity": "kindergarten",
+        "check_date": "2025-11-04",
+        "name": "Kinderland",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4726320173,
+      "lat": 1.3218086,
+      "lon": 103.7461261,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Galilee Kindergarten",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4734870696,
+      "lat": 1.3413153,
+      "lon": 103.7725135,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Lorong Kilat",
+        "amenity": "kindergarten",
+        "name": "The Kidz Club",
+        "source": "Reconocimiento terrestre por Kaart 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4734935244,
+      "lat": 1.3411776,
+      "lon": 103.7720016,
+      "tags": {
+        "amenity": "kindergarten",
+        "check_date": "2024-05-18",
+        "name": "Creative Thinkers Preschool",
+        "source": "Reconocimiento terrestre por Kaart 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4734996399,
+      "lat": 1.3396835,
+      "lon": 103.7689391,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Toh Tuck Road",
+        "amenity": "kindergarten",
+        "check_date": "2024-05-29",
+        "name": "Pariposa Preschool",
+        "source": "Reconocimiento terrestre por Kaart 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4735158917,
+      "lat": 1.3767976,
+      "lon": 103.7450154,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Choa Chu Kang Avenue 1",
+        "amenity": "kindergarten",
+        "check_date": "2025-03-02"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4738240996,
+      "lat": 1.2945507,
+      "lon": 103.8420007,
+      "tags": {
+        "addr:street": "River Valley Road",
+        "amenity": "kindergarten",
+        "name": "Cambridge Pre-School",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4738263353,
+      "lat": 1.3092236,
+      "lon": 103.8516862,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Careworks",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4745300622,
+      "lat": 1.3113275,
+      "lon": 103.859364,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:floor": "1",
+        "addr:housename": "302 @ BESAR",
+        "addr:housenumber": "302",
+        "addr:postcode": "208963",
+        "addr:street": "Jalan Besar",
+        "addr:unit": "#01-01",
+        "amenity": "kindergarten",
+        "check_date": "2024-10-18",
+        "facebook": "https://www.facebook.com/LotusBridgeEducation/",
+        "level": "0",
+        "name": "Lotus Bridge International School",
+        "phone": "+65 9062 4902",
+        "preschool": "yes",
+        "source": "Kaart Ground Survey 2017",
+        "website": "https://www.lotusbridgeintschool.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4747967880,
+      "lat": 1.3086831,
+      "lon": 103.7613969,
+      "tags": {
+        "addr:street": "West Coast Road",
+        "amenity": "kindergarten",
+        "name": "Big Foot Pre School"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4749144139,
+      "lat": 1.3254935,
+      "lon": 103.8540495,
+      "tags": {
+        "addr:housenumber": "60",
+        "addr:street": "Kim Keat Road",
+        "amenity": "kindergarten",
+        "check_date": "2022-12-20",
+        "education": "kindergarten",
+        "name": "Little Footprints Preschool",
+        "opening_hours:signed": "no",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5328881318,
+      "lat": 1.4359027,
+      "lon": 103.7804148,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "PCF Marsiling"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5390080519,
+      "lat": 1.3245656,
+      "lon": 103.9106593,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "PAP Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5390080520,
+      "lat": 1.3227708,
+      "lon": 103.9119728,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "PAP Kembangan Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5807126899,
+      "lat": 1.3143545,
+      "lon": 103.866078,
+      "tags": {
+        "addr:housenumber": "#01-01",
+        "addr:postcode": "339213",
+        "addr:street": "Kallang Place",
+        "amenity": "kindergarten",
+        "branch": "Boon Keng",
+        "check_date": "2024-04-24",
+        "level": "0",
+        "name": "MindChamps Preschool",
+        "operator": "MindChamps",
+        "operator:type": "private",
+        "operator:wikidata": "Q107694780",
+        "operator:wikipedia": "MindChamps",
+        "phone": "+65 6291 3068",
+        "preschool": "yes",
+        "website": "https://www.mindchamps.org/preschool/boon-keng/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6163492797,
+      "lat": 1.350712,
+      "lon": 103.8750673,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "SparkleTOTS",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259912931,
+      "lat": 1.3128484,
+      "lon": 103.9241975,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "897",
+        "addr:street": "East Coast Road",
+        "amenity": "kindergarten",
+        "check_date": "2026-01-21",
+        "name": "The Gaulois Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6362678066,
+      "lat": 1.3515511,
+      "lon": 103.7164186,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Little Shepard's Schoolhouse"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6390841597,
+      "lat": 1.3127285,
+      "lon": 103.8706617,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Sparkle Tots"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6437675987,
+      "lat": 1.334131,
+      "lon": 103.8893958,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "2",
+        "name": "Cherie Hearts"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6511660754,
+      "lat": 1.3270098,
+      "lon": 103.8455359,
+      "tags": {
+        "addr:housenumber": "530",
+        "addr:postcode": "329857",
+        "addr:street": "Balestier Road",
+        "amenity": "kindergarten",
+        "check_date": "2023-06-27",
+        "contact:facebook": "https://www.facebook.com/littlefootprintsgroup",
+        "contact:instagram": "https://www.instagram.com/littlefootprintspreschool",
+        "contact:linkedin": "https://www.linkedin.com/company/babilou-family-singapore",
+        "name": "Little Footprints Preschool",
+        "preschool": "yes",
+        "website": "https://littlefootprints.edu.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6511661108,
+      "lat": 1.3192877,
+      "lon": 103.8320478,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Raffles House"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6540729113,
+      "lat": 1.2975842,
+      "lon": 103.8152438,
+      "tags": {
+        "addr:housenumber": "314",
+        "addr:street": "Tanglin Road",
+        "amenity": "kindergarten",
+        "name": "Little Paddington Preschool",
+        "phone": "+65 9720 7679",
+        "website": "https://www.tanglinpark.littlepaddington.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6556858605,
+      "lat": 1.3324727,
+      "lon": 103.8460668,
+      "tags": {
+        "addr:housenumber": "157",
+        "amenity": "kindergarten",
+        "name": "PCF Sparkletots Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6616028754,
+      "lat": 1.3793895,
+      "lon": 103.8781339,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "987B",
+        "addr:postcode": "532987",
+        "addr:street": "Buangkok Green",
+        "amenity": "kindergarten",
+        "name": "PCF Sparkletots Preschool @ Jalan Kayu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6832566765,
+      "lat": 1.2991275,
+      "lon": 103.787502,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Fusionopolis Place",
+        "amenity": "kindergarten",
+        "level": "2",
+        "name": "MindChamps Preschool",
+        "operator": "MindChamps",
+        "operator:type": "private",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6895059068,
+      "lat": 1.29098,
+      "lon": 103.859,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "MindChamps Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7005505323,
+      "lat": 1.3125741,
+      "lon": 103.8473825,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Pegasus",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7056596037,
+      "lat": 1.3145923,
+      "lon": 103.8698791,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Sparkletots"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7076636453,
+      "lat": 1.4434403,
+      "lon": 103.8026207,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "789",
+        "addr:postcode": "730789",
+        "addr:street": "Woodlands Avenue 6",
+        "amenity": "kindergarten",
+        "name": "PCF Sparkletots",
+        "operator": "PAP Community Foundation",
+        "phone": "+65 6363 7978"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7083946246,
+      "lat": 1.3419192,
+      "lon": 103.7003991,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:postcode": "648135",
+        "amenity": "kindergarten",
+        "description": "Jurong West Large Childcare Centre",
+        "name": "My First Skool",
+        "website": "https://www.myfirstskool.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7100809570,
+      "lat": 1.3404547,
+      "lon": 103.7696925,
+      "tags": {
+        "addr:housenumber": "26A",
+        "addr:street": "Toh Tuck Road",
+        "amenity": "kindergarten",
+        "facebook": "https://www.facebook.com/willownurserysg/",
+        "instagram": "https://www.instagram.com/willow.nursery/",
+        "name": "Willow Nursery",
+        "website": "https://willownursery.edu.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7162266485,
+      "lat": 1.3364258,
+      "lon": 103.7837673,
+      "tags": {
+        "amenity": "kindergarten",
+        "education": "kindergarten",
+        "name": "Mosaic Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7195212905,
+      "lat": 1.3300878,
+      "lon": 103.8665418,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Ascension Kindergarten",
+        "phone": "+65 6382 1110",
+        "website": "https://ww.akg.edu.sg",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7232166458,
+      "lat": 1.3944183,
+      "lon": 103.8959677,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "260D",
+        "addr:postcode": "544260",
+        "addr:street": "Sengkang East Way",
+        "amenity": "kindergarten",
+        "name": "Little Footprints Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7263764340,
+      "lat": 1.3286685,
+      "lon": 103.8704161,
+      "tags": {
+        "addr:street": "MacPherson Road",
+        "amenity": "kindergarten",
+        "name": "Bleu Castle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7299219849,
+      "lat": 1.3446967,
+      "lon": 103.7756921,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Noah’s Ark Childcare & Development Centre",
+        "website": "https://www.noahsarkcdc.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7299219874,
+      "lat": 1.3445851,
+      "lon": 103.7756219,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "2B",
+        "addr:postcode": "589240",
+        "addr:street": "Hindhede Road",
+        "amenity": "kindergarten",
+        "email": "admin@arisekgn.org",
+        "fax": "+65 64622947",
+        "name": "Arise Kindergarten",
+        "phone": "+65 64622972",
+        "website": "http://www.arisekgn.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7302308079,
+      "lat": 1.3731068,
+      "lon": 103.8300131,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Jalan Gelenggang",
+        "amenity": "kindergarten",
+        "name": "Puedo Preschool",
+        "website": "https://www.puedopreschool.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7528481578,
+      "lat": 1.3373101,
+      "lon": 103.9217476,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "2",
+        "name": "Sunflower Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7617239185,
+      "lat": 1.3329781,
+      "lon": 103.8948459,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Vertex",
+        "addr:housenumber": "33",
+        "addr:postcode": "408868",
+        "addr:street": "Ubi Avenue 3",
+        "addr:unit": "#01-43;#01-44",
+        "amenity": "kindergarten",
+        "email": "enquiry@childatelier.com.sg",
+        "name": "Child's Atelier",
+        "phone": "+65 65703768",
+        "website": "http://www.childatelier.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7617255346,
+      "lat": 1.3281102,
+      "lon": 103.753923,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "18",
+        "addr:postcode": "609966",
+        "addr:street": "Boon Lay Way",
+        "addr:unit": "#01-131",
+        "amenity": "kindergarten",
+        "name": "First Steps Preschool @ Jurong",
+        "operator": "First Steps Preschool",
+        "operator:type": "private",
+        "preschool": "yes",
+        "website": "https://ourfirststeps.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7669838060,
+      "lat": 1.3020696,
+      "lon": 103.8518915,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Life Childcare Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7682130777,
+      "lat": 1.325099,
+      "lon": 103.9132532,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Little Sparks Montessori"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7765662293,
+      "lat": 1.3398748,
+      "lon": 103.7665946,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:postcode": "598754",
+        "addr:street": "Highgate Walk",
+        "amenity": "kindergarten",
+        "branch": "Highgate",
+        "brand": "Maple Bear Canadian School",
+        "check_date": "2024-05-29",
+        "name": "Maple Bear Highgate",
+        "phone": "+65 9777 4866"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7887627549,
+      "lat": 1.30319,
+      "lon": 103.914276,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "18",
+        "addr:postcode": "440018",
+        "addr:street": "Marine Terrace #01-108",
+        "amenity": "kindergarten",
+        "name": "My First Skool at Blk 18 Marine Terrace",
+        "operator": "My First Skool",
+        "operator:type": "private",
+        "phone": "+65 6509 7887"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7958444454,
+      "lat": 1.3380013,
+      "lon": 103.8432215,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "3",
+        "name": "Sparkletots"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7958470227,
+      "lat": 1.3379997,
+      "lon": 103.843275,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "2",
+        "name": "Carpe Diem Schoolhouse"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8163213917,
+      "lat": 1.3248658,
+      "lon": 103.9312121,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "FoodHub"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8208604394,
+      "lat": 1.3479955,
+      "lon": 103.9285002,
+      "tags": {
+        "amenity": "kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8374180078,
+      "lat": 1.3889211,
+      "lon": 103.8929112,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "Little Footprints Preschool Sengkang 201",
+        "operator": "Little Footprints Preschool",
+        "preschool": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8419773591,
+      "lat": 1.3934614,
+      "lon": 103.8864878,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "351",
+        "addr:postcode": "540351",
+        "addr:street": "Anchorvale Road",
+        "amenity": "kindergarten",
+        "name": "PCF Sparkletots",
+        "phone": "+65 6242 6837",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8448403910,
+      "lat": 1.3859519,
+      "lon": 103.8971687,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "Little Footprints Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8448423020,
+      "lat": 1.3864533,
+      "lon": 103.8968032,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "1",
+        "name": "PCF Sparkletots @ Sengkang Central Blk 206A",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8474939099,
+      "lat": 1.4023032,
+      "lon": 103.9064166,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "Metta Preschool @ Punggol",
+        "name:zh": "慈光幼儿园",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8474939103,
+      "lat": 1.4009089,
+      "lon": 103.9067445,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "Berry Tree Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8474951719,
+      "lat": 1.4038788,
+      "lon": 103.9057672,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "Sparkletots Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8481691701,
+      "lat": 1.3967804,
+      "lon": 103.8963126,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "Agape Little Uni @ Compassvale Pte Ltd",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8481704621,
+      "lat": 1.3963199,
+      "lon": 103.896732,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "PCF Sparkletots Preschool @ Sengkang Central Blk 290A",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8481849030,
+      "lat": 1.3965529,
+      "lon": 103.8900048,
+      "tags": {
+        "amenity": "kindergarten",
+        "branch": "Sengkang West Blk 330A",
+        "education": "kindergarten",
+        "level": "0",
+        "name": "PCF Sparkletots Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8481940635,
+      "lat": 1.3956083,
+      "lon": 103.8887336,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "Small Wonder Anchorvale",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-14:00; Su closed",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8482037438,
+      "lat": 1.3976678,
+      "lon": 103.8893673,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "Skool4Kidz Anchorvale Cove"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8482240474,
+      "lat": 1.3950723,
+      "lon": 103.8916021,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "My First Skool (332B Anchorvale Link)",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8496654294,
+      "lat": 1.321758,
+      "lon": 103.9041603,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "PCF Sparkletots Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8520102616,
+      "lat": 1.3484889,
+      "lon": 103.8503641,
+      "tags": {
+        "amenity": "kindergarten",
+        "branch": "Bishan East-Thomson Blk 197",
+        "education": "kindergarten",
+        "name": "PCF Sparkletots Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8548126430,
+      "lat": 1.385695,
+      "lon": 103.8920972,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "MY World Preschool Ltd (Compassvale Ancilla)",
+        "preschool": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8548247948,
+      "lat": 1.377497,
+      "lon": 103.8903667,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "Whiz Kids Montessori @ Hougang Pte Ltd",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8548399935,
+      "lat": 1.3716828,
+      "lon": 103.887715,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "PCF Sparkletots Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8556333493,
+      "lat": 1.3718107,
+      "lon": 103.8476081,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "1;2",
+        "name": "Learning Kidz @ Jubilee Square",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8566563486,
+      "lat": 1.3064088,
+      "lon": 103.8285067,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "1",
+        "name": "The Kidz Station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8577937527,
+      "lat": 1.3577385,
+      "lon": 103.8841939,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "2",
+        "name": "Kinderland Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8578424481,
+      "lat": 1.3566467,
+      "lon": 103.8837734,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "PCF Sparkletots Preschool @ Pay Lebar Blk 221",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8581145849,
+      "lat": 1.3994196,
+      "lon": 103.8893446,
+      "tags": {
+        "addr:postcode": "540338",
+        "amenity": "kindergarten",
+        "name": "M.Y World"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8597884864,
+      "lat": 1.3149659,
+      "lon": 103.8945219,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "2",
+        "name": "MindChamps Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8620435932,
+      "lat": 1.3931264,
+      "lon": 103.8906784,
+      "tags": {
+        "alt_name": "Agape Little Uni",
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "Agape Child Care (SK)",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8620656812,
+      "lat": 1.3922787,
+      "lon": 103.8766708,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "PCF Sparkletots Preschool @ Fernvale Blk 436D",
+        "note": "actually occupies two locations @ blocks 436A & 436D, but latter is where main signage is",
+        "operator": "PCF Sparkletots Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8642592341,
+      "lat": 1.276145,
+      "lon": 103.8486217,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "LeClare@Shenton",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8646603918,
+      "lat": 1.3599363,
+      "lon": 103.8824775,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:postcode": "549404",
+        "addr:street": "Flower Road",
+        "amenity": "kindergarten",
+        "name": "Catholic Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8646621052,
+      "lat": 1.3250521,
+      "lon": 103.7997442,
+      "tags": {
+        "addr:housenumber": "673",
+        "addr:street": "BTW Timah Rd",
+        "amenity": "kindergarten",
+        "name": "Learning Vision @ HwaChong"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8658564753,
+      "lat": 1.3728194,
+      "lon": 103.9464233,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "570",
+        "addr:postcode": "510570",
+        "addr:street": "Pasir Ris Street 53",
+        "amenity": "kindergarten",
+        "level": "1",
+        "name": "Al-Amin Education Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8706361584,
+      "lat": 1.334009,
+      "lon": 103.7960755,
+      "tags": {
+        "amenity": "kindergarten",
+        "description": "German Kindergarten",
+        "name": "Das kleine Haus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8738555861,
+      "lat": 1.3186316,
+      "lon": 103.856115,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "YWCA McNair Road Child Development Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8738579108,
+      "lat": 1.3034822,
+      "lon": 103.8470476,
+      "tags": {
+        "addr:street": "Wilkie Road",
+        "amenity": "kindergarten",
+        "name": "MapleBear"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8760665549,
+      "lat": 1.3335584,
+      "lon": 103.8485443,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Sparkletots"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8776703617,
+      "lat": 1.3050469,
+      "lon": 103.7646372,
+      "tags": {
+        "amenity": "kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8934992892,
+      "lat": 1.4131272,
+      "lon": 103.8994797,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "326",
+        "addr:postcode": "820326",
+        "addr:street": "Sumang Walk",
+        "amenity": "kindergarten",
+        "name": "PCF Sparkletots",
+        "operator": "PAP Community Foundation"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9050981427,
+      "lat": 1.3229093,
+      "lon": 103.8565757,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "My First Skool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9050998802,
+      "lat": 1.3225444,
+      "lon": 103.8562431,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Sparkle Tots"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9051010887,
+      "lat": 1.3343043,
+      "lon": 103.8451803,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Sparkletots"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9072672581,
+      "lat": 1.3469094,
+      "lon": 103.9628299,
+      "tags": {
+        "addr:city": "Singapore",
+        "amenity": "kindergarten",
+        "name": "Kinderland",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9076080373,
+      "lat": 1.3091711,
+      "lon": 103.7853921,
+      "tags": {
+        "addr:postcode": "270024",
+        "amenity": "kindergarten",
+        "name": "PCF Sparkletots @ Ulu Pandan Blk 24 (DS)",
+        "operator": "PCF Sparkletots",
+        "operator:type": "government",
+        "phone": "+6564683612",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9077294247,
+      "lat": 1.3032317,
+      "lon": 103.7826525,
+      "tags": {
+        "addr:postcode": "130002",
+        "amenity": "kindergarten",
+        "name": "PCF Sparkletots @ Telok Blangah Blk 2 (KN)",
+        "operator": "PCF Sparkletots",
+        "operator:type": "government",
+        "phone": "+6567731760",
+        "preschool": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9078527926,
+      "lat": 1.3229417,
+      "lon": 103.9057802,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "8",
+        "addr:postcode": "419260",
+        "addr:street": "Jalan Ismail",
+        "amenity": "kindergarten",
+        "description": "A wholly owned subsidiary under Happy Kids Preschool Pte. Ltd.",
+        "name": "Little Atlas Preschool",
+        "phone": "+65 8878 9826",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9131096410,
+      "lat": 1.3125847,
+      "lon": 103.9074993,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Sparkletots",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9163317018,
+      "lat": 1.3890384,
+      "lon": 103.7666019,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "MOE Kindergarten @ West Spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9194739117,
+      "lat": 1.3251155,
+      "lon": 103.799715,
+      "tags": {
+        "addr:housenumber": "673",
+        "addr:street": "BT Timah Road",
+        "amenity": "kindergarten",
+        "name": "Learning Vision Hwa Chong"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9235359733,
+      "lat": 1.4563338,
+      "lon": 103.8296787,
+      "tags": {
+        "addr:housenumber": "257",
+        "addr:street": "Canada Road",
+        "amenity": "kindergarten",
+        "name": "Carpe Diem Kidz Playschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9331824667,
+      "lat": 1.3039685,
+      "lon": 103.8360691,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "5",
+        "name": "MindChamps Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9422140817,
+      "lat": 1.2712848,
+      "lon": 103.810326,
+      "tags": {
+        "amenity": "kindergarten",
+        "check_date": "2026-02-05",
+        "name": "Sparkletots"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9457439563,
+      "lat": 1.3332862,
+      "lon": 103.852376,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Mulberry Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9574586537,
+      "lat": 1.3023203,
+      "lon": 103.8622476,
+      "tags": {
+        "addr:unit": "23",
+        "amenity": "kindergarten",
+        "education": "kindergarten",
+        "level": "1",
+        "name": "Little Quran Kids",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9621123693,
+      "lat": 1.4431006,
+      "lon": 103.801617,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Sparkletots"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9626842099,
+      "lat": 1.3290421,
+      "lon": 103.8486588,
+      "tags": {
+        "addr:housenumber": "31",
+        "addr:street": "Ah Hood Road",
+        "amenity": "kindergarten",
+        "check_date": "2023-06-27",
+        "name": "Worldly-Wise International Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9710736644,
+      "lat": 1.3037118,
+      "lon": 103.9030177,
+      "tags": {
+        "alt_name": "GUG Preschool",
+        "amenity": "kindergarten",
+        "level": "2",
+        "name": "Growing Up Gifted Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9732721506,
+      "lat": 1.3238223,
+      "lon": 103.848384,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Children's Cove Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9826736496,
+      "lat": 1.3824224,
+      "lon": 103.8939773,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "PCF Sparkletots Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9826736497,
+      "lat": 1.382722,
+      "lon": 103.8940756,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "Little Footprints Preschool",
+        "preschool": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9852383471,
+      "lat": 1.3940056,
+      "lon": 103.8970322,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "PCF Sparkletots Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9855659040,
+      "lat": 1.3004914,
+      "lon": 103.84208,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "MindChamps"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9871657798,
+      "lat": 1.3909777,
+      "lon": 103.8904139,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "Berry Tree Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9872240464,
+      "lat": 1.3892826,
+      "lon": 103.9015407,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "PCF Sparkletots Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9874298900,
+      "lat": 1.3826418,
+      "lon": 103.8993869,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "My First Skool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9877771264,
+      "lat": 1.389826,
+      "lon": 103.8943419,
+      "tags": {
+        "addr:unit": "11",
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "E-Bridge Pre-School",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9887261912,
+      "lat": 1.3980277,
+      "lon": 103.8990416,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "My First Skool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9924428258,
+      "lat": 1.3082715,
+      "lon": 103.8790391,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "223",
+        "addr:postcode": "398008",
+        "addr:street": "Mountbatten Road",
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "EtonHouse Pre-School @ 223 Mountbatten",
+        "phone": "+65 64405100",
+        "preschool": "yes",
+        "website": "https://www.etonhouse.edu.sg/school/mountbatten223/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9974079574,
+      "lat": 1.3953045,
+      "lon": 103.8947787,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "0",
+        "name": "PCF Sparkletots Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9998859183,
+      "lat": 1.3517857,
+      "lon": 103.9561995,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "318",
+        "addr:postcode": "520318",
+        "addr:street": "33",
+        "amenity": "kindergarten",
+        "name": "PCF Tampines Changkat Blk 318",
+        "phone": "+65 6587 3461"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10002004735,
+      "lat": 1.4078597,
+      "lon": 103.8995003,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "PCF Sparkletots Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10039752807,
+      "lat": 1.3343858,
+      "lon": 103.8883169,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Maplebear Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10050545242,
+      "lat": 1.3857566,
+      "lon": 103.8942857,
+      "tags": {
+        "amenity": "kindergarten",
+        "fixme": "name",
+        "level": "0",
+        "preschool": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10102513969,
+      "lat": 1.4104109,
+      "lon": 103.9060039,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "2",
+        "name": "NurtureStars Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10225570287,
+      "lat": 1.3724776,
+      "lon": 103.8936107,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "4",
+        "name": "Sunflower Preschool",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10596609352,
+      "lat": 1.4147227,
+      "lon": 103.9004406,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "402",
+        "addr:postcode": "820402",
+        "addr:street": "Northshore Drive",
+        "amenity": "kindergarten",
+        "name": "PCF Sparkletots",
+        "operator": "PAP Community Foundation",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10603853535,
+      "lat": 1.2915263,
+      "lon": 103.7713821,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "House on the Hill Montessori Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10705913480,
+      "lat": 1.3206551,
+      "lon": 103.905395,
+      "tags": {
+        "amenity": "kindergarten",
+        "check_date": "2025-12-29",
+        "name": "My Little Gems"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10808904645,
+      "lat": 1.3284613,
+      "lon": 103.8694859,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "2",
+        "addr:postcode": "347836",
+        "addr:street": "Tai Thong Crescent",
+        "amenity": "kindergarten",
+        "email": "potongpasir@brillianttots.com.sg",
+        "level": "0",
+        "name": "BrilliantTOTS",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-14:00; Su,PH off",
+        "phone": "+65 69517158",
+        "preschool": "yes",
+        "website": "https://brillianttots.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10857394235,
+      "lat": 1.4427124,
+      "lon": 103.8173139,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Sail Playhouse"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10989305972,
+      "lat": 1.3774259,
+      "lon": 103.8954914,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Hope Student Care Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10990017317,
+      "lat": 1.4367526,
+      "lon": 103.8438688,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "6",
+        "addr:postcode": "768090",
+        "addr:street": "Yishun Industrial Street 1",
+        "addr:unit": "#01-07/08",
+        "amenity": "kindergarten",
+        "name": "First Steps Preschool @ Yishun",
+        "operator": "First Steps Preschool",
+        "operator:type": "private",
+        "phone": "+65 6980 3252",
+        "preschool": "yes",
+        "website": "https://ourfirststeps.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10990017318,
+      "lat": 1.3013195,
+      "lon": 103.9063226,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "89",
+        "addr:postcode": "440089",
+        "addr:street": "Marine Parade Central",
+        "addr:unit": "#02-750",
+        "amenity": "kindergarten",
+        "name": "First Steps Preschool @ East Coast",
+        "operator": "First Steps Preschool",
+        "operator:type": "private",
+        "preschool": "yes",
+        "website": "https://ourfirststeps.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10990017319,
+      "lat": 1.3290411,
+      "lon": 103.8793278,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "47",
+        "addr:postcode": "349318",
+        "addr:street": "Kallang Pudding Road",
+        "addr:unit": "#01-01",
+        "amenity": "kindergarten",
+        "name": "First Steps Preschool @ MacPherson",
+        "operator": "First Steps Preschool",
+        "operator:type": "private",
+        "preschool": "yes",
+        "website": "https://ourfirststeps.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10990017320,
+      "lat": 1.4416892,
+      "lon": 103.7958616,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "701",
+        "addr:postcode": "730701",
+        "addr:street": "Woodlands Drive 40",
+        "amenity": "kindergarten",
+        "name": "First Steps Preschool @ Admiralty",
+        "operator": "First Steps Preschool",
+        "operator:type": "private",
+        "preschool": "yes",
+        "website": "https://ourfirststeps.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10990017325,
+      "lat": 1.3874343,
+      "lon": 103.8704137,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:postcode": "805960",
+        "amenity": "kindergarten",
+        "name": "First Steps Preschool @ Sengkang",
+        "operator": "First Steps Preschool",
+        "operator:type": "private",
+        "preschool": "yes",
+        "website": "https://ourfirststeps.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10990017326,
+      "lat": 1.2812445,
+      "lon": 103.8102159,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Depot Heights Shopping Centre",
+        "addr:housenumber": "108",
+        "addr:postcode": "100108",
+        "addr:street": "Depot Road",
+        "addr:unit": "#02-02",
+        "amenity": "kindergarten",
+        "name": "First Steps Preschool @ Depot Road",
+        "operator": "First Steps Preschool",
+        "operator:type": "private",
+        "preschool": "yes",
+        "website": "https://ourfirststeps.com.sg/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11005207949,
+      "lat": 1.3769657,
+      "lon": 103.8916852,
+      "tags": {
+        "amenity": "kindergarten",
+        "branch": "Ang Mo Kio-Hougang Blk 535 (DS)",
+        "brand": "PCF Sparkletots Preschool",
+        "level": "0",
+        "name": "PCF Sparkletots Preschool @ Ang Mo Kio-Hougang Blk 535 (DS)",
+        "operator": "PAP Community Foundation",
+        "operator:short": "PCF",
+        "operator:wikidata": "Q7118189"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11012000782,
+      "lat": 1.3707747,
+      "lon": 103.8810836,
+      "tags": {
+        "amenity": "kindergarten",
+        "branch": "@ Ang Mo Kio-Hougang Blk 632",
+        "brand": "PCF Sparkletots Preschool",
+        "level": "0",
+        "name": "PCF Sparkletots Preschool @ Ang Mo Kio-Hougang Blk 632",
+        "operator": "PAP Community Foundation",
+        "operator:wikidata": "Q7118189",
+        "operator:wikipedia": "en:PAP Community Foundation"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11043649159,
+      "lat": 1.3609432,
+      "lon": 103.7675413,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Bukit Panjang Methodist Church Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11057729774,
+      "lat": 1.4038455,
+      "lon": 103.8187324,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Mindchamps Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11180468782,
+      "lat": 1.3492494,
+      "lon": 103.931008,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "3House Kindergarten",
+        "operator": "3House Kindergarten",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11452276369,
+      "lat": 1.332397,
+      "lon": 103.8016851,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Swallows and Amazons Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11569804232,
+      "lat": 1.3191001,
+      "lon": 103.8205393,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "26",
+        "addr:postcode": "259367",
+        "addr:street": "Evans Road",
+        "amenity": "kindergarten",
+        "email": "evans@bythepark.com.sg",
+        "name": "Preschool By-The-Park @ Evans",
+        "phone": "+65 6734 6543",
+        "website": "https://bythepark.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11602274670,
+      "lat": 1.3281069,
+      "lon": 103.9235034,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Skool4Kidz",
+        "website": "https://skool4kidz.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11816822664,
+      "lat": 1.2963476,
+      "lon": 103.855512,
+      "tags": {
+        "amenity": "kindergarten",
+        "check_date": "2024-04-14",
+        "name": "Little Footprints Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11816864788,
+      "lat": 1.3833409,
+      "lon": 103.8282756,
+      "tags": {
+        "addr:floor": "1",
+        "addr:housenumber": "50",
+        "addr:street": "Tagore Lane",
+        "amenity": "kindergarten",
+        "check_date": "2024-04-10",
+        "level": "0",
+        "name": "Dayspring Kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11902878807,
+      "lat": 1.3142798,
+      "lon": 103.8738661,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Sparkle Tots",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11945048520,
+      "lat": 1.3248636,
+      "lon": 103.8653768,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Jalan Taman",
+        "amenity": "kindergarten",
+        "brand": "Maple Bear",
+        "brand:wikidata": "Q10324823",
+        "check_date": "2024-05-30",
+        "name": "MapleBear Preschool",
+        "operator:type": "private"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12000323959,
+      "lat": 1.2928892,
+      "lon": 103.8396326,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:floor": "3",
+        "addr:housenumber": "58",
+        "addr:postcode": "239359",
+        "addr:street": "Kim Yam Road",
+        "addr:unit": "1",
+        "amenity": "kindergarten",
+        "name": "The Orange Tree Preschool",
+        "operator": "The Orange Tree",
+        "operator:type": "private",
+        "phone": "+65 65927877",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12066366135,
+      "lat": 1.3065462,
+      "lon": 103.9061342,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "166",
+        "addr:postcode": "575630",
+        "addr:street": "East Coast Road",
+        "amenity": "kindergarten",
+        "check_date": "2024-07",
+        "name": "The Growing Academy",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "phone": "+65 94241961",
+        "preschool": "yes",
+        "school": "special_education_needs"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12091963978,
+      "lat": 1.3709512,
+      "lon": 103.7661455,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Red Pony",
+        "phone": "+65 6766 7915"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12143894987,
+      "lat": 1.3733496,
+      "lon": 103.9482033,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "7",
+        "addr:postcode": "519612",
+        "addr:street": "Pasir Ris Central",
+        "amenity": "kindergarten",
+        "branch": "Pasir Ris",
+        "level": "0",
+        "name": "MindChamps PreSchool",
+        "opening_hours": "Mo-Fr 08:00-19:00",
+        "phone": "+65 8733 3350",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12208675296,
+      "lat": 1.3621348,
+      "lon": 103.7642917,
+      "tags": {
+        "addr:floor": "1",
+        "addr:housenumber": "1",
+        "addr:street": "Hillview Rise",
+        "amenity": "kindergarten",
+        "check_date": "2024-09-27",
+        "level": "0",
+        "name": "Brighton Montessori"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12238610428,
+      "lat": 1.3772331,
+      "lon": 103.7630974,
+      "tags": {
+        "amenity": "kindergarten",
+        "check_date": "2024-10-05",
+        "level": "0",
+        "name": "Heartylands"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12373622119,
+      "lat": 1.2993489,
+      "lon": 103.8071146,
+      "tags": {
+        "amenity": "kindergarten"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12455433987,
+      "lat": 1.4197736,
+      "lon": 103.90525,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "422B",
+        "addr:postcode": "822422",
+        "addr:street": "Northshore Drive",
+        "amenity": "kindergarten",
+        "name": "E-Bridge Preschool",
+        "operator": "E-Bridge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12498391792,
+      "lat": 1.3425815,
+      "lon": 103.7764534,
+      "tags": {
+        "addr:floor": "4",
+        "addr:housenumber": "144",
+        "addr:street": "Upper Bukit Timah Road",
+        "addr:unit": "#04-05/06",
+        "amenity": "kindergarten",
+        "check_date": "2025-01-11",
+        "level": "3",
+        "name": "Funlab Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12533886464,
+      "lat": 1.3293349,
+      "lon": 103.8987536,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Schoolkidz",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12646798397,
+      "lat": 1.3679986,
+      "lon": 103.7694914,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:postcode": "678493",
+        "addr:street": "Jalan Suasa",
+        "amenity": "kindergarten",
+        "check_date": "2025-03-21",
+        "contact:whatsapp": "+65 9232 8908",
+        "email": "dairyfarm@cambridge.school",
+        "name": "Cambridge CDC @ Dairy Farm",
+        "operator": "Cambridge Pre-school",
+        "phone": "+65 6766 8208",
+        "website": "https://cambridge.school/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12646859220,
+      "lat": 1.3675339,
+      "lon": 103.7678976,
+      "tags": {
+        "alt_name": "St Joseph’s Church Childcare Centre",
+        "amenity": "kindergarten",
+        "check_date": "2025-06-19",
+        "name": "Little Shepards Schoolhouse"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12663609859,
+      "lat": 1.3442481,
+      "lon": 103.7694073,
+      "tags": {
+        "amenity": "kindergarten",
+        "check_date": "2025-03-09",
+        "name": "My Little Kingdom"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12745878319,
+      "lat": 1.3544489,
+      "lon": 103.9409275,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "858E",
+        "addr:postcode": "525858",
+        "addr:street": "Tampines Walk",
+        "amenity": "kindergarten",
+        "email": "858tampines@e-bridge.edu.sg",
+        "level": "1",
+        "name": "E-Bridge Pre-School Tampines Walk",
+        "opening_hours": "Mo-Fr 07:00-19:00",
+        "operator": "E-Bridge Pre-School",
+        "operator:type": "private",
+        "phone": "+65 6610 9232",
+        "preschool": "yes",
+        "start_date": "2024-07-01",
+        "website": "https://www.e-bridge.edu.sg/locations/tampines-walk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12797645791,
+      "lat": 1.3308598,
+      "lon": 103.7994233,
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Nurtured Nest"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12797683787,
+      "lat": 1.3238657,
+      "lon": 103.8519765,
+      "tags": {
+        "addr:street": "Balestier Road",
+        "amenity": "kindergarten",
+        "check_date": "2025-04-29",
+        "name": "Littlewoods"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13130252601,
+      "lat": 1.3818225,
+      "lon": 103.8969687,
+      "tags": {
+        "addr:housenumber": "266",
+        "addr:postcode": "540266",
+        "addr:street": "Compassvale Bow",
+        "amenity": "kindergarten",
+        "name": "Star Learners",
+        "website": "https://starlearners.com.sg/our-centres/sengkang-compassvale/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13758490759,
+      "lat": 1.3969554,
+      "lon": 103.8884133,
+      "tags": {
+        "amenity": "kindergarten",
+        "level": "2",
+        "name": "Little Unicorn Preschool"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13996677563,
+      "lat": 1.3599086,
+      "lon": 103.7684766,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Jalan Siap",
+        "amenity": "kindergarten",
+        "check_date": "2026-07-08",
+        "education": "kindergarten",
+        "name": "Alpha Green"
+      }
+    },
+    {
+      "type": "way",
+      "id": 117994237,
+      "center": {
+        "lat": 1.3453899,
+        "lon": 103.7728896
+      },
+      "nodes": [
+        4583496389,
+        1328047298,
+        1328047290,
+        1328047308,
+        1328047312,
+        1328047328,
+        1328047327,
+        1328047305,
+        4583496389
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "215",
+        "addr:postcode": "588184",
+        "addr:street": "Upper Bukit Timah Road",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "name": "Eton House",
+        "operator": "EtonHouse",
+        "source": "Reconocimiento terrestre por Kaart 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121293454,
+      "center": {
+        "lat": 1.3013867,
+        "lon": 103.7689819
+      },
+      "nodes": [
+        1358287905,
+        1358287901,
+        1358287893,
+        1358287890,
+        1358287870,
+        1358287875,
+        1358287859,
+        1358287865,
+        1358287905
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "101B",
+        "addr:postcode": "129790",
+        "addr:street": "Clementi Road",
+        "amenity": "kindergarten",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172111971,
+      "center": {
+        "lat": 1.2841431,
+        "lon": 103.819325
+      },
+      "nodes": [
+        1833906691,
+        11171937016,
+        11171937018,
+        1833906674,
+        1833906671,
+        1833906681,
+        1833906679,
+        1833906667,
+        1830472976,
+        1830473245,
+        1830473052,
+        1830473328,
+        1833906685,
+        1833906689,
+        1833906687,
+        1833906683,
+        1833906677,
+        11171937019,
+        11171937017,
+        1833906693,
+        1833906691
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "104",
+        "addr:postcode": "159563",
+        "addr:street": "Henderson Road",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Sparkletots"
+      }
+    },
+    {
+      "type": "way",
+      "id": 173552714,
+      "center": {
+        "lat": 1.3134914,
+        "lon": 103.7543593
+      },
+      "nodes": [
+        1843466616,
+        1843466614,
+        1843466615,
+        1843466619,
+        1843466618,
+        1843466679,
+        1843466682,
+        1843466684,
+        1843466685,
+        1843466675,
+        1843466656,
+        1843466649,
+        1843466630,
+        1843466621,
+        1843466620,
+        1843466617,
+        1843466616
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "251",
+        "addr:postcode": "127390",
+        "addr:street": "West Coast Road",
+        "amenity": "kindergarten",
+        "name": "Japanese Kindergarden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 178595307,
+      "center": {
+        "lat": 1.3013291,
+        "lon": 103.8289968
+      },
+      "nodes": [
+        1889392295,
+        1889392279,
+        1889392290,
+        1889392309,
+        1889392295
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "2A",
+        "addr:street": "Paterson Road",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "name": "Little Raindrops Montessori Pre-School",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 178595316,
+      "center": {
+        "lat": 1.3015165,
+        "lon": 103.8290955
+      },
+      "nodes": [
+        1889392316,
+        1889392306,
+        1889392314,
+        1889392322,
+        1889392316
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Paterson Road",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "name": "Little Hands Montessori Kindergarten",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 201114047,
+      "center": {
+        "lat": 1.3812667,
+        "lon": 103.8324054
+      },
+      "nodes": [
+        2110702502,
+        2110702499,
+        2110702488,
+        2110702490,
+        2110702460,
+        2110702463,
+        2110702502
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "1",
+        "addr:street": "Tung Po Avenue",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "name": "Little Footprints",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 231929389,
+      "center": {
+        "lat": 1.3039479,
+        "lon": 103.8479776
+      },
+      "nodes": [
+        2402515321,
+        2402515291,
+        2402515298,
+        2402515335,
+        2402515321
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "19",
+        "addr:postcode": "228126",
+        "addr:street": "Upper Wilkie Rd",
+        "amenity": "kindergarten",
+        "building": "kindergarten",
+        "building:levels": "1",
+        "name": "Pat's Schoolhouse Mount Emily",
+        "roof:levels": "1",
+        "roof:shape": "hipped",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 233023032,
+      "center": {
+        "lat": 1.379274,
+        "lon": 103.7592188
+      },
+      "nodes": [
+        2413542707,
+        2413542709,
+        2413542711,
+        2413542713,
+        2413542716,
+        2413542718,
+        2413542721,
+        2413542723,
+        2413542707
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "10",
+        "addr:postcode": "689379",
+        "addr:street": "Choa Chu Kang Road Track 10",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "check_date": "2024-06-10",
+        "name": "The Orange Tree Pre-School",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 241259071,
+      "center": {
+        "lat": 1.3548813,
+        "lon": 103.8779344
+      },
+      "nodes": [
+        2489478562,
+        2489478563,
+        2489478564,
+        2489478565,
+        2489478562
+      ],
+      "tags": {
+        "addr:housenumber": "91",
+        "addr:street": "Kovan Road",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "name": "Modern Montessori Pre-school",
+        "operator": "Modern Montessori International",
+        "short": "MMI",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 260549147,
+      "center": {
+        "lat": 1.3211487,
+        "lon": 103.8423595
+      },
+      "nodes": [
+        1834267071,
+        2660517091,
+        2660517078,
+        1834267068,
+        1834267071
+      ],
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:postcode": "307903",
+        "addr:street": "Novena Terrace",
+        "amenity": "kindergarten",
+        "building": "kindergarten",
+        "building:levels": "2",
+        "check_date": "2026-07-02",
+        "name": "KiddiWinkie Schoolhouse",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa-Su off",
+        "operator:type": "private",
+        "preschool": "yes",
+        "roof:shape": "many",
+        "website": "https://kiddiwinkie.edu.sg/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 299569765,
+      "center": {
+        "lat": 1.4203634,
+        "lon": 103.9078463
+      },
+      "nodes": [
+        3035715058,
+        3035715059,
+        3035715056,
+        3035715050,
+        3035715064,
+        13324797613,
+        3035715058
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "education": "kindergarten",
+        "email": "pg@carpediem.com.sg",
+        "name": "Carpe Diem Childcare Resort",
+        "website": "https://carpediem.com.sg/centre/carpe-diem-childcare-resort/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 307061852,
+      "center": {
+        "lat": 1.3210584,
+        "lon": 103.7461363
+      },
+      "nodes": [
+        3121115883,
+        3121115885,
+        3121115863,
+        3121115893,
+        3121115874,
+        3121115862,
+        6373832430,
+        6373832429,
+        3121115888,
+        3121115877,
+        3121115864,
+        3121115886,
+        10661752064,
+        3121115879,
+        3121115883
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:street": "Pandan Gardens",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "building:levels": "4",
+        "name": "Calvary Pandan Kindergarten",
+        "roof:material": "roof_tiles",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 312350060,
+      "center": {
+        "lat": 1.3157462,
+        "lon": 103.8380115
+      },
+      "nodes": [
+        3181999619,
+        3181999636,
+        3181999642,
+        3181999640,
+        3181999637,
+        3181999628,
+        3181999619
+      ],
+      "tags": {
+        "addr:housenumber": "9A",
+        "addr:street": "Gilstead Road",
+        "amenity": "kindergarten",
+        "building": "kindergarten",
+        "name": "Far Eastern Kindergarten",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364595005,
+      "center": {
+        "lat": 1.3181916,
+        "lon": 103.77888
+      },
+      "nodes": [
+        3686322088,
+        3686332253,
+        3686332259,
+        3686332258,
+        3686332254,
+        3686332255,
+        3686332257,
+        3686332260,
+        3686332256,
+        3686322089,
+        3686322090,
+        3686322091,
+        3686322088
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "61a",
+        "addr:postcode": "277114",
+        "addr:street": "Mount Sinai Drive",
+        "amenity": "kindergarten",
+        "building": "kindergarten",
+        "name": "Pat's Schoolhouse",
+        "phone": "+65 6464 8951",
+        "website": "https://patschoolhouse.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 387999351,
+      "center": {
+        "lat": 1.3586545,
+        "lon": 103.8819651
+      },
+      "nodes": [
+        3912196842,
+        3912196843,
+        3912196844,
+        3912196845,
+        3912196842
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "839",
+        "addr:postcode": "534682",
+        "addr:street": "Upper Serangoon Road",
+        "amenity": "kindergarten",
+        "education": "kindergarten",
+        "name": "St.Paul's Church Kindergarten (SPCK)",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 397219574,
+      "center": {
+        "lat": 1.377519,
+        "lon": 103.9585313
+      },
+      "nodes": [
+        4000370757,
+        4000370758,
+        2232699915,
+        4000370759,
+        4000370757
+      ],
+      "tags": {
+        "amenity": "kindergarten"
+      }
+    },
+    {
+      "type": "way",
+      "id": 451909604,
+      "center": {
+        "lat": 1.3211884,
+        "lon": 103.8064811
+      },
+      "nodes": [
+        4487154450,
+        4487154426,
+        4487154405,
+        4487154385,
+        4487154409,
+        4487154412,
+        4487154422,
+        4487154428,
+        4487154438,
+        4487154451,
+        4487154440,
+        4487154468,
+        4487154466,
+        4487154465,
+        4487154464,
+        4487154441,
+        4487154439,
+        4487154420,
+        4487154421,
+        4487154449,
+        4487154450
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "building": "yes",
+        "name": "Nanyang Kindergarten",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 451915686,
+      "center": {
+        "lat": 1.3601672,
+        "lon": 103.8810791
+      },
+      "nodes": [
+        4487205882,
+        4487206024,
+        4487205883,
+        4487205857,
+        4487205882
+      ],
+      "tags": {
+        "addr:street": "Highland Road",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "name": "Camberley Pre-School",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 451946786,
+      "center": {
+        "lat": 1.3154433,
+        "lon": 103.909908
+      },
+      "nodes": [
+        4487511888,
+        4487511896,
+        4487511882,
+        4487511874,
+        4487511888
+      ],
+      "tags": {
+        "addr:street": "Joo Chiat Avenue",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Little Big",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452723852,
+      "center": {
+        "lat": 1.331212,
+        "lon": 103.798257
+      },
+      "nodes": [
+        4494721320,
+        4494721328,
+        4494721324,
+        4494721319,
+        4494721320
+      ],
+      "tags": {
+        "addr:street": "Dunearn Road",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "name": "Etonhouse Pre-School",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452723922,
+      "center": {
+        "lat": 1.3316891,
+        "lon": 103.7983648
+      },
+      "nodes": [
+        4494721338,
+        4494721341,
+        4494721344,
+        9653712159,
+        9653712160,
+        4494721343,
+        4494721339,
+        4494721340,
+        4494721335,
+        4494721338
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "3 & 5",
+        "addr:postcode": "287773",
+        "addr:street": "Vanda Road",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "layer": "1",
+        "name": "BRMC Little Lights Preschool - Vanda",
+        "phone": "+65 6970 2617",
+        "preschool": "yes",
+        "source": "osm notes;local knowledge",
+        "website": "https://www.brmclittlelights.edu.sg/vanda-road"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452743142,
+      "center": {
+        "lat": 1.318002,
+        "lon": 103.8056774
+      },
+      "nodes": [
+        4494867848,
+        4494867788,
+        4494867865,
+        4494867919,
+        4494867848
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "building": "yes",
+        "building:levels": "3",
+        "check_date": "2024-09-01",
+        "name": "Nanyang Kindergarten",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452745508,
+      "center": {
+        "lat": 1.368744,
+        "lon": 103.8806834
+      },
+      "nodes": [
+        4494887051,
+        4494887057,
+        4494887052,
+        4494887038,
+        4494887051
+      ],
+      "tags": {
+        "addr:street": "Hougang Avenue 2",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "name": "Merlion Kids",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 452781481,
+      "center": {
+        "lat": 1.3299136,
+        "lon": 103.8200415
+      },
+      "nodes": [
+        4495214209,
+        4495214266,
+        4495214282,
+        4495214226,
+        4495214209
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "62",
+        "addr:street": "Kheam Hock Road",
+        "amenity": "kindergarten",
+        "building": "kindergarten",
+        "name": "Rain Trees International Kindergarten",
+        "source": "KG Ground Survey 2016"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453377591,
+      "center": {
+        "lat": 1.3132974,
+        "lon": 103.9297839
+      },
+      "nodes": [
+        4501187763,
+        4501187744,
+        4501187742,
+        4501187751,
+        4501187750,
+        4501187762,
+        4501187763
+      ],
+      "tags": {
+        "addr:street": "Upper East Coast Road",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Rainbow Cove Montessori Pre-School",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453388160,
+      "center": {
+        "lat": 1.3590426,
+        "lon": 103.8893307
+      },
+      "nodes": [
+        4501285836,
+        4501285851,
+        4501285865,
+        4501285852,
+        4501285836
+      ],
+      "tags": {
+        "addr:street": "Hougang Avenue 1",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453498447,
+      "center": {
+        "lat": 1.3167468,
+        "lon": 103.8411256
+      },
+      "nodes": [
+        4502248267,
+        4502248264,
+        4502248265,
+        4502248266,
+        4502248267
+      ],
+      "tags": {
+        "addr:housenumber": "37",
+        "addr:street": "Newton Road",
+        "amenity": "kindergarten",
+        "building": "kindergarten",
+        "building:levels": "2",
+        "name": "Preschool for Multiple Intelligences",
+        "roof:levels": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453498459,
+      "center": {
+        "lat": 1.3172869,
+        "lon": 103.8410502
+      },
+      "nodes": [
+        4502248321,
+        4502248318,
+        4502248317,
+        4502248316,
+        4502248314,
+        4502248315,
+        4502248319,
+        4502248320,
+        4502248321
+      ],
+      "tags": {
+        "addr:housenumber": "39",
+        "addr:street": "Newton Road",
+        "amenity": "kindergarten",
+        "building": "school",
+        "building:levels": "4",
+        "check_date": "2024-03-12",
+        "name": "Etonhouse Preschool",
+        "name:en": "Etonhouse Preschool",
+        "operator:type": "private",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453498466,
+      "center": {
+        "lat": 1.3180124,
+        "lon": 103.8413239
+      },
+      "nodes": [
+        4502248353,
+        4502248352,
+        4502248349,
+        4502248348,
+        4502248351,
+        4502248350,
+        4502248353
+      ],
+      "tags": {
+        "addr:housenumber": "43",
+        "addr:street": "Newton Road",
+        "amenity": "kindergarten",
+        "building": "kindergarten",
+        "building:levels": "2",
+        "name": "Montessori For Children",
+        "roof:levels": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453499811,
+      "center": {
+        "lat": 1.3176461,
+        "lon": 103.8399045
+      },
+      "nodes": [
+        4502261516,
+        4502261522,
+        4502261523,
+        4502261515,
+        4502261518,
+        4502261526,
+        4502261527,
+        4502261528,
+        4502261525,
+        4502261517,
+        4502261513,
+        4502261524,
+        4502261521,
+        4502261514,
+        4502261519,
+        4502261520,
+        4502261516
+      ],
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Buckley Road",
+        "amenity": "kindergarten",
+        "building": "kindergarten",
+        "name": "Pat’s Schoolhouse Buckley"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453508292,
+      "center": {
+        "lat": 1.3823377,
+        "lon": 103.9423498
+      },
+      "nodes": [
+        4502323787,
+        6411501948,
+        6411501951,
+        6411501952,
+        6411501947,
+        4502324206,
+        4502324235,
+        6411501949,
+        6411501950,
+        4502324216,
+        4502323787
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "76",
+        "addr:postcode": "519282",
+        "addr:street": "Pasir Ris Heights",
+        "amenity": "kindergarten",
+        "building": "terrace",
+        "name": "Star Learners Child Care",
+        "website": "https://starlearners.com.sg/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453567104,
+      "center": {
+        "lat": 1.3908283,
+        "lon": 103.8516668
+      },
+      "nodes": [
+        4502834222,
+        4502834224,
+        4502834237,
+        4502834238,
+        4502834254,
+        4502834253,
+        4502834222
+      ],
+      "tags": {
+        "addr:housenumber": "39",
+        "addr:street": "Cactus Crescent",
+        "amenity": "kindergarten",
+        "building": "yes",
+        "name": "Kidi Winkie",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453982975,
+      "center": {
+        "lat": 1.3201171,
+        "lon": 103.8408035
+      },
+      "nodes": [
+        4506268562,
+        4506268561,
+        4506268560,
+        4506268558,
+        4506268556,
+        4506268555,
+        4506268557,
+        4506268553,
+        4506268554,
+        4506268559,
+        4506268562
+      ],
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:street": "Gentle Road",
+        "amenity": "kindergarten",
+        "building": "kindergarten",
+        "building:levels": "3",
+        "check_date": "2023-03-03",
+        "name": "Pat's Schoolhouse",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "type": "way",
+      "id": 469316805,
+      "center": {
+        "lat": 1.3097179,
+        "lon": 103.9139967
+      },
+      "nodes": [
+        4636699807,
+        12610153510,
+        4638920228,
+        4636699808,
+        4636699809,
+        4636699810,
+        4636699807
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "barrier": "wall",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 469341279,
+      "center": {
+        "lat": 1.3064812,
+        "lon": 103.9091848
+      },
+      "nodes": [
+        4636850207,
+        4636850208,
+        4636850209,
+        4636850210,
+        13972261299,
+        4636850207
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "check_date": "2025-12-29",
+        "name": "Pat's Schoolhouse",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 482052546,
+      "center": {
+        "lat": 1.3228251,
+        "lon": 103.8497829
+      },
+      "nodes": [
+        4749285575,
+        4749285576,
+        5228738073,
+        11391932574,
+        4749285577,
+        4749285580,
+        4749285578,
+        4749285579,
+        4749285575
+      ],
+      "tags": {
+        "addr:housenumber": "70",
+        "addr:street": "Mandalay Road",
+        "amenity": "kindergarten",
+        "barrier": "fence",
+        "name": "Rainforest Schoolhouse",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 521392566,
+      "center": {
+        "lat": 1.2874887,
+        "lon": 103.8150897
+      },
+      "nodes": [
+        5070705422,
+        5070705421,
+        5209638280,
+        5070705424,
+        5070705423,
+        5070705422
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "20",
+        "addr:postcode": "159053",
+        "addr:street": "Lengkok Bahru",
+        "addr:unit": "02-05",
+        "amenity": "kindergarten",
+        "description": "Preschool for children with and without special needs, where all children receive attention as individual learners. Featuring an inclusive playground and special play equipment.",
+        "email": "enquiry@kindlegarden.com.sg",
+        "indoor": "room",
+        "level": "1",
+        "name": "Kindle Garden Preschool by AWWA",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 560015598,
+      "center": {
+        "lat": 1.3215466,
+        "lon": 103.9101169
+      },
+      "nodes": [
+        5400697495,
+        5400697496,
+        3655995434,
+        3655995438,
+        5400697495
+      ],
+      "tags": {
+        "amenity": "kindergarten"
+      }
+    },
+    {
+      "type": "way",
+      "id": 596808074,
+      "center": {
+        "lat": 1.3983221,
+        "lon": 103.8873226
+      },
+      "nodes": [
+        5684366567,
+        5684366563,
+        5684366568,
+        5684366569,
+        5684366570,
+        5684366571,
+        5684366572,
+        5684366573,
+        5684366574,
+        5684366575,
+        5684366589,
+        5684366576,
+        5684366577,
+        5684366578,
+        5684366579,
+        5684366580,
+        5684366581,
+        5684366582,
+        5684366583,
+        5684366584,
+        5684366586,
+        5684366585,
+        5684366567
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "3",
+        "addr:postcode": "544618",
+        "addr:street": "Anchorvale Crescent",
+        "amenity": "kindergarten",
+        "building": "kindergarten",
+        "building:levels": "2",
+        "name": "Skool4Kidz Campus@Sengkang Riverside Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 661998677,
+      "center": {
+        "lat": 1.3921918,
+        "lon": 103.9015726
+      },
+      "nodes": [
+        369130275,
+        6197639747,
+        6197639748,
+        369130273,
+        369130274,
+        369130275
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "420",
+        "addr:postcode": "546674",
+        "addr:street": "Punggol Road",
+        "amenity": "kindergarten",
+        "name": "Little Footprints Preschool",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 684820363,
+      "center": {
+        "lat": 1.3805885,
+        "lon": 103.9477127
+      },
+      "nodes": [
+        6416530712,
+        6416530711,
+        6416530710,
+        6416530709,
+        6416530708,
+        6416530707,
+        6416530712
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "515",
+        "addr:postcode": "519923",
+        "addr:street": "Elias Road",
+        "amenity": "kindergarten",
+        "building": "detached",
+        "name": "MMI Preschool Pasir Ris",
+        "operator": "Modern Montessori International"
+      }
+    },
+    {
+      "type": "way",
+      "id": 684820372,
+      "center": {
+        "lat": 1.3811678,
+        "lon": 103.9477859
+      },
+      "nodes": [
+        6416530764,
+        6416530763,
+        6416530762,
+        6416530761,
+        6416530760,
+        6416530759,
+        6416530764
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "146",
+        "addr:postcode": "519132",
+        "addr:street": "Pasir Ris Road",
+        "amenity": "kindergarten",
+        "building": "detached",
+        "name": "Sunflower Montessori Discovery Ark",
+        "operator": "Sunflower Childcare Group",
+        "website": "https://www.sunflowerkid.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 745647563,
+      "center": {
+        "lat": 1.4242716,
+        "lon": 103.8455165
+      },
+      "nodes": [
+        6687343832,
+        6687343831,
+        6687343830,
+        12416150565,
+        6979321745,
+        12416150564,
+        6979321746,
+        6979321747,
+        6687343832
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "61",
+        "addr:street": "Yishun Avenue 11",
+        "amenity": "kindergarten",
+        "name": "Skool4kidz Campus @ Yishun",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 776916632,
+      "center": {
+        "lat": 1.3012175,
+        "lon": 103.8864471
+      },
+      "nodes": [
+        7249286856,
+        7249286857,
+        7249286858,
+        7249286859,
+        7249286856
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "717",
+        "addr:postcode": "437737",
+        "addr:street": "Mountbatten Road",
+        "amenity": "kindergarten",
+        "education": "kindergarten",
+        "name": "KiddiWinkie Schoolhouse",
+        "opening_hours": "Mo-Fr 07:00-19:00",
+        "preschool": "yes",
+        "website": "https://kiddiwinkie.edu.sg/centres-list/mountbatten"
+      }
+    },
+    {
+      "type": "way",
+      "id": 800567530,
+      "center": {
+        "lat": 1.3168943,
+        "lon": 103.8383578
+      },
+      "nodes": [
+        7485565341,
+        7487679134,
+        7487679133,
+        7487679132,
+        7485565352,
+        7485565351,
+        7485565350,
+        7485565349,
+        7485565341
+      ],
+      "tags": {
+        "addr:housenumber": "25",
+        "addr:street": "Gilstead Road",
+        "amenity": "kindergarten",
+        "name": "St James' Kindergarten"
+      }
+    },
+    {
+      "type": "way",
+      "id": 800661571,
+      "center": {
+        "lat": 1.3188796,
+        "lon": 103.8384214
+      },
+      "nodes": [
+        7488618267,
+        7488618273,
+        7488618272,
+        7488618271,
+        7488618270,
+        7488618269,
+        7488618268,
+        4506267375,
+        7488618267
+      ],
+      "tags": {
+        "addr:housenumber": "45",
+        "addr:street": "Gentle Road",
+        "amenity": "kindergarten",
+        "building": "kindergarten",
+        "check_date": "2023-03-03",
+        "name": "Little Woods",
+        "operator:type": "private",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 981710017,
+      "center": {
+        "lat": 1.3269601,
+        "lon": 103.7237794
+      },
+      "nodes": [
+        9080212408,
+        9080212409,
+        9080212410,
+        9080212411,
+        9080212412,
+        9080212408
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "E-Bridge",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1098213736,
+      "center": {
+        "lat": 1.4028854,
+        "lon": 103.8710971
+      },
+      "nodes": [
+        10055556281,
+        10055556282,
+        10055556283,
+        13673740265,
+        10055556284,
+        13673740264,
+        10055556285,
+        13673740263,
+        10055556286,
+        13673740261,
+        10055556287,
+        13673740262,
+        10055556288,
+        10055556289,
+        10055556281
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Chatsworth Preschool"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1105418282,
+      "center": {
+        "lat": 1.390512,
+        "lon": 103.8970111
+      },
+      "nodes": [
+        10115713483,
+        10115713490,
+        10115713486,
+        10115713480,
+        10115713479,
+        10115713485,
+        10115713488,
+        10115713487,
+        10115713481,
+        10115713484,
+        10115713483
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "20",
+        "addr:postcode": "544709",
+        "addr:street": "Sengkang Square",
+        "amenity": "kindergarten",
+        "name": "E-Bridge Pre-School",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1127419467,
+      "center": {
+        "lat": 1.3365615,
+        "lon": 103.745806
+      },
+      "nodes": [
+        10308051409,
+        10308051410,
+        10308051411,
+        10308051412,
+        10308051413,
+        9961108771,
+        9961108768,
+        10308051409
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:floor": "1",
+        "addr:housenumber": "2",
+        "addr:place": "Jurong Play Grounds",
+        "addr:postcode": "608512",
+        "addr:street": "Jurong Gateway Road",
+        "addr:unit": "12",
+        "amenity": "kindergarten",
+        "name": "Kiddiwinkie Schoolhouse",
+        "operator": "Kiddiwinkie",
+        "operator:type": "private",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1151664205,
+      "center": {
+        "lat": 1.4078718,
+        "lon": 103.9094611
+      },
+      "nodes": [
+        10713435316,
+        10713435319,
+        10713435318,
+        10713435317,
+        10713435316
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "barrier": "fence"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1151669984,
+      "center": {
+        "lat": 1.3885698,
+        "lon": 103.9092837
+      },
+      "nodes": [
+        6563948147,
+        10713460815,
+        10713460816,
+        2414831763,
+        10713460819,
+        10713460818,
+        10713460817,
+        6563948147
+      ],
+      "tags": {
+        "amenity": "kindergarten"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1167534056,
+      "center": {
+        "lat": 1.3003871,
+        "lon": 103.8864334
+      },
+      "nodes": [
+        10857939266,
+        10857939265,
+        10857939264,
+        10857939263,
+        10857939266
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "718",
+        "addr:postcode": "437738",
+        "addr:street": "Mountbatten Road",
+        "amenity": "kindergarten",
+        "education": "kindergarten",
+        "email": "nature@etonhouse.edu.sg",
+        "name": "EtonHouse Nature Pre-School",
+        "phone": "+65 68463322",
+        "preschool": "yes",
+        "website": "https://www.etonhouse.edu.sg/school/naturepreschool/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1167763881,
+      "center": {
+        "lat": 1.4193822,
+        "lon": 103.9090901
+      },
+      "nodes": [
+        10860588808,
+        10860588809,
+        10860588810,
+        10860588811,
+        10860588808
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Little Footprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1180351277,
+      "center": {
+        "lat": 1.310366,
+        "lon": 103.8398806
+      },
+      "nodes": [
+        7021777668,
+        10962644913,
+        10962644912,
+        7021777667,
+        7021777668
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "note": "for landuse"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1205500208,
+      "center": {
+        "lat": 1.2840557,
+        "lon": 103.8193114
+      },
+      "nodes": [
+        11171937010,
+        11171941935,
+        11171937012,
+        1830473272,
+        11171937010
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "landuse": "education"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1253203470,
+      "center": {
+        "lat": 1.4027406,
+        "lon": 103.8888868
+      },
+      "nodes": [
+        11648698154,
+        11648697907,
+        11648697779,
+        11648697869,
+        11648698155,
+        11648698156,
+        11648697873,
+        11648697781,
+        11648698157,
+        11648697910,
+        11648698158,
+        11648698159,
+        11648698160,
+        11648698161,
+        11648697762,
+        11648698154
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "239",
+        "addr:neighbourhood": "Matilda Riverside",
+        "addr:postcode": "820239",
+        "addr:street": "Sumang Lane",
+        "amenity": "kindergarten",
+        "building": "construction",
+        "building:levels": "3",
+        "construction": "school"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1262810679,
+      "center": {
+        "lat": 1.2977752,
+        "lon": 103.8391586
+      },
+      "nodes": [
+        11733286598,
+        11733286599,
+        1839447896,
+        11733286600,
+        11733286598
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "barrier": "fence",
+        "name": "Odyssey The Global Preschool"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1286200883,
+      "center": {
+        "lat": 1.3271112,
+        "lon": 103.8533706
+      },
+      "nodes": [
+        11930200516,
+        11930200519,
+        11930200518,
+        11930200499,
+        11930200517,
+        11930200516
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "129",
+        "addr:postcode": "320129",
+        "addr:street": "Jalan Rajah",
+        "amenity": "kindergarten",
+        "building": "construction",
+        "building:levels": "1",
+        "construction": "education",
+        "preschool": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1427691466,
+      "center": {
+        "lat": 1.3797961,
+        "lon": 103.9624129
+      },
+      "nodes": [
+        13124932453,
+        13124927754,
+        13124932454,
+        13124932455,
+        13124932456,
+        13124932457,
+        13124932453
+      ],
+      "tags": {
+        "amenity": "kindergarten"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1455911866,
+      "center": {
+        "lat": 1.3021023,
+        "lon": 103.8877111
+      },
+      "nodes": [
+        13352530202,
+        7249283689,
+        13352530203,
+        13770694823,
+        13352530204,
+        13352530205,
+        13352530202
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "101",
+        "addr:postcode": "436659",
+        "addr:street": "Wilkinson Road",
+        "amenity": "kindergarten",
+        "education": "kindergarten",
+        "name": "Odyssey The Global Preschool",
+        "website": "https://theodyssey.global/sg/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1468506802,
+      "center": {
+        "lat": 1.3266294,
+        "lon": 103.8528311
+      },
+      "nodes": [
+        13468475992,
+        13468475993,
+        13468475990,
+        13468475991,
+        13468475992
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "28",
+        "addr:postcode": "328781",
+        "addr:street": "Lorong Ampas",
+        "amenity": "kindergarten",
+        "barrier": "fence",
+        "education": "kindergarten"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1495677080,
+      "center": {
+        "lat": 1.2961869,
+        "lon": 103.8308157
+      },
+      "nodes": [
+        13702175037,
+        13702175038,
+        13702175039,
+        13702175040,
+        13702175041,
+        13702175042,
+        13702175043,
+        13702175044,
+        13702175045,
+        13702175046,
+        13702175047,
+        13702175037
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "barrier": "fence",
+        "education": "kindergarten"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19141896,
+      "center": {
+        "lat": 1.4156986,
+        "lon": 103.9054679
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 1387540550,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 298298649,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "name": "Raffles Kidz @ Punggol",
+        "phone": "+65 6584 6235",
+        "preschool": "yes",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

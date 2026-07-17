@@ -1,0 +1,583 @@
+/* ============================================================
+   Singapore Map Module — Complete Stylesheet
+   ============================================================ */
+
+/* ---- CSS Variables ---- */
+:root {
+  --sg-primary: #8b5cf6;
+  --sg-primary-dark: #6d28d9;
+  --sg-surface: #ffffff;
+  --sg-surface-elevated: rgba(255, 255, 255, 0.95);
+  --sg-text: #1e293b;
+  --sg-text-muted: #64748b;
+  --sg-border: #e2e8f0;
+  --sg-radius: 8px;
+  --sg-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+  --sg-shadow-lg: 0 4px 24px rgba(0, 0, 0, 0.14);
+  --sg-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* ---- Reset & Base ---- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: var(--sg-font);
+  color: var(--sg-text);
+  background: #f1f5f9;
+}
+
+/* ---- Singapore Map Wrapper ---- */
+.sg-map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sg-map--error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 40px;
+  text-align: center;
+  color: #dc2626;
+}
+
+.sg-map__hint {
+  font-size: 14px;
+  color: var(--sg-text-muted);
+}
+
+.sg-map__hint code {
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+/* ---- Leaflet Container ---- */
+.sg-map__container {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* ---- Loading State ---- */
+.sg-map__loading {
+  position: absolute;
+  inset: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(4px);
+  font-size: 15px;
+  color: var(--sg-text-muted);
+}
+
+.sg-map__spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid var(--sg-border);
+  border-top-color: var(--sg-primary);
+  border-radius: 50%;
+  animation: sg-spin 0.7s linear infinite;
+}
+
+@keyframes sg-spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ---- View Switcher ---- */
+.view-switcher {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 500;
+  display: flex;
+  background: var(--sg-surface-elevated);
+  border-radius: var(--sg-radius);
+  box-shadow: var(--sg-shadow);
+  overflow: hidden;
+  backdrop-filter: blur(8px);
+}
+
+.view-switcher__btn {
+  padding: 9px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--sg-font);
+  border: none;
+  background: transparent;
+  color: var(--sg-text-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+}
+
+.view-switcher__btn:hover {
+  background: rgba(139, 92, 246, 0.08);
+  color: var(--sg-primary);
+}
+
+.view-switcher__btn--active {
+  background: var(--sg-primary) !important;
+  color: #fff !important;
+}
+
+/* ---- Selected Info Panel ---- */
+.info-panel {
+  position: absolute;
+  bottom: 28px;
+  left: 16px;
+  z-index: 500;
+  background: var(--sg-surface-elevated);
+  border-radius: var(--sg-radius);
+  box-shadow: var(--sg-shadow-lg);
+  padding: 16px 20px;
+  min-width: 220px;
+  max-width: 320px;
+  backdrop-filter: blur(8px);
+  animation: sg-slide-up 0.2s ease;
+}
+
+@keyframes sg-slide-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.info-panel__header {
+  margin-bottom: 6px;
+}
+
+.info-panel__badge {
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--sg-primary);
+  background: rgba(139, 92, 246, 0.10);
+  border-radius: 99px;
+}
+
+.info-panel__name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.info-panel__parent {
+  font-size: 13px;
+  color: var(--sg-text-muted);
+  margin-bottom: 4px;
+}
+
+.info-panel__id {
+  font-size: 11px;
+  color: #94a3b8;
+  font-family: monospace;
+}
+
+/* ---- Legend ---- */
+.legend {
+  position: absolute;
+  bottom: 28px;
+  right: 16px;
+  z-index: 500;
+  max-width: 280px;
+  max-height: 50vh;
+}
+
+.legend__toggle {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--sg-font);
+  border: none;
+  background: var(--sg-surface-elevated);
+  color: var(--sg-text-muted);
+  border-radius: var(--sg-radius);
+  box-shadow: var(--sg-shadow);
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: all 0.15s ease;
+}
+
+.legend__toggle:hover {
+  color: var(--sg-primary);
+}
+
+.legend__grid {
+  margin-top: 6px;
+  background: var(--sg-surface-elevated);
+  border-radius: var(--sg-radius);
+  box-shadow: var(--sg-shadow-lg);
+  padding: 10px 12px;
+  max-height: 320px;
+  overflow-y: auto;
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  animation: sg-slide-up 0.2s ease;
+}
+
+.legend__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0;
+}
+
+.legend__swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  flex-shrink: 0;
+  border: 1px solid rgba(0,0,0,0.12);
+}
+
+.legend__label {
+  font-size: 12px;
+  color: var(--sg-text);
+  line-height: 1.3;
+}
+
+/* ---- Leaflet Overrides ---- */
+.leaflet-container {
+  background: #f1f5f9;
+  font-family: var(--sg-font);
+}
+
+/* Ensure polygon hover cursor */
+.sg-map__container .leaflet-interactive {
+  cursor: pointer;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 600px) {
+  .view-switcher__btn {
+    padding: 7px 14px;
+    font-size: 12px;
+  }
+
+  .info-panel {
+    left: 8px;
+    bottom: 16px;
+    right: 8px;
+    max-width: none;
+  }
+
+  .rental-detail {
+    width: 100vw !important;
+    max-width: 100vw !important;
+  }
+}
+
+/* ============================================================
+   Rental Markers
+   ============================================================ */
+
+.rental-marker {
+  background: none !important;
+  border: none !important;
+}
+
+.rental-marker__inner {
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--sg-font);
+  color: #fff;
+  white-space: nowrap;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+  border: 1.5px solid;
+  cursor: pointer;
+  transition: transform 0.12s ease;
+  pointer-events: auto;
+}
+
+.rental-marker__inner--cheap {
+  background: #16a34a;
+}
+.rental-marker__inner--mid {
+  background: #d97706;
+}
+.rental-marker__inner--expensive {
+  background: #dc2626;
+}
+.rental-marker__inner--unknown {
+  background: #6366f1;
+}
+
+.rental-marker__inner--active {
+  border-color: #8B5CF6 !important;
+  border-width: 3px !important;
+  z-index: 1000;
+}
+
+.rental-marker__inner:hover {
+  transform: scale(1.15) !important;
+}
+
+/* ---- Rental Popup ---- */
+.rental-popup {
+  font-family: var(--sg-font);
+  font-size: 13px;
+  line-height: 1.4;
+}
+.rental-popup__price {
+  font-weight: 700;
+  color: var(--sg-primary);
+}
+
+/* ============================================================
+   Rental Detail Panel (right-side slide-in)
+   ============================================================ */
+
+.rental-detail__backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 600;
+  background: rgba(0,0,0,0.2);
+  animation: sg-fade-in 0.2s ease;
+}
+
+.rental-detail {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 380px;
+  max-width: 90vw;
+  z-index: 601;
+  background: #fff;
+  box-shadow: -4px 0 24px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  animation: sg-slide-left 0.25s ease;
+}
+
+@keyframes sg-slide-left {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}
+
+@keyframes sg-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.rental-detail__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+}
+
+.rental-detail__close:hover {
+  background: #fff;
+  color: #111;
+}
+
+/* Image */
+.rental-detail__image-wrap {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.rental-detail__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rental-detail__image-count {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+/* Body */
+.rental-detail__body {
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.rental-detail__header {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.rental-detail__price {
+  font-size: 26px;
+  font-weight: 800;
+  color: #111;
+}
+
+.rental-detail__per {
+  font-size: 14px;
+  color: #888;
+}
+
+.rental-detail__type {
+  margin-left: auto;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.rental-detail__title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.rental-detail__address {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 16px;
+}
+
+/* Meta row */
+.rental-detail__meta {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.rental-detail__meta-item {
+  flex: 1;
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.rental-detail__meta-label {
+  display: block;
+  font-size: 11px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.rental-detail__meta-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+/* Info rows (dynamic fields) */
+.rental-detail__info {
+  margin-bottom: 12px;
+}
+
+.rental-detail__info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 0;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 13px;
+  color: #666;
+}
+
+.rental-detail__info-row span:last-child {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Amenities */
+.rental-detail__amenities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.rental-detail__amenity-tag {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 99px;
+  background: #eef2ff;
+  color: #4338ca;
+  font-weight: 500;
+}
+
+/* Description */
+.rental-detail__desc {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* External link */
+.rental-detail__link {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--sg-font);
+  color: #fff;
+  background: var(--sg-primary);
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.rental-detail__link:hover {
+  background: var(--sg-primary-dark);
+}

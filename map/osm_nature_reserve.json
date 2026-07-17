@@ -1,0 +1,889 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-16T04:03:11Z",
+    "timestamp_areas_base": "2026-05-12T07:36:16Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 117442426,
+      "center": {
+        "lat": 1.3500119,
+        "lon": 103.7654752
+      },
+      "nodes": [
+        7884222887,
+        7884222888,
+        890445668,
+        890445669,
+        7884222890,
+        7884222889,
+        4867443815,
+        7884222895,
+        7884222896,
+        4881713393,
+        1323117842,
+        7884222898,
+        7884222899,
+        7884222900,
+        7884222901,
+        7884222902,
+        1448552634,
+        1323117834,
+        1323117864,
+        7884222903,
+        7884222904,
+        7884222905,
+        4881713382,
+        4881713383,
+        7884217370,
+        7884217371,
+        7884217372,
+        7884217368,
+        7893868869,
+        7884217369,
+        7884217367,
+        4881713398,
+        4881713386,
+        7884217357,
+        7884217358,
+        7884217359,
+        7884217360,
+        2913717076,
+        2913717077,
+        7884217363,
+        7884217364,
+        7884217365,
+        7884217354,
+        7884217350,
+        7884217348,
+        7884217349,
+        7884217351,
+        7884217353,
+        2913717078,
+        7884217347,
+        7884217346,
+        2913717079,
+        7884217344,
+        2913717080,
+        7884217341,
+        7884217342,
+        2913717081,
+        4881713374,
+        7884217340,
+        7884217338,
+        7884222907,
+        1323117860,
+        7884222908,
+        7884222909,
+        1323117859,
+        4883268213,
+        4883268211,
+        7884217373,
+        1323117866,
+        4883268212,
+        7884217374,
+        7884217376,
+        7884217375,
+        4883268210,
+        1323117848,
+        7884217377,
+        7884217378,
+        7884217380,
+        7884217379,
+        1323117850,
+        7884217381,
+        7884217382,
+        1323117877,
+        7884217384,
+        7884217383,
+        7884222885,
+        8392592290,
+        7884222886,
+        7884222887
+      ],
+      "tags": {
+        "access": "yes",
+        "designation": "Bukit Batok Nature Park",
+        "dog": "leashed",
+        "fishing": "no",
+        "leisure": "nature_reserve",
+        "name": "Bukit Batok Nature Park",
+        "name:en": "Bukit Batok Nature Park",
+        "name:ms": "Taman Alam Semula Jadi Bukit Batok",
+        "name:zh": "武吉巴督自然公园",
+        "opening_hours": "24/7",
+        "operator": "National Parks Board",
+        "operator:short": "NParks",
+        "operator:type": "government",
+        "operator:wikidata": "Q6974762",
+        "source": "Yahoo images",
+        "website": "https://www.nparks.gov.sg/visit/parks/park-detail/bukit-batok-nature-park",
+        "wheelchair": "limited",
+        "wikidata": "Q4986869",
+        "wikimedia_commons": "Category:Bukit Batok Nature Park",
+        "wikipedia": "en:Bukit Batok Nature Park"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 5937968,
+      "center": {
+        "lat": 1.4192152,
+        "lon": 103.7272773
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 396000280,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395999252,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395999249,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395499918,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395999251,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395700009,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395700007,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395995106,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395499914,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 387760117,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395499921,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395499915,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 387276366,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395503739,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395503737,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 387276364,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 387759619,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395500629,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 387759622,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395497912,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395497913,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395499917,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395499920,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "leisure": "nature_reserve",
+        "name": "Kranji Marshes",
+        "name:zh": "克兰芝沼泽",
+        "opening_hours": "Mo-Su, PH 07:00-19:00",
+        "operator": "National Parks Board",
+        "operator:short": "NParks",
+        "operator:type": "government",
+        "operator:wikidata": "Q6974762",
+        "pet": "no",
+        "smoking": "no",
+        "type": "multipolygon",
+        "website": "https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/kranji-marshes",
+        "wheelchair": "yes",
+        "wikidata": "Q49996435",
+        "wikipedia": "en:Kranji Marshes"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7497140,
+      "center": {
+        "lat": 1.4449407,
+        "lon": 103.7265779
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 830000205,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 830729911,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 830729912,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 833163018,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1019379411,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1019379405,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1019379406,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1019379407,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1019379408,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1019379409,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1019379410,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 851014541,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 851014542,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 851014539,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 851014533,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 851014535,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 220826562,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 833510742,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 833510734,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 833508022,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 829999432,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 22753331,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "301",
+        "addr:postcode": "718925",
+        "addr:street": "Neo Tiew Crescent",
+        "email": "info@sbwr.org.sg",
+        "fax": "+65 6793 7271",
+        "heritage": "ASEAN Heritage Park",
+        "leisure": "nature_reserve",
+        "name": "Sungei Buloh Wetland Reserve",
+        "name:ja": "スンゲイブロー湿地保護区",
+        "name:ms": "Paya Simpanan Sungei Buloh",
+        "name:ms-Arab": "ڤايا سيمڤنن سوڠاي بولوه",
+        "name:zh": "双溪布洛湿地保护区",
+        "operator": "National Parks Board",
+        "operator:short": "NParks",
+        "operator:type": "government",
+        "operator:wikidata": "Q6974762",
+        "phone": "+65 6794 1401",
+        "place": "island",
+        "type": "multipolygon",
+        "website": "https://www.sbwr.org.sg/",
+        "wikidata": "Q643216",
+        "wikipedia": "en:Sungei Buloh Wetland Reserve"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11105973,
+      "center": {
+        "lat": 1.3542651,
+        "lon": 103.7792539
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 805177798,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 805177800,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 806037066,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 849359023,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 806416839,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 806416838,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804894332,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804894331,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804894337,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804894339,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804896521,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804896520,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804896519,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:country": "SG",
+        "leisure": "nature_reserve",
+        "name": "Bukit Timah Nature Reserve",
+        "name:ms": "Hutan Simpanan Bukit Timah",
+        "name:ms-Arab": "هوتن سيمڤنن بوکيت تيمه",
+        "name:zh": "武吉知马自然保护区",
+        "opening_hours": "Mo-Su 07:00-19:00",
+        "operator": "National Parks Board",
+        "operator:short": "NParks",
+        "operator:type": "government",
+        "operator:wikidata": "Q6974762",
+        "smoking": "no",
+        "type": "multipolygon",
+        "website": "https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/bukit-timah-nature-reserve",
+        "wikidata": "Q385725",
+        "wikipedia": "en:Bukit Timah Nature Reserve"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11109652,
+      "center": {
+        "lat": 1.3463923,
+        "lon": 103.7819882
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 804894341,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 805174773,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 805174772,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804770622,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804896521,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 390781231,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804896519,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804894340,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 263446883,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804896518,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 806032749,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 806032746,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 806032747,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 806032745,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804896517,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804896513,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 804896515,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 806031467,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "access": "yes",
+        "addr:housenumber": "126",
+        "addr:street": "Rifle Range Road",
+        "dog": "no",
+        "leisure": "nature_reserve",
+        "name": "Rifle Range Nature Park",
+        "name:ms": "Taman Alam Semula Jadi Rifle Range",
+        "name:zh": "射靶场自然公园",
+        "opening_hours": "07:00-19:00",
+        "operator": "National Parks Board",
+        "operator:short": "NParks",
+        "operator:type": "government",
+        "operator:wikidata": "Q6974762",
+        "operator:wikipedia": "en:National Parks Board",
+        "type": "multipolygon",
+        "website": "https://www.nparks.gov.sg/visit/parks/park-detail/rifle-range-nature-park",
+        "wheelchair": "partial",
+        "wikidata": "Q123111983",
+        "wikipedia": "en:Rifle Range Nature Park"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11118234,
+      "center": {
+        "lat": 1.3501555,
+        "lon": 103.7760402
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 805177800,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 117994296,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 806039019,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 806039020,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "leisure": "nature_reserve",
+        "name": "Hindhede Nature Park",
+        "name:ms": "Taman Alam Semula Jadi Hindhede",
+        "name:zh": "海希德自然公园",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13463678,
+      "center": {
+        "lat": 1.3765295,
+        "lon": 103.8061712
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 1004873462,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1004873461,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 263020431,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1004873460,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1004873459,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1005198164,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1305404918,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 167991475,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 167997046,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1305377773,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 167991477,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1305364824,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 167992179,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 397578440,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1305372835,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1006351143,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1006352960,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1006351145,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1005485558,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1006688404,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1006688403,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1006688400,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1006690061,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1005485557,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 37552606,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 23194089,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1005530949,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1005530948,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1005530946,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 20281318,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1005535573,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "leisure": "nature_reserve",
+        "name": "Central Catchment Nature Reserve",
+        "name:en": "Central Catchment Nature Reserve",
+        "name:ms": "Hutan Simpanan Tadahan Air Bahagian Tengah",
+        "name:zh": "中央集水区自然保护区",
+        "name:zh-Hans": "中央集水区自然保护区",
+        "name:zh-Hant": "中央集水區自然保護區",
+        "type": "multipolygon",
+        "wikimedia_commons": "Category:Central Catchment Nature Reserve",
+        "wikipedia": "en:Central Catchment Nature Reserve"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16031452,
+      "center": {
+        "lat": 1.2229336,
+        "lon": 103.8408718
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 1185796651,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1185796652,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1185796653,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "alt_name": "SIMP",
+        "alt_name:ms": "Taman Marin Sisters' Island",
+        "boundary": "protected_area",
+        "leisure": "nature_reserve",
+        "maritime": "yes",
+        "name": "Sisters' Island Marine Park",
+        "name:ms": "Taman Marin Pulau Subar",
+        "operator": "National Parks Board",
+        "operator:short": "NParks",
+        "operator:type": "government",
+        "operator:wikidata": "Q6974762",
+        "source": "Maritime and Port Authority of Singapore",
+        "type": "multipolygon",
+        "wikipedia": "en:Sisters' Islands Marine Park"
+      }
+    }
+  ]
+}

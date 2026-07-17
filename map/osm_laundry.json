@@ -1,0 +1,1508 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-16T04:09:24Z",
+    "timestamp_areas_base": "2026-05-12T07:36:16Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1264546280,
+      "lat": 1.3218036,
+      "lon": 103.9554797,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1703872710,
+      "lat": 1.3872758,
+      "lon": 103.8695599,
+      "tags": {
+        "addr:unit": "01-13",
+        "contact:phone": "+6567533233",
+        "name": "Rosabelle Launderette",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3608653747,
+      "lat": 1.3745368,
+      "lon": 103.8379148,
+      "tags": {
+        "name": "Self-service laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3653443359,
+      "lat": 1.312131,
+      "lon": 103.9003611,
+      "tags": {
+        "addr:street": "Joo Chiat Road",
+        "name": "Washing Hut",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3653443368,
+      "lat": 1.3133145,
+      "lon": 103.899718,
+      "tags": {
+        "addr:street": "Joo Chiat Road",
+        "name": "24h Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3759784387,
+      "lat": 1.2780404,
+      "lon": 103.8435803,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "106",
+        "addr:postcode": "088525",
+        "addr:street": "Tanjong Pagar Road",
+        "email": "enquiries@bestwash.com.sg",
+        "name": "Best Wash",
+        "phone": "+65 9798 0769",
+        "shop": "laundry",
+        "website": "https://www.bestwash.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4484650792,
+      "lat": 1.3144576,
+      "lon": 103.8799071,
+      "tags": {
+        "addr:housenumber": "178",
+        "addr:postcode": "387494",
+        "addr:street": "Lorong 21 Geylang",
+        "name": "Wonder Wash",
+        "opening_hours": "24/7",
+        "phone": "+65 9786 2038",
+        "self_service": "yes",
+        "shop": "laundry",
+        "source": "Kaart Ground Survey 2017",
+        "website": "http://wonderwash.com.sg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4687316801,
+      "lat": 1.3144188,
+      "lon": 103.9194543,
+      "tags": {
+        "addr:street": "Frankel Avenue",
+        "laundry_service": "yes",
+        "name": "First May",
+        "self_service": "no",
+        "shop": "laundry",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4689219274,
+      "lat": 1.3190975,
+      "lon": 103.9135094,
+      "tags": {
+        "addr:street": "Changi Road",
+        "name": "Laundry Unlimited",
+        "shop": "laundry",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4689465716,
+      "lat": 1.3142981,
+      "lon": 103.8876297,
+      "tags": {
+        "addr:street": "Geylang Road",
+        "name": "Xpress Laundry",
+        "shop": "laundry",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4689634749,
+      "lat": 1.31399,
+      "lon": 103.8872025,
+      "tags": {
+        "addr:street": "Geylang Road",
+        "name": "Clean Pro",
+        "shop": "laundry",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4695909066,
+      "lat": 1.321955,
+      "lon": 103.9005661,
+      "tags": {
+        "addr:street": "Eunos Avenue 5",
+        "name": "Laundry",
+        "shop": "laundry",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4708953098,
+      "lat": 1.3302109,
+      "lon": 103.9005514,
+      "tags": {
+        "addr:street": "Ubi Avenue 2",
+        "name": "Ubi Laundry Service",
+        "shop": "laundry",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4723314870,
+      "lat": 1.2841109,
+      "lon": 103.8480057,
+      "tags": {
+        "addr:street": "China Street",
+        "name": "T Laundry",
+        "shop": "laundry",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4724952878,
+      "lat": 1.2799478,
+      "lon": 103.8467835,
+      "tags": {
+        "addr:street": "Amoy Street",
+        "name": "SPL Laundry Mart",
+        "shop": "laundry",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4734935265,
+      "lat": 1.34047,
+      "lon": 103.7736351,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "68",
+        "addr:street": "Jalan Jurong Kechil",
+        "name": "The Laundry Shop",
+        "opening_hours": "Mo-We 09:00-18:30; Th 09:00-16:00; Fr-Sa 09:00-15:00",
+        "shop": "laundry",
+        "source": "Reconocimiento terrestre por Kaart 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4738274221,
+      "lat": 1.2872707,
+      "lon": 103.8406718,
+      "tags": {
+        "addr:street": "Chin Swee Road",
+        "name": "Superwash Laundry",
+        "shop": "laundry",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4745513585,
+      "lat": 1.30722,
+      "lon": 103.7935535,
+      "tags": {
+        "laundry_service": "yes",
+        "self_service": "no",
+        "shop": "laundry",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4749080336,
+      "lat": 1.306973,
+      "lon": 103.826495,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Tanglin Road",
+        "laundry_service": "yes",
+        "name": "For the Love of Laundry",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "self_service": "no",
+        "shop": "laundry",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4783990129,
+      "lat": 1.2815872,
+      "lon": 103.8432455,
+      "tags": {
+        "name": "EasyWash 24h",
+        "name:en": "EasyWash 24h",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5460067291,
+      "lat": 1.3145367,
+      "lon": 103.9097109,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "116",
+        "addr:postcode": "423802",
+        "addr:street": "Telok Kurau Road",
+        "name": "Duo nini laundry shop",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "shop": "laundry",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5475892323,
+      "lat": 1.4405647,
+      "lon": 103.8016829,
+      "tags": {
+        "name": "24hrs Laundromat",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5479283130,
+      "lat": 1.289194,
+      "lon": 103.8162057,
+      "tags": {
+        "name": "Refresh Washing Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5683503722,
+      "lat": 1.3486721,
+      "lon": 103.7554048,
+      "tags": {
+        "name": "DIY Laundry",
+        "shop": "laundry",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5892423975,
+      "lat": 1.3326127,
+      "lon": 103.9143786,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "632",
+        "addr:postcode": "470632",
+        "addr:street": "Bedok Reservoir Road",
+        "name": "Mister Wash",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5993519572,
+      "lat": 1.2910577,
+      "lon": 103.775481,
+      "tags": {
+        "fixme:zh": "chinese name",
+        "name": "Block C Laundry room",
+        "name:zh": "C座洗衣房",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5993519573,
+      "lat": 1.2912976,
+      "lon": 103.7752165,
+      "tags": {
+        "fixme:zh": "chinese name",
+        "name": "Block B Laundry room",
+        "name:zh": "B座洗衣房",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5993519574,
+      "lat": 1.2915355,
+      "lon": 103.7753463,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5993519575,
+      "lat": 1.2910226,
+      "lon": 103.7756185,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5993519576,
+      "lat": 1.2909809,
+      "lon": 103.7760291,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041115574,
+      "lat": 1.3990734,
+      "lon": 103.8895285,
+      "tags": {
+        "name": "Dhobi Express",
+        "opening_hours": "24/7",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6260204891,
+      "lat": 1.4337902,
+      "lon": 103.7753976,
+      "tags": {
+        "name": "DIY Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6295037762,
+      "lat": 1.3048248,
+      "lon": 103.8616616,
+      "tags": {
+        "name": "WonderWash",
+        "opening_hours": "24/7",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6364949108,
+      "lat": 1.3539334,
+      "lon": 103.7184104,
+      "tags": {
+        "name": "Star Village Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6390805198,
+      "lat": 1.3126784,
+      "lon": 103.8720912,
+      "tags": {
+        "name": "WonderWash Laundromat",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6403503380,
+      "lat": 1.3286423,
+      "lon": 103.8853936,
+      "tags": {
+        "name": "Ocean Wash Laundromat",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6511646350,
+      "lat": 1.3249749,
+      "lon": 103.8422757,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Thomson Road",
+        "addr:unit": "#01-334",
+        "check_date": "2023-10-26",
+        "level": "0",
+        "name": "Wonderwash",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6652483047,
+      "lat": 1.3917218,
+      "lon": 103.8933516,
+      "tags": {
+        "laundry_service": "no",
+        "level": "0",
+        "name": "SQ Laundromat",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6749830498,
+      "lat": 1.3268119,
+      "lon": 103.8435901,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Jalan Dusun",
+        "check_date": "2022-08-25",
+        "description": "Self-service",
+        "laundry_service": "no",
+        "level": "0",
+        "name": "Bubble Fresh",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6832566761,
+      "lat": 1.3415385,
+      "lon": 103.6862248,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "907",
+        "addr:postcode": "640907",
+        "addr:street": "Jurong West Street 91",
+        "name": "Wonder Wash",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6929076005,
+      "lat": 1.4063663,
+      "lon": 103.9025855,
+      "tags": {
+        "level": "-2",
+        "name": "Laundry Club",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6929835885,
+      "lat": 1.2860206,
+      "lon": 103.8034781,
+      "tags": {
+        "addr:housenumber": "01-144",
+        "addr:postcode": "150124",
+        "addr:street": "Bukit Merah Lane 1",
+        "name": "Paragon Laundromat",
+        "opening_hours": "24/7",
+        "phone": "+65 9723 1804",
+        "shop": "laundry",
+        "website": "https://paragonlaundromatalexandra.business.site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7049651540,
+      "lat": 1.3236311,
+      "lon": 103.854957,
+      "tags": {
+        "name": "Laundry @ yes",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7149466462,
+      "lat": 1.2478323,
+      "lon": 103.8419788,
+      "tags": {
+        "addr:street": "Ocean Way",
+        "addr:unit": "#01-23A",
+        "name": "Easy Clean",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7196923449,
+      "lat": 1.323782,
+      "lon": 103.9236368,
+      "tags": {
+        "name": "24hr Coin Laundry",
+        "shop": "laundry",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7492420693,
+      "lat": 1.2775098,
+      "lon": 103.8537485,
+      "tags": {
+        "level": "-2",
+        "name": "Fresh&Clean",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7501513330,
+      "lat": 1.3199434,
+      "lon": 103.9445923,
+      "tags": {
+        "name": "Millennium Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7852030478,
+      "lat": 1.3947427,
+      "lon": 103.8959168,
+      "tags": {
+        "addr:postcode": "540263",
+        "branch": "Compassvale 263",
+        "level": "0",
+        "name": "Wonderwash",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8419773607,
+      "lat": 1.3932555,
+      "lon": 103.8870457,
+      "tags": {
+        "level": "0",
+        "name": "WonderWash",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8459997643,
+      "lat": 1.2868987,
+      "lon": 103.8189901,
+      "tags": {
+        "branch": "Redhill",
+        "laundry_service": "yes",
+        "level": "0",
+        "name": "WondeWash Laundromat Redhill Branch",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8459997649,
+      "lat": 1.2870569,
+      "lon": 103.8189114,
+      "tags": {
+        "laundry_service": "yes",
+        "level": "0",
+        "name": "DIY Laundry",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8481704620,
+      "lat": 1.3975758,
+      "lon": 103.8968608,
+      "tags": {
+        "check_date": "2025-04-11",
+        "laundry_service": "yes",
+        "level": "0",
+        "name": "WonderWash Sengkang 289C",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:qr_code": "yes",
+        "self_service": "yes",
+        "shop": "laundry",
+        "website": "http://wonderwash.com.sg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8548399936,
+      "lat": 1.3720116,
+      "lon": 103.8865686,
+      "tags": {
+        "level": "0",
+        "name": "Li Hui Laundrette & Trading",
+        "name:zh": "立辉洗衣干洗兴货易",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8548481847,
+      "lat": 1.3707996,
+      "lon": 103.8842671,
+      "tags": {
+        "name": "Our Laundry Point",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8566305136,
+      "lat": 1.4023488,
+      "lon": 103.9126566,
+      "tags": {
+        "description": "also offers alteration services",
+        "laundry_service": "yes",
+        "level": "1",
+        "name": "Sunflower Workshop",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8566518434,
+      "lat": 1.3055497,
+      "lon": 103.8301152,
+      "tags": {
+        "laundry_service": "yes",
+        "level": "-1",
+        "name": "Rosabelle Laundrette",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8621167722,
+      "lat": 1.392039,
+      "lon": 103.8716827,
+      "tags": {
+        "branch": "Sengkang West",
+        "laundry_service": "yes",
+        "level": "0",
+        "name": "Mister Wash",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8642464778,
+      "lat": 1.2760337,
+      "lon": 103.8460276,
+      "tags": {
+        "level": "1",
+        "name": "Lemon Tree",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8642464798,
+      "lat": 1.275828,
+      "lon": 103.8458475,
+      "tags": {
+        "level": "1",
+        "name": "JJ Laundry Place",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8642464800,
+      "lat": 1.275906,
+      "lon": 103.8461242,
+      "tags": {
+        "level": "1",
+        "name": "My Laundry Matters",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8742771851,
+      "lat": 1.3221802,
+      "lon": 103.7708458,
+      "tags": {
+        "check_date": "2026-06-29",
+        "name": "Paragon Laundromat",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8821264566,
+      "lat": 1.3045909,
+      "lon": 103.8530497,
+      "tags": {
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8957625675,
+      "lat": 1.3178353,
+      "lon": 103.86179,
+      "tags": {
+        "addr:housenumber": "22",
+        "addr:street": "Boon Keng Road",
+        "check_date": "2024-03-18",
+        "level": "0",
+        "name": "Lundrymat",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8972106063,
+      "lat": 1.3046728,
+      "lon": 103.8531555,
+      "tags": {
+        "addr:street": "Perak Road",
+        "laundry_service": "no",
+        "name": "Straits Laundry",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8976420004,
+      "lat": 1.3148593,
+      "lon": 103.8598721,
+      "tags": {
+        "laundry_service": "no",
+        "name": "Straits Laundry",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9061404023,
+      "lat": 1.3738797,
+      "lon": 103.8546298,
+      "tags": {
+        "name": "Fresh Laundromat",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9061413918,
+      "lat": 1.3737117,
+      "lon": 103.8540605,
+      "tags": {
+        "name": "We Wash",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9061507019,
+      "lat": 1.2758619,
+      "lon": 103.8411826,
+      "tags": {
+        "name": "Mister Wash",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9176208946,
+      "lat": 1.430462,
+      "lon": 103.779835,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "326",
+        "addr:postcode": "730326",
+        "addr:street": "Woodlands Street 32",
+        "facebook": "happywashlaundrette",
+        "name": "Happy Wash Laundrette",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9271147739,
+      "lat": 1.3534678,
+      "lon": 103.8355508,
+      "tags": {
+        "addr:unit": "15",
+        "fixme": "name",
+        "level": "0",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9271218388,
+      "lat": 1.3550042,
+      "lon": 103.8362382,
+      "tags": {
+        "level": "0",
+        "name": "Sin Ming",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9271267296,
+      "lat": 1.3550961,
+      "lon": 103.8305504,
+      "tags": {
+        "level": "0",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9271315652,
+      "lat": 1.3541295,
+      "lon": 103.8303523,
+      "tags": {
+        "addr:unit": "33",
+        "level": "2",
+        "name": "Laundry Club",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9331507361,
+      "lat": 1.3057992,
+      "lon": 103.8328804,
+      "tags": {
+        "level": "-1",
+        "name": "Pressto",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9401700406,
+      "lat": 1.2829381,
+      "lon": 103.8455822,
+      "tags": {
+        "laundry_service": "no",
+        "name": "Straits laundry",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9810563667,
+      "lat": 1.3428498,
+      "lon": 103.9537196,
+      "tags": {
+        "level": "1",
+        "name": "Zoom Laundry",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9885134559,
+      "lat": 1.3999181,
+      "lon": 103.9192356,
+      "tags": {
+        "name": "Mister Wash",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9994701618,
+      "lat": 1.3994564,
+      "lon": 103.9159681,
+      "tags": {
+        "name": "Dobi Express Laundromat",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9994716517,
+      "lat": 1.3999426,
+      "lon": 103.919279,
+      "tags": {
+        "name": "Mister Wash Laundromat",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9994866698,
+      "lat": 1.3043949,
+      "lon": 103.7620994,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Clementi West Street 2",
+        "laundry_service": "no",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10002004736,
+      "lat": 1.4083903,
+      "lon": 103.8992594,
+      "tags": {
+        "name": "WonderWash",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10586920864,
+      "lat": 1.3068377,
+      "lon": 103.770701,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10742944374,
+      "lat": 1.2875731,
+      "lon": 103.8414072,
+      "tags": {
+        "name": "Ocean Wash",
+        "opening_hours": "24/7",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10758608905,
+      "lat": 1.3627269,
+      "lon": 103.850621,
+      "tags": {
+        "name": "H20 Laundromat",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10891405970,
+      "lat": 1.338233,
+      "lon": 103.8721703,
+      "tags": {
+        "addr:unit": "#B1-20",
+        "air_conditioning": "yes",
+        "branch": "The Woodleigh Mall",
+        "level": "-1",
+        "name": "Laundry Club",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10923019217,
+      "lat": 1.3454423,
+      "lon": 103.855277,
+      "tags": {
+        "name": "Ezy wash n dry (laundromat)",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10991987490,
+      "lat": 1.3167513,
+      "lon": 103.7827941,
+      "tags": {
+        "addr:unit": "#01-10A",
+        "name": "M21 Drycleaners",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11047817665,
+      "lat": 1.3826674,
+      "lon": 103.8935199,
+      "tags": {
+        "name": "Eazihome Laundry & Dry Clean",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11113831239,
+      "lat": 1.2770714,
+      "lon": 103.8313539,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "150",
+        "addr:postcode": "160150",
+        "addr:street": "Silat Avenue, #01-40",
+        "air_conditioning": "yes",
+        "currency:SGD": "yes",
+        "description": "Local laundry shop that provides laundry services, such as wash/dry/fold, dry-clean and ironing.",
+        "level": "1",
+        "name": "J&P Laundry",
+        "opening_hours": "Fr-We 10:00-18:00",
+        "operator": "J&P Laundry",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:paynow": "yes",
+        "phone": "+65 6278 0604",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11215128294,
+      "lat": 1.4032851,
+      "lon": 103.8955011,
+      "tags": {
+        "name": "Dobi Express",
+        "self_service": "yes",
+        "shop": "laundry",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11434168643,
+      "lat": 1.3115144,
+      "lon": 103.794054,
+      "tags": {
+        "laundry_service": "yes",
+        "level": "0",
+        "name": "For The Love Of Laundry",
+        "self_service": "no",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11452985437,
+      "lat": 1.3314238,
+      "lon": 103.8075055,
+      "tags": {
+        "check_date": "2023-12-25",
+        "name": "Hillcrest Laundry services",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11472847858,
+      "lat": 1.3256316,
+      "lon": 103.8503885,
+      "tags": {
+        "addr:housenumber": "400",
+        "addr:street": "Balestier Road",
+        "addr:unit": "#01-23",
+        "check_date": "2024-04-03",
+        "contact:facebook": "https://www.facebook.com/yourpreferreddrycleaner",
+        "level": "0",
+        "name": "Joy Laundry Center",
+        "opening_hours": "Mo-We,Fr 09:30-17:00; Th,PH off; Sa 11:00-17:00; Su 11:00-15:00",
+        "phone": "+65 6355 1242",
+        "self_service": "no",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11559059608,
+      "lat": 1.3664452,
+      "lon": 103.8397876,
+      "tags": {
+        "name": "WonderWash laundromat",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11898780466,
+      "lat": 1.2812544,
+      "lon": 103.8104701,
+      "tags": {
+        "check_date": "2024-04-27",
+        "level": "0",
+        "name": "Wonderwash",
+        "self_service": "yes",
+        "shop": "laundry",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12083156034,
+      "lat": 1.3399609,
+      "lon": 103.7739633,
+      "tags": {
+        "check_date": "2024-07-20",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12106163364,
+      "lat": 1.3467281,
+      "lon": 103.9563238,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "139",
+        "addr:postcode": "520139",
+        "addr:street": "Simei Street 1",
+        "name": "Tumble Laundromat",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry",
+        "website": "https://tumble.sg/laundromats"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12144247903,
+      "lat": 1.3805621,
+      "lon": 103.7696201,
+      "tags": {
+        "name": "EZ Wash Laundry",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12165799886,
+      "lat": 1.3870296,
+      "lon": 103.7620705,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "642",
+        "addr:postcode": "670642",
+        "addr:street": "Senja Close",
+        "addr:unit": "#01-06",
+        "check_date": "2024-09-07",
+        "name": "WE Laundromat",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12208693701,
+      "lat": 1.363609,
+      "lon": 103.764319,
+      "tags": {
+        "addr:floor": "2",
+        "addr:housenumber": "4",
+        "addr:street": "Hillview Rise",
+        "check_date": "2026-07-08",
+        "level": "1",
+        "name": "A&B Laundry",
+        "outdoor_seating": "no",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "payment:paylah": "yes",
+        "payment:paynow": "yes",
+        "self_service": "yes",
+        "shop": "laundry",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12244019913,
+      "lat": 1.2872586,
+      "lon": 103.8476283,
+      "tags": {
+        "addr:housenumber": "43",
+        "addr:street": "Hongkong Street",
+        "check_date": "2024-10-11",
+        "name": "laundrybear",
+        "name:en": "laundrybear",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "self_service": "yes",
+        "shop": "laundry",
+        "wheelchair": "yes",
+        "wikidata": "Q136023757"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12395685743,
+      "lat": 1.318466,
+      "lon": 103.7684783,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "381",
+        "addr:postcode": "120381",
+        "addr:street": "Clementi Avenue 5",
+        "addr:unit": "#01-402",
+        "opening_hours": "24/7",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12408775497,
+      "lat": 1.3475881,
+      "lon": 103.951732,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "280",
+        "addr:postcode": "520280",
+        "addr:street": "Tampines Street 22",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12520226102,
+      "lat": 1.4352639,
+      "lon": 103.8041398,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "21",
+        "addr:postcode": "737854",
+        "addr:street": "Woodlands Close",
+        "description": "GoodLiving Singapore is your trusted choice for the automated laundry system. Designed to make life easier, our innovative solutions have earned the trust of thousands of households. Visit our official website if you want to learn more about us.",
+        "name": "GoodLiving Singapore",
+        "phone": "+65 88784758",
+        "shop": "laundry",
+        "website": "https://www.goodliving.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12525987405,
+      "lat": 1.3228412,
+      "lon": 103.7639192,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:floor": "1",
+        "addr:housenumber": "209B",
+        "addr:postcode": "122209",
+        "addr:street": "Clementi Avenue 6",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12797683795,
+      "lat": 1.3850707,
+      "lon": 103.7601527,
+      "tags": {
+        "check_date": "2025-04-27",
+        "name": "Wonderwash",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12809422319,
+      "lat": 1.3211017,
+      "lon": 103.9047417,
+      "tags": {
+        "name": "DIY Laundry",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12883921639,
+      "lat": 1.3462799,
+      "lon": 103.6888332,
+      "tags": {
+        "check_date": "2025-06-04",
+        "internet_access": "no",
+        "level": "6",
+        "name:signed": "no",
+        "opening_hours": "24/7",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "self_service": "yes",
+        "shop": "laundry",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12883921640,
+      "lat": 1.3463651,
+      "lon": 103.6892152,
+      "tags": {
+        "check_date": "2025-06-04",
+        "internet_access": "no",
+        "level": "6",
+        "name:signed": "no",
+        "opening_hours": "24/7",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "self_service": "yes",
+        "shop": "laundry",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12965565296,
+      "lat": 1.3513473,
+      "lon": 103.7597083,
+      "tags": {
+        "level": "0",
+        "name": "Power Laundry",
+        "self_service": "yes",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13095409303,
+      "lat": 1.2950432,
+      "lon": 103.8417415,
+      "tags": {
+        "addr:housenumber": "282",
+        "addr:street": "River Valley Road",
+        "name": "Jeeves",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13271666481,
+      "lat": 1.2926279,
+      "lon": 103.8432572,
+      "tags": {
+        "addr:housenumber": "81",
+        "addr:street": "Clemenceau Avenue",
+        "addr:unit": "#01-39",
+        "check_date": "2025-10-31",
+        "description": "Laundromat & Dry cleaning",
+        "name": "Laundrymart Fetch",
+        "opening_hours": "24/7",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13898177790,
+      "lat": 1.3844462,
+      "lon": 103.8366969,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "way",
+      "id": 440208590,
+      "bounds": {
+        "minlat": 1.2939744,
+        "minlon": 103.7845598,
+        "maxlat": 1.2940068,
+        "maxlon": 103.7845924
+      },
+      "nodes": [
+        4375723316,
+        4379291985,
+        4379291986,
+        4375723317,
+        4375723316
+      ],
+      "geometry": [
+        {
+          "lat": 1.294005,
+          "lon": 103.7845598
+        },
+        {
+          "lat": 1.2939744,
+          "lon": 103.7845614
+        },
+        {
+          "lat": 1.2939755,
+          "lon": 103.7845924
+        },
+        {
+          "lat": 1.2940068,
+          "lon": 103.7845905
+        },
+        {
+          "lat": 1.294005,
+          "lon": 103.7845598
+        }
+      ],
+      "tags": {
+        "level": "0",
+        "name": "Wonder Wash",
+        "shop": "laundry"
+      }
+    }
+  ]
+}

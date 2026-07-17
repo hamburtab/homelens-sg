@@ -1,0 +1,6159 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-16T04:15:28Z",
+    "timestamp_areas_base": "2026-05-12T07:36:16Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 369127590,
+      "lat": 1.392448,
+      "lon": 103.8950332,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "545078",
+        "addr:street": "Sengkang Square",
+        "addr:unit": "05/06",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Compass One",
+        "brand:wikidata": "Q7120030",
+        "level": "1",
+        "name": "POSB",
+        "opening_hours": "Mo-Sa 11:00-19:00; PH,Su off",
+        "operator": "POSB Bank",
+        "website": "https://www.posb.com.sg",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 369127956,
+      "lat": 1.3726702,
+      "lon": 103.8939949,
+      "tags": {
+        "addr:street": "Hougang Avenue 10",
+        "amenity": "bank",
+        "brand": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:wikipedia": "en:OCBC Bank",
+        "brand:zh": "华侨银行",
+        "name": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "operator": "OCBC",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 369128007,
+      "lat": 1.3704554,
+      "lon": 103.8943841,
+      "tags": {
+        "amenity": "bank",
+        "operator": "POSB",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 694832775,
+      "lat": 1.3691126,
+      "lon": 103.9574055,
+      "tags": {
+        "amenity": "bank",
+        "branch": "Pasir Ris",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1129421998,
+      "lat": 1.3390904,
+      "lon": 103.7063689,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "layer": "-1",
+        "name": "POSB",
+        "name:en": "POSB",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1129422014,
+      "lat": 1.3401137,
+      "lon": 103.7063413,
+      "tags": {
+        "addr:floor": "B1",
+        "addr:housenumber": "1",
+        "addr:street": "Jurong West Central 2",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "check_date": "2025-06-06",
+        "layer": "-1",
+        "level": "-1",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1315774183,
+      "lat": 1.324597,
+      "lon": 103.9319033,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "DBS",
+        "wikidata": "Q705417",
+        "wikipedia": "en:DBS Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1531015603,
+      "lat": 1.3543399,
+      "lon": 103.8712349,
+      "tags": {
+        "addr:postcode": "550254",
+        "addr:street": "Serangoon Central Drive",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "POSB Serangoon Central Branch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1558128566,
+      "lat": 1.3136215,
+      "lon": 103.7647868,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "449",
+        "addr:postcode": "120449",
+        "addr:street": "Clementi Avenue 3",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "drive_through": "no",
+        "level": "1",
+        "name": "DBS Clementi Branch",
+        "opening_hours": "Mo-Fr 08:30-16:00; Sa 08:30-12:30; PH closed",
+        "operator": "DBS",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1699621323,
+      "lat": 1.3546394,
+      "lon": 103.8314547,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Thomson",
+        "brand": "DBS Bank",
+        "brand:wikidata": "Q705417",
+        "brand:wikipedia": "en:DBS Bank",
+        "level": "0",
+        "name": "DBS Thomson Branch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1829431121,
+      "lat": 1.2756196,
+      "lon": 103.8430707,
+      "tags": {
+        "alt_name": "POSB",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1837675462,
+      "lat": 1.2821932,
+      "lon": 103.8496605,
+      "tags": {
+        "amenity": "bank",
+        "brand": "BOC",
+        "brand:wikidata": "Q790068",
+        "brand:wikipedia": "en:Bank of China",
+        "name": "BOC",
+        "official_name": "Bank of China"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1837675463,
+      "lat": 1.2819192,
+      "lon": 103.8494984,
+      "tags": {
+        "amenity": "bank",
+        "check_date": "2025-10-21",
+        "name": "Indian Overseas Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1837675464,
+      "lat": 1.2813331,
+      "lon": 103.8491789,
+      "tags": {
+        "amenity": "bank",
+        "name": "Rashid Hussein Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1962216932,
+      "lat": 1.3845885,
+      "lon": 103.7431369,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "drive_through": "no",
+        "name": "DBS",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2132511853,
+      "lat": 1.3197008,
+      "lon": 103.902492,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "POSB",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2585197847,
+      "lat": 1.3388689,
+      "lon": 103.7046844,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "DBS",
+        "name:en": "DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2621988259,
+      "lat": 1.3413941,
+      "lon": 103.6913557,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "POSB",
+        "operator": "DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3009713259,
+      "lat": 1.3000913,
+      "lon": 103.8446334,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "drive_through": "no",
+        "level": "-1",
+        "name": "DBS",
+        "opening_hours": "Mo-Fr 10:00-18:00, Sa 10:00-14:30",
+        "phone": "+65 1800 111 1111",
+        "website": "https://www.dbs.com.sg",
+        "wheelchair": "yes",
+        "wikidata": "Q342642",
+        "wikipedia": "en:DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3009713260,
+      "lat": 1.320732,
+      "lon": 103.8444396,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "10",
+        "addr:postcode": "307506",
+        "addr:street": "Sinaran Drive",
+        "addr:unit": "#02-19/20",
+        "alt_name": "POSB",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Square 2",
+        "brand": "POSB",
+        "brand:wikidata": "Q7120030",
+        "brand:wikipedia": "en:POSB Bank",
+        "check_date": "2026-01-19",
+        "check_date:opening_hours": "2023-09-08",
+        "level": "1",
+        "name": "POSB",
+        "opening_hours": "Mo-Fr 08:30-16:00; Sa 08:30-12:30",
+        "website": "https://www.posb.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3009713262,
+      "lat": 1.3036201,
+      "lon": 103.8335715,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "435 #04-01",
+        "addr:postcode": "238877",
+        "addr:street": "Orchard Road Wisma Atria",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Wisma Atria",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "level": "3",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "name:zh-Hant": "華僑銀行",
+        "opening_hours": "Mo-Su 11:00-19:00; PH off",
+        "operator": "OCBC Bank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3009714761,
+      "lat": 1.3115685,
+      "lon": 103.8562339,
+      "tags": {
+        "addr:unit": "1-2",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "level": "1",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3009761065,
+      "lat": 1.264984,
+      "lon": 103.8212501,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "098585",
+        "addr:street": "HarbourFront Walk",
+        "addr:unit": "#B2-01",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "VivoCity",
+        "brand": "Standard Chartered",
+        "brand:wikidata": "Q548278",
+        "brand:wikipedia": "en:Standard Chartered",
+        "check_date": "2023-06-23",
+        "level": "-2",
+        "name": "Standard Chartered",
+        "opening_hours": "Mo-Su 11:00-19:00",
+        "phone": "+65 6747 7000",
+        "website": "https://www.sc.com/sg/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3041102235,
+      "lat": 1.435011,
+      "lon": 103.7865578,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "DBS",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3041106183,
+      "lat": 1.4310918,
+      "lon": 103.773703,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "POSB",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3041108314,
+      "lat": 1.4348518,
+      "lon": 103.7865017,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Standard Charter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3098280029,
+      "lat": 1.256605,
+      "lon": 103.819979,
+      "tags": {
+        "amenity": "bank",
+        "name": "DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3105759115,
+      "lat": 1.3633471,
+      "lon": 103.8658275,
+      "tags": {
+        "addr:housenumber": "53",
+        "addr:street": "Serangoon Garden Way",
+        "amenity": "bank",
+        "brand": "Citibank",
+        "brand:wikidata": "Q857063",
+        "brand:wikipedia": "en:Citibank",
+        "name": "Citibank",
+        "short_name": "Citi",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3105759116,
+      "lat": 1.3642185,
+      "lon": 103.8655572,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "name": "HSBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3105759122,
+      "lat": 1.3635615,
+      "lon": 103.8653921,
+      "tags": {
+        "addr:housenumber": "67",
+        "addr:street": "Serangoon Garden Way",
+        "amenity": "bank",
+        "brand": "Standard Chartered",
+        "brand:wikidata": "Q548278",
+        "brand:wikipedia": "en:Standard Chartered",
+        "name": "Standard Chartered",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3109381267,
+      "lat": 1.3123256,
+      "lon": 103.9252732,
+      "tags": {
+        "amenity": "bank",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3119829786,
+      "lat": 1.3144498,
+      "lon": 103.7651245,
+      "tags": {
+        "addr:housenumber": "3151",
+        "addr:postcode": "129581",
+        "addr:street": "Commonwealth Avenue West",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "brand:wikipedia": "en:Maybank",
+        "ele:note": "#01-01",
+        "name": "Maybank",
+        "opening_hours": "Mo-Fr 09:15-16:45; Sa 09:15-00:15"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3123608918,
+      "lat": 1.4364921,
+      "lon": 103.7859931,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Citibank",
+        "brand:wikidata": "Q857063",
+        "name": "Citibank",
+        "short_name": "Citi",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3123615073,
+      "lat": 1.3111699,
+      "lon": 103.7956545,
+      "tags": {
+        "addr:housenumber": "247",
+        "addr:street": "Holland Avenue",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "brand:wikipedia": "en:Maybank",
+        "name": "Maybank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3123615074,
+      "lat": 1.3115377,
+      "lon": 103.7955254,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "261",
+        "addr:postcode": "278986",
+        "addr:street": "Holland Avenue",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Holland Village",
+        "brand": "Standard Chartered",
+        "brand:wikidata": "Q548278",
+        "brand:wikipedia": "en:Standard Chartered",
+        "currency:SGD": "yes",
+        "name": "Standard Chartered",
+        "opening_hours": "Mo-Fr 10:00-16:00; Sa 10:00-13:00; Su,PH off",
+        "operator": "Standard Chartered",
+        "phone": "+65 6747 7000",
+        "website": "https://www.sc.com/sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3123615075,
+      "lat": 1.3114938,
+      "lon": 103.7955622,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "259",
+        "addr:postcode": "278985",
+        "addr:street": "Holland Avenue",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Citibank",
+        "brand:wikidata": "Q857063",
+        "brand:wikipedia": "en:Citibank",
+        "currency:SGD": "yes",
+        "name": "Citibank",
+        "opening_hours": "Mo-Fr 09:30-15:30; Sa 09:30-12:00; Su,PH off",
+        "short_name": "Citi",
+        "website": "https://www.citibank.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3123615076,
+      "lat": 1.3114414,
+      "lon": 103.795128,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "20",
+        "addr:postcode": "277679",
+        "addr:street": "Lorong Mambong",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Holland Village",
+        "brand": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:wikipedia": "en:OCBC Bank",
+        "brand:zh": "华侨银行",
+        "currency:SGD": "yes",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "name:zh-Hant": "華僑銀行",
+        "opening_hours": "Mo-Fr 11:00-19:00; Sa 11:00-13:30; Su,PH off",
+        "operator": "OCBC",
+        "phone": "+65 6363 3333",
+        "website": "https://www.ocbc.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3164178508,
+      "lat": 1.3023026,
+      "lon": 103.9057284,
+      "tags": {
+        "amenity": "bank",
+        "brand": "ANZ",
+        "brand:wikidata": "Q714641",
+        "brand:wikipedia": "en:Australia and New Zealand Banking Group",
+        "name": "ANZ",
+        "official_name": "Australia and New Zealand Banking Group Limited",
+        "operator": "ANZ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3758967900,
+      "lat": 1.2798895,
+      "lon": 103.8486735,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "State Bank of India",
+        "brand:wikidata": "Q1340361",
+        "brand:wikipedia": "en:State Bank of India",
+        "name": "State Bank of India",
+        "short_name": "SBI"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3922461056,
+      "lat": 1.3471517,
+      "lon": 103.6806197,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "50",
+        "addr:postcode": "639798",
+        "addr:street": "Nanyang Avenue",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "NTU",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "drive_through": "no",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "opening_hours": "Mo-Fr 09:00-16:30",
+        "operator": "OCBC",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4072894921,
+      "lat": 1.3263698,
+      "lon": 103.9330211,
+      "tags": {
+        "amenity": "bank",
+        "name": "POSB",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4072894922,
+      "lat": 1.3262037,
+      "lon": 103.9300443,
+      "tags": {
+        "amenity": "bank",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4216771971,
+      "lat": 1.3030075,
+      "lon": 103.906112,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "operator": "OCBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4232971590,
+      "lat": 1.3326769,
+      "lon": 103.93946,
+      "tags": {
+        "amenity": "bank",
+        "name": "OCBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4322859495,
+      "lat": 1.3035117,
+      "lon": 103.8612949,
+      "tags": {
+        "amenity": "bank",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "brand:wikipedia": "en:Maybank",
+        "name": "Maybank",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4364985508,
+      "lat": 1.3094144,
+      "lon": 103.7771962,
+      "tags": {
+        "amenity": "bank",
+        "level": "1",
+        "name": "Frank",
+        "operator": "OCBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4368132683,
+      "lat": 1.310504,
+      "lon": 103.7960417,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "118",
+        "addr:postcode": "278997",
+        "addr:street": "Holland Avenue",
+        "amenity": "bank",
+        "branch": "Holland Village",
+        "brand:wikidata": "Q705417",
+        "level": "0",
+        "name": "DBS",
+        "opening_hours": "Mo-Fr 08:30-16:30; Sa 08:30-13:00; Su,PH off",
+        "operator": "DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4368147022,
+      "lat": 1.311584,
+      "lon": 103.7955013,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "263",
+        "addr:postcode": "278987",
+        "addr:street": "Holland Avenue",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Holland Village",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "brand:wikipedia": "en:HSBC",
+        "currency:SGD": "yes",
+        "name": "HSBC",
+        "name:en": "HSBC",
+        "name:zh-Hant": "滙豐",
+        "opening_hours": "Mo-Fr 09:30-15:30; Sa 09:30-12:00; Su,PH off",
+        "operator": "HSBC",
+        "phone": "+65 6472 2669",
+        "website": "https://www.hsbc.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4391498689,
+      "lat": 1.3640732,
+      "lon": 103.8706689,
+      "tags": {
+        "addr:housenumber": "22",
+        "addr:postcode": "556200",
+        "addr:street": "Ripley Crescent",
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4398389189,
+      "lat": 1.2909232,
+      "lon": 103.7733055,
+      "tags": {
+        "addr:housenumber": "1a",
+        "addr:postcode": "119599",
+        "addr:street": "Heng Mui Keng Terrace",
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4401337393,
+      "lat": 1.3891757,
+      "lon": 103.8796224,
+      "tags": {
+        "addr:housenumber": "415a",
+        "addr:street": "Fernvale Link",
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4413087297,
+      "lat": 1.3689844,
+      "lon": 103.8996132,
+      "tags": {
+        "addr:housenumber": "37",
+        "addr:street": "Hougang Avenue 7",
+        "amenity": "bank",
+        "name": "Evergreen condo",
+        "name:en": "Evergreen condo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4443927246,
+      "lat": 1.3246175,
+      "lon": 103.9321455,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "name": "Maybank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4443927250,
+      "lat": 1.3246041,
+      "lon": 103.9320208,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Standard Chartered",
+        "brand:wikidata": "Q548278",
+        "name": "Standard Chartered"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4448733403,
+      "lat": 1.3187054,
+      "lon": 103.8924317,
+      "tags": {
+        "amenity": "bank",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "opening_hours": "Mo-Fr 11:00-19:00; Sa 11:00-13:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4484960439,
+      "lat": 1.2979446,
+      "lon": 103.8553796,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:wikipedia": "en:OCBC Bank",
+        "brand:zh": "华侨银行",
+        "check_date": "2025-10-21",
+        "name": "OCBC Bank",
+        "name:zh": "华侨银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4502140995,
+      "lat": 1.3198829,
+      "lon": 103.8614692,
+      "tags": {
+        "amenity": "bank",
+        "branch": "Towner",
+        "name": "DBS",
+        "name:en": "DBS",
+        "operator": "DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4536066627,
+      "lat": 1.3775631,
+      "lon": 103.7733323,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "Blk 260",
+        "addr:postcode": "670260",
+        "addr:street": "Bangkit Road",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "POSB",
+        "operator": "POSB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4536071852,
+      "lat": 1.3785168,
+      "lon": 103.7729474,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "Blk 257",
+        "addr:postcode": "670257",
+        "addr:street": "Bangkit Road",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2024-08-31",
+        "name": "OCBC",
+        "operator": "OCBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4540811290,
+      "lat": 1.2795924,
+      "lon": 103.8538641,
+      "tags": {
+        "amenity": "bank",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4544309332,
+      "lat": 1.3496375,
+      "lon": 103.752133,
+      "tags": {
+        "amenity": "bank",
+        "branch": "Business",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4544372091,
+      "lat": 1.3494804,
+      "lon": 103.751416,
+      "tags": {
+        "amenity": "bank",
+        "name": "OCBC",
+        "name:en": "OCBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4560997428,
+      "lat": 1.2950904,
+      "lon": 103.8598462,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "3",
+        "addr:postcode": "038983",
+        "addr:street": "Temasek Boulevard",
+        "addr:unit": "#02-738/739",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Suntec City",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "brand:wikipedia": "en:HSBC",
+        "drive_through": "no",
+        "level": "1",
+        "name": "HSBC",
+        "name:en": "HSBC",
+        "name:zh": "滙豐",
+        "opening_hours": "Mo-Fr 09:30-15:30; Sa 09:30-12:00",
+        "phone": "+65 6472 2669",
+        "website": "https://www.hsbc.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4560997429,
+      "lat": 1.2951505,
+      "lon": 103.8598741,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "3",
+        "addr:postcode": "038983",
+        "addr:street": "Temasek Boulevard",
+        "addr:unit": "#02-709/710/711",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Suntec City",
+        "drive_through": "no",
+        "level": "1",
+        "name": "DBS",
+        "name:en": "DBS",
+        "name:zh-Hant": "星展銀行",
+        "opening_hours": "Mo-Fr 10:00-17:30; Sa 10:00-14:00",
+        "phone": "+65 1800 111 1111",
+        "wikidata": "Q705417",
+        "wikipedia": "en:DBS Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4572717293,
+      "lat": 1.295662,
+      "lon": 103.8596486,
+      "tags": {
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4592815849,
+      "lat": 1.3433425,
+      "lon": 103.7757827,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "170",
+        "addr:postcode": "588179",
+        "addr:street": "Upper Bukit Timah Road",
+        "addr:unit": "#01-01",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "OCBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4592815850,
+      "lat": 1.3388228,
+      "lon": 103.7785937,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Bukit Timah Plaza",
+        "addr:housenumber": "1",
+        "addr:postcode": "588996",
+        "addr:street": "Jalan Anak Bukit",
+        "addr:unit": "#01-19/20/21",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "DBS",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4613526790,
+      "lat": 1.3023642,
+      "lon": 103.9058279,
+      "tags": {
+        "amenity": "bank",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "brand:wikipedia": "en:Maybank",
+        "name": "Maybank",
+        "name:en": "Maybank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4613617889,
+      "lat": 1.3022771,
+      "lon": 103.9056568,
+      "tags": {
+        "amenity": "bank",
+        "brand": "Standard Chartered",
+        "brand:wikidata": "Q548278",
+        "brand:wikipedia": "en:Standard Chartered",
+        "name": "Standard Chartered",
+        "name:en": "Standard Chartered Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4620811710,
+      "lat": 1.2970217,
+      "lon": 103.8547461,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "brand:wikipedia": "en:Maybank",
+        "name": "Maybank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621781813,
+      "lat": 1.3705664,
+      "lon": 103.8478655,
+      "tags": {
+        "amenity": "bank",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "name": "Maybank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621805802,
+      "lat": 1.3707269,
+      "lon": 103.847215,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "712A",
+        "addr:postcode": "560712",
+        "addr:street": "Ang Mo Kio Avenue 6",
+        "addr:unit": "#01-4066",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Ang Mo Kio Central",
+        "brand": "POSB",
+        "brand:wikidata": "Q7120030",
+        "brand:wikipedia": "en:POSB Bank",
+        "level": "0",
+        "name": "POSB",
+        "opening_hours": "Mo-Fr 08:30-16:00; Sa 08:30-12:30",
+        "website": "https://www.posb.com.sg/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4622033592,
+      "lat": 1.3801343,
+      "lon": 103.8403396,
+      "tags": {
+        "amenity": "bank",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4683522923,
+      "lat": 1.4360189,
+      "lon": 103.836202,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "POSB Yishun Branch"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4684128105,
+      "lat": 1.3069291,
+      "lon": 103.9066564,
+      "tags": {
+        "addr:street": "East Coast Road",
+        "amenity": "bank",
+        "brand": "BOC",
+        "brand:wikidata": "Q790068",
+        "brand:wikipedia": "en:Bank of China",
+        "name": "BOC",
+        "official_name": "Bank of China",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4684154875,
+      "lat": 1.3040624,
+      "lon": 103.9024455,
+      "tags": {
+        "addr:street": "Mountbatten Road",
+        "amenity": "bank",
+        "name": "RHB",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4689465723,
+      "lat": 1.3138502,
+      "lon": 103.8850738,
+      "tags": {
+        "addr:street": "Geylang Road",
+        "amenity": "bank",
+        "brand": "RHB Bank",
+        "brand:wikidata": "Q4207443",
+        "name": "RHB Bank",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4695847062,
+      "lat": 1.3149542,
+      "lon": 103.8825379,
+      "tags": {
+        "addr:street": "Sims Avenue",
+        "amenity": "bank",
+        "name": "POSB",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4708953096,
+      "lat": 1.3309589,
+      "lon": 103.9015741,
+      "tags": {
+        "addr:street": "Ubi Avenue 2",
+        "amenity": "bank",
+        "name": "POSB",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4708953097,
+      "lat": 1.3305298,
+      "lon": 103.900976,
+      "tags": {
+        "addr:street": "Ubi Avenue 2",
+        "amenity": "bank",
+        "brand": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "name": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4715326712,
+      "lat": 1.3235387,
+      "lon": 103.8102965,
+      "tags": {
+        "addr:street": "Coronation Road",
+        "amenity": "bank",
+        "name": "HSBC",
+        "name:en": "HSBC",
+        "name:zh": "汇丰银行",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4723043099,
+      "lat": 1.2842997,
+      "lon": 103.8487802,
+      "tags": {
+        "addr:street": "Church Street",
+        "amenity": "bank",
+        "brand": "Citibank",
+        "brand:wikidata": "Q857063",
+        "brand:wikipedia": "en:Citibank",
+        "name": "Citibank",
+        "short_name": "Citi",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4723161943,
+      "lat": 1.3569825,
+      "lon": 103.8736303,
+      "tags": {
+        "addr:street": "Yio Chu Kang Link",
+        "amenity": "bank",
+        "name": "POSB",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4723328869,
+      "lat": 1.2847079,
+      "lon": 103.8499346,
+      "tags": {
+        "addr:street": "Phillip Street",
+        "amenity": "bank",
+        "name": "HBL",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4723328872,
+      "lat": 1.2853825,
+      "lon": 103.8491206,
+      "tags": {
+        "addr:street": "South Canal Road",
+        "amenity": "bank",
+        "branch": "OCBC Centre",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:wikipedia": "en:OCBC Bank",
+        "brand:zh": "华侨银行",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "name:zh-Hant": "華僑銀行",
+        "opening_hours": "Mo-Fr 09:00-16:30; Sa 09:00-11:30; Su off",
+        "source": "Kaart Ground Survey 2017",
+        "website": "https://www.ocbc.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4724612484,
+      "lat": 1.2852425,
+      "lon": 103.8517099,
+      "tags": {
+        "addr:street": "Battery Road",
+        "amenity": "bank",
+        "brand": "Standard Chartered",
+        "brand:wikidata": "Q548278",
+        "brand:wikipedia": "en:Standard Chartered",
+        "name": "Standard Chartered",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4724612689,
+      "lat": 1.2847339,
+      "lon": 103.8528462,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Collyer Quay",
+        "amenity": "bank",
+        "name": "HL Bank",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4724612690,
+      "lat": 1.2844674,
+      "lon": 103.8527707,
+      "tags": {
+        "amenity": "bank",
+        "brand": "BNP Paribas",
+        "brand:wikidata": "Q499707",
+        "brand:wikipedia": "en:BNP Paribas",
+        "name": "BNP Paribas",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4724857820,
+      "lat": 1.2850662,
+      "lon": 103.8525201,
+      "tags": {
+        "amenity": "bank",
+        "name": "IG",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4724857821,
+      "lat": 1.2846529,
+      "lon": 103.8517779,
+      "tags": {
+        "addr:floor": "1",
+        "addr:street": "Battery Road",
+        "amenity": "bank",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "brand:wikipedia": "en:HSBC",
+        "check_date": "2024-08-13",
+        "level": "0",
+        "name": "HSBC",
+        "operator": "HSBC",
+        "operator:wikidata": "Q190464",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4726775768,
+      "lat": 1.2780632,
+      "lon": 103.8484926,
+      "tags": {
+        "addr:street": "Robinson Road",
+        "amenity": "bank",
+        "name": "First Bank",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4726775769,
+      "lat": 1.2782361,
+      "lon": 103.8485994,
+      "tags": {
+        "addr:street": "Robinson Road",
+        "amenity": "bank",
+        "name": "Commerzbank",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4726775773,
+      "lat": 1.2795575,
+      "lon": 103.8493724,
+      "tags": {
+        "addr:street": "Robinson Road",
+        "amenity": "bank",
+        "brand": "BNI",
+        "brand:wikidata": "Q2882611",
+        "brand:wikipedia": "id:Bank Negara Indonesia",
+        "name": "BNI",
+        "official_name": "Bank Negara Indonesia",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4726775780,
+      "lat": 1.2827367,
+      "lon": 103.8527303,
+      "tags": {
+        "addr:street": "Collyer Quay",
+        "amenity": "bank",
+        "brand": "Bank of America",
+        "brand:wikidata": "Q487907",
+        "brand:wikipedia": "en:Bank of America",
+        "check_date": "2025-11-04",
+        "name": "Bank of America",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4726775781,
+      "lat": 1.28296,
+      "lon": 103.8527905,
+      "tags": {
+        "amenity": "bank",
+        "brand": "BRI",
+        "brand:wikidata": "Q623042",
+        "brand:wikipedia": "id:Bank Rakyat Indonesia",
+        "name": "BRI",
+        "official_name": "Bank Rakyat Indonesia",
+        "official_name:en": "People's Bank of Indonesia",
+        "official_name:id": "Bank Rakyat Indonesia",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4726849426,
+      "lat": 1.2828306,
+      "lon": 103.8516279,
+      "tags": {
+        "addr:street": "Collyer Quay",
+        "amenity": "bank",
+        "brand": "BNP Paribas",
+        "brand:wikidata": "Q499707",
+        "brand:wikipedia": "en:BNP Paribas",
+        "name": "BNP Paribas",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4736575725,
+      "lat": 1.3311213,
+      "lon": 103.7959947,
+      "tags": {
+        "addr:street": "Bukit Timah Road",
+        "amenity": "bank",
+        "check_date": "2025-04-27",
+        "name": "Standard Chartered",
+        "opening_hours": "Mo-Fr 10:00-16:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4738733372,
+      "lat": 1.2843225,
+      "lon": 103.8463009,
+      "tags": {
+        "addr:street": "South Bridge Road",
+        "amenity": "bank",
+        "check_date": "2026-01-18",
+        "name": "DBS",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4738733378,
+      "lat": 1.2846419,
+      "lon": 103.8447266,
+      "tags": {
+        "addr:street": "Upper Cross Street",
+        "amenity": "bank",
+        "name": "ICBN",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4740188244,
+      "lat": 1.3329726,
+      "lon": 103.7907252,
+      "tags": {
+        "addr:street": "Bukit Timah Road",
+        "amenity": "bank",
+        "name": "Orchard Credit",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4745724669,
+      "lat": 1.3040591,
+      "lon": 103.8545785,
+      "tags": {
+        "amenity": "bank",
+        "brand": "RHB Bank",
+        "brand:wikidata": "Q4207443",
+        "name": "RHB Bank",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4747462026,
+      "lat": 1.3068364,
+      "lon": 103.8521559,
+      "tags": {
+        "addr:street": "Serangoon Road",
+        "amenity": "bank",
+        "name": "India Overseas Bank",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4747543114,
+      "lat": 1.3087071,
+      "lon": 103.8533689,
+      "tags": {
+        "addr:street": "Serangoon Road",
+        "amenity": "bank",
+        "name": "ICICI Bank",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4749080346,
+      "lat": 1.3058414,
+      "lon": 103.8308102,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Orchard Road",
+        "amenity": "bank",
+        "name": "ANZ",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4749093823,
+      "lat": 1.3032484,
+      "lon": 103.8362321,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Orchard Road",
+        "amenity": "bank",
+        "name": "CIMB Bank",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4749738863,
+      "lat": 1.3497316,
+      "lon": 103.7192769,
+      "tags": {
+        "amenity": "bank",
+        "name": "POSB Bank",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4750988974,
+      "lat": 1.3700827,
+      "lon": 103.8493255,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:street": "Ang Mo Kio Avenue 8",
+        "amenity": "bank",
+        "brand": "Western Union",
+        "brand:wikidata": "Q861042",
+        "name": "Western Union",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836072444,
+      "lat": 1.3923908,
+      "lon": 103.8948928,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "1",
+        "addr:postcode": "545078",
+        "addr:street": "Sengkang Square",
+        "addr:unit": "04",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Compass One",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:wikipedia": "en:OCBC Bank",
+        "brand:zh": "华侨银行",
+        "level": "1",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "opening_hours": "Mo-Su 11:00-19:00; PH off",
+        "website": "https://www.ocbc.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4837878645,
+      "lat": 1.3354211,
+      "lon": 103.8889004,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "26",
+        "addr:postcode": "534057",
+        "addr:street": "Tai Seng Street",
+        "addr:unit": "#01-04/05",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Tai Seng",
+        "brand": "RHB",
+        "name": "RHB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130649,
+      "lat": 1.3113533,
+      "lon": 103.7584447,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "501",
+        "addr:postcode": "120501",
+        "addr:street": "West Coast Drive",
+        "addr:unit": "#01-302",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "West Coast Drive Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130651,
+      "lat": 1.2854454,
+      "lon": 103.8508774,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "80",
+        "addr:postcode": "048624",
+        "addr:street": "Raffles Place",
+        "amenity": "bank",
+        "branch": "UOB Plaza Atrium Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130652,
+      "lat": 1.2854354,
+      "lon": 103.8510736,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "UOB Plaza 2",
+        "addr:housenumber": "80",
+        "addr:postcode": "048624",
+        "addr:street": "Raffles Place",
+        "amenity": "bank",
+        "branch": "UOB Main",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130653,
+      "lat": 1.3172014,
+      "lon": 103.8438907,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "United Square",
+        "addr:housenumber": "101",
+        "addr:postcode": "307591",
+        "addr:street": "Thomson Road",
+        "addr:unit": "#01-K10",
+        "amenity": "bank",
+        "branch": "United Square Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "operator": "UOB",
+        "operator:wikidata": "Q2064074",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130654,
+      "lat": 1.317113,
+      "lon": 103.6523701,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Tuas Amenity Centre",
+        "addr:housenumber": "71",
+        "addr:postcode": "539591",
+        "addr:street": "Pioneer Road",
+        "addr:unit": "#01-K3",
+        "amenity": "bank",
+        "branch": "Tuas Amenity Centre",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130655,
+      "lat": 1.2840556,
+      "lon": 103.8458715,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Hong Lim Complex",
+        "addr:housenumber": "531",
+        "addr:postcode": "050531",
+        "addr:street": "Upper Cross Street",
+        "addr:unit": "#01-07",
+        "amenity": "bank",
+        "branch": "South Bridge Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130656,
+      "lat": 1.3912987,
+      "lon": 103.8952065,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Sengkang MRT Station",
+        "addr:housenumber": "5",
+        "addr:postcode": "545062",
+        "addr:street": "Sengkang Square",
+        "addr:unit": "#01-03",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Sengkang MRT Station Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "opening_hours": "12:00-20:00; PH closed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130657,
+      "lat": 1.3237563,
+      "lon": 103.8101748,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Coronation Shopping Plaza",
+        "addr:housenumber": "587",
+        "addr:postcode": "269707",
+        "addr:street": "Bukit Timah Road",
+        "addr:unit": "#02-25/26/27/28",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Bukit Timah",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "drive_through": "no",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130658,
+      "lat": 1.4622585,
+      "lon": 103.8133082,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "10",
+        "addr:postcode": "757698",
+        "addr:street": "Admiralty Street",
+        "amenity": "bank",
+        "branch": "Northlink Building",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130659,
+      "lat": 1.2909505,
+      "lon": 103.8589189,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Marina Square",
+        "addr:housenumber": "6",
+        "addr:postcode": "039594",
+        "addr:street": "Raffles Boulevard",
+        "addr:unit": "#01-210/211",
+        "amenity": "bank",
+        "branch": "Marina Square Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130660,
+      "lat": 1.3714886,
+      "lon": 103.970238,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Loyang Amenity Centre",
+        "addr:housenumber": "4A",
+        "addr:postcode": "508923",
+        "addr:street": "Loyang Lane",
+        "addr:unit": "#01-K1",
+        "amenity": "bank",
+        "branch": "Loyang Amenity Centre",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130661,
+      "lat": 1.3131826,
+      "lon": 103.8817983,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "439-443",
+        "addr:postcode": "389399",
+        "addr:street": "Geylang Road",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Geylang Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130663,
+      "lat": 1.2964112,
+      "lon": 103.853639,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Bras Basah Complex",
+        "addr:housenumber": "231",
+        "addr:postcode": "180231",
+        "addr:street": "Bain Street",
+        "addr:unit": "#01-29/39",
+        "amenity": "bank",
+        "branch": "Bras Basah Complex Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130664,
+      "lat": 1.3653809,
+      "lon": 103.8491043,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "339",
+        "addr:postcode": "560339",
+        "addr:street": "Ang Mo Kio Avenue 1",
+        "addr:unit": "#01-1573/1575",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Ang Mo Kio Avenue 1 Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130665,
+      "lat": 1.3192302,
+      "lon": 103.8865824,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "119",
+        "addr:postcode": "380119",
+        "addr:street": "Aljunied Avenue 2",
+        "addr:unit": "#01-80/82/84",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Aljunied Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130666,
+      "lat": 1.3426828,
+      "lon": 103.7759894,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:postcode": "588178",
+        "addr:street": "UOB Centre",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "1",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130667,
+      "lat": 1.293857,
+      "lon": 103.852834,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Raffles City Shopping Centre",
+        "addr:housenumber": "252",
+        "addr:postcode": "179103",
+        "addr:street": "North Bridge Road",
+        "addr:unit": "#B1-04/05",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Raffles City",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130669,
+      "lat": 1.2760176,
+      "lon": 103.846338,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "International Plaza",
+        "addr:housenumber": "10",
+        "addr:postcode": "079903",
+        "addr:street": "Anson Road",
+        "addr:unit": "#01-01",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Anson",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130670,
+      "lat": 1.3694724,
+      "lon": 103.848446,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Ang Mo Kio Hub",
+        "addr:housenumber": "53",
+        "addr:postcode": "569933",
+        "addr:street": "Ang Mo Kio Avenue 3",
+        "addr:unit": "#B1-34",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Ang Mo Kio",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "-1",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130671,
+      "lat": 1.274899,
+      "lon": 103.8425428,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Tanjong Pagar Plaza",
+        "addr:housenumber": "1",
+        "addr:postcode": "082001",
+        "addr:street": "Tanjong Pagar Road",
+        "addr:unit": "#01-37/40",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Tanjong Pagar Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130672,
+      "lat": 1.3303201,
+      "lon": 103.8753536,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "181-185",
+        "addr:postcode": "348540",
+        "addr:street": "MacPherson Road",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "MacPherson Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130673,
+      "lat": 1.3109794,
+      "lon": 103.8564931,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "City Square Mall",
+        "addr:housenumber": "180",
+        "addr:postcode": "208539",
+        "addr:street": "Kitchener Road",
+        "addr:unit": "#B1-17",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "City Square Mall Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130674,
+      "lat": 1.435808,
+      "lon": 103.836733,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "291",
+        "addr:postcode": "760291",
+        "addr:street": "Yishun Street 22",
+        "addr:unit": "#01-351",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Yishun Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130676,
+      "lat": 1.2948598,
+      "lon": 103.8599766,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "3",
+        "addr:postcode": "038983",
+        "addr:street": "Temasek Boulevard",
+        "addr:unit": "#02-735/736",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Suntec City",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "drive_through": "no",
+        "level": "1",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "opening_hours": "Mo-Fr 11:00-18:00; Sa 11:00-16:30",
+        "website": "https://www.uob.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130677,
+      "lat": 1.3500847,
+      "lon": 103.8732232,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "23",
+        "addr:postcode": "556083",
+        "addr:street": "Serangoon Central",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Serangoon Central",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130679,
+      "lat": 1.3394201,
+      "lon": 103.7069813,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Jurong Point Shopping Centre",
+        "addr:housenumber": "1",
+        "addr:postcode": "648886",
+        "addr:street": "Jurong West Central 2",
+        "addr:unit": "#01-16C",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Jurong Point",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130680,
+      "lat": 1.3716092,
+      "lon": 103.8929919,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:postcode": "538758",
+        "addr:street": "Hougang MRT Station",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "1",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "check_date": "2023-06-23",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130681,
+      "lat": 1.4483866,
+      "lon": 103.8199289,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "30",
+        "addr:postcode": "757713",
+        "addr:street": "Sembawang Drive",
+        "addr:unit": "#01-K8",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Sun Plaza Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130683,
+      "lat": 1.3044252,
+      "lon": 103.8354254,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Mount Elizabeth Medical Centre",
+        "addr:housenumber": "3",
+        "addr:postcode": "228510",
+        "addr:street": "Mount Elizabeth",
+        "addr:unit": "#01-03/05",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "PBC Mount Elizabeth Medical Centre",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130684,
+      "lat": 1.334982,
+      "lon": 103.7391175,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "130",
+        "addr:postcode": "600130",
+        "addr:street": "Jurong East Street 13",
+        "addr:unit": "#01-213/215/217",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Jurong East Central Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130685,
+      "lat": 1.3350784,
+      "lon": 103.7470316,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "2",
+        "addr:postcode": "609601",
+        "addr:street": "Jurong East Street 21",
+        "addr:unit": "#01-36",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "IMM Building Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130686,
+      "lat": 1.2798985,
+      "lon": 103.8482697,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Far Eastern Bank Building",
+        "addr:housenumber": "156",
+        "addr:postcode": "069544",
+        "addr:street": "Cecil Street",
+        "addr:unit": "#01-00",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Main Branch (FEB)",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130687,
+      "lat": 1.3585964,
+      "lon": 103.7501211,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "375",
+        "addr:postcode": "650375",
+        "addr:street": "Bukit Batok Street 31",
+        "addr:unit": "#01-140",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "375 Bukit Batok Street 31",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130699,
+      "lat": 1.4351534,
+      "lon": 103.7865574,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Woodlands Civic Centre",
+        "addr:housenumber": "900",
+        "addr:postcode": "730900",
+        "addr:street": "South Woodlands Drive",
+        "addr:unit": "#01-06",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Woodlands",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130700,
+      "lat": 1.2647833,
+      "lon": 103.8212348,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Vivo City",
+        "addr:housenumber": "1",
+        "addr:postcode": "098585",
+        "addr:street": "HarbourFront Walk",
+        "addr:unit": "#B2-35/36",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Vivo City",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "check_date": "2023-06-23",
+        "level": "-2",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130701,
+      "lat": 1.3520949,
+      "lon": 103.9429905,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "UOB Tampines Centre",
+        "addr:housenumber": "1",
+        "addr:postcode": "529539",
+        "addr:street": "Tampines Central 1",
+        "addr:unit": "#01-01",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Tampines",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130703,
+      "lat": 1.3037484,
+      "lon": 103.8611707,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Textile Centre",
+        "addr:housenumber": "200",
+        "addr:postcode": "199018",
+        "addr:street": "Jalan Sultan",
+        "addr:unit": "#01-06",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Jalan Sultan",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130704,
+      "lat": 1.2928768,
+      "lon": 103.8322791,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Great World City",
+        "addr:housenumber": "1",
+        "addr:postcode": "237994",
+        "addr:street": "Kim Seng Promenade",
+        "addr:unit": "#01-34",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Great World City",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130705,
+      "lat": 1.2914731,
+      "lon": 103.8510733,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "The Adelphi",
+        "addr:housenumber": "1",
+        "addr:postcode": "179803",
+        "addr:street": "Coleman Street",
+        "addr:unit": "#01-14",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Coleman",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "opening_hours": "Mo-Fr 09:30-16:30; Sa,Su,PH off",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869130706,
+      "lat": 1.345444,
+      "lon": 103.714108,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "325",
+        "addr:postcode": "649886",
+        "addr:street": "Boon Lay Place",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Boon Lay",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869131426,
+      "lat": 1.3524554,
+      "lon": 103.9443688,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Tampines Mall",
+        "addr:housenumber": "4",
+        "addr:postcode": "529510",
+        "addr:street": "Tampines Central 5",
+        "addr:unit": "#01-K5/K6/K7",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Tampines Mall",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869131442,
+      "lat": 1.3535176,
+      "lon": 103.8724479,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "262",
+        "addr:postcode": "550262",
+        "addr:street": "Serangoon Central Drive",
+        "addr:unit": "#01-109",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Serangoon Central Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869131446,
+      "lat": 1.3278193,
+      "lon": 103.9308553,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "416",
+        "addr:postcode": "460416",
+        "addr:street": "Bedok North Avenue 2",
+        "addr:unit": "#01-09",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Bedok",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869131460,
+      "lat": 1.3087755,
+      "lon": 103.8608787,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "803",
+        "addr:postcode": "200803",
+        "addr:street": "King George's Avenue",
+        "addr:unit": "#01-242",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "King George's Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869131497,
+      "lat": 1.2837699,
+      "lon": 103.8175861,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "162",
+        "addr:postcode": "150162",
+        "addr:street": "Jalan Bukit Merah",
+        "addr:unit": "#01-3543",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Bukit Merah Central Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869131520,
+      "lat": 1.3264965,
+      "lon": 103.9299465,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "204",
+        "addr:postcode": "460204",
+        "addr:street": "Bedok North Street 1",
+        "addr:unit": "#01-417/419",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Bedok Central Autolobby",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869133300,
+      "lat": 1.2837492,
+      "lon": 103.8425846,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "People's Park Complex",
+        "addr:housenumber": "1",
+        "addr:postcode": "059108",
+        "addr:street": "Park Road",
+        "addr:unit": "#01-01/02",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "New Bridge",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "check_date": "2025-11-04",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134370,
+      "lat": 1.3693934,
+      "lon": 103.8483498,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "AMK Hub",
+        "brand": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "name": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134396,
+      "lat": 1.3246736,
+      "lon": 103.931796,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "210",
+        "addr:postcode": "460210",
+        "addr:street": "New Upper Changi Road",
+        "addr:unit": "#01-711",
+        "amenity": "bank",
+        "branch": "Bedok",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134399,
+      "lat": 1.3017813,
+      "lon": 103.8544534,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Fu Lu Shou Complex",
+        "addr:housenumber": "149",
+        "addr:postcode": "188425",
+        "addr:street": "Rochor Road",
+        "addr:unit": "#01-26",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Rochor",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "check_date": "2023-11-08",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134400,
+      "lat": 1.3532685,
+      "lon": 103.8336638,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "251-253",
+        "addr:postcode": "574376",
+        "addr:street": "Upper Thomson Road",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Thomson",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134401,
+      "lat": 1.2854629,
+      "lon": 103.8503053,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "UOB Plaza 1",
+        "addr:housenumber": "80",
+        "addr:postcode": "048624",
+        "addr:street": "Raffles Place",
+        "amenity": "bank",
+        "branch": "Main",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134402,
+      "lat": 1.2795876,
+      "lon": 103.8538608,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Marina Bay Financial Centre Tower 2",
+        "addr:housenumber": "10",
+        "addr:postcode": "18983",
+        "addr:street": "Marina Boulevard",
+        "addr:unit": "#01-01/02/04",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Marina Bay Financial Centre",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134403,
+      "lat": 1.3636957,
+      "lon": 103.865262,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "69",
+        "addr:postcode": "555965",
+        "addr:street": "Serangoon Garden Way",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Serangoon Garden",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134404,
+      "lat": 1.2846053,
+      "lon": 103.8511104,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "One Raffles Place",
+        "addr:housenumber": "1",
+        "addr:postcode": "048616",
+        "addr:street": "Raffles Place",
+        "addr:unit": "#01-00/10",
+        "amenity": "bank",
+        "branch": "Raffles Place",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134405,
+      "lat": 1.302748,
+      "lon": 103.8368198,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "268",
+        "addr:postcode": "238856",
+        "addr:street": "Orchard Road",
+        "addr:unit": "#11-01",
+        "amenity": "bank",
+        "branch": "Orchard",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134406,
+      "lat": 1.30544,
+      "lon": 103.83555,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "3",
+        "addr:postcode": "228510",
+        "addr:street": "Mount Elizabeth Medical Centre",
+        "addr:unit": "#01-03/05",
+        "amenity": "bank",
+        "branch": "Mount Elizabeth",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134407,
+      "lat": 1.3332489,
+      "lon": 103.7437373,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Jem",
+        "addr:housenumber": "50",
+        "addr:postcode": "608549",
+        "addr:street": "Jurong Gateway Road",
+        "addr:unit": "15",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Jem",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "1",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "phone": "+65 1800 222 1881"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134408,
+      "lat": 1.3054617,
+      "lon": 103.9046522,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "112 Katong",
+        "addr:housenumber": "112",
+        "addr:postcode": "428802",
+        "addr:street": "East Coast Road",
+        "addr:unit": "#01-01,#01-27",
+        "amenity": "bank",
+        "branch": "Katong",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134410,
+      "lat": 1.2862467,
+      "lon": 103.8279566,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Tiong Bahru Plaza",
+        "addr:housenumber": "302",
+        "addr:postcode": "168732",
+        "addr:street": "Tiong Bahru Road",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Tiong Bahru Plaza",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134411,
+      "lat": 1.3344429,
+      "lon": 103.8892526,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Breadtalk IHQ",
+        "addr:housenumber": "30",
+        "addr:postcode": "534013",
+        "addr:street": "Tai Seng Street",
+        "addr:unit": "#01-01",
+        "amenity": "bank",
+        "branch": "Tai Seng",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "1",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134412,
+      "lat": 1.2961932,
+      "lon": 103.8588706,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Suntec City Mall",
+        "addr:housenumber": "3",
+        "addr:postcode": "038983",
+        "addr:street": "Temasek Boulevard",
+        "addr:unit": "#02-735/736",
+        "amenity": "bank",
+        "branch": "Suntec City",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134413,
+      "lat": 1.350748,
+      "lon": 103.872798,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "nex",
+        "addr:housenumber": "23",
+        "addr:postcode": "556083",
+        "addr:street": "Serangoon Central",
+        "addr:unit": "#01-52/53",
+        "amenity": "bank",
+        "branch": "Serangoon Central",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134414,
+      "lat": 1.3059181,
+      "lon": 103.8320152,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Shaw Centre",
+        "addr:housenumber": "1",
+        "addr:postcode": "228208",
+        "addr:street": "Scotts Road",
+        "addr:unit": "#03-04",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Shaw Centre",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134415,
+      "lat": 1.4057538,
+      "lon": 103.9023503,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Waterway Point",
+        "addr:housenumber": "83",
+        "addr:postcode": "828761",
+        "addr:street": "Punggol Central",
+        "addr:unit": "#01-01",
+        "amenity": "bank",
+        "branch": "Waterway Point",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "check_date": "2025-12-20",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134418,
+      "lat": 1.3199568,
+      "lon": 103.8436638,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Novena Square",
+        "addr:housenumber": "238A",
+        "addr:postcode": "307685",
+        "addr:street": "Thomson Road",
+        "addr:unit": "38",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Novena Square",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134419,
+      "lat": 1.4295178,
+      "lon": 103.8364167,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Northpoint Shopping Centre",
+        "addr:housenumber": "930",
+        "addr:postcode": "769098",
+        "addr:street": "Yishun Avenue 2",
+        "addr:unit": "#01-41/42/43",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Northpoint",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "1",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134420,
+      "lat": 1.3130696,
+      "lon": 103.8542166,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Connexion",
+        "addr:housenumber": "1",
+        "addr:postcode": "217562",
+        "addr:street": "Farrer Park Station Road",
+        "addr:unit": "#01-13",
+        "amenity": "bank",
+        "branch": "Farrer Park",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134921,
+      "lat": 1.370628,
+      "lon": 103.892276,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Hougang MRT Station",
+        "addr:housenumber": "80",
+        "addr:postcode": "538758",
+        "addr:street": "Hougang Central",
+        "addr:unit": "#01-01",
+        "amenity": "bank",
+        "branch": "Hougang MRT",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134922,
+      "lat": 1.353049,
+      "lon": 103.889691,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "108",
+        "addr:postcode": "530108",
+        "addr:street": "Hougang Avenue 1",
+        "addr:unit": "#01-1313/1315",
+        "amenity": "bank",
+        "branch": "Hougang",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134923,
+      "lat": 1.3107816,
+      "lon": 103.7956575,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Holland Road Shopping Centre",
+        "addr:housenumber": "211",
+        "addr:postcode": "278967",
+        "addr:street": "Holland Avenue",
+        "addr:unit": "#01-12",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Holland",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "operator": "UOB",
+        "operator:wikidata": "Q2064074"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134924,
+      "lat": 1.3135355,
+      "lon": 103.7654567,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "450",
+        "addr:postcode": "120450",
+        "addr:street": "Clementi Avenue 3",
+        "addr:unit": "#01-287/289",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Clementi",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134925,
+      "lat": 1.3560223,
+      "lon": 103.9887389,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Singapore Changi Airport Passenger Terminal 2 Building",
+        "addr:postcode": "819643",
+        "addr:street": "Airport Boulevard",
+        "addr:unit": "#B16-17",
+        "amenity": "bank",
+        "branch": "Changi Airport",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134926,
+      "lat": 1.37956,
+      "lon": 103.7643061,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Bukit Panjang Plaza",
+        "addr:housenumber": "1",
+        "addr:postcode": "677743",
+        "addr:street": "Jelebu Road",
+        "addr:unit": "#02-02",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Bukit Panjang",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134927,
+      "lat": 1.349801,
+      "lon": 103.751639,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "634",
+        "addr:postcode": "650634",
+        "addr:street": "Bukit Batok Central",
+        "addr:unit": "#01-104/106",
+        "amenity": "bank",
+        "branch": "Bukit Batok Central",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "opening_hours": "Mo-Fr 09:30-16:30; Sa 09:30-12:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134928,
+      "lat": 1.348447,
+      "lon": 103.849103,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "501",
+        "addr:postcode": "570501",
+        "addr:street": "Bishan Street 11",
+        "addr:unit": "#01-368/370",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Bishan",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869134929,
+      "lat": 1.3182941,
+      "lon": 103.863199,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "25",
+        "addr:postcode": "330025",
+        "addr:street": "Bendemeer Road",
+        "addr:unit": "#01-561/563",
+        "amenity": "bank",
+        "branch": "Bendemeer",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4960777121,
+      "lat": 1.2994855,
+      "lon": 103.8457552,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "68",
+        "addr:postcode": "238839",
+        "addr:street": "Orchard Road",
+        "addr:unit": "#01-60",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Orchard Dhoby Ghaut",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "brand:wikipedia": "en:HSBC",
+        "currency:SGD": "yes",
+        "drive_through": "no",
+        "level": "0",
+        "name": "HSBC",
+        "name:en": "HSBC",
+        "name:zh-Hant": "滙豐",
+        "opening_hours": "Mo-Fr 09:30-15:30; Sa 09:30-12:00",
+        "phone": "+65 1800 472 2669",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5016369997,
+      "lat": 1.4494752,
+      "lon": 103.8186737,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5055589371,
+      "lat": 1.3123694,
+      "lon": 103.8551937,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "State Bank of India",
+        "brand:wikidata": "Q1340361",
+        "brand:wikipedia": "en:State Bank of India",
+        "level": "0",
+        "name": "State Bank of India",
+        "short_name": "SBI"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5055589398,
+      "lat": 1.3125512,
+      "lon": 103.8535998,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5058460923,
+      "lat": 1.3369892,
+      "lon": 103.9064601,
+      "tags": {
+        "addr:street": "Kaki Bukit Avenue 3",
+        "amenity": "bank",
+        "note": "外勞開新戶口要來此地"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5070713797,
+      "lat": 1.288591,
+      "lon": 103.8157307,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "75D",
+        "addr:postcode": "154075",
+        "addr:street": "Redhill Road",
+        "addr:unit": "01-100",
+        "amenity": "bank",
+        "name": "Hong Leong Finance Limited",
+        "operator": "Hong Leong Finance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5070722224,
+      "lat": 1.2864837,
+      "lon": 103.8143736,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "20",
+        "addr:street": "Lengkok Bahru",
+        "amenity": "bank",
+        "atm": "yes",
+        "drive_through": "no",
+        "name": "OCBC ATM",
+        "opening_hours": "24/7",
+        "operator": "OCBC",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5209451651,
+      "lat": 1.2864838,
+      "lon": 103.8143952,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "20",
+        "addr:street": "Lengkok Bahru",
+        "amenity": "bank",
+        "atm": "yes",
+        "blind:description:en": "headphone jack is availabe",
+        "drive_through": "no",
+        "name": "PosB ATM",
+        "opening_hours": "24/7",
+        "operator": "POSB ATM",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5265296296,
+      "lat": 1.3707107,
+      "lon": 103.8941449,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "POSB",
+        "opening_hours": "Mo-Fr 08:30-16:30; Sa 08:30-13:00",
+        "operator": "POSB",
+        "website": "https://www.posb.com.sg/personal/default.page",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5265451730,
+      "lat": 1.3587456,
+      "lon": 103.8849117,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "204",
+        "addr:postcode": "530204",
+        "addr:street": "Hougang Street 21",
+        "addr:unit": "#01-107/111",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Kovan",
+        "brand": "POSB",
+        "brand:wikidata": "Q7120030",
+        "brand:wikipedia": "en:POSB Bank",
+        "drive_through": "no",
+        "level": "0",
+        "name": "POSB",
+        "opening_hours": "Mo-Fr 08:30-16:00; Sa 08:30-12:30",
+        "operator": "Development Bank of Singapore",
+        "website": "https://www.posb.com.sg/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5593796925,
+      "lat": 1.3386881,
+      "lon": 103.778723,
+      "tags": {
+        "amenity": "bank",
+        "check_date": "2024-10-19",
+        "name": "DBS",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5756820440,
+      "lat": 1.306844,
+      "lon": 103.8314063,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "6",
+        "addr:postcode": "229571",
+        "addr:street": "Claymore Hill",
+        "addr:unit": "#01-01",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Claymore",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "name": "HSBC",
+        "name:en": "HSBC",
+        "name:zh-Hans": "汇丰银行",
+        "name:zh-Hant": "滙豐銀行",
+        "opening_hours": "Mo-Fr 09:30-17:00; Sa 09:30-12:00; Su,PH off"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5808536811,
+      "lat": 1.3029995,
+      "lon": 103.8732973,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "level": "0",
+        "name": "OCBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5816877586,
+      "lat": 1.4063045,
+      "lon": 103.9016543,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Waterway Point",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "brand:wikipedia": "en:Maybank",
+        "name": "Maybank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5816877588,
+      "lat": 1.4065679,
+      "lon": 103.9014269,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Waterway Point",
+        "brand": "BOC",
+        "brand:wikidata": "Q790068",
+        "level": "0",
+        "name": "BOC",
+        "official_name": "Bank of China",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5816877591,
+      "lat": 1.4066832,
+      "lon": 103.9024753,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Waterway Point",
+        "brand": "POSB",
+        "brand:wikidata": "Q7120030",
+        "brand:wikipedia": "en:POSB Bank",
+        "level": "-2",
+        "name": "POSB",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:30; PH,Su closed",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5816877594,
+      "lat": 1.4063662,
+      "lon": 103.9015714,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Waterway Point",
+        "brand": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:wikipedia": "OCBC Bank",
+        "brand:zh": "华侨银行",
+        "level": "0",
+        "name": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5924056457,
+      "lat": 1.2862684,
+      "lon": 103.8269572,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Tiong Bahru Plaza",
+        "brand": "POSB",
+        "level": "0",
+        "name": "POSB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5924056458,
+      "lat": 1.2863091,
+      "lon": 103.8267625,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Tiong Bahru Plaza",
+        "brand": "OCBC",
+        "level": "0",
+        "name": "OCBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5924056459,
+      "lat": 1.2863338,
+      "lon": 103.8266634,
+      "tags": {
+        "amenity": "bank",
+        "brand": "BOC",
+        "brand:wikidata": "Q790068",
+        "brand:wikipedia": "en:Bank of China",
+        "name": "BOC",
+        "official_name": "Bank of China"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5974136145,
+      "lat": 1.332577,
+      "lon": 103.8671426,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "6",
+        "addr:postcode": "358361",
+        "addr:street": "Potong Pasir Avenue 2",
+        "amenity": "bank",
+        "atm": "yes",
+        "drive_through": "no",
+        "name": "PosB",
+        "opening_hours": "24/7",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6012281625,
+      "lat": 1.3504168,
+      "lon": 103.8488791,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "level": "1",
+        "name": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6012281641,
+      "lat": 1.3506918,
+      "lon": 103.8488847,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "DBS",
+        "brand:wikidata": "Q705417",
+        "level": "0",
+        "name": "DBS",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6070535487,
+      "lat": 1.352917,
+      "lon": 103.9436322,
+      "tags": {
+        "amenity": "bank",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6128475085,
+      "lat": 1.2833149,
+      "lon": 103.8511516,
+      "tags": {
+        "amenity": "bank",
+        "name": "Indian Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6132738055,
+      "lat": 1.3462734,
+      "lon": 103.7124408,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "221",
+        "addr:street": "Boon Lay Place",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "brand:wikipedia": "en:Deutsche Postbank",
+        "name": "POSB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6217738238,
+      "lat": 1.3466312,
+      "lon": 103.9440196,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "Blk 139 #01-44/46",
+        "addr:postcode": "521139",
+        "addr:street": "Tampines Street 11",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "brand:wikipedia": "en:Maybank",
+        "name": "Maybank",
+        "opening_hours": "Mo-Fr 09:15-16:45; Sa 09:15-12:15; Su off"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6316934537,
+      "lat": 1.3102033,
+      "lon": 103.8564654,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "State Bank of India",
+        "brand:wikidata": "Q1340361",
+        "brand:wikipedia": "en:State Bank of India",
+        "name": "State Bank of India",
+        "short_name": "SBI"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6359682985,
+      "lat": 1.3329329,
+      "lon": 103.8475619,
+      "tags": {
+        "amenity": "bank",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "level": "1",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6359694285,
+      "lat": 1.3319188,
+      "lon": 103.848231,
+      "tags": {
+        "amenity": "bank",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "name": "Maybank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6359694286,
+      "lat": 1.3316391,
+      "lon": 103.8489137,
+      "tags": {
+        "amenity": "bank",
+        "name": "POSB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6440074866,
+      "lat": 1.3356835,
+      "lon": 103.8892896,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6549175923,
+      "lat": 1.2650246,
+      "lon": 103.8204455,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "1",
+        "addr:postcode": "099253",
+        "addr:street": "Maritime Square",
+        "addr:unit": "#02-99/100",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "HarbourFront",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:wikipedia": "en:OCBC Bank",
+        "brand:zh": "华侨银行",
+        "currency:SGD": "yes",
+        "drive_through": "no",
+        "level": "1",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "opening_hours": "Mo-Su 11:00-19:00; PH off",
+        "phone": "+65 6363 3333",
+        "website": "https://www.ocbc.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6549175933,
+      "lat": 1.2643008,
+      "lon": 103.8204657,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "1",
+        "addr:postcode": "099253",
+        "addr:street": "Maritime Square",
+        "addr:unit": "#02-122/123",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Harbourfront",
+        "brand": "DBS",
+        "currency:SGD": "yes",
+        "drive_through": "no",
+        "level": "1",
+        "name": "DBS",
+        "opening_hours": "Mo-Fr 08:30-16:00; Sa 08:30-12:30; Su,PH off",
+        "phone": "+65 1800 111 1111",
+        "website": "https://www.dbs.com.sg/",
+        "wheelchair": "yes",
+        "wikidata": "Q705417",
+        "wikipedia": "en:DBS Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6649596053,
+      "lat": 1.429516,
+      "lon": 103.8364971,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Northpoint Shopping Centre",
+        "addr:housenumber": "930",
+        "addr:postcode": "769098",
+        "addr:street": "Yishun Avenue 2",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Northpoint",
+        "brand": "OCBC",
+        "level": "-1",
+        "name": "OCBC",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6940352866,
+      "lat": 1.3351429,
+      "lon": 103.7396943,
+      "tags": {
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6975908095,
+      "lat": 1.3015577,
+      "lon": 103.9055706,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "level": "2",
+        "name": "DBS",
+        "operator": "DBS",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6975908485,
+      "lat": 1.3016719,
+      "lon": 103.90446,
+      "tags": {
+        "amenity": "bank",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "level": "0",
+        "name": "HSBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6975908594,
+      "lat": 1.3016719,
+      "lon": 103.90446,
+      "tags": {
+        "amenity": "bank",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "level": "2",
+        "name": "HSBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6975908691,
+      "lat": 1.3014945,
+      "lon": 103.9054228,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Parkway Parade",
+        "addr:housenumber": "80",
+        "addr:postcode": "449269",
+        "addr:street": "Marine Parade Road",
+        "addr:unit": "#01-13",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Parkway Parade",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "2",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6976881285,
+      "lat": 1.3015577,
+      "lon": 103.9055706,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "level": "3",
+        "name": "DBS",
+        "operator": "DBS",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6976881387,
+      "lat": 1.3016719,
+      "lon": 103.90446,
+      "tags": {
+        "amenity": "bank",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "level": "3",
+        "name": "HSBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7025433387,
+      "lat": 1.3042541,
+      "lon": 103.8338767,
+      "tags": {
+        "amenity": "bank",
+        "name": "BDO Remit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7025433699,
+      "lat": 1.3042735,
+      "lon": 103.8338334,
+      "tags": {
+        "amenity": "bank",
+        "name": "Palawan Express Pera Padala"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7065476359,
+      "lat": 1.3510275,
+      "lon": 103.8723984,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "nex Serangoon",
+        "brand": "Standard Chartered",
+        "brand:wikidata": "Q548278",
+        "level": "2",
+        "name": "Standard Chartered"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7088254212,
+      "lat": 1.3842966,
+      "lon": 103.7432176,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "drive_through": "no",
+        "name": "OCBC",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7129655642,
+      "lat": 1.304485,
+      "lon": 103.8320373,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "2",
+        "addr:postcode": "238801",
+        "addr:street": "Orchard Turn",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "level": "-2",
+        "name": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "opening_hours": "Mo-Su 11:00-19:00",
+        "operator": "OCBC",
+        "phone": "+65 1800 363 3333"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7476185043,
+      "lat": 1.2802104,
+      "lon": 103.8544236,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Standard Chartered",
+        "brand:wikidata": "Q548278",
+        "brand:wikipedia": "en:Standard Chartered",
+        "name": "Standard Chartered",
+        "operator": "Standard Chartered"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7530395426,
+      "lat": 1.3026521,
+      "lon": 103.9062216,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Marine Parade",
+        "brand": "State Bank of India",
+        "brand:wikidata": "Q1340361",
+        "brand:wikipedia": "en:State Bank of India",
+        "name": "State Bank of India",
+        "short_name": "SBI"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7565540089,
+      "lat": 1.3416848,
+      "lon": 103.7761286,
+      "tags": {
+        "amenity": "bank",
+        "operator": "Hong Leong Finance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7821673663,
+      "lat": 1.3504867,
+      "lon": 103.7183697,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "OCBC",
+        "name": "OCBC",
+        "operator": "OCBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8182543271,
+      "lat": 1.3030888,
+      "lon": 103.8338736,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "391",
+        "addr:postcode": "238872",
+        "addr:street": "Orchard Road",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2024-11-13",
+        "currency:SGD": "yes",
+        "drive_through": "no",
+        "internet_access": "no",
+        "level": "-2",
+        "name": "DBS",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:30; Su,PH off",
+        "wheelchair": "yes",
+        "wikidata": "Q705417",
+        "wikipedia": "en:DBS Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8420594114,
+      "lat": 1.3026858,
+      "lon": 103.8368416,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "268",
+        "addr:postcode": "238856",
+        "addr:street": "Orchard Road",
+        "addr:unit": "#07-01/#08-01",
+        "alt_name": "Citibank",
+        "amenity": "bank",
+        "brand": "Citibank",
+        "brand:wikidata": "Q857063",
+        "brand:wikipedia": "en:Citibank",
+        "level": "6;7",
+        "name": "Citi Wealth Hub",
+        "opening_hours": "Mo-Fr 09:30-18:00; Sa 09:30-12:00; Su,PH off",
+        "operator": "Citigroup Inc.",
+        "short_name": "Citi",
+        "website": "https://www.citibank.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8448240737,
+      "lat": 1.3853523,
+      "lon": 103.901961,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "POSB",
+        "level": "0",
+        "name": "POSB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8526971983,
+      "lat": 1.3189319,
+      "lon": 103.8935678,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "10",
+        "addr:postcode": "408600",
+        "addr:street": "Eunos Road 8",
+        "addr:unit": "#01-106/107/108",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Paya Lebar",
+        "brand": "POSB",
+        "brand:wikidata": "Q7120030",
+        "brand:wikipedia": "en:POSB Bank",
+        "drive_through": "no",
+        "level": "0",
+        "name": "POSB",
+        "opening_hours": "Mo-Fr 08:30-16:00; Sa 08:30-12:30; Su,PH off",
+        "operator": "DBS Bank Ltd",
+        "phone": "+65 1800 339 6666",
+        "website": "https://www.posb.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8548218180,
+      "lat": 1.430558,
+      "lon": 103.8280993,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "drive_through": "no",
+        "name": "POSB",
+        "operator": "POSB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8556164728,
+      "lat": 1.3693,
+      "lon": 103.8490344,
+      "tags": {
+        "amenity": "bank",
+        "brand": "BOC",
+        "brand:wikidata": "Q790068",
+        "level": "2",
+        "name": "BOC",
+        "official_name": "Bank of China"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8597349729,
+      "lat": 1.317319,
+      "lon": 103.8931497,
+      "tags": {
+        "addr:unit": "11/12",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "1",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8627982678,
+      "lat": 1.3341658,
+      "lon": 103.8510079,
+      "tags": {
+        "amenity": "bank",
+        "brand": "BOC",
+        "brand:wikidata": "Q790068",
+        "level": "0",
+        "name": "BOC",
+        "name:zh": "中国银行",
+        "official_name": "Bank of China"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8642389138,
+      "lat": 1.2769801,
+      "lon": 103.8454922,
+      "tags": {
+        "amenity": "bank",
+        "level": "-1",
+        "name": "HL Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8658652635,
+      "lat": 1.3722916,
+      "lon": 103.9498827,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "1",
+        "addr:postcode": "518457",
+        "addr:street": "Pasir Ris Central Street 3",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "White Sands",
+        "brand": "POSB",
+        "level": "2",
+        "name": "POSB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8658867075,
+      "lat": 1.3723129,
+      "lon": 103.9500327,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "1",
+        "addr:postcode": "518457",
+        "addr:street": "Pasir Ris Central Street 3",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "White Sands",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "drive_through": "no",
+        "level": "0",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "opening_hours": "Mo-Fr 11:00-18:00; Sa 11:00-14:30",
+        "website": "https://www.ocbc.com/personal-banking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8842019717,
+      "lat": 1.3257782,
+      "lon": 103.9294382,
+      "tags": {
+        "amenity": "bank",
+        "name": "Hong Leong"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8941736058,
+      "lat": 1.2991319,
+      "lon": 103.8529244,
+      "tags": {
+        "amenity": "bank",
+        "brand": "BOC",
+        "brand:wikidata": "Q790068",
+        "name": "BOC",
+        "official_name": "Bank of China"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8987107913,
+      "lat": 1.2790316,
+      "lon": 103.8543538,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "12",
+        "addr:postcode": "018982",
+        "addr:street": "Marina Boulevard",
+        "amenity": "bank",
+        "branch": "MBFC",
+        "brand": "DBS Bank",
+        "brand:wikidata": "Q705417",
+        "brand:wikipedia": "en:DBS Bank",
+        "level": "2",
+        "name": "DBS",
+        "opening_hours": "Mo-Fr 08:30-16:00; Sa 08:30-12:30",
+        "website": "https://www.dbs.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8987107915,
+      "lat": 1.3540771,
+      "lon": 103.9450103,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "10",
+        "addr:postcode": "529536",
+        "addr:street": "Tampines Central 1",
+        "addr:unit": "#03-08/09",
+        "amenity": "bank",
+        "branch": "Tampines One",
+        "brand": "DBS Bank",
+        "brand:wikidata": "Q705417",
+        "brand:wikipedia": "en:DBS Bank",
+        "level": "2",
+        "name": "DBS",
+        "opening_hours": "Mo-Fr 10:00-17:30; Sa 10:00-14:00",
+        "website": "https://www.dbs.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8987107916,
+      "lat": 1.3537308,
+      "lon": 103.9442435,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "513",
+        "addr:postcode": "520513",
+        "addr:street": "Tampines Central 1",
+        "addr:unit": "#01-160",
+        "amenity": "bank",
+        "branch": "Tampines Central",
+        "brand": "POSB",
+        "brand:wikidata": "Q7120030",
+        "brand:wikipedia": "en:POSB Bank",
+        "level": "0",
+        "name": "POSB",
+        "opening_hours": "Mo-Fr 08:30-16:00; Sa 08:30-12:30",
+        "website": "https://www.posb.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8991775444,
+      "lat": 1.3506059,
+      "lon": 103.8725004,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "23",
+        "addr:postcode": "608549",
+        "addr:street": "Serangoon Central",
+        "addr:unit": "#B2-28/29",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "NEX",
+        "brand": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:wikipedia": "en:OCBC Bank",
+        "brand:zh": "华侨银行",
+        "currency:SGD": "yes",
+        "level": "-2",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "name:zh-Hant": "華僑銀行",
+        "opening_hours": "Mo-Su 11:00-19:00; PH off",
+        "operator": "OCBC",
+        "website": "https://www.ocbc.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8991775446,
+      "lat": 1.3332494,
+      "lon": 103.7429255,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "50",
+        "addr:postcode": "608549",
+        "addr:street": "Jurong Gateway Road",
+        "addr:unit": "#B1-18",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Jurong East",
+        "brand": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:wikipedia": "en:OCBC Bank",
+        "brand:zh": "华侨银行",
+        "currency:SGD": "yes",
+        "level": "-1",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "name:zh-Hant": "華僑銀行",
+        "opening_hours": "Mo-Su 11:00-19:00; PH off",
+        "operator": "OCBC",
+        "website": "https://www.ocbc.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8991775447,
+      "lat": 1.3346786,
+      "lon": 103.740185,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "131",
+        "addr:postcode": "600131",
+        "addr:street": "Jurong Gateway Road",
+        "addr:unit": "#01-257/259",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Jurong",
+        "brand": "HSBC",
+        "brand:wikidata": "Q600178",
+        "brand:wikipedia": "en:The Hongkong and Shanghai Banking Corporation",
+        "level": "0",
+        "name": "HSBC",
+        "name:en": "HSBC",
+        "name:zh-Hant": "滙豐",
+        "opening_hours": "Mo-Fr 09:30-15:30; Sa 09:30-12:00",
+        "operator": "HSBC",
+        "website": "https://www.hsbc.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8991775448,
+      "lat": 1.2739309,
+      "lon": 103.8016994,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "460",
+        "addr:postcode": "119963",
+        "addr:street": "Alexandra Road",
+        "addr:unit": "#02-29",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Alexandra",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "brand:wikipedia": "en:The Hongkong and Shanghai Banking Corporation",
+        "level": "1",
+        "name": "HSBC",
+        "name:en": "HSBC",
+        "name:zh-Hant": "滙豐",
+        "opening_hours": "Mo-Fr 09:30-15:30; Sa 09:30-12:00",
+        "operator": "HSBC",
+        "website": "https://www.hsbc.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9122490117,
+      "lat": 1.2818385,
+      "lon": 103.8515366,
+      "tags": {
+        "amenity": "bank",
+        "brand": "ICBC",
+        "brand:wikidata": "Q26463",
+        "name": "ICBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9348216617,
+      "lat": 1.3335819,
+      "lon": 103.7385494,
+      "tags": {
+        "amenity": "bank",
+        "name": "Hong Leong Finance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9457225222,
+      "lat": 1.340448,
+      "lon": 103.9621911,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "8",
+        "addr:postcode": "487372",
+        "addr:street": "Somapah Road",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "SUTD",
+        "check_date": "2026-01-14",
+        "description": "Lifestyle Self-Service Banking such as cash withdrawal/deposit, notes exchange, quick cheque deposit, AXS station, coin deposit, 24-hour video teller machine and charging stations.",
+        "drive_through": "no",
+        "name": "DBS Digital Branch",
+        "opening_hours": "24/7",
+        "operator": "DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9676920417,
+      "lat": 1.2862865,
+      "lon": 103.8447171,
+      "tags": {
+        "amenity": "bank",
+        "brand": "BOC",
+        "brand:wikidata": "Q790068",
+        "name": "BOC",
+        "name:zh": "中国银行",
+        "official_name": "Bank of China"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9794867834,
+      "lat": 1.2980084,
+      "lon": 103.8447647,
+      "tags": {
+        "amenity": "bank",
+        "brand": "UBS",
+        "brand:wikidata": "Q193199",
+        "name": "UBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9810363813,
+      "lat": 1.3424044,
+      "lon": 103.9531065,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "ICBC",
+        "brand:wikidata": "Q26463",
+        "level": "0",
+        "name": "ICBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9810396748,
+      "lat": 1.3430387,
+      "lon": 103.9529582,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "level": "0",
+        "name": "POSB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9914495021,
+      "lat": 1.3916764,
+      "lon": 103.8771234,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "level": "0",
+        "name": "POSB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10002968681,
+      "lat": 1.2794494,
+      "lon": 103.8525006,
+      "tags": {
+        "amenity": "bank",
+        "name": "ATM DBS",
+        "operator": "DBS Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10002968682,
+      "lat": 1.2770071,
+      "lon": 103.854514,
+      "tags": {
+        "amenity": "bank",
+        "name": "ATM OCBC",
+        "operator": "OCBC BANK"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10833425669,
+      "lat": 1.3000895,
+      "lon": 103.8451917,
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Orchard",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "level": "2",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "opening_hours": "Mo-Fr 11:00-18:00; Sa 11:00-16:30; Su,PH off",
+        "operator": "UOB",
+        "operator:wikidata": "Q2064074",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10893520519,
+      "lat": 1.3384464,
+      "lon": 103.8717257,
+      "tags": {
+        "addr:unit": "#01-43",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "The Woodleigh Mall",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "drive_through": "no",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11640418271,
+      "lat": 1.2838504,
+      "lon": 103.8434008,
+      "tags": {
+        "amenity": "bank",
+        "brand": "Western Union",
+        "brand:wikidata": "Q861042",
+        "name": "Western Union"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11813263135,
+      "lat": 1.2835393,
+      "lon": 103.8511048,
+      "tags": {
+        "amenity": "bank",
+        "name": "UCC Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11813263136,
+      "lat": 1.283854,
+      "lon": 103.8508417,
+      "tags": {
+        "amenity": "bank",
+        "name": "DBS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11828532015,
+      "lat": 1.2846568,
+      "lon": 103.8490071,
+      "tags": {
+        "amenity": "bank",
+        "brand": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "level": "0",
+        "name": "OCBC Bank",
+        "name:zh": "华侨银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12143316813,
+      "lat": 1.3743002,
+      "lon": 103.9485964,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "7",
+        "addr:postcode": "519612",
+        "addr:street": "Pasir Ris Central",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Pasir Ris",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "drive_through": "no",
+        "level": "1",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行",
+        "opening_hours": "Mo-Fr 11:00-18:00; Sa 11:00-14:30",
+        "website": "https://www.uob.com.sg/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12206907458,
+      "lat": 1.3031238,
+      "lon": 103.8362541,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "270",
+        "addr:postcode": "238857",
+        "addr:street": "Orchard Road",
+        "addr:unit": "03-02",
+        "amenity": "bank",
+        "branch": "Privilege Banking",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12210306899,
+      "lat": 1.4063691,
+      "lon": 103.9014708,
+      "tags": {
+        "amenity": "bank",
+        "branch": "Punggol Sub-branch",
+        "brand": "ICBC",
+        "level": "0",
+        "name": "ICBC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12257749631,
+      "lat": 1.2852568,
+      "lon": 103.8438647,
+      "tags": {
+        "addr:floor": "1",
+        "amenity": "bank",
+        "check_date": "2024-10-17",
+        "name": "Maybank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12376393324,
+      "lat": 1.3151365,
+      "lon": 103.7647265,
+      "tags": {
+        "addr:floor": "4",
+        "addr:housenumber": "3155",
+        "addr:street": "Commonwealth Ave West",
+        "amenity": "bank",
+        "atm": "yes",
+        "level": "3",
+        "level:ref": "4",
+        "name": "OCBC Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12565999282,
+      "lat": 1.3545409,
+      "lon": 103.9447614,
+      "tags": {
+        "addr:housenumber": "#B1-21/22",
+        "addr:street": "Tampines 1",
+        "amenity": "bank",
+        "brand": "BOC",
+        "brand:wikidata": "Q790068",
+        "name": "BOC",
+        "official_name": "Bank of China",
+        "opening_hours": "Mo-Sa 10:30-18:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12573500730,
+      "lat": 1.3522241,
+      "lon": 103.9436324,
+      "tags": {
+        "addr:housenumber": "#03-14",
+        "addr:street": "#03-14",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Century Square",
+        "name": "DBS POSB",
+        "opening_hours": "Mo-Fr 10:00-17:30; Sa 10:00-14:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12606919602,
+      "lat": 1.2863,
+      "lon": 103.8032129,
+      "tags": {
+        "amenity": "bank",
+        "name": "Hong Leong Finance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13818524317,
+      "lat": 1.4482418,
+      "lon": 103.8195207,
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:postcode": "757713",
+        "addr:street": "30 Sembawang Drive",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Sembawang",
+        "brand": "ICBC",
+        "brand:wikidata": "Q26463",
+        "drive_through": "no",
+        "level": "1",
+        "name": "ICBC",
+        "opening_hours": "Mo-Fr 11:00-19:00; Sa 11:00-16:30",
+        "website": "https://www.icbc.com.sg/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 46595384,
+      "center": {
+        "lat": 1.2850848,
+        "lon": 103.8528109
+      },
+      "nodes": [
+        595500634,
+        595500635,
+        1222445369,
+        1222445262,
+        595500636,
+        4997934385,
+        595500637,
+        595500638,
+        1222445318,
+        595500634
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "21",
+        "addr:street": "Battery Road",
+        "amenity": "bank",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "brand:wikipedia": "en:HSBC",
+        "building": "yes",
+        "height": "95",
+        "name": "HSBC",
+        "source": "Kaart Ground Survey 2017",
+        "start_date": "1982"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106193386,
+      "center": {
+        "lat": 1.285883,
+        "lon": 103.8525238
+      },
+      "nodes": [
+        1222445164,
+        3324022471,
+        1222445240,
+        9861549184,
+        9861549187,
+        1222445357,
+        1837552504,
+        1222445241,
+        1222445136,
+        1837552491,
+        1222445242,
+        1837552493,
+        1222445257,
+        3324022468,
+        1222445164
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "2",
+        "addr:postcode": "049907",
+        "addr:street": "Battery Road",
+        "amenity": "bank",
+        "branch": "Tower",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "building": "office",
+        "height": "0",
+        "name": "Maybank",
+        "start_date": "2001",
+        "wikidata": "Q6796900",
+        "wikimedia_commons": "Category:Maybank Tower, Singapore",
+        "wikipedia": "en:Maybank Tower (Singapore)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 106193390,
+      "center": {
+        "lat": 1.2856992,
+        "lon": 103.8522565
+      },
+      "nodes": [
+        9861534271,
+        9861534272,
+        9861534273,
+        9861534274,
+        9861534275,
+        1837552495,
+        1837552500,
+        9861534280,
+        1837552515,
+        1837552516,
+        9861534281,
+        1837552510,
+        1837552507,
+        9861534271
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "4",
+        "addr:postcode": "049908",
+        "addr:street": "Battery Road",
+        "amenity": "bank",
+        "brand": "BOC",
+        "brand:wikidata": "Q790068",
+        "brand:wikipedia": "en:Bank of China",
+        "building": "office",
+        "height": "0",
+        "name": "BOC",
+        "name:es": "Bank of China Building (Singapur)",
+        "name:fr": "Bank of China Building (Singapour)",
+        "name:ta": "சீன வங்கிக் கட்டிடம், சிங்கப்பூர்",
+        "name:zh": "中國銀行大廈 (新加坡)",
+        "official_name": "Bank of China",
+        "short_name": "BOC",
+        "source": "Kaart Ground Survey 2017",
+        "start_date": "1954",
+        "wikidata": "Q4856087",
+        "wikimedia_commons": "Category:Bank of China Building, Singapore",
+        "wikipedia": "en:Bank of China Building (Singapore)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 159171657,
+      "center": {
+        "lat": 1.3506504,
+        "lon": 103.8356337
+      },
+      "nodes": [
+        1712703153,
+        1712703124,
+        1712703241,
+        1712703278,
+        1712703153
+      ],
+      "tags": {
+        "addr:housenumber": "181",
+        "addr:street": "Upper Thomson Road",
+        "amenity": "bank",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "building": "residential",
+        "building:levels": "1",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "operator": "OCBC Bank",
+        "operator:wikidata": "Q2042423",
+        "source": "Kaart Ground Survey 2017",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171995559,
+      "center": {
+        "lat": 1.2791961,
+        "lon": 103.8476897
+      },
+      "nodes": [
+        3758967878,
+        1837675488,
+        1829508523,
+        1829508558,
+        1829508563,
+        3758967878
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Bangkok Bank Building",
+        "addr:housenumber": "180",
+        "addr:postcode": "069546",
+        "addr:street": "Cecil Street",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Bangkok Bank",
+        "brand:wikidata": "Q806483",
+        "building": "yes",
+        "building:levels": "1",
+        "height": "5",
+        "name": "Bangkok Bank",
+        "name:th": "ธนาคารกรุงเทพ",
+        "start_date": "1978"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171999325,
+      "center": {
+        "lat": 1.2850172,
+        "lon": 103.8492138
+      },
+      "nodes": [
+        1829571221,
+        1829571745,
+        1829571681,
+        1829571674,
+        1829571764,
+        1829570749,
+        1829571536,
+        1829571519,
+        1829571308,
+        1829571506,
+        1829571774,
+        1829571043,
+        1829571701,
+        1829571002,
+        1829570942,
+        1829570701,
+        1829571750,
+        1829571412,
+        1829571259,
+        1829571016,
+        1829571312,
+        1829571548,
+        1829571087,
+        1829571428,
+        1829571643,
+        1829571144,
+        1829570890,
+        1829570882,
+        1829571708,
+        1829571488,
+        1829570920,
+        1829571476,
+        1829570703,
+        1829571371,
+        1829570753,
+        1829570672,
+        1829571590,
+        1829571358,
+        1829571104,
+        1829570689,
+        1829570834,
+        1829571084,
+        1829571531,
+        1829571720,
+        1829571280,
+        1829570918,
+        1829570818,
+        1829570826,
+        1829571334,
+        1829570772,
+        1829570765,
+        1829571132,
+        1829571469,
+        1829571806,
+        1829571221
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "65",
+        "addr:postcode": "049513",
+        "addr:street": "Chulia Street",
+        "amenity": "bank",
+        "branch": "Centre",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:zh": "华侨银行",
+        "building": "yes",
+        "height": "16",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "start_date": "1976",
+        "wheelchair": "yes",
+        "wikidata": "Q2790093",
+        "wikipedia": "en:OCBC Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171999341,
+      "center": {
+        "lat": 1.2841088,
+        "lon": 103.8505896
+      },
+      "nodes": [
+        1829571816,
+        1829571416,
+        1829570623,
+        1829571503,
+        1829571651,
+        1829570933,
+        1829571816
+      ],
+      "tags": {
+        "addr:housenumber": "63",
+        "addr:street": "Market Street",
+        "amenity": "bank",
+        "building": "yes",
+        "building:levels": "16",
+        "height": "76",
+        "name": "Bank of Singapore Centre",
+        "source": "Kaart Ground Survey 2017",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171999342,
+      "center": {
+        "lat": 1.2820149,
+        "lon": 103.8493986
+      },
+      "nodes": [
+        1829571020,
+        1829570884,
+        1829571360,
+        1829571045,
+        1829571558,
+        1829570696,
+        1829571020
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "64",
+        "addr:street": "Cecil Street",
+        "alt_name": "IOB Building",
+        "amenity": "bank",
+        "building": "yes",
+        "building:colour": "#141513",
+        "building:levels": "6",
+        "building:material": "glass",
+        "check_date": "2025-10-21",
+        "height": "26",
+        "name": "Indian Overseas Bank Building"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172025316,
+      "center": {
+        "lat": 1.281355,
+        "lon": 103.849082
+      },
+      "nodes": [
+        1829764221,
+        1829764227,
+        1829764214,
+        1829764247,
+        1829764221
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "90",
+        "addr:street": "Cecil Street",
+        "amenity": "bank",
+        "brand": "RHB Bank",
+        "brand:wikidata": "Q4207443",
+        "building": "yes",
+        "building:colour": "#484949",
+        "building:levels": "3",
+        "name": "RHB Bank"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172915367,
+      "center": {
+        "lat": 1.2807241,
+        "lon": 103.8496895
+      },
+      "nodes": [
+        1837544676,
+        1837544668,
+        1837544666,
+        6353450870,
+        1837544667,
+        1837544669,
+        1837544672,
+        1837544676
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housenumber": "60",
+        "addr:postcode": "068892",
+        "addr:street": "Robinson Road",
+        "amenity": "bank",
+        "building": "yes",
+        "building:colour": "#424d4b",
+        "building:levels": "30",
+        "building:material": "glass",
+        "height": "91",
+        "name": "Bank of East Asia",
+        "old_name": "OUB Building",
+        "roof:colour": "#424d4b",
+        "source": "Kaart Ground Survey 2017",
+        "start_date": "2009"
+      }
+    },
+    {
+      "type": "way",
+      "id": 178436638,
+      "center": {
+        "lat": 1.3072854,
+        "lon": 103.8525442
+      },
+      "nodes": [
+        1887882188,
+        1887882219,
+        1887882078,
+        1887882060,
+        1887882188
+      ],
+      "tags": {
+        "addr:housenumber": "118",
+        "addr:street": "Serangoon Road",
+        "amenity": "bank",
+        "brand": "Bank of India",
+        "brand:wikidata": "Q2004439",
+        "building": "yes",
+        "name": "Bank of India",
+        "short_name": "BOI",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 180160966,
+      "center": {
+        "lat": 1.3327127,
+        "lon": 103.9648196
+      },
+      "nodes": [
+        1905910430,
+        6604243289,
+        6604243297,
+        1905910441,
+        4500104542,
+        2327164373,
+        1905910432,
+        4500104546,
+        4500104543,
+        4500104541,
+        4500104539,
+        4500104538,
+        4500104540,
+        1905910428,
+        4500104544,
+        4500104545,
+        1905910430
+      ],
+      "tags": {
+        "addr:housenumber": "2",
+        "amenity": "bank",
+        "building": "yes",
+        "name": "DBS Asia Hub"
+      }
+    },
+    {
+      "type": "way",
+      "id": 256112544,
+      "center": {
+        "lat": 1.3349122,
+        "lon": 103.9665206
+      },
+      "nodes": [
+        1838552921,
+        1838552931,
+        1838552922,
+        1838552936,
+        4500137818,
+        4500137819,
+        1838552940,
+        1838552955,
+        4500137822,
+        4500137821,
+        4500137820,
+        1838552897,
+        1838552893,
+        1838552882,
+        1838552921
+      ],
+      "tags": {
+        "addr:housenumber": "7",
+        "amenity": "bank",
+        "brand": "Standard Chartered",
+        "brand:wikidata": "Q548278",
+        "brand:wikipedia": "en:Standard Chartered",
+        "building": "yes",
+        "name": "Standard Chartered",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 308900619,
+      "center": {
+        "lat": 1.3163049,
+        "lon": 103.8997983
+      },
+      "nodes": [
+        4689590463,
+        3141896194,
+        3141896199,
+        3141895367,
+        4689590463
+      ],
+      "tags": {
+        "addr:street": "Changi Road",
+        "amenity": "bank",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "brand:wikipedia": "en:Maybank",
+        "building": "yes",
+        "name": "Maybank",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 315293927,
+      "center": {
+        "lat": 1.3315518,
+        "lon": 103.7947068
+      },
+      "nodes": [
+        3214031525,
+        3214031522,
+        1711105936,
+        3214031526,
+        3214031525
+      ],
+      "tags": {
+        "addr:housenumber": "827",
+        "addr:street": "Bukit Timah Road",
+        "amenity": "bank",
+        "atm": "yes",
+        "building": "yes",
+        "levels": "5",
+        "name": "OCBC",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453377478,
+      "center": {
+        "lat": 1.3125511,
+        "lon": 103.9270258
+      },
+      "nodes": [
+        4467166189,
+        4501187454,
+        4501187463,
+        4501187452,
+        4501187456,
+        4501187419,
+        4501187418,
+        4501187414,
+        4467166189
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:housenumber": "42",
+        "addr:postcode": "455213",
+        "addr:street": "Upper East Coast Road",
+        "amenity": "bank",
+        "building": "yes",
+        "name": "DBS Treasures",
+        "name:en": "DBS Treasures",
+        "opening_hours": "Mo-Fr 08:30-16:00; Sa 08:30-13:00",
+        "source": "Kaart Ground Survey 2017"
+      }
+    },
+    {
+      "type": "way",
+      "id": 745527066,
+      "center": {
+        "lat": 1.3017677,
+        "lon": 103.9045688
+      },
+      "nodes": [
+        6976086485,
+        6978609897,
+        6978609898,
+        6975667386,
+        6978627386,
+        6978610191,
+        6978610088,
+        6976086485
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "HSBC",
+        "brand:wikidata": "Q190464",
+        "indoor": "room",
+        "level": "0",
+        "name": "HSBC",
+        "room": "office"
+      }
+    },
+    {
+      "type": "way",
+      "id": 745530701,
+      "center": {
+        "lat": 1.3013851,
+        "lon": 103.9056778
+      },
+      "nodes": [
+        6978635798,
+        6975667387,
+        6975667685,
+        6975667785,
+        6975667286,
+        6978635799,
+        6978637890,
+        6978637793,
+        6978637790,
+        6978635798
+      ],
+      "tags": {
+        "amenity": "bank",
+        "atm": "yes",
+        "indoor": "room",
+        "level": "0",
+        "name": "DBS",
+        "operator": "DBS"
+      }
+    },
+    {
+      "type": "way",
+      "id": 745530702,
+      "center": {
+        "lat": 1.3013142,
+        "lon": 103.9055432
+      },
+      "nodes": [
+        6978637890,
+        6976043410,
+        6982502052,
+        6982502054,
+        6976847191,
+        6978635794,
+        6978637793,
+        6978637890
+      ],
+      "tags": {
+        "addr:city": "Singapore",
+        "addr:country": "SG",
+        "addr:housename": "Parkway Parade",
+        "addr:housenumber": "80",
+        "addr:postcode": "449269",
+        "addr:street": "Marine Parade Road",
+        "addr:unit": "#01-13",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Parkway Parade",
+        "brand": "UOB",
+        "brand:en": "UOB",
+        "brand:phone": "+65 1800 222 2121",
+        "brand:wikidata": "Q2064074",
+        "brand:zh": "大华银行",
+        "indoor": "room",
+        "level": "0",
+        "name": "UOB",
+        "name:en": "UOB",
+        "name:zh": "大华银行"
+      }
+    },
+    {
+      "type": "way",
+      "id": 745530766,
+      "center": {
+        "lat": 1.301946,
+        "lon": 103.9049501
+      },
+      "nodes": [
+        6978637824,
+        6976045988,
+        6976047588,
+        6976046886,
+        6976343105,
+        6978637825,
+        6978638003,
+        6978637826,
+        6978637827,
+        6978635831,
+        6978637824
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Citibank",
+        "brand:wikidata": "Q857063",
+        "brand:wikipedia": "en:Citibank",
+        "indoor": "room",
+        "level": "0",
+        "name": "Citibank",
+        "room": "office",
+        "short_name": "Citi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 745530771,
+      "center": {
+        "lat": 1.302191,
+        "lon": 103.9051033
+      },
+      "nodes": [
+        6982511467,
+        3164004166,
+        6982467236,
+        6982467235,
+        6976043418,
+        6976045802,
+        6978637833,
+        6978637832,
+        6978635838,
+        6978635839,
+        6978638005,
+        6978638187,
+        6982511467
+      ],
+      "tags": {
+        "amenity": "bank",
+        "indoor": "room",
+        "level": "0",
+        "name": "Citigold",
+        "room": "office"
+      }
+    },
+    {
+      "type": "way",
+      "id": 746052361,
+      "center": {
+        "lat": 1.3007533,
+        "lon": 103.9057563
+      },
+      "nodes": [
+        6982012789,
+        6982024609,
+        6982021657,
+        6982024610,
+        6982012790,
+        6982012789
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "RHB Bank",
+        "brand:wikidata": "Q4207443",
+        "indoor": "room",
+        "level": "-1",
+        "name": "RHB Bank",
+        "room": "shop"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1392324025,
+      "center": {
+        "lat": 1.4363687,
+        "lon": 103.786479
+      },
+      "nodes": [
+        12888566448,
+        12888566447,
+        12888566442,
+        12888566438,
+        12888566439,
+        12888566441,
+        12888566448
+      ],
+      "tags": {
+        "addr:unit": "#02-31",
+        "amenity": "bank",
+        "brand": "Maybank",
+        "brand:wikidata": "Q1364018",
+        "brand:wikipedia": "en:Maybank",
+        "indoor": "room",
+        "level": "1",
+        "level:ref": "2",
+        "name": "Maybank"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1395135475,
+      "center": {
+        "lat": 1.4357971,
+        "lon": 103.7860169
+      },
+      "nodes": [
+        12913927164,
+        12913927162,
+        12913927163,
+        12913927165,
+        12913927164
+      ],
+      "tags": {
+        "addr:unit": "#B1-12",
+        "amenity": "bank",
+        "brand": "BOC",
+        "brand:wikidata": "Q790068",
+        "indoor": "room",
+        "level": "-1",
+        "level:ref": "B1",
+        "name": "BOC",
+        "name:en": "Bank Of China",
+        "name:zh": "中国银行",
+        "official_name": "Bank of China"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1396029692,
+      "center": {
+        "lat": 1.4358596,
+        "lon": 103.7854034
+      },
+      "nodes": [
+        12918481791,
+        12894350560,
+        12894317692,
+        12894350561,
+        12894350562,
+        12921614691,
+        12921614684,
+        12921614690,
+        12921614689,
+        12918481789,
+        12918481790,
+        12918481791
+      ],
+      "tags": {
+        "addr:unit": "#01-16",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Causeway Point",
+        "brand": "OCBC Bank",
+        "brand:en": "OCBC Bank",
+        "brand:wikidata": "Q2042423",
+        "brand:wikipedia": "en:OCBC Bank",
+        "brand:zh": "华侨银行",
+        "currency:SGD": "yes",
+        "indoor": "room",
+        "level": "0",
+        "level:ref": "1",
+        "name": "OCBC Bank",
+        "name:en": "OCBC Bank",
+        "name:zh": "华侨银行",
+        "name:zh-Hant": "華僑銀行",
+        "opening_hours": "Mo-Su 11:00-19:00; PH off",
+        "operator": "OCBC",
+        "website": "https://www.ocbc.com/"
+      }
+    }
+  ]
+}
