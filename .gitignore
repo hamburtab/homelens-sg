@@ -6,3 +6,15 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 .coverage
+/output/
+/tmp/
+
+# Proposal build sidecars (source and submitted PDF live in docs/proposal/)
+/docs/proposal/*.aux
+/docs/proposal/*.log
+/docs/proposal/*.out
+/docs/proposal/*.synctex.gz
+
+# Keep only the repository's main Markdown document under version control.
+*.md
+!/README.md

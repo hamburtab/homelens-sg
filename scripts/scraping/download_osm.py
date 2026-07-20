@@ -1,6 +1,12 @@
 import json
 import time
+from pathlib import Path
+
 import requests
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+OUTPUT_DIR = PROJECT_ROOT / "data" / "raw" / "osm"
 
 # 官方 Overpass 镜像列表
 OVERPASS_URLS = [
@@ -176,6 +182,7 @@ def fetch_query(name, query):
 
 
 def download_osm_data():
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     success_count = 0
     fail_count = 0
 
@@ -186,8 +193,8 @@ def download_osm_data():
 
         if data is not None:
             elements_count = len(data.get("elements", []))
-            filename = f"osm_{name}.json"
-            with open(filename, "w", encoding="utf-8") as f:
+            filename = OUTPUT_DIR / f"osm_{name}.json"
+            with filename.open("w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
             print(f"✅ {elements_count} 条 → {filename}")
             success_count += 1
