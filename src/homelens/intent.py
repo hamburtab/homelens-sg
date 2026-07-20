@@ -181,8 +181,6 @@ def parse_with_rules(text: str) -> IntentParseResult:
 class OpenAIIntentParser:
     """Use Responses API structured output only when a key is configured."""
 
-    ENDPOINT = "https://api.openai.com/v1/responses"
-
     def __init__(self, settings: Settings, timeout_seconds: int = 45) -> None:
         self.settings = settings
         self.timeout_seconds = timeout_seconds
@@ -192,8 +190,13 @@ class OpenAIIntentParser:
         return bool(
             self.settings.enable_llm
             and self.settings.openai_api_key
+            and self.settings.openai_base_url
             and self.settings.openai_model
         )
+
+    @property
+    def endpoint(self) -> str:
+        return f"{self.settings.openai_base_url}/responses"
 
     @staticmethod
     def _schema() -> dict[str, Any]:
@@ -285,7 +288,7 @@ class OpenAIIntentParser:
             },
         }
         response = requests.post(
-            self.ENDPOINT,
+            self.endpoint,
             headers={
                 "Authorization": f"Bearer {self.settings.openai_api_key}",
                 "Content-Type": "application/json",

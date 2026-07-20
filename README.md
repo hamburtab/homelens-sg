@@ -122,6 +122,10 @@ I want a spacious 4-room flat under 650k, preferably in Tampines.
 | 实时在售房源 | 尚未爬取商业房产网站，也没有实时挂牌价格 |
 | OpenAI大模型解析 | 接口已预留，但API Key为空且默认关闭 |
 
+大模型意图解析支持 OpenAI Responses API 兼容的中转站。在 `.env` 中设置
+`OPENAI_API_KEY`、`OPENAI_BASE_URL`、`OPENAI_MODEL` 并将
+`HOMELENS_ENABLE_LLM` 设为 `true` 即可启用。
+
 关于位置功能，需要特别注意：
 
 - 当前规则主要识别26个标准 HDB town；

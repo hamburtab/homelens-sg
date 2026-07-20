@@ -69,6 +69,7 @@ class Settings:
     lta_account_key: str
     data_gov_sg_api_key: str
     openai_api_key: str
+    openai_base_url: str
     openai_model: str
     enable_llm: bool
 
@@ -89,6 +90,9 @@ class Settings:
             lta_account_key=os.getenv("LTA_ACCOUNT_KEY", "").strip(),
             data_gov_sg_api_key=os.getenv("DATA_GOV_SG_API_KEY", "").strip(),
             openai_api_key=os.getenv("OPENAI_API_KEY", "").strip(),
+            openai_base_url=os.getenv(
+                "OPENAI_BASE_URL", "https://api.openai.com/v1"
+            ).strip().rstrip("/"),
             openai_model=os.getenv("OPENAI_MODEL", "gpt-5.6-luna").strip(),
             enable_llm=_boolean_from_env("HOMELENS_ENABLE_LLM", False),
         )
@@ -97,7 +101,12 @@ class Settings:
         return {
             "onemap": bool(self.onemap_token or (self.onemap_email and self.onemap_password)),
             "lta_datamall": bool(self.lta_account_key),
-            "openai": bool(self.enable_llm and self.openai_api_key and self.openai_model),
+            "openai": bool(
+                self.enable_llm
+                and self.openai_api_key
+                and self.openai_base_url
+                and self.openai_model
+            ),
         }
 
 

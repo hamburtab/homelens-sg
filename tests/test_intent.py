@@ -53,6 +53,7 @@ class IntentTests(unittest.TestCase):
             Settings.from_environment(),
             enable_llm=True,
             openai_api_key="test-key",
+            openai_base_url="https://relay.example/v1",
             openai_model="test-model",
         )
         response = Mock()
@@ -75,6 +76,7 @@ class IntentTests(unittest.TestCase):
         result = OpenAIIntentParser(settings).parse("spacious 4-room under 650k")
         self.assertEqual(result.method, "openai")
         self.assertFalse(post.call_args.kwargs["json"]["store"])
+        self.assertEqual(post.call_args.args[0], "https://relay.example/v1/responses")
 
 
 if __name__ == "__main__":
