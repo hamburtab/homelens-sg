@@ -1,0 +1,337 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-18T16:51:26.544314,text_search,1,AIzaSy...IDGw,1,Pioneer,Benoi Sector,education,kindergarten,"kindergarten in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:27.280460,text_search,1,AIzaSy...IDGw,2,Pioneer,Benoi Sector,education,childcare centre,"childcare centre in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:28.359647,text_search,1,AIzaSy...IDGw,3,Pioneer,Benoi Sector,education,primary school,"primary school in Benoi Sector, Pioneer, Singapore",OK,,13,
+2026-07-18T16:51:29.048781,text_search,1,AIzaSy...IDGw,4,Pioneer,Benoi Sector,education,secondary school,"secondary school in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:30.020331,text_search,1,AIzaSy...IDGw,5,Pioneer,Benoi Sector,education,junior college,"junior college in Benoi Sector, Pioneer, Singapore",OK,,18,
+2026-07-18T16:51:30.898885,text_search,1,AIzaSy...IDGw,6,Pioneer,Benoi Sector,education,polytechnic,"polytechnic in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:31.552467,text_search,1,AIzaSy...IDGw,7,Pioneer,Benoi Sector,education,university,"university in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:32.311369,text_search,1,AIzaSy...IDGw,8,Pioneer,Benoi Sector,education,tuition centre,"tuition centre in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:32.915528,text_search,1,AIzaSy...IDGw,9,Pioneer,Benoi Sector,education,library,"library in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:33.734879,text_search,1,AIzaSy...IDGw,10,Pioneer,Benoi Sector,transport,MRT station,"MRT station in Benoi Sector, Pioneer, Singapore",OK,,6,
+2026-07-18T16:51:34.538359,text_search,1,AIzaSy...IDGw,11,Pioneer,Benoi Sector,transport,bus stop,"bus stop in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:35.176663,text_search,1,AIzaSy...IDGw,12,Pioneer,Benoi Sector,transport,bus interchange,"bus interchange in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:35.827938,text_search,1,AIzaSy...IDGw,13,Pioneer,Benoi Sector,transport,LRT station,"LRT station in Benoi Sector, Pioneer, Singapore",OK,,8,
+2026-07-18T16:51:36.647983,text_search,1,AIzaSy...IDGw,14,Pioneer,Benoi Sector,food,hawker centre,"hawker centre in Benoi Sector, Pioneer, Singapore",OK,,13,
+2026-07-18T16:51:37.633251,text_search,1,AIzaSy...IDGw,15,Pioneer,Benoi Sector,food,food court,"food court in Benoi Sector, Pioneer, Singapore",OK,,11,
+2026-07-18T16:51:38.650366,text_search,1,AIzaSy...IDGw,16,Pioneer,Benoi Sector,food,coffee shop,"coffee shop in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:39.556997,text_search,1,AIzaSy...IDGw,17,Pioneer,Benoi Sector,food,restaurant,"restaurant in Benoi Sector, Pioneer, Singapore",OK,,10,
+2026-07-18T16:51:40.428653,text_search,1,AIzaSy...IDGw,18,Pioneer,Benoi Sector,food,cafe,"cafe in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:41.351479,text_search,1,AIzaSy...IDGw,19,Pioneer,Benoi Sector,shopping,shopping mall,"shopping mall in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:42.152926,text_search,1,AIzaSy...IDGw,20,Pioneer,Benoi Sector,shopping,supermarket,"supermarket in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:43.130830,text_search,1,AIzaSy...IDGw,21,Pioneer,Benoi Sector,shopping,grocery store,"grocery store in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:44.172136,text_search,1,AIzaSy...IDGw,22,Pioneer,Benoi Sector,shopping,convenience store,"convenience store in Benoi Sector, Pioneer, Singapore",OK,,14,
+2026-07-18T16:51:45.115330,text_search,1,AIzaSy...IDGw,23,Pioneer,Benoi Sector,shopping,wet market,"wet market in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:45.938824,text_search,1,AIzaSy...IDGw,24,Pioneer,Benoi Sector,recreation,gym,"gym in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:46.987562,text_search,1,AIzaSy...IDGw,25,Pioneer,Benoi Sector,recreation,sports centre,"sports centre in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:47.782069,text_search,1,AIzaSy...IDGw,26,Pioneer,Benoi Sector,recreation,swimming complex,"swimming complex in Benoi Sector, Pioneer, Singapore",OK,,17,
+2026-07-18T16:51:48.616927,text_search,1,AIzaSy...IDGw,27,Pioneer,Benoi Sector,recreation,cinema,"cinema in Benoi Sector, Pioneer, Singapore",OK,,14,
+2026-07-18T16:51:49.396314,text_search,1,AIzaSy...IDGw,28,Pioneer,Benoi Sector,recreation,community club,"community club in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:50.087815,text_search,1,AIzaSy...IDGw,29,Pioneer,Benoi Sector,recreation,playground,"playground in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:51.025848,text_search,1,AIzaSy...IDGw,30,Pioneer,Benoi Sector,nature,park,"park in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:51.647795,text_search,1,AIzaSy...IDGw,31,Pioneer,Benoi Sector,nature,nature reserve,"nature reserve in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:52.460092,text_search,1,AIzaSy...IDGw,32,Pioneer,Benoi Sector,nature,garden,"garden in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:53.045665,text_search,1,AIzaSy...IDGw,33,Pioneer,Benoi Sector,nature,beach,"beach in Benoi Sector, Pioneer, Singapore",OK,,12,
+2026-07-18T16:51:53.797981,text_search,1,AIzaSy...IDGw,34,Pioneer,Benoi Sector,nature,waterfront,"waterfront in Benoi Sector, Pioneer, Singapore",OK,,5,
+2026-07-18T16:51:55.051708,text_search,1,AIzaSy...IDGw,35,Pioneer,Benoi Sector,nature,park connector,"park connector in Benoi Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:56.023865,text_search,1,AIzaSy...IDGw,36,Pioneer,Gul Basin,education,kindergarten,"kindergarten in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:56.797011,text_search,1,AIzaSy...IDGw,37,Pioneer,Gul Basin,education,childcare centre,"childcare centre in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:57.620081,text_search,1,AIzaSy...IDGw,38,Pioneer,Gul Basin,education,primary school,"primary school in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:58.607310,text_search,1,AIzaSy...IDGw,39,Pioneer,Gul Basin,education,secondary school,"secondary school in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:51:59.579163,text_search,1,AIzaSy...IDGw,40,Pioneer,Gul Basin,education,junior college,"junior college in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:00.613022,text_search,1,AIzaSy...IDGw,41,Pioneer,Gul Basin,education,polytechnic,"polytechnic in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:01.587142,text_search,1,AIzaSy...IDGw,42,Pioneer,Gul Basin,education,university,"university in Gul Basin, Pioneer, Singapore",OK,,11,
+2026-07-18T16:52:02.443325,text_search,1,AIzaSy...IDGw,43,Pioneer,Gul Basin,education,tuition centre,"tuition centre in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:03.482240,text_search,1,AIzaSy...IDGw,44,Pioneer,Gul Basin,education,library,"library in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:04.437621,text_search,1,AIzaSy...IDGw,45,Pioneer,Gul Basin,transport,MRT station,"MRT station in Gul Basin, Pioneer, Singapore",OK,,12,
+2026-07-18T16:52:05.477311,text_search,1,AIzaSy...IDGw,46,Pioneer,Gul Basin,transport,bus stop,"bus stop in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:06.127676,text_search,1,AIzaSy...IDGw,47,Pioneer,Gul Basin,transport,bus interchange,"bus interchange in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:06.960429,text_search,1,AIzaSy...IDGw,48,Pioneer,Gul Basin,transport,LRT station,"LRT station in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:07.502590,text_search,1,AIzaSy...IDGw,49,Pioneer,Gul Basin,food,hawker centre,"hawker centre in Gul Basin, Pioneer, Singapore",OK,,1,
+2026-07-18T16:52:08.626312,text_search,1,AIzaSy...IDGw,50,Pioneer,Gul Basin,food,food court,"food court in Gul Basin, Pioneer, Singapore",OK,,10,
+2026-07-18T16:52:09.416541,text_search,1,AIzaSy...IDGw,51,Pioneer,Gul Basin,food,coffee shop,"coffee shop in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:10.459228,text_search,1,AIzaSy...IDGw,52,Pioneer,Gul Basin,food,restaurant,"restaurant in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:11.319580,text_search,1,AIzaSy...IDGw,53,Pioneer,Gul Basin,food,cafe,"cafe in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:12.453032,text_search,1,AIzaSy...IDGw,54,Pioneer,Gul Basin,shopping,shopping mall,"shopping mall in Gul Basin, Pioneer, Singapore",OK,,11,
+2026-07-18T16:52:13.497916,text_search,1,AIzaSy...IDGw,55,Pioneer,Gul Basin,shopping,supermarket,"supermarket in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:14.478587,text_search,1,AIzaSy...IDGw,56,Pioneer,Gul Basin,shopping,grocery store,"grocery store in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:15.657955,text_search,1,AIzaSy...IDGw,57,Pioneer,Gul Basin,shopping,convenience store,"convenience store in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:16.709714,text_search,1,AIzaSy...IDGw,58,Pioneer,Gul Basin,shopping,wet market,"wet market in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:17.866050,text_search,1,AIzaSy...IDGw,59,Pioneer,Gul Basin,recreation,gym,"gym in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:18.757613,text_search,1,AIzaSy...IDGw,60,Pioneer,Gul Basin,recreation,sports centre,"sports centre in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:19.669870,text_search,1,AIzaSy...IDGw,61,Pioneer,Gul Basin,recreation,swimming complex,"swimming complex in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:20.484767,text_search,1,AIzaSy...IDGw,62,Pioneer,Gul Basin,recreation,cinema,"cinema in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:21.558432,text_search,1,AIzaSy...IDGw,63,Pioneer,Gul Basin,recreation,community club,"community club in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:22.718192,text_search,1,AIzaSy...IDGw,64,Pioneer,Gul Basin,recreation,playground,"playground in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:23.607725,text_search,1,AIzaSy...IDGw,65,Pioneer,Gul Basin,nature,park,"park in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:24.591848,text_search,1,AIzaSy...IDGw,66,Pioneer,Gul Basin,nature,nature reserve,"nature reserve in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:25.757047,text_search,1,AIzaSy...IDGw,67,Pioneer,Gul Basin,nature,garden,"garden in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:26.828461,text_search,1,AIzaSy...IDGw,68,Pioneer,Gul Basin,nature,beach,"beach in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:27.429318,text_search,1,AIzaSy...IDGw,69,Pioneer,Gul Basin,nature,waterfront,"waterfront in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:28.340530,text_search,1,AIzaSy...IDGw,70,Pioneer,Gul Basin,nature,park connector,"park connector in Gul Basin, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:28.983164,text_search,1,AIzaSy...IDGw,71,Pioneer,Gul Circle,education,kindergarten,"kindergarten in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:29.929195,text_search,1,AIzaSy...IDGw,72,Pioneer,Gul Circle,education,childcare centre,"childcare centre in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:30.839818,text_search,1,AIzaSy...IDGw,73,Pioneer,Gul Circle,education,primary school,"primary school in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:31.435858,text_search,1,AIzaSy...IDGw,74,Pioneer,Gul Circle,education,secondary school,"secondary school in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:32.209921,text_search,1,AIzaSy...IDGw,75,Pioneer,Gul Circle,education,junior college,"junior college in Gul Circle, Pioneer, Singapore",OK,,12,
+2026-07-18T16:52:33.086172,text_search,1,AIzaSy...IDGw,76,Pioneer,Gul Circle,education,polytechnic,"polytechnic in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:33.716877,text_search,1,AIzaSy...IDGw,77,Pioneer,Gul Circle,education,university,"university in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:34.287572,text_search,1,AIzaSy...IDGw,78,Pioneer,Gul Circle,education,tuition centre,"tuition centre in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:35.199556,text_search,1,AIzaSy...IDGw,79,Pioneer,Gul Circle,education,library,"library in Gul Circle, Pioneer, Singapore",OK,,16,
+2026-07-18T16:52:36.305744,text_search,1,AIzaSy...IDGw,80,Pioneer,Gul Circle,transport,MRT station,"MRT station in Gul Circle, Pioneer, Singapore",OK,,1,
+2026-07-18T16:52:37.150821,text_search,1,AIzaSy...IDGw,81,Pioneer,Gul Circle,transport,bus stop,"bus stop in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:37.873844,text_search,1,AIzaSy...IDGw,82,Pioneer,Gul Circle,transport,bus interchange,"bus interchange in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:38.862930,text_search,1,AIzaSy...IDGw,83,Pioneer,Gul Circle,transport,LRT station,"LRT station in Gul Circle, Pioneer, Singapore",OK,,1,
+2026-07-18T16:52:39.807636,text_search,1,AIzaSy...IDGw,84,Pioneer,Gul Circle,food,hawker centre,"hawker centre in Gul Circle, Pioneer, Singapore",OK,,1,
+2026-07-18T16:52:40.786393,text_search,1,AIzaSy...IDGw,85,Pioneer,Gul Circle,food,food court,"food court in Gul Circle, Pioneer, Singapore",OK,,2,
+2026-07-18T16:52:41.422607,text_search,1,AIzaSy...IDGw,86,Pioneer,Gul Circle,food,coffee shop,"coffee shop in Gul Circle, Pioneer, Singapore",OK,,2,
+2026-07-18T16:52:42.153934,text_search,1,AIzaSy...IDGw,87,Pioneer,Gul Circle,food,restaurant,"restaurant in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:43.145341,text_search,1,AIzaSy...IDGw,88,Pioneer,Gul Circle,food,cafe,"cafe in Gul Circle, Pioneer, Singapore",OK,,4,
+2026-07-18T16:52:44.102899,text_search,1,AIzaSy...IDGw,89,Pioneer,Gul Circle,shopping,shopping mall,"shopping mall in Gul Circle, Pioneer, Singapore",OK,,15,
+2026-07-18T16:52:44.731742,text_search,1,AIzaSy...IDGw,90,Pioneer,Gul Circle,shopping,supermarket,"supermarket in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:45.549988,text_search,1,AIzaSy...IDGw,91,Pioneer,Gul Circle,shopping,grocery store,"grocery store in Gul Circle, Pioneer, Singapore",OK,,14,
+2026-07-18T16:52:46.333816,text_search,1,AIzaSy...IDGw,92,Pioneer,Gul Circle,shopping,convenience store,"convenience store in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:47.275140,text_search,1,AIzaSy...IDGw,93,Pioneer,Gul Circle,shopping,wet market,"wet market in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:48.107163,text_search,1,AIzaSy...IDGw,94,Pioneer,Gul Circle,recreation,gym,"gym in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:49.068783,text_search,1,AIzaSy...IDGw,95,Pioneer,Gul Circle,recreation,sports centre,"sports centre in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:49.843346,text_search,1,AIzaSy...IDGw,96,Pioneer,Gul Circle,recreation,swimming complex,"swimming complex in Gul Circle, Pioneer, Singapore",OK,,17,
+2026-07-18T16:52:50.748885,text_search,1,AIzaSy...IDGw,97,Pioneer,Gul Circle,recreation,cinema,"cinema in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:51.336218,text_search,1,AIzaSy...IDGw,98,Pioneer,Gul Circle,recreation,community club,"community club in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:52.312827,text_search,1,AIzaSy...IDGw,99,Pioneer,Gul Circle,recreation,playground,"playground in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:53.286194,text_search,1,AIzaSy...IDGw,100,Pioneer,Gul Circle,nature,park,"park in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:54.224957,text_search,1,AIzaSy...IDGw,101,Pioneer,Gul Circle,nature,nature reserve,"nature reserve in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:55.124131,text_search,1,AIzaSy...IDGw,102,Pioneer,Gul Circle,nature,garden,"garden in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:56.146141,text_search,1,AIzaSy...IDGw,103,Pioneer,Gul Circle,nature,beach,"beach in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:56.899282,text_search,1,AIzaSy...IDGw,104,Pioneer,Gul Circle,nature,waterfront,"waterfront in Gul Circle, Pioneer, Singapore",OK,,15,
+2026-07-18T16:52:57.605684,text_search,1,AIzaSy...IDGw,105,Pioneer,Gul Circle,nature,park connector,"park connector in Gul Circle, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:58.489761,text_search,1,AIzaSy...IDGw,106,Pioneer,Joo Koon,education,kindergarten,"kindergarten in Joo Koon, Pioneer, Singapore",OK,,20,
+2026-07-18T16:52:59.402915,text_search,1,AIzaSy...IDGw,107,Pioneer,Joo Koon,education,childcare centre,"childcare centre in Joo Koon, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:00.472917,text_search,1,AIzaSy...IDGw,108,Pioneer,Joo Koon,education,primary school,"primary school in Joo Koon, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:01.214724,text_search,1,AIzaSy...IDGw,109,Pioneer,Joo Koon,education,secondary school,"secondary school in Joo Koon, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:01.922262,text_search,1,AIzaSy...IDGw,110,Pioneer,Joo Koon,education,junior college,"junior college in Joo Koon, Pioneer, Singapore",OK,,8,
+2026-07-18T16:53:02.960073,text_search,1,AIzaSy...IDGw,111,Pioneer,Joo Koon,education,polytechnic,"polytechnic in Joo Koon, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:04.122880,text_search,1,AIzaSy...IDGw,112,Pioneer,Joo Koon,education,university,"university in Joo Koon, Pioneer, Singapore",OK,,16,
+2026-07-18T16:53:04.961152,text_search,1,AIzaSy...IDGw,113,Pioneer,Joo Koon,education,tuition centre,"tuition centre in Joo Koon, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:05.663577,text_search,1,AIzaSy...IDGw,114,Pioneer,Joo Koon,education,library,"library in Joo Koon, Pioneer, Singapore",OK,,17,
+2026-07-18T16:53:06.645631,text_search,1,AIzaSy...IDGw,115,Pioneer,Joo Koon,transport,MRT station,"MRT station in Joo Koon, Pioneer, Singapore",OK,,1,
+2026-07-18T16:53:07.295673,text_search,1,AIzaSy...IDGw,116,Pioneer,Joo Koon,transport,bus stop,"bus stop in Joo Koon, Pioneer, Singapore",OK,,11,
+2026-07-18T16:53:08.030049,text_search,1,AIzaSy...IDGw,117,Pioneer,Joo Koon,transport,bus interchange,"bus interchange in Joo Koon, Pioneer, Singapore",OK,,7,
+2026-07-18T16:53:08.552925,text_search,1,AIzaSy...IDGw,118,Pioneer,Joo Koon,transport,LRT station,"LRT station in Joo Koon, Pioneer, Singapore",OK,,1,
+2026-07-18T16:53:09.526033,text_search,1,AIzaSy...IDGw,119,Pioneer,Joo Koon,food,hawker centre,"hawker centre in Joo Koon, Pioneer, Singapore",OK,,2,
+2026-07-18T16:53:10.345481,text_search,1,AIzaSy...IDGw,120,Pioneer,Joo Koon,food,food court,"food court in Joo Koon, Pioneer, Singapore",OK,,8,
+2026-07-18T16:53:11.313566,text_search,1,AIzaSy...IDGw,121,Pioneer,Joo Koon,food,coffee shop,"coffee shop in Joo Koon, Pioneer, Singapore",OK,,17,
+2026-07-18T16:53:12.085766,text_search,1,AIzaSy...IDGw,122,Pioneer,Joo Koon,food,restaurant,"restaurant in Joo Koon, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:12.811337,text_search,1,AIzaSy...IDGw,123,Pioneer,Joo Koon,food,cafe,"cafe in Joo Koon, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:13.452192,text_search,1,AIzaSy...IDGw,124,Pioneer,Joo Koon,shopping,shopping mall,"shopping mall in Joo Koon, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:14.226179,text_search,1,AIzaSy...IDGw,125,Pioneer,Joo Koon,shopping,supermarket,"supermarket in Joo Koon, Pioneer, Singapore",OK,,1,
+2026-07-18T16:53:15.200441,text_search,1,AIzaSy...IDGw,126,Pioneer,Joo Koon,shopping,grocery store,"grocery store in Joo Koon, Pioneer, Singapore",OK,,1,
+2026-07-18T16:53:16.070948,text_search,1,AIzaSy...IDGw,127,Pioneer,Joo Koon,shopping,convenience store,"convenience store in Joo Koon, Pioneer, Singapore",OK,,7,
+2026-07-18T16:53:16.908059,text_search,1,AIzaSy...IDGw,128,Pioneer,Joo Koon,shopping,wet market,"wet market in Joo Koon, Pioneer, Singapore",OK,,16,
+2026-07-18T16:53:17.910728,text_search,1,AIzaSy...IDGw,129,Pioneer,Joo Koon,recreation,gym,"gym in Joo Koon, Pioneer, Singapore",OK,,4,
+2026-07-18T16:53:18.874677,text_search,1,AIzaSy...IDGw,130,Pioneer,Joo Koon,recreation,sports centre,"sports centre in Joo Koon, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:19.500594,text_search,1,AIzaSy...IDGw,131,Pioneer,Joo Koon,recreation,swimming complex,"swimming complex in Joo Koon, Pioneer, Singapore",OK,,7,
+2026-07-18T16:53:20.196357,text_search,1,AIzaSy...IDGw,132,Pioneer,Joo Koon,recreation,cinema,"cinema in Joo Koon, Pioneer, Singapore",OK,,15,
+2026-07-18T16:53:21.232309,text_search,1,AIzaSy...IDGw,133,Pioneer,Joo Koon,recreation,community club,"community club in Joo Koon, Pioneer, Singapore",OK,,12,
+2026-07-18T16:53:21.828871,text_search,1,AIzaSy...IDGw,134,Pioneer,Joo Koon,recreation,playground,"playground in Joo Koon, Pioneer, Singapore",OK,,1,
+2026-07-18T16:53:22.776095,text_search,1,AIzaSy...IDGw,135,Pioneer,Joo Koon,nature,park,"park in Joo Koon, Pioneer, Singapore",OK,,1,
+2026-07-18T16:53:23.484699,text_search,1,AIzaSy...IDGw,136,Pioneer,Joo Koon,nature,nature reserve,"nature reserve in Joo Koon, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:24.685757,text_search,1,AIzaSy...IDGw,137,Pioneer,Joo Koon,nature,garden,"garden in Joo Koon, Pioneer, Singapore",OK,,11,
+2026-07-18T16:53:25.469868,text_search,1,AIzaSy...IDGw,138,Pioneer,Joo Koon,nature,beach,"beach in Joo Koon, Pioneer, Singapore",OK,,3,
+2026-07-18T16:53:26.534211,text_search,1,AIzaSy...IDGw,139,Pioneer,Joo Koon,nature,waterfront,"waterfront in Joo Koon, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:27.328114,text_search,1,AIzaSy...IDGw,140,Pioneer,Joo Koon,nature,park connector,"park connector in Joo Koon, Pioneer, Singapore",OK,,9,
+2026-07-18T16:53:28.141330,text_search,1,AIzaSy...IDGw,141,Pioneer,Pioneer Sector,education,kindergarten,"kindergarten in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:28.833114,text_search,1,AIzaSy...IDGw,142,Pioneer,Pioneer Sector,education,childcare centre,"childcare centre in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:29.576202,text_search,1,AIzaSy...IDGw,143,Pioneer,Pioneer Sector,education,primary school,"primary school in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:30.758411,text_search,1,AIzaSy...IDGw,144,Pioneer,Pioneer Sector,education,secondary school,"secondary school in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:31.683252,text_search,1,AIzaSy...IDGw,145,Pioneer,Pioneer Sector,education,junior college,"junior college in Pioneer Sector, Pioneer, Singapore",OK,,9,
+2026-07-18T16:53:32.636133,text_search,1,AIzaSy...IDGw,146,Pioneer,Pioneer Sector,education,polytechnic,"polytechnic in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:33.664278,text_search,1,AIzaSy...IDGw,147,Pioneer,Pioneer Sector,education,university,"university in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:34.642483,text_search,1,AIzaSy...IDGw,148,Pioneer,Pioneer Sector,education,tuition centre,"tuition centre in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:35.553027,text_search,1,AIzaSy...IDGw,149,Pioneer,Pioneer Sector,education,library,"library in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:36.118204,text_search,1,AIzaSy...IDGw,150,Pioneer,Pioneer Sector,transport,MRT station,"MRT station in Pioneer Sector, Pioneer, Singapore",OK,,2,
+2026-07-18T16:53:36.939678,text_search,1,AIzaSy...IDGw,151,Pioneer,Pioneer Sector,transport,bus stop,"bus stop in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:37.624713,text_search,1,AIzaSy...IDGw,152,Pioneer,Pioneer Sector,transport,bus interchange,"bus interchange in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:38.235385,text_search,1,AIzaSy...IDGw,153,Pioneer,Pioneer Sector,transport,LRT station,"LRT station in Pioneer Sector, Pioneer, Singapore",OK,,2,
+2026-07-18T16:53:39.310722,text_search,1,AIzaSy...IDGw,154,Pioneer,Pioneer Sector,food,hawker centre,"hawker centre in Pioneer Sector, Pioneer, Singapore",OK,,11,
+2026-07-18T16:53:39.992182,text_search,1,AIzaSy...IDGw,155,Pioneer,Pioneer Sector,food,food court,"food court in Pioneer Sector, Pioneer, Singapore",OK,,11,
+2026-07-18T16:53:41.013814,text_search,1,AIzaSy...IDGw,156,Pioneer,Pioneer Sector,food,coffee shop,"coffee shop in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:41.762411,text_search,1,AIzaSy...IDGw,157,Pioneer,Pioneer Sector,food,restaurant,"restaurant in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:42.721155,text_search,1,AIzaSy...IDGw,158,Pioneer,Pioneer Sector,food,cafe,"cafe in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:43.665454,text_search,1,AIzaSy...IDGw,159,Pioneer,Pioneer Sector,shopping,shopping mall,"shopping mall in Pioneer Sector, Pioneer, Singapore",OK,,6,
+2026-07-18T16:53:44.259342,text_search,1,AIzaSy...IDGw,160,Pioneer,Pioneer Sector,shopping,supermarket,"supermarket in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:44.953308,text_search,1,AIzaSy...IDGw,161,Pioneer,Pioneer Sector,shopping,grocery store,"grocery store in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:45.671038,text_search,1,AIzaSy...IDGw,162,Pioneer,Pioneer Sector,shopping,convenience store,"convenience store in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:46.552369,text_search,1,AIzaSy...IDGw,163,Pioneer,Pioneer Sector,shopping,wet market,"wet market in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:47.603820,text_search,1,AIzaSy...IDGw,164,Pioneer,Pioneer Sector,recreation,gym,"gym in Pioneer Sector, Pioneer, Singapore",OK,,11,
+2026-07-18T16:53:48.318981,text_search,1,AIzaSy...IDGw,165,Pioneer,Pioneer Sector,recreation,sports centre,"sports centre in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:49.183352,text_search,1,AIzaSy...IDGw,166,Pioneer,Pioneer Sector,recreation,swimming complex,"swimming complex in Pioneer Sector, Pioneer, Singapore",OK,,17,
+2026-07-18T16:53:50.143749,text_search,1,AIzaSy...IDGw,167,Pioneer,Pioneer Sector,recreation,cinema,"cinema in Pioneer Sector, Pioneer, Singapore",OK,,10,
+2026-07-18T16:53:50.889530,text_search,1,AIzaSy...IDGw,168,Pioneer,Pioneer Sector,recreation,community club,"community club in Pioneer Sector, Pioneer, Singapore",OK,,15,
+2026-07-18T16:53:51.482494,text_search,1,AIzaSy...IDGw,169,Pioneer,Pioneer Sector,recreation,playground,"playground in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:52.259817,text_search,1,AIzaSy...IDGw,170,Pioneer,Pioneer Sector,nature,park,"park in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:53.247840,text_search,1,AIzaSy...IDGw,171,Pioneer,Pioneer Sector,nature,nature reserve,"nature reserve in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:54.283932,text_search,1,AIzaSy...IDGw,172,Pioneer,Pioneer Sector,nature,garden,"garden in Pioneer Sector, Pioneer, Singapore",OK,,17,
+2026-07-18T16:53:54.976739,text_search,1,AIzaSy...IDGw,173,Pioneer,Pioneer Sector,nature,beach,"beach in Pioneer Sector, Pioneer, Singapore",OK,,19,
+2026-07-18T16:53:55.975575,text_search,1,AIzaSy...IDGw,174,Pioneer,Pioneer Sector,nature,waterfront,"waterfront in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:56.621768,text_search,1,AIzaSy...IDGw,175,Pioneer,Pioneer Sector,nature,park connector,"park connector in Pioneer Sector, Pioneer, Singapore",OK,,20,
+2026-07-18T16:53:57.032995,place_details_reviews,1,AIzaSy...IDGw,176,Pioneer,Benoi Sector,education,kindergarten,ChIJjzdbRrfbpaoRyr0wiI8kNKs,OK,,5,Small Wonder Pioneer
+2026-07-18T16:53:57.787433,place_details_reviews,1,AIzaSy...IDGw,177,Pioneer,Benoi Sector,education,kindergarten,ChIJvYCei1UF2jERymQTneDrrAo,OK,,5,Star Learners @ Yung Ho | Preschool & Childcare
+2026-07-18T16:53:58.188337,place_details_reviews,1,AIzaSy...IDGw,178,Pioneer,Benoi Sector,education,childcare centre,ChIJG5i7aoAF2jERMhx2MU177pU,OK,,5,NTUC LearningHub @ Benoi
+2026-07-18T16:53:58.728224,place_details_reviews,1,AIzaSy...IDGw,179,Pioneer,Benoi Sector,education,primary school,ChIJNfn2jZwP2jERnKZlZ5yCUWc,OK,,0,Pioneer Primary School
+2026-07-18T16:53:59.268604,place_details_reviews,1,AIzaSy...IDGw,180,Pioneer,Benoi Sector,education,primary school,ChIJN2U85fIa2jERU3xusMZifDo,OK,,5,International Community School (Singapore)
+2026-07-18T16:53:59.780324,place_details_reviews,1,AIzaSy...IDGw,181,Pioneer,Benoi Sector,education,secondary school,ChIJc2MrR5QP2jERndRHjWsok84,OK,,0,Boon Lay Secondary School
+2026-07-18T16:54:00.290728,place_details_reviews,1,AIzaSy...IDGw,182,Pioneer,Benoi Sector,education,secondary school,ChIJsyTJCRcQ2jERfwQiMdnbBFE,OK,,0,Crest Secondary School
+2026-07-18T16:54:00.858482,place_details_reviews,1,AIzaSy...IDGw,183,Pioneer,Benoi Sector,education,junior college,ChIJz_-CGpUR2jERsxAVVh_vnoY,OK,,5,Jurong Pioneer Junior College
+2026-07-18T16:54:01.239784,place_details_reviews,1,AIzaSy...IDGw,184,Pioneer,Benoi Sector,education,junior college,ChIJ7aAp7AkX2jERMXPZER1KuCU,OK,,5,Nanyang Junior College
+2026-07-18T16:54:01.901879,place_details_reviews,1,AIzaSy...IDGw,185,Pioneer,Benoi Sector,education,polytechnic,ChIJFXzxL2Aa2jERnoWTOdJdVKk,OK,,5,Singapore Polytechnic
+2026-07-18T16:54:02.624130,place_details_reviews,1,AIzaSy...IDGw,186,Pioneer,Benoi Sector,education,polytechnic,ChIJWeO0jn0Q2jERQwzr3v_n0nU,OK,,5,Ngee Ann Polytechnic
+2026-07-18T16:54:03.127307,place_details_reviews,1,AIzaSy...IDGw,187,Pioneer,Benoi Sector,education,university,ChIJY0QBmQoP2jERGYItxQAIu7g,OK,,5,Nanyang Technological University
+2026-07-18T16:54:04.396929,place_details_reviews,1,AIzaSy...IDGw,188,Pioneer,Benoi Sector,education,university,ChIJeV15hGIX2jERD4aFEmOeoYM,OK,,0,Curtin Singapore
+2026-07-18T16:54:04.754737,place_details_reviews,1,AIzaSy...IDGw,189,Pioneer,Benoi Sector,education,tuition centre,ChIJxVpRXY0b2jERLaTEQpzXKf0,OK,,5,Pillora Learning
+2026-07-18T16:54:05.231632,place_details_reviews,1,AIzaSy...IDGw,190,Pioneer,Benoi Sector,education,library,ChIJmYVTSugb2jERP-l57ZRd5sI,OK,,3,Comics Library at West Coast Community Centre
+2026-07-18T16:54:06.076458,place_details_reviews,1,AIzaSy...IDGw,191,Pioneer,Benoi Sector,education,library,ChIJF3XNQ5MP2jERXeUO2D_OtYY,OK,,5,Jurong West Library
+2026-07-18T16:54:06.710766,place_details_reviews,1,AIzaSy...IDGw,192,Pioneer,Benoi Sector,transport,MRT station,ChIJXyBuLMsP2jERcHONsd6ojww,OK,,5,Pioneer MRT Station (EW28)
+2026-07-18T16:54:07.403365,place_details_reviews,1,AIzaSy...IDGw,193,Pioneer,Benoi Sector,transport,MRT station,ChIJzRnjMpAP2jERg3vUJQgsTI0,OK,,5,Pioneer
+2026-07-18T16:54:07.870793,place_details_reviews,1,AIzaSy...IDGw,194,Pioneer,Benoi Sector,transport,bus stop,ChIJDy8opHEF2jER823-l8UGc88,OK,,1,Bef Benoi Sector
+2026-07-18T16:54:08.459052,place_details_reviews,1,AIzaSy...IDGw,195,Pioneer,Benoi Sector,transport,bus stop,ChIJ3YCk1ngF2jERp1KYljphZWA,OK,,2,Aft Benoi Sector
+2026-07-18T16:54:08.882910,place_details_reviews,1,AIzaSy...IDGw,196,Pioneer,Benoi Sector,transport,bus interchange,ChIJ840mh30P2jER0YmCq4KVb50,OK,,5,Joo Koon Bus Interchange
+2026-07-18T16:54:09.420473,place_details_reviews,1,AIzaSy...IDGw,197,Pioneer,Benoi Sector,transport,bus interchange,ChIJw0m664AF2jERTLDgYit3cwY,OK,,5,Joo Koon Bus Interchange
+2026-07-18T16:54:10.032867,place_details_reviews,1,AIzaSy...IDGw,198,Pioneer,Benoi Sector,food,hawker centre,ChIJe7pl9XkF2jERVvFioXlFWfw,OK,,5,Mapletree Aircon Food Court
+2026-07-18T16:54:10.762546,place_details_reviews,1,AIzaSy...IDGw,199,Pioneer,Benoi Sector,food,hawker centre,ChIJZYudK5EP2jERoyXvsmYRcEY,OK,,5,Jurong West Hawker Centre
+2026-07-18T16:54:11.778060,place_details_reviews,1,AIzaSy...IDGw,200,Pioneer,Benoi Sector,food,food court,ChIJLdnZOcIF2jER13UEDKpG1bk,OK,,5,Huat Li Food Court
+2026-07-18T16:54:12.529930,place_details_reviews,1,AIzaSy...IDGw,201,Pioneer,Benoi Sector,food,coffee shop,ChIJIzgaS3wF2jER8WiW0-sk2Oo,OK,,5,De Tian Coffee House Lokyang Canteen
+2026-07-18T16:54:13.233866,place_details_reviews,1,AIzaSy...IDGw,202,Pioneer,Benoi Sector,food,restaurant,ChIJG5i7aoAF2jERz2Y0u1T7g6E,OK,,2,Guan Heng Restaurant
+2026-07-18T16:54:13.911334,place_details_reviews,1,AIzaSy...IDGw,203,Pioneer,Benoi Sector,shopping,shopping mall,ChIJ67mVKpcP2jERmahUvC-ZIwc,OK,,5,Pioneer Mall
+2026-07-18T16:54:14.581877,place_details_reviews,1,AIzaSy...IDGw,204,Pioneer,Benoi Sector,shopping,shopping mall,ChIJ82AoVA8Q2jERkHnr1RPW9B4,OK,,5,Westgate
+2026-07-18T16:54:15.177655,place_details_reviews,1,AIzaSy...IDGw,205,Pioneer,Benoi Sector,shopping,supermarket,ChIJyV81n4AF2jERnrHVt04CmMU,OK,,5,FairPrice Joo Koon
+2026-07-18T16:54:15.569587,place_details_reviews,1,AIzaSy...IDGw,206,Pioneer,Benoi Sector,shopping,supermarket,ChIJO6aM0JYP2jERow6S9JoAkdY,OK,,5,Giant Hypermarket
+2026-07-18T16:54:16.099995,place_details_reviews,1,AIzaSy...IDGw,207,Pioneer,Benoi Sector,shopping,grocery store,ChIJkdHr4vEa2jERWFR5UjO2-jU,OK,,5,MahaMart
+2026-07-18T16:54:16.511460,place_details_reviews,1,AIzaSy...IDGw,208,Pioneer,Benoi Sector,shopping,convenience store,ChIJJwwqaJQF2jER3cCI0iSA54c,OK,,0,Not the Same
+2026-07-18T16:54:17.199049,place_details_reviews,1,AIzaSy...IDGw,209,Pioneer,Benoi Sector,shopping,convenience store,ChIJQ67ZTv4P2jERtSazyeSB1Fw,OK,,3,Haveen Minimart Pte Ltd
+2026-07-18T16:54:17.670877,place_details_reviews,1,AIzaSy...IDGw,210,Pioneer,Benoi Sector,shopping,wet market,ChIJA-S30F8b2jER46-WSc7Ak2g,OK,,5,Teban Gardens Wet Market
+2026-07-18T16:54:18.314140,place_details_reviews,1,AIzaSy...IDGw,211,Pioneer,Benoi Sector,shopping,wet market,ChIJfY_zJ6MF2jERefg_hPaVgp8,OK,,5,Jurong Fishery Port
+2026-07-18T16:54:19.067086,place_details_reviews,1,AIzaSy...IDGw,212,Pioneer,Benoi Sector,recreation,gym,ChIJ5VSH70MP2jERvFL2-9MAz2Q,OK,,5,BFT Pioneer
+2026-07-18T16:54:19.852213,place_details_reviews,1,AIzaSy...IDGw,213,Pioneer,Benoi Sector,recreation,gym,ChIJ08t6PjYP2jERi4sIp8Z1Sw0,OK,,5,Anytime Fitness
+2026-07-18T16:54:20.617018,place_details_reviews,1,AIzaSy...IDGw,214,Pioneer,Benoi Sector,recreation,sports centre,ChIJEwW7gpoP2jER4o0mrMTZddM,OK,,5,Jurong West Sport Centre
+2026-07-18T16:54:21.480010,place_details_reviews,1,AIzaSy...IDGw,215,Pioneer,Benoi Sector,recreation,sports centre,ChIJYeredpAP2jERduiD1Z5dTGI,OK,,5,Jurong West Sport Hall
+2026-07-18T16:54:22.030977,place_details_reviews,1,AIzaSy...IDGw,216,Pioneer,Benoi Sector,recreation,swimming complex,ChIJ4Qton5oP2jERihKBVLOV04k,OK,,5,Jurong West Swimming Complex
+2026-07-18T16:54:22.406675,place_details_reviews,1,AIzaSy...IDGw,217,Pioneer,Benoi Sector,recreation,swimming complex,ChIJWaHnCyAQ2jERlnBesVA4gic,OK,,5,Jurong East Swimming Complex
+2026-07-18T16:54:23.219426,place_details_reviews,1,AIzaSy...IDGw,218,Pioneer,Benoi Sector,recreation,cinema,ChIJFx7cQgAR2jERum7NN5FvIOk,OK,,5,Shaw Theatres JEM
+2026-07-18T16:54:23.707411,place_details_reviews,1,AIzaSy...IDGw,219,Pioneer,Benoi Sector,recreation,cinema,ChIJWcpxFQQQ2jERpLIO6PcPP4U,OK,,5,Omni-Theatre
+2026-07-18T16:54:24.253393,place_details_reviews,1,AIzaSy...IDGw,220,Pioneer,Benoi Sector,recreation,community club,ChIJ0S3wSmoa2jER2aq7I8gFiy0,OK,,5,Buona Vista Community Club
+2026-07-18T16:54:24.703920,place_details_reviews,1,AIzaSy...IDGw,221,Pioneer,Benoi Sector,recreation,community club,ChIJd4ldQJMP2jERlQdLPkzVa4A,OK,,5,The Frontier Community Club
+2026-07-18T16:54:25.577044,place_details_reviews,1,AIzaSy...IDGw,222,Pioneer,Benoi Sector,recreation,playground,ChIJx7P2KJ8P2jER2CjBImw8IAg,OK,,5,Forest Ramble
+2026-07-18T16:54:26.075687,place_details_reviews,1,AIzaSy...IDGw,223,Pioneer,Benoi Sector,recreation,playground,ChIJg3WzLY4P2jEReHtqornzyyA,OK,,5,Playground
+2026-07-18T16:54:26.727130,place_details_reviews,1,AIzaSy...IDGw,224,Pioneer,Benoi Sector,nature,park,ChIJJTvN5Ckb2jERdwPiAsqZxOo,OK,,2,West Coast Park Connector
+2026-07-18T16:54:27.562897,place_details_reviews,1,AIzaSy...IDGw,225,Pioneer,Benoi Sector,nature,park,ChIJQ8uk4vwa2jERqMrT6OFBMuw,OK,,5,West Coast Park
+2026-07-18T16:54:27.912637,place_details_reviews,1,AIzaSy...IDGw,226,Pioneer,Benoi Sector,nature,nature reserve,ChIJR9wDuIwQ2jERp5g9l0m9MQ0,OK,,5,Rifle Range Nature Park
+2026-07-18T16:54:28.318750,place_details_reviews,1,AIzaSy...IDGw,227,Pioneer,Benoi Sector,nature,nature reserve,ChIJe0cEPoIS2jERs_rS2qvGOxw,OK,,5,Sungei Buloh Wetland Reserve
+2026-07-18T16:54:29.094321,place_details_reviews,1,AIzaSy...IDGw,228,Pioneer,Benoi Sector,nature,garden,ChIJWQLwKP0P2jER-AOMrDbkIW8,OK,,5,Jurong Lake Gardens
+2026-07-18T16:54:29.898726,place_details_reviews,1,AIzaSy...IDGw,229,Pioneer,Benoi Sector,nature,garden,ChIJp167A6UP2jERUrVmCHG99mg,OK,,5,The Potter's Garden
+2026-07-18T16:54:30.302224,place_details_reviews,1,AIzaSy...IDGw,230,Pioneer,Benoi Sector,nature,beach,ChIJuU9qyPgb2jERidqJVhPuyUw,OK,,5,Ola Beach Club
+2026-07-18T16:54:31.130471,place_details_reviews,1,AIzaSy...IDGw,231,Pioneer,Benoi Sector,nature,waterfront,ChIJX8pq3q4Z2jER6EUahW8FHso,OK,,5,3 Benoi road Kuehne Nagel Waterfront Hub
+2026-07-18T16:54:31.849779,place_details_reviews,1,AIzaSy...IDGw,232,Pioneer,Benoi Sector,nature,waterfront,ChIJ96HBJZ8a2jERl1GsjJmk-70,OK,,5,Waterfront @ Faber
+2026-07-18T16:54:32.380365,place_details_reviews,1,AIzaSy...IDGw,233,Pioneer,Benoi Sector,nature,park connector,ChIJOXwacPMP2jERxTgW0ZaOFTQ,OK,,2,Park Connector
+2026-07-18T16:54:32.957432,place_details_reviews,1,AIzaSy...IDGw,234,Pioneer,Benoi Sector,nature,park connector,ChIJh96XTAAP2jERpzIEPWepVmE,OK,,2,Jurong Park Connector
+2026-07-18T16:54:33.764087,place_details_reviews,1,AIzaSy...IDGw,235,Pioneer,Gul Basin,education,kindergarten,ChIJq55LB_Qa2jERwkpjikTUzOo,OK,,5,Little Footprints Preschool @ West Coast
+2026-07-18T16:54:34.205641,place_details_reviews,1,AIzaSy...IDGw,236,Pioneer,Gul Basin,education,childcare centre,ChIJ6eV619wP2jERyt1BH1Y4upE,OK,,5,Graceland Student Care Centre
+2026-07-18T16:54:34.857417,place_details_reviews,1,AIzaSy...IDGw,237,Pioneer,Gul Basin,education,primary school,ChIJ0c1cxJ4P2jERiZ70xxE_V1I,OK,,0,Xingnan Primary School
+2026-07-18T16:54:35.567606,place_details_reviews,1,AIzaSy...IDGw,238,Pioneer,Gul Basin,education,secondary school,ChIJ46KllfQa2jERJJJ1ER0aiXo,OK,,0,NUS High Boarding School
+2026-07-18T16:54:36.197573,place_details_reviews,1,AIzaSy...IDGw,239,Pioneer,Gul Basin,education,secondary school,ChIJQVeL74oa2jER84tkJiqj9nk,OK,,0,New Town Secondary School
+2026-07-18T16:54:36.851047,place_details_reviews,1,AIzaSy...IDGw,240,Pioneer,Gul Basin,education,junior college,ChIJ61lTU6EQ2jERiBDECMxHYFY,OK,,5,National Junior College
+2026-07-18T16:54:37.280992,place_details_reviews,1,AIzaSy...IDGw,241,Pioneer,Gul Basin,education,university,ChIJ2QJCeFYa2jERa434wdYIjUg,OK,,5,National University of Singapore
+2026-07-18T16:54:37.684451,place_details_reviews,1,AIzaSy...IDGw,242,Pioneer,Gul Basin,education,university,ChIJvQQziYAQ2jERCOP-JKA4N9k,OK,,5,Singapore University of Social Sciences
+2026-07-18T16:54:38.466113,place_details_reviews,1,AIzaSy...IDGw,243,Pioneer,Gul Basin,education,tuition centre,ChIJF-_CRLgP2jERlezg2cimLmM,OK,,5,Tuition@Pioneer
+2026-07-18T16:54:39.236917,place_details_reviews,1,AIzaSy...IDGw,244,Pioneer,Gul Basin,education,library,ChIJ77M1mP4a2jERRfwA553Qz3E,OK,,5,NUS Central Library
+2026-07-18T16:54:39.800261,place_details_reviews,1,AIzaSy...IDGw,245,Pioneer,Gul Basin,education,library,ChIJKaGsJKUZ2jERxa8yhKrdPfI,OK,,5,National Library / Lee Kong Chian Reference Library
+2026-07-18T16:54:40.196662,place_details_reviews,1,AIzaSy...IDGw,246,Pioneer,Gul Basin,transport,MRT station,ChIJYUYvP40F2jERo8Mjh_7RhSs,OK,,5,Gul Circle
+2026-07-18T16:54:41.114927,place_details_reviews,1,AIzaSy...IDGw,247,Pioneer,Gul Basin,transport,bus stop,ChIJxXrlp6IF2jERVvbE2vci_1M,OK,,2,Opp Gul Way
+2026-07-18T16:54:41.681885,place_details_reviews,1,AIzaSy...IDGw,248,Pioneer,Gul Basin,transport,bus stop,ChIJlSz8uo8F2jER5u5jmdVQF7Q,OK,,1,Bef Gul St 1
+2026-07-18T16:54:42.391430,place_details_reviews,1,AIzaSy...IDGw,249,Pioneer,Gul Basin,transport,bus interchange,ChIJ6wMIk_AF2jERygYEp2Mtsfw,OK,,4,Tuas Cres Stn Exit B
+2026-07-18T16:54:42.837573,place_details_reviews,1,AIzaSy...IDGw,250,Pioneer,Gul Basin,food,hawker centre,ChIJN-9cbJMF2jERXCwXaWxgEWE,OK,,5,Broadway Food Centre
+2026-07-18T16:54:43.328237,place_details_reviews,1,AIzaSy...IDGw,251,Pioneer,Gul Basin,food,food court,ChIJHd9mv5EF2jERYde-2gQ6f1I,OK,,5,Chong Hock Eating House
+2026-07-18T16:54:43.903056,place_details_reviews,1,AIzaSy...IDGw,252,Pioneer,Gul Basin,food,coffee shop,ChIJMcPrCLsb2jERepk1_M2ySu0,OK,,5,Doublechin Cafe
+2026-07-18T16:54:44.589459,place_details_reviews,1,AIzaSy...IDGw,253,Pioneer,Gul Basin,food,coffee shop,ChIJsagBcgAb2jERAeP1PYWVL58,OK,,5,Grounds On A Hill Coffee
+2026-07-18T16:54:45.297078,place_details_reviews,1,AIzaSy...IDGw,254,Pioneer,Gul Basin,food,restaurant,ChIJZUUr9JsF2jERkdRVBDsH-u8,OK,,3,Gramathu Virunthu
+2026-07-18T16:54:45.930138,place_details_reviews,1,AIzaSy...IDGw,255,Pioneer,Gul Basin,food,restaurant,ChIJDd4SbwAP2jERp8J0Wk0j5ko,OK,,2,88 Claypot and Stewed Soup
+2026-07-18T16:54:46.777652,place_details_reviews,1,AIzaSy...IDGw,256,Pioneer,Gul Basin,food,cafe,ChIJPXLGQQAZ2jERWYgAFKpNsW4,OK,,5,Twenty Eight Cafe+ Kopi 1930 National Gallery
+2026-07-18T16:54:47.190562,place_details_reviews,1,AIzaSy...IDGw,257,Pioneer,Gul Basin,food,cafe,ChIJjVFUnZMF2jERaXGmSk_HSyw,OK,,5,Broadway Coffeeshop @ 60 Gul Lane
+2026-07-18T16:54:47.835410,place_details_reviews,1,AIzaSy...IDGw,258,Pioneer,Gul Basin,shopping,shopping mall,ChIJa9YM2-wP2jERmOUStQKyiS0,OK,,5,Jurong Point
+2026-07-18T16:54:48.530542,place_details_reviews,1,AIzaSy...IDGw,259,Pioneer,Gul Basin,shopping,supermarket,ChIJ8Ws24PEa2jEReonyo71rFUo,OK,,5,Sheng Siong Supermarket
+2026-07-18T16:54:49.160217,place_details_reviews,1,AIzaSy...IDGw,260,Pioneer,Gul Basin,shopping,convenience store,ChIJy5H3IH4P2jERa6hFBq2aTSM,OK,,5,7-Eleven
+2026-07-18T16:54:49.773727,place_details_reviews,1,AIzaSy...IDGw,261,Pioneer,Gul Basin,shopping,wet market,ChIJ847ZiBAb2jERBx6e7Mn67YM,OK,,5,Fresh Stop (Chen Ayam)
+2026-07-18T16:54:50.529706,place_details_reviews,1,AIzaSy...IDGw,262,Pioneer,Gul Basin,shopping,wet market,ChIJ8RaES-AX2jERwZwf5dmpK7M,OK,,5,Quan Shui Wet Market @ Upper Thomson
+2026-07-18T16:54:51.238615,place_details_reviews,1,AIzaSy...IDGw,263,Pioneer,Gul Basin,recreation,gym,ChIJYbJVYwAR2jERcogZd0m9MzE,OK,,5,Anytime Fitness Parc Point
+2026-07-18T16:54:51.882404,place_details_reviews,1,AIzaSy...IDGw,264,Pioneer,Gul Basin,recreation,sports centre,ChIJ2cCNCFga2jER5JmIg6WzSNk,OK,,5,University Sports Centre
+2026-07-18T16:54:52.334392,place_details_reviews,1,AIzaSy...IDGw,265,Pioneer,Gul Basin,recreation,cinema,ChIJgWtqxOwP2jERydU8CT8sako,OK,,5,Golden Village
+2026-07-18T16:54:52.861615,place_details_reviews,1,AIzaSy...IDGw,266,Pioneer,Gul Basin,recreation,community club,ChIJDSW57PEa2jEROqULbMq8p1s,OK,,5,West Coast Community Centre
+2026-07-18T16:54:53.412358,place_details_reviews,1,AIzaSy...IDGw,267,Pioneer,Gul Basin,recreation,playground,ChIJy4UHQigR2jERWNddjYkRzro,OK,,5,Dig Dig Land | Kid Excavator & Playground Singapore
+2026-07-18T16:54:54.182570,place_details_reviews,1,AIzaSy...IDGw,268,Pioneer,Gul Basin,recreation,playground,ChIJSSw7_tQb2jER3ivwN-5BwNM,OK,,5,COMO Adventure Grove
+2026-07-18T16:54:54.577298,place_details_reviews,1,AIzaSy...IDGw,269,Pioneer,Gul Basin,nature,nature reserve,ChIJs3oprUQQ2jERp8A9mbkPZJE,OK,,5,Bukit Batok Nature Park
+2026-07-18T16:54:55.380444,place_details_reviews,1,AIzaSy...IDGw,270,Pioneer,Gul Basin,nature,garden,ChIJo714KsEZ2jERAwbjfpK78oY,OK,,5,Sang Nila Utama Garden
+2026-07-18T16:54:56.062714,place_details_reviews,1,AIzaSy...IDGw,271,Pioneer,Gul Basin,nature,garden,ChIJMxZ-kwQZ2jERdsqftXeWCWI,OK,,5,Gardens by the Bay
+2026-07-18T16:54:56.492874,place_details_reviews,1,AIzaSy...IDGw,272,Pioneer,Gul Basin,nature,beach,ChIJ3fvrLqoe2jER0LVZJLAhCvM,OK,,5,Palawan Beach
+2026-07-18T16:54:57.231473,place_details_reviews,1,AIzaSy...IDGw,273,Pioneer,Gul Basin,nature,beach,ChIJIUGUtEAb2jERLP4xcUL7rV8,OK,,5,Siloso Beach
+2026-07-18T16:54:58.009460,place_details_reviews,1,AIzaSy...IDGw,274,Pioneer,Gul Basin,nature,waterfront,ChIJ3buMSgAF2jEREySdppfJP_o,OK,,0,"""Yard Bungalow"" waterfront"
+2026-07-18T16:54:58.755255,place_details_reviews,1,AIzaSy...IDGw,275,Pioneer,Gul Basin,nature,park connector,ChIJxZwgg1kZ2jERfsCcuEg0JC4,OK,,5,Kallang Park Connector
+2026-07-18T16:54:59.426144,place_details_reviews,1,AIzaSy...IDGw,276,Pioneer,Gul Basin,nature,park connector,ChIJTQKqNbMX2jERffQ7cu5kx0o,OK,,5,Paya Lebar Park Connector
+2026-07-18T16:55:00.018255,place_details_reviews,1,AIzaSy...IDGw,277,Pioneer,Gul Circle,education,childcare centre,ChIJHUK0FlIF2jERLcrbqLf1e-s,OK,,5,Raffles Kidz @ Jurong West (Yuan Ching) - Best Childcare and Preschool Singapore
+2026-07-18T16:55:00.479671,place_details_reviews,1,AIzaSy...IDGw,278,Pioneer,Gul Circle,education,primary school,ChIJkR1ecZEP2jERJhLeZx32rPs,OK,,0,Jurong West Primary School
+2026-07-18T16:55:01.161357,place_details_reviews,1,AIzaSy...IDGw,279,Pioneer,Gul Circle,education,secondary school,ChIJGfW4g5wP2jERx1lgTjFmabY,OK,,0,Juying Secondary School
+2026-07-18T16:55:01.557767,place_details_reviews,1,AIzaSy...IDGw,280,Pioneer,Gul Circle,education,tuition centre,ChIJTZ10JcgF2jERWjG1Vv1Bxdk,OK,,5,SCAL Academy
+2026-07-18T16:55:02.205380,place_details_reviews,1,AIzaSy...IDGw,281,Pioneer,Gul Circle,education,library,ChIJfWE7NwAR2jERE_LL5Mx2EVM,OK,,5,Community Library
+2026-07-18T16:55:02.818032,place_details_reviews,1,AIzaSy...IDGw,282,Pioneer,Gul Circle,transport,bus stop,ChIJ3WCpTo0F2jERjLf3k6niMLg,OK,,1,Gul Circle Stn Exit B
+2026-07-18T16:55:03.506562,place_details_reviews,1,AIzaSy...IDGw,283,Pioneer,Gul Circle,food,coffee shop,ChIJk89DMwAF2jER9QgtEAj8w7w,OK,,1,Rex Cafeteria
+2026-07-18T16:55:04.207122,place_details_reviews,1,AIzaSy...IDGw,284,Pioneer,Gul Circle,food,restaurant,ChIJJ12oOwAF2jER1c9sOEh17uE,OK,,5,Kokoro Izakaya (FairPrice Hub - Joo Koon MRT)
+2026-07-18T16:55:04.587496,place_details_reviews,1,AIzaSy...IDGw,285,Pioneer,Gul Circle,shopping,shopping mall,ChIJka8JVF8F2jER_POCivTcJZ4,OK,,5,JTC Space @ Gul
+2026-07-18T16:55:05.209081,place_details_reviews,1,AIzaSy...IDGw,286,Pioneer,Gul Circle,shopping,supermarket,ChIJyeVHch8F2jERikBVoPM1vqs,OK,,5,Hasini Mart Pte Ltd
+2026-07-18T16:55:05.823679,place_details_reviews,1,AIzaSy...IDGw,287,Pioneer,Gul Circle,shopping,convenience store,ChIJO2ipoFcF2jERIGMIBwN1Dj0,OK,,5,Ajay International Trading Pte Ltd
+2026-07-18T16:55:06.460343,place_details_reviews,1,AIzaSy...IDGw,288,Pioneer,Gul Circle,shopping,wet market,ChIJ6SKfUzwQ2jERezteXcNnbAE,OK,,5,Quan Shui Wet Market
+2026-07-18T16:55:07.014803,place_details_reviews,1,AIzaSy...IDGw,289,Pioneer,Gul Circle,recreation,gym,ChIJf9MVNAAF2jER1eOX2sfdwX4,OK,,0,Gym Jurong
+2026-07-18T16:55:07.549768,place_details_reviews,1,AIzaSy...IDGw,290,Pioneer,Gul Circle,recreation,community club,ChIJl3OX0d4P2jERfrhbQVC52gI,OK,,5,Jurong Green Community Club
+2026-07-18T16:55:08.237905,place_details_reviews,1,AIzaSy...IDGw,291,Pioneer,Gul Circle,recreation,playground,ChIJXQaYPaQb2jER8K5AKkAIffg,OK,,5,Wan To Play Candyland
+2026-07-18T16:55:08.824686,place_details_reviews,1,AIzaSy...IDGw,292,Pioneer,Gul Circle,nature,park,ChIJaT160JYF2jERov78GB6kcQ4,OK,,5,Fullerton Health Medical Centre for Migrant Workers @ Gul Circle
+2026-07-18T16:55:09.204749,place_details_reviews,1,AIzaSy...IDGw,293,Pioneer,Gul Circle,nature,garden,ChIJ3zoXMR8a2jERdBzf6ovkztc,OK,,5,Sundial Garden
+2026-07-18T16:55:10.017561,place_details_reviews,1,AIzaSy...IDGw,294,Pioneer,Gul Circle,nature,park connector,ChIJ78hF4XIZ2jERhXl48XBJofE,OK,,3,Geylang Park Connector
+2026-07-18T16:55:10.779166,place_details_reviews,1,AIzaSy...IDGw,295,Pioneer,Joo Koon,education,kindergarten,ChIJ9Ue6c7cF2jERoLVIzJkHoPg,OK,,1,Curion English Joo Koon
+2026-07-18T16:55:11.287752,place_details_reviews,1,AIzaSy...IDGw,296,Pioneer,Joo Koon,education,childcare centre,ChIJ7VLogocP2jERBqAKs9hKC6g,OK,,5,PlayFACTO School @ Jurong West Sport Centre
+2026-07-18T16:55:11.639486,place_details_reviews,1,AIzaSy...IDGw,297,Pioneer,Joo Koon,education,primary school,ChIJ_cKMGNkF2jERAjMfCBio5F8,OK,,2,Tien Hsia Language School 天下语文学校 (Joo Koon)
+2026-07-18T16:55:12.090552,place_details_reviews,1,AIzaSy...IDGw,298,Pioneer,Joo Koon,education,secondary school,ChIJsUBgxf4P2jERpCwsWp4c_V0,OK,,0,Jurong Secondary School
+2026-07-18T16:55:12.865282,place_details_reviews,1,AIzaSy...IDGw,299,Pioneer,Joo Koon,education,tuition centre,ChIJU2bQS4cF2jERHyJH44dRBR8,OK,,5,Eversafe Academy Joo Koon
+2026-07-18T16:55:13.823912,place_details_reviews,1,AIzaSy...IDGw,300,Pioneer,Joo Koon,education,library,ChIJraqq-gUQ2jERYpaqvOqNXdk,OK,,5,Jurong Library
+2026-07-18T16:55:14.422880,place_details_reviews,1,AIzaSy...IDGw,301,Pioneer,Joo Koon,transport,MRT station,ChIJK-VlIX4P2jERdpc51RYg9Lw,OK,,5,Joo Koon
+2026-07-18T16:55:14.784927,place_details_reviews,1,AIzaSy...IDGw,302,Pioneer,Joo Koon,food,hawker centre,ChIJ0VP4IH4P2jERo7DWjpjpSDg,OK,,5,Joo Koon Eating House
+2026-07-18T16:55:15.545141,place_details_reviews,1,AIzaSy...IDGw,303,Pioneer,Joo Koon,food,hawker centre,ChIJv17b7IIF2jERWezS0SZ7vz4,OK,,5,Kopitiam
+2026-07-18T16:55:16.359924,place_details_reviews,1,AIzaSy...IDGw,304,Pioneer,Joo Koon,food,coffee shop,ChIJT5tnFgAF2jERYu52WW_viQI,OK,,5,Kaffe & Toast
+2026-07-18T16:55:16.818076,place_details_reviews,1,AIzaSy...IDGw,305,Pioneer,Joo Koon,food,coffee shop,ChIJYedT-4MF2jERSPTuGeFLt1g,OK,,5,luckin coffee - Fairprice Hub
+2026-07-18T16:55:17.496669,place_details_reviews,1,AIzaSy...IDGw,306,Pioneer,Joo Koon,food,restaurant,ChIJO4L-b8EF2jERfcF00jX9Ae8,OK,,5,Nandhana's Restaurant
+2026-07-18T16:55:17.905957,place_details_reviews,1,AIzaSy...IDGw,307,Pioneer,Joo Koon,food,cafe,ChIJOzIVm4AF2jERKcrCdeHuGAM,OK,,5,Han's
+2026-07-18T16:55:18.268495,place_details_reviews,1,AIzaSy...IDGw,308,Pioneer,Joo Koon,recreation,sports centre,ChIJ9y8n8rYi2jERu6OTtZgrXxw,OK,,5,Xuan Sports @ Joo Koon (Headquarter)
+2026-07-18T16:55:19.192667,place_details_reviews,1,AIzaSy...IDGw,309,Pioneer,Joo Koon,recreation,community club,ChIJ4ydWlqMa2jERWCR933Y5D7s,OK,,0,Ayer Rajah Community Club
+2026-07-18T16:55:19.610719,place_details_reviews,1,AIzaSy...IDGw,310,Pioneer,Joo Koon,recreation,playground,ChIJ4WvXHfgF2jERk1O-oWFjoO0,OK,,5,Altitude Arena
+2026-07-18T16:55:20.346103,place_details_reviews,1,AIzaSy...IDGw,311,Pioneer,Joo Koon,nature,nature reserve,ChIJq_5RjPUQ2jERQZR7bzih7tw,OK,,5,Hindhede Nature Park
+2026-07-18T16:55:20.916722,place_details_reviews,1,AIzaSy...IDGw,312,Pioneer,Joo Koon,nature,garden,ChIJA8Chy6wP2jER5gV-C5bUNKI,OK,,5,Lakeside Garden
+2026-07-18T16:55:21.609874,place_details_reviews,1,AIzaSy...IDGw,313,Pioneer,Joo Koon,nature,park connector,ChIJ7XqBWxUP2jERmnprRbIXaOo,OK,,1,Park Connector
+2026-07-18T16:55:22.220768,place_details_reviews,1,AIzaSy...IDGw,314,Pioneer,Pioneer Sector,education,childcare centre,ChIJ4_MzjhYP2jERc9wdYOuo4JU,OK,,5,PlayFACTO School @ Pioneer
+2026-07-18T16:55:22.601882,place_details_reviews,1,AIzaSy...IDGw,315,Pioneer,Pioneer Sector,education,university,ChIJ7xGWVp8P2jERPDEUWKIgyUw,OK,,5,Pioneer Hall
+2026-07-18T16:55:23.340189,place_details_reviews,1,AIzaSy...IDGw,316,Pioneer,Pioneer Sector,education,tuition centre,ChIJP68WEUkP2jERsT16cS3wTvE,OK,,5,League of Learners
+2026-07-18T16:55:23.702813,place_details_reviews,1,AIzaSy...IDGw,317,Pioneer,Pioneer Sector,education,library,ChIJn_MoAgAP2jER5S6fcvL0zco,OK,,1,Book House (Community Library)
+2026-07-18T16:55:24.208372,place_details_reviews,1,AIzaSy...IDGw,318,Pioneer,Pioneer Sector,transport,bus stop,ChIJIfSRz5EP2jERPAdLLhxQBVM,OK,,5,Pioneer Stn Exit A
+2026-07-18T16:55:24.862737,place_details_reviews,1,AIzaSy...IDGw,319,Pioneer,Pioneer Sector,transport,bus stop,ChIJPyR6G48P2jERR3Essz8-DTk,OK,,5,Pioneer Junction
+2026-07-18T16:55:25.308886,place_details_reviews,1,AIzaSy...IDGw,320,Pioneer,Pioneer Sector,transport,bus interchange,ChIJuXUly5EP2jERlwbu8taV-8A,OK,,4,Pioneer Stn Exit B
+2026-07-18T16:55:25.982999,place_details_reviews,1,AIzaSy...IDGw,321,Pioneer,Pioneer Sector,food,food court,ChIJyXLAg54F2jERe_oV7CwguKE,OK,,5,Qi Ren Vegetarian
+2026-07-18T16:55:26.759406,place_details_reviews,1,AIzaSy...IDGw,322,Pioneer,Pioneer Sector,food,food court,ChIJt_dD68YF2jERnfx9549WJnE,OK,,5,Seatrium Canteen
+2026-07-18T16:55:27.430736,place_details_reviews,1,AIzaSy...IDGw,323,Pioneer,Pioneer Sector,food,coffee shop,ChIJHzUx-0MF2jERYcO4LgCc0D8,OK,,5,Pioneer Sector 2 Coffeeshop
+2026-07-18T16:55:28.271621,place_details_reviews,1,AIzaSy...IDGw,324,Pioneer,Pioneer Sector,food,coffee shop,ChIJTemQ0VMF2jER0qeQXs3WAyM,OK,,5,OOTY COFFEE SHOP
+2026-07-18T16:55:28.898716,place_details_reviews,1,AIzaSy...IDGw,325,Pioneer,Pioneer Sector,food,restaurant,ChIJ4_wEKwAF2jERryr7fyN9n8k,OK,,1,KPS Chicken Rice
+2026-07-18T16:55:29.360927,place_details_reviews,1,AIzaSy...IDGw,326,Pioneer,Pioneer Sector,food,cafe,ChIJhfGo7I4P2jERpn2ePqDU6Ws,OK,,5,Kim San Leng (Pioneer Junction)
+2026-07-18T16:55:30.039754,place_details_reviews,1,AIzaSy...IDGw,327,Pioneer,Pioneer Sector,shopping,convenience store,ChIJwaQxxQsP2jEREc_yO3GZM3g,OK,,5,7-Eleven
+2026-07-18T16:55:30.425864,place_details_reviews,1,AIzaSy...IDGw,328,Pioneer,Pioneer Sector,recreation,community club,ChIJyz3Mq5IP2jERCMeqV16SXAI,OK,,5,Pioneer Zone 7 Residents' Network
+2026-07-18T16:55:31.046809,place_details_reviews,1,AIzaSy...IDGw,329,Pioneer,Pioneer Sector,recreation,playground,ChIJTynXQQAR2jERs9_0QDzIVaM,OK,,5,Yooland Indoor Playground
+2026-07-18T16:55:31.682056,place_details_reviews,1,AIzaSy...IDGw,330,Pioneer,Pioneer Sector,recreation,playground,ChIJ5U9td4kZ2jER7GgohbBhI4E,OK,,5,Wan To Play Capybara Creek
+2026-07-18T16:55:32.119159,place_details_reviews,1,AIzaSy...IDGw,331,Pioneer,Pioneer Sector,nature,park,ChIJqVUlbe0P2jER-8gqnsq4eNk,OK,,5,Jurong Central Park
+2026-07-18T16:55:32.890310,place_details_reviews,1,AIzaSy...IDGw,332,Pioneer,Pioneer Sector,nature,park,ChIJ7acIxWQF2jERpiCtMaMe0nQ,OK,,5,Pioneer Hub
+2026-07-18T16:55:33.298386,place_details_reviews,1,AIzaSy...IDGw,333,Pioneer,Pioneer Sector,nature,nature reserve,ChIJ_6g8kisX2jERaGrSixd_xbM,OK,,5,Windsor Nature Park
+2026-07-18T16:55:33.929662,place_details_reviews,1,AIzaSy...IDGw,334,Pioneer,Pioneer Sector,nature,garden,ChIJW_ajrR8O2jERWGZKr2t29kY,OK,,5,Pioneer Landscape Pte Ltd
+2026-07-18T16:55:34.715585,place_details_reviews,1,AIzaSy...IDGw,335,Pioneer,Pioneer Sector,nature,beach,ChIJpRlNluQa2jERt1AMrgNfuhM,OK,,5,Promenade Lookout Jetty
+2026-07-18T16:55:35.287821,place_details_reviews,1,AIzaSy...IDGw,336,Pioneer,Pioneer Sector,nature,waterfront,ChIJRwbl2LAF2jERKUj5Rg33EwQ,OK,,5,Nam Leong Co Pte Ltd

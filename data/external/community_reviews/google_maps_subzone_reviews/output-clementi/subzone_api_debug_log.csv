@@ -1,0 +1,502 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-19T13:35:55.287778,text_search,2,AIzaSy...8yB0,570,Clementi,Clementi Central,education,kindergarten,"kindergarten in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:35:56.393219,text_search,2,AIzaSy...8yB0,571,Clementi,Clementi Central,education,childcare centre,"childcare centre in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:35:57.385675,text_search,2,AIzaSy...8yB0,572,Clementi,Clementi Central,education,primary school,"primary school in Clementi Central, Clementi, Singapore",OK,,5,
+2026-07-19T13:35:58.355559,text_search,2,AIzaSy...8yB0,573,Clementi,Clementi Central,education,secondary school,"secondary school in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:35:59.457084,text_search,2,AIzaSy...8yB0,574,Clementi,Clementi Central,education,junior college,"junior college in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:00.094033,text_search,2,AIzaSy...8yB0,575,Clementi,Clementi Central,education,polytechnic,"polytechnic in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:00.831946,text_search,2,AIzaSy...8yB0,576,Clementi,Clementi Central,education,university,"university in Clementi Central, Clementi, Singapore",OK,,18,
+2026-07-19T13:36:01.776710,text_search,2,AIzaSy...8yB0,577,Clementi,Clementi Central,education,tuition centre,"tuition centre in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:02.820256,text_search,2,AIzaSy...8yB0,578,Clementi,Clementi Central,education,library,"library in Clementi Central, Clementi, Singapore",OK,,1,
+2026-07-19T13:36:03.644764,text_search,2,AIzaSy...8yB0,579,Clementi,Clementi Central,transport,MRT station,"MRT station in Clementi Central, Clementi, Singapore",OK,,5,
+2026-07-19T13:36:04.490599,text_search,2,AIzaSy...8yB0,580,Clementi,Clementi Central,transport,bus stop,"bus stop in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:05.543373,text_search,2,AIzaSy...8yB0,581,Clementi,Clementi Central,transport,bus interchange,"bus interchange in Clementi Central, Clementi, Singapore",OK,,6,
+2026-07-19T13:36:06.257761,text_search,2,AIzaSy...8yB0,582,Clementi,Clementi Central,transport,LRT station,"LRT station in Clementi Central, Clementi, Singapore",OK,,7,
+2026-07-19T13:36:07.121087,text_search,2,AIzaSy...8yB0,583,Clementi,Clementi Central,food,hawker centre,"hawker centre in Clementi Central, Clementi, Singapore",OK,,6,
+2026-07-19T13:36:08.178220,text_search,2,AIzaSy...8yB0,584,Clementi,Clementi Central,food,food court,"food court in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:08.984721,text_search,2,AIzaSy...8yB0,585,Clementi,Clementi Central,food,coffee shop,"coffee shop in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:09.956938,text_search,2,AIzaSy...8yB0,586,Clementi,Clementi Central,food,restaurant,"restaurant in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:10.694937,text_search,2,AIzaSy...8yB0,587,Clementi,Clementi Central,food,cafe,"cafe in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:11.543815,text_search,2,AIzaSy...8yB0,588,Clementi,Clementi Central,shopping,shopping mall,"shopping mall in Clementi Central, Clementi, Singapore",OK,,8,
+2026-07-19T13:36:12.748648,text_search,2,AIzaSy...8yB0,589,Clementi,Clementi Central,shopping,supermarket,"supermarket in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:14.757696,text_search,2,AIzaSy...8yB0,590,Clementi,Clementi Central,shopping,grocery store,"grocery store in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:16.213126,text_search,2,AIzaSy...8yB0,591,Clementi,Clementi Central,shopping,convenience store,"convenience store in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:17.014562,text_search,2,AIzaSy...8yB0,592,Clementi,Clementi Central,shopping,wet market,"wet market in Clementi Central, Clementi, Singapore",OK,,3,
+2026-07-19T13:36:18.058537,text_search,2,AIzaSy...8yB0,593,Clementi,Clementi Central,recreation,gym,"gym in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:18.740036,text_search,2,AIzaSy...8yB0,594,Clementi,Clementi Central,recreation,sports centre,"sports centre in Clementi Central, Clementi, Singapore",OK,,5,
+2026-07-19T13:36:19.754390,text_search,2,AIzaSy...8yB0,595,Clementi,Clementi Central,recreation,swimming complex,"swimming complex in Clementi Central, Clementi, Singapore",OK,,1,
+2026-07-19T13:36:20.352161,text_search,2,AIzaSy...8yB0,596,Clementi,Clementi Central,recreation,cinema,"cinema in Clementi Central, Clementi, Singapore",OK,,5,
+2026-07-19T13:36:21.362066,text_search,2,AIzaSy...8yB0,597,Clementi,Clementi Central,recreation,community club,"community club in Clementi Central, Clementi, Singapore",OK,,3,
+2026-07-19T13:36:21.994487,text_search,2,AIzaSy...8yB0,598,Clementi,Clementi Central,recreation,playground,"playground in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:22.794878,text_search,2,AIzaSy...8yB0,599,Clementi,Clementi Central,nature,park,"park in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:23.645474,text_search,2,AIzaSy...8yB0,600,Clementi,Clementi Central,nature,nature reserve,"nature reserve in Clementi Central, Clementi, Singapore",OK,,16,
+2026-07-19T13:36:24.818337,text_search,2,AIzaSy...8yB0,601,Clementi,Clementi Central,nature,garden,"garden in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:25.685996,text_search,2,AIzaSy...8yB0,602,Clementi,Clementi Central,nature,beach,"beach in Clementi Central, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:26.793847,text_search,2,AIzaSy...8yB0,603,Clementi,Clementi Central,nature,waterfront,"waterfront in Clementi Central, Clementi, Singapore",OK,,15,
+2026-07-19T13:36:27.544778,text_search,2,AIzaSy...8yB0,604,Clementi,Clementi Central,nature,park connector,"park connector in Clementi Central, Clementi, Singapore",OK,,3,
+2026-07-19T13:36:28.295249,text_search,2,AIzaSy...8yB0,605,Clementi,Clementi North,education,kindergarten,"kindergarten in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:29.289704,text_search,2,AIzaSy...8yB0,606,Clementi,Clementi North,education,childcare centre,"childcare centre in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:30.299176,text_search,2,AIzaSy...8yB0,607,Clementi,Clementi North,education,primary school,"primary school in Clementi North, Clementi, Singapore",OK,,5,
+2026-07-19T13:36:31.096120,text_search,2,AIzaSy...8yB0,608,Clementi,Clementi North,education,secondary school,"secondary school in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:32.134634,text_search,2,AIzaSy...8yB0,609,Clementi,Clementi North,education,junior college,"junior college in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:33.374528,text_search,2,AIzaSy...8yB0,610,Clementi,Clementi North,education,polytechnic,"polytechnic in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:34.204276,text_search,2,AIzaSy...8yB0,611,Clementi,Clementi North,education,university,"university in Clementi North, Clementi, Singapore",OK,,9,
+2026-07-19T13:36:35.124195,text_search,2,AIzaSy...8yB0,612,Clementi,Clementi North,education,tuition centre,"tuition centre in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:35.904372,text_search,2,AIzaSy...8yB0,613,Clementi,Clementi North,education,library,"library in Clementi North, Clementi, Singapore",OK,,1,
+2026-07-19T13:36:36.623943,text_search,2,AIzaSy...8yB0,614,Clementi,Clementi North,transport,MRT station,"MRT station in Clementi North, Clementi, Singapore",OK,,6,
+2026-07-19T13:36:37.412642,text_search,2,AIzaSy...8yB0,615,Clementi,Clementi North,transport,bus stop,"bus stop in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:38.308606,text_search,2,AIzaSy...8yB0,616,Clementi,Clementi North,transport,bus interchange,"bus interchange in Clementi North, Clementi, Singapore",OK,,7,
+2026-07-19T13:36:39.422744,text_search,2,AIzaSy...8yB0,617,Clementi,Clementi North,transport,LRT station,"LRT station in Clementi North, Clementi, Singapore",OK,,9,
+2026-07-19T13:36:40.479969,text_search,2,AIzaSy...8yB0,618,Clementi,Clementi North,food,hawker centre,"hawker centre in Clementi North, Clementi, Singapore",OK,,9,
+2026-07-19T13:36:41.233852,text_search,2,AIzaSy...8yB0,619,Clementi,Clementi North,food,food court,"food court in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:42.150164,text_search,2,AIzaSy...8yB0,620,Clementi,Clementi North,food,coffee shop,"coffee shop in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:43.288729,text_search,2,AIzaSy...8yB0,621,Clementi,Clementi North,food,restaurant,"restaurant in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:43.968576,text_search,2,AIzaSy...8yB0,622,Clementi,Clementi North,food,cafe,"cafe in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:45.060145,text_search,2,AIzaSy...8yB0,623,Clementi,Clementi North,shopping,shopping mall,"shopping mall in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:45.926094,text_search,2,AIzaSy...8yB0,624,Clementi,Clementi North,shopping,supermarket,"supermarket in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:47.016838,text_search,2,AIzaSy...8yB0,625,Clementi,Clementi North,shopping,grocery store,"grocery store in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:48.019284,text_search,2,AIzaSy...8yB0,626,Clementi,Clementi North,shopping,convenience store,"convenience store in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:49.242732,text_search,2,AIzaSy...8yB0,627,Clementi,Clementi North,shopping,wet market,"wet market in Clementi North, Clementi, Singapore",OK,,5,
+2026-07-19T13:36:50.241140,text_search,2,AIzaSy...8yB0,628,Clementi,Clementi North,recreation,gym,"gym in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:51.340506,text_search,2,AIzaSy...8yB0,629,Clementi,Clementi North,recreation,sports centre,"sports centre in Clementi North, Clementi, Singapore",OK,,7,
+2026-07-19T13:36:52.309566,text_search,2,AIzaSy...8yB0,630,Clementi,Clementi North,recreation,swimming complex,"swimming complex in Clementi North, Clementi, Singapore",OK,,1,
+2026-07-19T13:36:53.184175,text_search,2,AIzaSy...8yB0,631,Clementi,Clementi North,recreation,cinema,"cinema in Clementi North, Clementi, Singapore",OK,,14,
+2026-07-19T13:36:53.980959,text_search,2,AIzaSy...8yB0,632,Clementi,Clementi North,recreation,community club,"community club in Clementi North, Clementi, Singapore",OK,,3,
+2026-07-19T13:36:55.123962,text_search,2,AIzaSy...8yB0,633,Clementi,Clementi North,recreation,playground,"playground in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:56.052378,text_search,2,AIzaSy...8yB0,634,Clementi,Clementi North,nature,park,"park in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:57.018935,text_search,2,AIzaSy...8yB0,635,Clementi,Clementi North,nature,nature reserve,"nature reserve in Clementi North, Clementi, Singapore",OK,,17,
+2026-07-19T13:36:58.066431,text_search,2,AIzaSy...8yB0,636,Clementi,Clementi North,nature,garden,"garden in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:58.931124,text_search,2,AIzaSy...8yB0,637,Clementi,Clementi North,nature,beach,"beach in Clementi North, Clementi, Singapore",OK,,20,
+2026-07-19T13:36:59.787381,text_search,2,AIzaSy...8yB0,638,Clementi,Clementi North,nature,waterfront,"waterfront in Clementi North, Clementi, Singapore",OK,,17,
+2026-07-19T13:37:00.834651,text_search,2,AIzaSy...8yB0,639,Clementi,Clementi North,nature,park connector,"park connector in Clementi North, Clementi, Singapore",OK,,7,
+2026-07-19T13:37:01.733034,text_search,2,AIzaSy...8yB0,640,Clementi,Clementi West,education,kindergarten,"kindergarten in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:03.050657,text_search,2,AIzaSy...8yB0,641,Clementi,Clementi West,education,childcare centre,"childcare centre in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:04.311937,text_search,2,AIzaSy...8yB0,642,Clementi,Clementi West,education,primary school,"primary school in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:04.878840,text_search,2,AIzaSy...8yB0,643,Clementi,Clementi West,education,secondary school,"secondary school in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:05.760056,text_search,2,AIzaSy...8yB0,644,Clementi,Clementi West,education,junior college,"junior college in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:06.360322,text_search,2,AIzaSy...8yB0,645,Clementi,Clementi West,education,polytechnic,"polytechnic in Clementi West, Clementi, Singapore",OK,,12,
+2026-07-19T13:37:07.321647,text_search,2,AIzaSy...8yB0,646,Clementi,Clementi West,education,university,"university in Clementi West, Clementi, Singapore",OK,,9,
+2026-07-19T13:37:08.193388,text_search,2,AIzaSy...8yB0,647,Clementi,Clementi West,education,tuition centre,"tuition centre in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:09.013569,text_search,2,AIzaSy...8yB0,648,Clementi,Clementi West,education,library,"library in Clementi West, Clementi, Singapore",OK,,2,
+2026-07-19T13:37:09.714636,text_search,2,AIzaSy...8yB0,649,Clementi,Clementi West,transport,MRT station,"MRT station in Clementi West, Clementi, Singapore",OK,,6,
+2026-07-19T13:37:10.776272,text_search,2,AIzaSy...8yB0,650,Clementi,Clementi West,transport,bus stop,"bus stop in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:11.885009,text_search,2,AIzaSy...8yB0,651,Clementi,Clementi West,transport,bus interchange,"bus interchange in Clementi West, Clementi, Singapore",OK,,9,
+2026-07-19T13:37:12.672873,text_search,2,AIzaSy...8yB0,652,Clementi,Clementi West,transport,LRT station,"LRT station in Clementi West, Clementi, Singapore",OK,,6,
+2026-07-19T13:37:13.527834,text_search,2,AIzaSy...8yB0,653,Clementi,Clementi West,food,hawker centre,"hawker centre in Clementi West, Clementi, Singapore",OK,,18,
+2026-07-19T13:37:14.562973,text_search,2,AIzaSy...8yB0,654,Clementi,Clementi West,food,food court,"food court in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:15.603094,text_search,2,AIzaSy...8yB0,655,Clementi,Clementi West,food,coffee shop,"coffee shop in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:16.384443,text_search,2,AIzaSy...8yB0,656,Clementi,Clementi West,food,restaurant,"restaurant in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:17.368799,text_search,2,AIzaSy...8yB0,657,Clementi,Clementi West,food,cafe,"cafe in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:18.019017,text_search,2,AIzaSy...8yB0,658,Clementi,Clementi West,shopping,shopping mall,"shopping mall in Clementi West, Clementi, Singapore",OK,,14,
+2026-07-19T13:37:19.030008,text_search,2,AIzaSy...8yB0,659,Clementi,Clementi West,shopping,supermarket,"supermarket in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:19.764175,text_search,2,AIzaSy...8yB0,660,Clementi,Clementi West,shopping,grocery store,"grocery store in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:21.211965,text_search,2,AIzaSy...8yB0,661,Clementi,Clementi West,shopping,convenience store,"convenience store in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:22.139155,text_search,2,AIzaSy...8yB0,662,Clementi,Clementi West,shopping,wet market,"wet market in Clementi West, Clementi, Singapore",OK,,5,
+2026-07-19T13:37:25.928037,text_search,2,AIzaSy...8yB0,663,Clementi,Clementi West,recreation,gym,"gym in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:26.958037,text_search,2,AIzaSy...8yB0,664,Clementi,Clementi West,recreation,sports centre,"sports centre in Clementi West, Clementi, Singapore",OK,,14,
+2026-07-19T13:37:28.192333,text_search,2,AIzaSy...8yB0,665,Clementi,Clementi West,recreation,swimming complex,"swimming complex in Clementi West, Clementi, Singapore",OK,,1,
+2026-07-19T13:37:29.215818,text_search,2,AIzaSy...8yB0,666,Clementi,Clementi West,recreation,cinema,"cinema in Clementi West, Clementi, Singapore",OK,,7,
+2026-07-19T13:37:29.777996,text_search,2,AIzaSy...8yB0,667,Clementi,Clementi West,recreation,community club,"community club in Clementi West, Clementi, Singapore",OK,,5,
+2026-07-19T13:37:30.572850,text_search,2,AIzaSy...8yB0,668,Clementi,Clementi West,recreation,playground,"playground in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:31.314580,text_search,2,AIzaSy...8yB0,669,Clementi,Clementi West,nature,park,"park in Clementi West, Clementi, Singapore",OK,,11,
+2026-07-19T13:37:32.466768,text_search,2,AIzaSy...8yB0,670,Clementi,Clementi West,nature,nature reserve,"nature reserve in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:33.209906,text_search,2,AIzaSy...8yB0,671,Clementi,Clementi West,nature,garden,"garden in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:33.883759,text_search,2,AIzaSy...8yB0,672,Clementi,Clementi West,nature,beach,"beach in Clementi West, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:34.661533,text_search,2,AIzaSy...8yB0,673,Clementi,Clementi West,nature,waterfront,"waterfront in Clementi West, Clementi, Singapore",OK,,11,
+2026-07-19T13:37:35.383394,text_search,2,AIzaSy...8yB0,674,Clementi,Clementi West,nature,park connector,"park connector in Clementi West, Clementi, Singapore",OK,,2,
+2026-07-19T13:37:36.317932,text_search,2,AIzaSy...8yB0,675,Clementi,Clementi Woods,education,kindergarten,"kindergarten in Clementi Woods, Clementi, Singapore",OK,,2,
+2026-07-19T13:37:37.295110,text_search,2,AIzaSy...8yB0,676,Clementi,Clementi Woods,education,childcare centre,"childcare centre in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:38.539571,text_search,2,AIzaSy...8yB0,677,Clementi,Clementi Woods,education,primary school,"primary school in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:39.351150,text_search,2,AIzaSy...8yB0,678,Clementi,Clementi Woods,education,secondary school,"secondary school in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:40.441577,text_search,2,AIzaSy...8yB0,679,Clementi,Clementi Woods,education,junior college,"junior college in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:41.116272,text_search,2,AIzaSy...8yB0,680,Clementi,Clementi Woods,education,polytechnic,"polytechnic in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:41.919201,text_search,2,AIzaSy...8yB0,681,Clementi,Clementi Woods,education,university,"university in Clementi Woods, Clementi, Singapore",OK,,5,
+2026-07-19T13:37:43.032275,text_search,2,AIzaSy...8yB0,682,Clementi,Clementi Woods,education,tuition centre,"tuition centre in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:43.993833,text_search,2,AIzaSy...8yB0,683,Clementi,Clementi Woods,education,library,"library in Clementi Woods, Clementi, Singapore",OK,,2,
+2026-07-19T13:37:44.684199,text_search,2,AIzaSy...8yB0,684,Clementi,Clementi Woods,transport,MRT station,"MRT station in Clementi Woods, Clementi, Singapore",OK,,6,
+2026-07-19T13:37:45.777161,text_search,2,AIzaSy...8yB0,685,Clementi,Clementi Woods,transport,bus stop,"bus stop in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:46.528569,text_search,2,AIzaSy...8yB0,686,Clementi,Clementi Woods,transport,bus interchange,"bus interchange in Clementi Woods, Clementi, Singapore",OK,,6,
+2026-07-19T13:37:47.651795,text_search,2,AIzaSy...8yB0,687,Clementi,Clementi Woods,transport,LRT station,"LRT station in Clementi Woods, Clementi, Singapore",OK,,4,
+2026-07-19T13:37:48.414414,text_search,2,AIzaSy...8yB0,688,Clementi,Clementi Woods,food,hawker centre,"hawker centre in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:49.275871,text_search,2,AIzaSy...8yB0,689,Clementi,Clementi Woods,food,food court,"food court in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:50.311554,text_search,2,AIzaSy...8yB0,690,Clementi,Clementi Woods,food,coffee shop,"coffee shop in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:51.304856,text_search,2,AIzaSy...8yB0,691,Clementi,Clementi Woods,food,restaurant,"restaurant in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:52.141748,text_search,2,AIzaSy...8yB0,692,Clementi,Clementi Woods,food,cafe,"cafe in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:52.939278,text_search,2,AIzaSy...8yB0,693,Clementi,Clementi Woods,shopping,shopping mall,"shopping mall in Clementi Woods, Clementi, Singapore",OK,,8,
+2026-07-19T13:37:53.890082,text_search,2,AIzaSy...8yB0,694,Clementi,Clementi Woods,shopping,supermarket,"supermarket in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:54.864199,text_search,2,AIzaSy...8yB0,695,Clementi,Clementi Woods,shopping,grocery store,"grocery store in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:55.515740,text_search,2,AIzaSy...8yB0,696,Clementi,Clementi Woods,shopping,convenience store,"convenience store in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:56.360678,text_search,2,AIzaSy...8yB0,697,Clementi,Clementi Woods,shopping,wet market,"wet market in Clementi Woods, Clementi, Singapore",OK,,6,
+2026-07-19T13:37:57.145731,text_search,2,AIzaSy...8yB0,698,Clementi,Clementi Woods,recreation,gym,"gym in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:58.285383,text_search,2,AIzaSy...8yB0,699,Clementi,Clementi Woods,recreation,sports centre,"sports centre in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:37:58.895898,text_search,2,AIzaSy...8yB0,700,Clementi,Clementi Woods,recreation,swimming complex,"swimming complex in Clementi Woods, Clementi, Singapore",OK,,3,
+2026-07-19T13:37:59.550351,text_search,2,AIzaSy...8yB0,701,Clementi,Clementi Woods,recreation,cinema,"cinema in Clementi Woods, Clementi, Singapore",OK,,3,
+2026-07-19T13:38:00.557498,text_search,2,AIzaSy...8yB0,702,Clementi,Clementi Woods,recreation,community club,"community club in Clementi Woods, Clementi, Singapore",OK,,6,
+2026-07-19T13:38:01.577768,text_search,2,AIzaSy...8yB0,703,Clementi,Clementi Woods,recreation,playground,"playground in Clementi Woods, Clementi, Singapore",OK,,1,
+2026-07-19T13:38:02.506653,text_search,2,AIzaSy...8yB0,704,Clementi,Clementi Woods,nature,park,"park in Clementi Woods, Clementi, Singapore",OK,,1,
+2026-07-19T13:38:03.626888,text_search,2,AIzaSy...8yB0,705,Clementi,Clementi Woods,nature,nature reserve,"nature reserve in Clementi Woods, Clementi, Singapore",OK,,5,
+2026-07-19T13:38:04.551179,text_search,2,AIzaSy...8yB0,706,Clementi,Clementi Woods,nature,garden,"garden in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:05.255404,text_search,2,AIzaSy...8yB0,707,Clementi,Clementi Woods,nature,beach,"beach in Clementi Woods, Clementi, Singapore",OK,,16,
+2026-07-19T13:38:05.836344,text_search,2,AIzaSy...8yB0,708,Clementi,Clementi Woods,nature,waterfront,"waterfront in Clementi Woods, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:06.873941,text_search,2,AIzaSy...8yB0,709,Clementi,Clementi Woods,nature,park connector,"park connector in Clementi Woods, Clementi, Singapore",OK,,4,
+2026-07-19T13:38:07.811728,text_search,2,AIzaSy...8yB0,710,Clementi,Faber,education,kindergarten,"kindergarten in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:08.942153,text_search,2,AIzaSy...8yB0,711,Clementi,Faber,education,childcare centre,"childcare centre in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:09.963524,text_search,2,AIzaSy...8yB0,712,Clementi,Faber,education,primary school,"primary school in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:11.182481,text_search,2,AIzaSy...8yB0,713,Clementi,Faber,education,secondary school,"secondary school in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:11.989186,text_search,2,AIzaSy...8yB0,714,Clementi,Faber,education,junior college,"junior college in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:12.572977,text_search,2,AIzaSy...8yB0,715,Clementi,Faber,education,polytechnic,"polytechnic in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:13.863460,text_search,2,AIzaSy...8yB0,716,Clementi,Faber,education,university,"university in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:14.865141,text_search,2,AIzaSy...8yB0,717,Clementi,Faber,education,tuition centre,"tuition centre in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:15.550453,text_search,2,AIzaSy...8yB0,718,Clementi,Faber,education,library,"library in Faber, Clementi, Singapore",OK,,12,
+2026-07-19T13:38:16.458865,text_search,2,AIzaSy...8yB0,719,Clementi,Faber,transport,MRT station,"MRT station in Faber, Clementi, Singapore",OK,,13,
+2026-07-19T13:38:17.376105,text_search,2,AIzaSy...8yB0,720,Clementi,Faber,transport,bus stop,"bus stop in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:18.404751,text_search,2,AIzaSy...8yB0,721,Clementi,Faber,transport,bus interchange,"bus interchange in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:19.507275,text_search,2,AIzaSy...8yB0,722,Clementi,Faber,transport,LRT station,"LRT station in Faber, Clementi, Singapore",OK,,13,
+2026-07-19T13:38:20.499602,text_search,2,AIzaSy...8yB0,723,Clementi,Faber,food,hawker centre,"hawker centre in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:21.328715,text_search,2,AIzaSy...8yB0,724,Clementi,Faber,food,food court,"food court in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:22.499076,text_search,2,AIzaSy...8yB0,725,Clementi,Faber,food,coffee shop,"coffee shop in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:23.692745,text_search,2,AIzaSy...8yB0,726,Clementi,Faber,food,restaurant,"restaurant in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:24.567196,text_search,2,AIzaSy...8yB0,727,Clementi,Faber,food,cafe,"cafe in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:25.220738,text_search,2,AIzaSy...8yB0,728,Clementi,Faber,shopping,shopping mall,"shopping mall in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:26.161617,text_search,2,AIzaSy...8yB0,729,Clementi,Faber,shopping,supermarket,"supermarket in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:27.185518,text_search,2,AIzaSy...8yB0,730,Clementi,Faber,shopping,grocery store,"grocery store in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:27.934287,text_search,2,AIzaSy...8yB0,731,Clementi,Faber,shopping,convenience store,"convenience store in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:29.023650,text_search,2,AIzaSy...8yB0,732,Clementi,Faber,shopping,wet market,"wet market in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:30.114153,text_search,2,AIzaSy...8yB0,733,Clementi,Faber,recreation,gym,"gym in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:30.901172,text_search,2,AIzaSy...8yB0,734,Clementi,Faber,recreation,sports centre,"sports centre in Faber, Clementi, Singapore",OK,,17,
+2026-07-19T13:38:31.898905,text_search,2,AIzaSy...8yB0,735,Clementi,Faber,recreation,swimming complex,"swimming complex in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:32.971124,text_search,2,AIzaSy...8yB0,736,Clementi,Faber,recreation,cinema,"cinema in Faber, Clementi, Singapore",OK,,8,
+2026-07-19T13:38:35.186518,text_search,2,AIzaSy...8yB0,737,Clementi,Faber,recreation,community club,"community club in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:35.947362,text_search,2,AIzaSy...8yB0,738,Clementi,Faber,recreation,playground,"playground in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:36.546569,text_search,2,AIzaSy...8yB0,739,Clementi,Faber,nature,park,"park in Faber, Clementi, Singapore",OK,,1,
+2026-07-19T13:38:37.510463,text_search,2,AIzaSy...8yB0,740,Clementi,Faber,nature,nature reserve,"nature reserve in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:38.366608,text_search,2,AIzaSy...8yB0,741,Clementi,Faber,nature,garden,"garden in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:39.143059,text_search,2,AIzaSy...8yB0,742,Clementi,Faber,nature,beach,"beach in Faber, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:39.961820,text_search,2,AIzaSy...8yB0,743,Clementi,Faber,nature,waterfront,"waterfront in Faber, Clementi, Singapore",OK,,3,
+2026-07-19T13:38:40.713708,text_search,2,AIzaSy...8yB0,744,Clementi,Faber,nature,park connector,"park connector in Faber, Clementi, Singapore",OK,,8,
+2026-07-19T13:38:41.339501,text_search,2,AIzaSy...8yB0,745,Clementi,Pandan,education,kindergarten,"kindergarten in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:42.207701,text_search,2,AIzaSy...8yB0,746,Clementi,Pandan,education,childcare centre,"childcare centre in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:42.973784,text_search,2,AIzaSy...8yB0,747,Clementi,Pandan,education,primary school,"primary school in Pandan, Clementi, Singapore",OK,,7,
+2026-07-19T13:38:44.067558,text_search,2,AIzaSy...8yB0,748,Clementi,Pandan,education,secondary school,"secondary school in Pandan, Clementi, Singapore",OK,,6,
+2026-07-19T13:38:44.860010,text_search,2,AIzaSy...8yB0,749,Clementi,Pandan,education,junior college,"junior college in Pandan, Clementi, Singapore",OK,,15,
+2026-07-19T13:38:45.653667,text_search,2,AIzaSy...8yB0,750,Clementi,Pandan,education,polytechnic,"polytechnic in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:46.642132,text_search,2,AIzaSy...8yB0,751,Clementi,Pandan,education,university,"university in Pandan, Clementi, Singapore",OK,,6,
+2026-07-19T13:38:47.375211,text_search,2,AIzaSy...8yB0,752,Clementi,Pandan,education,tuition centre,"tuition centre in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:48.464279,text_search,2,AIzaSy...8yB0,753,Clementi,Pandan,education,library,"library in Pandan, Clementi, Singapore",OK,,4,
+2026-07-19T13:38:49.457548,text_search,2,AIzaSy...8yB0,754,Clementi,Pandan,transport,MRT station,"MRT station in Pandan, Clementi, Singapore",OK,,8,
+2026-07-19T13:38:50.805598,text_search,2,AIzaSy...8yB0,755,Clementi,Pandan,transport,bus stop,"bus stop in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:51.516270,text_search,2,AIzaSy...8yB0,756,Clementi,Pandan,transport,bus interchange,"bus interchange in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:52.164604,text_search,2,AIzaSy...8yB0,757,Clementi,Pandan,transport,LRT station,"LRT station in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:53.023072,text_search,2,AIzaSy...8yB0,758,Clementi,Pandan,food,hawker centre,"hawker centre in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:53.959581,text_search,2,AIzaSy...8yB0,759,Clementi,Pandan,food,food court,"food court in Pandan, Clementi, Singapore",OK,,14,
+2026-07-19T13:38:54.570175,text_search,2,AIzaSy...8yB0,760,Clementi,Pandan,food,coffee shop,"coffee shop in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:55.540828,text_search,2,AIzaSy...8yB0,761,Clementi,Pandan,food,restaurant,"restaurant in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:56.376068,text_search,2,AIzaSy...8yB0,762,Clementi,Pandan,food,cafe,"cafe in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:57.506536,text_search,2,AIzaSy...8yB0,763,Clementi,Pandan,shopping,shopping mall,"shopping mall in Pandan, Clementi, Singapore",OK,,10,
+2026-07-19T13:38:58.572847,text_search,2,AIzaSy...8yB0,764,Clementi,Pandan,shopping,supermarket,"supermarket in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:38:59.698066,text_search,2,AIzaSy...8yB0,765,Clementi,Pandan,shopping,grocery store,"grocery store in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:00.610338,text_search,2,AIzaSy...8yB0,766,Clementi,Pandan,shopping,convenience store,"convenience store in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:01.528204,text_search,2,AIzaSy...8yB0,767,Clementi,Pandan,shopping,wet market,"wet market in Pandan, Clementi, Singapore",OK,,4,
+2026-07-19T13:39:02.149915,text_search,2,AIzaSy...8yB0,768,Clementi,Pandan,recreation,gym,"gym in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:03.133566,text_search,2,AIzaSy...8yB0,769,Clementi,Pandan,recreation,sports centre,"sports centre in Pandan, Clementi, Singapore",OK,,15,
+2026-07-19T13:39:04.349607,text_search,2,AIzaSy...8yB0,770,Clementi,Pandan,recreation,swimming complex,"swimming complex in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:05.387570,text_search,2,AIzaSy...8yB0,771,Clementi,Pandan,recreation,cinema,"cinema in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:06.055959,text_search,2,AIzaSy...8yB0,772,Clementi,Pandan,recreation,community club,"community club in Pandan, Clementi, Singapore",OK,,6,
+2026-07-19T13:39:07.078242,text_search,2,AIzaSy...8yB0,773,Clementi,Pandan,recreation,playground,"playground in Pandan, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:07.885758,text_search,2,AIzaSy...8yB0,774,Clementi,Pandan,nature,park,"park in Pandan, Clementi, Singapore",OK,,1,
+2026-07-19T13:39:08.770446,text_search,2,AIzaSy...8yB0,775,Clementi,Pandan,nature,nature reserve,"nature reserve in Pandan, Clementi, Singapore",OK,,14,
+2026-07-19T13:39:09.626743,text_search,2,AIzaSy...8yB0,776,Clementi,Pandan,nature,garden,"garden in Pandan, Clementi, Singapore",OK,,1,
+2026-07-19T13:39:10.208689,text_search,2,AIzaSy...8yB0,777,Clementi,Pandan,nature,beach,"beach in Pandan, Clementi, Singapore",OK,,3,
+2026-07-19T13:39:11.186318,text_search,2,AIzaSy...8yB0,778,Clementi,Pandan,nature,waterfront,"waterfront in Pandan, Clementi, Singapore",OK,,9,
+2026-07-19T13:39:11.997173,text_search,2,AIzaSy...8yB0,779,Clementi,Pandan,nature,park connector,"park connector in Pandan, Clementi, Singapore",OK,,2,
+2026-07-19T13:39:12.802962,text_search,2,AIzaSy...8yB0,780,Clementi,Sunset Way,education,kindergarten,"kindergarten in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:13.608573,text_search,2,AIzaSy...8yB0,781,Clementi,Sunset Way,education,childcare centre,"childcare centre in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:14.506012,text_search,2,AIzaSy...8yB0,782,Clementi,Sunset Way,education,primary school,"primary school in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:15.575239,text_search,2,AIzaSy...8yB0,783,Clementi,Sunset Way,education,secondary school,"secondary school in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:16.318570,text_search,2,AIzaSy...8yB0,784,Clementi,Sunset Way,education,junior college,"junior college in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:17.045091,text_search,2,AIzaSy...8yB0,785,Clementi,Sunset Way,education,polytechnic,"polytechnic in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:18.039761,text_search,2,AIzaSy...8yB0,786,Clementi,Sunset Way,education,university,"university in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:18.816346,text_search,2,AIzaSy...8yB0,787,Clementi,Sunset Way,education,tuition centre,"tuition centre in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:19.539895,text_search,2,AIzaSy...8yB0,788,Clementi,Sunset Way,education,library,"library in Sunset Way, Clementi, Singapore",OK,,19,
+2026-07-19T13:39:20.482763,text_search,2,AIzaSy...8yB0,789,Clementi,Sunset Way,transport,MRT station,"MRT station in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:21.535954,text_search,2,AIzaSy...8yB0,790,Clementi,Sunset Way,transport,bus stop,"bus stop in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:22.456389,text_search,2,AIzaSy...8yB0,791,Clementi,Sunset Way,transport,bus interchange,"bus interchange in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:23.028336,text_search,2,AIzaSy...8yB0,792,Clementi,Sunset Way,transport,LRT station,"LRT station in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:23.940364,text_search,2,AIzaSy...8yB0,793,Clementi,Sunset Way,food,hawker centre,"hawker centre in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:25.124214,text_search,2,AIzaSy...8yB0,794,Clementi,Sunset Way,food,food court,"food court in Sunset Way, Clementi, Singapore",OK,,11,
+2026-07-19T13:39:26.218176,text_search,2,AIzaSy...8yB0,795,Clementi,Sunset Way,food,coffee shop,"coffee shop in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:27.371993,text_search,2,AIzaSy...8yB0,796,Clementi,Sunset Way,food,restaurant,"restaurant in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:28.030208,text_search,2,AIzaSy...8yB0,797,Clementi,Sunset Way,food,cafe,"cafe in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:28.948190,text_search,2,AIzaSy...8yB0,798,Clementi,Sunset Way,shopping,shopping mall,"shopping mall in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:29.783014,text_search,2,AIzaSy...8yB0,799,Clementi,Sunset Way,shopping,supermarket,"supermarket in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:30.695312,text_search,2,AIzaSy...8yB0,800,Clementi,Sunset Way,shopping,grocery store,"grocery store in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:31.759044,text_search,2,AIzaSy...8yB0,801,Clementi,Sunset Way,shopping,convenience store,"convenience store in Sunset Way, Clementi, Singapore",OK,,2,
+2026-07-19T13:39:32.364252,text_search,2,AIzaSy...8yB0,802,Clementi,Sunset Way,shopping,wet market,"wet market in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:33.003887,text_search,2,AIzaSy...8yB0,803,Clementi,Sunset Way,recreation,gym,"gym in Sunset Way, Clementi, Singapore",OK,,18,
+2026-07-19T13:39:33.756988,text_search,2,AIzaSy...8yB0,804,Clementi,Sunset Way,recreation,sports centre,"sports centre in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:34.626824,text_search,2,AIzaSy...8yB0,805,Clementi,Sunset Way,recreation,swimming complex,"swimming complex in Sunset Way, Clementi, Singapore",OK,,10,
+2026-07-19T13:39:35.572354,text_search,2,AIzaSy...8yB0,806,Clementi,Sunset Way,recreation,cinema,"cinema in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:36.508084,text_search,2,AIzaSy...8yB0,807,Clementi,Sunset Way,recreation,community club,"community club in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:37.363904,text_search,2,AIzaSy...8yB0,808,Clementi,Sunset Way,recreation,playground,"playground in Sunset Way, Clementi, Singapore",OK,,3,
+2026-07-19T13:39:38.265630,text_search,2,AIzaSy...8yB0,809,Clementi,Sunset Way,nature,park,"park in Sunset Way, Clementi, Singapore",OK,,9,
+2026-07-19T13:39:39.369129,text_search,2,AIzaSy...8yB0,810,Clementi,Sunset Way,nature,nature reserve,"nature reserve in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:40.104380,text_search,2,AIzaSy...8yB0,811,Clementi,Sunset Way,nature,garden,"garden in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:40.753756,text_search,2,AIzaSy...8yB0,812,Clementi,Sunset Way,nature,beach,"beach in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:41.769943,text_search,2,AIzaSy...8yB0,813,Clementi,Sunset Way,nature,waterfront,"waterfront in Sunset Way, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:42.394207,text_search,2,AIzaSy...8yB0,814,Clementi,Sunset Way,nature,park connector,"park connector in Sunset Way, Clementi, Singapore",OK,,3,
+2026-07-19T13:39:43.085082,text_search,2,AIzaSy...8yB0,815,Clementi,Toh Tuck,education,kindergarten,"kindergarten in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:43.967612,text_search,2,AIzaSy...8yB0,816,Clementi,Toh Tuck,education,childcare centre,"childcare centre in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:44.745405,text_search,2,AIzaSy...8yB0,817,Clementi,Toh Tuck,education,primary school,"primary school in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:45.906147,text_search,2,AIzaSy...8yB0,818,Clementi,Toh Tuck,education,secondary school,"secondary school in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:46.829031,text_search,2,AIzaSy...8yB0,819,Clementi,Toh Tuck,education,junior college,"junior college in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:47.743792,text_search,2,AIzaSy...8yB0,820,Clementi,Toh Tuck,education,polytechnic,"polytechnic in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:48.378589,text_search,2,AIzaSy...8yB0,821,Clementi,Toh Tuck,education,university,"university in Toh Tuck, Clementi, Singapore",OK,,17,
+2026-07-19T13:39:49.244886,text_search,2,AIzaSy...8yB0,822,Clementi,Toh Tuck,education,tuition centre,"tuition centre in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:49.934506,text_search,2,AIzaSy...8yB0,823,Clementi,Toh Tuck,education,library,"library in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:50.632221,text_search,2,AIzaSy...8yB0,824,Clementi,Toh Tuck,transport,MRT station,"MRT station in Toh Tuck, Clementi, Singapore",OK,,11,
+2026-07-19T13:39:51.403528,text_search,2,AIzaSy...8yB0,825,Clementi,Toh Tuck,transport,bus stop,"bus stop in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:52.043731,text_search,2,AIzaSy...8yB0,826,Clementi,Toh Tuck,transport,bus interchange,"bus interchange in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:52.673469,text_search,2,AIzaSy...8yB0,827,Clementi,Toh Tuck,transport,LRT station,"LRT station in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:53.618975,text_search,2,AIzaSy...8yB0,828,Clementi,Toh Tuck,food,hawker centre,"hawker centre in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:54.738857,text_search,2,AIzaSy...8yB0,829,Clementi,Toh Tuck,food,food court,"food court in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:55.688562,text_search,2,AIzaSy...8yB0,830,Clementi,Toh Tuck,food,coffee shop,"coffee shop in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:56.492325,text_search,2,AIzaSy...8yB0,831,Clementi,Toh Tuck,food,restaurant,"restaurant in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:57.300779,text_search,2,AIzaSy...8yB0,832,Clementi,Toh Tuck,food,cafe,"cafe in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:58.219397,text_search,2,AIzaSy...8yB0,833,Clementi,Toh Tuck,shopping,shopping mall,"shopping mall in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:39:59.356781,text_search,2,AIzaSy...8yB0,834,Clementi,Toh Tuck,shopping,supermarket,"supermarket in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:00.416293,text_search,2,AIzaSy...8yB0,835,Clementi,Toh Tuck,shopping,grocery store,"grocery store in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:01.411262,text_search,2,AIzaSy...8yB0,836,Clementi,Toh Tuck,shopping,convenience store,"convenience store in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:02.366111,text_search,2,AIzaSy...8yB0,837,Clementi,Toh Tuck,shopping,wet market,"wet market in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:03.376609,text_search,2,AIzaSy...8yB0,838,Clementi,Toh Tuck,recreation,gym,"gym in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:04.231666,text_search,2,AIzaSy...8yB0,839,Clementi,Toh Tuck,recreation,sports centre,"sports centre in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:05.095438,text_search,2,AIzaSy...8yB0,840,Clementi,Toh Tuck,recreation,swimming complex,"swimming complex in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:05.918580,text_search,2,AIzaSy...8yB0,841,Clementi,Toh Tuck,recreation,cinema,"cinema in Toh Tuck, Clementi, Singapore",OK,,15,
+2026-07-19T13:40:06.868548,text_search,2,AIzaSy...8yB0,842,Clementi,Toh Tuck,recreation,community club,"community club in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:07.496011,text_search,2,AIzaSy...8yB0,843,Clementi,Toh Tuck,recreation,playground,"playground in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:08.521801,text_search,2,AIzaSy...8yB0,844,Clementi,Toh Tuck,nature,park,"park in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:09.275774,text_search,2,AIzaSy...8yB0,845,Clementi,Toh Tuck,nature,nature reserve,"nature reserve in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:10.352035,text_search,2,AIzaSy...8yB0,846,Clementi,Toh Tuck,nature,garden,"garden in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:11.309027,text_search,2,AIzaSy...8yB0,847,Clementi,Toh Tuck,nature,beach,"beach in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:12.208185,text_search,2,AIzaSy...8yB0,848,Clementi,Toh Tuck,nature,waterfront,"waterfront in Toh Tuck, Clementi, Singapore",OK,,15,
+2026-07-19T13:40:13.346599,text_search,2,AIzaSy...8yB0,849,Clementi,Toh Tuck,nature,park connector,"park connector in Toh Tuck, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:13.991784,text_search,2,AIzaSy...8yB0,850,Clementi,West Coast,education,kindergarten,"kindergarten in West Coast, Clementi, Singapore",OK,,19,
+2026-07-19T13:40:14.835457,text_search,2,AIzaSy...8yB0,851,Clementi,West Coast,education,childcare centre,"childcare centre in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:15.650815,text_search,2,AIzaSy...8yB0,852,Clementi,West Coast,education,primary school,"primary school in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:16.481985,text_search,2,AIzaSy...8yB0,853,Clementi,West Coast,education,secondary school,"secondary school in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:17.455081,text_search,2,AIzaSy...8yB0,854,Clementi,West Coast,education,junior college,"junior college in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:18.286967,text_search,2,AIzaSy...8yB0,855,Clementi,West Coast,education,polytechnic,"polytechnic in West Coast, Clementi, Singapore",OK,,13,
+2026-07-19T13:40:19.166578,text_search,2,AIzaSy...8yB0,856,Clementi,West Coast,education,university,"university in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:19.966972,text_search,2,AIzaSy...8yB0,857,Clementi,West Coast,education,tuition centre,"tuition centre in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:21.022456,text_search,2,AIzaSy...8yB0,858,Clementi,West Coast,education,library,"library in West Coast, Clementi, Singapore",OK,,2,
+2026-07-19T13:40:21.858410,text_search,2,AIzaSy...8yB0,859,Clementi,West Coast,transport,MRT station,"MRT station in West Coast, Clementi, Singapore",OK,,6,
+2026-07-19T13:40:22.689371,text_search,2,AIzaSy...8yB0,860,Clementi,West Coast,transport,bus stop,"bus stop in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:23.818398,text_search,2,AIzaSy...8yB0,861,Clementi,West Coast,transport,bus interchange,"bus interchange in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:24.827831,text_search,2,AIzaSy...8yB0,862,Clementi,West Coast,transport,LRT station,"LRT station in West Coast, Clementi, Singapore",OK,,6,
+2026-07-19T13:40:25.783002,text_search,2,AIzaSy...8yB0,863,Clementi,West Coast,food,hawker centre,"hawker centre in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:26.817028,text_search,2,AIzaSy...8yB0,864,Clementi,West Coast,food,food court,"food court in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:27.694065,text_search,2,AIzaSy...8yB0,865,Clementi,West Coast,food,coffee shop,"coffee shop in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:28.372951,text_search,2,AIzaSy...8yB0,866,Clementi,West Coast,food,restaurant,"restaurant in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:29.270225,text_search,2,AIzaSy...8yB0,867,Clementi,West Coast,food,cafe,"cafe in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:30.279745,text_search,2,AIzaSy...8yB0,868,Clementi,West Coast,shopping,shopping mall,"shopping mall in West Coast, Clementi, Singapore",OK,,5,
+2026-07-19T13:40:31.304271,text_search,2,AIzaSy...8yB0,869,Clementi,West Coast,shopping,supermarket,"supermarket in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:32.737150,text_search,2,AIzaSy...8yB0,870,Clementi,West Coast,shopping,grocery store,"grocery store in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:33.400975,text_search,2,AIzaSy...8yB0,871,Clementi,West Coast,shopping,convenience store,"convenience store in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:34.142010,text_search,2,AIzaSy...8yB0,872,Clementi,West Coast,shopping,wet market,"wet market in West Coast, Clementi, Singapore",OK,,15,
+2026-07-19T13:40:34.957217,text_search,2,AIzaSy...8yB0,873,Clementi,West Coast,recreation,gym,"gym in West Coast, Clementi, Singapore",OK,,7,
+2026-07-19T13:40:35.802067,text_search,2,AIzaSy...8yB0,874,Clementi,West Coast,recreation,sports centre,"sports centre in West Coast, Clementi, Singapore",OK,,17,
+2026-07-19T13:40:37.137468,text_search,2,AIzaSy...8yB0,875,Clementi,West Coast,recreation,swimming complex,"swimming complex in West Coast, Clementi, Singapore",OK,,6,
+2026-07-19T13:40:37.821617,text_search,2,AIzaSy...8yB0,876,Clementi,West Coast,recreation,cinema,"cinema in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:38.409451,text_search,2,AIzaSy...8yB0,877,Clementi,West Coast,recreation,community club,"community club in West Coast, Clementi, Singapore",OK,,1,
+2026-07-19T13:40:39.359614,text_search,2,AIzaSy...8yB0,878,Clementi,West Coast,recreation,playground,"playground in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:40.102052,text_search,2,AIzaSy...8yB0,879,Clementi,West Coast,nature,park,"park in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:41.289474,text_search,2,AIzaSy...8yB0,880,Clementi,West Coast,nature,nature reserve,"nature reserve in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:42.042617,text_search,2,AIzaSy...8yB0,881,Clementi,West Coast,nature,garden,"garden in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:43.074815,text_search,2,AIzaSy...8yB0,882,Clementi,West Coast,nature,beach,"beach in West Coast, Clementi, Singapore",OK,,20,
+2026-07-19T13:40:43.917647,text_search,2,AIzaSy...8yB0,883,Clementi,West Coast,nature,waterfront,"waterfront in West Coast, Clementi, Singapore",OK,,4,
+2026-07-19T13:40:44.702408,text_search,2,AIzaSy...8yB0,884,Clementi,West Coast,nature,park connector,"park connector in West Coast, Clementi, Singapore",OK,,1,
+2026-07-19T13:40:45.355237,place_details_reviews,2,AIzaSy...8yB0,885,Clementi,Clementi Central,education,kindergarten,ChIJv9msmZka2jERfSSohCAPsV8,OK,,5,Clementi Woods Kindergarten
+2026-07-19T13:40:45.786750,place_details_reviews,2,AIzaSy...8yB0,886,Clementi,Clementi Central,education,kindergarten,ChIJ_31s5Y4a2jERTj7-Vwmg9f4,OK,,5,HATCH by TOUCH Preschools@Clementi 333
+2026-07-19T13:40:46.638881,place_details_reviews,2,AIzaSy...8yB0,887,Clementi,Clementi Central,education,childcare centre,ChIJQ_ullaob2jERM_eDWJztr4g,OK,,5,MindChamps MindSpace @ Clementi Central | After School Student Care for P1-P5 | MindChamps Enrichment & PSLE for P1-P6
+2026-07-19T13:40:47.232518,place_details_reviews,2,AIzaSy...8yB0,888,Clementi,Clementi Central,education,primary school,ChIJgzPSLZAa2jERfE9_WhsbuJU,OK,,0,Clementi Primary School
+2026-07-19T13:40:47.765868,place_details_reviews,2,AIzaSy...8yB0,889,Clementi,Clementi Central,education,primary school,ChIJPYcisoQa2jERNFMXy8mgssw,OK,,0,Pei Tong Primary School
+2026-07-19T13:40:48.299010,place_details_reviews,2,AIzaSy...8yB0,890,Clementi,Clementi Central,education,secondary school,ChIJQZgPTpAa2jER9P9PQ1O8K48,OK,,0,Clementi Town Secondary School
+2026-07-19T13:40:48.798238,place_details_reviews,2,AIzaSy...8yB0,891,Clementi,Clementi Central,education,secondary school,ChIJHZaFrPQa2jER3PP0AhzvhCU,OK,,0,Nan Hua High School
+2026-07-19T13:40:49.384949,place_details_reviews,2,AIzaSy...8yB0,892,Clementi,Clementi Central,education,junior college,ChIJq6qq2oUa2jERdIXhE3knPCM,OK,,5,Clementi Community Centre
+2026-07-19T13:40:49.955316,place_details_reviews,2,AIzaSy...8yB0,893,Clementi,Clementi Central,education,junior college,ChIJq8UGJo4a2jER0ypiQDLiXpg,OK,,5,The Clementi Mall
+2026-07-19T13:40:50.625095,place_details_reviews,2,AIzaSy...8yB0,894,Clementi,Clementi Central,education,polytechnic,ChIJWeO0jn0Q2jERQwzr3v_n0nU,OK,,5,Ngee Ann Polytechnic
+2026-07-19T13:40:51.109272,place_details_reviews,2,AIzaSy...8yB0,895,Clementi,Clementi Central,education,polytechnic,ChIJCZ8A4H0Q2jERHSbMwTO6bh4,OK,,5,Ngee Ann CET Academy
+2026-07-19T13:40:51.852269,place_details_reviews,2,AIzaSy...8yB0,896,Clementi,Clementi Central,education,university,ChIJvQQziYAQ2jERCOP-JKA4N9k,OK,,5,Singapore University of Social Sciences
+2026-07-19T13:40:52.262981,place_details_reviews,2,AIzaSy...8yB0,897,Clementi,Clementi Central,education,university,ChIJvQQziYAQ2jERQn5ETm_nicg,OK,,5,SIM Global Education
+2026-07-19T13:40:53.297411,place_details_reviews,2,AIzaSy...8yB0,898,Clementi,Clementi Central,education,tuition centre,ChIJQTCeRYUb2jER5TPLc9QLANQ,OK,,5,Yi Xue Learning Centre (易学堂) - Clementi
+2026-07-19T13:40:53.991689,place_details_reviews,2,AIzaSy...8yB0,899,Clementi,Clementi Central,education,tuition centre,ChIJvc9hXngb2jERYfEsNB9VTpM,OK,,5,Ace Academia Education Centre - Primary and Secondary Math and Science Tuition Clementi
+2026-07-19T13:40:54.612737,place_details_reviews,2,AIzaSy...8yB0,900,Clementi,Clementi Central,education,library,ChIJAQBALo4a2jERvRLiVO2P_1U,OK,,5,Clementi Library
+2026-07-19T13:40:55.353422,place_details_reviews,2,AIzaSy...8yB0,901,Clementi,Clementi Central,transport,MRT station,ChIJ3xyNSo4a2jERqNGwk8wG_NA,OK,,5,Clementi MRT station
+2026-07-19T13:40:55.834243,place_details_reviews,2,AIzaSy...8yB0,902,Clementi,Clementi Central,transport,MRT station,ChIJwSNoSo4a2jERJV-XA_Ifq-Q,OK,,5,Clementi
+2026-07-19T13:40:56.361688,place_details_reviews,2,AIzaSy...8yB0,903,Clementi,Clementi Central,transport,bus stop,ChIJ9fbV3o8a2jEReuPAs7NXGzY,OK,,5,Clementi
+2026-07-19T13:40:56.795376,place_details_reviews,2,AIzaSy...8yB0,904,Clementi,Clementi Central,transport,bus stop,ChIJT0PyK44a2jER1jVN-Eu18cI,OK,,5,Clementi Interchange
+2026-07-19T13:40:57.656298,place_details_reviews,2,AIzaSy...8yB0,905,Clementi,Clementi Central,transport,bus interchange,ChIJZ5viQtIb2jERyXcHanYDnwQ,OK,,5,Clementi Bus Interchange
+2026-07-19T13:40:58.361810,place_details_reviews,2,AIzaSy...8yB0,906,Clementi,Clementi Central,food,hawker centre,ChIJD8PLCI4a2jERgSR2V_uOcBs,OK,,5,Clementi 448 Market & Food Centre
+2026-07-19T13:40:59.242717,place_details_reviews,2,AIzaSy...8yB0,907,Clementi,Clementi Central,food,hawker centre,ChIJVfXm0Yga2jERL-ikNXm_glE,OK,,5,353 Clementi Food Centre
+2026-07-19T13:40:59.702945,place_details_reviews,2,AIzaSy...8yB0,908,Clementi,Clementi Central,food,food court,ChIJscN7Mo4a2jERdItAjVicHh4,OK,,5,EAT.
+2026-07-19T13:41:00.314609,place_details_reviews,2,AIzaSy...8yB0,909,Clementi,Clementi Central,food,coffee shop,ChIJPcyDeJ0b2jERlWyDy5xtPas,OK,,5,BK@328 Clementi
+2026-07-19T13:41:01.140665,place_details_reviews,2,AIzaSy...8yB0,910,Clementi,Clementi Central,food,coffee shop,ChIJsagBcgAb2jERAeP1PYWVL58,OK,,5,Grounds On A Hill Coffee
+2026-07-19T13:41:01.891147,place_details_reviews,2,AIzaSy...8yB0,911,Clementi,Clementi Central,food,restaurant,ChIJqazlRwAb2jERgoxVBcV6Rn8,OK,,5,Beach Road Scissors Cut Curry Rice - Clementi Mall
+2026-07-19T13:41:02.645457,place_details_reviews,2,AIzaSy...8yB0,912,Clementi,Clementi Central,food,cafe,ChIJcXPxPAAb2jERncmNWc0znBk,OK,,5,OLLA Specialty Coffee (Clementi)
+2026-07-19T13:41:03.324343,place_details_reviews,2,AIzaSy...8yB0,913,Clementi,Clementi Central,shopping,shopping mall,ChIJx-z0woAb2jERWCikcBMIH5w,OK,,5,Clementi Town Centre
+2026-07-19T13:41:03.702734,place_details_reviews,2,AIzaSy...8yB0,914,Clementi,Clementi Central,shopping,supermarket,ChIJY4MaLY4a2jERIzLyNGQ4E0c,OK,,5,FairPrice Finest The Clementi Mall
+2026-07-19T13:41:04.466009,place_details_reviews,2,AIzaSy...8yB0,915,Clementi,Clementi Central,shopping,supermarket,ChIJ8Ws24PEa2jEReonyo71rFUo,OK,,5,Sheng Siong Supermarket
+2026-07-19T13:41:05.096988,place_details_reviews,2,AIzaSy...8yB0,916,Clementi,Clementi Central,shopping,convenience store,ChIJOx9HMLAb2jERtgjYW9s9ipQ,OK,,5,7-Eleven
+2026-07-19T13:41:05.537258,place_details_reviews,2,AIzaSy...8yB0,917,Clementi,Clementi Central,shopping,convenience store,ChIJw32T_usb2jERPQ8B6sE5jCI,OK,,5,7-Eleven
+2026-07-19T13:41:05.992475,place_details_reviews,2,AIzaSy...8yB0,918,Clementi,Clementi Central,shopping,wet market,ChIJL8mDgTYb2jERfiUt1Rtxqhw,OK,,1,Xuan's Fish
+2026-07-19T13:41:06.591812,place_details_reviews,2,AIzaSy...8yB0,919,Clementi,Clementi Central,recreation,gym,ChIJSfXDmI0a2jERDLaKw4Sp5Tc,OK,,5,Clementi ActiveSG Gym
+2026-07-19T13:41:07.119671,place_details_reviews,2,AIzaSy...8yB0,920,Clementi,Clementi Central,recreation,gym,ChIJEaSloh8b2jERrZ8ril0BArE,OK,,5,Anytime Fitness Clementi City
+2026-07-19T13:41:07.770347,place_details_reviews,2,AIzaSy...8yB0,921,Clementi,Clementi Central,recreation,sports centre,ChIJgRNCmI0a2jERsaiX0wOxGlE,OK,,5,Clementi Sport Centre
+2026-07-19T13:41:08.476893,place_details_reviews,2,AIzaSy...8yB0,922,Clementi,Clementi Central,recreation,sports centre,ChIJi6fqmI0a2jERdXJz8ecovMg,OK,,5,Clementi Sport Hall
+2026-07-19T13:41:09.059587,place_details_reviews,2,AIzaSy...8yB0,923,Clementi,Clementi Central,recreation,swimming complex,ChIJI-DMoY0a2jERfwouQaKgsSQ,OK,,5,Clementi Swimming Complex
+2026-07-19T13:41:10.008692,place_details_reviews,2,AIzaSy...8yB0,924,Clementi,Clementi Central,recreation,cinema,ChIJi1x76o0a2jERRpEEL3FuXJk,OK,,5,321 Clementi
+2026-07-19T13:41:10.720651,place_details_reviews,2,AIzaSy...8yB0,925,Clementi,Clementi Central,recreation,community club,ChIJDSW57PEa2jEROqULbMq8p1s,OK,,5,West Coast Community Centre
+2026-07-19T13:41:11.255651,place_details_reviews,2,AIzaSy...8yB0,926,Clementi,Clementi Central,recreation,playground,ChIJH1rTE9Qb2jERoCIA3iEKZBQ,OK,,1,Clementi Peaks Playground
+2026-07-19T13:41:11.784511,place_details_reviews,2,AIzaSy...8yB0,927,Clementi,Clementi Central,recreation,playground,ChIJ_3Bj3IQa2jERM0aLDH-DUqA,OK,,5,Firefly Park
+2026-07-19T13:41:12.403587,place_details_reviews,2,AIzaSy...8yB0,928,Clementi,Clementi Central,nature,park,ChIJNxKJWoAa2jERpxRB1Mt5wt8,OK,,5,Clementi Neighbourhood Park
+2026-07-19T13:41:13.077110,place_details_reviews,2,AIzaSy...8yB0,929,Clementi,Clementi Central,nature,nature reserve,ChIJBWqUMgAb2jERrypB00v_qmQ,OK,,5,Clementi Nature Trail
+2026-07-19T13:41:13.799606,place_details_reviews,2,AIzaSy...8yB0,930,Clementi,Clementi Central,nature,nature reserve,ChIJJyFOfJ4R2jER0JjWJc5kt-M,OK,,5,Clementi Forest
+2026-07-19T13:41:14.577740,place_details_reviews,2,AIzaSy...8yB0,931,Clementi,Clementi Central,nature,garden,ChIJyYoJPEwb2jERxZ4FLdJf8GA,OK,,5,Seoul Garden The Clementi Mall
+2026-07-19T13:41:15.390366,place_details_reviews,2,AIzaSy...8yB0,932,Clementi,Clementi Central,nature,garden,ChIJF3hKujob2jERD6QEyf7zKDE,OK,,4,Rain Garden
+2026-07-19T13:41:16.285819,place_details_reviews,2,AIzaSy...8yB0,933,Clementi,Clementi Central,nature,waterfront,ChIJ96HBJZ8a2jERl1GsjJmk-70,OK,,5,Waterfront @ Faber
+2026-07-19T13:41:16.842313,place_details_reviews,2,AIzaSy...8yB0,934,Clementi,Clementi Central,nature,park connector,ChIJj7VWGwkb2jERhe3RarwyrPs,OK,,5,Ulu Pandan Park Connector (Clementi Stretch)
+2026-07-19T13:41:17.606531,place_details_reviews,2,AIzaSy...8yB0,935,Clementi,Clementi Central,nature,park connector,ChIJJTvN5Ckb2jERdwPiAsqZxOo,OK,,2,West Coast Park Connector
+2026-07-19T13:41:18.444877,place_details_reviews,2,AIzaSy...8yB0,936,Clementi,Clementi North,education,childcare centre,ChIJA8HXatgb2jERkOHJRMD17G8,OK,,5,My First Skool at Blk 463 Clementi
+2026-07-19T13:41:18.843538,place_details_reviews,2,AIzaSy...8yB0,937,Clementi,Clementi North,education,junior college,ChIJp6tPGPIa2jER6d7E_4I65Z0,OK,,5,"Simon Eio Learning Centre - Primary, Secondary and JC Math & Science Tuition @ Clementi"
+2026-07-19T13:41:19.547649,place_details_reviews,2,AIzaSy...8yB0,938,Clementi,Clementi North,education,junior college,ChIJN2U85fIa2jERU3xusMZifDo,OK,,5,International Community School (Singapore)
+2026-07-19T13:41:20.217163,place_details_reviews,2,AIzaSy...8yB0,939,Clementi,Clementi North,transport,MRT station,ChIJiweWNQAb2jERMS7B521X5wA,OK,,1,Clementi MRT Station (CR17)
+2026-07-19T13:41:20.786215,place_details_reviews,2,AIzaSy...8yB0,940,Clementi,Clementi North,transport,bus stop,ChIJxX3LtI8a2jER6HRFM0ONlvw,OK,,5,Clementi Stn Exit B
+2026-07-19T13:41:21.311489,place_details_reviews,2,AIzaSy...8yB0,941,Clementi,Clementi North,food,restaurant,ChIJe3Q6AFAb2jERZ9Eq4mCchIE,OK,,5,NeNe Chicken @ Clementi NorthArc
+2026-07-19T13:41:21.795544,place_details_reviews,2,AIzaSy...8yB0,942,Clementi,Clementi North,food,restaurant,ChIJbfDuOGwZ2jER0mtQ4rwdx7Q,OK,,5,Mariners' Corner Restaurant
+2026-07-19T13:41:22.381635,place_details_reviews,2,AIzaSy...8yB0,943,Clementi,Clementi North,food,cafe,ChIJS2jBvNMb2jER9FULc9cZfZM,OK,,5,Monday Coffee Bar
+2026-07-19T13:41:23.214278,place_details_reviews,2,AIzaSy...8yB0,944,Clementi,Clementi North,shopping,supermarket,ChIJgyzxhIwa2jER7b7r_1rt5s0,OK,,5,Sheng Siong Supermarket
+2026-07-19T13:41:28.988927,place_details_reviews,2,AIzaSy...8yB0,945,Clementi,Clementi North,shopping,convenience store,ChIJK9cxbgAb2jERtMVwGKw1hZ8,OK,,5,FairPrice Xpress
+2026-07-19T13:41:29.517291,place_details_reviews,2,AIzaSy...8yB0,946,Clementi,Clementi North,shopping,convenience store,ChIJhVUFPwAb2jERkGgL7N-LfeU,OK,,5,7-Eleven
+2026-07-19T13:41:30.359718,place_details_reviews,2,AIzaSy...8yB0,947,Clementi,Clementi North,shopping,wet market,ChIJ847ZiBAb2jERBx6e7Mn67YM,OK,,5,Fresh Stop (Chen Ayam)
+2026-07-19T13:41:30.998626,place_details_reviews,2,AIzaSy...8yB0,948,Clementi,Clementi North,recreation,gym,ChIJMxtpJdgb2jER9nq3hCiS2pA,OK,,5,Anytime Fitness Clementi 354
+2026-07-19T13:41:31.753483,place_details_reviews,2,AIzaSy...8yB0,949,Clementi,Clementi North,recreation,playground,ChIJV2vew3sb2jERVlZRX7NtwuQ,OK,,1,Clementi NorthArc Park & Playground
+2026-07-19T13:41:32.186136,place_details_reviews,3,AIzaSy...vK38,0,Clementi,Clementi North,nature,garden,ChIJYzld-igb2jER2ETu46R0d1I,OK,,5,Clementi NorthArc
+2026-07-19T13:41:33.028911,place_details_reviews,3,AIzaSy...vK38,1,Clementi,Clementi North,nature,garden,ChIJX04hQosb2jERoWtMeITGI6g,OK,,1,Allotment Gardens
+2026-07-19T13:41:33.467151,place_details_reviews,3,AIzaSy...vK38,2,Clementi,Clementi North,nature,beach,ChIJQ8uk4vwa2jERqMrT6OFBMuw,OK,,5,West Coast Park
+2026-07-19T13:41:34.208460,place_details_reviews,3,AIzaSy...vK38,3,Clementi,Clementi West,education,kindergarten,ChIJg7-WfI8Q2jERap268xZ4sx4,OK,,5,Zee Learning Cove (West Coast)
+2026-07-19T13:41:34.608373,place_details_reviews,3,AIzaSy...vK38,4,Clementi,Clementi West,education,childcare centre,ChIJE9H8xe0a2jERXzF6aD5Kjig,OK,,1,Little Dolphins Playskool
+2026-07-19T13:41:35.114471,place_details_reviews,3,AIzaSy...vK38,5,Clementi,Clementi West,education,childcare centre,ChIJb_fg-DIb2jERZNBS0tTlzd0,OK,,5,Artemis Preskool @ West Coast
+2026-07-19T13:41:35.841277,place_details_reviews,3,AIzaSy...vK38,6,Clementi,Clementi West,education,primary school,ChIJ88J-HJQa2jERhTgw15UKly8,OK,,0,Qifa Primary School
+2026-07-19T13:41:36.322407,place_details_reviews,3,AIzaSy...vK38,7,Clementi,Clementi West,education,secondary school,ChIJo6oYDmEb2jERxsECpdT_e2k,OK,,0,Kent Ridge Secondary School
+2026-07-19T13:41:36.822940,place_details_reviews,3,AIzaSy...vK38,8,Clementi,Clementi West,education,polytechnic,ChIJWz1uAgAR2jERcP7OtfeddP4,OK,,1,Block 4 Ngee Ann Polytechnic
+2026-07-19T13:41:37.531645,place_details_reviews,3,AIzaSy...vK38,9,Clementi,Clementi West,education,library,ChIJmYVTSugb2jERP-l57ZRd5sI,OK,,3,Comics Library at West Coast Community Centre
+2026-07-19T13:41:38.308637,place_details_reviews,3,AIzaSy...vK38,10,Clementi,Clementi West,transport,bus stop,ChIJc5Z5GvIa2jERnocxXb8h0Kg,OK,,5,Blk 726 Clementi West Mkt
+2026-07-19T13:41:38.832909,place_details_reviews,3,AIzaSy...vK38,11,Clementi,Clementi West,food,hawker centre,ChIJGVasnbwb2jERCVdaOVAZfis,OK,,5,West Coast Market Square
+2026-07-19T13:41:39.659972,place_details_reviews,3,AIzaSy...vK38,12,Clementi,Clementi West,food,coffee shop,ChIJMcPrCLsb2jERepk1_M2ySu0,OK,,5,Doublechin Cafe
+2026-07-19T13:41:40.667801,place_details_reviews,3,AIzaSy...vK38,13,Clementi,Clementi West,food,coffee shop,ChIJHenk0Z4b2jERXaa6OzKZP74,OK,,5,Chang Cheng Mee Wah Coffee Shop
+2026-07-19T13:41:41.312722,place_details_reviews,3,AIzaSy...vK38,14,Clementi,Clementi West,food,restaurant,ChIJr-8uaDcb2jERaSU-yzKU938,OK,,5,Wen Kee Live Seafood 文记活海鲜
+2026-07-19T13:41:41.924713,place_details_reviews,3,AIzaSy...vK38,15,Clementi,Clementi West,food,restaurant,ChIJEYbG7_Ea2jERzPiMfCb8yVY,OK,,5,Island Penang Kitchen
+2026-07-19T13:41:42.719630,place_details_reviews,3,AIzaSy...vK38,16,Clementi,Clementi West,food,cafe,ChIJ_8M8XRob2jERNlp5OHUVWRQ,OK,,5,Benches Cafe
+2026-07-19T13:41:43.564621,place_details_reviews,3,AIzaSy...vK38,17,Clementi,Clementi West,shopping,shopping mall,ChIJdxS7gPEa2jER1iMe8Ai90Ts,OK,,5,West Coast Plaza
+2026-07-19T13:41:44.300300,place_details_reviews,3,AIzaSy...vK38,18,Clementi,Clementi West,shopping,convenience store,ChIJdxXgOU0b2jERxYxGaOz919w,OK,,5,Delight Supermart Pte Ltd
+2026-07-19T13:41:44.851642,place_details_reviews,3,AIzaSy...vK38,19,Clementi,Clementi West,recreation,gym,ChIJS3JE5Ggb2jERRHDCUkB7e5E,OK,,5,BFT West Coast Plaza
+2026-07-19T13:41:45.441299,place_details_reviews,3,AIzaSy...vK38,20,Clementi,Clementi West,recreation,gym,ChIJLXtnjpMa2jERBuUUK527K8c,OK,,5,Anytime Fitness West Coast Plaza
+2026-07-19T13:41:46.220966,place_details_reviews,3,AIzaSy...vK38,21,Clementi,Clementi West,recreation,playground,ChIJhzy4XwAb2jEReYSdhJPMdIw,OK,,1,Playground - Blk 706 Clementi West St 2
+2026-07-19T13:41:46.605547,place_details_reviews,3,AIzaSy...vK38,22,Clementi,Clementi West,recreation,playground,ChIJ1x_OK3sb2jERobrp1u3ruFw,OK,,5,801 West Coast ParkView Playground
+2026-07-19T13:41:47.076134,place_details_reviews,3,AIzaSy...vK38,23,Clementi,Clementi West,nature,beach,ChIJFct34Gob2jERj-st-5QYd7M,OK,,5,Sungei Pandan Kechil Canal
+2026-07-19T13:41:47.806770,place_details_reviews,3,AIzaSy...vK38,24,Clementi,Clementi West,nature,waterfront,ChIJhxOajPoa2jERmO22OnAxl5c,OK,,5,Westcove
+2026-07-19T13:41:48.212011,place_details_reviews,3,AIzaSy...vK38,25,Clementi,Clementi Woods,education,kindergarten,ChIJz1q49xgb2jERZIbSCBo5s30,OK,,5,Chatsworth Preschool - Clementi Woods
+2026-07-19T13:41:48.834937,place_details_reviews,3,AIzaSy...vK38,26,Clementi,Clementi Woods,food,restaurant,ChIJFZFkIvMb2jERv1AJFkM_aHE,OK,,5,Ah Jie BBQ seafood
+2026-07-19T13:41:49.653509,place_details_reviews,3,AIzaSy...vK38,27,Clementi,Clementi Woods,food,restaurant,ChIJKWej9oYb2jERggV3qnKwhSs,OK,,5,ShenFeng Seafood ZhiChar
+2026-07-19T13:41:50.351319,place_details_reviews,3,AIzaSy...vK38,28,Clementi,Clementi Woods,shopping,supermarket,ChIJN0XW2Y0a2jERQ9xu1Nm4Rkw,OK,,5,FairPrice
+2026-07-19T13:41:50.851568,place_details_reviews,3,AIzaSy...vK38,29,Clementi,Clementi Woods,recreation,playground,ChIJHSPvpfEa2jERhXuDEq88T7w,OK,,5,Clementi Woods Park
+2026-07-19T13:41:51.404292,place_details_reviews,3,AIzaSy...vK38,30,Clementi,Clementi Woods,nature,waterfront,ChIJrUx3Rvwa2jERV_ITCN7a5VU,OK,,5,Clementiwoods Condo
+2026-07-19T13:41:51.892122,place_details_reviews,3,AIzaSy...vK38,31,Clementi,Faber,education,kindergarten,ChIJ12Jl-zMb2jERvaz_-XnfC7U,OK,,5,Kensington Preschool West Coast
+2026-07-19T13:41:52.371817,place_details_reviews,3,AIzaSy...vK38,32,Clementi,Faber,education,childcare centre,ChIJFVJfyI0a2jERZ2MYrl3t_O0,OK,,5,"Agape Little Uni | Preschool, Childcare & Infant Care Centre in Clementi"
+2026-07-19T13:41:52.753836,place_details_reviews,3,AIzaSy...vK38,33,Clementi,Faber,education,junior college,ChIJESRAQ1sa2jERlSmmrDCCriw,OK,,5,Anglo-Chinese Junior College
+2026-07-19T13:41:53.419199,place_details_reviews,3,AIzaSy...vK38,34,Clementi,Faber,education,junior college,ChIJ61lTU6EQ2jERiBDECMxHYFY,OK,,5,National Junior College
+2026-07-19T13:41:54.109247,place_details_reviews,3,AIzaSy...vK38,35,Clementi,Faber,education,polytechnic,ChIJFXzxL2Aa2jERnoWTOdJdVKk,OK,,5,Singapore Polytechnic
+2026-07-19T13:41:54.800396,place_details_reviews,3,AIzaSy...vK38,36,Clementi,Faber,education,university,ChIJ2QJCeFYa2jERa434wdYIjUg,OK,,5,National University of Singapore
+2026-07-19T13:41:55.595329,place_details_reviews,3,AIzaSy...vK38,37,Clementi,Faber,education,university,ChIJbVhg_nQR2jERAYubPv3QZUc,OK,,0,Singapore University of Social Sciences (SUSS Clementi NP Blk 23)
+2026-07-19T13:41:56.180424,place_details_reviews,3,AIzaSy...vK38,38,Clementi,Faber,transport,bus stop,ChIJkWhs0vIa2jERZT_OANvhEuM,OK,,4,Clementi Flyover
+2026-07-19T13:41:56.670974,place_details_reviews,3,AIzaSy...vK38,39,Clementi,Faber,transport,bus stop,ChIJ7XpEO4sa2jER2kT10IOTVcg,OK,,5,Aft Clementi Ave 1
+2026-07-19T13:41:57.138105,place_details_reviews,3,AIzaSy...vK38,40,Clementi,Faber,food,food court,ChIJT-e8U4Ea2jERVC9f-T-IcTA,OK,,5,Food Park
+2026-07-19T13:41:57.803327,place_details_reviews,3,AIzaSy...vK38,41,Clementi,Faber,food,food court,ChIJz86GbZka2jERAFWm-I-74wU,OK,,5,Jovis Cafe - The Dining Place
+2026-07-19T13:41:58.165999,place_details_reviews,3,AIzaSy...vK38,42,Clementi,Faber,food,restaurant,ChIJXY4jC5ka2jER7-pcR1iUa70,OK,,5,Faber Valley Pub & Restaurant
+2026-07-19T13:41:58.759049,place_details_reviews,3,AIzaSy...vK38,43,Clementi,Faber,recreation,cinema,ChIJFx7cQgAR2jERum7NN5FvIOk,OK,,5,Shaw Theatres JEM
+2026-07-19T13:41:59.424322,place_details_reviews,3,AIzaSy...vK38,44,Clementi,Faber,recreation,playground,ChIJn1--Lpoa2jERiff3uLN6tcU,OK,,5,Faber Hill Playground
+2026-07-19T13:41:59.881813,place_details_reviews,3,AIzaSy...vK38,45,Clementi,Faber,nature,park,ChIJIaWxuJsa2jERGvoChGe8vLA,OK,,0,Faber Park
+2026-07-19T13:42:00.750886,place_details_reviews,3,AIzaSy...vK38,46,Clementi,Faber,nature,nature reserve,ChIJR9wDuIwQ2jERp5g9l0m9MQ0,OK,,5,Rifle Range Nature Park
+2026-07-19T13:42:01.413366,place_details_reviews,3,AIzaSy...vK38,47,Clementi,Faber,nature,garden,ChIJ3bfV7Dcb2jERqWC6pC8Gcp8,OK,,5,Far East Flora Centre
+2026-07-19T13:42:01.821251,place_details_reviews,3,AIzaSy...vK38,48,Clementi,Faber,nature,garden,ChIJMyLu454a2jERzimy_5l6hVA,OK,,5,Faber Heights Park
+2026-07-19T13:42:02.196174,place_details_reviews,3,AIzaSy...vK38,49,Clementi,Faber,nature,waterfront,ChIJLTBwCgAb2jERspUr0KEMYGg,OK,,3,Faber Residence
+2026-07-19T13:42:02.707198,place_details_reviews,3,AIzaSy...vK38,50,Clementi,Faber,nature,park connector,ChIJ8XlGQwUb2jEROBH9L3gn9o0,OK,,5,Ulu Pandan Park Connector
+2026-07-19T13:42:03.541562,place_details_reviews,3,AIzaSy...vK38,51,Clementi,Pandan,education,junior college,ChIJwURjtzoQ2jERlHPeEoKRpho,OK,,5,Millennia Institute
+2026-07-19T13:42:04.264519,place_details_reviews,3,AIzaSy...vK38,52,Clementi,Pandan,transport,bus stop,ChIJa0X_TIYa2jERIT8AEPYtE_g,OK,,3,Bef Clementi Rd
+2026-07-19T13:42:04.907192,place_details_reviews,3,AIzaSy...vK38,53,Clementi,Pandan,food,food court,ChIJwZ3e8YAb2jERq-gdbppCuxc,OK,,5,FoodStop West Coast
+2026-07-19T13:42:05.688650,place_details_reviews,3,AIzaSy...vK38,54,Clementi,Pandan,food,food court,ChIJUYd4EwAb2jERwPDZI8eDXlQ,OK,,5,111 Restaurant
+2026-07-19T13:42:06.587993,place_details_reviews,3,AIzaSy...vK38,55,Clementi,Pandan,food,restaurant,ChIJ_0dnTtwb2jERK4mQ3ngnayQ,OK,,5,Lazy Lizard - Pasir Panjang
+2026-07-19T13:42:07.016376,place_details_reviews,3,AIzaSy...vK38,56,Clementi,Pandan,food,restaurant,ChIJ7-AtdwAb2jER4FYq-pQVAeE,OK,,5,Shrimp House 虾居 (West Coast)
+2026-07-19T13:42:07.599196,place_details_reviews,3,AIzaSy...vK38,57,Clementi,Pandan,food,cafe,ChIJGRb30_Qb2jERDhsB6xV90Hk,OK,,5,Simple Café 簡單。
+2026-07-19T13:42:08.094500,place_details_reviews,3,AIzaSy...vK38,58,Clementi,Pandan,shopping,convenience store,ChIJ9z3zDAAb2jERhivZdv7qhbA,OK,,5,Su ဆု Minimart
+2026-07-19T13:42:08.886339,place_details_reviews,3,AIzaSy...vK38,59,Clementi,Pandan,shopping,wet market,ChIJA-S30F8b2jER46-WSc7Ak2g,OK,,5,Teban Gardens Wet Market
+2026-07-19T13:42:09.238104,place_details_reviews,3,AIzaSy...vK38,60,Clementi,Pandan,recreation,gym,ChIJe1aBYRwb2jERfzD_q169UrA,OK,,5,GOFIT Clementi
+2026-07-19T13:42:10.049927,place_details_reviews,3,AIzaSy...vK38,61,Clementi,Pandan,recreation,gym,ChIJJcl0IiYb2jERxHPkqfUAlnk,OK,,5,Homeground Gym & Pilates Clementi
+2026-07-19T13:42:10.504856,place_details_reviews,3,AIzaSy...vK38,62,Clementi,Pandan,recreation,swimming complex,ChIJWaHnCyAQ2jERlnBesVA4gic,OK,,5,Jurong East Swimming Complex
+2026-07-19T13:42:11.238090,place_details_reviews,3,AIzaSy...vK38,63,Clementi,Pandan,recreation,community club,ChIJ4ydWlqMa2jERWCR933Y5D7s,OK,,5,Ayer Rajah Community Club
+2026-07-19T13:42:11.603480,place_details_reviews,3,AIzaSy...vK38,64,Clementi,Pandan,recreation,playground,ChIJXQaYPaQb2jER8K5AKkAIffg,OK,,5,Wan To Play Candyland
+2026-07-19T13:42:12.202902,place_details_reviews,3,AIzaSy...vK38,65,Clementi,Pandan,nature,park,EiRVbHUgUGFuZGFuIFBhcmsgQ29ubmVjdG9yLCBTaW5nYXBvcmUiLiosChQKEgnN-iwAZxraMRFhhngXUE_olxIUChIJV4YgZpAa2jERoKTarqz3AAU,OK,,0,Ulu Pandan Park Connector
+2026-07-19T13:42:12.753581,place_details_reviews,3,AIzaSy...vK38,66,Clementi,Pandan,nature,garden,ChIJ-y8iC6Ma2jER9m4xIt5bF5U,OK,,0,Pandan Gardens
+2026-07-19T13:42:13.400367,place_details_reviews,3,AIzaSy...vK38,67,Clementi,Pandan,nature,park connector,ChIJK_1o8qIa2jERzisybK_sjEs,OK,,4,Pandan Garden Park Connector
+2026-07-19T13:42:13.944102,place_details_reviews,3,AIzaSy...vK38,68,Clementi,Sunset Way,education,kindergarten,ChIJKz89vIMa2jERZdIU9Cfbv2c,OK,,5,Brighton Montessori Sunset
+2026-07-19T13:42:14.831043,place_details_reviews,3,AIzaSy...vK38,69,Clementi,Sunset Way,education,kindergarten,ChIJgTnUcwAb2jERnv4AeuhiPgs,OK,,5,Maple Bear Sunset Way
+2026-07-19T13:42:15.590772,place_details_reviews,3,AIzaSy...vK38,70,Clementi,Sunset Way,education,junior college,ChIJP9YbiIUa2jERtX2JHIhZ2y8,OK,,4,Master Mentor Learning Centre
+2026-07-19T13:42:16.100355,place_details_reviews,3,AIzaSy...vK38,71,Clementi,Sunset Way,education,library,ChIJgSLBhIAQ2jER03pM4hD-5EY,OK,,5,Tay Eng Soon Library
+2026-07-19T13:42:16.584921,place_details_reviews,3,AIzaSy...vK38,72,Clementi,Sunset Way,transport,bus stop,ChIJv-onyIYa2jERcyqgLFImNIA,OK,,5,Blk 109
+2026-07-19T13:42:17.582158,place_details_reviews,3,AIzaSy...vK38,73,Clementi,Sunset Way,transport,LRT station,ChIJn7D8coQa2jERiSKXSS_tHe0,OK,,5,Sunset Way Railway Tracks
+2026-07-19T13:42:18.249236,place_details_reviews,3,AIzaSy...vK38,74,Clementi,Sunset Way,food,hawker centre,ChIJtbyEvYMa2jER77Hu-7hp-Eg,OK,,5,Clementi Arcade
+2026-07-19T13:42:18.970540,place_details_reviews,3,AIzaSy...vK38,75,Clementi,Sunset Way,food,food court,ChIJ6cVTvIMa2jERoTdx0Yl90Ao,OK,,5,Cafe Sunset Railway
+2026-07-19T13:42:19.562142,place_details_reviews,3,AIzaSy...vK38,76,Clementi,Sunset Way,food,coffee shop,ChIJ8e9lSuIb2jERq5pTQXUZvEs,OK,,5,Coffee & Friends (Sunset Way)
+2026-07-19T13:42:20.255390,place_details_reviews,3,AIzaSy...vK38,77,Clementi,Sunset Way,food,restaurant,ChIJxescUYEa2jERQAF3aQjd56U,OK,,5,Chin Huat Live Seafood
+2026-07-19T13:42:20.913976,place_details_reviews,3,AIzaSy...vK38,78,Clementi,Sunset Way,shopping,convenience store,ChIJiRVSS4Ea2jERz4B5894O_j8,OK,,5,7-Eleven
+2026-07-19T13:42:21.525626,place_details_reviews,3,AIzaSy...vK38,79,Clementi,Sunset Way,shopping,convenience store,ChIJF9WwooMa2jERojSmCo5p7XQ,OK,,5,Cold Storage
+2026-07-19T13:42:21.910169,place_details_reviews,3,AIzaSy...vK38,80,Clementi,Sunset Way,recreation,gym,ChIJOX1I98sb2jERzuhrDa4K3oM,OK,,5,OneFitFinity
+2026-07-19T13:42:22.695105,place_details_reviews,3,AIzaSy...vK38,81,Clementi,Sunset Way,recreation,gym,ChIJuUuORDob2jERmfgF6NeeBg0,OK,,0,The Gym Pod @ 113 Clementi Sunset Way
+2026-07-19T13:42:23.127629,place_details_reviews,3,AIzaSy...vK38,82,Clementi,Sunset Way,recreation,swimming complex,ChIJoXAXVngQ2jERUBFV7s44PWM,OK,,5,Clementi Park Condo
+2026-07-19T13:42:23.520105,place_details_reviews,3,AIzaSy...vK38,83,Clementi,Sunset Way,recreation,community club,ChIJ0f08QIEa2jERumfk1GoHGvU,OK,,3,Sunset Way Residents' Committee
+2026-07-19T13:42:24.186088,place_details_reviews,3,AIzaSy...vK38,84,Clementi,Sunset Way,recreation,playground,ChIJN7mZeHgQ2jERWJkf5Y5EL-E,OK,,5,Sunset Way Playground
+2026-07-19T13:42:24.894318,place_details_reviews,3,AIzaSy...vK38,85,Clementi,Sunset Way,nature,park,ChIJa-p4DngQ2jERpc5w4tUH6pg,OK,,5,Sunset Way Park
+2026-07-19T13:42:25.368540,place_details_reviews,3,AIzaSy...vK38,86,Clementi,Sunset Way,nature,garden,ChIJSXint3gQ2jERnjNjtcj52xo,OK,,5,Sunset Heights Open Space
+2026-07-19T13:42:26.203429,place_details_reviews,3,AIzaSy...vK38,87,Clementi,Sunset Way,nature,beach,ChIJ5-sa3Xob2jER38IAYFUmJck,OK,,5,Sunset Way Residence
+2026-07-19T13:42:27.307475,place_details_reviews,3,AIzaSy...vK38,88,Clementi,Toh Tuck,education,childcare centre,ChIJAQAAMPEa2jERYZpLfb7At0U,OK,,5,Little Skool-House Kent Vale
+2026-07-19T13:42:28.122474,place_details_reviews,3,AIzaSy...vK38,89,Clementi,Toh Tuck,education,primary school,ChIJF1fc0_Aa2jERRBt9Q6qpP7g,OK,,0,"The Japanese School, Singapore (Primary, Clementi Campus)"
+2026-07-19T13:42:28.933145,place_details_reviews,3,AIzaSy...vK38,90,Clementi,Toh Tuck,transport,bus stop,ChIJF1z_Npwa2jERQf9VQI71cHA,OK,,1,Bef Toh Tuck Ave
+2026-07-19T13:42:29.472325,place_details_reviews,3,AIzaSy...vK38,91,Clementi,Toh Tuck,transport,bus stop,ChIJHSFoU_ka2jER1hxgW5i82tQ,OK,,5,Kent Ridge Ter
+2026-07-19T13:42:30.162009,place_details_reviews,3,AIzaSy...vK38,92,Clementi,Toh Tuck,food,food court,ChIJrafOgW0Q2jERofCmL5b8VqU,OK,,5,FoodHub @ Enterprise Hub
+2026-07-19T13:42:30.938166,place_details_reviews,3,AIzaSy...vK38,93,Clementi,Toh Tuck,food,coffee shop,ChIJvzqs62Ib2jERNto8NzZ6t84,OK,,5,Toki Coffee (Home Based Cafe)
+2026-07-19T13:42:31.473426,place_details_reviews,3,AIzaSy...vK38,94,Clementi,Toh Tuck,food,restaurant,ChIJ210g4m0Q2jERchFyGAKdmO8,OK,,5,1345 Mookata & Bistro
+2026-07-19T13:42:32.204124,place_details_reviews,3,AIzaSy...vK38,95,Clementi,Toh Tuck,food,restaurant,ChIJ01L-jZUR2jERR7_ocHmMkVQ,OK,,5,32 Seafood | 煮炒 | 活海鲜
+2026-07-19T13:42:32.978843,place_details_reviews,3,AIzaSy...vK38,96,Clementi,Toh Tuck,shopping,shopping mall,ChIJ82AoVA8Q2jERkHnr1RPW9B4,OK,,5,Westgate
+2026-07-19T13:42:33.719363,place_details_reviews,3,AIzaSy...vK38,97,Clementi,Toh Tuck,shopping,wet market,ChIJJTlRDXob2jERj5kwD_iaF5U,OK,,4,Market Boy
+2026-07-19T13:42:34.398433,place_details_reviews,3,AIzaSy...vK38,98,Clementi,Toh Tuck,recreation,swimming complex,ChIJhYwEvhUQ2jERP9_qytcvWsU,OK,,5,Bukit Batok Swimming Complex
+2026-07-19T13:42:34.992238,place_details_reviews,3,AIzaSy...vK38,99,Clementi,Toh Tuck,recreation,playground,ChIJL-jdIuUa2jERgORf1PTFUow,OK,,5,Adventure Playground
+2026-07-19T13:42:35.543333,place_details_reviews,3,AIzaSy...vK38,100,Clementi,Toh Tuck,nature,park,ChIJe5RWDBIQ2jER4pA2An_wQAw,OK,,5,Toh Guan Park
+2026-07-19T13:42:36.053663,place_details_reviews,3,AIzaSy...vK38,101,Clementi,Toh Tuck,nature,nature reserve,ChIJs3oprUQQ2jERp8A9mbkPZJE,OK,,5,Bukit Batok Nature Park
+2026-07-19T13:42:36.836309,place_details_reviews,3,AIzaSy...vK38,102,Clementi,Toh Tuck,nature,garden,ChIJy8R9-tUR2jERbdFR-n66Hmk,OK,,5,Toh Yi Community Garden
+2026-07-19T13:42:37.328041,place_details_reviews,3,AIzaSy...vK38,103,Clementi,Toh Tuck,nature,beach,ChIJpRlNluQa2jERt1AMrgNfuhM,OK,,5,Promenade Lookout Jetty
+2026-07-19T13:42:37.809750,place_details_reviews,3,AIzaSy...vK38,104,Clementi,Toh Tuck,nature,waterfront,ChIJu7MGPOMa2jERiwWry4BnS2E,OK,,5,The Wharf
+2026-07-19T13:42:38.424975,place_details_reviews,3,AIzaSy...vK38,105,Clementi,Toh Tuck,nature,park connector,ChIJV0iBUwAb2jERVcTeHmRHQOQ,OK,,3,West Coast Park Connector
+2026-07-19T13:42:38.983278,place_details_reviews,3,AIzaSy...vK38,106,Clementi,West Coast,education,kindergarten,ChIJHxFCY_wa2jERmUyZeAKhW5I,OK,,5,The Schoolhouse West Coast
+2026-07-19T13:42:39.790946,place_details_reviews,3,AIzaSy...vK38,107,Clementi,West Coast,education,childcare centre,ChIJ5VYgsZMa2jERHIrJD8PXBSc,OK,,5,KidsCampus West Coast Childcare & Infant Care Centre
+2026-07-19T13:42:40.227231,place_details_reviews,3,AIzaSy...vK38,108,Clementi,West Coast,education,polytechnic,ChIJZX8AIGAa2jERZj1hXsMAZ3U,OK,,5,SP - Poly Marina
+2026-07-19T13:42:40.954797,place_details_reviews,3,AIzaSy...vK38,109,Clementi,West Coast,education,tuition centre,ChIJH8s-c4AV2jER1qYwcrlLBkM,OK,,5,HCL Education Centre
+2026-07-19T13:42:41.526320,place_details_reviews,3,AIzaSy...vK38,110,Clementi,West Coast,transport,MRT station,ChIJl4tKBgAb2jERT10N1zNblRk,OK,,4,West Coast MRT Station (CR18)
+2026-07-19T13:42:42.017218,place_details_reviews,3,AIzaSy...vK38,111,Clementi,West Coast,transport,bus stop,ChIJ_xWQwfEa2jERIDyoiPUelOI,OK,,2,West Coast CC
+2026-07-19T13:42:42.646695,place_details_reviews,3,AIzaSy...vK38,112,Clementi,West Coast,food,hawker centre,ChIJyRcdyZMa2jERVyFlLiByOAw,OK,,5,Ayer Rajah Food Centre
+2026-07-19T13:42:43.276514,place_details_reviews,3,AIzaSy...vK38,113,Clementi,West Coast,food,restaurant,ChIJdRS7gPEa2jER5dC1SNA90xA,OK,,5,West Co'z Cafe
+2026-07-19T13:42:44.163891,place_details_reviews,3,AIzaSy...vK38,114,Clementi,West Coast,food,restaurant,ChIJWw-iROgb2jER8v4-f4UhHUg,OK,,5,Sanook Kitchen - West Coast Plaza
+2026-07-19T13:42:44.802728,place_details_reviews,3,AIzaSy...vK38,115,Clementi,West Coast,shopping,supermarket,ChIJdxS7gPEa2jERd53GKJ48Dr4,OK,,5,Cold Storage
+2026-07-19T13:42:45.299734,place_details_reviews,3,AIzaSy...vK38,116,Clementi,West Coast,shopping,grocery store,ChIJh6ma4xwb2jERKEKoUAC-OKo,OK,,5,K-Market(Koryo Mart) West Coast Plaza
+2026-07-19T13:42:45.833805,place_details_reviews,3,AIzaSy...vK38,117,Clementi,West Coast,shopping,convenience store,ChIJrVzybQAb2jERZBI5RVlxv_M,OK,,5,GOOD PRICE HUB
+2026-07-19T13:42:46.448647,place_details_reviews,3,AIzaSy...vK38,118,Clementi,West Coast,recreation,playground,ChIJJY3VN5Ea2jER9ZH7oYW9FmE,OK,,5,West Coast Place Playground
+2026-07-19T13:42:47.005823,place_details_reviews,3,AIzaSy...vK38,119,Clementi,West Coast,nature,garden,ChIJUyBZUZYa2jERRwB3cRlQXVo,OK,,5,West Coast Gardens
+2026-07-19T13:42:47.495920,place_details_reviews,3,AIzaSy...vK38,120,Clementi,West Coast,nature,beach,ChIJP9VXGUYb2jERtdnj6hqK6J0,OK,,1,West coast Road

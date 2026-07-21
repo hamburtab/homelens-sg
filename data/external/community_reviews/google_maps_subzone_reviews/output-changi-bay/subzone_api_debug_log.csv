@@ -1,0 +1,19 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-20T15:27:26.555512,text_search,1,AIzaSy...IDGw,262,Changi Bay,Changi Bay,education,education facilities schools childcare libraries,"education facilities schools childcare libraries near Changi Bay, Changi Bay, Singapore",OK,,20,
+2026-07-20T15:27:27.713107,text_search,1,AIzaSy...IDGw,263,Changi Bay,Changi Bay,transport,public transport MRT LRT bus stops,"public transport MRT LRT bus stops near Changi Bay, Changi Bay, Singapore",OK,,20,
+2026-07-20T15:27:29.287552,text_search,1,AIzaSy...IDGw,264,Changi Bay,Changi Bay,food,food dining hawker centres restaurants cafes,"food dining hawker centres restaurants cafes near Changi Bay, Changi Bay, Singapore",OK,,20,
+2026-07-20T15:27:30.442032,text_search,1,AIzaSy...IDGw,265,Changi Bay,Changi Bay,shopping,shopping groceries malls supermarkets markets,"shopping groceries malls supermarkets markets near Changi Bay, Changi Bay, Singapore",OK,,20,
+2026-07-20T15:27:31.832323,text_search,1,AIzaSy...IDGw,266,Changi Bay,Changi Bay,recreation,recreation sports gyms swimming community clubs,"recreation sports gyms swimming community clubs near Changi Bay, Changi Bay, Singapore",OK,,13,
+2026-07-20T15:27:33.499991,text_search,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,nature,parks gardens nature waterfront park connectors,"parks gardens nature waterfront park connectors near Changi Bay, Changi Bay, Singapore",OK,,20,
+2026-07-20T15:27:33.526126,place_details_reviews,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,nature,parks gardens nature waterfront park connectors,ChIJ0QX_Brki2jER-pZKNdqk_a8,OK,,5,East Coast Park
+2026-07-20T15:27:33.526570,place_details_reviews,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,recreation,recreation sports gyms swimming community clubs,ChIJ1xgTQ7Ui2jERqLDkdtiHQl8,OK,,5,Heartbeat @ Bedok ActiveSG Swimming Complex
+2026-07-20T15:27:33.527667,place_details_reviews,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,food,food dining hawker centres restaurants cafes,ChIJ5Y6l4Q0Z2jERYL0KDIjT6v0,OK,,5,Lau Pa Sat
+2026-07-20T15:27:33.528473,place_details_reviews,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,recreation,recreation sports gyms swimming community clubs,ChIJ84xKhBc82jERLY4gV_u2jGo,OK,,5,Civil Service Club @ Changi
+2026-07-20T15:27:33.529016,place_details_reviews,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,transport,public transport MRT LRT bus stops,ChIJF7Q9Fow82jERNvbZPNr07Xo,OK,,5,Changi Airport
+2026-07-20T15:27:33.529375,place_details_reviews,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,education,education facilities schools childcare libraries,ChIJJfVEO6UZ2jERq7ZasSTiEgg,OK,,5,Central Library
+2026-07-20T15:27:33.529632,place_details_reviews,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,nature,parks gardens nature waterfront park connectors,ChIJUzbaYws82jERXHKMRlUKIug,OK,,5,Changi Beach Park
+2026-07-20T15:27:33.529825,place_details_reviews,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,shopping,shopping groceries malls supermarkets markets,ChIJq-d3hRY82jERfOWbep52mCs,OK,,5,Changi Village Hawker Centre
+2026-07-20T15:27:33.530267,place_details_reviews,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,education,education facilities schools childcare libraries,ChIJrzknUh892jERvwiQA4cBlu4,OK,,5,Changi Simei Community Club
+2026-07-20T15:27:33.530707,place_details_reviews,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,food,food dining hawker centres restaurants cafes,ChIJseQsTQ0Z2jERqpBTWF0Zf84,OK,,5,Maxwell Food Centre
+2026-07-20T15:27:33.530993,place_details_reviews,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,transport,public transport MRT LRT bus stops,ChIJtcq9et882jERXFLqMR93eiw,OK,,5,Upper Changi
+2026-07-20T15:27:33.531275,place_details_reviews,1,AIzaSy...IDGw,267,Changi Bay,Changi Bay,shopping,shopping groceries malls supermarkets markets,ChIJw3l-FL4X2jERw2pScvHQCbg,OK,,5,Jewel Changi Airport

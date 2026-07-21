@@ -1,0 +1,239 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-18T17:07:26.939656,text_search,2,AIzaSy...8yB0,357,Museum,Bras Basah,education,kindergarten,"kindergarten in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:27.780365,text_search,2,AIzaSy...8yB0,358,Museum,Bras Basah,education,childcare centre,"childcare centre in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:28.331176,text_search,2,AIzaSy...8yB0,359,Museum,Bras Basah,education,primary school,"primary school in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:29.117606,text_search,2,AIzaSy...8yB0,360,Museum,Bras Basah,education,secondary school,"secondary school in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:31.437548,text_search,2,AIzaSy...8yB0,361,Museum,Bras Basah,education,junior college,"junior college in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:32.232508,text_search,2,AIzaSy...8yB0,362,Museum,Bras Basah,education,polytechnic,"polytechnic in Bras Basah, Museum, Singapore",OK,,10,
+2026-07-18T17:07:32.981953,text_search,2,AIzaSy...8yB0,363,Museum,Bras Basah,education,university,"university in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:34.127980,text_search,2,AIzaSy...8yB0,364,Museum,Bras Basah,education,tuition centre,"tuition centre in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:34.785557,text_search,2,AIzaSy...8yB0,365,Museum,Bras Basah,education,library,"library in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:35.477026,text_search,2,AIzaSy...8yB0,366,Museum,Bras Basah,transport,MRT station,"MRT station in Bras Basah, Museum, Singapore",OK,,3,
+2026-07-18T17:07:36.179200,text_search,2,AIzaSy...8yB0,367,Museum,Bras Basah,transport,bus stop,"bus stop in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:36.909124,text_search,2,AIzaSy...8yB0,368,Museum,Bras Basah,transport,bus interchange,"bus interchange in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:37.509197,text_search,2,AIzaSy...8yB0,369,Museum,Bras Basah,transport,LRT station,"LRT station in Bras Basah, Museum, Singapore",OK,,3,
+2026-07-18T17:07:38.302226,text_search,2,AIzaSy...8yB0,370,Museum,Bras Basah,food,hawker centre,"hawker centre in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:39.338819,text_search,2,AIzaSy...8yB0,371,Museum,Bras Basah,food,food court,"food court in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:40.021175,text_search,2,AIzaSy...8yB0,372,Museum,Bras Basah,food,coffee shop,"coffee shop in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:40.928965,text_search,2,AIzaSy...8yB0,373,Museum,Bras Basah,food,restaurant,"restaurant in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:41.590756,text_search,2,AIzaSy...8yB0,374,Museum,Bras Basah,food,cafe,"cafe in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:42.334294,text_search,2,AIzaSy...8yB0,375,Museum,Bras Basah,shopping,shopping mall,"shopping mall in Bras Basah, Museum, Singapore",OK,,18,
+2026-07-18T17:07:43.397469,text_search,2,AIzaSy...8yB0,376,Museum,Bras Basah,shopping,supermarket,"supermarket in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:44.151187,text_search,2,AIzaSy...8yB0,377,Museum,Bras Basah,shopping,grocery store,"grocery store in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:45.062137,text_search,2,AIzaSy...8yB0,378,Museum,Bras Basah,shopping,convenience store,"convenience store in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:45.773344,text_search,2,AIzaSy...8yB0,379,Museum,Bras Basah,shopping,wet market,"wet market in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:46.836145,text_search,2,AIzaSy...8yB0,380,Museum,Bras Basah,recreation,gym,"gym in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:47.391085,text_search,2,AIzaSy...8yB0,381,Museum,Bras Basah,recreation,sports centre,"sports centre in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:48.189527,text_search,2,AIzaSy...8yB0,382,Museum,Bras Basah,recreation,swimming complex,"swimming complex in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:49.218237,text_search,2,AIzaSy...8yB0,383,Museum,Bras Basah,recreation,cinema,"cinema in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:50.175864,text_search,2,AIzaSy...8yB0,384,Museum,Bras Basah,recreation,community club,"community club in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:51.001038,text_search,2,AIzaSy...8yB0,385,Museum,Bras Basah,recreation,playground,"playground in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:51.940134,text_search,2,AIzaSy...8yB0,386,Museum,Bras Basah,nature,park,"park in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:52.674839,text_search,2,AIzaSy...8yB0,387,Museum,Bras Basah,nature,nature reserve,"nature reserve in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:53.679259,text_search,2,AIzaSy...8yB0,388,Museum,Bras Basah,nature,garden,"garden in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:54.639889,text_search,2,AIzaSy...8yB0,389,Museum,Bras Basah,nature,beach,"beach in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:55.534651,text_search,2,AIzaSy...8yB0,390,Museum,Bras Basah,nature,waterfront,"waterfront in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:56.334744,text_search,2,AIzaSy...8yB0,391,Museum,Bras Basah,nature,park connector,"park connector in Bras Basah, Museum, Singapore",OK,,20,
+2026-07-18T17:07:57.032831,text_search,2,AIzaSy...8yB0,392,Museum,Dhoby Ghaut,education,kindergarten,"kindergarten in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:07:57.763194,text_search,2,AIzaSy...8yB0,393,Museum,Dhoby Ghaut,education,childcare centre,"childcare centre in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:07:58.444821,text_search,2,AIzaSy...8yB0,394,Museum,Dhoby Ghaut,education,primary school,"primary school in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:07:59.091007,text_search,2,AIzaSy...8yB0,395,Museum,Dhoby Ghaut,education,secondary school,"secondary school in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:07:59.891288,text_search,2,AIzaSy...8yB0,396,Museum,Dhoby Ghaut,education,junior college,"junior college in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:00.458574,text_search,2,AIzaSy...8yB0,397,Museum,Dhoby Ghaut,education,polytechnic,"polytechnic in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:01.431671,text_search,2,AIzaSy...8yB0,398,Museum,Dhoby Ghaut,education,university,"university in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:02.373055,text_search,2,AIzaSy...8yB0,399,Museum,Dhoby Ghaut,education,tuition centre,"tuition centre in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:02.937537,text_search,2,AIzaSy...8yB0,400,Museum,Dhoby Ghaut,education,library,"library in Dhoby Ghaut, Museum, Singapore",OK,,12,
+2026-07-18T17:08:03.495955,text_search,2,AIzaSy...8yB0,401,Museum,Dhoby Ghaut,transport,MRT station,"MRT station in Dhoby Ghaut, Museum, Singapore",OK,,1,
+2026-07-18T17:08:04.171179,text_search,2,AIzaSy...8yB0,402,Museum,Dhoby Ghaut,transport,bus stop,"bus stop in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:05.101836,text_search,2,AIzaSy...8yB0,403,Museum,Dhoby Ghaut,transport,bus interchange,"bus interchange in Dhoby Ghaut, Museum, Singapore",OK,,7,
+2026-07-18T17:08:05.892753,text_search,2,AIzaSy...8yB0,404,Museum,Dhoby Ghaut,transport,LRT station,"LRT station in Dhoby Ghaut, Museum, Singapore",OK,,15,
+2026-07-18T17:08:06.508435,text_search,2,AIzaSy...8yB0,405,Museum,Dhoby Ghaut,food,hawker centre,"hawker centre in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:07.356677,text_search,2,AIzaSy...8yB0,406,Museum,Dhoby Ghaut,food,food court,"food court in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:08.373410,text_search,2,AIzaSy...8yB0,407,Museum,Dhoby Ghaut,food,coffee shop,"coffee shop in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:09.358229,text_search,2,AIzaSy...8yB0,408,Museum,Dhoby Ghaut,food,restaurant,"restaurant in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:10.632000,text_search,2,AIzaSy...8yB0,409,Museum,Dhoby Ghaut,food,cafe,"cafe in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:11.342059,text_search,2,AIzaSy...8yB0,410,Museum,Dhoby Ghaut,shopping,shopping mall,"shopping mall in Dhoby Ghaut, Museum, Singapore",OK,,18,
+2026-07-18T17:08:12.178822,text_search,2,AIzaSy...8yB0,411,Museum,Dhoby Ghaut,shopping,supermarket,"supermarket in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:13.040836,text_search,2,AIzaSy...8yB0,412,Museum,Dhoby Ghaut,shopping,grocery store,"grocery store in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:14.015205,text_search,2,AIzaSy...8yB0,413,Museum,Dhoby Ghaut,shopping,convenience store,"convenience store in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:14.900620,text_search,2,AIzaSy...8yB0,414,Museum,Dhoby Ghaut,shopping,wet market,"wet market in Dhoby Ghaut, Museum, Singapore",OK,,1,
+2026-07-18T17:08:15.947492,text_search,2,AIzaSy...8yB0,415,Museum,Dhoby Ghaut,recreation,gym,"gym in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:16.813752,text_search,2,AIzaSy...8yB0,416,Museum,Dhoby Ghaut,recreation,sports centre,"sports centre in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:17.544630,text_search,2,AIzaSy...8yB0,417,Museum,Dhoby Ghaut,recreation,swimming complex,"swimming complex in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:18.674308,text_search,2,AIzaSy...8yB0,418,Museum,Dhoby Ghaut,recreation,cinema,"cinema in Dhoby Ghaut, Museum, Singapore",OK,,19,
+2026-07-18T17:08:19.837299,text_search,2,AIzaSy...8yB0,419,Museum,Dhoby Ghaut,recreation,community club,"community club in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:20.682037,text_search,2,AIzaSy...8yB0,420,Museum,Dhoby Ghaut,recreation,playground,"playground in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:21.796624,text_search,2,AIzaSy...8yB0,421,Museum,Dhoby Ghaut,nature,park,"park in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:23.093577,text_search,2,AIzaSy...8yB0,422,Museum,Dhoby Ghaut,nature,nature reserve,"nature reserve in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:23.950032,text_search,2,AIzaSy...8yB0,423,Museum,Dhoby Ghaut,nature,garden,"garden in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:24.714555,text_search,2,AIzaSy...8yB0,424,Museum,Dhoby Ghaut,nature,beach,"beach in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:25.551556,text_search,2,AIzaSy...8yB0,425,Museum,Dhoby Ghaut,nature,waterfront,"waterfront in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:26.416167,text_search,2,AIzaSy...8yB0,426,Museum,Dhoby Ghaut,nature,park connector,"park connector in Dhoby Ghaut, Museum, Singapore",OK,,20,
+2026-07-18T17:08:27.123386,text_search,2,AIzaSy...8yB0,427,Museum,Fort Canning,education,kindergarten,"kindergarten in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:27.967913,text_search,2,AIzaSy...8yB0,428,Museum,Fort Canning,education,childcare centre,"childcare centre in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:29.156972,text_search,2,AIzaSy...8yB0,429,Museum,Fort Canning,education,primary school,"primary school in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:30.291031,text_search,2,AIzaSy...8yB0,430,Museum,Fort Canning,education,secondary school,"secondary school in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:31.325111,text_search,2,AIzaSy...8yB0,431,Museum,Fort Canning,education,junior college,"junior college in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:32.375620,text_search,2,AIzaSy...8yB0,432,Museum,Fort Canning,education,polytechnic,"polytechnic in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:33.377579,text_search,2,AIzaSy...8yB0,433,Museum,Fort Canning,education,university,"university in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:34.539694,text_search,2,AIzaSy...8yB0,434,Museum,Fort Canning,education,tuition centre,"tuition centre in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:35.296751,text_search,2,AIzaSy...8yB0,435,Museum,Fort Canning,education,library,"library in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:36.212246,text_search,2,AIzaSy...8yB0,436,Museum,Fort Canning,transport,MRT station,"MRT station in Fort Canning, Museum, Singapore",OK,,2,
+2026-07-18T17:08:36.865822,text_search,2,AIzaSy...8yB0,437,Museum,Fort Canning,transport,bus stop,"bus stop in Fort Canning, Museum, Singapore",OK,,2,
+2026-07-18T17:08:37.533249,text_search,2,AIzaSy...8yB0,438,Museum,Fort Canning,transport,bus interchange,"bus interchange in Fort Canning, Museum, Singapore",OK,,2,
+2026-07-18T17:08:38.473586,text_search,2,AIzaSy...8yB0,439,Museum,Fort Canning,transport,LRT station,"LRT station in Fort Canning, Museum, Singapore",OK,,9,
+2026-07-18T17:08:39.419788,text_search,2,AIzaSy...8yB0,440,Museum,Fort Canning,food,hawker centre,"hawker centre in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:40.608467,text_search,2,AIzaSy...8yB0,441,Museum,Fort Canning,food,food court,"food court in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:41.341848,text_search,2,AIzaSy...8yB0,442,Museum,Fort Canning,food,coffee shop,"coffee shop in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:42.205609,text_search,2,AIzaSy...8yB0,443,Museum,Fort Canning,food,restaurant,"restaurant in Fort Canning, Museum, Singapore",OK,,3,
+2026-07-18T17:08:42.846257,text_search,2,AIzaSy...8yB0,444,Museum,Fort Canning,food,cafe,"cafe in Fort Canning, Museum, Singapore",OK,,7,
+2026-07-18T17:08:43.648727,text_search,2,AIzaSy...8yB0,445,Museum,Fort Canning,shopping,shopping mall,"shopping mall in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:44.246488,text_search,2,AIzaSy...8yB0,446,Museum,Fort Canning,shopping,supermarket,"supermarket in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:45.202608,text_search,2,AIzaSy...8yB0,447,Museum,Fort Canning,shopping,grocery store,"grocery store in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:46.222837,text_search,2,AIzaSy...8yB0,448,Museum,Fort Canning,shopping,convenience store,"convenience store in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:47.116417,text_search,2,AIzaSy...8yB0,449,Museum,Fort Canning,shopping,wet market,"wet market in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:47.857981,text_search,2,AIzaSy...8yB0,450,Museum,Fort Canning,recreation,gym,"gym in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:48.840125,text_search,2,AIzaSy...8yB0,451,Museum,Fort Canning,recreation,sports centre,"sports centre in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:49.612607,text_search,2,AIzaSy...8yB0,452,Museum,Fort Canning,recreation,swimming complex,"swimming complex in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:50.267239,text_search,2,AIzaSy...8yB0,453,Museum,Fort Canning,recreation,cinema,"cinema in Fort Canning, Museum, Singapore",OK,,13,
+2026-07-18T17:08:51.286854,text_search,2,AIzaSy...8yB0,454,Museum,Fort Canning,recreation,community club,"community club in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:52.316622,text_search,2,AIzaSy...8yB0,455,Museum,Fort Canning,recreation,playground,"playground in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:53.369370,text_search,2,AIzaSy...8yB0,456,Museum,Fort Canning,nature,park,"park in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:54.144831,text_search,2,AIzaSy...8yB0,457,Museum,Fort Canning,nature,nature reserve,"nature reserve in Fort Canning, Museum, Singapore",OK,,13,
+2026-07-18T17:08:55.713470,text_search,2,AIzaSy...8yB0,458,Museum,Fort Canning,nature,garden,"garden in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:56.579540,text_search,2,AIzaSy...8yB0,459,Museum,Fort Canning,nature,beach,"beach in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:57.583991,text_search,2,AIzaSy...8yB0,460,Museum,Fort Canning,nature,waterfront,"waterfront in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:58.175069,text_search,2,AIzaSy...8yB0,461,Museum,Fort Canning,nature,park connector,"park connector in Fort Canning, Museum, Singapore",OK,,20,
+2026-07-18T17:08:58.910283,place_details_reviews,2,AIzaSy...8yB0,462,Museum,Bras Basah,education,kindergarten,ChIJqavzXaAZ2jER5hOKJC7xvUI,OK,,5,NAFA Arts Preschool
+2026-07-18T17:08:59.329421,place_details_reviews,2,AIzaSy...8yB0,463,Museum,Bras Basah,education,kindergarten,ChIJs2Wgx6QZ2jERq7DsFKQLoh4,OK,,5,Viv's Schoolhouse - Best International Preschool In Singapore
+2026-07-18T17:08:59.967688,place_details_reviews,2,AIzaSy...8yB0,464,Museum,Bras Basah,education,childcare centre,ChIJAQAAMPEa2jERYZpLfb7At0U,OK,,5,Little Skool-House Kent Vale
+2026-07-18T17:09:00.347659,place_details_reviews,2,AIzaSy...8yB0,465,Museum,Bras Basah,education,primary school,ChIJeRJ4bb4Z2jER4193i8GbelU,OK,,0,St Margaret's School (Primary)
+2026-07-18T17:09:00.725104,place_details_reviews,2,AIzaSy...8yB0,466,Museum,Bras Basah,education,primary school,ChIJF1fc0_Aa2jERRBt9Q6qpP7g,OK,,0,"The Japanese School, Singapore (Primary, Clementi Campus)"
+2026-07-18T17:09:01.391812,place_details_reviews,2,AIzaSy...8yB0,467,Museum,Bras Basah,education,secondary school,ChIJUeXKz7wZ2jERMmZROJYsRrk,OK,,5,"School of the Arts, Singapore"
+2026-07-18T17:09:02.199806,place_details_reviews,2,AIzaSy...8yB0,468,Museum,Bras Basah,education,secondary school,ChIJc60HhvQa2jERroz_1Z_TgtE,OK,,0,NUS High School of Math and Science
+2026-07-18T17:09:02.933171,place_details_reviews,2,AIzaSy...8yB0,469,Museum,Bras Basah,education,junior college,ChIJ61lTU6EQ2jERiBDECMxHYFY,OK,,5,National Junior College
+2026-07-18T17:09:03.513284,place_details_reviews,2,AIzaSy...8yB0,470,Museum,Bras Basah,education,junior college,ChIJESRAQ1sa2jERlSmmrDCCriw,OK,,5,Anglo-Chinese Junior College
+2026-07-18T17:09:03.967443,place_details_reviews,2,AIzaSy...8yB0,471,Museum,Bras Basah,education,polytechnic,ChIJFXzxL2Aa2jERnoWTOdJdVKk,OK,,5,Singapore Polytechnic
+2026-07-18T17:09:04.325788,place_details_reviews,2,AIzaSy...8yB0,472,Museum,Bras Basah,education,polytechnic,ChIJP8CAsmEa2jERq37me92Jp_o,OK,,5,Singapore Polytechnic Convention Centre
+2026-07-18T17:09:05.365690,place_details_reviews,2,AIzaSy...8yB0,473,Museum,Bras Basah,education,university,ChIJm2XMp2UZ2jERrognHdKKAu8,OK,,5,University of the Arts Singapore (UAS)
+2026-07-18T17:09:06.035652,place_details_reviews,2,AIzaSy...8yB0,474,Museum,Bras Basah,education,university,ChIJcwAAUPoa2jERiv_0ph5iKlg,OK,,5,NUS Museum
+2026-07-18T17:09:06.444095,place_details_reviews,2,AIzaSy...8yB0,475,Museum,Bras Basah,education,tuition centre,ChIJn5U-xrsZ2jERoUQPtpKMyGA,OK,,5,Future Academy (Bugis)
+2026-07-18T17:09:06.805929,place_details_reviews,2,AIzaSy...8yB0,476,Museum,Bras Basah,education,tuition centre,ChIJOduMHksZ2jER_CB1cx0nelk,OK,,5,Crucible Education Centre (Dhoby Ghaut)
+2026-07-18T17:09:07.601897,place_details_reviews,2,AIzaSy...8yB0,477,Museum,Bras Basah,education,library,ChIJKaGsJKUZ2jERxa8yhKrdPfI,OK,,5,National Library / Lee Kong Chian Reference Library
+2026-07-18T17:09:08.177574,place_details_reviews,2,AIzaSy...8yB0,478,Museum,Bras Basah,education,library,ChIJJfVEO6UZ2jERq7ZasSTiEgg,OK,,5,Central Library
+2026-07-18T17:09:08.784445,place_details_reviews,2,AIzaSy...8yB0,479,Museum,Bras Basah,transport,MRT station,ChIJSa3-naQZ2jERLE62C7okX-I,OK,,5,Bras Basah
+2026-07-18T17:09:09.493577,place_details_reviews,2,AIzaSy...8yB0,480,Museum,Bras Basah,transport,MRT station,ChIJuz41c7AZ2jERgl25Ot0ZuJw,OK,,5,Bugis
+2026-07-18T17:09:09.941905,place_details_reviews,2,AIzaSy...8yB0,481,Museum,Bras Basah,transport,bus stop,ChIJP8QRtfca2jERk4DBYV7_IR8,OK,,1,NUS Museums
+2026-07-18T17:09:10.770073,place_details_reviews,2,AIzaSy...8yB0,482,Museum,Bras Basah,transport,bus stop,ChIJjbfXjqQZ2jEReTE2gQ97SCo,OK,,5,Aft Bras Basah Stn Exit A
+2026-07-18T17:09:11.290224,place_details_reviews,2,AIzaSy...8yB0,483,Museum,Bras Basah,food,hawker centre,ChIJU1QEGUQZ2jER0IggYygZFSs,OK,,5,Albert Centre Market & Food Centre
+2026-07-18T17:09:11.730946,place_details_reviews,2,AIzaSy...8yB0,484,Museum,Bras Basah,food,hawker centre,ChIJ5Y6l4Q0Z2jERYL0KDIjT6v0,OK,,5,Lau Pa Sat
+2026-07-18T17:09:12.277043,place_details_reviews,2,AIzaSy...8yB0,485,Museum,Bras Basah,food,food court,ChIJt_KZwvoZ2jERWa83lmD5Rjo,OK,,5,Shifu Food Court - Heritage of Flavours
+2026-07-18T17:09:13.023663,place_details_reviews,2,AIzaSy...8yB0,486,Museum,Bras Basah,food,food court,ChIJA7v8AqUZ2jERGDAaZ3klKYQ,OK,,5,Bras Basah Food Court
+2026-07-18T17:09:13.421989,place_details_reviews,2,AIzaSy...8yB0,487,Museum,Bras Basah,food,coffee shop,ChIJG0mOVFMZ2jEREDSJPIhAb44,OK,,5,Narrative Coffee Stand
+2026-07-18T17:09:13.897559,place_details_reviews,2,AIzaSy...8yB0,488,Museum,Bras Basah,food,coffee shop,ChIJPXLGQQAZ2jERWYgAFKpNsW4,OK,,5,Twenty Eight Cafe+ Kopi 1930 National Gallery
+2026-07-18T17:09:14.877957,place_details_reviews,2,AIzaSy...8yB0,489,Museum,Bras Basah,food,restaurant,ChIJYSzwzZMZ2jERWKGH4qWen5o,OK,,5,Jyu Gae Bistro
+2026-07-18T17:09:15.587971,place_details_reviews,2,AIzaSy...8yB0,490,Museum,Bras Basah,food,restaurant,ChIJ1cUVPwAZ2jERUW6phWohDPw,OK,,5,Ember & Oak by Reverie
+2026-07-18T17:09:16.232970,place_details_reviews,2,AIzaSy...8yB0,491,Museum,Bras Basah,food,cafe,ChIJG5hGCR4Z2jERggoFO8IU374,OK,,5,Oh Wunder Cafe by Wunderfolks
+2026-07-18T17:09:17.011021,place_details_reviews,2,AIzaSy...8yB0,492,Museum,Bras Basah,shopping,shopping mall,ChIJtxaD8KQZ2jERgCmvEt9PdiU,OK,,5,Bras Basah Complex
+2026-07-18T17:09:17.508246,place_details_reviews,2,AIzaSy...8yB0,493,Museum,Bras Basah,shopping,shopping mall,ChIJj7TW9LoZ2jERQgNlXkKhASQ,OK,,5,Bugis Street
+2026-07-18T17:09:18.281219,place_details_reviews,2,AIzaSy...8yB0,494,Museum,Bras Basah,shopping,supermarket,ChIJHbKxhboZ2jEROFG6e1zb8Hc,OK,,5,CS Fresh Bugis Junction
+2026-07-18T17:09:19.000046,place_details_reviews,2,AIzaSy...8yB0,495,Museum,Bras Basah,shopping,supermarket,ChIJ2V6_TAAZ2jERLFjLMqtHig4,OK,,5,Scarlett Supermarket @ Bugis+ 思家客武吉士店
+2026-07-18T17:09:19.786672,place_details_reviews,2,AIzaSy...8yB0,496,Museum,Bras Basah,shopping,convenience store,ChIJuRY4JGUZ2jERQjOkxDqtIXA,OK,,5,7-Eleven
+2026-07-18T17:09:20.339566,place_details_reviews,2,AIzaSy...8yB0,497,Museum,Bras Basah,shopping,convenience store,ChIJW_cR2p4Z2jERUalOsKboqx8,OK,,1,7-Eleven
+2026-07-18T17:09:21.018496,place_details_reviews,2,AIzaSy...8yB0,498,Museum,Bras Basah,shopping,wet market,ChIJeQDUs2MZ2jERTVvNUj9VTgQ,OK,,5,"Bugis Market, Singapore"
+2026-07-18T17:09:21.769957,place_details_reviews,2,AIzaSy...8yB0,499,Museum,Bras Basah,recreation,gym,ChIJ-4GNKCMZ2jERrKeWgvWb_cg,OK,,5,StronGirlys Gym (Women Only Gym Pod)
+2026-07-18T17:09:22.603961,place_details_reviews,2,AIzaSy...8yB0,500,Museum,Bras Basah,recreation,gym,ChIJbYoKje4Z2jERjijPuh_1TSs,OK,,5,Anytime Fitness Bugis
+2026-07-18T17:09:23.212927,place_details_reviews,2,AIzaSy...8yB0,501,Museum,Bras Basah,recreation,sports centre,ChIJ2cCNCFga2jER5JmIg6WzSNk,OK,,5,University Sports Centre
+2026-07-18T17:09:23.966353,place_details_reviews,2,AIzaSy...8yB0,502,Museum,Bras Basah,recreation,sports centre,ChIJS1VVRUkY2jERZrb4Xm1Yqhk,OK,,5,The Kallang
+2026-07-18T17:09:24.684968,place_details_reviews,2,AIzaSy...8yB0,503,Museum,Bras Basah,recreation,swimming complex,ChIJWaHnCyAQ2jERlnBesVA4gic,OK,,5,Jurong East Swimming Complex
+2026-07-18T17:09:25.067253,place_details_reviews,2,AIzaSy...8yB0,504,Museum,Bras Basah,recreation,swimming complex,ChIJhYwEvhUQ2jERP9_qytcvWsU,OK,,5,Bukit Batok Swimming Complex
+2026-07-18T17:09:25.785762,place_details_reviews,2,AIzaSy...8yB0,505,Museum,Bras Basah,recreation,cinema,ChIJ1btJfAAZ2jEReSzub3K76o4,OK,,5,Filmhouse at Golden Mile Tower
+2026-07-18T17:09:26.395037,place_details_reviews,2,AIzaSy...8yB0,506,Museum,Bras Basah,recreation,cinema,ChIJAWnOAaoZ2jERUT8rZrzUbYo,OK,,5,Golden Village - GV Bugis+
+2026-07-18T17:09:26.755459,place_details_reviews,2,AIzaSy...8yB0,507,Museum,Bras Basah,recreation,community club,ChIJ0S3wSmoa2jER2aq7I8gFiy0,OK,,5,Buona Vista Community Club
+2026-07-18T17:09:27.448229,place_details_reviews,2,AIzaSy...8yB0,508,Museum,Bras Basah,recreation,community club,ChIJIdwUCbIX2jER8aXD-W7o8cQ,OK,,5,Buangkok Community Club
+2026-07-18T17:09:28.167674,place_details_reviews,2,AIzaSy...8yB0,509,Museum,Bras Basah,recreation,playground,ChIJ5QHJOLYZ2jER4Tk_FWHD7l4,OK,,5,Kidodo Space
+2026-07-18T17:09:28.568954,place_details_reviews,2,AIzaSy...8yB0,510,Museum,Bras Basah,recreation,playground,ChIJFWAqKQAZ2jERomFmpLq_bE4,OK,,5,A Whale of a Tale
+2026-07-18T17:09:29.369931,place_details_reviews,2,AIzaSy...8yB0,511,Museum,Bras Basah,nature,park,ChIJm-9W0vsZ2jER_uFLBIxuOm8,OK,,5,Queen Street carpark(Bugis )
+2026-07-18T17:09:30.071189,place_details_reviews,2,AIzaSy...8yB0,512,Museum,Bras Basah,nature,park,ChIJfT--fRUZ2jERDdi3eQuDwDY,OK,,5,Bras Basah Complex car park
+2026-07-18T17:09:30.676736,place_details_reviews,2,AIzaSy...8yB0,513,Museum,Bras Basah,nature,nature reserve,ChIJDR2Au0sX2jERt1iFDZAqk70,OK,,5,Central Catchment Nature Reserve
+2026-07-18T17:09:31.104390,place_details_reviews,2,AIzaSy...8yB0,514,Museum,Bras Basah,nature,nature reserve,ChIJO9cemPUQ2jERvlh8KtwhtAc,OK,,5,Bukit Timah Nature Reserve
+2026-07-18T17:09:31.582427,place_details_reviews,2,AIzaSy...8yB0,515,Museum,Bras Basah,nature,garden,ChIJX9eeAB0Z2jER-jpnq5mQijQ,OK,,5,Serene Garden
+2026-07-18T17:09:32.600452,place_details_reviews,2,AIzaSy...8yB0,516,Museum,Bras Basah,nature,garden,ChIJMxZ-kwQZ2jERdsqftXeWCWI,OK,,5,Gardens by the Bay
+2026-07-18T17:09:33.159045,place_details_reviews,2,AIzaSy...8yB0,517,Museum,Bras Basah,nature,beach,ChIJW7B7zRIZ2jERINTI_uV1O-A,OK,,5,MINT Museum of Toys
+2026-07-18T17:09:33.585300,place_details_reviews,2,AIzaSy...8yB0,518,Museum,Bras Basah,nature,beach,ChIJnWdQKQQZ2jERScXuKeFHyIE,OK,,5,ArtScience Museum
+2026-07-18T17:09:34.630775,place_details_reviews,2,AIzaSy...8yB0,519,Museum,Bras Basah,nature,waterfront,ChIJUy-X9g8Z2jERJ0Jko3en1Rw,OK,,5,Marina Bay Waterfront Promenade
+2026-07-18T17:09:35.202922,place_details_reviews,2,AIzaSy...8yB0,520,Museum,Bras Basah,nature,park connector,ChIJf1E8XmEa2jERBSAZgsPdXo4,OK,,5,Ulu Pandan Park Connector (Dover)
+2026-07-18T17:09:35.834681,place_details_reviews,2,AIzaSy...8yB0,521,Museum,Bras Basah,nature,park connector,ChIJJTvN5Ckb2jERdwPiAsqZxOo,OK,,2,West Coast Park Connector
+2026-07-18T17:09:36.165834,place_details_reviews,2,AIzaSy...8yB0,522,Museum,Dhoby Ghaut,education,kindergarten,ChIJjd6bCb0Z2jERV8qR8X-FjlA,OK,,5,House on The Hill Mount Sophia - Montessori Pre-School
+2026-07-18T17:09:37.213177,place_details_reviews,2,AIzaSy...8yB0,523,Museum,Dhoby Ghaut,education,kindergarten,ChIJ45ulib4Z2jER3oUTV6Ccw4U,OK,,5,The Schoolhouse Mount Emily
+2026-07-18T17:09:37.809998,place_details_reviews,2,AIzaSy...8yB0,524,Museum,Dhoby Ghaut,education,childcare centre,ChIJ84Q6Y5kZ2jER9arX2FoaGGA,OK,,5,The Montessori Place of Learning
+2026-07-18T17:09:38.339688,place_details_reviews,2,AIzaSy...8yB0,525,Museum,Dhoby Ghaut,education,childcare centre,ChIJF3PfLdMZ2jERvGa4zD3aoOk,OK,,5,My Childhood Place HPGT Studio (Student Care)
+2026-07-18T17:09:38.720329,place_details_reviews,2,AIzaSy...8yB0,526,Museum,Dhoby Ghaut,education,primary school,ChIJzWjYKhcZ2jER6aMXHWmJYOc,OK,,5,PSB Academy Cathay Campus
+2026-07-18T17:09:39.147762,place_details_reviews,2,AIzaSy...8yB0,527,Museum,Dhoby Ghaut,education,primary school,ChIJbWC9Jb4Z2jERC9tEnIdrcig,OK,,0,DIMENSIONS Primary School (Orchard Campus)
+2026-07-18T17:09:39.495328,place_details_reviews,2,AIzaSy...8yB0,528,Museum,Dhoby Ghaut,education,polytechnic,ChIJnSSwZOsW2jERQtnugPYP8eU,OK,,5,Nanyang Polytechnic
+2026-07-18T17:09:39.913952,place_details_reviews,2,AIzaSy...8yB0,529,Museum,Dhoby Ghaut,education,university,ChIJ2QJCeFYa2jERa434wdYIjUg,OK,,5,National University of Singapore
+2026-07-18T17:09:40.673009,place_details_reviews,2,AIzaSy...8yB0,530,Museum,Dhoby Ghaut,education,university,ChIJGddBg6MZ2jERACsxW7Ovm_4,OK,,5,Singapore Management University
+2026-07-18T17:09:41.168790,place_details_reviews,2,AIzaSy...8yB0,531,Museum,Dhoby Ghaut,education,tuition centre,ChIJW0NCmwYa2jER9ry4q_S8lLE,OK,,5,"The Pique Lab | PSLE, O Level Science & Math Tuition Centre"
+2026-07-18T17:09:42.019609,place_details_reviews,2,AIzaSy...8yB0,532,Museum,Dhoby Ghaut,transport,MRT station,ChIJGbzEZ70Z2jERHl4jQI1-c0Q,OK,,5,Dhoby Ghaut
+2026-07-18T17:09:42.616913,place_details_reviews,2,AIzaSy...8yB0,533,Museum,Dhoby Ghaut,transport,bus stop,ChIJg3CLrKIZ2jER4wc8kF76_V8,OK,,5,Dhoby Ghaut Stn Exit B
+2026-07-18T17:09:43.226743,place_details_reviews,2,AIzaSy...8yB0,534,Museum,Dhoby Ghaut,transport,bus stop,ChIJ2z93XL0Z2jERiA419lZLEFQ,OK,,5,Dhoby Ghaut
+2026-07-18T17:09:44.035299,place_details_reviews,2,AIzaSy...8yB0,535,Museum,Dhoby Ghaut,transport,LRT station,ChIJq0GQRB8Z2jERfz0GTv95OQg,OK,,5,Marina South Pier
+2026-07-18T17:09:44.738128,place_details_reviews,2,AIzaSy...8yB0,536,Museum,Dhoby Ghaut,food,hawker centre,ChIJseQsTQ0Z2jERqpBTWF0Zf84,OK,,5,Maxwell Food Centre
+2026-07-18T17:09:45.456598,place_details_reviews,2,AIzaSy...8yB0,537,Museum,Dhoby Ghaut,food,food court,ChIJc6zIfr0Z2jERhUKaArZ983A,OK,,5,Kopitiam Food Hall
+2026-07-18T17:09:45.947078,place_details_reviews,2,AIzaSy...8yB0,538,Museum,Dhoby Ghaut,food,food court,ChIJR1Fyfr0Z2jERzwO-AZiJ-HM,OK,,5,Plaza Singapura
+2026-07-18T17:09:46.820997,place_details_reviews,2,AIzaSy...8yB0,539,Museum,Dhoby Ghaut,food,coffee shop,ChIJ9deOQCEZ2jER62EOKaF66ww,OK,,5,9Toast Cafe @ Dhoby Ghaut
+2026-07-18T17:09:47.261894,place_details_reviews,2,AIzaSy...8yB0,540,Museum,Dhoby Ghaut,food,restaurant,ChIJe1Nk15oZ2jERxPIknBLq5Ho,OK,,5,Mamma Mia Trattoria E Caffè (Plaza Singapura)
+2026-07-18T17:09:47.934340,place_details_reviews,2,AIzaSy...8yB0,541,Museum,Dhoby Ghaut,food,restaurant,ChIJczP7ZL0Z2jERzhOBGtXAzUc,OK,,5,Nanjing Impressions
+2026-07-18T17:09:48.387547,place_details_reviews,2,AIzaSy...8yB0,542,Museum,Dhoby Ghaut,food,cafe,ChIJcxmDvOkZ2jERwUnS5lCEC8M,OK,,5,Dame Museum Café
+2026-07-18T17:09:49.209389,place_details_reviews,2,AIzaSy...8yB0,543,Museum,Dhoby Ghaut,shopping,shopping mall,ChIJZ1omp8gZ2jERgDUAb_hBKLY,OK,,5,City Square Mall
+2026-07-18T17:09:49.819569,place_details_reviews,2,AIzaSy...8yB0,544,Museum,Dhoby Ghaut,shopping,supermarket,ChIJMW3cfr0Z2jER9ALB17fDCoY,OK,,5,Cold Storage
+2026-07-18T17:09:50.742873,place_details_reviews,2,AIzaSy...8yB0,545,Museum,Dhoby Ghaut,shopping,grocery store,ChIJjZniPwAZ2jERx4qx_7dlNy0,OK,,5,FairPrice Finest Clarke Quay
+2026-07-18T17:09:51.314468,place_details_reviews,2,AIzaSy...8yB0,546,Museum,Dhoby Ghaut,shopping,convenience store,ChIJ8WewoEQZ2jERbt55-zyz1AQ,OK,,5,7-Eleven
+2026-07-18T17:09:51.657989,place_details_reviews,2,AIzaSy...8yB0,547,Museum,Dhoby Ghaut,shopping,convenience store,ChIJaepZ7ZEZ2jER6tumc55Xko0,OK,,5,7-Eleven
+2026-07-18T17:09:52.487907,place_details_reviews,2,AIzaSy...8yB0,548,Museum,Dhoby Ghaut,shopping,wet market,ChIJj-fXwV0Z2jER2YaK26WCw4g,OK,,5,Fleawhere Rehash @ Dhoby Ghaut
+2026-07-18T17:09:53.067025,place_details_reviews,2,AIzaSy...8yB0,549,Museum,Dhoby Ghaut,recreation,gym,ChIJVbgN_qwZ2jERR_ZthZxcMPQ,OK,,5,Anytime Fitness Dhoby Ghaut
+2026-07-18T17:09:53.800366,place_details_reviews,2,AIzaSy...8yB0,550,Museum,Dhoby Ghaut,recreation,gym,ChIJU5vjSCwZ2jERI6FEjkJqRQs,OK,,5,The Gym Pod @ Dhoby Ghaut
+2026-07-18T17:09:54.552109,place_details_reviews,2,AIzaSy...8yB0,551,Museum,Dhoby Ghaut,recreation,swimming complex,ChIJVQ8bzSoa2jERbYemdYtj8kM,OK,,5,Delta Swimming Complex
+2026-07-18T17:09:55.200731,place_details_reviews,2,AIzaSy...8yB0,552,Museum,Dhoby Ghaut,recreation,swimming complex,ChIJXeRlM0oY2jER-vwZcI04k7k,OK,,5,OCBC Aquatic Centre
+2026-07-18T17:09:55.914308,place_details_reviews,2,AIzaSy...8yB0,553,Museum,Dhoby Ghaut,recreation,cinema,ChIJnaqqer0Z2jER4QIHP-kYIcU,OK,,5,Golden Village Plaza
+2026-07-18T17:09:56.571385,place_details_reviews,2,AIzaSy...8yB0,554,Museum,Dhoby Ghaut,recreation,community club,ChIJd4Ja-ckZ2jERhr2arEOISJg,OK,,5,Jalan Besar Community Club
+2026-07-18T17:09:57.276476,place_details_reviews,2,AIzaSy...8yB0,555,Museum,Dhoby Ghaut,nature,park,ChIJGeWzwMUZ2jERUmSzZCF_59M,OK,,5,Istana Park
+2026-07-18T17:09:57.619634,place_details_reviews,2,AIzaSy...8yB0,556,Museum,Dhoby Ghaut,nature,park,ChIJUQ6szaIZ2jERKRSQdVyu-RE,OK,,5,Dhoby Ghaut Green
+2026-07-18T17:09:58.136390,place_details_reviews,2,AIzaSy...8yB0,557,Museum,Dhoby Ghaut,nature,garden,ChIJQZPwo3Ab2jERqobnp1dHMGQ,OK,,5,National Orchid Garden
+2026-07-18T17:09:59.027499,place_details_reviews,2,AIzaSy...8yB0,558,Museum,Dhoby Ghaut,nature,beach,ChIJUzbaYws82jERXHKMRlUKIug,OK,,5,Changi Beach Park
+2026-07-18T17:09:59.844811,place_details_reviews,2,AIzaSy...8yB0,559,Museum,Dhoby Ghaut,nature,beach,ChIJD1u-EaMZ2jERaLhNfFkR45I,OK,,5,National Museum of Singapore
+2026-07-18T17:10:00.516427,place_details_reviews,2,AIzaSy...8yB0,560,Museum,Dhoby Ghaut,nature,waterfront,ChIJWVitHwgZ2jERhowC8-Xkd7g,OK,,5,Waterfront Promenade
+2026-07-18T17:10:01.111451,place_details_reviews,2,AIzaSy...8yB0,561,Museum,Dhoby Ghaut,nature,park connector,ChIJZToTZSYY2jERicyQpqTR7w4,OK,,5,Pelton Canal Park Connector
+2026-07-18T17:10:01.902851,place_details_reviews,2,AIzaSy...8yB0,562,Museum,Dhoby Ghaut,nature,park connector,ChIJxZwgg1kZ2jERfsCcuEg0JC4,OK,,5,Kallang Park Connector
+2026-07-18T17:10:02.673981,place_details_reviews,2,AIzaSy...8yB0,563,Museum,Fort Canning,education,kindergarten,ChIJC-8_Y6sZ2jER7OK5YLUBF98,OK,,5,Fort Canning Heritage Gallery
+2026-07-18T17:10:03.212179,place_details_reviews,2,AIzaSy...8yB0,564,Museum,Fort Canning,education,kindergarten,ChIJVSYjJKIZ2jERpRFinATD52s,OK,,5,Fort Canning Park
+2026-07-18T17:10:03.745790,place_details_reviews,2,AIzaSy...8yB0,565,Museum,Fort Canning,education,childcare centre,ChIJHxFCY_wa2jERmUyZeAKhW5I,OK,,5,The Schoolhouse West Coast
+2026-07-18T17:10:04.205582,place_details_reviews,2,AIzaSy...8yB0,566,Museum,Fort Canning,education,primary school,ChIJVSyoe2wZ2jERv97i-f1Ns74,OK,,0,Cantonment Primary School
+2026-07-18T17:10:04.910589,place_details_reviews,2,AIzaSy...8yB0,567,Museum,Fort Canning,education,primary school,ChIJ-UtF31oa2jER2fW9Tw7KxOg,OK,,0,Fairfield Methodist School (Primary)
+2026-07-18T17:10:05.362287,place_details_reviews,2,AIzaSy...8yB0,568,Museum,Fort Canning,education,secondary school,ChIJJwIPJIAZ2jERQ29Xz4cafqY,OK,,0,Gan Eng Seng School
+2026-07-18T17:10:05.729080,place_details_reviews,2,AIzaSy...8yB0,569,Museum,Fort Canning,education,secondary school,ChIJQVeL74oa2jER84tkJiqj9nk,OK,,0,New Town Secondary School
+2026-07-18T17:10:06.217253,place_details_reviews,2,AIzaSy...8yB0,570,Museum,Fort Canning,education,junior college,ChIJ8S_k7uIZ2jERykhndIzKOW8,OK,,5,Catholic Junior College
+2026-07-18T17:10:06.888535,place_details_reviews,2,AIzaSy...8yB0,571,Museum,Fort Canning,education,tuition centre,ChIJH1bFjAY92jERk34GSZd447Y,OK,,5,Irwin's Study - GP Tuition Centre Singapore
+2026-07-18T17:10:07.380908,place_details_reviews,2,AIzaSy...8yB0,572,Museum,Fort Canning,transport,MRT station,ChIJXVEaZ58Z2jERj3zBU4-2-Zs,OK,,5,Fort Canning
+2026-07-18T17:10:08.164493,place_details_reviews,2,AIzaSy...8yB0,573,Museum,Fort Canning,transport,MRT station,ChIJBVSGGOcZ2jER4MV4M-Ibdlw,OK,,5,MRT FortCanning DT20 Exit B
+2026-07-18T17:10:08.821635,place_details_reviews,2,AIzaSy...8yB0,574,Museum,Fort Canning,transport,bus stop,ChIJ1Xt-YJ8Z2jERwh8bL4TIN8k,OK,,4,Fort Canning Stn Exit B
+2026-07-18T17:10:09.344857,place_details_reviews,2,AIzaSy...8yB0,575,Museum,Fort Canning,transport,bus stop,ChIJa7Tk1qEZ2jERkQeMUPY2oKc,OK,,4,Bef Fort Canning Stn
+2026-07-18T17:10:10.048186,place_details_reviews,2,AIzaSy...8yB0,576,Museum,Fort Canning,food,food court,ChIJV_K1ymYZ2jER39YtGS9Cv60,OK,,5,Le Jardin Cafe | Fort Canning
+2026-07-18T17:10:10.490282,place_details_reviews,2,AIzaSy...8yB0,577,Museum,Fort Canning,food,coffee shop,ChIJW_KnqCcZ2jERXjsDwmKxJHY,OK,,5,Tiong Bahru Bakery
+2026-07-18T17:10:10.987508,place_details_reviews,2,AIzaSy...8yB0,578,Museum,Fort Canning,food,restaurant,ChIJz3f76WAZ2jERgUjVHvrwm7M,OK,,5,L'Amo Bistrò del Mare Singapore
+2026-07-18T17:10:11.441941,place_details_reviews,2,AIzaSy...8yB0,579,Museum,Fort Canning,shopping,shopping mall,ChIJl_sOMpIZ2jERKgmuCf4FCs0,OK,,5,Paragon
+2026-07-18T17:10:11.935910,place_details_reviews,2,AIzaSy...8yB0,580,Museum,Fort Canning,shopping,shopping mall,ChIJnXwAOKAZ2jERAs-MHs1aDgI,OK,,5,CQ @ Clarke Quay
+2026-07-18T17:10:12.346317,place_details_reviews,2,AIzaSy...8yB0,581,Museum,Fort Canning,shopping,supermarket,ChIJAY0ANgsZ2jERaYY81OR8CFc,OK,,5,FairPrice Chinatown Point
+2026-07-18T17:10:12.749325,place_details_reviews,2,AIzaSy...8yB0,582,Museum,Fort Canning,shopping,grocery store,ChIJq93BHIkQ2jEReDU1CrhkeOg,OK,,5,FairPrice Finest Bukit Timah Plaza
+2026-07-18T17:10:13.465821,place_details_reviews,2,AIzaSy...8yB0,583,Museum,Fort Canning,shopping,grocery store,ChIJdxS7gPEa2jERd53GKJ48Dr4,OK,,5,Cold Storage
+2026-07-18T17:10:14.002125,place_details_reviews,2,AIzaSy...8yB0,584,Museum,Fort Canning,shopping,convenience store,ChIJf2DmUQAZ2jEROJ8ewpYixHo,OK,,3,Cheers
+2026-07-18T17:10:14.718512,place_details_reviews,2,AIzaSy...8yB0,585,Museum,Fort Canning,shopping,convenience store,ChIJ-w0Nd1IZ2jERuAdqHLdCMLU,OK,,5,uMart@BoatQuay | uBooze@BoatQuay
+2026-07-18T17:10:15.418429,place_details_reviews,2,AIzaSy...8yB0,586,Museum,Fort Canning,shopping,wet market,ChIJ8RaES-AX2jERwZwf5dmpK7M,OK,,5,Quan Shui Wet Market @ Upper Thomson
+2026-07-18T17:10:15.841066,place_details_reviews,2,AIzaSy...8yB0,587,Museum,Fort Canning,shopping,wet market,ChIJwdRlwNkZ2jER5VFwn2Iks3c,OK,,5,Whampoa Food Block 91 Food Centre
+2026-07-18T17:10:16.425810,place_details_reviews,2,AIzaSy...8yB0,588,Museum,Fort Canning,recreation,gym,ChIJ3_U8V0sZ2jER1aFmQ2xfS4c,OK,,5,Exercise station
+2026-07-18T17:10:17.263700,place_details_reviews,2,AIzaSy...8yB0,589,Museum,Fort Canning,recreation,gym,ChIJa9CmdwAZ2jERHAfK6QNDpF8,OK,,1,GRiT Plank
+2026-07-18T17:10:17.678609,place_details_reviews,2,AIzaSy...8yB0,590,Museum,Fort Canning,recreation,cinema,ChIJFx7cQgAR2jERum7NN5FvIOk,OK,,5,Shaw Theatres JEM
+2026-07-18T17:10:18.304146,place_details_reviews,2,AIzaSy...8yB0,591,Museum,Fort Canning,recreation,community club,ChIJ44exaL0b2jERbSxwV6gNBdw,OK,,5,Telok Blangah Community Club
+2026-07-18T17:10:18.979099,place_details_reviews,2,AIzaSy...8yB0,592,Museum,Fort Canning,recreation,community club,ChIJq6qqcrEZ2jERtJYskj9TJiA,OK,,5,Kampong Glam Community Club
+2026-07-18T17:10:19.678862,place_details_reviews,2,AIzaSy...8yB0,593,Museum,Fort Canning,recreation,playground,ChIJPV8Z1JwZ2jERKuFD4uIVgOM,OK,,5,Jubilee Park
+2026-07-18T17:10:20.155784,place_details_reviews,2,AIzaSy...8yB0,594,Museum,Fort Canning,nature,park,ChIJUc0YwKIZ2jERnCfsCKnOamE,OK,,5,Fort Canning Tree Tunnel

@@ -31,8 +31,13 @@ function fmtPrice(n: number): string {
 // ---- Colour band ----
 type PriceBand = 'cheap' | 'mid' | 'expensive' | 'unknown';
 
-function getBand(price: number | undefined): PriceBand {
+function getBand(price: number | undefined, mode?: 'sale' | 'rent'): PriceBand {
   if (price === undefined || price === null) return 'unknown';
+  if (mode === 'sale') {
+    if (price < 500000) return 'cheap';
+    if (price <= 800000) return 'mid';
+    return 'expensive';
+  }
   if (price < 2000) return 'cheap';
   if (price <= 4000) return 'mid';
   return 'expensive';
@@ -46,8 +51,8 @@ const BAND_COLORS: Record<PriceBand, { bg: string; border: string }> = {
 };
 
 // ---- Icon factory ----
-function createIcon(price: number | undefined, title: string, isActive: boolean): L.DivIcon {
-  const band = getBand(price);
+function createIcon(price: number | undefined, title: string, isActive: boolean, mode?: 'sale' | 'rent'): L.DivIcon {
+  const band = getBand(price, mode);
   const colors = BAND_COLORS[band];
   const scale = isActive ? '1.25' : '1';
   const borderColor = isActive ? '#8B5CF6' : colors.border;
@@ -72,7 +77,7 @@ export function RentalMarkers({ listings, selectedId, onSelect }: RentalMarkersP
   const icons = useMemo(() => {
     const map = new Map<string, L.DivIcon>();
     for (const l of listings) {
-      map.set(l.id, createIcon(l.price, l.title ?? l.id, l.id === selectedId));
+      map.set(l.id, createIcon(l.price, l.title ?? l.id, l.id === selectedId, l.mode));
     }
     return map;
   }, [listings, selectedId]);
@@ -84,7 +89,7 @@ export function RentalMarkers({ listings, selectedId, onSelect }: RentalMarkersP
       {listings.map((listing) => (
         <Marker
           key={listing.id}
-          position={[listing.latitude, listing.longitude]}
+          position={[listing.latitude as number, listing.longitude as number]}
           icon={icons.get(listing.id)}
           eventHandlers={{
             click: () => onSelect(listing),
@@ -95,7 +100,7 @@ export function RentalMarkers({ listings, selectedId, onSelect }: RentalMarkersP
               <strong>{listing.title ?? listing.id}</strong>
               <br />
               {listing.price !== undefined && listing.price !== null && (
-                <span className="rental-popup__price">{fmtPrice(listing.price)}/mo</span>
+                <span className="rental-popup__price">{fmtPrice(listing.price)}{listing.mode === 'rent' ? '/mo' : ''}</span>
               )}
               {listing.bedrooms !== undefined && ` • ${listing.bedrooms} bd`}
               {listing.areaSqft !== undefined && ` • ${listing.areaSqft} sqft`}

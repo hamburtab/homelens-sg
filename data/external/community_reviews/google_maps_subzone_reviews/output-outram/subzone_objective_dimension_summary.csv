@@ -1,0 +1,25 @@
+﻿planning_area,subzone,poi_dimension,facility_count,avg_rating,total_user_ratings,rating_100
+Outram,China Square,education,18,4.5,1044,90.0
+Outram,China Square,transport,20,4.05,2604,81.0
+Outram,China Square,food,20,4.155,111472,83.1
+Outram,China Square,shopping,20,4.21,108468,84.2
+Outram,China Square,recreation,20,4.33,6195,86.6
+Outram,China Square,nature,20,4.5,187828,90.0
+Outram,Chinatown,education,20,4.478,3704,89.56
+Outram,Chinatown,transport,20,4.125,3414,82.5
+Outram,Chinatown,food,20,4.375,125439,87.5
+Outram,Chinatown,shopping,20,4.3,125612,86.0
+Outram,Chinatown,recreation,20,4.34,6643,86.8
+Outram,Chinatown,nature,20,4.48,22446,89.6
+Outram,Pearl'S Hill,education,20,4.632,1318,92.64
+Outram,Pearl'S Hill,transport,20,4.02,2338,80.4
+Outram,Pearl'S Hill,food,20,4.27,143058,85.4
+Outram,Pearl'S Hill,shopping,20,4.29,87063,85.8
+Outram,Pearl'S Hill,recreation,20,4.36,6052,87.2
+Outram,Pearl'S Hill,nature,15,4.42,22911,88.4
+Outram,People'S Park,education,20,4.615,1273,92.3
+Outram,People'S Park,transport,20,4.005,2391,80.1
+Outram,People'S Park,food,20,4.33,136718,86.6
+Outram,People'S Park,shopping,20,4.325,176973,86.5
+Outram,People'S Park,recreation,20,4.215,8466,84.3
+Outram,People'S Park,nature,20,4.45,33035,89.0

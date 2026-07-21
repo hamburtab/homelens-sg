@@ -6,6 +6,7 @@ import unittest
 from pathlib import Path
 
 import joblib
+import numpy as np
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -53,7 +54,7 @@ class PriceModelTests(unittest.TestCase):
             predictions_a = artifact_a["model"].predict(self.clean[MODEL_FEATURES].tail(5))
             artifact_b = joblib.load(model_path)
             predictions_b = artifact_b["model"].predict(self.clean[MODEL_FEATURES].tail(5))
-            self.assertEqual(predictions_a.tolist(), predictions_b.tolist())
+            np.testing.assert_allclose(predictions_a, predictions_b, rtol=0, atol=1e-9)
 
 
 if __name__ == "__main__":

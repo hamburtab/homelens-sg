@@ -1,0 +1,249 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-18T16:55:36.855274,text_search,1,AIzaSy...IDGw,337,Boon Lay,Liu Fang,education,kindergarten,"kindergarten in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:37.591607,text_search,1,AIzaSy...IDGw,338,Boon Lay,Liu Fang,education,childcare centre,"childcare centre in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:38.512725,text_search,1,AIzaSy...IDGw,339,Boon Lay,Liu Fang,education,primary school,"primary school in Liu Fang, Boon Lay, Singapore",OK,,17,
+2026-07-18T16:55:39.411918,text_search,1,AIzaSy...IDGw,340,Boon Lay,Liu Fang,education,secondary school,"secondary school in Liu Fang, Boon Lay, Singapore",OK,,6,
+2026-07-18T16:55:40.109442,text_search,1,AIzaSy...IDGw,341,Boon Lay,Liu Fang,education,junior college,"junior college in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:40.788056,text_search,1,AIzaSy...IDGw,342,Boon Lay,Liu Fang,education,polytechnic,"polytechnic in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:41.787003,text_search,1,AIzaSy...IDGw,343,Boon Lay,Liu Fang,education,university,"university in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:42.760046,text_search,1,AIzaSy...IDGw,344,Boon Lay,Liu Fang,education,tuition centre,"tuition centre in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:43.456108,text_search,1,AIzaSy...IDGw,345,Boon Lay,Liu Fang,education,library,"library in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:44.217625,text_search,1,AIzaSy...IDGw,346,Boon Lay,Liu Fang,transport,MRT station,"MRT station in Liu Fang, Boon Lay, Singapore",OK,,7,
+2026-07-18T16:55:44.938017,text_search,1,AIzaSy...IDGw,347,Boon Lay,Liu Fang,transport,bus stop,"bus stop in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:45.994426,text_search,1,AIzaSy...IDGw,348,Boon Lay,Liu Fang,transport,bus interchange,"bus interchange in Liu Fang, Boon Lay, Singapore",OK,,13,
+2026-07-18T16:55:46.883747,text_search,1,AIzaSy...IDGw,349,Boon Lay,Liu Fang,transport,LRT station,"LRT station in Liu Fang, Boon Lay, Singapore",OK,,10,
+2026-07-18T16:55:47.916143,text_search,1,AIzaSy...IDGw,350,Boon Lay,Liu Fang,food,hawker centre,"hawker centre in Liu Fang, Boon Lay, Singapore",OK,,6,
+2026-07-18T16:55:48.569660,text_search,1,AIzaSy...IDGw,351,Boon Lay,Liu Fang,food,food court,"food court in Liu Fang, Boon Lay, Singapore",OK,,14,
+2026-07-18T16:55:49.145476,text_search,1,AIzaSy...IDGw,352,Boon Lay,Liu Fang,food,coffee shop,"coffee shop in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:49.970161,text_search,1,AIzaSy...IDGw,353,Boon Lay,Liu Fang,food,restaurant,"restaurant in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:50.964517,text_search,1,AIzaSy...IDGw,354,Boon Lay,Liu Fang,food,cafe,"cafe in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:51.769793,text_search,1,AIzaSy...IDGw,355,Boon Lay,Liu Fang,shopping,shopping mall,"shopping mall in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:52.593966,text_search,1,AIzaSy...IDGw,356,Boon Lay,Liu Fang,shopping,supermarket,"supermarket in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:53.460733,text_search,1,AIzaSy...IDGw,357,Boon Lay,Liu Fang,shopping,grocery store,"grocery store in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:54.383068,text_search,1,AIzaSy...IDGw,358,Boon Lay,Liu Fang,shopping,convenience store,"convenience store in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:55.365135,text_search,1,AIzaSy...IDGw,359,Boon Lay,Liu Fang,shopping,wet market,"wet market in Liu Fang, Boon Lay, Singapore",OK,,17,
+2026-07-18T16:55:56.310426,text_search,1,AIzaSy...IDGw,360,Boon Lay,Liu Fang,recreation,gym,"gym in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:57.210427,text_search,1,AIzaSy...IDGw,361,Boon Lay,Liu Fang,recreation,sports centre,"sports centre in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:58.031653,text_search,1,AIzaSy...IDGw,362,Boon Lay,Liu Fang,recreation,swimming complex,"swimming complex in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:55:58.759898,text_search,1,AIzaSy...IDGw,363,Boon Lay,Liu Fang,recreation,cinema,"cinema in Liu Fang, Boon Lay, Singapore",OK,,8,
+2026-07-18T16:55:59.711541,text_search,1,AIzaSy...IDGw,364,Boon Lay,Liu Fang,recreation,community club,"community club in Liu Fang, Boon Lay, Singapore",OK,,17,
+2026-07-18T16:56:00.797393,text_search,1,AIzaSy...IDGw,365,Boon Lay,Liu Fang,recreation,playground,"playground in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:01.668686,text_search,1,AIzaSy...IDGw,366,Boon Lay,Liu Fang,nature,park,"park in Liu Fang, Boon Lay, Singapore",OK,,9,
+2026-07-18T16:56:02.660229,text_search,1,AIzaSy...IDGw,367,Boon Lay,Liu Fang,nature,nature reserve,"nature reserve in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:03.369985,text_search,1,AIzaSy...IDGw,368,Boon Lay,Liu Fang,nature,garden,"garden in Liu Fang, Boon Lay, Singapore",OK,,10,
+2026-07-18T16:56:04.470113,text_search,1,AIzaSy...IDGw,369,Boon Lay,Liu Fang,nature,beach,"beach in Liu Fang, Boon Lay, Singapore",OK,,18,
+2026-07-18T16:56:05.008973,text_search,1,AIzaSy...IDGw,370,Boon Lay,Liu Fang,nature,waterfront,"waterfront in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:05.869175,text_search,1,AIzaSy...IDGw,371,Boon Lay,Liu Fang,nature,park connector,"park connector in Liu Fang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:06.567177,text_search,1,AIzaSy...IDGw,372,Boon Lay,Samulun,education,kindergarten,"kindergarten in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:07.173483,text_search,1,AIzaSy...IDGw,373,Boon Lay,Samulun,education,childcare centre,"childcare centre in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:07.925775,text_search,1,AIzaSy...IDGw,374,Boon Lay,Samulun,education,primary school,"primary school in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:08.818668,text_search,1,AIzaSy...IDGw,375,Boon Lay,Samulun,education,secondary school,"secondary school in Samulun, Boon Lay, Singapore",OK,,4,
+2026-07-18T16:56:09.579501,text_search,1,AIzaSy...IDGw,376,Boon Lay,Samulun,education,junior college,"junior college in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:10.264447,text_search,1,AIzaSy...IDGw,377,Boon Lay,Samulun,education,polytechnic,"polytechnic in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:11.294078,text_search,1,AIzaSy...IDGw,378,Boon Lay,Samulun,education,university,"university in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:12.060918,text_search,1,AIzaSy...IDGw,379,Boon Lay,Samulun,education,tuition centre,"tuition centre in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:12.683213,text_search,1,AIzaSy...IDGw,380,Boon Lay,Samulun,education,library,"library in Samulun, Boon Lay, Singapore",OK,,19,
+2026-07-18T16:56:13.345869,text_search,1,AIzaSy...IDGw,381,Boon Lay,Samulun,transport,MRT station,"MRT station in Samulun, Boon Lay, Singapore",OK,,4,
+2026-07-18T16:56:15.276429,text_search,1,AIzaSy...IDGw,382,Boon Lay,Samulun,transport,bus stop,"bus stop in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:15.882306,text_search,1,AIzaSy...IDGw,383,Boon Lay,Samulun,transport,bus interchange,"bus interchange in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:16.698600,text_search,1,AIzaSy...IDGw,384,Boon Lay,Samulun,transport,LRT station,"LRT station in Samulun, Boon Lay, Singapore",OK,,5,
+2026-07-18T16:56:17.616779,text_search,1,AIzaSy...IDGw,385,Boon Lay,Samulun,food,hawker centre,"hawker centre in Samulun, Boon Lay, Singapore",OK,,13,
+2026-07-18T16:56:18.370765,text_search,1,AIzaSy...IDGw,386,Boon Lay,Samulun,food,food court,"food court in Samulun, Boon Lay, Singapore",OK,,18,
+2026-07-18T16:56:19.028114,text_search,1,AIzaSy...IDGw,387,Boon Lay,Samulun,food,coffee shop,"coffee shop in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:19.728478,text_search,1,AIzaSy...IDGw,388,Boon Lay,Samulun,food,restaurant,"restaurant in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:20.519882,text_search,1,AIzaSy...IDGw,389,Boon Lay,Samulun,food,cafe,"cafe in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:21.464869,text_search,1,AIzaSy...IDGw,390,Boon Lay,Samulun,shopping,shopping mall,"shopping mall in Samulun, Boon Lay, Singapore",OK,,2,
+2026-07-18T16:56:22.459422,text_search,1,AIzaSy...IDGw,391,Boon Lay,Samulun,shopping,supermarket,"supermarket in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:23.172130,text_search,1,AIzaSy...IDGw,392,Boon Lay,Samulun,shopping,grocery store,"grocery store in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:23.774412,text_search,1,AIzaSy...IDGw,393,Boon Lay,Samulun,shopping,convenience store,"convenience store in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:24.827702,text_search,1,AIzaSy...IDGw,394,Boon Lay,Samulun,shopping,wet market,"wet market in Samulun, Boon Lay, Singapore",OK,,12,
+2026-07-18T16:56:25.771034,text_search,1,AIzaSy...IDGw,395,Boon Lay,Samulun,recreation,gym,"gym in Samulun, Boon Lay, Singapore",OK,,14,
+2026-07-18T16:56:26.785948,text_search,1,AIzaSy...IDGw,396,Boon Lay,Samulun,recreation,sports centre,"sports centre in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:27.725539,text_search,1,AIzaSy...IDGw,397,Boon Lay,Samulun,recreation,swimming complex,"swimming complex in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:28.438493,text_search,1,AIzaSy...IDGw,398,Boon Lay,Samulun,recreation,cinema,"cinema in Samulun, Boon Lay, Singapore",OK,,4,
+2026-07-18T16:56:29.024587,text_search,1,AIzaSy...IDGw,399,Boon Lay,Samulun,recreation,community club,"community club in Samulun, Boon Lay, Singapore",OK,,11,
+2026-07-18T16:56:29.714722,text_search,1,AIzaSy...IDGw,400,Boon Lay,Samulun,recreation,playground,"playground in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:30.330109,text_search,1,AIzaSy...IDGw,401,Boon Lay,Samulun,nature,park,"park in Samulun, Boon Lay, Singapore",OK,,15,
+2026-07-18T16:56:31.196372,text_search,1,AIzaSy...IDGw,402,Boon Lay,Samulun,nature,nature reserve,"nature reserve in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:31.813104,text_search,1,AIzaSy...IDGw,403,Boon Lay,Samulun,nature,garden,"garden in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:32.836623,text_search,1,AIzaSy...IDGw,404,Boon Lay,Samulun,nature,beach,"beach in Samulun, Boon Lay, Singapore",OK,,2,
+2026-07-18T16:56:33.733251,text_search,1,AIzaSy...IDGw,405,Boon Lay,Samulun,nature,waterfront,"waterfront in Samulun, Boon Lay, Singapore",OK,,1,
+2026-07-18T16:56:34.738488,text_search,1,AIzaSy...IDGw,406,Boon Lay,Samulun,nature,park connector,"park connector in Samulun, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:35.472717,text_search,1,AIzaSy...IDGw,407,Boon Lay,Shipyard,education,kindergarten,"kindergarten in Shipyard, Boon Lay, Singapore",OK,,15,
+2026-07-18T16:56:36.262402,text_search,1,AIzaSy...IDGw,408,Boon Lay,Shipyard,education,childcare centre,"childcare centre in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:36.971268,text_search,1,AIzaSy...IDGw,409,Boon Lay,Shipyard,education,primary school,"primary school in Shipyard, Boon Lay, Singapore",OK,,2,
+2026-07-18T16:56:37.680857,text_search,1,AIzaSy...IDGw,410,Boon Lay,Shipyard,education,secondary school,"secondary school in Shipyard, Boon Lay, Singapore",OK,,4,
+2026-07-18T16:56:38.604823,text_search,1,AIzaSy...IDGw,411,Boon Lay,Shipyard,education,junior college,"junior college in Shipyard, Boon Lay, Singapore",OK,,14,
+2026-07-18T16:56:39.196864,text_search,1,AIzaSy...IDGw,412,Boon Lay,Shipyard,education,polytechnic,"polytechnic in Shipyard, Boon Lay, Singapore",OK,,11,
+2026-07-18T16:56:40.019511,text_search,1,AIzaSy...IDGw,413,Boon Lay,Shipyard,education,university,"university in Shipyard, Boon Lay, Singapore",OK,,11,
+2026-07-18T16:56:40.570529,text_search,1,AIzaSy...IDGw,414,Boon Lay,Shipyard,education,tuition centre,"tuition centre in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:41.086059,text_search,1,AIzaSy...IDGw,415,Boon Lay,Shipyard,education,library,"library in Shipyard, Boon Lay, Singapore",OK,,14,
+2026-07-18T16:56:41.861649,text_search,1,AIzaSy...IDGw,416,Boon Lay,Shipyard,transport,MRT station,"MRT station in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:42.725871,text_search,1,AIzaSy...IDGw,417,Boon Lay,Shipyard,transport,bus stop,"bus stop in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:43.532670,text_search,1,AIzaSy...IDGw,418,Boon Lay,Shipyard,transport,bus interchange,"bus interchange in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:44.431505,text_search,1,AIzaSy...IDGw,419,Boon Lay,Shipyard,transport,LRT station,"LRT station in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:45.332528,text_search,1,AIzaSy...IDGw,420,Boon Lay,Shipyard,food,hawker centre,"hawker centre in Shipyard, Boon Lay, Singapore",OK,,17,
+2026-07-18T16:56:46.150901,text_search,1,AIzaSy...IDGw,421,Boon Lay,Shipyard,food,food court,"food court in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:46.869882,text_search,1,AIzaSy...IDGw,422,Boon Lay,Shipyard,food,coffee shop,"coffee shop in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:47.749807,text_search,1,AIzaSy...IDGw,423,Boon Lay,Shipyard,food,restaurant,"restaurant in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:48.740384,text_search,1,AIzaSy...IDGw,424,Boon Lay,Shipyard,food,cafe,"cafe in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:49.286901,text_search,1,AIzaSy...IDGw,425,Boon Lay,Shipyard,shopping,shopping mall,"shopping mall in Shipyard, Boon Lay, Singapore",OK,,1,
+2026-07-18T16:56:49.931646,text_search,1,AIzaSy...IDGw,426,Boon Lay,Shipyard,shopping,supermarket,"supermarket in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:50.649108,text_search,1,AIzaSy...IDGw,427,Boon Lay,Shipyard,shopping,grocery store,"grocery store in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:51.667925,text_search,1,AIzaSy...IDGw,428,Boon Lay,Shipyard,shopping,convenience store,"convenience store in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:52.607337,text_search,1,AIzaSy...IDGw,429,Boon Lay,Shipyard,shopping,wet market,"wet market in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:53.148626,text_search,1,AIzaSy...IDGw,430,Boon Lay,Shipyard,recreation,gym,"gym in Shipyard, Boon Lay, Singapore",OK,,4,
+2026-07-18T16:56:54.095349,text_search,1,AIzaSy...IDGw,431,Boon Lay,Shipyard,recreation,sports centre,"sports centre in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:54.893161,text_search,1,AIzaSy...IDGw,432,Boon Lay,Shipyard,recreation,swimming complex,"swimming complex in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:55.727249,text_search,1,AIzaSy...IDGw,433,Boon Lay,Shipyard,recreation,cinema,"cinema in Shipyard, Boon Lay, Singapore",OK,,4,
+2026-07-18T16:56:56.472515,text_search,1,AIzaSy...IDGw,434,Boon Lay,Shipyard,recreation,community club,"community club in Shipyard, Boon Lay, Singapore",OK,,10,
+2026-07-18T16:56:57.132711,text_search,1,AIzaSy...IDGw,435,Boon Lay,Shipyard,recreation,playground,"playground in Shipyard, Boon Lay, Singapore",OK,,8,
+2026-07-18T16:56:58.124249,text_search,1,AIzaSy...IDGw,436,Boon Lay,Shipyard,nature,park,"park in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:58.930082,text_search,1,AIzaSy...IDGw,437,Boon Lay,Shipyard,nature,nature reserve,"nature reserve in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:56:59.778387,text_search,1,AIzaSy...IDGw,438,Boon Lay,Shipyard,nature,garden,"garden in Shipyard, Boon Lay, Singapore",OK,,2,
+2026-07-18T16:57:00.359816,text_search,1,AIzaSy...IDGw,439,Boon Lay,Shipyard,nature,beach,"beach in Shipyard, Boon Lay, Singapore",OK,,2,
+2026-07-18T16:57:01.013047,text_search,1,AIzaSy...IDGw,440,Boon Lay,Shipyard,nature,waterfront,"waterfront in Shipyard, Boon Lay, Singapore",OK,,4,
+2026-07-18T16:57:01.742560,text_search,1,AIzaSy...IDGw,441,Boon Lay,Shipyard,nature,park connector,"park connector in Shipyard, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:02.477943,text_search,1,AIzaSy...IDGw,442,Boon Lay,Tukang,education,kindergarten,"kindergarten in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:03.326726,text_search,1,AIzaSy...IDGw,443,Boon Lay,Tukang,education,childcare centre,"childcare centre in Tukang, Boon Lay, Singapore",OK,,19,
+2026-07-18T16:57:04.092051,text_search,1,AIzaSy...IDGw,444,Boon Lay,Tukang,education,primary school,"primary school in Tukang, Boon Lay, Singapore",OK,,2,
+2026-07-18T16:57:04.785447,text_search,1,AIzaSy...IDGw,445,Boon Lay,Tukang,education,secondary school,"secondary school in Tukang, Boon Lay, Singapore",OK,,2,
+2026-07-18T16:57:05.877281,text_search,1,AIzaSy...IDGw,446,Boon Lay,Tukang,education,junior college,"junior college in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:06.616912,text_search,1,AIzaSy...IDGw,447,Boon Lay,Tukang,education,polytechnic,"polytechnic in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:07.484417,text_search,1,AIzaSy...IDGw,448,Boon Lay,Tukang,education,university,"university in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:08.239270,text_search,1,AIzaSy...IDGw,449,Boon Lay,Tukang,education,tuition centre,"tuition centre in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:09.245911,text_search,1,AIzaSy...IDGw,450,Boon Lay,Tukang,education,library,"library in Tukang, Boon Lay, Singapore",OK,,16,
+2026-07-18T16:57:10.234609,text_search,1,AIzaSy...IDGw,451,Boon Lay,Tukang,transport,MRT station,"MRT station in Tukang, Boon Lay, Singapore",OK,,14,
+2026-07-18T16:57:10.893183,text_search,1,AIzaSy...IDGw,452,Boon Lay,Tukang,transport,bus stop,"bus stop in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:11.615076,text_search,1,AIzaSy...IDGw,453,Boon Lay,Tukang,transport,bus interchange,"bus interchange in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:12.299481,text_search,1,AIzaSy...IDGw,454,Boon Lay,Tukang,transport,LRT station,"LRT station in Tukang, Boon Lay, Singapore",OK,,3,
+2026-07-18T16:57:13.328274,text_search,1,AIzaSy...IDGw,455,Boon Lay,Tukang,food,hawker centre,"hawker centre in Tukang, Boon Lay, Singapore",OK,,6,
+2026-07-18T16:57:14.438525,text_search,1,AIzaSy...IDGw,456,Boon Lay,Tukang,food,food court,"food court in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:15.504764,text_search,1,AIzaSy...IDGw,457,Boon Lay,Tukang,food,coffee shop,"coffee shop in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:16.502026,text_search,1,AIzaSy...IDGw,458,Boon Lay,Tukang,food,restaurant,"restaurant in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:17.281026,text_search,1,AIzaSy...IDGw,459,Boon Lay,Tukang,food,cafe,"cafe in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:18.105648,text_search,1,AIzaSy...IDGw,460,Boon Lay,Tukang,shopping,shopping mall,"shopping mall in Tukang, Boon Lay, Singapore",OK,,1,
+2026-07-18T16:57:18.804339,text_search,1,AIzaSy...IDGw,461,Boon Lay,Tukang,shopping,supermarket,"supermarket in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:19.692276,text_search,1,AIzaSy...IDGw,462,Boon Lay,Tukang,shopping,grocery store,"grocery store in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:20.457145,text_search,1,AIzaSy...IDGw,463,Boon Lay,Tukang,shopping,convenience store,"convenience store in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:21.487202,text_search,1,AIzaSy...IDGw,464,Boon Lay,Tukang,shopping,wet market,"wet market in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:22.329065,text_search,1,AIzaSy...IDGw,465,Boon Lay,Tukang,recreation,gym,"gym in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:23.376544,text_search,1,AIzaSy...IDGw,466,Boon Lay,Tukang,recreation,sports centre,"sports centre in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:24.504423,text_search,1,AIzaSy...IDGw,467,Boon Lay,Tukang,recreation,swimming complex,"swimming complex in Tukang, Boon Lay, Singapore",OK,,10,
+2026-07-18T16:57:25.040271,text_search,1,AIzaSy...IDGw,468,Boon Lay,Tukang,recreation,cinema,"cinema in Tukang, Boon Lay, Singapore",OK,,4,
+2026-07-18T16:57:25.795982,text_search,1,AIzaSy...IDGw,469,Boon Lay,Tukang,recreation,community club,"community club in Tukang, Boon Lay, Singapore",OK,,11,
+2026-07-18T16:57:26.841533,text_search,1,AIzaSy...IDGw,470,Boon Lay,Tukang,recreation,playground,"playground in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:27.617895,text_search,1,AIzaSy...IDGw,471,Boon Lay,Tukang,nature,park,"park in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:28.382929,text_search,1,AIzaSy...IDGw,472,Boon Lay,Tukang,nature,nature reserve,"nature reserve in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:29.034602,text_search,1,AIzaSy...IDGw,473,Boon Lay,Tukang,nature,garden,"garden in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:29.553651,text_search,1,AIzaSy...IDGw,474,Boon Lay,Tukang,nature,beach,"beach in Tukang, Boon Lay, Singapore",OK,,1,
+2026-07-18T16:57:30.435096,text_search,1,AIzaSy...IDGw,475,Boon Lay,Tukang,nature,waterfront,"waterfront in Tukang, Boon Lay, Singapore",OK,,20,
+2026-07-18T16:57:31.129888,text_search,1,AIzaSy...IDGw,476,Boon Lay,Tukang,nature,park connector,"park connector in Tukang, Boon Lay, Singapore",OK,,6,
+2026-07-18T16:57:31.930803,place_details_reviews,1,AIzaSy...IDGw,477,Boon Lay,Liu Fang,education,kindergarten,ChIJqwjRZnUQ2jER4sUlxzFoDwE,OK,,5,Star Learners @ Jurong East | Preschool & Childcare
+2026-07-18T16:57:32.540555,place_details_reviews,1,AIzaSy...IDGw,478,Boon Lay,Liu Fang,education,kindergarten,ChIJl0DTCMIP2jERxIYMsHqYeyY,OK,,5,Rainbow Childcare Pte Ltd
+2026-07-18T16:57:32.900915,place_details_reviews,1,AIzaSy...IDGw,479,Boon Lay,Liu Fang,education,primary school,ChIJiRDxoOkP2jERWvGpVvrW15I,OK,,0,Boon Lay Garden Primary School
+2026-07-18T16:57:33.295964,place_details_reviews,1,AIzaSy...IDGw,480,Boon Lay,Liu Fang,education,primary school,ChIJVwe1euUP2jERXOcoAuUFS9Y,OK,,0,Lakeside Primary School
+2026-07-18T16:57:33.954522,place_details_reviews,1,AIzaSy...IDGw,481,Boon Lay,Liu Fang,education,secondary school,ChIJc2MrR5QP2jERndRHjWsok84,OK,,0,Boon Lay Secondary School
+2026-07-18T16:57:34.538373,place_details_reviews,1,AIzaSy...IDGw,482,Boon Lay,Liu Fang,education,secondary school,ChIJLRtFv9sP2jERVafAzSd4JAs,OK,,0,Hua Yi Secondary School
+2026-07-18T16:57:34.964526,place_details_reviews,1,AIzaSy...IDGw,483,Boon Lay,Liu Fang,education,junior college,ChIJz_-CGpUR2jERsxAVVh_vnoY,OK,,5,Jurong Pioneer Junior College
+2026-07-18T16:57:35.402510,place_details_reviews,1,AIzaSy...IDGw,484,Boon Lay,Liu Fang,education,junior college,ChIJESRAQ1sa2jERlSmmrDCCriw,OK,,5,Anglo-Chinese Junior College
+2026-07-18T16:57:35.759683,place_details_reviews,1,AIzaSy...IDGw,485,Boon Lay,Liu Fang,education,polytechnic,ChIJFXzxL2Aa2jERnoWTOdJdVKk,OK,,5,Singapore Polytechnic
+2026-07-18T16:57:36.636866,place_details_reviews,1,AIzaSy...IDGw,486,Boon Lay,Liu Fang,education,polytechnic,ChIJWeO0jn0Q2jERQwzr3v_n0nU,OK,,5,Ngee Ann Polytechnic
+2026-07-18T16:57:37.247030,place_details_reviews,1,AIzaSy...IDGw,487,Boon Lay,Liu Fang,education,university,ChIJY0QBmQoP2jERGYItxQAIu7g,OK,,5,Nanyang Technological University
+2026-07-18T16:57:38.035281,place_details_reviews,1,AIzaSy...IDGw,488,Boon Lay,Liu Fang,education,university,ChIJ2QJCeFYa2jERa434wdYIjUg,OK,,5,National University of Singapore
+2026-07-18T16:57:38.437290,place_details_reviews,1,AIzaSy...IDGw,489,Boon Lay,Liu Fang,education,tuition centre,ChIJxVpRXY0b2jERLaTEQpzXKf0,OK,,5,Pillora Learning
+2026-07-18T16:57:39.241124,place_details_reviews,1,AIzaSy...IDGw,490,Boon Lay,Liu Fang,education,tuition centre,ChIJQTCeRYUb2jER5TPLc9QLANQ,OK,,5,Yi Xue Learning Centre (易学堂) - Clementi
+2026-07-18T16:57:40.046412,place_details_reviews,1,AIzaSy...IDGw,491,Boon Lay,Liu Fang,education,library,ChIJH09-DXUP2jERCg2KA3tyygw,OK,,5,Lee Wee Nam Library
+2026-07-18T16:57:40.544379,place_details_reviews,1,AIzaSy...IDGw,492,Boon Lay,Liu Fang,education,library,ChIJF3XNQ5MP2jERXeUO2D_OtYY,OK,,5,Jurong West Library
+2026-07-18T16:57:41.327328,place_details_reviews,1,AIzaSy...IDGw,493,Boon Lay,Liu Fang,transport,MRT station,ChIJZZ5e1JIP2jER3nPOBF7LjTI,OK,,5,Boon Lay
+2026-07-18T16:57:41.968738,place_details_reviews,1,AIzaSy...IDGw,494,Boon Lay,Liu Fang,transport,MRT station,ChIJ9RvNRQAP2jER2Ph77_LTYlo,OK,,5,Boon Lay MRT Station (EW27)
+2026-07-18T16:57:42.647496,place_details_reviews,1,AIzaSy...IDGw,495,Boon Lay,Liu Fang,transport,bus stop,ChIJlwb0K5MP2jERheBVJtHCP1w,OK,,5,Boon Lay Interchange
+2026-07-18T16:57:43.368587,place_details_reviews,1,AIzaSy...IDGw,496,Boon Lay,Liu Fang,transport,bus stop,ChIJ-8BAc8IP2jERUtwdnPC-AVM,OK,,5,Boon Lay Shop Ctr
+2026-07-18T16:57:43.849359,place_details_reviews,1,AIzaSy...IDGw,497,Boon Lay,Liu Fang,transport,bus interchange,ChIJlRE-XqoP2jERcoPU8Ya_Hiw,OK,,5,Boon Lay Bus Interchange
+2026-07-18T16:57:44.568574,place_details_reviews,1,AIzaSy...IDGw,498,Boon Lay,Liu Fang,food,hawker centre,ChIJ3YoS3ukP2jERkcHsff2PWBo,OK,,5,Boon Lay Place Food Village
+2026-07-18T16:57:45.027852,place_details_reviews,1,AIzaSy...IDGw,499,Boon Lay,Liu Fang,food,hawker centre,ChIJWfPA6AMP2jER0ZyA4eWjkqc,OK,,5,Old Boon Lay
+2026-07-18T16:57:45.429057,place_details_reviews,1,AIzaSy...IDGw,500,Boon Lay,Liu Fang,food,food court,ChIJa2Ji_akR2jERuBnylTIA7PY,OK,,5,Chinese Garden Food Shop
+2026-07-18T16:57:46.096942,place_details_reviews,1,AIzaSy...IDGw,501,Boon Lay,Liu Fang,food,coffee shop,ChIJT6qTUgAF2jERkON9qrjZRIU,OK,,1,Le Shi Dai 乐食代
+2026-07-18T16:57:46.843308,place_details_reviews,1,AIzaSy...IDGw,502,Boon Lay,Liu Fang,food,coffee shop,ChIJbTk_BAAF2jER5xQJ3TEhLAI,OK,,4,Siva Coffee
+2026-07-18T16:57:47.324176,place_details_reviews,1,AIzaSy...IDGw,503,Boon Lay,Liu Fang,food,restaurant,ChIJIbwLIdwR2jERq1Jvld2oe8M,OK,,5,Ba Fang Lu Cai Jurong
+2026-07-18T16:57:47.993416,place_details_reviews,1,AIzaSy...IDGw,504,Boon Lay,Liu Fang,food,restaurant,ChIJF3qyKwAb2jER0vXZ5w1fGGI,OK,,5,Yan Lin Fang
+2026-07-18T16:57:48.852776,place_details_reviews,1,AIzaSy...IDGw,505,Boon Lay,Liu Fang,food,cafe,ChIJ248ngA0P2jERlUlQ1L9uBcM,OK,,5,The Noob Coffee
+2026-07-18T16:57:49.612079,place_details_reviews,1,AIzaSy...IDGw,506,Boon Lay,Liu Fang,food,cafe,ChIJo1U5FDcP2jERx4jN15YI_mY,OK,,5,Boon Lay Cafe
+2026-07-18T16:57:50.079983,place_details_reviews,1,AIzaSy...IDGw,507,Boon Lay,Liu Fang,shopping,shopping mall,ChIJjyf3EsIP2jER-6PJOuQZ2po,OK,,5,Boon Lay Shopping Centre
+2026-07-18T16:57:50.905266,place_details_reviews,1,AIzaSy...IDGw,508,Boon Lay,Liu Fang,shopping,shopping mall,ChIJa9YM2-wP2jERmOUStQKyiS0,OK,,5,Jurong Point
+2026-07-18T16:57:51.646277,place_details_reviews,1,AIzaSy...IDGw,509,Boon Lay,Liu Fang,shopping,supermarket,ChIJa_6xD8IP2jERC2e3Q6mjwyg,OK,,5,FairPrice Boon Lay Shopping Complex
+2026-07-18T16:57:52.025447,place_details_reviews,1,AIzaSy...IDGw,510,Boon Lay,Liu Fang,shopping,convenience store,ChIJdxXgOU0b2jERxYxGaOz919w,OK,,5,Delight Supermart Pte Ltd
+2026-07-18T16:57:52.723560,place_details_reviews,1,AIzaSy...IDGw,511,Boon Lay,Liu Fang,shopping,convenience store,ChIJrduhfAAP2jERolOMJhQjH1M,OK,,0,Shwe Inn Wa Minimart
+2026-07-18T16:57:53.554671,place_details_reviews,1,AIzaSy...IDGw,512,Boon Lay,Liu Fang,recreation,gym,ChIJB2a1tX8R2jERLWSYgXhxS8E,OK,,5,Anytime Fitness
+2026-07-18T16:57:54.288838,place_details_reviews,1,AIzaSy...IDGw,513,Boon Lay,Liu Fang,recreation,gym,ChIJgRH1kBYR2jER7dj5D25XNWo,OK,,5,Extreme Fitness - Personal Training Jurong East
+2026-07-18T16:57:55.137896,place_details_reviews,1,AIzaSy...IDGw,514,Boon Lay,Liu Fang,recreation,sports centre,ChIJE7e17AsQ2jER1kpALyegsDc,OK,,5,ActiveSG Hockey Village @ Boon Lay
+2026-07-18T16:57:55.845352,place_details_reviews,1,AIzaSy...IDGw,515,Boon Lay,Liu Fang,recreation,sports centre,ChIJE2GHsvkP2jERHQphfdbQ99I,OK,,5,ActiveSG Hockey Village @ Boon Lay Gym
+2026-07-18T16:57:56.508584,place_details_reviews,1,AIzaSy...IDGw,516,Boon Lay,Liu Fang,recreation,swimming complex,ChIJ4Qton5oP2jERihKBVLOV04k,OK,,5,Jurong West Swimming Complex
+2026-07-18T16:57:57.001279,place_details_reviews,1,AIzaSy...IDGw,517,Boon Lay,Liu Fang,recreation,swimming complex,ChIJKx-bFRwR2jERM4B74f48Y4c,OK,,1,THE CHEVRONS Swimming Pool
+2026-07-18T16:57:57.477493,place_details_reviews,1,AIzaSy...IDGw,518,Boon Lay,Liu Fang,recreation,cinema,ChIJgWtqxOwP2jERydU8CT8sako,OK,,5,Golden Village
+2026-07-18T16:57:58.266112,place_details_reviews,1,AIzaSy...IDGw,519,Boon Lay,Liu Fang,recreation,cinema,ChIJFx7cQgAR2jERum7NN5FvIOk,OK,,5,Shaw Theatres JEM
+2026-07-18T16:57:58.976334,place_details_reviews,1,AIzaSy...IDGw,520,Boon Lay,Liu Fang,recreation,community club,ChIJPeCff8EP2jERXw_DYnWynFY,OK,,5,Boon Lay Community Club
+2026-07-18T16:57:59.982978,place_details_reviews,1,AIzaSy...IDGw,521,Boon Lay,Liu Fang,recreation,community club,ChIJ72UutBsQ2jERo9kuR_0VQVg,OK,,5,Yuhua Community Club
+2026-07-18T16:58:00.582131,place_details_reviews,1,AIzaSy...IDGw,522,Boon Lay,Liu Fang,recreation,playground,ChIJz2aTa5cP2jERVE_rQDwSsHo,OK,,2,Boon Lay View Playground
+2026-07-18T16:58:01.082046,place_details_reviews,1,AIzaSy...IDGw,523,Boon Lay,Liu Fang,recreation,playground,ChIJx7P2KJ8P2jER2CjBImw8IAg,OK,,5,Forest Ramble
+2026-07-18T16:58:01.479848,place_details_reviews,1,AIzaSy...IDGw,524,Boon Lay,Liu Fang,nature,park,ChIJqVUlbe0P2jER-8gqnsq4eNk,OK,,5,Jurong Central Park
+2026-07-18T16:58:01.987910,place_details_reviews,1,AIzaSy...IDGw,525,Boon Lay,Liu Fang,nature,park,ChIJmUUUWDIb2jERgxLNB5lOlzU,OK,,3,"Boon Lay Way Heavy Vehicle Carpark,608506"
+2026-07-18T16:58:02.762104,place_details_reviews,1,AIzaSy...IDGw,526,Boon Lay,Liu Fang,nature,nature reserve,ChIJR9wDuIwQ2jERp5g9l0m9MQ0,OK,,5,Rifle Range Nature Park
+2026-07-18T16:58:03.230150,place_details_reviews,1,AIzaSy...IDGw,527,Boon Lay,Liu Fang,nature,nature reserve,ChIJrRQcY5AP2jER3We2ci427FY,OK,,5,Boon Lay Nature Garden
+2026-07-18T16:58:03.765302,place_details_reviews,1,AIzaSy...IDGw,528,Boon Lay,Liu Fang,nature,garden,ChIJuZ4kdB0Q2jERdp1SrojDF_I,OK,,5,Chinese Garden
+2026-07-18T16:58:04.176868,place_details_reviews,1,AIzaSy...IDGw,529,Boon Lay,Liu Fang,nature,beach,ChIJpRlNluQa2jERt1AMrgNfuhM,OK,,5,Promenade Lookout Jetty
+2026-07-18T16:58:04.893245,place_details_reviews,1,AIzaSy...IDGw,530,Boon Lay,Liu Fang,nature,waterfront,ChIJ96HBJZ8a2jERl1GsjJmk-70,OK,,5,Waterfront @ Faber
+2026-07-18T16:58:05.652417,place_details_reviews,1,AIzaSy...IDGw,531,Boon Lay,Liu Fang,nature,waterfront,ChIJ3buMSgAF2jEREySdppfJP_o,OK,,0,"""Yard Bungalow"" waterfront"
+2026-07-18T16:58:06.333708,place_details_reviews,1,AIzaSy...IDGw,532,Boon Lay,Liu Fang,nature,park connector,ChIJh96XTAAP2jERpzIEPWepVmE,OK,,2,Jurong Park Connector
+2026-07-18T16:58:07.148420,place_details_reviews,1,AIzaSy...IDGw,533,Boon Lay,Liu Fang,nature,park connector,ChIJ8XlGQwUb2jEROBH9L3gn9o0,OK,,5,Ulu Pandan Park Connector
+2026-07-18T16:58:07.713786,place_details_reviews,1,AIzaSy...IDGw,534,Boon Lay,Samulun,education,secondary school,ChIJr1lusOsP2jERKAFcVUeYtEA,OK,,0,River Valley High School
+2026-07-18T16:58:08.269856,place_details_reviews,1,AIzaSy...IDGw,535,Boon Lay,Samulun,education,junior college,ChIJ7aAp7AkX2jERMXPZER1KuCU,OK,,5,Nanyang Junior College
+2026-07-18T16:58:09.029634,place_details_reviews,1,AIzaSy...IDGw,536,Boon Lay,Samulun,education,polytechnic,ChIJZX8AIGAa2jERZj1hXsMAZ3U,OK,,5,SP - Poly Marina
+2026-07-18T16:58:09.535684,place_details_reviews,1,AIzaSy...IDGw,537,Boon Lay,Samulun,education,university,ChIJvQQziYAQ2jERCOP-JKA4N9k,OK,,5,Singapore University of Social Sciences
+2026-07-18T16:58:10.200474,place_details_reviews,1,AIzaSy...IDGw,538,Boon Lay,Samulun,education,tuition centre,ChIJM4R4Ld0b2jERu3aAudp-bvY,OK,,5,I Love Learning Achievement Center (Clementi West)
+2026-07-18T16:58:10.612239,place_details_reviews,1,AIzaSy...IDGw,539,Boon Lay,Samulun,education,library,ChIJraqq-gUQ2jERYpaqvOqNXdk,OK,,5,Jurong Library
+2026-07-18T16:58:10.973624,place_details_reviews,1,AIzaSy...IDGw,540,Boon Lay,Samulun,transport,LRT station,ChIJRbJiD-cP2jERkXkR2OZh8hI,OK,,5,Lakeside
+2026-07-18T16:58:11.400699,place_details_reviews,1,AIzaSy...IDGw,541,Boon Lay,Samulun,food,hawker centre,ChIJ-T2z2OkP2jERAXn_5oiPRN8,OK,,5,Boon Lay Power Nasi Lemak
+2026-07-18T16:58:11.843940,place_details_reviews,1,AIzaSy...IDGw,542,Boon Lay,Samulun,food,food court,ChIJDa6cI8IP2jERTf9tmOxilLg,OK,,5,90 Boon Lay Place Food Court
+2026-07-18T16:58:12.696814,place_details_reviews,1,AIzaSy...IDGw,543,Boon Lay,Samulun,food,coffee shop,ChIJAQAAEPEP2jERrhB2fWx7S-8,OK,,5,Suzuki Cafe and Roastery
+2026-07-18T16:58:13.485480,place_details_reviews,1,AIzaSy...IDGw,544,Boon Lay,Samulun,food,restaurant,ChIJVVWhX8EP2jERXqNFsqQa-CI,OK,,5,Bok's Kitchen by Hidden Chefs - Singapore
+2026-07-18T16:58:13.868758,place_details_reviews,1,AIzaSy...IDGw,545,Boon Lay,Samulun,shopping,convenience store,ChIJO1u2Zp4P2jEROs4BGFIZCIE,OK,,5,Huangs Mart
+2026-07-18T16:58:14.415955,place_details_reviews,1,AIzaSy...IDGw,546,Boon Lay,Samulun,shopping,wet market,ChIJA-S30F8b2jER46-WSc7Ak2g,OK,,5,Teban Gardens Wet Market
+2026-07-18T16:58:15.144571,place_details_reviews,1,AIzaSy...IDGw,547,Boon Lay,Samulun,recreation,swimming complex,ChIJWaHnCyAQ2jERlnBesVA4gic,OK,,5,Jurong East Swimming Complex
+2026-07-18T16:58:15.533623,place_details_reviews,1,AIzaSy...IDGw,548,Boon Lay,Samulun,recreation,playground,ChIJHX9qQgAP2jERdVGFv1A5lps,OK,,5,Bulim Park Playground
+2026-07-18T16:58:16.278326,place_details_reviews,1,AIzaSy...IDGw,549,Boon Lay,Samulun,nature,nature reserve,ChIJe0cEPoIS2jERs_rS2qvGOxw,OK,,5,Sungei Buloh Wetland Reserve
+2026-07-18T16:58:17.028088,place_details_reviews,1,AIzaSy...IDGw,550,Boon Lay,Samulun,nature,nature reserve,ChIJs3oprUQQ2jERp8A9mbkPZJE,OK,,5,Bukit Batok Nature Park
+2026-07-18T16:58:17.422338,place_details_reviews,1,AIzaSy...IDGw,551,Boon Lay,Samulun,nature,beach,ChIJnR_8MAAN2jERDyj8QDp7-is,OK,,5,Sarimbun Beach Landing
+2026-07-18T16:58:17.760431,place_details_reviews,1,AIzaSy...IDGw,552,Boon Lay,Samulun,nature,park connector,ChIJxZwgg1kZ2jERfsCcuEg0JC4,OK,,5,Kallang Park Connector
+2026-07-18T16:58:18.082926,place_details_reviews,1,AIzaSy...IDGw,553,Boon Lay,Shipyard,education,kindergarten,ChIJvRUvTc4R2jERyflRTUly1jw,OK,,0,Tots N Toys Infant and Toddler Preschool
+2026-07-18T16:58:18.587951,place_details_reviews,1,AIzaSy...IDGw,554,Boon Lay,Shipyard,education,childcare centre,ChIJHUK0FlIF2jERLcrbqLf1e-s,OK,,5,Raffles Kidz @ Jurong West (Yuan Ching) - Best Childcare and Preschool Singapore
+2026-07-18T16:58:19.033472,place_details_reviews,1,AIzaSy...IDGw,555,Boon Lay,Shipyard,education,university,ChIJD5ykzaEF2jERQWR11ZfXcXY,OK,,5,ST Engineering
+2026-07-18T16:58:19.764945,place_details_reviews,1,AIzaSy...IDGw,556,Boon Lay,Shipyard,education,tuition centre,ChIJIUa7BOEP2jERTdkrx46f9cg,OK,,5,"AGrader Learning Centre (Boon Lay- Jurong Point) - English, Math, Creative Writing, Chinese, Science Tuition Centre Singapore"
+2026-07-18T16:58:20.334376,place_details_reviews,1,AIzaSy...IDGw,557,Boon Lay,Shipyard,transport,bus stop,ChIJtTqTLpMP2jERXsq4IDYifkw,OK,,1,Singapore Boon Lay
+2026-07-18T16:58:20.800193,place_details_reviews,1,AIzaSy...IDGw,558,Boon Lay,Shipyard,food,hawker centre,ChIJXw4jwvMP2jERX6rsdPzfYr8,OK,,5,Quality Road Hawker Centre
+2026-07-18T16:58:21.621141,place_details_reviews,1,AIzaSy...IDGw,559,Boon Lay,Shipyard,food,food court,ChIJgWdGnOEF2jER_ggcNlsl9Vo,OK,,5,Shipyard Cafe (Canteen)
+2026-07-18T16:58:22.314929,place_details_reviews,1,AIzaSy...IDGw,560,Boon Lay,Shipyard,food,coffee shop,ChIJuQL7LgAF2jER76DKBA47iUs,OK,,3,Deli Cafe
+2026-07-18T16:58:23.022225,place_details_reviews,1,AIzaSy...IDGw,561,Boon Lay,Shipyard,shopping,supermarket,ChIJLVIrvFUF2jERKgyxcADnXm8,OK,,5,Sheng Siong Supermarket
+2026-07-18T16:58:23.503297,place_details_reviews,1,AIzaSy...IDGw,562,Boon Lay,Shipyard,shopping,convenience store,ChIJffTNEecP2jERpa5FxHAcKSY,OK,,5,7-Eleven
+2026-07-18T16:58:23.965246,place_details_reviews,1,AIzaSy...IDGw,563,Boon Lay,Shipyard,shopping,wet market,ChIJfY_zJ6MF2jERefg_hPaVgp8,OK,,5,Jurong Fishery Port
+2026-07-18T16:58:24.527352,place_details_reviews,1,AIzaSy...IDGw,564,Boon Lay,Shipyard,recreation,sports centre,ChIJEwW7gpoP2jER4o0mrMTZddM,OK,,5,Jurong West Sport Centre
+2026-07-18T16:58:24.933893,place_details_reviews,1,AIzaSy...IDGw,565,Boon Lay,Shipyard,recreation,swimming complex,ChIJR-z8w_IP2jERnBryBsNtHjc,OK,,5,Safra Jurong Swimming Pool
+2026-07-18T16:58:25.380539,place_details_reviews,1,AIzaSy...IDGw,566,Boon Lay,Shipyard,recreation,playground,ChIJ-xOjEAAP2jER5-m_K-oXT5s,OK,,3,Playground
+2026-07-18T16:58:25.924551,place_details_reviews,1,AIzaSy...IDGw,567,Boon Lay,Shipyard,nature,park,ChIJWQLwKP0P2jER-AOMrDbkIW8,OK,,5,Jurong Lake Gardens
+2026-07-18T16:58:26.667958,place_details_reviews,1,AIzaSy...IDGw,568,Boon Lay,Shipyard,nature,garden,ChIJj8ZKhQkF2jER-C61PycOsC0,OK,,5,Blue Lagoon Beer Garden
+2026-07-18T16:58:27.217056,place_details_reviews,1,AIzaSy...IDGw,569,Boon Lay,Shipyard,nature,waterfront,ChIJ_zf7aaIF2jERUz1sWb5n8Dg,OK,,1,Benoi Shipyard
+2026-07-18T16:58:27.945666,place_details_reviews,1,AIzaSy...IDGw,570,Boon Lay,Shipyard,nature,park connector,ChIJ7XqBWxUP2jERmnprRbIXaOo,OK,,1,Park Connector
+2026-07-18T16:58:28.608034,place_details_reviews,1,AIzaSy...IDGw,571,Boon Lay,Tukang,education,junior college,ChIJ6ddYmGQZ2jER9G6abHZE-40,OK,,5,BMC International College
+2026-07-18T16:58:29.197371,place_details_reviews,1,AIzaSy...IDGw,572,Boon Lay,Tukang,education,university,ChIJlZoVmwUQ2jERsmoHDrhjvNA,OK,,5,Nanyang Asia College
+2026-07-18T16:58:29.696026,place_details_reviews,1,AIzaSy...IDGw,573,Boon Lay,Tukang,education,tuition centre,ChIJTUjykBcR2jER6lLpVo0-8A4,OK,,5,Smart Student Tuition (SST)
+2026-07-18T16:58:30.468582,place_details_reviews,1,AIzaSy...IDGw,574,Boon Lay,Tukang,transport,MRT station,ChIJASZS6kgF2jERHELrWQb1haQ,OK,,2,Tukang MRT Station (JS10) (U/C)
+2026-07-18T16:58:30.882493,place_details_reviews,1,AIzaSy...IDGw,575,Boon Lay,Tukang,food,hawker centre,ChIJI7dXZwAF2jERH9S0kiGg7Bo,OK,,5,Tukang Food Court
+2026-07-18T16:58:31.547450,place_details_reviews,1,AIzaSy...IDGw,576,Boon Lay,Tukang,food,food court,ChIJzbBJ4M4F2jERBgOakbz0pFQ,OK,,2,Little Tukang Foodhub
+2026-07-18T16:58:32.360878,place_details_reviews,1,AIzaSy...IDGw,577,Boon Lay,Tukang,food,coffee shop,ChIJmYD0DgAP2jERuBlsRMH92Bw,OK,,5,Makan Melaka
+2026-07-18T16:58:33.070367,place_details_reviews,1,AIzaSy...IDGw,578,Boon Lay,Tukang,shopping,grocery store,ChIJFzZJ4mwP2jERNihs48Lu6-I,OK,,1,Saung Minimart
+2026-07-18T16:58:33.879196,place_details_reviews,1,AIzaSy...IDGw,579,Boon Lay,Tukang,recreation,gym,ChIJt1s4AswP2jERTxM09W66xGQ,OK,,5,BFT Taman Jurong
+2026-07-18T16:58:34.221712,place_details_reviews,1,AIzaSy...IDGw,580,Boon Lay,Tukang,recreation,playground,ChIJ8fW4uukP2jERwKbEZfsenO0,OK,,1,Playground
+2026-07-18T16:58:34.921790,place_details_reviews,1,AIzaSy...IDGw,581,Boon Lay,Tukang,nature,park,ChIJlaOQkfgP2jERAbtDE12iPEw,OK,,5,Taman Jurong Park
+2026-07-18T16:58:35.649588,place_details_reviews,1,AIzaSy...IDGw,582,Boon Lay,Tukang,nature,nature reserve,ChIJEw9LsqQP2jERoMzmu0HIe44,OK,,5,Rasau Walk
+2026-07-18T16:58:36.434944,place_details_reviews,1,AIzaSy...IDGw,583,Boon Lay,Tukang,nature,garden,ChIJA8Chy6wP2jER5gV-C5bUNKI,OK,,5,Lakeside Garden
+2026-07-18T16:58:36.957971,place_details_reviews,1,AIzaSy...IDGw,584,Boon Lay,Tukang,nature,waterfront,ChIJvTS9XeYP2jERUNSFPq_xccE,OK,,5,The Lakefront Residences

@@ -1,0 +1,55 @@
+﻿planning_area,subzone,poi_dimension,facility_count,avg_rating,total_user_ratings,rating_100
+Clementi,Clementi Central,education,16,4.467,13214,89.34
+Clementi,Clementi Central,transport,5,3.96,1498,79.2
+Clementi,Clementi Central,food,7,4.129,5616,82.58
+Clementi,Clementi Central,shopping,8,3.55,18504,71.0
+Clementi,Clementi Central,recreation,11,4.164,16319,83.28
+Clementi,Clementi Central,nature,12,4.333,12642,86.66
+Clementi,Clementi North,education,15,4.555,1730,91.1
+Clementi,Clementi North,transport,7,4.086,1516,81.72
+Clementi,Clementi North,food,7,4.314,5855,86.28
+Clementi,Clementi North,shopping,9,4.178,19139,83.56
+Clementi,Clementi North,recreation,11,4.227,16184,84.54
+Clementi,Clementi North,nature,11,4.436,8308,88.72
+Clementi,Clementi West,education,16,4.558,1547,91.16
+Clementi,Clementi West,transport,5,3.96,1509,79.2
+Clementi,Clementi West,food,7,4.357,7898,87.14
+Clementi,Clementi West,shopping,8,4.15,20386,83.0
+Clementi,Clementi West,recreation,11,4.264,15863,85.28
+Clementi,Clementi West,nature,12,4.342,7771,86.84
+Clementi,Clementi Woods,education,13,4.43,1549,88.6
+Clementi,Clementi Woods,transport,5,3.96,1498,79.2
+Clementi,Clementi Woods,food,7,4.571,6526,91.42
+Clementi,Clementi Woods,shopping,8,4.112,20718,82.24
+Clementi,Clementi Woods,recreation,10,4.16,16045,83.2
+Clementi,Clementi Woods,nature,11,4.418,8163,88.36
+Clementi,Faber,education,17,4.55,4319,91.0
+Clementi,Faber,transport,6,4.117,1484,82.34
+Clementi,Faber,food,7,4.329,7615,86.58
+Clementi,Faber,shopping,9,4.167,18531,83.34
+Clementi,Faber,recreation,11,4.182,5708,83.64
+Clementi,Faber,nature,10,4.267,8991,85.34
+Clementi,Pandan,education,18,4.443,4510,88.86
+Clementi,Pandan,transport,6,3.75,1501,75.0
+Clementi,Pandan,food,9,4.444,6817,88.88
+Clementi,Pandan,shopping,8,4.462,13938,89.24
+Clementi,Pandan,recreation,12,4.3,7465,86.0
+Clementi,Pandan,nature,7,4.44,168,88.8
+Clementi,Sunset Way,education,12,4.533,1799,90.66
+Clementi,Sunset Way,transport,7,4.014,1509,80.28
+Clementi,Sunset Way,food,6,4.2,2418,84.0
+Clementi,Sunset Way,shopping,7,3.8,13751,76.0
+Clementi,Sunset Way,recreation,10,4.233,4509,84.66
+Clementi,Sunset Way,nature,8,4.338,345,86.76
+Clementi,Toh Tuck,education,17,4.538,4541,90.76
+Clementi,Toh Tuck,transport,6,3.9,1555,78.0
+Clementi,Toh Tuck,food,9,4.256,8006,85.12
+Clementi,Toh Tuck,shopping,8,4.2,28449,84.0
+Clementi,Toh Tuck,recreation,12,4.267,5957,85.34
+Clementi,Toh Tuck,nature,12,4.242,11086,84.84
+Clementi,West Coast,education,17,4.592,1453,91.84
+Clementi,West Coast,transport,7,4.186,1515,83.72
+Clementi,West Coast,food,7,4.457,10866,89.14
+Clementi,West Coast,shopping,9,4.011,19607,80.22
+Clementi,West Coast,recreation,9,4.178,4325,83.56
+Clementi,West Coast,nature,9,4.344,7374,86.88

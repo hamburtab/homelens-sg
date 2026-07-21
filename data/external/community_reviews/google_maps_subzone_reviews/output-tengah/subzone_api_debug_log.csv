@@ -1,0 +1,389 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-17T23:14:21.709276,text_search,1,AIzaSy...IDGw,907,Tengah,Brickland,education,kindergarten,"kindergarten in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:22.605608,text_search,1,AIzaSy...IDGw,908,Tengah,Brickland,education,childcare centre,"childcare centre in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:23.359987,text_search,1,AIzaSy...IDGw,909,Tengah,Brickland,education,primary school,"primary school in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:24.465520,text_search,1,AIzaSy...IDGw,910,Tengah,Brickland,education,secondary school,"secondary school in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:25.317659,text_search,1,AIzaSy...IDGw,911,Tengah,Brickland,education,junior college,"junior college in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:26.374005,text_search,1,AIzaSy...IDGw,912,Tengah,Brickland,education,polytechnic,"polytechnic in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:27.094747,text_search,1,AIzaSy...IDGw,913,Tengah,Brickland,education,university,"university in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:27.857892,text_search,1,AIzaSy...IDGw,914,Tengah,Brickland,education,tuition centre,"tuition centre in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:28.792690,text_search,1,AIzaSy...IDGw,915,Tengah,Brickland,education,library,"library in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:29.743274,text_search,1,AIzaSy...IDGw,916,Tengah,Brickland,transport,MRT station,"MRT station in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:30.458101,text_search,1,AIzaSy...IDGw,917,Tengah,Brickland,transport,bus stop,"bus stop in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:31.641890,text_search,1,AIzaSy...IDGw,918,Tengah,Brickland,transport,bus interchange,"bus interchange in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:32.660943,text_search,1,AIzaSy...IDGw,919,Tengah,Brickland,transport,LRT station,"LRT station in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:33.776701,text_search,1,AIzaSy...IDGw,920,Tengah,Brickland,food,hawker centre,"hawker centre in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:34.451096,text_search,1,AIzaSy...IDGw,921,Tengah,Brickland,food,food court,"food court in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:35.585768,text_search,1,AIzaSy...IDGw,922,Tengah,Brickland,food,coffee shop,"coffee shop in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:36.595130,text_search,1,AIzaSy...IDGw,923,Tengah,Brickland,food,restaurant,"restaurant in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:37.489483,text_search,1,AIzaSy...IDGw,924,Tengah,Brickland,food,cafe,"cafe in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:38.355267,text_search,1,AIzaSy...IDGw,925,Tengah,Brickland,shopping,shopping mall,"shopping mall in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:39.529465,text_search,1,AIzaSy...IDGw,926,Tengah,Brickland,shopping,supermarket,"supermarket in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:40.400885,text_search,1,AIzaSy...IDGw,927,Tengah,Brickland,shopping,grocery store,"grocery store in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:41.377649,text_search,1,AIzaSy...IDGw,928,Tengah,Brickland,shopping,convenience store,"convenience store in Brickland, Tengah, Singapore",OK,,12,
+2026-07-17T23:14:42.645109,text_search,1,AIzaSy...IDGw,929,Tengah,Brickland,shopping,wet market,"wet market in Brickland, Tengah, Singapore",OK,,8,
+2026-07-17T23:14:43.472064,text_search,1,AIzaSy...IDGw,930,Tengah,Brickland,recreation,gym,"gym in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:44.333567,text_search,1,AIzaSy...IDGw,931,Tengah,Brickland,recreation,sports centre,"sports centre in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:45.085895,text_search,1,AIzaSy...IDGw,932,Tengah,Brickland,recreation,swimming complex,"swimming complex in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:45.970007,text_search,1,AIzaSy...IDGw,933,Tengah,Brickland,recreation,cinema,"cinema in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:46.822756,text_search,1,AIzaSy...IDGw,934,Tengah,Brickland,recreation,community club,"community club in Brickland, Tengah, Singapore",OK,,15,
+2026-07-17T23:14:47.730480,text_search,1,AIzaSy...IDGw,935,Tengah,Brickland,recreation,playground,"playground in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:48.812706,text_search,1,AIzaSy...IDGw,936,Tengah,Brickland,nature,park,"park in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:49.983766,text_search,1,AIzaSy...IDGw,937,Tengah,Brickland,nature,nature reserve,"nature reserve in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:51.026124,text_search,1,AIzaSy...IDGw,938,Tengah,Brickland,nature,garden,"garden in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:51.747704,text_search,1,AIzaSy...IDGw,939,Tengah,Brickland,nature,beach,"beach in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:52.767300,text_search,1,AIzaSy...IDGw,940,Tengah,Brickland,nature,waterfront,"waterfront in Brickland, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:53.674774,text_search,1,AIzaSy...IDGw,941,Tengah,Brickland,nature,park connector,"park connector in Brickland, Tengah, Singapore",OK,,17,
+2026-07-17T23:14:54.669996,text_search,1,AIzaSy...IDGw,942,Tengah,Forest Hill,education,kindergarten,"kindergarten in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:55.578916,text_search,1,AIzaSy...IDGw,943,Tengah,Forest Hill,education,childcare centre,"childcare centre in Forest Hill, Tengah, Singapore",OK,,19,
+2026-07-17T23:14:56.632555,text_search,1,AIzaSy...IDGw,944,Tengah,Forest Hill,education,primary school,"primary school in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:57.559670,text_search,1,AIzaSy...IDGw,945,Tengah,Forest Hill,education,secondary school,"secondary school in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:58.251461,text_search,1,AIzaSy...IDGw,946,Tengah,Forest Hill,education,junior college,"junior college in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:59.057814,text_search,1,AIzaSy...IDGw,947,Tengah,Forest Hill,education,polytechnic,"polytechnic in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:14:59.869932,text_search,1,AIzaSy...IDGw,948,Tengah,Forest Hill,education,university,"university in Forest Hill, Tengah, Singapore",OK,,17,
+2026-07-17T23:15:00.636931,text_search,1,AIzaSy...IDGw,949,Tengah,Forest Hill,education,tuition centre,"tuition centre in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:01.756226,text_search,2,AIzaSy...8yB0,0,Tengah,Forest Hill,education,library,"library in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:02.626087,text_search,2,AIzaSy...8yB0,1,Tengah,Forest Hill,transport,MRT station,"MRT station in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:03.457796,text_search,2,AIzaSy...8yB0,2,Tengah,Forest Hill,transport,bus stop,"bus stop in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:04.223677,text_search,2,AIzaSy...8yB0,3,Tengah,Forest Hill,transport,bus interchange,"bus interchange in Forest Hill, Tengah, Singapore",OK,,17,
+2026-07-17T23:15:05.138028,text_search,2,AIzaSy...8yB0,4,Tengah,Forest Hill,transport,LRT station,"LRT station in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:06.282531,text_search,2,AIzaSy...8yB0,5,Tengah,Forest Hill,food,hawker centre,"hawker centre in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:07.102486,text_search,2,AIzaSy...8yB0,6,Tengah,Forest Hill,food,food court,"food court in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:08.155355,text_search,2,AIzaSy...8yB0,7,Tengah,Forest Hill,food,coffee shop,"coffee shop in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:09.059602,text_search,2,AIzaSy...8yB0,8,Tengah,Forest Hill,food,restaurant,"restaurant in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:10.376477,text_search,2,AIzaSy...8yB0,9,Tengah,Forest Hill,food,cafe,"cafe in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:11.560468,text_search,2,AIzaSy...8yB0,10,Tengah,Forest Hill,shopping,shopping mall,"shopping mall in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:12.484808,text_search,2,AIzaSy...8yB0,11,Tengah,Forest Hill,shopping,supermarket,"supermarket in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:13.407434,text_search,2,AIzaSy...8yB0,12,Tengah,Forest Hill,shopping,grocery store,"grocery store in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:14.517407,text_search,2,AIzaSy...8yB0,13,Tengah,Forest Hill,shopping,convenience store,"convenience store in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:15.521035,text_search,2,AIzaSy...8yB0,14,Tengah,Forest Hill,shopping,wet market,"wet market in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:16.587272,text_search,2,AIzaSy...8yB0,15,Tengah,Forest Hill,recreation,gym,"gym in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:17.657699,text_search,2,AIzaSy...8yB0,16,Tengah,Forest Hill,recreation,sports centre,"sports centre in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:18.691111,text_search,2,AIzaSy...8yB0,17,Tengah,Forest Hill,recreation,swimming complex,"swimming complex in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:19.595891,text_search,2,AIzaSy...8yB0,18,Tengah,Forest Hill,recreation,cinema,"cinema in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:20.835174,text_search,2,AIzaSy...8yB0,19,Tengah,Forest Hill,recreation,community club,"community club in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:21.723517,text_search,2,AIzaSy...8yB0,20,Tengah,Forest Hill,recreation,playground,"playground in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:22.797259,text_search,2,AIzaSy...8yB0,21,Tengah,Forest Hill,nature,park,"park in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:23.995377,text_search,2,AIzaSy...8yB0,22,Tengah,Forest Hill,nature,nature reserve,"nature reserve in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:24.926364,text_search,2,AIzaSy...8yB0,23,Tengah,Forest Hill,nature,garden,"garden in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:26.079976,text_search,2,AIzaSy...8yB0,24,Tengah,Forest Hill,nature,beach,"beach in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:26.732952,text_search,2,AIzaSy...8yB0,25,Tengah,Forest Hill,nature,waterfront,"waterfront in Forest Hill, Tengah, Singapore",OK,,15,
+2026-07-17T23:15:27.659664,text_search,2,AIzaSy...8yB0,26,Tengah,Forest Hill,nature,park connector,"park connector in Forest Hill, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:28.557323,text_search,2,AIzaSy...8yB0,27,Tengah,Garden,education,kindergarten,"kindergarten in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:29.223108,text_search,2,AIzaSy...8yB0,28,Tengah,Garden,education,childcare centre,"childcare centre in Garden, Tengah, Singapore",OK,,12,
+2026-07-17T23:15:29.960130,text_search,2,AIzaSy...8yB0,29,Tengah,Garden,education,primary school,"primary school in Garden, Tengah, Singapore",OK,,5,
+2026-07-17T23:15:30.764778,text_search,2,AIzaSy...8yB0,30,Tengah,Garden,education,secondary school,"secondary school in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:31.606020,text_search,2,AIzaSy...8yB0,31,Tengah,Garden,education,junior college,"junior college in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:32.274970,text_search,2,AIzaSy...8yB0,32,Tengah,Garden,education,polytechnic,"polytechnic in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:33.147041,text_search,2,AIzaSy...8yB0,33,Tengah,Garden,education,university,"university in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:33.993906,text_search,2,AIzaSy...8yB0,34,Tengah,Garden,education,tuition centre,"tuition centre in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:34.880292,text_search,2,AIzaSy...8yB0,35,Tengah,Garden,education,library,"library in Garden, Tengah, Singapore",OK,,1,
+2026-07-17T23:15:35.866659,text_search,2,AIzaSy...8yB0,36,Tengah,Garden,transport,MRT station,"MRT station in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:36.869742,text_search,2,AIzaSy...8yB0,37,Tengah,Garden,transport,bus stop,"bus stop in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:37.711817,text_search,2,AIzaSy...8yB0,38,Tengah,Garden,transport,bus interchange,"bus interchange in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:38.914417,text_search,2,AIzaSy...8yB0,39,Tengah,Garden,transport,LRT station,"LRT station in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:39.668902,text_search,2,AIzaSy...8yB0,40,Tengah,Garden,food,hawker centre,"hawker centre in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:40.336306,text_search,2,AIzaSy...8yB0,41,Tengah,Garden,food,food court,"food court in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:41.170963,text_search,2,AIzaSy...8yB0,42,Tengah,Garden,food,coffee shop,"coffee shop in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:42.188262,text_search,2,AIzaSy...8yB0,43,Tengah,Garden,food,restaurant,"restaurant in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:43.067552,text_search,2,AIzaSy...8yB0,44,Tengah,Garden,food,cafe,"cafe in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:44.283669,text_search,2,AIzaSy...8yB0,45,Tengah,Garden,shopping,shopping mall,"shopping mall in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:45.232212,text_search,2,AIzaSy...8yB0,46,Tengah,Garden,shopping,supermarket,"supermarket in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:45.908965,text_search,2,AIzaSy...8yB0,47,Tengah,Garden,shopping,grocery store,"grocery store in Garden, Tengah, Singapore",OK,,1,
+2026-07-17T23:15:46.833227,text_search,2,AIzaSy...8yB0,48,Tengah,Garden,shopping,convenience store,"convenience store in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:47.941901,text_search,2,AIzaSy...8yB0,49,Tengah,Garden,shopping,wet market,"wet market in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:48.904011,text_search,2,AIzaSy...8yB0,50,Tengah,Garden,recreation,gym,"gym in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:49.741961,text_search,2,AIzaSy...8yB0,51,Tengah,Garden,recreation,sports centre,"sports centre in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:50.527310,text_search,2,AIzaSy...8yB0,52,Tengah,Garden,recreation,swimming complex,"swimming complex in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:51.588010,text_search,2,AIzaSy...8yB0,53,Tengah,Garden,recreation,cinema,"cinema in Garden, Tengah, Singapore",OK,,19,
+2026-07-17T23:15:52.627976,text_search,2,AIzaSy...8yB0,54,Tengah,Garden,recreation,community club,"community club in Garden, Tengah, Singapore",OK,,2,
+2026-07-17T23:15:53.465618,text_search,2,AIzaSy...8yB0,55,Tengah,Garden,recreation,playground,"playground in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:54.600208,text_search,2,AIzaSy...8yB0,56,Tengah,Garden,nature,park,"park in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:55.648017,text_search,2,AIzaSy...8yB0,57,Tengah,Garden,nature,nature reserve,"nature reserve in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:56.216699,text_search,2,AIzaSy...8yB0,58,Tengah,Garden,nature,garden,"garden in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:56.857289,text_search,2,AIzaSy...8yB0,59,Tengah,Garden,nature,beach,"beach in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:57.501356,text_search,2,AIzaSy...8yB0,60,Tengah,Garden,nature,waterfront,"waterfront in Garden, Tengah, Singapore",OK,,7,
+2026-07-17T23:15:58.196357,text_search,2,AIzaSy...8yB0,61,Tengah,Garden,nature,park connector,"park connector in Garden, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:58.904473,text_search,2,AIzaSy...8yB0,62,Tengah,Park,education,kindergarten,"kindergarten in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:15:59.603499,text_search,2,AIzaSy...8yB0,63,Tengah,Park,education,childcare centre,"childcare centre in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:00.241444,text_search,2,AIzaSy...8yB0,64,Tengah,Park,education,primary school,"primary school in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:01.447329,text_search,2,AIzaSy...8yB0,65,Tengah,Park,education,secondary school,"secondary school in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:02.193558,text_search,2,AIzaSy...8yB0,66,Tengah,Park,education,junior college,"junior college in Park, Tengah, Singapore",OK,,17,
+2026-07-17T23:16:03.277247,text_search,2,AIzaSy...8yB0,67,Tengah,Park,education,polytechnic,"polytechnic in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:04.206445,text_search,2,AIzaSy...8yB0,68,Tengah,Park,education,university,"university in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:04.972461,text_search,2,AIzaSy...8yB0,69,Tengah,Park,education,tuition centre,"tuition centre in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:05.666902,text_search,2,AIzaSy...8yB0,70,Tengah,Park,education,library,"library in Park, Tengah, Singapore",OK,,9,
+2026-07-17T23:16:06.517468,text_search,2,AIzaSy...8yB0,71,Tengah,Park,transport,MRT station,"MRT station in Park, Tengah, Singapore",OK,,4,
+2026-07-17T23:16:07.401300,text_search,2,AIzaSy...8yB0,72,Tengah,Park,transport,bus stop,"bus stop in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:07.909152,text_search,2,AIzaSy...8yB0,73,Tengah,Park,transport,bus interchange,"bus interchange in Park, Tengah, Singapore",OK,,2,
+2026-07-17T23:16:08.488749,text_search,2,AIzaSy...8yB0,74,Tengah,Park,transport,LRT station,"LRT station in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:09.418677,text_search,2,AIzaSy...8yB0,75,Tengah,Park,food,hawker centre,"hawker centre in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:10.291100,text_search,2,AIzaSy...8yB0,76,Tengah,Park,food,food court,"food court in Park, Tengah, Singapore",OK,,1,
+2026-07-17T23:16:11.223592,text_search,2,AIzaSy...8yB0,77,Tengah,Park,food,coffee shop,"coffee shop in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:12.123905,text_search,2,AIzaSy...8yB0,78,Tengah,Park,food,restaurant,"restaurant in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:12.946174,text_search,2,AIzaSy...8yB0,79,Tengah,Park,food,cafe,"cafe in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:13.841122,text_search,2,AIzaSy...8yB0,80,Tengah,Park,shopping,shopping mall,"shopping mall in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:14.620621,text_search,2,AIzaSy...8yB0,81,Tengah,Park,shopping,supermarket,"supermarket in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:15.355673,text_search,2,AIzaSy...8yB0,82,Tengah,Park,shopping,grocery store,"grocery store in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:16.204294,text_search,2,AIzaSy...8yB0,83,Tengah,Park,shopping,convenience store,"convenience store in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:17.120954,text_search,2,AIzaSy...8yB0,84,Tengah,Park,shopping,wet market,"wet market in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:17.958355,text_search,2,AIzaSy...8yB0,85,Tengah,Park,recreation,gym,"gym in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:18.740364,text_search,2,AIzaSy...8yB0,86,Tengah,Park,recreation,sports centre,"sports centre in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:19.532892,text_search,2,AIzaSy...8yB0,87,Tengah,Park,recreation,swimming complex,"swimming complex in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:20.807730,text_search,2,AIzaSy...8yB0,88,Tengah,Park,recreation,cinema,"cinema in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:21.718470,text_search,2,AIzaSy...8yB0,89,Tengah,Park,recreation,community club,"community club in Park, Tengah, Singapore",OK,,1,
+2026-07-17T23:16:22.696063,text_search,2,AIzaSy...8yB0,90,Tengah,Park,recreation,playground,"playground in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:23.704222,text_search,2,AIzaSy...8yB0,91,Tengah,Park,nature,park,"park in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:24.816224,text_search,2,AIzaSy...8yB0,92,Tengah,Park,nature,nature reserve,"nature reserve in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:25.654167,text_search,2,AIzaSy...8yB0,93,Tengah,Park,nature,garden,"garden in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:26.359998,text_search,2,AIzaSy...8yB0,94,Tengah,Park,nature,beach,"beach in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:27.158970,text_search,2,AIzaSy...8yB0,95,Tengah,Park,nature,waterfront,"waterfront in Park, Tengah, Singapore",OK,,5,
+2026-07-17T23:16:28.117170,text_search,2,AIzaSy...8yB0,96,Tengah,Park,nature,park connector,"park connector in Park, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:28.773548,text_search,2,AIzaSy...8yB0,97,Tengah,Plantation,education,kindergarten,"kindergarten in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:29.455876,text_search,2,AIzaSy...8yB0,98,Tengah,Plantation,education,childcare centre,"childcare centre in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:30.191126,text_search,2,AIzaSy...8yB0,99,Tengah,Plantation,education,primary school,"primary school in Plantation, Tengah, Singapore",OK,,15,
+2026-07-17T23:16:31.095624,text_search,2,AIzaSy...8yB0,100,Tengah,Plantation,education,secondary school,"secondary school in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:32.220721,text_search,2,AIzaSy...8yB0,101,Tengah,Plantation,education,junior college,"junior college in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:33.131955,text_search,2,AIzaSy...8yB0,102,Tengah,Plantation,education,polytechnic,"polytechnic in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:33.808035,text_search,2,AIzaSy...8yB0,103,Tengah,Plantation,education,university,"university in Plantation, Tengah, Singapore",OK,,15,
+2026-07-17T23:16:34.914744,text_search,2,AIzaSy...8yB0,104,Tengah,Plantation,education,tuition centre,"tuition centre in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:35.791570,text_search,2,AIzaSy...8yB0,105,Tengah,Plantation,education,library,"library in Plantation, Tengah, Singapore",OK,,16,
+2026-07-17T23:16:36.564407,text_search,2,AIzaSy...8yB0,106,Tengah,Plantation,transport,MRT station,"MRT station in Plantation, Tengah, Singapore",OK,,1,
+2026-07-17T23:16:37.601392,text_search,2,AIzaSy...8yB0,107,Tengah,Plantation,transport,bus stop,"bus stop in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:38.518698,text_search,2,AIzaSy...8yB0,108,Tengah,Plantation,transport,bus interchange,"bus interchange in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:39.305282,text_search,2,AIzaSy...8yB0,109,Tengah,Plantation,transport,LRT station,"LRT station in Plantation, Tengah, Singapore",OK,,1,
+2026-07-17T23:16:40.236407,text_search,2,AIzaSy...8yB0,110,Tengah,Plantation,food,hawker centre,"hawker centre in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:41.020418,text_search,2,AIzaSy...8yB0,111,Tengah,Plantation,food,food court,"food court in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:41.683035,text_search,2,AIzaSy...8yB0,112,Tengah,Plantation,food,coffee shop,"coffee shop in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:42.803073,text_search,2,AIzaSy...8yB0,113,Tengah,Plantation,food,restaurant,"restaurant in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:43.698100,text_search,2,AIzaSy...8yB0,114,Tengah,Plantation,food,cafe,"cafe in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:44.384945,text_search,2,AIzaSy...8yB0,115,Tengah,Plantation,shopping,shopping mall,"shopping mall in Plantation, Tengah, Singapore",OK,,2,
+2026-07-17T23:16:44.981678,text_search,2,AIzaSy...8yB0,116,Tengah,Plantation,shopping,supermarket,"supermarket in Plantation, Tengah, Singapore",OK,,3,
+2026-07-17T23:16:45.942178,text_search,2,AIzaSy...8yB0,117,Tengah,Plantation,shopping,grocery store,"grocery store in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:46.956218,text_search,2,AIzaSy...8yB0,118,Tengah,Plantation,shopping,convenience store,"convenience store in Plantation, Tengah, Singapore",OK,,9,
+2026-07-17T23:16:47.985446,text_search,2,AIzaSy...8yB0,119,Tengah,Plantation,shopping,wet market,"wet market in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:48.802609,text_search,2,AIzaSy...8yB0,120,Tengah,Plantation,recreation,gym,"gym in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:49.682381,text_search,2,AIzaSy...8yB0,121,Tengah,Plantation,recreation,sports centre,"sports centre in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:50.565156,text_search,2,AIzaSy...8yB0,122,Tengah,Plantation,recreation,swimming complex,"swimming complex in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:51.554096,text_search,2,AIzaSy...8yB0,123,Tengah,Plantation,recreation,cinema,"cinema in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:52.235837,text_search,2,AIzaSy...8yB0,124,Tengah,Plantation,recreation,community club,"community club in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:53.255154,text_search,2,AIzaSy...8yB0,125,Tengah,Plantation,recreation,playground,"playground in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:53.807739,text_search,2,AIzaSy...8yB0,126,Tengah,Plantation,nature,park,"park in Plantation, Tengah, Singapore",OK,,3,
+2026-07-17T23:16:54.911357,text_search,2,AIzaSy...8yB0,127,Tengah,Plantation,nature,nature reserve,"nature reserve in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:55.846550,text_search,2,AIzaSy...8yB0,128,Tengah,Plantation,nature,garden,"garden in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:56.606400,text_search,2,AIzaSy...8yB0,129,Tengah,Plantation,nature,beach,"beach in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:57.762800,text_search,2,AIzaSy...8yB0,130,Tengah,Plantation,nature,waterfront,"waterfront in Plantation, Tengah, Singapore",OK,,1,
+2026-07-17T23:16:58.462119,text_search,2,AIzaSy...8yB0,131,Tengah,Plantation,nature,park connector,"park connector in Plantation, Tengah, Singapore",OK,,20,
+2026-07-17T23:16:59.559427,text_search,2,AIzaSy...8yB0,132,Tengah,Tengah Industrial Estate,education,kindergarten,"kindergarten in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:00.502966,text_search,2,AIzaSy...8yB0,133,Tengah,Tengah Industrial Estate,education,childcare centre,"childcare centre in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:01.640677,text_search,2,AIzaSy...8yB0,134,Tengah,Tengah Industrial Estate,education,primary school,"primary school in Tengah Industrial Estate, Tengah, Singapore",OK,,6,
+2026-07-17T23:17:02.495574,text_search,2,AIzaSy...8yB0,135,Tengah,Tengah Industrial Estate,education,secondary school,"secondary school in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:03.555574,text_search,2,AIzaSy...8yB0,136,Tengah,Tengah Industrial Estate,education,junior college,"junior college in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:04.281160,text_search,2,AIzaSy...8yB0,137,Tengah,Tengah Industrial Estate,education,polytechnic,"polytechnic in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:05.339712,text_search,2,AIzaSy...8yB0,138,Tengah,Tengah Industrial Estate,education,university,"university in Tengah Industrial Estate, Tengah, Singapore",OK,,8,
+2026-07-17T23:17:06.599416,text_search,2,AIzaSy...8yB0,139,Tengah,Tengah Industrial Estate,education,tuition centre,"tuition centre in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:07.602560,text_search,2,AIzaSy...8yB0,140,Tengah,Tengah Industrial Estate,education,library,"library in Tengah Industrial Estate, Tengah, Singapore",OK,,6,
+2026-07-17T23:17:08.301654,text_search,2,AIzaSy...8yB0,141,Tengah,Tengah Industrial Estate,transport,MRT station,"MRT station in Tengah Industrial Estate, Tengah, Singapore",OK,,3,
+2026-07-17T23:17:09.395879,text_search,2,AIzaSy...8yB0,142,Tengah,Tengah Industrial Estate,transport,bus stop,"bus stop in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:10.243167,text_search,2,AIzaSy...8yB0,143,Tengah,Tengah Industrial Estate,transport,bus interchange,"bus interchange in Tengah Industrial Estate, Tengah, Singapore",OK,,2,
+2026-07-17T23:17:11.022217,text_search,2,AIzaSy...8yB0,144,Tengah,Tengah Industrial Estate,transport,LRT station,"LRT station in Tengah Industrial Estate, Tengah, Singapore",OK,,4,
+2026-07-17T23:17:12.295728,text_search,2,AIzaSy...8yB0,145,Tengah,Tengah Industrial Estate,food,hawker centre,"hawker centre in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:13.123021,text_search,2,AIzaSy...8yB0,146,Tengah,Tengah Industrial Estate,food,food court,"food court in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:14.199651,text_search,2,AIzaSy...8yB0,147,Tengah,Tengah Industrial Estate,food,coffee shop,"coffee shop in Tengah Industrial Estate, Tengah, Singapore",OK,,4,
+2026-07-17T23:17:15.168935,text_search,2,AIzaSy...8yB0,148,Tengah,Tengah Industrial Estate,food,restaurant,"restaurant in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:16.317523,text_search,2,AIzaSy...8yB0,149,Tengah,Tengah Industrial Estate,food,cafe,"cafe in Tengah Industrial Estate, Tengah, Singapore",OK,,9,
+2026-07-17T23:17:17.111460,text_search,2,AIzaSy...8yB0,150,Tengah,Tengah Industrial Estate,shopping,shopping mall,"shopping mall in Tengah Industrial Estate, Tengah, Singapore",OK,,7,
+2026-07-17T23:17:17.869925,text_search,2,AIzaSy...8yB0,151,Tengah,Tengah Industrial Estate,shopping,supermarket,"supermarket in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:18.800450,text_search,2,AIzaSy...8yB0,152,Tengah,Tengah Industrial Estate,shopping,grocery store,"grocery store in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:19.693454,text_search,2,AIzaSy...8yB0,153,Tengah,Tengah Industrial Estate,shopping,convenience store,"convenience store in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:20.465647,text_search,2,AIzaSy...8yB0,154,Tengah,Tengah Industrial Estate,shopping,wet market,"wet market in Tengah Industrial Estate, Tengah, Singapore",OK,,10,
+2026-07-17T23:17:21.190892,text_search,2,AIzaSy...8yB0,155,Tengah,Tengah Industrial Estate,recreation,gym,"gym in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:22.254734,text_search,2,AIzaSy...8yB0,156,Tengah,Tengah Industrial Estate,recreation,sports centre,"sports centre in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:23.506702,text_search,2,AIzaSy...8yB0,157,Tengah,Tengah Industrial Estate,recreation,swimming complex,"swimming complex in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:24.678800,text_search,2,AIzaSy...8yB0,158,Tengah,Tengah Industrial Estate,recreation,cinema,"cinema in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:25.333472,text_search,2,AIzaSy...8yB0,159,Tengah,Tengah Industrial Estate,recreation,community club,"community club in Tengah Industrial Estate, Tengah, Singapore",OK,,1,
+2026-07-17T23:17:26.015412,text_search,2,AIzaSy...8yB0,160,Tengah,Tengah Industrial Estate,recreation,playground,"playground in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:26.938683,text_search,2,AIzaSy...8yB0,161,Tengah,Tengah Industrial Estate,nature,park,"park in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:28.123756,text_search,2,AIzaSy...8yB0,162,Tengah,Tengah Industrial Estate,nature,nature reserve,"nature reserve in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:28.974546,text_search,2,AIzaSy...8yB0,163,Tengah,Tengah Industrial Estate,nature,garden,"garden in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:29.782294,text_search,2,AIzaSy...8yB0,164,Tengah,Tengah Industrial Estate,nature,beach,"beach in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:30.788815,text_search,2,AIzaSy...8yB0,165,Tengah,Tengah Industrial Estate,nature,waterfront,"waterfront in Tengah Industrial Estate, Tengah, Singapore",OK,,4,
+2026-07-17T23:17:31.955847,text_search,2,AIzaSy...8yB0,166,Tengah,Tengah Industrial Estate,nature,park connector,"park connector in Tengah Industrial Estate, Tengah, Singapore",OK,,20,
+2026-07-17T23:17:32.509762,place_details_reviews,2,AIzaSy...8yB0,167,Tengah,Brickland,education,kindergarten,ChIJv9msmZka2jERfSSohCAPsV8,OK,,5,Clementi Woods Kindergarten
+2026-07-17T23:17:32.981350,place_details_reviews,2,AIzaSy...8yB0,168,Tengah,Brickland,education,kindergarten,ChIJl0mnh0sR2jER1HEmTDBJOoc,OK,,5,Skool4Kidz Preschool @ Tengah Parc Glen
+2026-07-17T23:17:33.663538,place_details_reviews,2,AIzaSy...8yB0,169,Tengah,Brickland,education,childcare centre,ChIJG_ftUQAR2jER5WGvCt5QssI,OK,,1,PCF Sparkletots Preschool @ Brickland Blk 308B
+2026-07-17T23:17:34.209182,place_details_reviews,2,AIzaSy...8yB0,170,Tengah,Brickland,education,childcare centre,ChIJ80D7wGMR2jERF_LNOqxx8Fw,OK,,0,Mulberry Learning @ Tengah
+2026-07-17T23:17:34.840246,place_details_reviews,2,AIzaSy...8yB0,171,Tengah,Brickland,education,primary school,ChIJN2U85fIa2jERU3xusMZifDo,OK,,5,International Community School (Singapore)
+2026-07-17T23:17:35.322992,place_details_reviews,2,AIzaSy...8yB0,172,Tengah,Brickland,education,primary school,ChIJd4xooCEQ2jERifojA0epL4w,OK,,0,Jurong Primary School
+2026-07-17T23:17:35.732510,place_details_reviews,2,AIzaSy...8yB0,173,Tengah,Brickland,education,secondary school,ChIJ8Qmmrl4a2jERz5nCeZ7P3ME,OK,,0,ACS (Independent)
+2026-07-17T23:17:36.145742,place_details_reviews,2,AIzaSy...8yB0,174,Tengah,Brickland,education,secondary school,ChIJgxoe5j8Y2jER-IXbEoimW5Q,OK,,0,Broadrick Secondary School
+2026-07-17T23:17:37.007747,place_details_reviews,2,AIzaSy...8yB0,175,Tengah,Brickland,education,junior college,ChIJESRAQ1sa2jERlSmmrDCCriw,OK,,5,Anglo-Chinese Junior College
+2026-07-17T23:17:37.412401,place_details_reviews,2,AIzaSy...8yB0,176,Tengah,Brickland,education,junior college,ChIJz_-CGpUR2jERsxAVVh_vnoY,OK,,5,Jurong Pioneer Junior College
+2026-07-17T23:17:38.235271,place_details_reviews,2,AIzaSy...8yB0,177,Tengah,Brickland,education,polytechnic,ChIJWeO0jn0Q2jERQwzr3v_n0nU,OK,,5,Ngee Ann Polytechnic
+2026-07-17T23:17:39.265724,place_details_reviews,2,AIzaSy...8yB0,178,Tengah,Brickland,education,polytechnic,ChIJFXzxL2Aa2jERnoWTOdJdVKk,OK,,5,Singapore Polytechnic
+2026-07-17T23:17:39.994317,place_details_reviews,2,AIzaSy...8yB0,179,Tengah,Brickland,education,university,ChIJeV15hGIX2jERD4aFEmOeoYM,OK,,5,Curtin Singapore
+2026-07-17T23:17:40.620553,place_details_reviews,2,AIzaSy...8yB0,180,Tengah,Brickland,education,university,ChIJ2QJCeFYa2jERa434wdYIjUg,OK,,5,National University of Singapore
+2026-07-17T23:17:41.229360,place_details_reviews,2,AIzaSy...8yB0,181,Tengah,Brickland,education,tuition centre,ChIJrbNPPEAa2jERXBKfa2Jmq6A,OK,,5,AfterSkool Learning Centre
+2026-07-17T23:17:41.684932,place_details_reviews,2,AIzaSy...8yB0,182,Tengah,Brickland,education,tuition centre,ChIJzUWsP44a2jERn8pbLhqmldk,OK,,5,KRTC Clementi
+2026-07-17T23:17:42.314448,place_details_reviews,2,AIzaSy...8yB0,183,Tengah,Brickland,education,library,ChIJfWE7NwAR2jERE_LL5Mx2EVM,OK,,5,Community Library
+2026-07-17T23:17:42.753216,place_details_reviews,2,AIzaSy...8yB0,184,Tengah,Brickland,education,library,ChIJTXdxQk4b2jER4HdHnRNjvLY,OK,,5,HV Little Library
+2026-07-17T23:17:43.276159,place_details_reviews,2,AIzaSy...8yB0,185,Tengah,Brickland,transport,MRT station,ChIJCZYuHAAR2jERhoE2rdE4Xp0,OK,,5,Brickland MRT Station (NS3A) (U/C)
+2026-07-17T23:17:44.161096,place_details_reviews,2,AIzaSy...8yB0,186,Tengah,Brickland,transport,MRT station,ChIJCZRupukR2jERCglyJsNXaHE,OK,,5,Choa Chu Kang
+2026-07-17T23:17:44.566490,place_details_reviews,2,AIzaSy...8yB0,187,Tengah,Brickland,transport,bus stop,ChIJdyeuKQAR2jER6oTDRrdIgtw,OK,,5,Tengah Bus Interchange
+2026-07-17T23:17:45.286713,place_details_reviews,2,AIzaSy...8yB0,188,Tengah,Brickland,transport,bus stop,ChIJGaOjZdkR2jERlsrDayb-8M0,OK,,4,Aft Hai Inn See Tp
+2026-07-17T23:17:46.012646,place_details_reviews,2,AIzaSy...8yB0,189,Tengah,Brickland,transport,bus interchange,ChIJR4xbjCwQ2jERR17mRAImGS4,OK,,5,Tengah Interchange
+2026-07-17T23:17:46.806521,place_details_reviews,2,AIzaSy...8yB0,190,Tengah,Brickland,transport,LRT station,ChIJke5SDisR2jEREXrmd64znVM,OK,,5,Keat Hong LRT Station (BP3)
+2026-07-17T23:17:47.235384,place_details_reviews,2,AIzaSy...8yB0,191,Tengah,Brickland,food,hawker centre,ChIJWxEUrdkR2jERM4uTxwEQ3ZY,OK,,5,Blk 253 Choa Chu Kang Market & Food Centre
+2026-07-17T23:17:47.676011,place_details_reviews,2,AIzaSy...8yB0,192,Tengah,Brickland,food,hawker centre,ChIJE2pmQcQR2jERMdl7yCj6_LM,OK,,5,Keat Hong Food Centre & Market
+2026-07-17T23:17:48.457635,place_details_reviews,2,AIzaSy...8yB0,193,Tengah,Brickland,food,food court,ChIJ86xDgCAb2jEReClRHEq5RYY,OK,,1,Baked Rice Grill
+2026-07-17T23:17:48.906409,place_details_reviews,2,AIzaSy...8yB0,194,Tengah,Brickland,food,food court,ChIJ61QFbgAb2jERKfAzYiZspZU,OK,,5,Food Court @Harbourlink Innohub
+2026-07-17T23:17:49.488232,place_details_reviews,2,AIzaSy...8yB0,195,Tengah,Brickland,food,coffee shop,ChIJVT5ceAAR2jERRjjQDwKT8lU,OK,,5,That Tengah Cafe
+2026-07-17T23:17:49.839652,place_details_reviews,2,AIzaSy...8yB0,196,Tengah,Brickland,food,coffee shop,ChIJD_o2_uAb2jERubBxmlz8scQ,OK,,5,Heritage Cafe
+2026-07-17T23:17:50.302964,place_details_reviews,2,AIzaSy...8yB0,197,Tengah,Brickland,food,restaurant,ChIJkbonUlkR2jERMmboFcFMW70,OK,,5,JackPodSG
+2026-07-17T23:17:50.906360,place_details_reviews,2,AIzaSy...8yB0,198,Tengah,Brickland,food,restaurant,ChIJEypzCyoP2jER5psTW5TR-AM,OK,,5,Tenplus
+2026-07-17T23:17:51.510050,place_details_reviews,2,AIzaSy...8yB0,199,Tengah,Brickland,food,cafe,ChIJicaWV7cR2jERNq1UQGnXrQE,OK,,5,KoPi Jjan
+2026-07-17T23:17:51.884441,place_details_reviews,2,AIzaSy...8yB0,200,Tengah,Brickland,shopping,shopping mall,ChIJNQI0RwAR2jERT86InqLBfo8,OK,,5,Parc Point
+2026-07-17T23:17:52.529297,place_details_reviews,2,AIzaSy...8yB0,201,Tengah,Brickland,shopping,shopping mall,ChIJq8UGJo4a2jER0ypiQDLiXpg,OK,,5,The Clementi Mall
+2026-07-17T23:17:52.920435,place_details_reviews,2,AIzaSy...8yB0,202,Tengah,Brickland,shopping,supermarket,ChIJi_Q0SAAR2jERfnOsyaxVed0,OK,,5,Sheng Siong Supermarket
+2026-07-17T23:17:53.319065,place_details_reviews,2,AIzaSy...8yB0,203,Tengah,Brickland,shopping,supermarket,ChIJ4WpDHgAR2jERzFuEMrgM-aM,OK,,5,FairPrice Parc Point
+2026-07-17T23:17:53.859950,place_details_reviews,2,AIzaSy...8yB0,204,Tengah,Brickland,shopping,grocery store,ChIJkdHr4vEa2jERWFR5UjO2-jU,OK,,5,MahaMart
+2026-07-17T23:17:54.644264,place_details_reviews,2,AIzaSy...8yB0,205,Tengah,Brickland,shopping,grocery store,ChIJ8Ws24PEa2jEReonyo71rFUo,OK,,5,Sheng Siong Supermarket
+2026-07-17T23:17:55.287130,place_details_reviews,2,AIzaSy...8yB0,206,Tengah,Brickland,shopping,convenience store,ChIJYxLfJxEb2jER3Y0uOv2Cvhk,OK,,5,SRI Narayan Store
+2026-07-17T23:17:55.810754,place_details_reviews,2,AIzaSy...8yB0,207,Tengah,Brickland,shopping,convenience store,ChIJc3gDpZsQ2jERBTx5b6u6eNs,OK,,5,7-Eleven
+2026-07-17T23:17:56.550139,place_details_reviews,2,AIzaSy...8yB0,208,Tengah,Brickland,shopping,wet market,ChIJ2-fuRZ8R2jERo1jNY3fv4iw,OK,,5,Fajar Market
+2026-07-17T23:17:56.982091,place_details_reviews,2,AIzaSy...8yB0,209,Tengah,Brickland,shopping,wet market,ChIJ6SKfUzwQ2jERezteXcNnbAE,OK,,5,Quan Shui Wet Market
+2026-07-17T23:17:57.561318,place_details_reviews,2,AIzaSy...8yB0,210,Tengah,Brickland,recreation,gym,ChIJYbJVYwAR2jERcogZd0m9MzE,OK,,5,Anytime Fitness Parc Point
+2026-07-17T23:17:58.117313,place_details_reviews,2,AIzaSy...8yB0,211,Tengah,Brickland,recreation,gym,ChIJ0XUjWQAR2jERlFwkNNQa0bk,OK,,1,Fitness Corner
+2026-07-17T23:17:58.860325,place_details_reviews,2,AIzaSy...8yB0,212,Tengah,Brickland,recreation,sports centre,ChIJ2XCvCiAQ2jERNcw38Db6v5w,OK,,5,Jurong East Sport Centre
+2026-07-17T23:17:59.451857,place_details_reviews,2,AIzaSy...8yB0,213,Tengah,Brickland,recreation,sports centre,ChIJB9mfegAR2jERf4xJn0cGWPw,OK,,5,Tengah Community Club
+2026-07-17T23:17:59.923560,place_details_reviews,2,AIzaSy...8yB0,214,Tengah,Brickland,recreation,swimming complex,ChIJWaHnCyAQ2jERlnBesVA4gic,OK,,5,Jurong East Swimming Complex
+2026-07-17T23:18:00.463739,place_details_reviews,2,AIzaSy...8yB0,215,Tengah,Brickland,recreation,swimming complex,ChIJhYwEvhUQ2jERP9_qytcvWsU,OK,,5,Bukit Batok Swimming Complex
+2026-07-17T23:18:01.210212,place_details_reviews,2,AIzaSy...8yB0,216,Tengah,Brickland,recreation,cinema,ChIJ3dSCfKMR2jERsBpC6UoFuaQ,OK,,5,EagleWings Cinematics
+2026-07-17T23:18:01.838209,place_details_reviews,2,AIzaSy...8yB0,217,Tengah,Brickland,recreation,cinema,ChIJgWtqxOwP2jERydU8CT8sako,OK,,5,Golden Village
+2026-07-17T23:18:02.485655,place_details_reviews,2,AIzaSy...8yB0,218,Tengah,Brickland,recreation,community club,ChIJ891nANER2jERFIHsbVPGyHo,OK,,2,Brickland Pride & Crest Residents' Network
+2026-07-17T23:18:02.990471,place_details_reviews,2,AIzaSy...8yB0,219,Tengah,Brickland,recreation,playground,ChIJuX_EDwAR2jERd8U3MVMRZCM,OK,,1,Parc Residences Playground (Social Hub)
+2026-07-17T23:18:03.634759,place_details_reviews,2,AIzaSy...8yB0,220,Tengah,Brickland,recreation,playground,ChIJYXdoMgAR2jERTIYod7K-d5Q,OK,,2,Playground
+2026-07-17T23:18:04.030248,place_details_reviews,2,AIzaSy...8yB0,221,Tengah,Brickland,nature,park,ChIJyXEkaTAQ2jERwofXPQCBUkc,OK,,5,Bukit Batok Hillside Park
+2026-07-17T23:18:04.580073,place_details_reviews,2,AIzaSy...8yB0,222,Tengah,Brickland,nature,nature reserve,ChIJ3dcI_PUN2jERTnYeNNfju5c,OK,,5,Kranji Marshes
+2026-07-17T23:18:05.146379,place_details_reviews,2,AIzaSy...8yB0,223,Tengah,Brickland,nature,nature reserve,ChIJR9wDuIwQ2jERp5g9l0m9MQ0,OK,,5,Rifle Range Nature Park
+2026-07-17T23:18:05.731274,place_details_reviews,2,AIzaSy...8yB0,224,Tengah,Brickland,nature,garden,ChIJsYdlxscb2jER0K5FsPzQOEM,OK,,5,Silver Garden
+2026-07-17T23:18:06.520254,place_details_reviews,2,AIzaSy...8yB0,225,Tengah,Brickland,nature,garden,ChIJebPpXQAR2jERcBCyzfcJM8g,OK,,4,Blk 325A Tengah Garden Walk
+2026-07-17T23:18:07.142888,place_details_reviews,2,AIzaSy...8yB0,226,Tengah,Brickland,nature,beach,ChIJQ8uk4vwa2jERqMrT6OFBMuw,OK,,5,West Coast Park
+2026-07-17T23:18:07.938215,place_details_reviews,2,AIzaSy...8yB0,227,Tengah,Brickland,nature,beach,ChIJITZzKj4V2jERgbJ6lHQt1pM,OK,,5,Battleship Playground
+2026-07-17T23:18:08.297642,place_details_reviews,2,AIzaSy...8yB0,228,Tengah,Brickland,nature,waterfront,ChIJlazgqfkR2jER7vvs1HZbURg,OK,,2,Garden Waterfront I @ Tengah (U/C)
+2026-07-17T23:18:08.895246,place_details_reviews,2,AIzaSy...8yB0,229,Tengah,Brickland,nature,waterfront,ChIJhxTCMwAR2jER_GPkjT9CGEY,OK,,4,Garden Waterfront II @ Tengah
+2026-07-17T23:18:09.308456,place_details_reviews,2,AIzaSy...8yB0,230,Tengah,Brickland,nature,park connector,ChIJxZwgg1kZ2jERfsCcuEg0JC4,OK,,5,Kallang Park Connector
+2026-07-17T23:18:10.134168,place_details_reviews,2,AIzaSy...8yB0,231,Tengah,Brickland,nature,park connector,ChIJp2xL6ycb2jERudi_c8iaKn8,OK,,5,Alexandra Park Connector
+2026-07-17T23:18:10.973687,place_details_reviews,2,AIzaSy...8yB0,232,Tengah,Forest Hill,education,kindergarten,ChIJzVHfqPoR2jERQxYAxlE584o,OK,,5,Skool4Kidz Preschool @ Tengah Garden Vale
+2026-07-17T23:18:11.599885,place_details_reviews,2,AIzaSy...8yB0,233,Tengah,Forest Hill,education,primary school,ChIJNfn2jZwP2jERnKZlZ5yCUWc,OK,,0,Pioneer Primary School
+2026-07-17T23:18:12.242000,place_details_reviews,2,AIzaSy...8yB0,234,Tengah,Forest Hill,education,secondary school,ChIJsyTJCRcQ2jERfwQiMdnbBFE,OK,,0,Crest Secondary School
+2026-07-17T23:18:12.773012,place_details_reviews,2,AIzaSy...8yB0,235,Tengah,Forest Hill,education,secondary school,ChIJjw7yEFsa2jERufHDVg2XpLg,OK,,0,Fairfield Methodist Secondary School
+2026-07-17T23:18:13.411843,place_details_reviews,2,AIzaSy...8yB0,236,Tengah,Forest Hill,education,junior college,ChIJ61lTU6EQ2jERiBDECMxHYFY,OK,,5,National Junior College
+2026-07-17T23:18:14.108402,place_details_reviews,2,AIzaSy...8yB0,237,Tengah,Forest Hill,education,polytechnic,ChIJkWAJw2Ea2jERs-y_xctqmBw,OK,,3,SP School of Computing
+2026-07-17T23:18:14.936326,place_details_reviews,2,AIzaSy...8yB0,238,Tengah,Forest Hill,education,university,ChIJY0QBmQoP2jERGYItxQAIu7g,OK,,5,Nanyang Technological University
+2026-07-17T23:18:15.483824,place_details_reviews,2,AIzaSy...8yB0,239,Tengah,Forest Hill,education,tuition centre,ChIJxVpRXY0b2jERLaTEQpzXKf0,OK,,5,Pillora Learning
+2026-07-17T23:18:16.031238,place_details_reviews,2,AIzaSy...8yB0,240,Tengah,Forest Hill,education,tuition centre,ChIJyRhBI9Eb2jERRoJYxpEvUW8,OK,,5,inStic Academy
+2026-07-17T23:18:16.856271,place_details_reviews,2,AIzaSy...8yB0,241,Tengah,Forest Hill,education,library,ChIJ77M1mP4a2jERRfwA553Qz3E,OK,,5,NUS Central Library
+2026-07-17T23:18:17.641376,place_details_reviews,2,AIzaSy...8yB0,242,Tengah,Forest Hill,transport,MRT station,ChIJOdueMVIa2jERhE4TnhWtNpo,OK,,5,Kent Ridge
+2026-07-17T23:18:18.197587,place_details_reviews,2,AIzaSy...8yB0,243,Tengah,Forest Hill,transport,MRT station,ChIJi9J7UkUa2jEREUidaQaWpMU,OK,,5,One-North
+2026-07-17T23:18:18.865307,place_details_reviews,2,AIzaSy...8yB0,244,Tengah,Forest Hill,transport,LRT station,ChIJc9MDXQAR2jERKnSoddNWhuk,OK,,4,Tengah Park MRT Station (JE2) (U/C)
+2026-07-17T23:18:19.337195,place_details_reviews,2,AIzaSy...8yB0,245,Tengah,Forest Hill,food,hawker centre,ChIJN69e7Gga2jERsqinNIodaeg,OK,,5,20 Ghim Moh Road Market & Food Centre
+2026-07-17T23:18:20.133581,place_details_reviews,2,AIzaSy...8yB0,246,Tengah,Forest Hill,food,hawker centre,ChIJGVasnbwb2jERCVdaOVAZfis,OK,,5,West Coast Market Square
+2026-07-17T23:18:20.711161,place_details_reviews,2,AIzaSy...8yB0,247,Tengah,Forest Hill,food,food court,ChIJzfJnWAAR2jERPjZ_0ZmDO6A,OK,,5,Gourmet Paradise
+2026-07-17T23:18:21.277501,place_details_reviews,2,AIzaSy...8yB0,248,Tengah,Forest Hill,food,food court,ChIJaerANgAR2jERELYRfnadKew,OK,,5,Koufu
+2026-07-17T23:18:21.954277,place_details_reviews,2,AIzaSy...8yB0,249,Tengah,Forest Hill,food,coffee shop,ChIJsagBcgAb2jERAeP1PYWVL58,OK,,5,Grounds On A Hill Coffee
+2026-07-17T23:18:22.775939,place_details_reviews,2,AIzaSy...8yB0,250,Tengah,Forest Hill,food,coffee shop,ChIJ_8M8XRob2jERNlp5OHUVWRQ,OK,,5,Benches Cafe
+2026-07-17T23:18:23.247727,place_details_reviews,2,AIzaSy...8yB0,251,Tengah,Forest Hill,food,restaurant,ChIJzQwaS_4b2jERf6fBSUU_nyk,OK,,5,Home By Enjoy
+2026-07-17T23:18:24.028047,place_details_reviews,2,AIzaSy...8yB0,252,Tengah,Forest Hill,food,restaurant,ChIJId31rWkb2jERHn7iY6qgijA,OK,,5,Abundance: Taiwanese Restaurant & Craft Beer Bar (Redhill)
+2026-07-17T23:18:24.807367,place_details_reviews,2,AIzaSy...8yB0,253,Tengah,Forest Hill,shopping,shopping mall,ChIJsSFPOpcR2jERQWE66C2VUXc,OK,,5,Plantation Plaza
+2026-07-17T23:18:26.061338,place_details_reviews,2,AIzaSy...8yB0,254,Tengah,Forest Hill,shopping,supermarket,ChIJp_zYIlwa2jERrIDQ8AVDvCw,OK,,0,FairPrice Dover Crescent
+2026-07-17T23:18:26.531069,place_details_reviews,2,AIzaSy...8yB0,255,Tengah,Forest Hill,shopping,supermarket,ChIJp0JVlEIa2jER9lM6m1VP3S0,OK,,5,CS Fresh The Star Vista
+2026-07-17T23:18:27.284673,place_details_reviews,2,AIzaSy...8yB0,256,Tengah,Forest Hill,shopping,convenience store,ChIJZT-3Elwa2jERDGXgSkPxDmk,OK,,5,Jumbo Minimart
+2026-07-17T23:18:28.068805,place_details_reviews,2,AIzaSy...8yB0,257,Tengah,Forest Hill,shopping,convenience store,ChIJ0c3mLE8b2jER8cWhij1nHtg,OK,,5,Cheers
+2026-07-17T23:18:28.494500,place_details_reviews,2,AIzaSy...8yB0,258,Tengah,Forest Hill,shopping,wet market,ChIJNRedlDwR2jERGwPatsWC8Bs,OK,,5,BISMILLAH
+2026-07-17T23:18:28.901540,place_details_reviews,2,AIzaSy...8yB0,259,Tengah,Forest Hill,recreation,gym,ChIJF5KbNv0Z2jERhG3VXfpv8zs,OK,,5,Homeground Gym Balestier
+2026-07-17T23:18:29.312768,place_details_reviews,2,AIzaSy...8yB0,260,Tengah,Forest Hill,recreation,gym,ChIJkyMjI-4b2jERlH2ekheTQ7o,OK,,5,BFT Kent Ridge
+2026-07-17T23:18:29.667290,place_details_reviews,2,AIzaSy...8yB0,261,Tengah,Forest Hill,recreation,sports centre,ChIJYSzUZFga2jER3mzgp6uuRUk,OK,,0,Sports and Recreation Centre
+2026-07-17T23:18:30.409114,place_details_reviews,2,AIzaSy...8yB0,262,Tengah,Forest Hill,recreation,sports centre,ChIJWSysU5YQ2jERUzf-4-qhSY0,OK,,5,The Rainforest Sports Hub
+2026-07-17T23:18:31.051489,place_details_reviews,2,AIzaSy...8yB0,263,Tengah,Forest Hill,recreation,cinema,ChIJFx7cQgAR2jERum7NN5FvIOk,OK,,5,Shaw Theatres JEM
+2026-07-17T23:18:31.745159,place_details_reviews,2,AIzaSy...8yB0,264,Tengah,Forest Hill,recreation,cinema,ChIJ1btJfAAZ2jEReSzub3K76o4,OK,,5,Filmhouse at Golden Mile Tower
+2026-07-17T23:18:32.605021,place_details_reviews,2,AIzaSy...8yB0,265,Tengah,Forest Hill,recreation,community club,ChIJGacQ0GMQ2jER8wwsO3AmbKg,OK,,5,Bukit Timah Community Club
+2026-07-17T23:18:33.083079,place_details_reviews,2,AIzaSy...8yB0,266,Tengah,Forest Hill,recreation,playground,ChIJ-1pZNwAR2jERCFhwxmBNcxk,OK,,2,Treehouse Playground
+2026-07-17T23:18:33.713949,place_details_reviews,2,AIzaSy...8yB0,267,Tengah,Forest Hill,nature,park,ChIJa1WN9dob2jERWFxNMq2ZVgM,OK,,5,Telok Blangah Hill Park
+2026-07-17T23:18:34.374641,place_details_reviews,2,AIzaSy...8yB0,268,Tengah,Forest Hill,nature,nature reserve,ChIJO9cemPUQ2jERvlh8KtwhtAc,OK,,5,Bukit Timah Nature Reserve
+2026-07-17T23:18:34.936568,place_details_reviews,2,AIzaSy...8yB0,269,Tengah,Forest Hill,nature,nature reserve,ChIJs3oprUQQ2jERp8A9mbkPZJE,OK,,5,Bukit Batok Nature Park
+2026-07-17T23:18:35.336663,place_details_reviews,2,AIzaSy...8yB0,270,Tengah,Forest Hill,nature,garden,ChIJq4qpIhka2jERGKphTl48lQg,OK,,5,Learning Forest
+2026-07-17T23:18:35.837826,place_details_reviews,2,AIzaSy...8yB0,271,Tengah,Forest Hill,nature,garden,ChIJsWwgNgAR2jER7IcGXFiouEI,OK,,5,Garden Vale @ Tengah
+2026-07-17T23:18:36.235329,place_details_reviews,2,AIzaSy...8yB0,272,Tengah,Forest Hill,nature,beach,ChIJWQLwKP0P2jER-AOMrDbkIW8,OK,,5,Jurong Lake Gardens
+2026-07-17T23:18:36.742850,place_details_reviews,2,AIzaSy...8yB0,273,Tengah,Forest Hill,nature,park connector,ChIJf1E8XmEa2jERBSAZgsPdXo4,OK,,5,Ulu Pandan Park Connector (Dover)
+2026-07-17T23:18:37.169095,place_details_reviews,2,AIzaSy...8yB0,274,Tengah,Forest Hill,nature,park connector,ChIJJTvN5Ckb2jERdwPiAsqZxOo,OK,,2,West Coast Park Connector
+2026-07-17T23:18:37.847576,place_details_reviews,2,AIzaSy...8yB0,275,Tengah,Garden,education,primary school,ChIJbeNPfgAP2jER9uGRxAuHGAg,OK,,0,Kranji Primary School (U/C)
+2026-07-17T23:18:38.327307,place_details_reviews,2,AIzaSy...8yB0,276,Tengah,Garden,education,secondary school,ChIJYUp8RjMQ2jERVq_XaHBNaKg,OK,,0,Dunearn Secondary School
+2026-07-17T23:18:39.074247,place_details_reviews,2,AIzaSy...8yB0,277,Tengah,Garden,education,secondary school,ChIJgfrSysoR2jERoO34OodTnTM,OK,,0,Swiss Cottage Secondary School
+2026-07-17T23:18:39.818553,place_details_reviews,2,AIzaSy...8yB0,278,Tengah,Garden,education,junior college,ChIJwURjtzoQ2jERlHPeEoKRpho,OK,,5,Millennia Institute
+2026-07-17T23:18:40.656537,place_details_reviews,2,AIzaSy...8yB0,279,Tengah,Garden,education,polytechnic,ChIJ86DyH0sb2jERfgzlDlxKdGc,OK,,5,Singapore Polytechnic Gate 1
+2026-07-17T23:18:41.102317,place_details_reviews,2,AIzaSy...8yB0,280,Tengah,Garden,education,tuition centre,ChIJNZN2B9UR2jERWXlZTCuiqrU,OK,,0,Kumon Learning Centre - Tengah Boulevard (Maths and English Enrichment)
+2026-07-17T23:18:41.505019,place_details_reviews,2,AIzaSy...8yB0,281,Tengah,Garden,education,tuition centre,ChIJCweXIN8P2jERNCUn_qvQ8ZA,OK,,5,"Cambridge Learning Group SG – Jurong West Tuition Centre for Primary & Secondary English, Maths & Science Exam Specialists"
+2026-07-17T23:18:42.247207,place_details_reviews,2,AIzaSy...8yB0,282,Tengah,Garden,transport,MRT station,ChIJUeGvkh4Q2jER21Tz2-_e-_I,OK,,5,Chinese Garden
+2026-07-17T23:18:42.737296,place_details_reviews,2,AIzaSy...8yB0,283,Tengah,Garden,food,hawker centre,ChIJwYx9mx8Q2jERbnODLJmL8gc,OK,,5,Yuhua Place Market and Hawker Centre
+2026-07-17T23:18:43.422313,place_details_reviews,2,AIzaSy...8yB0,284,Tengah,Garden,food,hawker centre,ChIJP4_FiqQR2jERBKnVkYoHIcQ,OK,,5,Bukit Batok West Hawker Centre
+2026-07-17T23:18:43.828652,place_details_reviews,2,AIzaSy...8yB0,285,Tengah,Garden,food,coffee shop,ChIJ8-RxOQAR2jERpn7etgyjxLg,OK,,5,Yong Li Coffee Station
+2026-07-17T23:18:44.391532,place_details_reviews,2,AIzaSy...8yB0,286,Tengah,Garden,food,restaurant,ChIJjVQXWgAR2jERpJQ2WOCjrzo,OK,,5,Saizeriya - Tengah Parc Point
+2026-07-17T23:18:45.096353,place_details_reviews,2,AIzaSy...8yB0,287,Tengah,Garden,food,cafe,ChIJFbvEAwAR2jERq-qHkKkodC0,OK,,5,Cuppa Coffee
+2026-07-17T23:18:45.916504,place_details_reviews,2,AIzaSy...8yB0,288,Tengah,Garden,shopping,supermarket,ChIJZxhtw-0R2jERG0NQyn6zY_E,OK,,5,Giant Supermarket
+2026-07-17T23:18:46.550296,place_details_reviews,2,AIzaSy...8yB0,289,Tengah,Garden,shopping,wet market,ChIJA-S30F8b2jER46-WSc7Ak2g,OK,,5,Teban Gardens Wet Market
+2026-07-17T23:18:47.182935,place_details_reviews,2,AIzaSy...8yB0,290,Tengah,Garden,recreation,gym,ChIJX0WaCmkR2jERM7Nhb2f_9rU,OK,,5,Anytime Fitness Tengah CC
+2026-07-17T23:18:47.879619,place_details_reviews,2,AIzaSy...8yB0,291,Tengah,Garden,recreation,community club,ChIJ4ydWlqMa2jERWCR933Y5D7s,OK,,5,Ayer Rajah Community Club
+2026-07-17T23:18:48.441391,place_details_reviews,2,AIzaSy...8yB0,292,Tengah,Garden,recreation,playground,ChIJHwNgTwAR2jERSeNqXSO_OQk,OK,,4,Bee Playground
+2026-07-17T23:18:48.835429,place_details_reviews,2,AIzaSy...8yB0,293,Tengah,Garden,nature,park,ChIJj1eNOAAR2jER_O7l-DxUJXc,OK,,5,Parc Glen @ Tengah
+2026-07-17T23:18:49.437093,place_details_reviews,2,AIzaSy...8yB0,294,Tengah,Garden,nature,nature reserve,ChIJDR2Au0sX2jERt1iFDZAqk70,OK,,5,Central Catchment Nature Reserve
+2026-07-17T23:18:50.251720,place_details_reviews,2,AIzaSy...8yB0,295,Tengah,Garden,nature,garden,ChIJlVrAMgAR2jERncBCP4HDlmc,OK,,5,Garden Court @ Tengah
+2026-07-17T23:18:50.984228,place_details_reviews,2,AIzaSy...8yB0,296,Tengah,Garden,nature,garden,ChIJ6-w7FAAR2jERNblJRUPcFIQ,OK,,5,Garden Bloom @ Tengah
+2026-07-17T23:18:51.694892,place_details_reviews,2,AIzaSy...8yB0,297,Tengah,Garden,nature,park connector,ChIJl56l9KIa2jERKQkFiKZPT4o,OK,,5,Pandan Garden Park Connector
+2026-07-17T23:18:52.475077,place_details_reviews,2,AIzaSy...8yB0,298,Tengah,Park,education,primary school,ChIJXSxIljYQ2jERiQ-pNM2WSng,OK,,0,Dazhong Primary School
+2026-07-17T23:18:53.000535,place_details_reviews,2,AIzaSy...8yB0,299,Tengah,Park,education,secondary school,ChIJgdOw1TwQ2jERyhBsORQ474o,OK,,0,Bukit Batok Secondary School
+2026-07-17T23:18:53.752041,place_details_reviews,2,AIzaSy...8yB0,300,Tengah,Park,education,polytechnic,ChIJa1IhLwAR2jERAZFNVZKRrHU,OK,,5,Tengah Polyclinic
+2026-07-17T23:18:54.324458,place_details_reviews,2,AIzaSy...8yB0,301,Tengah,Park,education,university,ChIJYelyBwAR2jERJZ2CgNH6L6Y,OK,,5,Parc Residences @ Tengah
+2026-07-17T23:18:54.713727,place_details_reviews,2,AIzaSy...8yB0,302,Tengah,Park,education,tuition centre,ChIJ5W-xE3gR2jERAl4jut4_axM,OK,,1,Van Tuition Class
+2026-07-17T23:18:55.119634,place_details_reviews,2,AIzaSy...8yB0,303,Tengah,Park,education,tuition centre,ChIJx4Ce9wcR2jER5gq88wd2NkE,OK,,5,Thoughts Box Tuition Centre (Bukit Batok)
+2026-07-17T23:18:55.913581,place_details_reviews,2,AIzaSy...8yB0,304,Tengah,Park,education,library,ChIJn_MoAgAP2jER5S6fcvL0zco,OK,,1,Book House (Community Library)
+2026-07-17T23:18:56.528491,place_details_reviews,2,AIzaSy...8yB0,305,Tengah,Park,transport,MRT station,ChIJv427FgAR2jER7kcG9mTbAqI,OK,,0,Tengah MRT Station (JS3/JE1)
+2026-07-17T23:18:57.262747,place_details_reviews,2,AIzaSy...8yB0,306,Tengah,Park,food,coffee shop,ChIJB4djIEkR2jERI_Xd_yrDCXE,OK,,5,luckin coffee - Parc Point
+2026-07-17T23:18:58.051408,place_details_reviews,2,AIzaSy...8yB0,307,Tengah,Park,food,cafe,ChIJY-tGdQAR2jERjsPsPGbzGzc,OK,,5,Chatters
+2026-07-17T23:18:58.535187,place_details_reviews,2,AIzaSy...8yB0,308,Tengah,Park,shopping,convenience store,ChIJo1JMSwAR2jER915JYTrxOf8,OK,,5,7-Eleven
+2026-07-17T23:18:59.122486,place_details_reviews,2,AIzaSy...8yB0,309,Tengah,Park,recreation,swimming complex,ChIJuXzTBAAR2jERqUC6XsSZh00,OK,,5,Happy Fish Swim School - Tengah
+2026-07-17T23:18:59.623551,place_details_reviews,2,AIzaSy...8yB0,310,Tengah,Park,recreation,cinema,ChIJWcpxFQQQ2jERpLIO6PcPP4U,OK,,5,Omni-Theatre
+2026-07-17T23:19:00.478934,place_details_reviews,2,AIzaSy...8yB0,311,Tengah,Park,recreation,playground,ChIJb07DGAAR2jERsA-WOhZ_XhM,OK,,2,Rooster playground
+2026-07-17T23:19:01.261376,place_details_reviews,2,AIzaSy...8yB0,312,Tengah,Park,nature,garden,ChIJFxsEFAAR2jER_pw4ROr9PP4,OK,,5,Parc Flora @ Tengah
+2026-07-17T23:19:01.617956,place_details_reviews,2,AIzaSy...8yB0,313,Tengah,Park,nature,park connector,ChIJh96XTAAP2jERpzIEPWepVmE,OK,,2,Jurong Park Connector
+2026-07-17T23:19:02.343377,place_details_reviews,2,AIzaSy...8yB0,314,Tengah,Park,nature,park connector,ChIJLYJdmQYR2jERZvH2RJdbyP4,OK,,2,Bukit Batok Park Connector
+2026-07-17T23:19:02.886460,place_details_reviews,2,AIzaSy...8yB0,315,Tengah,Plantation,education,kindergarten,ChIJ12Jl-zMb2jERvaz_-XnfC7U,OK,,5,Kensington Preschool West Coast
+2026-07-17T23:19:03.632325,place_details_reviews,2,AIzaSy...8yB0,316,Tengah,Plantation,education,childcare centre,ChIJSx1d61cb2jER6nPU-63aWwI,OK,,1,Little Paddington Preschool and Infant Care Kent Ridge
+2026-07-17T23:19:04.141704,place_details_reviews,2,AIzaSy...8yB0,317,Tengah,Plantation,education,childcare centre,ChIJ8y-S9COVBYcR48ebhvLhMn0,OK,,2,PlayFACTO School @ Tengah
+2026-07-17T23:19:04.891638,place_details_reviews,2,AIzaSy...8yB0,318,Tengah,Plantation,education,secondary school,ChIJHZaFrPQa2jER3PP0AhzvhCU,OK,,0,Nan Hua High School
+2026-07-17T23:19:05.449360,place_details_reviews,2,AIzaSy...8yB0,319,Tengah,Plantation,education,secondary school,ChIJ4YNdxDga2jERqyL_K2b5IOw,OK,,0,Queensway Secondary School
+2026-07-17T23:19:05.996463,place_details_reviews,2,AIzaSy...8yB0,320,Tengah,Plantation,education,tuition centre,ChIJAQDAIUMa2jERDDu4F8lKOJw,OK,,5,"Zenith Education Studio - Buona Vista | JC Tuition, Secondary Tuition & Pri | Math, Chem, Econs, Physics, GP, English"
+2026-07-17T23:19:06.600148,place_details_reviews,2,AIzaSy...8yB0,321,Tengah,Plantation,education,tuition centre,ChIJvUJAJgAR2jER--tcctB6DY0,OK,,4,"Stalford Learning Centre @ Tengah, Plantation Plaza"
+2026-07-17T23:19:07.085360,place_details_reviews,2,AIzaSy...8yB0,322,Tengah,Plantation,education,library,ChIJ1fYfwGAa2jERy7f1JLymou0,OK,,5,SP - Library & FabLab
+2026-07-17T23:19:07.572853,place_details_reviews,2,AIzaSy...8yB0,323,Tengah,Plantation,education,library,ChIJKaGsJKUZ2jERxa8yhKrdPfI,OK,,5,National Library / Lee Kong Chian Reference Library
+2026-07-17T23:19:08.146432,place_details_reviews,2,AIzaSy...8yB0,324,Tengah,Plantation,transport,MRT station,ChIJBckTYgAR2jERseGcXB10ArI,OK,,0,Tengah Plantation MRT Station (JE1) (U/C)
+2026-07-17T23:19:08.726518,place_details_reviews,2,AIzaSy...8yB0,325,Tengah,Plantation,transport,bus stop,ChIJ80oKyigQ2jERGLvkwE5qhz8,OK,,1,Tengah CC
+2026-07-17T23:19:09.099088,place_details_reviews,2,AIzaSy...8yB0,326,Tengah,Plantation,food,coffee shop,ChIJP3I5GG0R2jEREydbxgIS-nI,OK,,5,The Weekend Coffee
+2026-07-17T23:19:09.928863,place_details_reviews,2,AIzaSy...8yB0,327,Tengah,Plantation,food,coffee shop,ChIJGcgpJQAR2jERB2NiCtmz1zQ,OK,,5,Kopifellas Cafe Plantation Plaza
+2026-07-17T23:19:10.319058,place_details_reviews,2,AIzaSy...8yB0,328,Tengah,Plantation,food,restaurant,ChIJYXtNWAAR2jERJSKFNJUfqgk,OK,,5,Brunch & Co Cafe
+2026-07-17T23:19:10.882625,place_details_reviews,2,AIzaSy...8yB0,329,Tengah,Plantation,food,restaurant,ChIJ-QhpgCcR2jERakSJtK0yiSY,OK,,5,Swensen's @ Plantation Plaza
+2026-07-17T23:19:11.541235,place_details_reviews,2,AIzaSy...8yB0,330,Tengah,Plantation,shopping,shopping mall,ChIJNVNJEQAR2jER93BK5HMi5dw,OK,,5,Plantation Village Retail Street
+2026-07-17T23:19:12.053043,place_details_reviews,2,AIzaSy...8yB0,331,Tengah,Plantation,recreation,gym,ChIJneXsUQAR2jERS1T6f_aK9vM,OK,,1,Fitness Station
+2026-07-17T23:19:12.869135,place_details_reviews,2,AIzaSy...8yB0,332,Tengah,Plantation,recreation,playground,ChIJVaToQwAR2jER0BeYzqvRIvk,OK,,5,Bouncetopia by Kiztopia
+2026-07-17T23:19:13.328768,place_details_reviews,2,AIzaSy...8yB0,333,Tengah,Plantation,nature,park,ChIJRYPrEwAR2jERBlVYaEWqHAU,OK,,4,Plantation Farmway 2
+2026-07-17T23:19:13.942443,place_details_reviews,2,AIzaSy...8yB0,334,Tengah,Plantation,nature,park,ChIJ93a_ZwAR2jERX6bfxe1qmKY,OK,,5,Plantation Farmway 1
+2026-07-17T23:19:14.456515,place_details_reviews,2,AIzaSy...8yB0,335,Tengah,Plantation,nature,park connector,ChIJF8qcLBQR2jERRUfpO03l4jU,OK,,5,Plantation Creek
+2026-07-17T23:19:14.917494,place_details_reviews,2,AIzaSy...8yB0,336,Tengah,Tengah Industrial Estate,education,junior college,ChIJwTBrr14a2jERD81KLlIjJMI,OK,,0,UWC South East Asia (Dover Campus)
+2026-07-17T23:19:15.346188,place_details_reviews,2,AIzaSy...8yB0,337,Tengah,Tengah Industrial Estate,education,university,ChIJEQ1501ga2jERj5AAu228B4A,OK,,4,IDEAS Hub
+2026-07-17T23:19:15.990329,place_details_reviews,2,AIzaSy...8yB0,338,Tengah,Tengah Industrial Estate,education,tuition centre,ChIJr6Fox4UR2jER_4bZRDpq8Ac,OK,,2,Heguru Method @ Tengah
+2026-07-17T23:19:16.467804,place_details_reviews,2,AIzaSy...8yB0,339,Tengah,Tengah Industrial Estate,education,library,ChIJxzbY1z4Q2jERJ6mezML68e8,OK,,5,Bukit Batok Library
+2026-07-17T23:19:17.248823,place_details_reviews,2,AIzaSy...8yB0,340,Tengah,Tengah Industrial Estate,food,cafe,ChIJ_1lD3z0R2jERO1c8HdFb4uE,OK,,5,Kafei
+2026-07-17T23:19:17.786495,place_details_reviews,2,AIzaSy...8yB0,341,Tengah,Tengah Industrial Estate,shopping,convenience store,ChIJxbdn1yQQ2jERAXbY3i854sk,OK,,4,G10 Minimart
+2026-07-17T23:19:18.550893,place_details_reviews,2,AIzaSy...8yB0,342,Tengah,Tengah Industrial Estate,recreation,playground,ChIJzzBUVAAR2jERaS-FtGw-y7U,OK,,1,Playground
+2026-07-17T23:19:19.235612,place_details_reviews,2,AIzaSy...8yB0,343,Tengah,Tengah Industrial Estate,nature,garden,ChIJy1pAPgAP2jERfHiY92GJn6c,OK,,1,Tengah Garden Bloom
+2026-07-17T23:19:19.880745,place_details_reviews,2,AIzaSy...8yB0,344,Tengah,Tengah Industrial Estate,nature,beach,ChIJDUF5GQAR2jERNq4BM2BzwfE,OK,,3,Sand Playground

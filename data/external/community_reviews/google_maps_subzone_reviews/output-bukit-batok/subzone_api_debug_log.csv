@@ -1,0 +1,474 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-19T13:23:38.554359,text_search,1,AIzaSy...IDGw,635,Bukit Batok,Brickworks,education,kindergarten,"kindergarten in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:39.575701,text_search,1,AIzaSy...IDGw,636,Bukit Batok,Brickworks,education,childcare centre,"childcare centre in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:40.363674,text_search,1,AIzaSy...IDGw,637,Bukit Batok,Brickworks,education,primary school,"primary school in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:41.009778,text_search,1,AIzaSy...IDGw,638,Bukit Batok,Brickworks,education,secondary school,"secondary school in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:41.621507,text_search,1,AIzaSy...IDGw,639,Bukit Batok,Brickworks,education,junior college,"junior college in Brickworks, Bukit Batok, Singapore",OK,,4,
+2026-07-19T13:23:42.699307,text_search,1,AIzaSy...IDGw,640,Bukit Batok,Brickworks,education,polytechnic,"polytechnic in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:43.492598,text_search,1,AIzaSy...IDGw,641,Bukit Batok,Brickworks,education,university,"university in Brickworks, Bukit Batok, Singapore",OK,,18,
+2026-07-19T13:23:44.709412,text_search,1,AIzaSy...IDGw,642,Bukit Batok,Brickworks,education,tuition centre,"tuition centre in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:45.541512,text_search,1,AIzaSy...IDGw,643,Bukit Batok,Brickworks,education,library,"library in Brickworks, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:23:46.338726,text_search,1,AIzaSy...IDGw,644,Bukit Batok,Brickworks,transport,MRT station,"MRT station in Brickworks, Bukit Batok, Singapore",OK,,3,
+2026-07-19T13:23:47.278790,text_search,1,AIzaSy...IDGw,645,Bukit Batok,Brickworks,transport,bus stop,"bus stop in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:48.351021,text_search,1,AIzaSy...IDGw,646,Bukit Batok,Brickworks,transport,bus interchange,"bus interchange in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:49.386443,text_search,1,AIzaSy...IDGw,647,Bukit Batok,Brickworks,transport,LRT station,"LRT station in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:50.256998,text_search,1,AIzaSy...IDGw,648,Bukit Batok,Brickworks,food,hawker centre,"hawker centre in Brickworks, Bukit Batok, Singapore",OK,,14,
+2026-07-19T13:23:51.269271,text_search,1,AIzaSy...IDGw,649,Bukit Batok,Brickworks,food,food court,"food court in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:52.484979,text_search,1,AIzaSy...IDGw,650,Bukit Batok,Brickworks,food,coffee shop,"coffee shop in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:53.451710,text_search,1,AIzaSy...IDGw,651,Bukit Batok,Brickworks,food,restaurant,"restaurant in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:54.433662,text_search,1,AIzaSy...IDGw,652,Bukit Batok,Brickworks,food,cafe,"cafe in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:55.510224,text_search,1,AIzaSy...IDGw,653,Bukit Batok,Brickworks,shopping,shopping mall,"shopping mall in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:56.462861,text_search,1,AIzaSy...IDGw,654,Bukit Batok,Brickworks,shopping,supermarket,"supermarket in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:57.495766,text_search,1,AIzaSy...IDGw,655,Bukit Batok,Brickworks,shopping,grocery store,"grocery store in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:58.534753,text_search,1,AIzaSy...IDGw,656,Bukit Batok,Brickworks,shopping,convenience store,"convenience store in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:23:59.605573,text_search,1,AIzaSy...IDGw,657,Bukit Batok,Brickworks,shopping,wet market,"wet market in Brickworks, Bukit Batok, Singapore",OK,,3,
+2026-07-19T13:24:00.697022,text_search,1,AIzaSy...IDGw,658,Bukit Batok,Brickworks,recreation,gym,"gym in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:01.603089,text_search,1,AIzaSy...IDGw,659,Bukit Batok,Brickworks,recreation,sports centre,"sports centre in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:02.789684,text_search,1,AIzaSy...IDGw,660,Bukit Batok,Brickworks,recreation,swimming complex,"swimming complex in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:03.790140,text_search,1,AIzaSy...IDGw,661,Bukit Batok,Brickworks,recreation,cinema,"cinema in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:04.591697,text_search,1,AIzaSy...IDGw,662,Bukit Batok,Brickworks,recreation,community club,"community club in Brickworks, Bukit Batok, Singapore",OK,,3,
+2026-07-19T13:24:05.404402,text_search,1,AIzaSy...IDGw,663,Bukit Batok,Brickworks,recreation,playground,"playground in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:06.351894,text_search,1,AIzaSy...IDGw,664,Bukit Batok,Brickworks,nature,park,"park in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:07.418107,text_search,1,AIzaSy...IDGw,665,Bukit Batok,Brickworks,nature,nature reserve,"nature reserve in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:08.067527,text_search,1,AIzaSy...IDGw,666,Bukit Batok,Brickworks,nature,garden,"garden in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:08.733993,text_search,1,AIzaSy...IDGw,667,Bukit Batok,Brickworks,nature,beach,"beach in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:09.636847,text_search,1,AIzaSy...IDGw,668,Bukit Batok,Brickworks,nature,waterfront,"waterfront in Brickworks, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:10.423029,text_search,1,AIzaSy...IDGw,669,Bukit Batok,Brickworks,nature,park connector,"park connector in Brickworks, Bukit Batok, Singapore",OK,,5,
+2026-07-19T13:24:11.457171,text_search,1,AIzaSy...IDGw,670,Bukit Batok,Bukit Batok Central,education,kindergarten,"kindergarten in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:12.437147,text_search,1,AIzaSy...IDGw,671,Bukit Batok,Bukit Batok Central,education,childcare centre,"childcare centre in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:13.236783,text_search,1,AIzaSy...IDGw,672,Bukit Batok,Bukit Batok Central,education,primary school,"primary school in Bukit Batok Central, Bukit Batok, Singapore",OK,,10,
+2026-07-19T13:24:14.223585,text_search,1,AIzaSy...IDGw,673,Bukit Batok,Bukit Batok Central,education,secondary school,"secondary school in Bukit Batok Central, Bukit Batok, Singapore",OK,,6,
+2026-07-19T13:24:15.255073,text_search,1,AIzaSy...IDGw,674,Bukit Batok,Bukit Batok Central,education,junior college,"junior college in Bukit Batok Central, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:24:16.276542,text_search,1,AIzaSy...IDGw,675,Bukit Batok,Bukit Batok Central,education,polytechnic,"polytechnic in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:17.048189,text_search,1,AIzaSy...IDGw,676,Bukit Batok,Bukit Batok Central,education,university,"university in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:17.910683,text_search,1,AIzaSy...IDGw,677,Bukit Batok,Bukit Batok Central,education,tuition centre,"tuition centre in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:18.679922,text_search,1,AIzaSy...IDGw,678,Bukit Batok,Bukit Batok Central,education,library,"library in Bukit Batok Central, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:24:19.689228,text_search,1,AIzaSy...IDGw,679,Bukit Batok,Bukit Batok Central,transport,MRT station,"MRT station in Bukit Batok Central, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:24:20.521346,text_search,1,AIzaSy...IDGw,680,Bukit Batok,Bukit Batok Central,transport,bus stop,"bus stop in Bukit Batok Central, Bukit Batok, Singapore",OK,,6,
+2026-07-19T13:24:21.536139,text_search,1,AIzaSy...IDGw,681,Bukit Batok,Bukit Batok Central,transport,bus interchange,"bus interchange in Bukit Batok Central, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:24:22.612279,text_search,1,AIzaSy...IDGw,682,Bukit Batok,Bukit Batok Central,transport,LRT station,"LRT station in Bukit Batok Central, Bukit Batok, Singapore",OK,,7,
+2026-07-19T13:24:23.320171,text_search,1,AIzaSy...IDGw,683,Bukit Batok,Bukit Batok Central,food,hawker centre,"hawker centre in Bukit Batok Central, Bukit Batok, Singapore",OK,,7,
+2026-07-19T13:24:24.509589,text_search,1,AIzaSy...IDGw,684,Bukit Batok,Bukit Batok Central,food,food court,"food court in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:25.377562,text_search,1,AIzaSy...IDGw,685,Bukit Batok,Bukit Batok Central,food,coffee shop,"coffee shop in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:26.359136,text_search,1,AIzaSy...IDGw,686,Bukit Batok,Bukit Batok Central,food,restaurant,"restaurant in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:27.432173,text_search,1,AIzaSy...IDGw,687,Bukit Batok,Bukit Batok Central,food,cafe,"cafe in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:28.304882,text_search,1,AIzaSy...IDGw,688,Bukit Batok,Bukit Batok Central,shopping,shopping mall,"shopping mall in Bukit Batok Central, Bukit Batok, Singapore",OK,,8,
+2026-07-19T13:24:29.309525,text_search,1,AIzaSy...IDGw,689,Bukit Batok,Bukit Batok Central,shopping,supermarket,"supermarket in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:30.336185,text_search,1,AIzaSy...IDGw,690,Bukit Batok,Bukit Batok Central,shopping,grocery store,"grocery store in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:31.061943,text_search,1,AIzaSy...IDGw,691,Bukit Batok,Bukit Batok Central,shopping,convenience store,"convenience store in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:32.103666,text_search,1,AIzaSy...IDGw,692,Bukit Batok,Bukit Batok Central,shopping,wet market,"wet market in Bukit Batok Central, Bukit Batok, Singapore",OK,,7,
+2026-07-19T13:24:32.999514,text_search,1,AIzaSy...IDGw,693,Bukit Batok,Bukit Batok Central,recreation,gym,"gym in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:33.679764,text_search,1,AIzaSy...IDGw,694,Bukit Batok,Bukit Batok Central,recreation,sports centre,"sports centre in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:34.730724,text_search,1,AIzaSy...IDGw,695,Bukit Batok,Bukit Batok Central,recreation,swimming complex,"swimming complex in Bukit Batok Central, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:24:35.701335,text_search,1,AIzaSy...IDGw,696,Bukit Batok,Bukit Batok Central,recreation,cinema,"cinema in Bukit Batok Central, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:24:36.508716,text_search,1,AIzaSy...IDGw,697,Bukit Batok,Bukit Batok Central,recreation,community club,"community club in Bukit Batok Central, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:24:37.541671,text_search,1,AIzaSy...IDGw,698,Bukit Batok,Bukit Batok Central,recreation,playground,"playground in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:38.200024,text_search,1,AIzaSy...IDGw,699,Bukit Batok,Bukit Batok Central,nature,park,"park in Bukit Batok Central, Bukit Batok, Singapore",OK,,10,
+2026-07-19T13:24:39.141233,text_search,1,AIzaSy...IDGw,700,Bukit Batok,Bukit Batok Central,nature,nature reserve,"nature reserve in Bukit Batok Central, Bukit Batok, Singapore",OK,,8,
+2026-07-19T13:24:39.930410,text_search,1,AIzaSy...IDGw,701,Bukit Batok,Bukit Batok Central,nature,garden,"garden in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:40.734008,text_search,1,AIzaSy...IDGw,702,Bukit Batok,Bukit Batok Central,nature,beach,"beach in Bukit Batok Central, Bukit Batok, Singapore",OK,,8,
+2026-07-19T13:24:41.529100,text_search,1,AIzaSy...IDGw,703,Bukit Batok,Bukit Batok Central,nature,waterfront,"waterfront in Bukit Batok Central, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:42.570598,text_search,1,AIzaSy...IDGw,704,Bukit Batok,Bukit Batok Central,nature,park connector,"park connector in Bukit Batok Central, Bukit Batok, Singapore",OK,,5,
+2026-07-19T13:24:43.191460,text_search,1,AIzaSy...IDGw,705,Bukit Batok,Bukit Batok East,education,kindergarten,"kindergarten in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:44.234540,text_search,1,AIzaSy...IDGw,706,Bukit Batok,Bukit Batok East,education,childcare centre,"childcare centre in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:44.934257,text_search,1,AIzaSy...IDGw,707,Bukit Batok,Bukit Batok East,education,primary school,"primary school in Bukit Batok East, Bukit Batok, Singapore",OK,,12,
+2026-07-19T13:24:45.724681,text_search,1,AIzaSy...IDGw,708,Bukit Batok,Bukit Batok East,education,secondary school,"secondary school in Bukit Batok East, Bukit Batok, Singapore",OK,,14,
+2026-07-19T13:24:46.753504,text_search,1,AIzaSy...IDGw,709,Bukit Batok,Bukit Batok East,education,junior college,"junior college in Bukit Batok East, Bukit Batok, Singapore",OK,,14,
+2026-07-19T13:24:47.915369,text_search,1,AIzaSy...IDGw,710,Bukit Batok,Bukit Batok East,education,polytechnic,"polytechnic in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:48.643275,text_search,1,AIzaSy...IDGw,711,Bukit Batok,Bukit Batok East,education,university,"university in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:49.812121,text_search,1,AIzaSy...IDGw,712,Bukit Batok,Bukit Batok East,education,tuition centre,"tuition centre in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:50.664183,text_search,1,AIzaSy...IDGw,713,Bukit Batok,Bukit Batok East,education,library,"library in Bukit Batok East, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:24:51.739182,text_search,1,AIzaSy...IDGw,714,Bukit Batok,Bukit Batok East,transport,MRT station,"MRT station in Bukit Batok East, Bukit Batok, Singapore",OK,,10,
+2026-07-19T13:24:52.692851,text_search,1,AIzaSy...IDGw,715,Bukit Batok,Bukit Batok East,transport,bus stop,"bus stop in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:53.605308,text_search,1,AIzaSy...IDGw,716,Bukit Batok,Bukit Batok East,transport,bus interchange,"bus interchange in Bukit Batok East, Bukit Batok, Singapore",OK,,7,
+2026-07-19T13:24:54.476634,text_search,1,AIzaSy...IDGw,717,Bukit Batok,Bukit Batok East,transport,LRT station,"LRT station in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:55.414877,text_search,1,AIzaSy...IDGw,718,Bukit Batok,Bukit Batok East,food,hawker centre,"hawker centre in Bukit Batok East, Bukit Batok, Singapore",OK,,15,
+2026-07-19T13:24:56.412808,text_search,1,AIzaSy...IDGw,719,Bukit Batok,Bukit Batok East,food,food court,"food court in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:57.235523,text_search,1,AIzaSy...IDGw,720,Bukit Batok,Bukit Batok East,food,coffee shop,"coffee shop in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:58.063026,text_search,1,AIzaSy...IDGw,721,Bukit Batok,Bukit Batok East,food,restaurant,"restaurant in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:59.173275,text_search,1,AIzaSy...IDGw,722,Bukit Batok,Bukit Batok East,food,cafe,"cafe in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:24:59.992365,text_search,1,AIzaSy...IDGw,723,Bukit Batok,Bukit Batok East,shopping,shopping mall,"shopping mall in Bukit Batok East, Bukit Batok, Singapore",OK,,10,
+2026-07-19T13:25:01.095490,text_search,1,AIzaSy...IDGw,724,Bukit Batok,Bukit Batok East,shopping,supermarket,"supermarket in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:01.730777,text_search,1,AIzaSy...IDGw,725,Bukit Batok,Bukit Batok East,shopping,grocery store,"grocery store in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:02.716553,text_search,1,AIzaSy...IDGw,726,Bukit Batok,Bukit Batok East,shopping,convenience store,"convenience store in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:03.851292,text_search,1,AIzaSy...IDGw,727,Bukit Batok,Bukit Batok East,shopping,wet market,"wet market in Bukit Batok East, Bukit Batok, Singapore",OK,,9,
+2026-07-19T13:25:04.551064,text_search,1,AIzaSy...IDGw,728,Bukit Batok,Bukit Batok East,recreation,gym,"gym in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:05.453126,text_search,1,AIzaSy...IDGw,729,Bukit Batok,Bukit Batok East,recreation,sports centre,"sports centre in Bukit Batok East, Bukit Batok, Singapore",OK,,15,
+2026-07-19T13:25:06.856333,text_search,1,AIzaSy...IDGw,730,Bukit Batok,Bukit Batok East,recreation,swimming complex,"swimming complex in Bukit Batok East, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:25:08.273429,text_search,1,AIzaSy...IDGw,731,Bukit Batok,Bukit Batok East,recreation,cinema,"cinema in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:09.143326,text_search,1,AIzaSy...IDGw,732,Bukit Batok,Bukit Batok East,recreation,community club,"community club in Bukit Batok East, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:25:10.235270,text_search,1,AIzaSy...IDGw,733,Bukit Batok,Bukit Batok East,recreation,playground,"playground in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:10.867586,text_search,1,AIzaSy...IDGw,734,Bukit Batok,Bukit Batok East,nature,park,"park in Bukit Batok East, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:25:11.804033,text_search,1,AIzaSy...IDGw,735,Bukit Batok,Bukit Batok East,nature,nature reserve,"nature reserve in Bukit Batok East, Bukit Batok, Singapore",OK,,7,
+2026-07-19T13:25:12.875645,text_search,1,AIzaSy...IDGw,736,Bukit Batok,Bukit Batok East,nature,garden,"garden in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:13.816778,text_search,1,AIzaSy...IDGw,737,Bukit Batok,Bukit Batok East,nature,beach,"beach in Bukit Batok East, Bukit Batok, Singapore",OK,,6,
+2026-07-19T13:25:14.918994,text_search,1,AIzaSy...IDGw,738,Bukit Batok,Bukit Batok East,nature,waterfront,"waterfront in Bukit Batok East, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:15.554212,text_search,1,AIzaSy...IDGw,739,Bukit Batok,Bukit Batok East,nature,park connector,"park connector in Bukit Batok East, Bukit Batok, Singapore",OK,,3,
+2026-07-19T13:25:16.532694,text_search,1,AIzaSy...IDGw,740,Bukit Batok,Bukit Batok South,education,kindergarten,"kindergarten in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:17.318977,text_search,1,AIzaSy...IDGw,741,Bukit Batok,Bukit Batok South,education,childcare centre,"childcare centre in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:18.283774,text_search,1,AIzaSy...IDGw,742,Bukit Batok,Bukit Batok South,education,primary school,"primary school in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:19.327752,text_search,1,AIzaSy...IDGw,743,Bukit Batok,Bukit Batok South,education,secondary school,"secondary school in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:20.328041,text_search,1,AIzaSy...IDGw,744,Bukit Batok,Bukit Batok South,education,junior college,"junior college in Bukit Batok South, Bukit Batok, Singapore",OK,,6,
+2026-07-19T13:25:21.364040,text_search,1,AIzaSy...IDGw,745,Bukit Batok,Bukit Batok South,education,polytechnic,"polytechnic in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:21.943059,text_search,1,AIzaSy...IDGw,746,Bukit Batok,Bukit Batok South,education,university,"university in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:22.943902,text_search,1,AIzaSy...IDGw,747,Bukit Batok,Bukit Batok South,education,tuition centre,"tuition centre in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:23.941046,text_search,1,AIzaSy...IDGw,748,Bukit Batok,Bukit Batok South,education,library,"library in Bukit Batok South, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:25:25.042777,text_search,1,AIzaSy...IDGw,749,Bukit Batok,Bukit Batok South,transport,MRT station,"MRT station in Bukit Batok South, Bukit Batok, Singapore",OK,,4,
+2026-07-19T13:25:25.832958,text_search,1,AIzaSy...IDGw,750,Bukit Batok,Bukit Batok South,transport,bus stop,"bus stop in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:26.936947,text_search,1,AIzaSy...IDGw,751,Bukit Batok,Bukit Batok South,transport,bus interchange,"bus interchange in Bukit Batok South, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:25:27.713985,text_search,1,AIzaSy...IDGw,752,Bukit Batok,Bukit Batok South,transport,LRT station,"LRT station in Bukit Batok South, Bukit Batok, Singapore",OK,,19,
+2026-07-19T13:25:28.978946,text_search,1,AIzaSy...IDGw,753,Bukit Batok,Bukit Batok South,food,hawker centre,"hawker centre in Bukit Batok South, Bukit Batok, Singapore",OK,,15,
+2026-07-19T13:25:30.155987,text_search,1,AIzaSy...IDGw,754,Bukit Batok,Bukit Batok South,food,food court,"food court in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:30.944603,text_search,1,AIzaSy...IDGw,755,Bukit Batok,Bukit Batok South,food,coffee shop,"coffee shop in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:31.710264,text_search,1,AIzaSy...IDGw,756,Bukit Batok,Bukit Batok South,food,restaurant,"restaurant in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:32.385174,text_search,1,AIzaSy...IDGw,757,Bukit Batok,Bukit Batok South,food,cafe,"cafe in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:33.328488,text_search,1,AIzaSy...IDGw,758,Bukit Batok,Bukit Batok South,shopping,shopping mall,"shopping mall in Bukit Batok South, Bukit Batok, Singapore",OK,,9,
+2026-07-19T13:25:34.397451,text_search,1,AIzaSy...IDGw,759,Bukit Batok,Bukit Batok South,shopping,supermarket,"supermarket in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:35.060836,text_search,1,AIzaSy...IDGw,760,Bukit Batok,Bukit Batok South,shopping,grocery store,"grocery store in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:36.064638,text_search,1,AIzaSy...IDGw,761,Bukit Batok,Bukit Batok South,shopping,convenience store,"convenience store in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:37.108582,text_search,1,AIzaSy...IDGw,762,Bukit Batok,Bukit Batok South,shopping,wet market,"wet market in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:38.130995,text_search,1,AIzaSy...IDGw,763,Bukit Batok,Bukit Batok South,recreation,gym,"gym in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:38.703201,text_search,1,AIzaSy...IDGw,764,Bukit Batok,Bukit Batok South,recreation,sports centre,"sports centre in Bukit Batok South, Bukit Batok, Singapore",OK,,11,
+2026-07-19T13:25:39.514460,text_search,1,AIzaSy...IDGw,765,Bukit Batok,Bukit Batok South,recreation,swimming complex,"swimming complex in Bukit Batok South, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:25:40.449268,text_search,1,AIzaSy...IDGw,766,Bukit Batok,Bukit Batok South,recreation,cinema,"cinema in Bukit Batok South, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:25:41.250662,text_search,1,AIzaSy...IDGw,767,Bukit Batok,Bukit Batok South,recreation,community club,"community club in Bukit Batok South, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:25:42.300239,text_search,1,AIzaSy...IDGw,768,Bukit Batok,Bukit Batok South,recreation,playground,"playground in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:43.449706,text_search,1,AIzaSy...IDGw,769,Bukit Batok,Bukit Batok South,nature,park,"park in Bukit Batok South, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:25:44.640033,text_search,1,AIzaSy...IDGw,770,Bukit Batok,Bukit Batok South,nature,nature reserve,"nature reserve in Bukit Batok South, Bukit Batok, Singapore",OK,,9,
+2026-07-19T13:25:45.420658,text_search,1,AIzaSy...IDGw,771,Bukit Batok,Bukit Batok South,nature,garden,"garden in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:46.355618,text_search,1,AIzaSy...IDGw,772,Bukit Batok,Bukit Batok South,nature,beach,"beach in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:47.094840,text_search,1,AIzaSy...IDGw,773,Bukit Batok,Bukit Batok South,nature,waterfront,"waterfront in Bukit Batok South, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:47.784581,text_search,1,AIzaSy...IDGw,774,Bukit Batok,Bukit Batok South,nature,park connector,"park connector in Bukit Batok South, Bukit Batok, Singapore",OK,,5,
+2026-07-19T13:25:49.326648,text_search,1,AIzaSy...IDGw,775,Bukit Batok,Bukit Batok West,education,kindergarten,"kindergarten in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:50.314541,text_search,1,AIzaSy...IDGw,776,Bukit Batok,Bukit Batok West,education,childcare centre,"childcare centre in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:51.287814,text_search,1,AIzaSy...IDGw,777,Bukit Batok,Bukit Batok West,education,primary school,"primary school in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:52.088881,text_search,1,AIzaSy...IDGw,778,Bukit Batok,Bukit Batok West,education,secondary school,"secondary school in Bukit Batok West, Bukit Batok, Singapore",OK,,7,
+2026-07-19T13:25:52.818143,text_search,1,AIzaSy...IDGw,779,Bukit Batok,Bukit Batok West,education,junior college,"junior college in Bukit Batok West, Bukit Batok, Singapore",OK,,9,
+2026-07-19T13:25:53.460912,text_search,1,AIzaSy...IDGw,780,Bukit Batok,Bukit Batok West,education,polytechnic,"polytechnic in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:54.414917,text_search,1,AIzaSy...IDGw,781,Bukit Batok,Bukit Batok West,education,university,"university in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:55.414409,text_search,1,AIzaSy...IDGw,782,Bukit Batok,Bukit Batok West,education,tuition centre,"tuition centre in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:56.253634,text_search,1,AIzaSy...IDGw,783,Bukit Batok,Bukit Batok West,education,library,"library in Bukit Batok West, Bukit Batok, Singapore",OK,,9,
+2026-07-19T13:25:57.239285,text_search,1,AIzaSy...IDGw,784,Bukit Batok,Bukit Batok West,transport,MRT station,"MRT station in Bukit Batok West, Bukit Batok, Singapore",OK,,4,
+2026-07-19T13:25:58.030732,text_search,1,AIzaSy...IDGw,785,Bukit Batok,Bukit Batok West,transport,bus stop,"bus stop in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:25:58.861181,text_search,1,AIzaSy...IDGw,786,Bukit Batok,Bukit Batok West,transport,bus interchange,"bus interchange in Bukit Batok West, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:25:59.596140,text_search,1,AIzaSy...IDGw,787,Bukit Batok,Bukit Batok West,transport,LRT station,"LRT station in Bukit Batok West, Bukit Batok, Singapore",OK,,17,
+2026-07-19T13:26:00.448511,text_search,1,AIzaSy...IDGw,788,Bukit Batok,Bukit Batok West,food,hawker centre,"hawker centre in Bukit Batok West, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:26:01.411169,text_search,1,AIzaSy...IDGw,789,Bukit Batok,Bukit Batok West,food,food court,"food court in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:02.268836,text_search,1,AIzaSy...IDGw,790,Bukit Batok,Bukit Batok West,food,coffee shop,"coffee shop in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:03.031256,text_search,1,AIzaSy...IDGw,791,Bukit Batok,Bukit Batok West,food,restaurant,"restaurant in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:03.911441,text_search,1,AIzaSy...IDGw,792,Bukit Batok,Bukit Batok West,food,cafe,"cafe in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:04.938721,text_search,1,AIzaSy...IDGw,793,Bukit Batok,Bukit Batok West,shopping,shopping mall,"shopping mall in Bukit Batok West, Bukit Batok, Singapore",OK,,5,
+2026-07-19T13:26:06.120057,text_search,1,AIzaSy...IDGw,794,Bukit Batok,Bukit Batok West,shopping,supermarket,"supermarket in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:06.835102,text_search,1,AIzaSy...IDGw,795,Bukit Batok,Bukit Batok West,shopping,grocery store,"grocery store in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:07.554026,text_search,1,AIzaSy...IDGw,796,Bukit Batok,Bukit Batok West,shopping,convenience store,"convenience store in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:08.396400,text_search,1,AIzaSy...IDGw,797,Bukit Batok,Bukit Batok West,shopping,wet market,"wet market in Bukit Batok West, Bukit Batok, Singapore",OK,,6,
+2026-07-19T13:26:09.220619,text_search,1,AIzaSy...IDGw,798,Bukit Batok,Bukit Batok West,recreation,gym,"gym in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:09.858929,text_search,1,AIzaSy...IDGw,799,Bukit Batok,Bukit Batok West,recreation,sports centre,"sports centre in Bukit Batok West, Bukit Batok, Singapore",OK,,10,
+2026-07-19T13:26:10.441702,text_search,1,AIzaSy...IDGw,800,Bukit Batok,Bukit Batok West,recreation,swimming complex,"swimming complex in Bukit Batok West, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:26:11.162643,text_search,1,AIzaSy...IDGw,801,Bukit Batok,Bukit Batok West,recreation,cinema,"cinema in Bukit Batok West, Bukit Batok, Singapore",OK,,13,
+2026-07-19T13:26:12.093171,text_search,1,AIzaSy...IDGw,802,Bukit Batok,Bukit Batok West,recreation,community club,"community club in Bukit Batok West, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:26:13.073684,text_search,1,AIzaSy...IDGw,803,Bukit Batok,Bukit Batok West,recreation,playground,"playground in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:13.733230,text_search,1,AIzaSy...IDGw,804,Bukit Batok,Bukit Batok West,nature,park,"park in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:14.696041,text_search,1,AIzaSy...IDGw,805,Bukit Batok,Bukit Batok West,nature,nature reserve,"nature reserve in Bukit Batok West, Bukit Batok, Singapore",OK,,9,
+2026-07-19T13:26:20.627661,text_search,1,AIzaSy...IDGw,806,Bukit Batok,Bukit Batok West,nature,garden,"garden in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:21.367638,text_search,1,AIzaSy...IDGw,807,Bukit Batok,Bukit Batok West,nature,beach,"beach in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:22.458264,text_search,1,AIzaSy...IDGw,808,Bukit Batok,Bukit Batok West,nature,waterfront,"waterfront in Bukit Batok West, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:23.226157,text_search,1,AIzaSy...IDGw,809,Bukit Batok,Bukit Batok West,nature,park connector,"park connector in Bukit Batok West, Bukit Batok, Singapore",OK,,3,
+2026-07-19T13:26:23.896695,text_search,1,AIzaSy...IDGw,810,Bukit Batok,Gombak,education,kindergarten,"kindergarten in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:25.055888,text_search,1,AIzaSy...IDGw,811,Bukit Batok,Gombak,education,childcare centre,"childcare centre in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:25.977147,text_search,1,AIzaSy...IDGw,812,Bukit Batok,Gombak,education,primary school,"primary school in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:26.861185,text_search,1,AIzaSy...IDGw,813,Bukit Batok,Gombak,education,secondary school,"secondary school in Gombak, Bukit Batok, Singapore",OK,,14,
+2026-07-19T13:26:27.600625,text_search,1,AIzaSy...IDGw,814,Bukit Batok,Gombak,education,junior college,"junior college in Gombak, Bukit Batok, Singapore",OK,,10,
+2026-07-19T13:26:28.237017,text_search,1,AIzaSy...IDGw,815,Bukit Batok,Gombak,education,polytechnic,"polytechnic in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:29.089504,text_search,1,AIzaSy...IDGw,816,Bukit Batok,Gombak,education,university,"university in Gombak, Bukit Batok, Singapore",OK,,12,
+2026-07-19T13:26:29.958182,text_search,1,AIzaSy...IDGw,817,Bukit Batok,Gombak,education,tuition centre,"tuition centre in Gombak, Bukit Batok, Singapore",OK,,16,
+2026-07-19T13:26:30.930496,text_search,1,AIzaSy...IDGw,818,Bukit Batok,Gombak,education,library,"library in Gombak, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:26:31.740613,text_search,1,AIzaSy...IDGw,819,Bukit Batok,Gombak,transport,MRT station,"MRT station in Gombak, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:26:32.557033,text_search,1,AIzaSy...IDGw,820,Bukit Batok,Gombak,transport,bus stop,"bus stop in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:33.361950,text_search,1,AIzaSy...IDGw,821,Bukit Batok,Gombak,transport,bus interchange,"bus interchange in Gombak, Bukit Batok, Singapore",OK,,4,
+2026-07-19T13:26:34.378313,text_search,1,AIzaSy...IDGw,822,Bukit Batok,Gombak,transport,LRT station,"LRT station in Gombak, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:26:35.104752,text_search,1,AIzaSy...IDGw,823,Bukit Batok,Gombak,food,hawker centre,"hawker centre in Gombak, Bukit Batok, Singapore",OK,,6,
+2026-07-19T13:26:35.984060,text_search,1,AIzaSy...IDGw,824,Bukit Batok,Gombak,food,food court,"food court in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:36.703203,text_search,1,AIzaSy...IDGw,825,Bukit Batok,Gombak,food,coffee shop,"coffee shop in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:37.728902,text_search,1,AIzaSy...IDGw,826,Bukit Batok,Gombak,food,restaurant,"restaurant in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:38.409116,text_search,1,AIzaSy...IDGw,827,Bukit Batok,Gombak,food,cafe,"cafe in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:39.043506,text_search,1,AIzaSy...IDGw,828,Bukit Batok,Gombak,shopping,shopping mall,"shopping mall in Gombak, Bukit Batok, Singapore",OK,,5,
+2026-07-19T13:26:40.153029,text_search,1,AIzaSy...IDGw,829,Bukit Batok,Gombak,shopping,supermarket,"supermarket in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:41.084640,text_search,1,AIzaSy...IDGw,830,Bukit Batok,Gombak,shopping,grocery store,"grocery store in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:42.058302,text_search,1,AIzaSy...IDGw,831,Bukit Batok,Gombak,shopping,convenience store,"convenience store in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:42.814415,text_search,1,AIzaSy...IDGw,832,Bukit Batok,Gombak,shopping,wet market,"wet market in Gombak, Bukit Batok, Singapore",OK,,3,
+2026-07-19T13:26:43.582345,text_search,1,AIzaSy...IDGw,833,Bukit Batok,Gombak,recreation,gym,"gym in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:44.543650,text_search,1,AIzaSy...IDGw,834,Bukit Batok,Gombak,recreation,sports centre,"sports centre in Gombak, Bukit Batok, Singapore",OK,,4,
+2026-07-19T13:26:45.705417,text_search,1,AIzaSy...IDGw,835,Bukit Batok,Gombak,recreation,swimming complex,"swimming complex in Gombak, Bukit Batok, Singapore",OK,,15,
+2026-07-19T13:26:46.719195,text_search,1,AIzaSy...IDGw,836,Bukit Batok,Gombak,recreation,cinema,"cinema in Gombak, Bukit Batok, Singapore",OK,,19,
+2026-07-19T13:26:47.773972,text_search,1,AIzaSy...IDGw,837,Bukit Batok,Gombak,recreation,community club,"community club in Gombak, Bukit Batok, Singapore",OK,,17,
+2026-07-19T13:26:48.755540,text_search,1,AIzaSy...IDGw,838,Bukit Batok,Gombak,recreation,playground,"playground in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:49.397837,text_search,1,AIzaSy...IDGw,839,Bukit Batok,Gombak,nature,park,"park in Gombak, Bukit Batok, Singapore",OK,,14,
+2026-07-19T13:26:50.362672,text_search,1,AIzaSy...IDGw,840,Bukit Batok,Gombak,nature,nature reserve,"nature reserve in Gombak, Bukit Batok, Singapore",OK,,10,
+2026-07-19T13:26:51.209709,text_search,1,AIzaSy...IDGw,841,Bukit Batok,Gombak,nature,garden,"garden in Gombak, Bukit Batok, Singapore",OK,,15,
+2026-07-19T13:26:52.172150,text_search,1,AIzaSy...IDGw,842,Bukit Batok,Gombak,nature,beach,"beach in Gombak, Bukit Batok, Singapore",OK,,15,
+2026-07-19T13:26:53.019730,text_search,1,AIzaSy...IDGw,843,Bukit Batok,Gombak,nature,waterfront,"waterfront in Gombak, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:26:53.655197,text_search,1,AIzaSy...IDGw,844,Bukit Batok,Gombak,nature,park connector,"park connector in Gombak, Bukit Batok, Singapore",OK,,3,
+2026-07-19T13:26:54.614607,text_search,1,AIzaSy...IDGw,845,Bukit Batok,Guilin,education,kindergarten,"kindergarten in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:26:55.802578,text_search,1,AIzaSy...IDGw,846,Bukit Batok,Guilin,education,childcare centre,"childcare centre in Guilin, Bukit Batok, Singapore",OK,,13,
+2026-07-19T13:26:56.750511,text_search,1,AIzaSy...IDGw,847,Bukit Batok,Guilin,education,primary school,"primary school in Guilin, Bukit Batok, Singapore",OK,,4,
+2026-07-19T13:26:57.850480,text_search,1,AIzaSy...IDGw,848,Bukit Batok,Guilin,education,secondary school,"secondary school in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:26:58.587159,text_search,1,AIzaSy...IDGw,849,Bukit Batok,Guilin,education,junior college,"junior college in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:26:59.244800,text_search,1,AIzaSy...IDGw,850,Bukit Batok,Guilin,education,polytechnic,"polytechnic in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:00.152099,text_search,1,AIzaSy...IDGw,851,Bukit Batok,Guilin,education,university,"university in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:00.868201,text_search,1,AIzaSy...IDGw,852,Bukit Batok,Guilin,education,tuition centre,"tuition centre in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:01.519466,text_search,1,AIzaSy...IDGw,853,Bukit Batok,Guilin,education,library,"library in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:02.473952,text_search,1,AIzaSy...IDGw,854,Bukit Batok,Guilin,transport,MRT station,"MRT station in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:03.475491,text_search,1,AIzaSy...IDGw,855,Bukit Batok,Guilin,transport,bus stop,"bus stop in Guilin, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:04.448783,text_search,1,AIzaSy...IDGw,856,Bukit Batok,Guilin,transport,bus interchange,"bus interchange in Guilin, Bukit Batok, Singapore",OK,,3,
+2026-07-19T13:27:05.333170,text_search,1,AIzaSy...IDGw,857,Bukit Batok,Guilin,transport,LRT station,"LRT station in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:06.149921,text_search,1,AIzaSy...IDGw,858,Bukit Batok,Guilin,food,hawker centre,"hawker centre in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:07.294834,text_search,1,AIzaSy...IDGw,859,Bukit Batok,Guilin,food,food court,"food court in Guilin, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:08.047743,text_search,1,AIzaSy...IDGw,860,Bukit Batok,Guilin,food,coffee shop,"coffee shop in Guilin, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:08.656333,text_search,1,AIzaSy...IDGw,861,Bukit Batok,Guilin,food,restaurant,"restaurant in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:09.307532,text_search,1,AIzaSy...IDGw,862,Bukit Batok,Guilin,food,cafe,"cafe in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:10.268714,text_search,1,AIzaSy...IDGw,863,Bukit Batok,Guilin,shopping,shopping mall,"shopping mall in Guilin, Bukit Batok, Singapore",OK,,6,
+2026-07-19T13:27:11.016579,text_search,1,AIzaSy...IDGw,864,Bukit Batok,Guilin,shopping,supermarket,"supermarket in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:11.756031,text_search,1,AIzaSy...IDGw,865,Bukit Batok,Guilin,shopping,grocery store,"grocery store in Guilin, Bukit Batok, Singapore",OK,,9,
+2026-07-19T13:27:12.651544,text_search,1,AIzaSy...IDGw,866,Bukit Batok,Guilin,shopping,convenience store,"convenience store in Guilin, Bukit Batok, Singapore",OK,,5,
+2026-07-19T13:27:13.601501,text_search,1,AIzaSy...IDGw,867,Bukit Batok,Guilin,shopping,wet market,"wet market in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:14.366426,text_search,1,AIzaSy...IDGw,868,Bukit Batok,Guilin,recreation,gym,"gym in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:15.068781,text_search,1,AIzaSy...IDGw,869,Bukit Batok,Guilin,recreation,sports centre,"sports centre in Guilin, Bukit Batok, Singapore",OK,,4,
+2026-07-19T13:27:16.178767,text_search,1,AIzaSy...IDGw,870,Bukit Batok,Guilin,recreation,swimming complex,"swimming complex in Guilin, Bukit Batok, Singapore",OK,,3,
+2026-07-19T13:27:17.331749,text_search,1,AIzaSy...IDGw,871,Bukit Batok,Guilin,recreation,cinema,"cinema in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:18.055066,text_search,1,AIzaSy...IDGw,872,Bukit Batok,Guilin,recreation,community club,"community club in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:18.734776,text_search,1,AIzaSy...IDGw,873,Bukit Batok,Guilin,recreation,playground,"playground in Guilin, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:27:19.774709,text_search,1,AIzaSy...IDGw,874,Bukit Batok,Guilin,nature,park,"park in Guilin, Bukit Batok, Singapore",OK,,2,
+2026-07-19T13:27:20.496648,text_search,1,AIzaSy...IDGw,875,Bukit Batok,Guilin,nature,nature reserve,"nature reserve in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:21.521867,text_search,1,AIzaSy...IDGw,876,Bukit Batok,Guilin,nature,garden,"garden in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:22.450703,text_search,1,AIzaSy...IDGw,877,Bukit Batok,Guilin,nature,beach,"beach in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:23.374393,text_search,1,AIzaSy...IDGw,878,Bukit Batok,Guilin,nature,waterfront,"waterfront in Guilin, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:24.343616,text_search,1,AIzaSy...IDGw,879,Bukit Batok,Guilin,nature,park connector,"park connector in Guilin, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:25.076100,text_search,1,AIzaSy...IDGw,880,Bukit Batok,Hillview,education,kindergarten,"kindergarten in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:25.814428,text_search,1,AIzaSy...IDGw,881,Bukit Batok,Hillview,education,childcare centre,"childcare centre in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:26.562394,text_search,1,AIzaSy...IDGw,882,Bukit Batok,Hillview,education,primary school,"primary school in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:27.576817,text_search,1,AIzaSy...IDGw,883,Bukit Batok,Hillview,education,secondary school,"secondary school in Hillview, Bukit Batok, Singapore",OK,,9,
+2026-07-19T13:27:28.267879,text_search,1,AIzaSy...IDGw,884,Bukit Batok,Hillview,education,junior college,"junior college in Hillview, Bukit Batok, Singapore",OK,,16,
+2026-07-19T13:27:29.151045,text_search,1,AIzaSy...IDGw,885,Bukit Batok,Hillview,education,polytechnic,"polytechnic in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:29.819577,text_search,1,AIzaSy...IDGw,886,Bukit Batok,Hillview,education,university,"university in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:30.698227,text_search,1,AIzaSy...IDGw,887,Bukit Batok,Hillview,education,tuition centre,"tuition centre in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:31.676047,text_search,1,AIzaSy...IDGw,888,Bukit Batok,Hillview,education,library,"library in Hillview, Bukit Batok, Singapore",OK,,4,
+2026-07-19T13:27:32.372060,text_search,1,AIzaSy...IDGw,889,Bukit Batok,Hillview,transport,MRT station,"MRT station in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:33.538272,text_search,1,AIzaSy...IDGw,890,Bukit Batok,Hillview,transport,bus stop,"bus stop in Hillview, Bukit Batok, Singapore",OK,,17,
+2026-07-19T13:27:34.408142,text_search,1,AIzaSy...IDGw,891,Bukit Batok,Hillview,transport,bus interchange,"bus interchange in Hillview, Bukit Batok, Singapore",OK,,5,
+2026-07-19T13:27:35.034550,text_search,1,AIzaSy...IDGw,892,Bukit Batok,Hillview,transport,LRT station,"LRT station in Hillview, Bukit Batok, Singapore",OK,,16,
+2026-07-19T13:27:35.928565,text_search,1,AIzaSy...IDGw,893,Bukit Batok,Hillview,food,hawker centre,"hawker centre in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:36.762710,text_search,1,AIzaSy...IDGw,894,Bukit Batok,Hillview,food,food court,"food court in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:37.656320,text_search,1,AIzaSy...IDGw,895,Bukit Batok,Hillview,food,coffee shop,"coffee shop in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:38.735954,text_search,1,AIzaSy...IDGw,896,Bukit Batok,Hillview,food,restaurant,"restaurant in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:39.578770,text_search,1,AIzaSy...IDGw,897,Bukit Batok,Hillview,food,cafe,"cafe in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:40.666836,text_search,1,AIzaSy...IDGw,898,Bukit Batok,Hillview,shopping,shopping mall,"shopping mall in Hillview, Bukit Batok, Singapore",OK,,19,
+2026-07-19T13:27:41.501197,text_search,1,AIzaSy...IDGw,899,Bukit Batok,Hillview,shopping,supermarket,"supermarket in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:42.371247,text_search,1,AIzaSy...IDGw,900,Bukit Batok,Hillview,shopping,grocery store,"grocery store in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:43.221537,text_search,1,AIzaSy...IDGw,901,Bukit Batok,Hillview,shopping,convenience store,"convenience store in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:43.973774,text_search,1,AIzaSy...IDGw,902,Bukit Batok,Hillview,shopping,wet market,"wet market in Hillview, Bukit Batok, Singapore",OK,,5,
+2026-07-19T13:27:44.835788,text_search,1,AIzaSy...IDGw,903,Bukit Batok,Hillview,recreation,gym,"gym in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:45.500216,text_search,1,AIzaSy...IDGw,904,Bukit Batok,Hillview,recreation,sports centre,"sports centre in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:46.382547,text_search,1,AIzaSy...IDGw,905,Bukit Batok,Hillview,recreation,swimming complex,"swimming complex in Hillview, Bukit Batok, Singapore",OK,,5,
+2026-07-19T13:27:47.306890,text_search,1,AIzaSy...IDGw,906,Bukit Batok,Hillview,recreation,cinema,"cinema in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:48.098535,text_search,1,AIzaSy...IDGw,907,Bukit Batok,Hillview,recreation,community club,"community club in Hillview, Bukit Batok, Singapore",OK,,8,
+2026-07-19T13:27:49.210396,text_search,1,AIzaSy...IDGw,908,Bukit Batok,Hillview,recreation,playground,"playground in Hillview, Bukit Batok, Singapore",OK,,5,
+2026-07-19T13:27:50.310264,text_search,1,AIzaSy...IDGw,909,Bukit Batok,Hillview,nature,park,"park in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:51.500768,text_search,1,AIzaSy...IDGw,910,Bukit Batok,Hillview,nature,nature reserve,"nature reserve in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:52.268562,text_search,1,AIzaSy...IDGw,911,Bukit Batok,Hillview,nature,garden,"garden in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:53.223107,text_search,1,AIzaSy...IDGw,912,Bukit Batok,Hillview,nature,beach,"beach in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:54.179529,text_search,1,AIzaSy...IDGw,913,Bukit Batok,Hillview,nature,waterfront,"waterfront in Hillview, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:55.030864,text_search,1,AIzaSy...IDGw,914,Bukit Batok,Hillview,nature,park connector,"park connector in Hillview, Bukit Batok, Singapore",OK,,4,
+2026-07-19T13:27:55.943056,text_search,1,AIzaSy...IDGw,915,Bukit Batok,Hong Kah North,education,kindergarten,"kindergarten in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:56.752131,text_search,1,AIzaSy...IDGw,916,Bukit Batok,Hong Kah North,education,childcare centre,"childcare centre in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:57.486851,text_search,1,AIzaSy...IDGw,917,Bukit Batok,Hong Kah North,education,primary school,"primary school in Hong Kah North, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:58.060663,text_search,1,AIzaSy...IDGw,918,Bukit Batok,Hong Kah North,education,secondary school,"secondary school in Hong Kah North, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:27:58.780600,text_search,1,AIzaSy...IDGw,919,Bukit Batok,Hong Kah North,education,junior college,"junior college in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:27:59.511327,text_search,1,AIzaSy...IDGw,920,Bukit Batok,Hong Kah North,education,polytechnic,"polytechnic in Hong Kah North, Bukit Batok, Singapore",OK,,11,
+2026-07-19T13:28:00.421788,text_search,1,AIzaSy...IDGw,921,Bukit Batok,Hong Kah North,education,university,"university in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:01.426805,text_search,1,AIzaSy...IDGw,922,Bukit Batok,Hong Kah North,education,tuition centre,"tuition centre in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:04.909495,text_search,1,AIzaSy...IDGw,923,Bukit Batok,Hong Kah North,education,library,"library in Hong Kah North, Bukit Batok, Singapore",OK,,15,
+2026-07-19T13:28:05.955475,text_search,1,AIzaSy...IDGw,924,Bukit Batok,Hong Kah North,transport,MRT station,"MRT station in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:07.331170,text_search,1,AIzaSy...IDGw,925,Bukit Batok,Hong Kah North,transport,bus stop,"bus stop in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:08.484529,text_search,1,AIzaSy...IDGw,926,Bukit Batok,Hong Kah North,transport,bus interchange,"bus interchange in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:09.437071,text_search,1,AIzaSy...IDGw,927,Bukit Batok,Hong Kah North,transport,LRT station,"LRT station in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:10.529596,text_search,1,AIzaSy...IDGw,928,Bukit Batok,Hong Kah North,food,hawker centre,"hawker centre in Hong Kah North, Bukit Batok, Singapore",OK,,8,
+2026-07-19T13:28:11.402274,text_search,1,AIzaSy...IDGw,929,Bukit Batok,Hong Kah North,food,food court,"food court in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:12.450476,text_search,1,AIzaSy...IDGw,930,Bukit Batok,Hong Kah North,food,coffee shop,"coffee shop in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:13.118525,text_search,1,AIzaSy...IDGw,931,Bukit Batok,Hong Kah North,food,restaurant,"restaurant in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:13.945889,text_search,1,AIzaSy...IDGw,932,Bukit Batok,Hong Kah North,food,cafe,"cafe in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:14.917019,text_search,1,AIzaSy...IDGw,933,Bukit Batok,Hong Kah North,shopping,shopping mall,"shopping mall in Hong Kah North, Bukit Batok, Singapore",OK,,11,
+2026-07-19T13:28:15.829321,text_search,1,AIzaSy...IDGw,934,Bukit Batok,Hong Kah North,shopping,supermarket,"supermarket in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:16.635217,text_search,1,AIzaSy...IDGw,935,Bukit Batok,Hong Kah North,shopping,grocery store,"grocery store in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:17.680010,text_search,1,AIzaSy...IDGw,936,Bukit Batok,Hong Kah North,shopping,convenience store,"convenience store in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:18.373181,text_search,1,AIzaSy...IDGw,937,Bukit Batok,Hong Kah North,shopping,wet market,"wet market in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:19.020855,text_search,1,AIzaSy...IDGw,938,Bukit Batok,Hong Kah North,recreation,gym,"gym in Hong Kah North, Bukit Batok, Singapore",OK,,4,
+2026-07-19T13:28:19.858099,text_search,1,AIzaSy...IDGw,939,Bukit Batok,Hong Kah North,recreation,sports centre,"sports centre in Hong Kah North, Bukit Batok, Singapore",OK,,6,
+2026-07-19T13:28:20.583111,text_search,1,AIzaSy...IDGw,940,Bukit Batok,Hong Kah North,recreation,swimming complex,"swimming complex in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:21.284853,text_search,1,AIzaSy...IDGw,941,Bukit Batok,Hong Kah North,recreation,cinema,"cinema in Hong Kah North, Bukit Batok, Singapore",OK,,8,
+2026-07-19T13:28:21.978106,text_search,1,AIzaSy...IDGw,942,Bukit Batok,Hong Kah North,recreation,community club,"community club in Hong Kah North, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:28:22.906098,text_search,1,AIzaSy...IDGw,943,Bukit Batok,Hong Kah North,recreation,playground,"playground in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:23.622824,text_search,1,AIzaSy...IDGw,944,Bukit Batok,Hong Kah North,nature,park,"park in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:24.711107,text_search,1,AIzaSy...IDGw,945,Bukit Batok,Hong Kah North,nature,nature reserve,"nature reserve in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:25.401192,text_search,1,AIzaSy...IDGw,946,Bukit Batok,Hong Kah North,nature,garden,"garden in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:26.262520,text_search,1,AIzaSy...IDGw,947,Bukit Batok,Hong Kah North,nature,beach,"beach in Hong Kah North, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:28:27.118667,text_search,1,AIzaSy...IDGw,948,Bukit Batok,Hong Kah North,nature,waterfront,"waterfront in Hong Kah North, Bukit Batok, Singapore",OK,,1,
+2026-07-19T13:28:28.234033,text_search,1,AIzaSy...IDGw,949,Bukit Batok,Hong Kah North,nature,park connector,"park connector in Hong Kah North, Bukit Batok, Singapore",OK,,20,
+2026-07-19T13:28:29.165825,place_details_reviews,2,AIzaSy...8yB0,0,Bukit Batok,Brickworks,education,kindergarten,ChIJIYpOTMUR2jERJDQX41qwan0,OK,,5,Mulberry Learning @ Bukit Batok
+2026-07-19T13:28:29.867814,place_details_reviews,2,AIzaSy...8yB0,1,Bukit Batok,Brickworks,education,kindergarten,ChIJ9VRBJRUQ2jERx36akgnG7_Y,OK,,5,MapleBear Bukit Batok
+2026-07-19T13:28:30.433620,place_details_reviews,2,AIzaSy...8yB0,2,Bukit Batok,Brickworks,education,childcare centre,ChIJPwriazYQ2jERgxYDrbrAfi0,OK,,5,Little Green House @ Bukit Batok
+2026-07-19T13:28:31.078119,place_details_reviews,2,AIzaSy...8yB0,3,Bukit Batok,Brickworks,education,primary school,ChIJD6GSHkAQ2jERAr_nZSWZnFg,OK,,0,Bukit View Primary School
+2026-07-19T13:28:31.677695,place_details_reviews,2,AIzaSy...8yB0,4,Bukit Batok,Brickworks,education,primary school,ChIJKwcIgW4Q2jERCXfOGe86lfk,OK,,0,St. Anthony's Primary School
+2026-07-19T13:28:32.377671,place_details_reviews,2,AIzaSy...8yB0,5,Bukit Batok,Brickworks,education,secondary school,ChIJgdOw1TwQ2jERyhBsORQ474o,OK,,0,Bukit Batok Secondary School
+2026-07-19T13:28:33.016720,place_details_reviews,2,AIzaSy...8yB0,6,Bukit Batok,Brickworks,education,secondary school,ChIJ6czkAUAQ2jERcvQ9hZ1Q8Zk,OK,,0,Bukit View Secondary School
+2026-07-19T13:28:33.723835,place_details_reviews,2,AIzaSy...8yB0,7,Bukit Batok,Brickworks,education,junior college,ChIJwURjtzoQ2jERlHPeEoKRpho,OK,,5,Millennia Institute
+2026-07-19T13:28:34.520798,place_details_reviews,2,AIzaSy...8yB0,8,Bukit Batok,Brickworks,education,junior college,ChIJz_-CGpUR2jERsxAVVh_vnoY,OK,,5,Jurong Pioneer Junior College
+2026-07-19T13:28:34.943130,place_details_reviews,2,AIzaSy...8yB0,9,Bukit Batok,Brickworks,education,polytechnic,ChIJWeO0jn0Q2jERQwzr3v_n0nU,OK,,5,Ngee Ann Polytechnic
+2026-07-19T13:28:35.575620,place_details_reviews,2,AIzaSy...8yB0,10,Bukit Batok,Brickworks,education,polytechnic,ChIJTfaPWzkQ2jERHLWx7ICU2j4,OK,,5,Bukit Batok Polyclinic
+2026-07-19T13:28:36.321426,place_details_reviews,2,AIzaSy...8yB0,11,Bukit Batok,Brickworks,education,university,ChIJ2QJCeFYa2jERa434wdYIjUg,OK,,5,National University of Singapore
+2026-07-19T13:28:36.993829,place_details_reviews,2,AIzaSy...8yB0,12,Bukit Batok,Brickworks,education,tuition centre,ChIJSa1PjEMQ2jERDeHZ-ZbPzCY,OK,,5,"Genie Education Hub, Bukit Batok"
+2026-07-19T13:28:37.845260,place_details_reviews,2,AIzaSy...8yB0,13,Bukit Batok,Brickworks,education,tuition centre,ChIJHaxQpfsR2jERDlIhS07QdFY,OK,,5,Forward Academy Tuition Centre
+2026-07-19T13:28:38.651474,place_details_reviews,2,AIzaSy...8yB0,14,Bukit Batok,Brickworks,education,library,ChIJxzbY1z4Q2jERJ6mezML68e8,OK,,5,Bukit Batok Library
+2026-07-19T13:28:39.392442,place_details_reviews,2,AIzaSy...8yB0,15,Bukit Batok,Brickworks,education,library,ChIJO-6dbgAR2jER2MGgH2oep6Q,OK,,0,NLB Bukit Batok
+2026-07-19T13:28:39.874725,place_details_reviews,2,AIzaSy...8yB0,16,Bukit Batok,Brickworks,transport,MRT station,ChIJy37FHD8Q2jERQrs731bZT5Y,OK,,5,Bukit Batok
+2026-07-19T13:28:40.475368,place_details_reviews,2,AIzaSy...8yB0,17,Bukit Batok,Brickworks,transport,MRT station,ChIJmYDhHjYQ2jERn_eQZlaFlkw,OK,,5,Bukit Gombak
+2026-07-19T13:28:40.931462,place_details_reviews,2,AIzaSy...8yB0,18,Bukit Batok,Brickworks,transport,bus stop,ChIJq2NHTz8Q2jERR6gE3NmS-ms,OK,,5,Bukit Batok Bus Interchange
+2026-07-19T13:28:41.606677,place_details_reviews,2,AIzaSy...8yB0,19,Bukit Batok,Brickworks,transport,bus stop,ChIJm9TmlW0R2jERBNdgZDPjH9U,OK,,5,Bukit Batok Bus Interchange
+2026-07-19T13:28:42.248891,place_details_reviews,2,AIzaSy...8yB0,20,Bukit Batok,Brickworks,food,hawker centre,ChIJP4_FiqQR2jERBKnVkYoHIcQ,OK,,5,Bukit Batok West Hawker Centre
+2026-07-19T13:28:42.833806,place_details_reviews,2,AIzaSy...8yB0,21,Bukit Batok,Brickworks,food,hawker centre,ChIJkU1Mqj0Q2jER2pmaSiJ0EtA,OK,,5,Bukit Batok Street 11 Food
+2026-07-19T13:28:43.489271,place_details_reviews,2,AIzaSy...8yB0,22,Bukit Batok,Brickworks,food,coffee shop,ChIJw5lf2Q8R2jERNhTBukTOXrM,OK,,5,The Batok Project (Home Based)
+2026-07-19T13:28:44.056737,place_details_reviews,2,AIzaSy...8yB0,23,Bukit Batok,Brickworks,food,coffee shop,ChIJw1qJPgAR2jERdO-w_zRrpw4,OK,,4,MADRAS COFFEE HOUSE’S - Bukit Batok outlet
+2026-07-19T13:28:44.636956,place_details_reviews,2,AIzaSy...8yB0,24,Bukit Batok,Brickworks,food,restaurant,ChIJ2XAPSDYQ2jEROm78Hw5Pgos,OK,,5,Habib Family Restaurant Bukit Batok
+2026-07-19T13:28:45.138219,place_details_reviews,2,AIzaSy...8yB0,25,Bukit Batok,Brickworks,food,restaurant,ChIJaXq0JG4Q2jERggfc-CzhJh0,OK,,5,Famous JB 101 @ Bukit Batok (Main)
+2026-07-19T13:28:45.897376,place_details_reviews,2,AIzaSy...8yB0,26,Bukit Batok,Brickworks,food,cafe,ChIJnWSfmy8R2jER6liptoRmWTc,OK,,5,Whisk & Paddle (Bt Gombak Park)
+2026-07-19T13:28:46.678432,place_details_reviews,2,AIzaSy...8yB0,27,Bukit Batok,Brickworks,food,cafe,ChIJm1oqAV4R2jERVn_-guxQv74,OK,,5,Coexist Coffee Co. @Hillview
+2026-07-19T13:28:47.276529,place_details_reviews,2,AIzaSy...8yB0,28,Bukit Batok,Brickworks,shopping,shopping mall,ChIJN7TfWTwQ2jERpX-5vRTf0Wc,OK,,5,Bukit Batok West Shopping Centre
+2026-07-19T13:28:48.211066,place_details_reviews,2,AIzaSy...8yB0,29,Bukit Batok,Brickworks,shopping,shopping mall,ChIJxzbY1z4Q2jER7drH__TXbOI,OK,,5,West Mall
+2026-07-19T13:28:48.924970,place_details_reviews,2,AIzaSy...8yB0,30,Bukit Batok,Brickworks,shopping,supermarket,ChIJPaoohUEQ2jERHN__b997Zak,OK,,5,FairPrice Bukit Batok East
+2026-07-19T13:28:49.453060,place_details_reviews,2,AIzaSy...8yB0,31,Bukit Batok,Brickworks,shopping,supermarket,ChIJfybIpT0Q2jER6RorLl-26FU,OK,,5,Sheng Siong Supermarket
+2026-07-19T13:28:50.040635,place_details_reviews,2,AIzaSy...8yB0,32,Bukit Batok,Brickworks,shopping,grocery store,ChIJx1-EDj0Q2jERtWKMqDFGnf0,OK,,5,FairPrice Bukit Batok West Ave 8
+2026-07-19T13:28:50.448113,place_details_reviews,2,AIzaSy...8yB0,33,Bukit Batok,Brickworks,shopping,convenience store,ChIJBXIfayYR2jERS3TUZJKNcHo,OK,,5,ABC Bargain Centre Bukit Batok
+2026-07-19T13:28:50.975023,place_details_reviews,2,AIzaSy...8yB0,34,Bukit Batok,Brickworks,shopping,convenience store,ChIJh9LuewAR2jERYGHW4Eyu8Tk,OK,,3,SG Mart Convenience Store (Jalan Remaja)
+2026-07-19T13:28:51.627908,place_details_reviews,2,AIzaSy...8yB0,35,Bukit Batok,Brickworks,shopping,wet market,ChIJ6SKfUzwQ2jERezteXcNnbAE,OK,,5,Quan Shui Wet Market
+2026-07-19T13:28:52.048059,place_details_reviews,2,AIzaSy...8yB0,36,Bukit Batok,Brickworks,shopping,wet market,ChIJPwriazYQ2jER8tcEv-XxROQ,OK,,5,Bukit Gombak Neighbourhood Centre
+2026-07-19T13:28:52.656118,place_details_reviews,2,AIzaSy...8yB0,37,Bukit Batok,Brickworks,recreation,gym,ChIJAyXKawAR2jERovorOBKXgO0,OK,,5,Anytime Fitness Bukit Batok Connection
+2026-07-19T13:28:53.109104,place_details_reviews,2,AIzaSy...8yB0,38,Bukit Batok,Brickworks,recreation,gym,ChIJWzP8GRkR2jERNdl0QuS7cxw,OK,,5,Anytime Fitness Bukit Batok (Le Quest)
+2026-07-19T13:28:53.756806,place_details_reviews,2,AIzaSy...8yB0,39,Bukit Batok,Brickworks,recreation,sports centre,ChIJKydd_kkQ2jERP8621RAPPz4,OK,,5,Bukit Gombak Sport Hall
+2026-07-19T13:28:54.478025,place_details_reviews,2,AIzaSy...8yB0,40,Bukit Batok,Brickworks,recreation,sports centre,ChIJW_7O6GER2jERXG6Asu_O2sc,OK,,5,Bukit Batok ActiveSG Gym
+2026-07-19T13:28:55.210723,place_details_reviews,2,AIzaSy...8yB0,41,Bukit Batok,Brickworks,recreation,swimming complex,ChIJhYwEvhUQ2jERP9_qytcvWsU,OK,,5,Bukit Batok Swimming Complex
+2026-07-19T13:28:55.787675,place_details_reviews,2,AIzaSy...8yB0,42,Bukit Batok,Brickworks,recreation,swimming complex,ChIJMduSTzgQ2jERm52nxYo5Zps,OK,,5,Civil Service Club @ Bukit Batok
+2026-07-19T13:28:56.537686,place_details_reviews,2,AIzaSy...8yB0,43,Bukit Batok,Brickworks,recreation,cinema,ChIJ3dSCfKMR2jERsBpC6UoFuaQ,OK,,5,EagleWings Cinematics
+2026-07-19T13:28:57.055849,place_details_reviews,2,AIzaSy...8yB0,44,Bukit Batok,Brickworks,recreation,community club,ChIJz9f-20MQ2jERCEDdxLvPfFk,OK,,5,Bukit Batok East Community Club
+2026-07-19T13:28:57.718986,place_details_reviews,2,AIzaSy...8yB0,45,Bukit Batok,Brickworks,recreation,community club,ChIJd8eBijYQ2jERdnanSqYFOII,OK,,5,Hong Kah North Community Club
+2026-07-19T13:28:58.565905,place_details_reviews,2,AIzaSy...8yB0,46,Bukit Batok,Brickworks,recreation,playground,ChIJ3QHQstIR2jERbQgjkXGZzmI,OK,,5,Bukit Batok Neighbourhood Park
+2026-07-19T13:28:59.307344,place_details_reviews,2,AIzaSy...8yB0,47,Bukit Batok,Brickworks,recreation,playground,ChIJGUEbATkQ2jERsVfuhcZGgeE,OK,,5,CSC Bukit Batok - Kids Playground
+2026-07-19T13:28:59.709080,place_details_reviews,2,AIzaSy...8yB0,48,Bukit Batok,Brickworks,nature,park,ChIJs3oprUQQ2jERp8A9mbkPZJE,OK,,5,Bukit Batok Nature Park
+2026-07-19T13:29:00.549013,place_details_reviews,2,AIzaSy...8yB0,49,Bukit Batok,Brickworks,nature,nature reserve,ChIJO9cemPUQ2jERvlh8KtwhtAc,OK,,5,Bukit Timah Nature Reserve
+2026-07-19T13:29:01.169872,place_details_reviews,2,AIzaSy...8yB0,50,Bukit Batok,Brickworks,nature,garden,ChIJKb9AY_MR2jERsK64Pa3K0hM,OK,,5,Bukit Gombak Park
+2026-07-19T13:29:01.913254,place_details_reviews,2,AIzaSy...8yB0,51,Bukit Batok,Brickworks,nature,beach,ChIJPSZwE0gQ2jER6xm1qR0q1Xs,OK,,5,Little Guilin
+2026-07-19T13:29:02.394138,place_details_reviews,2,AIzaSy...8yB0,52,Bukit Batok,Brickworks,nature,waterfront,ChIJ0S4CdwAR2jERbJzASM59GGw,OK,,2,West BrickVille @ Bukit Batok
+2026-07-19T13:29:02.802854,place_details_reviews,2,AIzaSy...8yB0,53,Bukit Batok,Brickworks,nature,waterfront,ChIJ96HBJZ8a2jERl1GsjJmk-70,OK,,5,Waterfront @ Faber
+2026-07-19T13:29:03.398687,place_details_reviews,2,AIzaSy...8yB0,54,Bukit Batok,Brickworks,nature,park connector,ChIJLYJdmQYR2jERZvH2RJdbyP4,OK,,2,Bukit Batok Park Connector
+2026-07-19T13:29:03.899610,place_details_reviews,2,AIzaSy...8yB0,55,Bukit Batok,Bukit Batok Central,education,childcare centre,ChIJM0cOtp8i2jERMizdoPAPctQ,OK,,5,Small Wonder Bukit Batok
+2026-07-19T13:29:04.617434,place_details_reviews,2,AIzaSy...8yB0,56,Bukit Batok,Bukit Batok Central,education,primary school,ChIJXSxIljYQ2jERiQ-pNM2WSng,OK,,0,Dazhong Primary School
+2026-07-19T13:29:05.353349,place_details_reviews,2,AIzaSy...8yB0,57,Bukit Batok,Bukit Batok Central,education,university,ChIJncU3Wj8Q2jERlVw63eYz_Bg,OK,,5,UOB Branch - Bukit Batok Central Branch
+2026-07-19T13:29:06.167729,place_details_reviews,2,AIzaSy...8yB0,58,Bukit Batok,Bukit Batok Central,education,tuition centre,ChIJ30f7VjwQ2jERWtJ7FP0M_NM,OK,,5,Mind Stretcher Learning Centre (Bukit Batok Central)
+2026-07-19T13:29:06.599909,place_details_reviews,2,AIzaSy...8yB0,59,Bukit Batok,Bukit Batok Central,education,tuition centre,ChIJA-2S3TwR2jER-cF4Hcw55Do,OK,,5,HAO Chinese Tuition Centre 好学堂 (Bukit Batok)
+2026-07-19T13:29:07.473136,place_details_reviews,2,AIzaSy...8yB0,60,Bukit Batok,Bukit Batok Central,food,food court,ChIJre7AeQUQ2jERRLdbLtQY9aM,OK,,5,S-11 Bukit Batok Food House
+2026-07-19T13:29:08.276382,place_details_reviews,2,AIzaSy...8yB0,61,Bukit Batok,Bukit Batok Central,food,coffee shop,ChIJ83okcgER2jER9Y_mJKM1xJs,OK,,5,Mei De 美德 Coffeeshop
+2026-07-19T13:29:09.356941,place_details_reviews,2,AIzaSy...8yB0,62,Bukit Batok,Bukit Batok Central,food,restaurant,ChIJ8f5TjJ8R2jERCOHN-2TXqjs,OK,,5,NAN YANG DAO 南洋岛 @West Mall
+2026-07-19T13:29:09.782351,place_details_reviews,2,AIzaSy...8yB0,63,Bukit Batok,Bukit Batok Central,shopping,supermarket,ChIJVzLtujYR2jERg0JHAlvIqXw,OK,,5,Sheng Siong Supermarket
+2026-07-19T13:29:10.199497,place_details_reviews,2,AIzaSy...8yB0,64,Bukit Batok,Bukit Batok Central,shopping,convenience store,ChIJrzj-Gz8Q2jERop8w62r0EKw,OK,,5,7-Eleven
+2026-07-19T13:29:10.954848,place_details_reviews,2,AIzaSy...8yB0,65,Bukit Batok,Bukit Batok Central,shopping,convenience store,ChIJBc86w40R2jERzRlxP53g9Vs,OK,,5,7-Eleven
+2026-07-19T13:29:11.632601,place_details_reviews,2,AIzaSy...8yB0,66,Bukit Batok,Bukit Batok Central,shopping,wet market,ChIJNRedlDwR2jERGwPatsWC8Bs,OK,,5,BISMILLAH
+2026-07-19T13:29:12.274949,place_details_reviews,2,AIzaSy...8yB0,67,Bukit Batok,Bukit Batok Central,recreation,gym,ChIJVVWV-TgQ2jERLX7b4_3Era4,OK,,5,Anytime Fitness Bukit Batok CSC
+2026-07-19T13:29:12.839860,place_details_reviews,2,AIzaSy...8yB0,68,Bukit Batok,Bukit Batok Central,recreation,sports centre,ChIJKydd_kkQ2jERg2OEDQThflg,OK,,4,Bukit Gombak Sport Centre
+2026-07-19T13:29:15.770991,place_details_reviews,2,AIzaSy...8yB0,69,Bukit Batok,Bukit Batok Central,recreation,swimming complex,ChIJXw-AvhUQ2jERAjzse_CjxbU,OK,,0,Swimming Complex
+2026-07-19T13:29:16.330587,place_details_reviews,2,AIzaSy...8yB0,70,Bukit Batok,Bukit Batok Central,recreation,cinema,ChIJZ3lA1j4Q2jERHw-uh-Ry9Vo,OK,,5,Cathay Cineplex West Mall
+2026-07-19T13:29:17.036208,place_details_reviews,2,AIzaSy...8yB0,71,Bukit Batok,Bukit Batok Central,recreation,playground,ChIJZ0FH68oR2jERJ9d3Vl4FoU0,OK,,5,HomeTeamNS T-Play Bukit Batok
+2026-07-19T13:29:17.707136,place_details_reviews,2,AIzaSy...8yB0,72,Bukit Batok,Bukit Batok Central,nature,park,ChIJL4mnVtgR2jERJjHNUnOBBYU,OK,,5,Bukit Batok Town Park
+2026-07-19T13:29:18.350398,place_details_reviews,2,AIzaSy...8yB0,73,Bukit Batok,Bukit Batok Central,nature,nature reserve,ChIJyXEkaTAQ2jERwofXPQCBUkc,OK,,5,Bukit Batok Hillside Park
+2026-07-19T13:29:19.181216,place_details_reviews,2,AIzaSy...8yB0,74,Bukit Batok,Bukit Batok Central,nature,garden,ChIJHbojLYAR2jERbzh1GxraGv8,OK,,5,Cozy Garden
+2026-07-19T13:29:19.895577,place_details_reviews,2,AIzaSy...8yB0,75,Bukit Batok,Bukit Batok Central,nature,park connector,ChIJZ4QNJQAR2jERBdLH4SLsmTM,OK,,0,Bukit Batok East Park Connector
+2026-07-19T13:29:20.599323,place_details_reviews,2,AIzaSy...8yB0,76,Bukit Batok,Bukit Batok East,education,kindergarten,ChIJV3qFgp8R2jEROwgtBNKtNYY,OK,,5,Little Seeds Preschool (TSA - Bukit Batok East)
+2026-07-19T13:29:21.253808,place_details_reviews,2,AIzaSy...8yB0,77,Bukit Batok,Bukit Batok East,education,kindergarten,ChIJ8bDxucsR2jERmx_h7o_t_1A,OK,,5,My First Skool at Blk 260 Bukit Batok
+2026-07-19T13:29:21.799869,place_details_reviews,2,AIzaSy...8yB0,78,Bukit Batok,Bukit Batok East,education,primary school,ChIJT9zWcmoQ2jEReh-9aCiMayU,OK,,0,Keming Primary School
+2026-07-19T13:29:22.320759,place_details_reviews,2,AIzaSy...8yB0,79,Bukit Batok,Bukit Batok East,education,junior college,ChIJidLW0CIQ2jERiie9Ju0kK_c,OK,,0,Dulwich College (Singapore)
+2026-07-19T13:29:23.105001,place_details_reviews,2,AIzaSy...8yB0,80,Bukit Batok,Bukit Batok East,education,university,ChIJg7_EQ0IQ2jER_Q-CB82bi1Y,OK,,5,St Mary of the Angels
+2026-07-19T13:29:23.835734,place_details_reviews,2,AIzaSy...8yB0,81,Bukit Batok,Bukit Batok East,food,restaurant,ChIJOWiZDU8R2jERwXYXGwnxQSo,OK,,5,THE NEIGHBOURWOK @ BUKIT BATOK
+2026-07-19T13:29:24.512864,place_details_reviews,2,AIzaSy...8yB0,82,Bukit Batok,Bukit Batok East,shopping,convenience store,ChIJf35vuGkQ2jERkvbSPQ_kpoI,OK,,5,7-Eleven
+2026-07-19T13:29:25.143313,place_details_reviews,2,AIzaSy...8yB0,83,Bukit Batok,Bukit Batok East,recreation,swimming complex,ChIJM1blaewR2jERRrNRQpGeJFM,OK,,5,Swim Best @ Bukit Batok Swimming Complex
+2026-07-19T13:29:25.705182,place_details_reviews,2,AIzaSy...8yB0,84,Bukit Batok,Bukit Batok East,recreation,cinema,ChIJFx7cQgAR2jERum7NN5FvIOk,OK,,5,Shaw Theatres JEM
+2026-07-19T13:29:26.526805,place_details_reviews,2,AIzaSy...8yB0,85,Bukit Batok,Bukit Batok East,recreation,playground,ChIJx1X_3UsR2jERSxa8xkjsZXM,OK,,5,Fuji Hill Park
+2026-07-19T13:29:27.295387,place_details_reviews,2,AIzaSy...8yB0,86,Bukit Batok,Bukit Batok East,nature,park,ChIJ9bupy1wQ2jERAXMYt5T2dOE,OK,,0,BUKIT BATOK NATURE Park
+2026-07-19T13:29:28.142383,place_details_reviews,2,AIzaSy...8yB0,87,Bukit Batok,Bukit Batok East,nature,nature reserve,ChIJf2gXolwQ2jERHwf2sUPDCfA,OK,,5,Bukit Batok Nature Park Lookout Point
+2026-07-19T13:29:28.739785,place_details_reviews,2,AIzaSy...8yB0,88,Bukit Batok,Bukit Batok East,nature,waterfront,ChIJPSfI9moQ2jEROgR1SBi9uR8,OK,,5,SkyPeak @ Bukit Batok
+2026-07-19T13:29:29.559539,place_details_reviews,2,AIzaSy...8yB0,89,Bukit Batok,Bukit Batok South,education,university,ChIJvQQziYAQ2jERCOP-JKA4N9k,OK,,5,Singapore University of Social Sciences
+2026-07-19T13:29:29.970747,place_details_reviews,2,AIzaSy...8yB0,90,Bukit Batok,Bukit Batok West,education,kindergarten,ChIJySBuwNQR2jER0Vwu9RUtvbg,OK,,5,M.Y World @ Bukit Batok West Quarry
+2026-07-19T13:29:30.444302,place_details_reviews,2,AIzaSy...8yB0,91,Bukit Batok,Bukit Batok West,education,kindergarten,ChIJY5I37D8R2jERZI6_ZywBF1E,OK,,5,My First Skool at Blk 438 Bukit Batok West
+2026-07-19T13:29:30.798628,place_details_reviews,2,AIzaSy...8yB0,92,Bukit Batok,Bukit Batok West,education,primary school,ChIJXb_6yjwQ2jERGSLzODqeFrw,OK,,0,Princess Elizabeth Primary School
+2026-07-19T13:29:31.512797,place_details_reviews,2,AIzaSy...8yB0,93,Bukit Batok,Bukit Batok West,education,polytechnic,ChIJFXzxL2Aa2jERnoWTOdJdVKk,OK,,5,Singapore Polytechnic
+2026-07-19T13:29:32.160514,place_details_reviews,2,AIzaSy...8yB0,94,Bukit Batok,Bukit Batok West,education,tuition centre,ChIJXwzFUTwQ2jERTGQfUGZIlz0,OK,,5,Max Tuition Centre
+2026-07-19T13:29:32.644978,place_details_reviews,2,AIzaSy...8yB0,95,Bukit Batok,Bukit Batok West,education,tuition centre,ChIJGR9g-DsQ2jERkXvalVFKu3o,OK,,5,Happy Tutors Bukit Batok | Trusted Chemistry Tuition
+2026-07-19T13:29:33.235059,place_details_reviews,2,AIzaSy...8yB0,96,Bukit Batok,Bukit Batok West,education,library,ChIJAQAASKMR2jER1rsyt_ipOM0,OK,,5,Bukit Panjang Library
+2026-07-19T13:29:33.892800,place_details_reviews,2,AIzaSy...8yB0,97,Bukit Batok,Bukit Batok West,food,food court,ChIJcSm8EwAR2jERyGh1pcbO0SI,OK,,5,Kopitiam
+2026-07-19T13:29:34.593695,place_details_reviews,2,AIzaSy...8yB0,98,Bukit Batok,Bukit Batok West,food,restaurant,ChIJNayvw6AR2jERnsgiV38gW00,OK,,5,Little Pond 小鱼塘@West Mall
+2026-07-19T13:29:35.404502,place_details_reviews,2,AIzaSy...8yB0,99,Bukit Batok,Bukit Batok West,food,cafe,ChIJf7oVJ3oR2jERYufsyQQd-3k,OK,,5,Cuppafield
+2026-07-19T13:29:36.110108,place_details_reviews,2,AIzaSy...8yB0,100,Bukit Batok,Bukit Batok West,shopping,convenience store,ChIJ8yJTBjwQ2jERJo3_pbgSYZE,OK,,5,7-Eleven
+2026-07-19T13:29:36.654768,place_details_reviews,2,AIzaSy...8yB0,101,Bukit Batok,Bukit Batok West,recreation,gym,ChIJ2cbyKgkR2jERWJU5wOt8cRk,OK,,5,Snap Fitness West Mall
+2026-07-19T13:29:37.237822,place_details_reviews,2,AIzaSy...8yB0,102,Bukit Batok,Bukit Batok West,nature,beach,ChIJQ8uk4vwa2jERqMrT6OFBMuw,OK,,5,West Coast Park
+2026-07-19T13:29:37.738139,place_details_reviews,2,AIzaSy...8yB0,103,Bukit Batok,Bukit Batok West,nature,waterfront,ChIJ1W0KX_8R2jERMJ4aE0e2t-4,OK,,5,West Rock @ Bukit Batok
+2026-07-19T13:29:38.459588,place_details_reviews,2,AIzaSy...8yB0,104,Bukit Batok,Bukit Batok West,nature,waterfront,ChIJS-Y8zjEQ2jERpurrP12fbs8,OK,,5,West Scape @ Bukit Batok
+2026-07-19T13:29:38.892867,place_details_reviews,2,AIzaSy...8yB0,105,Bukit Batok,Gombak,education,kindergarten,ChIJV38hKUgQ2jERybfjsu9fPG4,OK,,5,New Life Preschool @ Bukit Gombak
+2026-07-19T13:29:40.406556,place_details_reviews,2,AIzaSy...8yB0,106,Bukit Batok,Gombak,education,kindergarten,ChIJeRKUicUR2jERgaUy7_G1sxI,OK,,5,Small Wonder Bukit Gombak
+2026-07-19T13:29:41.038220,place_details_reviews,2,AIzaSy...8yB0,107,Bukit Batok,Gombak,education,childcare centre,ChIJraqqusoR2jER6ZYZgPKobBo,OK,,2,PCF Sparkletots Preschool @ Bukit Gombak Blk 395A
+2026-07-19T13:29:41.583937,place_details_reviews,2,AIzaSy...8yB0,108,Bukit Batok,Gombak,education,primary school,ChIJv7DN3YUR2jERJc4wWJ15lYM,OK,,5,Heritage Academy @Bukit Gombak
+2026-07-19T13:29:41.994306,place_details_reviews,2,AIzaSy...8yB0,109,Bukit Batok,Gombak,education,tuition centre,ChIJO6nucjYQ2jERrJsMUjwdw6Q,OK,,5,JustEdu Learning Centre (Bukit Gombak)
+2026-07-19T13:29:42.665041,place_details_reviews,2,AIzaSy...8yB0,110,Bukit Batok,Gombak,education,tuition centre,ChIJofqvbYoQ2jERdpv6tqAU4CA,OK,,5,Fun Learners' School - Bukit Batok Tuition Centre
+2026-07-19T13:29:43.252646,place_details_reviews,2,AIzaSy...8yB0,111,Bukit Batok,Gombak,transport,bus stop,ChIJAd7fGjYQ2jERE7Y9HWnJ76E,OK,,2,Opp Bt Gombak Stn
+2026-07-19T13:29:44.083878,place_details_reviews,2,AIzaSy...8yB0,112,Bukit Batok,Gombak,food,food court,ChIJryb5vcdHzDERHc_yS6TFuSg,OK,,5,Kantin@SetorGombak
+2026-07-19T13:29:44.619936,place_details_reviews,2,AIzaSy...8yB0,113,Bukit Batok,Gombak,food,food court,ChIJQfp7z2JHzDER7LKdnw8MHAM,OK,,5,Medan Selera Taman Sri Gombak
+2026-07-19T13:29:45.040209,place_details_reviews,2,AIzaSy...8yB0,114,Bukit Batok,Gombak,food,coffee shop,ChIJ87ffmmYR2jEReQExtYtHCF4,OK,,5,Kedai Kopi Bukit Batok
+2026-07-19T13:29:45.826068,place_details_reviews,2,AIzaSy...8yB0,115,Bukit Batok,Gombak,shopping,convenience store,ChIJp88rHDYQ2jERKVUkNOU1QLM,OK,,5,7-Eleven
+2026-07-19T13:29:46.378555,place_details_reviews,2,AIzaSy...8yB0,116,Bukit Batok,Gombak,recreation,gym,ChIJLzOhyEkQ2jERD-0pECpabro,OK,,5,Bukit Gombak ActiveSG Gym
+2026-07-19T13:29:47.004264,place_details_reviews,2,AIzaSy...8yB0,117,Bukit Batok,Gombak,recreation,playground,ChIJzyXb06oR2jERmRrMCYmdRJg,OK,,5,Bukit Batok Nature Park Playground
+2026-07-19T13:29:47.770673,place_details_reviews,2,AIzaSy...8yB0,118,Bukit Batok,Gombak,nature,nature reserve,ChIJqZ3yV7MR2jER1QXwnM5VyCo,OK,,5,Bukit Gombak Hill
+2026-07-19T13:29:48.588473,place_details_reviews,2,AIzaSy...8yB0,119,Bukit Batok,Gombak,nature,garden,ChIJOSNtTSwR2jERrWe_Ofs6YW0,OK,,5,Bukit Gombak Park Community Garden
+2026-07-19T13:29:49.173472,place_details_reviews,2,AIzaSy...8yB0,120,Bukit Batok,Guilin,education,kindergarten,ChIJxWi21k4Q2jERUzFunbE5Uj0,OK,,5,Little Kinder Montessori (Hillview)
+2026-07-19T13:29:49.651265,place_details_reviews,2,AIzaSy...8yB0,121,Bukit Batok,Guilin,education,secondary school,ChIJlbQ2dkcQ2jERaimN_f_UsEc,OK,,0,Hillgrove Secondary School
+2026-07-19T13:29:50.393289,place_details_reviews,2,AIzaSy...8yB0,122,Bukit Batok,Guilin,education,polytechnic,ChIJ-3u2GF4a2jERmJl3E-xniKU,OK,,5,T11A @ Singapore Polytechnic
+2026-07-19T13:29:51.043972,place_details_reviews,2,AIzaSy...8yB0,123,Bukit Batok,Guilin,education,tuition centre,ChIJA88vZnsR2jEReOH2MCNzHFM,OK,,5,Happy Tutors Little Guilin
+2026-07-19T13:29:51.538271,place_details_reviews,2,AIzaSy...8yB0,124,Bukit Batok,Guilin,food,restaurant,ChIJE9VNe8sR2jERnaKBTAepKFw,OK,,2,Guilin Restaurant Pte Ltd
+2026-07-19T13:29:52.170995,place_details_reviews,2,AIzaSy...8yB0,125,Bukit Batok,Guilin,food,cafe,ChIJj1S3HzYQ2jERUB9QoLeMrfY,OK,,5,Ananas Cafe
+2026-07-19T13:29:52.795889,place_details_reviews,2,AIzaSy...8yB0,126,Bukit Batok,Guilin,shopping,supermarket,ChIJ0UsoGQAR2jERuNHIGXIX0d0,OK,,0,မင်္ဂလာမတ်
+2026-07-19T13:29:53.262862,place_details_reviews,2,AIzaSy...8yB0,127,Bukit Batok,Guilin,shopping,convenience store,ChIJVRIVJEgQ2jERN5eY6blCxCI,OK,,5,7-Eleven
+2026-07-19T13:29:53.850324,place_details_reviews,2,AIzaSy...8yB0,128,Bukit Batok,Guilin,recreation,community club,ChIJq6qquj4Q2jERdfw4jFnWKOw,OK,,5,Bukit Batok Community Club
+2026-07-19T13:29:54.369704,place_details_reviews,2,AIzaSy...8yB0,129,Bukit Batok,Guilin,recreation,playground,ChIJDUWFAgAR2jERnCRDJD2T6JY,OK,,5,Guilin park
+2026-07-19T13:29:54.860956,place_details_reviews,2,AIzaSy...8yB0,130,Bukit Batok,Hillview,education,kindergarten,ChIJ64s2MXgR2jERzJek31ppFs0,OK,,5,Starshine Montessori Hillview – Infant Care & Preschool
+2026-07-19T13:29:55.532879,place_details_reviews,2,AIzaSy...8yB0,131,Bukit Batok,Hillview,education,kindergarten,ChIJ_0UnrtYR2jER7Cbhxx_ifZc,OK,,5,ChildFirst @ Hillview
+2026-07-19T13:29:56.302911,place_details_reviews,2,AIzaSy...8yB0,132,Bukit Batok,Hillview,education,junior college,ChIJ61lTU6EQ2jERiBDECMxHYFY,OK,,5,National Junior College
+2026-07-19T13:29:56.865776,place_details_reviews,2,AIzaSy...8yB0,133,Bukit Batok,Hillview,transport,MRT station,ChIJVXo4D1MQ2jERrFd9ABXPItU,OK,,5,Hillview
+2026-07-19T13:29:57.586136,place_details_reviews,2,AIzaSy...8yB0,134,Bukit Batok,Hillview,transport,bus stop,ChIJLx_5BlMQ2jERt2UkMupEcTQ,OK,,5,Hillview Stn Exit B
+2026-07-19T13:29:58.048424,place_details_reviews,2,AIzaSy...8yB0,135,Bukit Batok,Hillview,food,hawker centre,ChIJMXPKXwAR2jERu2FBV594H5E,OK,,5,Timbre+ Hillview
+2026-07-19T13:29:58.465623,place_details_reviews,2,AIzaSy...8yB0,136,Bukit Batok,Hillview,food,restaurant,ChIJjYlQqlMQ2jERNTV5U98WYMY,OK,,5,iO Italian Osteria - HillV2 (Singapore)
+2026-07-19T13:29:59.260982,place_details_reviews,2,AIzaSy...8yB0,137,Bukit Batok,Hillview,food,restaurant,ChIJF3fWRMwR2jER5gEWv2PiT6E,OK,,5,Makan Grill (charcoal western local grill)
+2026-07-19T13:29:59.677945,place_details_reviews,2,AIzaSy...8yB0,138,Bukit Batok,Hillview,shopping,shopping mall,ChIJ3Zrkj1IQ2jER7alm3mrpVPQ,OK,,5,HillV2
+2026-07-19T13:30:00.317607,place_details_reviews,2,AIzaSy...8yB0,139,Bukit Batok,Hillview,shopping,supermarket,ChIJ8Ws24PEa2jEReonyo71rFUo,OK,,5,Sheng Siong Supermarket
+2026-07-19T13:30:00.932919,place_details_reviews,2,AIzaSy...8yB0,140,Bukit Batok,Hillview,shopping,grocery store,ChIJK3ZOu1IQ2jERXBDsZ-sShE4,OK,,5,CS Fresh HillV2
+2026-07-19T13:30:01.702500,place_details_reviews,2,AIzaSy...8yB0,141,Bukit Batok,Hillview,shopping,convenience store,ChIJqe4OwcQR2jERMYiED1szesY,OK,,5,7-Eleven
+2026-07-19T13:30:02.268889,place_details_reviews,2,AIzaSy...8yB0,142,Bukit Batok,Hillview,recreation,swimming complex,ChIJN5Ol2vgR2jERGrERYZ9bVrU,OK,,5,HomeTeam NS Swimming pool
+2026-07-19T13:30:03.272409,place_details_reviews,2,AIzaSy...8yB0,143,Bukit Batok,Hillview,recreation,cinema,ChIJi19VjekR2jERWaroR6pc860,OK,,5,Shaw Theatres
+2026-07-19T13:30:03.877419,place_details_reviews,2,AIzaSy...8yB0,144,Bukit Batok,Hillview,recreation,community club,ChIJAcs3hFIQ2jERyK9SYBlkYKc,OK,,5,Hillview Community Club
+2026-07-19T13:30:04.235336,place_details_reviews,2,AIzaSy...8yB0,145,Bukit Batok,Hillview,recreation,playground,ChIJ4Rhrh08Q2jER1iHO8Hk9aSU,OK,,5,Hillview Crescent Playground
+2026-07-19T13:30:05.097422,place_details_reviews,2,AIzaSy...8yB0,146,Bukit Batok,Hillview,nature,garden,ChIJMduSTzgQ2jEROj60t5-zEL8,OK,,5,Hilltop Garden Restaurant
+2026-07-19T13:30:05.670535,place_details_reviews,2,AIzaSy...8yB0,147,Bukit Batok,Hillview,nature,waterfront,ChIJtf7qcPIR2jERtVCo8Wd6Pfk,OK,,5,Hillview Regency
+2026-07-19T13:30:06.114407,place_details_reviews,2,AIzaSy...8yB0,148,Bukit Batok,Hillview,nature,waterfront,ChIJrdX7IUgQ2jERC22Oz40VNm8,OK,,5,Guilin View
+2026-07-19T13:30:06.670773,place_details_reviews,2,AIzaSy...8yB0,149,Bukit Batok,Hillview,nature,park connector,ChIJj2fIsToR2jER7yMokf5B1Ig,OK,,4,Hillview Park Connector
+2026-07-19T13:30:07.506028,place_details_reviews,2,AIzaSy...8yB0,150,Bukit Batok,Hong Kah North,education,kindergarten,ChIJ02tRtewR2jERyOS3ECpMZ7M,OK,,0,PCF Hong Kah North Student Care Centre
+2026-07-19T13:30:08.229404,place_details_reviews,2,AIzaSy...8yB0,151,Bukit Batok,Hong Kah North,education,primary school,ChIJRZvJ4jIQ2jERQ2O8Ck10T4k,OK,,0,Hong Kah Primary School
+2026-07-19T13:30:08.788375,place_details_reviews,2,AIzaSy...8yB0,152,Bukit Batok,Hong Kah North,education,tuition centre,ChIJVSGRlGgR2jERm2jkKaHKtw4,OK,,5,HAO Chinese Tuition Centre 好学堂 (HKN CC)
+2026-07-19T13:30:09.538611,place_details_reviews,2,AIzaSy...8yB0,153,Bukit Batok,Hong Kah North,food,food court,ChIJDcshsCwR2jERhQjWu8rnHHg,OK,,5,THE HAKKA NOOK
+2026-07-19T13:30:09.946715,place_details_reviews,2,AIzaSy...8yB0,154,Bukit Batok,Hong Kah North,shopping,supermarket,ChIJlYayXjYQ2jERJ7RjBDWVkug,OK,,5,Giant Supermarket
+2026-07-19T13:30:10.424369,place_details_reviews,2,AIzaSy...8yB0,155,Bukit Batok,Hong Kah North,shopping,grocery store,ChIJ778v4coR2jERs0gld9MUkC0,OK,,5,FairPrice Bukit Batok HomeTeamNS
+2026-07-19T13:30:10.922765,place_details_reviews,2,AIzaSy...8yB0,156,Bukit Batok,Hong Kah North,recreation,gym,ChIJI6PExwoR2jERkZDsnvx4FIw,OK,,5,Anytime Fitness Hong Kah North CC
+2026-07-19T13:30:11.543265,place_details_reviews,2,AIzaSy...8yB0,157,Bukit Batok,Hong Kah North,recreation,sports centre,ChIJ20_P9cYR2jERsUef2pBD0So,OK,,2,Fitness Hub (Hong Kah North)

@@ -1,0 +1,79 @@
+﻿planning_area,subzone,poi_dimension,facility_count,avg_rating,total_user_ratings,rating_100
+Downtown Core,Anson,education,20,4.621,3053,92.42
+Downtown Core,Anson,transport,20,4.305,1663,86.1
+Downtown Core,Anson,food,20,4.295,133170,85.9
+Downtown Core,Anson,shopping,20,4.225,146813,84.5
+Downtown Core,Anson,recreation,20,4.45,7042,89.0
+Downtown Core,Anson,nature,20,4.505,22080,90.1
+Downtown Core,Bayfront Subzone,education,20,4.7,3043,94.0
+Downtown Core,Bayfront Subzone,transport,20,4.375,4418,87.5
+Downtown Core,Bayfront Subzone,food,20,4.305,124805,86.1
+Downtown Core,Bayfront Subzone,shopping,14,4.271,91655,85.42
+Downtown Core,Bayfront Subzone,recreation,20,4.46,6952,89.2
+Downtown Core,Bayfront Subzone,nature,20,4.475,59604,89.5
+Downtown Core,Bugis,education,20,4.662,2775,93.24
+Downtown Core,Bugis,transport,20,4.31,3696,86.2
+Downtown Core,Bugis,food,20,4.28,97862,85.6
+Downtown Core,Bugis,shopping,20,4.21,113026,84.2
+Downtown Core,Bugis,recreation,20,4.375,6468,87.5
+Downtown Core,Bugis,nature,20,4.485,34018,89.7
+Downtown Core,Cecil,education,20,4.545,3778,90.9
+Downtown Core,Cecil,transport,20,4.06,2049,81.2
+Downtown Core,Cecil,food,20,4.285,124390,85.7
+Downtown Core,Cecil,shopping,20,4.225,149289,84.5
+Downtown Core,Cecil,recreation,20,4.465,5312,89.3
+Downtown Core,Cecil,nature,20,4.28,26480,85.6
+Downtown Core,Central Subzone,education,20,4.462,2761,89.24
+Downtown Core,Central Subzone,transport,20,4.32,1583,86.4
+Downtown Core,Central Subzone,food,20,4.275,132149,85.5
+Downtown Core,Central Subzone,shopping,20,4.12,168074,82.4
+Downtown Core,Central Subzone,recreation,20,4.47,4254,89.4
+Downtown Core,Central Subzone,nature,20,4.48,219921,89.6
+Downtown Core,City Hall,education,20,4.365,3307,87.3
+Downtown Core,City Hall,transport,20,4.36,6286,87.2
+Downtown Core,City Hall,food,20,4.13,135499,82.6
+Downtown Core,City Hall,shopping,20,4.305,146818,86.1
+Downtown Core,City Hall,recreation,20,4.33,5214,86.6
+Downtown Core,City Hall,nature,20,4.475,185697,89.5
+Downtown Core,Clifford Pier,education,20,4.6,3354,92.0
+Downtown Core,Clifford Pier,transport,20,4.38,2782,87.6
+Downtown Core,Clifford Pier,food,20,4.335,126015,86.7
+Downtown Core,Clifford Pier,shopping,20,4.3,115672,86.0
+Downtown Core,Clifford Pier,recreation,20,4.46,8952,89.2
+Downtown Core,Clifford Pier,nature,20,4.51,188776,90.2
+Downtown Core,Marina Centre,education,20,4.66,3477,93.2
+Downtown Core,Marina Centre,transport,20,4.19,2651,83.8
+Downtown Core,Marina Centre,food,20,4.23,124180,84.6
+Downtown Core,Marina Centre,shopping,20,4.245,77866,84.9
+Downtown Core,Marina Centre,recreation,20,4.49,7956,89.8
+Downtown Core,Marina Centre,nature,20,4.495,215362,89.9
+Downtown Core,Maxwell,education,20,4.605,3611,92.1
+Downtown Core,Maxwell,transport,20,4.225,4332,84.5
+Downtown Core,Maxwell,food,20,4.145,78128,82.9
+Downtown Core,Maxwell,shopping,20,4.275,147251,85.5
+Downtown Core,Maxwell,recreation,20,4.47,5157,89.4
+Downtown Core,Maxwell,nature,20,4.455,29030,89.1
+Downtown Core,Nicoll,education,20,4.658,3534,93.16
+Downtown Core,Nicoll,transport,20,4.115,870,82.3
+Downtown Core,Nicoll,food,20,4.27,129335,85.4
+Downtown Core,Nicoll,shopping,20,4.2,126529,84.0
+Downtown Core,Nicoll,recreation,20,4.385,6748,87.7
+Downtown Core,Nicoll,nature,20,4.485,186010,89.7
+Downtown Core,Phillip,education,20,4.6,3182,92.0
+Downtown Core,Phillip,transport,20,4.295,1275,85.9
+Downtown Core,Phillip,food,20,4.255,122674,85.1
+Downtown Core,Phillip,shopping,20,4.365,135838,87.3
+Downtown Core,Phillip,recreation,20,4.31,8404,86.2
+Downtown Core,Phillip,nature,20,4.44,25800,88.8
+Downtown Core,Raffles Place,education,20,4.558,2794,91.16
+Downtown Core,Raffles Place,transport,20,4.44,3039,88.8
+Downtown Core,Raffles Place,food,20,4.345,99226,86.9
+Downtown Core,Raffles Place,shopping,20,4.215,103741,84.3
+Downtown Core,Raffles Place,recreation,20,4.53,7867,90.6
+Downtown Core,Raffles Place,nature,20,4.51,27634,90.2
+Downtown Core,Tanjong Pagar,education,20,4.541,2595,90.82
+Downtown Core,Tanjong Pagar,transport,20,4.04,1743,80.8
+Downtown Core,Tanjong Pagar,food,20,4.275,97946,85.5
+Downtown Core,Tanjong Pagar,shopping,20,4.195,56554,83.9
+Downtown Core,Tanjong Pagar,recreation,20,4.49,5890,89.8
+Downtown Core,Tanjong Pagar,nature,20,4.495,189436,89.9

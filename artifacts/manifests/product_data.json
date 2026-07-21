@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-07-20T11:00:17.074006+00:00",
+  "sources": [
+    "data/processed/hdb_candidates_product.csv",
+    "data/raw/listings/propertyguru/live_sale_listings.csv",
+    "data/interim/listings/propertyguru/live_sale_listings_pages_0301_0500.csv",
+    "data/raw/listings/propertyguru/live_rental_listings.csv",
+    "data/external/community_reviews/google_maps_subzone_reviews/all_singapore_subzone_objective_dimension_review_profile.csv",
+    "map/public/subzones.geojson"
+  ],
+  "outputs": [
+    "data/processed/live_listings_enriched.csv",
+    "map/public/live-listings.json",
+    "map/public/region-profiles.json",
+    "map/public/subzone-profiles.json",
+    "map/public/data-status.json"
+  ],
+  "sale_merge": {
+    "input_rows": 6369,
+    "overlap_rows": 20,
+    "overlap_listing_ids": 10,
+    "output_rows": 6359
+  },
+  "location_quality": {
+    "sale": {
+      "rows": 6359,
+      "rows_with_coordinates": 5255,
+      "coordinate_coverage": 0.8264,
+      "rows_with_planning_area": 6099,
+      "planning_area_coverage": 0.9591,
+      "location_sources": {
+        "historical_hdb_address_match": 4291,
+        "unresolved": 1104,
+        "rental_address_match": 964
+      },
+      "area_sources": {
+        "coordinate_point_in_polygon": 5255,
+        "historical_hdb_street_match": 844,
+        "unresolved": 260
+      }
+    },
+    "rent": {
+      "rows": 8041,
+      "rows_with_coordinates": 7932,
+      "coordinate_coverage": 0.9864,
+      "rows_with_planning_area": 7984,
+      "planning_area_coverage": 0.9929,
+      "location_sources": {
+        "listing_coordinate": 7932,
+        "unresolved": 109
+      },
+      "area_sources": {
+        "coordinate_point_in_polygon": 7932,
+        "unresolved": 57,
+        "historical_hdb_street_match": 52
+      }
+    }
+  },
+  "region_profiles": 55,
+  "subzone_profiles": 332,
+  "privacy_guards": [
+    "raw_listing_text excluded from public JSON",
+    "source listing reference excluded from public JSON",
+    "review text, author names, and author URLs excluded from public JSON"
+  ]
+}

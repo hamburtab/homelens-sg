@@ -63,6 +63,8 @@ class Settings:
     project_root: Path
     candidates_path: Path
     model_path: Path
+    live_listings_path: Path
+    product_status_path: Path
     onemap_email: str
     onemap_password: str
     onemap_token: str
@@ -83,6 +85,12 @@ class Settings:
             ),
             model_path=_path_from_env(
                 "HOMELENS_MODEL_PATH", "artifacts/models/price_model.joblib"
+            ),
+            live_listings_path=_path_from_env(
+                "HOMELENS_LIVE_LISTINGS_PATH", "data/processed/live_listings_enriched.csv"
+            ),
+            product_status_path=_path_from_env(
+                "HOMELENS_PRODUCT_STATUS_PATH", "map/public/data-status.json"
             ),
             onemap_email=os.getenv("ONEMAP_EMAIL", "").strip(),
             onemap_password=os.getenv("ONEMAP_PASSWORD", "").strip(),

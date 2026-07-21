@@ -1,0 +1,361 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-17T23:09:33.030222,text_search,1,AIzaSy...IDGw,547,Choa Chu Kang,Choa Chu Kang Central,education,kindergarten,"kindergarten in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:33.801846,text_search,1,AIzaSy...IDGw,548,Choa Chu Kang,Choa Chu Kang Central,education,childcare centre,"childcare centre in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:34.729639,text_search,1,AIzaSy...IDGw,549,Choa Chu Kang,Choa Chu Kang Central,education,primary school,"primary school in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:35.565340,text_search,1,AIzaSy...IDGw,550,Choa Chu Kang,Choa Chu Kang Central,education,secondary school,"secondary school in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,18,
+2026-07-17T23:09:36.479354,text_search,1,AIzaSy...IDGw,551,Choa Chu Kang,Choa Chu Kang Central,education,junior college,"junior college in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:09:37.231250,text_search,1,AIzaSy...IDGw,552,Choa Chu Kang,Choa Chu Kang Central,education,polytechnic,"polytechnic in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:37.911985,text_search,1,AIzaSy...IDGw,553,Choa Chu Kang,Choa Chu Kang Central,education,university,"university in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,12,
+2026-07-17T23:09:39.071462,text_search,1,AIzaSy...IDGw,554,Choa Chu Kang,Choa Chu Kang Central,education,tuition centre,"tuition centre in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:40.218013,text_search,1,AIzaSy...IDGw,555,Choa Chu Kang,Choa Chu Kang Central,education,library,"library in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:09:40.931847,text_search,1,AIzaSy...IDGw,556,Choa Chu Kang,Choa Chu Kang Central,transport,MRT station,"MRT station in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:09:41.583529,text_search,1,AIzaSy...IDGw,557,Choa Chu Kang,Choa Chu Kang Central,transport,bus stop,"bus stop in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,4,
+2026-07-17T23:09:42.670082,text_search,1,AIzaSy...IDGw,558,Choa Chu Kang,Choa Chu Kang Central,transport,bus interchange,"bus interchange in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,2,
+2026-07-17T23:09:43.664824,text_search,1,AIzaSy...IDGw,559,Choa Chu Kang,Choa Chu Kang Central,transport,LRT station,"LRT station in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,3,
+2026-07-17T23:09:44.764867,text_search,1,AIzaSy...IDGw,560,Choa Chu Kang,Choa Chu Kang Central,food,hawker centre,"hawker centre in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,2,
+2026-07-17T23:09:46.183913,text_search,1,AIzaSy...IDGw,561,Choa Chu Kang,Choa Chu Kang Central,food,food court,"food court in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:46.930804,text_search,1,AIzaSy...IDGw,562,Choa Chu Kang,Choa Chu Kang Central,food,coffee shop,"coffee shop in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:47.983813,text_search,1,AIzaSy...IDGw,563,Choa Chu Kang,Choa Chu Kang Central,food,restaurant,"restaurant in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:48.963837,text_search,1,AIzaSy...IDGw,564,Choa Chu Kang,Choa Chu Kang Central,food,cafe,"cafe in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:50.185278,text_search,1,AIzaSy...IDGw,565,Choa Chu Kang,Choa Chu Kang Central,shopping,shopping mall,"shopping mall in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,3,
+2026-07-17T23:09:50.910038,text_search,1,AIzaSy...IDGw,566,Choa Chu Kang,Choa Chu Kang Central,shopping,supermarket,"supermarket in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:52.099607,text_search,1,AIzaSy...IDGw,567,Choa Chu Kang,Choa Chu Kang Central,shopping,grocery store,"grocery store in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:53.172832,text_search,1,AIzaSy...IDGw,568,Choa Chu Kang,Choa Chu Kang Central,shopping,convenience store,"convenience store in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:54.183018,text_search,1,AIzaSy...IDGw,569,Choa Chu Kang,Choa Chu Kang Central,shopping,wet market,"wet market in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,3,
+2026-07-17T23:09:54.919816,text_search,1,AIzaSy...IDGw,570,Choa Chu Kang,Choa Chu Kang Central,recreation,gym,"gym in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:09:55.666773,text_search,1,AIzaSy...IDGw,571,Choa Chu Kang,Choa Chu Kang Central,recreation,sports centre,"sports centre in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,3,
+2026-07-17T23:09:56.429228,text_search,1,AIzaSy...IDGw,572,Choa Chu Kang,Choa Chu Kang Central,recreation,swimming complex,"swimming complex in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,4,
+2026-07-17T23:09:57.613146,text_search,1,AIzaSy...IDGw,573,Choa Chu Kang,Choa Chu Kang Central,recreation,cinema,"cinema in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:09:58.535445,text_search,1,AIzaSy...IDGw,574,Choa Chu Kang,Choa Chu Kang Central,recreation,community club,"community club in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:09:59.764223,text_search,1,AIzaSy...IDGw,575,Choa Chu Kang,Choa Chu Kang Central,recreation,playground,"playground in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:00.507680,text_search,1,AIzaSy...IDGw,576,Choa Chu Kang,Choa Chu Kang Central,nature,park,"park in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:01.244242,text_search,1,AIzaSy...IDGw,577,Choa Chu Kang,Choa Chu Kang Central,nature,nature reserve,"nature reserve in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:02.277950,text_search,1,AIzaSy...IDGw,578,Choa Chu Kang,Choa Chu Kang Central,nature,garden,"garden in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:03.255782,text_search,1,AIzaSy...IDGw,579,Choa Chu Kang,Choa Chu Kang Central,nature,beach,"beach in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,6,
+2026-07-17T23:10:04.036580,text_search,1,AIzaSy...IDGw,580,Choa Chu Kang,Choa Chu Kang Central,nature,waterfront,"waterfront in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:05.206352,text_search,1,AIzaSy...IDGw,581,Choa Chu Kang,Choa Chu Kang Central,nature,park connector,"park connector in Choa Chu Kang Central, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:05.870158,text_search,1,AIzaSy...IDGw,582,Choa Chu Kang,Choa Chu Kang North,education,kindergarten,"kindergarten in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:06.584767,text_search,1,AIzaSy...IDGw,583,Choa Chu Kang,Choa Chu Kang North,education,childcare centre,"childcare centre in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:07.461701,text_search,1,AIzaSy...IDGw,584,Choa Chu Kang,Choa Chu Kang North,education,primary school,"primary school in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,17,
+2026-07-17T23:10:08.184563,text_search,1,AIzaSy...IDGw,585,Choa Chu Kang,Choa Chu Kang North,education,secondary school,"secondary school in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:08.984348,text_search,1,AIzaSy...IDGw,586,Choa Chu Kang,Choa Chu Kang North,education,junior college,"junior college in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:10:09.858825,text_search,1,AIzaSy...IDGw,587,Choa Chu Kang,Choa Chu Kang North,education,polytechnic,"polytechnic in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:10.771421,text_search,1,AIzaSy...IDGw,588,Choa Chu Kang,Choa Chu Kang North,education,university,"university in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,11,
+2026-07-17T23:10:11.414867,text_search,1,AIzaSy...IDGw,589,Choa Chu Kang,Choa Chu Kang North,education,tuition centre,"tuition centre in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,3,
+2026-07-17T23:10:12.266664,text_search,1,AIzaSy...IDGw,590,Choa Chu Kang,Choa Chu Kang North,education,library,"library in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:10:13.090692,text_search,1,AIzaSy...IDGw,591,Choa Chu Kang,Choa Chu Kang North,transport,MRT station,"MRT station in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,7,
+2026-07-17T23:10:14.019156,text_search,1,AIzaSy...IDGw,592,Choa Chu Kang,Choa Chu Kang North,transport,bus stop,"bus stop in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:14.781605,text_search,1,AIzaSy...IDGw,593,Choa Chu Kang,Choa Chu Kang North,transport,bus interchange,"bus interchange in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,2,
+2026-07-17T23:10:15.799861,text_search,1,AIzaSy...IDGw,594,Choa Chu Kang,Choa Chu Kang North,transport,LRT station,"LRT station in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,13,
+2026-07-17T23:10:16.693060,text_search,1,AIzaSy...IDGw,595,Choa Chu Kang,Choa Chu Kang North,food,hawker centre,"hawker centre in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,2,
+2026-07-17T23:10:17.917813,text_search,1,AIzaSy...IDGw,596,Choa Chu Kang,Choa Chu Kang North,food,food court,"food court in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:19.179098,text_search,1,AIzaSy...IDGw,597,Choa Chu Kang,Choa Chu Kang North,food,coffee shop,"coffee shop in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:19.906782,text_search,1,AIzaSy...IDGw,598,Choa Chu Kang,Choa Chu Kang North,food,restaurant,"restaurant in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:20.665623,text_search,1,AIzaSy...IDGw,599,Choa Chu Kang,Choa Chu Kang North,food,cafe,"cafe in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:21.551295,text_search,1,AIzaSy...IDGw,600,Choa Chu Kang,Choa Chu Kang North,shopping,shopping mall,"shopping mall in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,9,
+2026-07-17T23:10:22.251601,text_search,1,AIzaSy...IDGw,601,Choa Chu Kang,Choa Chu Kang North,shopping,supermarket,"supermarket in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:23.235387,text_search,1,AIzaSy...IDGw,602,Choa Chu Kang,Choa Chu Kang North,shopping,grocery store,"grocery store in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:23.878380,text_search,1,AIzaSy...IDGw,603,Choa Chu Kang,Choa Chu Kang North,shopping,convenience store,"convenience store in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:24.662093,text_search,1,AIzaSy...IDGw,604,Choa Chu Kang,Choa Chu Kang North,shopping,wet market,"wet market in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,3,
+2026-07-17T23:10:25.598054,text_search,1,AIzaSy...IDGw,605,Choa Chu Kang,Choa Chu Kang North,recreation,gym,"gym in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:26.395218,text_search,1,AIzaSy...IDGw,606,Choa Chu Kang,Choa Chu Kang North,recreation,sports centre,"sports centre in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:10:27.215839,text_search,1,AIzaSy...IDGw,607,Choa Chu Kang,Choa Chu Kang North,recreation,swimming complex,"swimming complex in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,4,
+2026-07-17T23:10:28.094551,text_search,1,AIzaSy...IDGw,608,Choa Chu Kang,Choa Chu Kang North,recreation,cinema,"cinema in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:10:28.894423,text_search,1,AIzaSy...IDGw,609,Choa Chu Kang,Choa Chu Kang North,recreation,community club,"community club in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,17,
+2026-07-17T23:10:29.644541,text_search,1,AIzaSy...IDGw,610,Choa Chu Kang,Choa Chu Kang North,recreation,playground,"playground in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:30.284971,text_search,1,AIzaSy...IDGw,611,Choa Chu Kang,Choa Chu Kang North,nature,park,"park in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,12,
+2026-07-17T23:10:31.200917,text_search,1,AIzaSy...IDGw,612,Choa Chu Kang,Choa Chu Kang North,nature,nature reserve,"nature reserve in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:31.964842,text_search,1,AIzaSy...IDGw,613,Choa Chu Kang,Choa Chu Kang North,nature,garden,"garden in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:32.858815,text_search,1,AIzaSy...IDGw,614,Choa Chu Kang,Choa Chu Kang North,nature,beach,"beach in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:33.644785,text_search,1,AIzaSy...IDGw,615,Choa Chu Kang,Choa Chu Kang North,nature,waterfront,"waterfront in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:34.361473,text_search,1,AIzaSy...IDGw,616,Choa Chu Kang,Choa Chu Kang North,nature,park connector,"park connector in Choa Chu Kang North, Choa Chu Kang, Singapore",OK,,4,
+2026-07-17T23:10:35.003083,text_search,1,AIzaSy...IDGw,617,Choa Chu Kang,Keat Hong,education,kindergarten,"kindergarten in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:35.930388,text_search,1,AIzaSy...IDGw,618,Choa Chu Kang,Keat Hong,education,childcare centre,"childcare centre in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:36.701094,text_search,1,AIzaSy...IDGw,619,Choa Chu Kang,Keat Hong,education,primary school,"primary school in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:37.601589,text_search,1,AIzaSy...IDGw,620,Choa Chu Kang,Keat Hong,education,secondary school,"secondary school in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:38.796037,text_search,1,AIzaSy...IDGw,621,Choa Chu Kang,Keat Hong,education,junior college,"junior college in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:39.647728,text_search,1,AIzaSy...IDGw,622,Choa Chu Kang,Keat Hong,education,polytechnic,"polytechnic in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:40.450037,text_search,1,AIzaSy...IDGw,623,Choa Chu Kang,Keat Hong,education,university,"university in Keat Hong, Choa Chu Kang, Singapore",OK,,11,
+2026-07-17T23:10:41.202451,text_search,1,AIzaSy...IDGw,624,Choa Chu Kang,Keat Hong,education,tuition centre,"tuition centre in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:41.907839,text_search,1,AIzaSy...IDGw,625,Choa Chu Kang,Keat Hong,education,library,"library in Keat Hong, Choa Chu Kang, Singapore",OK,,2,
+2026-07-17T23:10:43.058824,text_search,1,AIzaSy...IDGw,626,Choa Chu Kang,Keat Hong,transport,MRT station,"MRT station in Keat Hong, Choa Chu Kang, Singapore",OK,,11,
+2026-07-17T23:10:44.340412,text_search,1,AIzaSy...IDGw,627,Choa Chu Kang,Keat Hong,transport,bus stop,"bus stop in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:45.340668,text_search,1,AIzaSy...IDGw,628,Choa Chu Kang,Keat Hong,transport,bus interchange,"bus interchange in Keat Hong, Choa Chu Kang, Singapore",OK,,9,
+2026-07-17T23:10:46.044452,text_search,1,AIzaSy...IDGw,629,Choa Chu Kang,Keat Hong,transport,LRT station,"LRT station in Keat Hong, Choa Chu Kang, Singapore",OK,,4,
+2026-07-17T23:10:47.120742,text_search,1,AIzaSy...IDGw,630,Choa Chu Kang,Keat Hong,food,hawker centre,"hawker centre in Keat Hong, Choa Chu Kang, Singapore",OK,,2,
+2026-07-17T23:10:48.160784,text_search,1,AIzaSy...IDGw,631,Choa Chu Kang,Keat Hong,food,food court,"food court in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:49.197537,text_search,1,AIzaSy...IDGw,632,Choa Chu Kang,Keat Hong,food,coffee shop,"coffee shop in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:50.388225,text_search,1,AIzaSy...IDGw,633,Choa Chu Kang,Keat Hong,food,restaurant,"restaurant in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:51.265864,text_search,1,AIzaSy...IDGw,634,Choa Chu Kang,Keat Hong,food,cafe,"cafe in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:51.965498,text_search,1,AIzaSy...IDGw,635,Choa Chu Kang,Keat Hong,shopping,shopping mall,"shopping mall in Keat Hong, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:10:52.696078,text_search,1,AIzaSy...IDGw,636,Choa Chu Kang,Keat Hong,shopping,supermarket,"supermarket in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:53.528083,text_search,1,AIzaSy...IDGw,637,Choa Chu Kang,Keat Hong,shopping,grocery store,"grocery store in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:54.346287,text_search,1,AIzaSy...IDGw,638,Choa Chu Kang,Keat Hong,shopping,convenience store,"convenience store in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:55.046813,text_search,1,AIzaSy...IDGw,639,Choa Chu Kang,Keat Hong,shopping,wet market,"wet market in Keat Hong, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:10:55.728950,text_search,1,AIzaSy...IDGw,640,Choa Chu Kang,Keat Hong,recreation,gym,"gym in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:56.496564,text_search,1,AIzaSy...IDGw,641,Choa Chu Kang,Keat Hong,recreation,sports centre,"sports centre in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:57.810506,text_search,1,AIzaSy...IDGw,642,Choa Chu Kang,Keat Hong,recreation,swimming complex,"swimming complex in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:10:58.709793,text_search,1,AIzaSy...IDGw,643,Choa Chu Kang,Keat Hong,recreation,cinema,"cinema in Keat Hong, Choa Chu Kang, Singapore",OK,,3,
+2026-07-17T23:10:59.595965,text_search,1,AIzaSy...IDGw,644,Choa Chu Kang,Keat Hong,recreation,community club,"community club in Keat Hong, Choa Chu Kang, Singapore",OK,,2,
+2026-07-17T23:11:00.465152,text_search,1,AIzaSy...IDGw,645,Choa Chu Kang,Keat Hong,recreation,playground,"playground in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:01.567766,text_search,1,AIzaSy...IDGw,646,Choa Chu Kang,Keat Hong,nature,park,"park in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:02.451408,text_search,1,AIzaSy...IDGw,647,Choa Chu Kang,Keat Hong,nature,nature reserve,"nature reserve in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:03.460547,text_search,1,AIzaSy...IDGw,648,Choa Chu Kang,Keat Hong,nature,garden,"garden in Keat Hong, Choa Chu Kang, Singapore",OK,,8,
+2026-07-17T23:11:04.312322,text_search,1,AIzaSy...IDGw,649,Choa Chu Kang,Keat Hong,nature,beach,"beach in Keat Hong, Choa Chu Kang, Singapore",OK,,15,
+2026-07-17T23:11:04.996845,text_search,1,AIzaSy...IDGw,650,Choa Chu Kang,Keat Hong,nature,waterfront,"waterfront in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:05.833787,text_search,1,AIzaSy...IDGw,651,Choa Chu Kang,Keat Hong,nature,park connector,"park connector in Keat Hong, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:06.817831,text_search,1,AIzaSy...IDGw,652,Choa Chu Kang,Peng Siang,education,kindergarten,"kindergarten in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:08.010439,text_search,1,AIzaSy...IDGw,653,Choa Chu Kang,Peng Siang,education,childcare centre,"childcare centre in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:08.826156,text_search,1,AIzaSy...IDGw,654,Choa Chu Kang,Peng Siang,education,primary school,"primary school in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:09.894211,text_search,1,AIzaSy...IDGw,655,Choa Chu Kang,Peng Siang,education,secondary school,"secondary school in Peng Siang, Choa Chu Kang, Singapore",OK,,12,
+2026-07-17T23:11:11.015366,text_search,1,AIzaSy...IDGw,656,Choa Chu Kang,Peng Siang,education,junior college,"junior college in Peng Siang, Choa Chu Kang, Singapore",OK,,5,
+2026-07-17T23:11:11.769989,text_search,1,AIzaSy...IDGw,657,Choa Chu Kang,Peng Siang,education,polytechnic,"polytechnic in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:12.571016,text_search,1,AIzaSy...IDGw,658,Choa Chu Kang,Peng Siang,education,university,"university in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:13.413947,text_search,1,AIzaSy...IDGw,659,Choa Chu Kang,Peng Siang,education,tuition centre,"tuition centre in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:14.279623,text_search,1,AIzaSy...IDGw,660,Choa Chu Kang,Peng Siang,education,library,"library in Peng Siang, Choa Chu Kang, Singapore",OK,,9,
+2026-07-17T23:11:14.984835,text_search,1,AIzaSy...IDGw,661,Choa Chu Kang,Peng Siang,transport,MRT station,"MRT station in Peng Siang, Choa Chu Kang, Singapore",OK,,11,
+2026-07-17T23:11:15.753673,text_search,1,AIzaSy...IDGw,662,Choa Chu Kang,Peng Siang,transport,bus stop,"bus stop in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:16.522879,text_search,1,AIzaSy...IDGw,663,Choa Chu Kang,Peng Siang,transport,bus interchange,"bus interchange in Peng Siang, Choa Chu Kang, Singapore",OK,,6,
+2026-07-17T23:11:17.138941,text_search,1,AIzaSy...IDGw,664,Choa Chu Kang,Peng Siang,transport,LRT station,"LRT station in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:18.297189,text_search,1,AIzaSy...IDGw,665,Choa Chu Kang,Peng Siang,food,hawker centre,"hawker centre in Peng Siang, Choa Chu Kang, Singapore",OK,,10,
+2026-07-17T23:11:19.211215,text_search,1,AIzaSy...IDGw,666,Choa Chu Kang,Peng Siang,food,food court,"food court in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:20.330986,text_search,1,AIzaSy...IDGw,667,Choa Chu Kang,Peng Siang,food,coffee shop,"coffee shop in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:21.487079,text_search,1,AIzaSy...IDGw,668,Choa Chu Kang,Peng Siang,food,restaurant,"restaurant in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:22.487440,text_search,1,AIzaSy...IDGw,669,Choa Chu Kang,Peng Siang,food,cafe,"cafe in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:23.549455,text_search,1,AIzaSy...IDGw,670,Choa Chu Kang,Peng Siang,shopping,shopping mall,"shopping mall in Peng Siang, Choa Chu Kang, Singapore",OK,,7,
+2026-07-17T23:11:24.654435,text_search,1,AIzaSy...IDGw,671,Choa Chu Kang,Peng Siang,shopping,supermarket,"supermarket in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:25.852211,text_search,1,AIzaSy...IDGw,672,Choa Chu Kang,Peng Siang,shopping,grocery store,"grocery store in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:26.728275,text_search,1,AIzaSy...IDGw,673,Choa Chu Kang,Peng Siang,shopping,convenience store,"convenience store in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:27.581605,text_search,1,AIzaSy...IDGw,674,Choa Chu Kang,Peng Siang,shopping,wet market,"wet market in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:28.519958,text_search,1,AIzaSy...IDGw,675,Choa Chu Kang,Peng Siang,recreation,gym,"gym in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:29.431666,text_search,1,AIzaSy...IDGw,676,Choa Chu Kang,Peng Siang,recreation,sports centre,"sports centre in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:30.021261,text_search,1,AIzaSy...IDGw,677,Choa Chu Kang,Peng Siang,recreation,swimming complex,"swimming complex in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:30.944736,text_search,1,AIzaSy...IDGw,678,Choa Chu Kang,Peng Siang,recreation,cinema,"cinema in Peng Siang, Choa Chu Kang, Singapore",OK,,17,
+2026-07-17T23:11:31.764445,text_search,1,AIzaSy...IDGw,679,Choa Chu Kang,Peng Siang,recreation,community club,"community club in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:32.780185,text_search,1,AIzaSy...IDGw,680,Choa Chu Kang,Peng Siang,recreation,playground,"playground in Peng Siang, Choa Chu Kang, Singapore",OK,,17,
+2026-07-17T23:11:33.756965,text_search,1,AIzaSy...IDGw,681,Choa Chu Kang,Peng Siang,nature,park,"park in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:34.923979,text_search,1,AIzaSy...IDGw,682,Choa Chu Kang,Peng Siang,nature,nature reserve,"nature reserve in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:36.089236,text_search,1,AIzaSy...IDGw,683,Choa Chu Kang,Peng Siang,nature,garden,"garden in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:36.921330,text_search,1,AIzaSy...IDGw,684,Choa Chu Kang,Peng Siang,nature,beach,"beach in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:37.938171,text_search,1,AIzaSy...IDGw,685,Choa Chu Kang,Peng Siang,nature,waterfront,"waterfront in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:38.664268,text_search,1,AIzaSy...IDGw,686,Choa Chu Kang,Peng Siang,nature,park connector,"park connector in Peng Siang, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:39.325142,text_search,1,AIzaSy...IDGw,687,Choa Chu Kang,Teck Whye,education,kindergarten,"kindergarten in Teck Whye, Choa Chu Kang, Singapore",OK,,8,
+2026-07-17T23:11:40.442331,text_search,1,AIzaSy...IDGw,688,Choa Chu Kang,Teck Whye,education,childcare centre,"childcare centre in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:41.482629,text_search,1,AIzaSy...IDGw,689,Choa Chu Kang,Teck Whye,education,primary school,"primary school in Teck Whye, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:11:42.356379,text_search,1,AIzaSy...IDGw,690,Choa Chu Kang,Teck Whye,education,secondary school,"secondary school in Teck Whye, Choa Chu Kang, Singapore",OK,,10,
+2026-07-17T23:11:43.405401,text_search,1,AIzaSy...IDGw,691,Choa Chu Kang,Teck Whye,education,junior college,"junior college in Teck Whye, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:11:44.120386,text_search,1,AIzaSy...IDGw,692,Choa Chu Kang,Teck Whye,education,polytechnic,"polytechnic in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:44.703883,text_search,1,AIzaSy...IDGw,693,Choa Chu Kang,Teck Whye,education,university,"university in Teck Whye, Choa Chu Kang, Singapore",OK,,3,
+2026-07-17T23:11:45.737864,text_search,1,AIzaSy...IDGw,694,Choa Chu Kang,Teck Whye,education,tuition centre,"tuition centre in Teck Whye, Choa Chu Kang, Singapore",OK,,16,
+2026-07-17T23:11:46.589442,text_search,1,AIzaSy...IDGw,695,Choa Chu Kang,Teck Whye,education,library,"library in Teck Whye, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:11:47.314438,text_search,1,AIzaSy...IDGw,696,Choa Chu Kang,Teck Whye,transport,MRT station,"MRT station in Teck Whye, Choa Chu Kang, Singapore",OK,,4,
+2026-07-17T23:11:48.284131,text_search,1,AIzaSy...IDGw,697,Choa Chu Kang,Teck Whye,transport,bus stop,"bus stop in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:49.272533,text_search,1,AIzaSy...IDGw,698,Choa Chu Kang,Teck Whye,transport,bus interchange,"bus interchange in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:50.342591,text_search,1,AIzaSy...IDGw,699,Choa Chu Kang,Teck Whye,transport,LRT station,"LRT station in Teck Whye, Choa Chu Kang, Singapore",OK,,2,
+2026-07-17T23:11:51.064964,text_search,1,AIzaSy...IDGw,700,Choa Chu Kang,Teck Whye,food,hawker centre,"hawker centre in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:52.118524,text_search,1,AIzaSy...IDGw,701,Choa Chu Kang,Teck Whye,food,food court,"food court in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:53.587076,text_search,1,AIzaSy...IDGw,702,Choa Chu Kang,Teck Whye,food,coffee shop,"coffee shop in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:54.684985,text_search,1,AIzaSy...IDGw,703,Choa Chu Kang,Teck Whye,food,restaurant,"restaurant in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:55.663834,text_search,1,AIzaSy...IDGw,704,Choa Chu Kang,Teck Whye,food,cafe,"cafe in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:56.586314,text_search,1,AIzaSy...IDGw,705,Choa Chu Kang,Teck Whye,shopping,shopping mall,"shopping mall in Teck Whye, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:11:57.367747,text_search,1,AIzaSy...IDGw,706,Choa Chu Kang,Teck Whye,shopping,supermarket,"supermarket in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:58.312318,text_search,1,AIzaSy...IDGw,707,Choa Chu Kang,Teck Whye,shopping,grocery store,"grocery store in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:11:59.405974,text_search,1,AIzaSy...IDGw,708,Choa Chu Kang,Teck Whye,shopping,convenience store,"convenience store in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:00.578986,text_search,1,AIzaSy...IDGw,709,Choa Chu Kang,Teck Whye,shopping,wet market,"wet market in Teck Whye, Choa Chu Kang, Singapore",OK,,5,
+2026-07-17T23:12:01.378892,text_search,1,AIzaSy...IDGw,710,Choa Chu Kang,Teck Whye,recreation,gym,"gym in Teck Whye, Choa Chu Kang, Singapore",OK,,11,
+2026-07-17T23:12:02.231949,text_search,1,AIzaSy...IDGw,711,Choa Chu Kang,Teck Whye,recreation,sports centre,"sports centre in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:03.312329,text_search,1,AIzaSy...IDGw,712,Choa Chu Kang,Teck Whye,recreation,swimming complex,"swimming complex in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:04.287341,text_search,1,AIzaSy...IDGw,713,Choa Chu Kang,Teck Whye,recreation,cinema,"cinema in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:04.892887,text_search,1,AIzaSy...IDGw,714,Choa Chu Kang,Teck Whye,recreation,community club,"community club in Teck Whye, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:12:05.655672,text_search,1,AIzaSy...IDGw,715,Choa Chu Kang,Teck Whye,recreation,playground,"playground in Teck Whye, Choa Chu Kang, Singapore",OK,,12,
+2026-07-17T23:12:06.520695,text_search,1,AIzaSy...IDGw,716,Choa Chu Kang,Teck Whye,nature,park,"park in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:07.587867,text_search,1,AIzaSy...IDGw,717,Choa Chu Kang,Teck Whye,nature,nature reserve,"nature reserve in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:08.707870,text_search,1,AIzaSy...IDGw,718,Choa Chu Kang,Teck Whye,nature,garden,"garden in Teck Whye, Choa Chu Kang, Singapore",OK,,11,
+2026-07-17T23:12:09.624117,text_search,1,AIzaSy...IDGw,719,Choa Chu Kang,Teck Whye,nature,beach,"beach in Teck Whye, Choa Chu Kang, Singapore",OK,,3,
+2026-07-17T23:12:10.281821,text_search,1,AIzaSy...IDGw,720,Choa Chu Kang,Teck Whye,nature,waterfront,"waterfront in Teck Whye, Choa Chu Kang, Singapore",OK,,16,
+2026-07-17T23:12:10.891968,text_search,1,AIzaSy...IDGw,721,Choa Chu Kang,Teck Whye,nature,park connector,"park connector in Teck Whye, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:11.931560,text_search,1,AIzaSy...IDGw,722,Choa Chu Kang,Yew Tee,education,kindergarten,"kindergarten in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:12.740071,text_search,1,AIzaSy...IDGw,723,Choa Chu Kang,Yew Tee,education,childcare centre,"childcare centre in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:13.799746,text_search,1,AIzaSy...IDGw,724,Choa Chu Kang,Yew Tee,education,primary school,"primary school in Yew Tee, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:12:14.771398,text_search,1,AIzaSy...IDGw,725,Choa Chu Kang,Yew Tee,education,secondary school,"secondary school in Yew Tee, Choa Chu Kang, Singapore",OK,,10,
+2026-07-17T23:12:15.465882,text_search,1,AIzaSy...IDGw,726,Choa Chu Kang,Yew Tee,education,junior college,"junior college in Yew Tee, Choa Chu Kang, Singapore",OK,,16,
+2026-07-17T23:12:16.323594,text_search,1,AIzaSy...IDGw,727,Choa Chu Kang,Yew Tee,education,polytechnic,"polytechnic in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:16.996133,text_search,1,AIzaSy...IDGw,728,Choa Chu Kang,Yew Tee,education,university,"university in Yew Tee, Choa Chu Kang, Singapore",OK,,7,
+2026-07-17T23:12:17.788076,text_search,1,AIzaSy...IDGw,729,Choa Chu Kang,Yew Tee,education,tuition centre,"tuition centre in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:18.558263,text_search,1,AIzaSy...IDGw,730,Choa Chu Kang,Yew Tee,education,library,"library in Yew Tee, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:12:19.560559,text_search,1,AIzaSy...IDGw,731,Choa Chu Kang,Yew Tee,transport,MRT station,"MRT station in Yew Tee, Choa Chu Kang, Singapore",OK,,2,
+2026-07-17T23:12:20.485821,text_search,1,AIzaSy...IDGw,732,Choa Chu Kang,Yew Tee,transport,bus stop,"bus stop in Yew Tee, Choa Chu Kang, Singapore",OK,,4,
+2026-07-17T23:12:21.196309,text_search,1,AIzaSy...IDGw,733,Choa Chu Kang,Yew Tee,transport,bus interchange,"bus interchange in Yew Tee, Choa Chu Kang, Singapore",OK,,4,
+2026-07-17T23:12:22.320011,text_search,1,AIzaSy...IDGw,734,Choa Chu Kang,Yew Tee,transport,LRT station,"LRT station in Yew Tee, Choa Chu Kang, Singapore",OK,,9,
+2026-07-17T23:12:23.319848,text_search,1,AIzaSy...IDGw,735,Choa Chu Kang,Yew Tee,food,hawker centre,"hawker centre in Yew Tee, Choa Chu Kang, Singapore",OK,,12,
+2026-07-17T23:12:24.329079,text_search,1,AIzaSy...IDGw,736,Choa Chu Kang,Yew Tee,food,food court,"food court in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:25.513967,text_search,1,AIzaSy...IDGw,737,Choa Chu Kang,Yew Tee,food,coffee shop,"coffee shop in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:26.275976,text_search,1,AIzaSy...IDGw,738,Choa Chu Kang,Yew Tee,food,restaurant,"restaurant in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:27.302576,text_search,1,AIzaSy...IDGw,739,Choa Chu Kang,Yew Tee,food,cafe,"cafe in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:28.021652,text_search,1,AIzaSy...IDGw,740,Choa Chu Kang,Yew Tee,shopping,shopping mall,"shopping mall in Yew Tee, Choa Chu Kang, Singapore",OK,,5,
+2026-07-17T23:12:28.877468,text_search,1,AIzaSy...IDGw,741,Choa Chu Kang,Yew Tee,shopping,supermarket,"supermarket in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:29.964173,text_search,1,AIzaSy...IDGw,742,Choa Chu Kang,Yew Tee,shopping,grocery store,"grocery store in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:30.790549,text_search,1,AIzaSy...IDGw,743,Choa Chu Kang,Yew Tee,shopping,convenience store,"convenience store in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:31.569725,text_search,1,AIzaSy...IDGw,744,Choa Chu Kang,Yew Tee,shopping,wet market,"wet market in Yew Tee, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:12:32.592396,text_search,1,AIzaSy...IDGw,745,Choa Chu Kang,Yew Tee,recreation,gym,"gym in Yew Tee, Choa Chu Kang, Singapore",OK,,17,
+2026-07-17T23:12:33.880715,text_search,1,AIzaSy...IDGw,746,Choa Chu Kang,Yew Tee,recreation,sports centre,"sports centre in Yew Tee, Choa Chu Kang, Singapore",OK,,5,
+2026-07-17T23:12:35.032945,text_search,1,AIzaSy...IDGw,747,Choa Chu Kang,Yew Tee,recreation,swimming complex,"swimming complex in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:36.033447,text_search,1,AIzaSy...IDGw,748,Choa Chu Kang,Yew Tee,recreation,cinema,"cinema in Yew Tee, Choa Chu Kang, Singapore",OK,,1,
+2026-07-17T23:12:36.690187,text_search,1,AIzaSy...IDGw,749,Choa Chu Kang,Yew Tee,recreation,community club,"community club in Yew Tee, Choa Chu Kang, Singapore",OK,,3,
+2026-07-17T23:12:37.708928,text_search,1,AIzaSy...IDGw,750,Choa Chu Kang,Yew Tee,recreation,playground,"playground in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:38.640771,text_search,1,AIzaSy...IDGw,751,Choa Chu Kang,Yew Tee,nature,park,"park in Yew Tee, Choa Chu Kang, Singapore",OK,,14,
+2026-07-17T23:12:39.678600,text_search,1,AIzaSy...IDGw,752,Choa Chu Kang,Yew Tee,nature,nature reserve,"nature reserve in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:40.855344,text_search,1,AIzaSy...IDGw,753,Choa Chu Kang,Yew Tee,nature,garden,"garden in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:41.958058,text_search,1,AIzaSy...IDGw,754,Choa Chu Kang,Yew Tee,nature,beach,"beach in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:42.998512,text_search,1,AIzaSy...IDGw,755,Choa Chu Kang,Yew Tee,nature,waterfront,"waterfront in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:43.683325,text_search,1,AIzaSy...IDGw,756,Choa Chu Kang,Yew Tee,nature,park connector,"park connector in Yew Tee, Choa Chu Kang, Singapore",OK,,20,
+2026-07-17T23:12:44.153651,place_details_reviews,1,AIzaSy...IDGw,757,Choa Chu Kang,Choa Chu Kang Central,education,kindergarten,ChIJ____j-kR2jER_OeSDGFtNIw,OK,,5,Kinderland Preschool @ Choa Chu Kang
+2026-07-17T23:12:44.605743,place_details_reviews,1,AIzaSy...IDGw,758,Choa Chu Kang,Choa Chu Kang Central,education,kindergarten,ChIJrc2xJ_sR2jERnCyyvh3Jang,OK,,5,My First Skool at Blk 225 Choa Chu Kang Central
+2026-07-17T23:12:45.221746,place_details_reviews,1,AIzaSy...IDGw,759,Choa Chu Kang,Choa Chu Kang Central,education,childcare centre,ChIJD1bL38UR2jER1xfv_ojJ34U,OK,,5,Star Learners @ Choa Chu Kang Central | Preschool & Childcare
+2026-07-17T23:12:45.876355,place_details_reviews,1,AIzaSy...IDGw,760,Choa Chu Kang,Choa Chu Kang Central,education,childcare centre,ChIJ39hAJcQR2jERfMo3N26ktMQ,OK,,5,SDM Childcare Centre @ Choa Chu Kang
+2026-07-17T23:12:46.604565,place_details_reviews,1,AIzaSy...IDGw,761,Choa Chu Kang,Choa Chu Kang Central,education,primary school,ChIJpR_olcQR2jERpiolhW9hXws,OK,,0,Chua Chu Kang Primary School
+2026-07-17T23:12:47.249533,place_details_reviews,1,AIzaSy...IDGw,762,Choa Chu Kang,Choa Chu Kang Central,education,primary school,ChIJ8Z1dj8ER2jERKBp5h_WFtrM,OK,,0,South View Primary School
+2026-07-17T23:12:47.713249,place_details_reviews,1,AIzaSy...IDGw,763,Choa Chu Kang,Choa Chu Kang Central,education,secondary school,ChIJE5QEBcAR2jERYKAcfh6IBLw,OK,,0,Chua Chu Kang Secondary School Campus 2
+2026-07-17T23:12:48.407209,place_details_reviews,1,AIzaSy...IDGw,764,Choa Chu Kang,Choa Chu Kang Central,education,secondary school,ChIJe5r-9JUR2jERqq2Ga_xE6HU,OK,,0,Chua Chu Kang Secondary School
+2026-07-17T23:12:49.175762,place_details_reviews,1,AIzaSy...IDGw,765,Choa Chu Kang,Choa Chu Kang Central,education,junior college,ChIJz_-CGpUR2jERsxAVVh_vnoY,OK,,5,Jurong Pioneer Junior College
+2026-07-17T23:12:49.716929,place_details_reviews,1,AIzaSy...IDGw,766,Choa Chu Kang,Choa Chu Kang Central,education,polytechnic,ChIJW1axjb8R2jERYKqQVcmPwj0,OK,,5,Choa Chu Kang Polyclinic (NUP)
+2026-07-17T23:12:50.243185,place_details_reviews,1,AIzaSy...IDGw,767,Choa Chu Kang,Choa Chu Kang Central,education,polytechnic,ChIJHxfJeecR2jERy04VMjd1fM0,OK,,5,ITE College West
+2026-07-17T23:12:50.997449,place_details_reviews,1,AIzaSy...IDGw,768,Choa Chu Kang,Choa Chu Kang Central,education,tuition centre,ChIJu1hQOnIR2jERBxRVqQmxKZc,OK,,5,"AGrader Learning Centre (Choa Chu Kang) - English, Math, Creative Writing, Chinese, Science Tuition Centre Singapore"
+2026-07-17T23:12:51.547787,place_details_reviews,1,AIzaSy...IDGw,769,Choa Chu Kang,Choa Chu Kang Central,education,tuition centre,ChIJvTsDgNcR2jERjQy8Q7z6uoo,OK,,5,TutorJohn Learning Centre - Choa Chu Kang Tuition Centre
+2026-07-17T23:12:52.182883,place_details_reviews,1,AIzaSy...IDGw,770,Choa Chu Kang,Choa Chu Kang Central,education,library,ChIJ5-Dtl-kR2jERllI9-1NpYVY,OK,,5,Choa Chu Kang Library
+2026-07-17T23:12:52.644791,place_details_reviews,1,AIzaSy...IDGw,771,Choa Chu Kang,Choa Chu Kang Central,transport,MRT station,ChIJCZRupukR2jERCglyJsNXaHE,OK,,5,Choa Chu Kang
+2026-07-17T23:12:53.008133,place_details_reviews,1,AIzaSy...IDGw,772,Choa Chu Kang,Choa Chu Kang Central,transport,bus stop,ChIJxe0CeekR2jERTvo3i83VqUY,OK,,5,Choa Chu Kang Interchange
+2026-07-17T23:12:53.410855,place_details_reviews,1,AIzaSy...IDGw,773,Choa Chu Kang,Choa Chu Kang Central,transport,bus stop,ChIJC8_040gR2jERacObPHcY5gA,OK,,5,Choa Chu Kang Bus Interchange
+2026-07-17T23:12:53.946957,place_details_reviews,1,AIzaSy...IDGw,774,Choa Chu Kang,Choa Chu Kang Central,transport,LRT station,ChIJf-qKBzYR2jERPCaE21v1ssk,OK,,5,Choa Chu Kang LRT Station (BP1)
+2026-07-17T23:12:54.773306,place_details_reviews,1,AIzaSy...IDGw,775,Choa Chu Kang,Choa Chu Kang Central,food,hawker centre,ChIJWxEUrdkR2jERM4uTxwEQ3ZY,OK,,5,Blk 253 Choa Chu Kang Market & Food Centre
+2026-07-17T23:12:55.382622,place_details_reviews,1,AIzaSy...IDGw,776,Choa Chu Kang,Choa Chu Kang Central,food,hawker centre,ChIJE2pmQcQR2jERMdl7yCj6_LM,OK,,5,Keat Hong Food Centre & Market
+2026-07-17T23:12:55.987438,place_details_reviews,1,AIzaSy...IDGw,777,Choa Chu Kang,Choa Chu Kang Central,food,food court,ChIJy2jGDAAR2jER_dGJxOv-p10,OK,,5,Big Appetite
+2026-07-17T23:12:56.556816,place_details_reviews,1,AIzaSy...IDGw,778,Choa Chu Kang,Choa Chu Kang Central,food,food court,ChIJi19VjekR2jERw69DzAIthBU,OK,,5,Food Junction
+2026-07-17T23:12:57.114922,place_details_reviews,1,AIzaSy...IDGw,779,Choa Chu Kang,Choa Chu Kang Central,food,coffee shop,ChIJU0QaOe4R2jER4sg9HyljWzs,OK,,5,JIA LI COFFEE ROASTER (HOME BASED CAFE)
+2026-07-17T23:12:57.749232,place_details_reviews,1,AIzaSy...IDGw,780,Choa Chu Kang,Choa Chu Kang Central,food,coffee shop,ChIJ01ysTOgR2jERkczo461Qv5k,OK,,5,CCK 302 FoodHouse
+2026-07-17T23:12:58.341176,place_details_reviews,1,AIzaSy...IDGw,781,Choa Chu Kang,Choa Chu Kang Central,food,restaurant,ChIJ7bykURsYFwgReysq98OmO8M,OK,,5,Steak 99 Lot 1
+2026-07-17T23:12:59.211743,place_details_reviews,1,AIzaSy...IDGw,782,Choa Chu Kang,Choa Chu Kang Central,food,restaurant,ChIJOc2hJQAR2jERLCW1YcF9s-k,OK,,5,Steak 99
+2026-07-17T23:12:59.763362,place_details_reviews,1,AIzaSy...IDGw,783,Choa Chu Kang,Choa Chu Kang Central,food,cafe,ChIJ04WxPgAR2jERH-z8BbvHggQ,OK,,5,Hua Mu Lan Tea
+2026-07-17T23:13:00.572800,place_details_reviews,1,AIzaSy...IDGw,784,Choa Chu Kang,Choa Chu Kang Central,shopping,shopping mall,ChIJs5CBlukR2jER-uyFhQ2NFbU,OK,,5,Lot One Shoppers' Mall
+2026-07-17T23:13:01.167296,place_details_reviews,1,AIzaSy...IDGw,785,Choa Chu Kang,Choa Chu Kang Central,shopping,shopping mall,ChIJSZQvzO8R2jER3y3YPr6U1bQ,OK,,5,Limbang Shopping Centre
+2026-07-17T23:13:01.852721,place_details_reviews,1,AIzaSy...IDGw,786,Choa Chu Kang,Choa Chu Kang Central,shopping,supermarket,ChIJq378adsR2jERViTMRBdSnlo,OK,,5,Giant Supermarket
+2026-07-17T23:13:02.647119,place_details_reviews,1,AIzaSy...IDGw,787,Choa Chu Kang,Choa Chu Kang Central,shopping,supermarket,ChIJs5CBlukR2jERTIOWORf5ceI,OK,,5,FairPrice Lot 1 Shoppers' Mall
+2026-07-17T23:13:03.276664,place_details_reviews,1,AIzaSy...IDGw,788,Choa Chu Kang,Choa Chu Kang Central,shopping,convenience store,ChIJ3zlF8eoR2jERyPbVN1j0kGw,OK,,5,7-11 Convenience Store
+2026-07-17T23:13:03.842789,place_details_reviews,1,AIzaSy...IDGw,789,Choa Chu Kang,Choa Chu Kang Central,shopping,convenience store,ChIJOeuIuO8R2jERxrYXmEg4ky4,OK,,5,Cheers Choa Chu Kang MRT
+2026-07-17T23:13:04.329633,place_details_reviews,1,AIzaSy...IDGw,790,Choa Chu Kang,Choa Chu Kang Central,shopping,wet market,ChIJW-4wFvQR2jERVo2FJjUF2vc,OK,,5,Yew Tee Market
+2026-07-17T23:13:04.876283,place_details_reviews,1,AIzaSy...IDGw,791,Choa Chu Kang,Choa Chu Kang Central,recreation,gym,ChIJgVqV6K0R2jERx19-94Knvow,OK,,5,Anytime Fitness Choa Chu Kang Centre
+2026-07-17T23:13:05.265232,place_details_reviews,1,AIzaSy...IDGw,792,Choa Chu Kang,Choa Chu Kang Central,recreation,gym,ChIJ1TpeOAAR2jERDGsg5LsZVmI,OK,,5,Choa Chu Kang ActiveSG Gym
+2026-07-17T23:13:05.695817,place_details_reviews,1,AIzaSy...IDGw,793,Choa Chu Kang,Choa Chu Kang Central,recreation,sports centre,ChIJ_WX9ue0R2jER865IJyACAoc,OK,,5,Choa Chu Kang Sport Centre
+2026-07-17T23:13:06.507656,place_details_reviews,1,AIzaSy...IDGw,794,Choa Chu Kang,Choa Chu Kang Central,recreation,swimming complex,ChIJ_WX9ue0R2jERj69SXrt_lJU,OK,,5,Choa Chu Kang Swimming Complex (The Swimming Place)
+2026-07-17T23:13:07.206899,place_details_reviews,1,AIzaSy...IDGw,795,Choa Chu Kang,Choa Chu Kang Central,recreation,cinema,ChIJi19VjekR2jERWaroR6pc860,OK,,5,Shaw Theatres
+2026-07-17T23:13:07.891212,place_details_reviews,1,AIzaSy...IDGw,796,Choa Chu Kang,Choa Chu Kang Central,recreation,community club,ChIJv4y6fsAR2jERWc-2HlwTnmE,OK,,0,Chua Chu Kang Community Club
+2026-07-17T23:13:08.723629,place_details_reviews,1,AIzaSy...IDGw,797,Choa Chu Kang,Choa Chu Kang Central,recreation,playground,ChIJaaXk1NwR2jERjStQPwYUkaU,OK,,5,Choa Chu Kang Mega Playground
+2026-07-17T23:13:09.457823,place_details_reviews,1,AIzaSy...IDGw,798,Choa Chu Kang,Choa Chu Kang Central,recreation,playground,ChIJc_bRw-kR2jERdJWGuXU09jw,OK,,5,Choa Chu Kang Mini Waterpark
+2026-07-17T23:13:10.103510,place_details_reviews,1,AIzaSy...IDGw,799,Choa Chu Kang,Choa Chu Kang Central,nature,park,ChIJRzglD-wR2jERgCmyEeAecXI,OK,,5,Choa Chu Kang Park
+2026-07-17T23:13:10.647136,place_details_reviews,1,AIzaSy...IDGw,800,Choa Chu Kang,Choa Chu Kang Central,nature,park,ChIJHxEuCgAR2jERoNh4e3aGr-0,OK,,5,Choa Chu Kang Central Mini Road Safety Park
+2026-07-17T23:13:11.236058,place_details_reviews,1,AIzaSy...IDGw,801,Choa Chu Kang,Choa Chu Kang Central,nature,nature reserve,ChIJ3dcI_PUN2jERTnYeNNfju5c,OK,,5,Kranji Marshes
+2026-07-17T23:13:11.896791,place_details_reviews,1,AIzaSy...IDGw,802,Choa Chu Kang,Choa Chu Kang Central,nature,garden,ChIJT6BEccYR2jERExdJ0Eswoo4,OK,,5,Keat Hong Garden
+2026-07-17T23:13:12.528050,place_details_reviews,1,AIzaSy...IDGw,803,Choa Chu Kang,Choa Chu Kang Central,nature,beach,ChIJVVVVVegR2jER_ncZsSw8hfM,OK,,5,Keat Hong Community Club
+2026-07-17T23:13:13.299694,place_details_reviews,1,AIzaSy...IDGw,804,Choa Chu Kang,Choa Chu Kang Central,nature,park connector,ChIJmzOpj24R2jERpGwQhjLuhCg,OK,,5,Stagmont Park Connector
+2026-07-17T23:13:13.794971,place_details_reviews,1,AIzaSy...IDGw,805,Choa Chu Kang,Choa Chu Kang North,education,kindergarten,ChIJVUkk2O8R2jERbTU3jlW7AIw,OK,,5,Little Footprints Preschool @ Choa Chu Kang - Limbang
+2026-07-17T23:13:14.327728,place_details_reviews,1,AIzaSy...IDGw,806,Choa Chu Kang,Choa Chu Kang North,education,childcare centre,ChIJEWzcku0R2jERxHDqVZm0X6w,OK,,5,Ace @ Work Childcare (CCK 757)
+2026-07-17T23:13:15.127022,place_details_reviews,1,AIzaSy...IDGw,807,Choa Chu Kang,Choa Chu Kang North,education,primary school,ChIJ5xcmPfIR2jERI_ueBXIcBPw,OK,,0,Kranji Primary School
+2026-07-17T23:13:15.590352,place_details_reviews,1,AIzaSy...IDGw,808,Choa Chu Kang,Choa Chu Kang North,education,primary school,ChIJyyRcW_MR2jERtxnlA3qyVV0,OK,,0,Yew Tee Primary School
+2026-07-17T23:13:16.326556,place_details_reviews,1,AIzaSy...IDGw,809,Choa Chu Kang,Choa Chu Kang North,education,secondary school,ChIJdbFVX-0R2jERx3e8YNpQy3w,OK,,0,Regent Secondary School
+2026-07-17T23:13:17.243075,place_details_reviews,1,AIzaSy...IDGw,810,Choa Chu Kang,Choa Chu Kang North,education,tuition centre,ChIJgTBZgg8R2jERImrXMPrHxdw,OK,,5,EduFirst Learning Centre (Choa Chu Kang Yew Tee Branch) - English Math Chinese Science Student Care Tuition Singapore
+2026-07-17T23:13:17.870526,place_details_reviews,1,AIzaSy...IDGw,811,Choa Chu Kang,Choa Chu Kang North,transport,MRT station,ChIJg9zFkjAR2jERXmWQPEs55Kg,OK,,5,Yew Tee MRT Station (NS5)
+2026-07-17T23:13:18.624974,place_details_reviews,1,AIzaSy...IDGw,812,Choa Chu Kang,Choa Chu Kang North,transport,bus stop,ChIJLzMelekR2jERxRUvpv1JZy4,OK,,5,Lot 1/Choa Chu Kang Stn
+2026-07-17T23:13:19.155588,place_details_reviews,1,AIzaSy...IDGw,813,Choa Chu Kang,Choa Chu Kang North,food,food court,ChIJLQr1tfMR2jERggtxfa0ffJ8,OK,,5,S-11 Choa Chu Kang 787 Food Court
+2026-07-17T23:13:19.872234,place_details_reviews,1,AIzaSy...IDGw,814,Choa Chu Kang,Choa Chu Kang North,food,cafe,ChIJ-R18oJkT2jERjb5BLbsu-dM,OK,,5,Blue Owl Café (Yew Tee — Takeaway Coffee)
+2026-07-17T23:13:20.576943,place_details_reviews,1,AIzaSy...IDGw,815,Choa Chu Kang,Choa Chu Kang North,shopping,grocery store,ChIJeRqQ8_MR2jERWHiWayirJ7g,OK,,5,FairPrice Finest
+2026-07-17T23:13:21.342795,place_details_reviews,1,AIzaSy...IDGw,816,Choa Chu Kang,Choa Chu Kang North,shopping,convenience store,ChIJ99Q9tPMR2jER4B_IrtsrgjU,OK,,5,Double One Minimarket
+2026-07-17T23:13:22.270015,place_details_reviews,1,AIzaSy...IDGw,817,Choa Chu Kang,Choa Chu Kang North,recreation,gym,ChIJv2uVCsYR2jERKoqfkj7HPEU,OK,,5,GOFIT Choa Chu Kang
+2026-07-17T23:13:23.116565,place_details_reviews,1,AIzaSy...IDGw,818,Choa Chu Kang,Choa Chu Kang North,recreation,community club,ChIJJYncfsAR2jERVE0WPGMg8Bg,OK,,5,Chua Chu Kang Community Club
+2026-07-17T23:13:23.986369,place_details_reviews,1,AIzaSy...IDGw,819,Choa Chu Kang,Choa Chu Kang North,nature,park,ChIJ_6ftJ_ER2jERjyRotGhn7to,OK,,5,Yew Tee Park
+2026-07-17T23:13:24.590678,place_details_reviews,1,AIzaSy...IDGw,820,Choa Chu Kang,Choa Chu Kang North,nature,beach,ChIJ7WfiXu4R2jERSN3bZdGEu6Y,OK,,5,Limbang Park
+2026-07-17T23:13:25.206541,place_details_reviews,1,AIzaSy...IDGw,821,Choa Chu Kang,Choa Chu Kang North,nature,waterfront,ChIJY_QLO-0R2jERfZxPsXwtQuQ,OK,,5,Villa Verde Park
+2026-07-17T23:13:25.643222,place_details_reviews,1,AIzaSy...IDGw,822,Choa Chu Kang,Choa Chu Kang North,nature,park connector,ChIJeyJ1LR8R2jERnVG-iAYYCZU,OK,,5,Pang Sua Park Connector
+2026-07-17T23:13:26.144908,place_details_reviews,1,AIzaSy...IDGw,823,Choa Chu Kang,Keat Hong,education,kindergarten,ChIJ_Y3CHcQR2jER74F2CruPsDA,OK,,5,Little Footprints Preschool @ Keat Hong 803
+2026-07-17T23:13:26.546475,place_details_reviews,1,AIzaSy...IDGw,824,Choa Chu Kang,Keat Hong,education,kindergarten,ChIJfwIbn88R2jERvrcDmd8DyDw,OK,,5,Little Footprints Preschool @ Keat Hong 805
+2026-07-17T23:13:27.004024,place_details_reviews,1,AIzaSy...IDGw,825,Choa Chu Kang,Keat Hong,education,primary school,ChIJ6xrhRtwR2jER1rh4TqBG3Bo,OK,,0,Concord Primary School
+2026-07-17T23:13:27.728761,place_details_reviews,1,AIzaSy...IDGw,826,Choa Chu Kang,Keat Hong,education,secondary school,ChIJ9TMrne8R2jER9MbWpucSlBU,OK,,0,Kranji Secondary School
+2026-07-17T23:13:28.519661,place_details_reviews,1,AIzaSy...IDGw,827,Choa Chu Kang,Keat Hong,education,junior college,ChIJESRAQ1sa2jERlSmmrDCCriw,OK,,5,Anglo-Chinese Junior College
+2026-07-17T23:13:29.028153,place_details_reviews,1,AIzaSy...IDGw,828,Choa Chu Kang,Keat Hong,education,polytechnic,ChIJFXzxL2Aa2jERnoWTOdJdVKk,OK,,5,Singapore Polytechnic
+2026-07-17T23:13:29.842158,place_details_reviews,1,AIzaSy...IDGw,829,Choa Chu Kang,Keat Hong,education,university,ChIJ-Y5y3g0R2jERv9K742URD78,OK,,5,EduFirst Learning Centre (Keat Hong) - English Math Chinese Science Tuition Centre Singapore
+2026-07-17T23:13:30.550442,place_details_reviews,1,AIzaSy...IDGw,830,Choa Chu Kang,Keat Hong,education,library,ChIJ7w8etAIR2jERu9ApIAX5pEU,OK,,0,Book Harvest @ Keat Hong
+2026-07-17T23:13:31.228693,place_details_reviews,1,AIzaSy...IDGw,831,Choa Chu Kang,Keat Hong,transport,MRT station,ChIJke5SDisR2jEREXrmd64znVM,OK,,5,Keat Hong LRT Station (BP3)
+2026-07-17T23:13:31.946962,place_details_reviews,1,AIzaSy...IDGw,832,Choa Chu Kang,Keat Hong,food,coffee shop,ChIJCzPEsP0R2jERfU6b5R1qTxU,OK,,5,The Otterly Good Cafe
+2026-07-17T23:13:32.767480,place_details_reviews,1,AIzaSy...IDGw,833,Choa Chu Kang,Keat Hong,food,coffee shop,ChIJzSEmlFgR2jERtBOEa92SUls,OK,,5,The Cozy Cup
+2026-07-17T23:13:33.387304,place_details_reviews,1,AIzaSy...IDGw,834,Choa Chu Kang,Keat Hong,food,restaurant,ChIJPVz4U8QR2jERaJTXZH9ZYnU,OK,,5,Hong Kiat Seafood Restaurant (豐吉海鲜馆)
+2026-07-17T23:13:34.246569,place_details_reviews,1,AIzaSy...IDGw,835,Choa Chu Kang,Keat Hong,shopping,shopping mall,ChIJxyo7LVYR2jERqlNRm9RkBUM,OK,,5,Keat Hong Shopping Centre
+2026-07-17T23:13:35.181495,place_details_reviews,1,AIzaSy...IDGw,836,Choa Chu Kang,Keat Hong,shopping,supermarket,ChIJt7x9J8cR2jERTLyG6ld9cu4,OK,,5,U Stars Mega Mart @ 817
+2026-07-17T23:13:35.938920,place_details_reviews,1,AIzaSy...IDGw,837,Choa Chu Kang,Keat Hong,shopping,supermarket,ChIJ_YIFAcYR2jERBd4sg8dO8bY,OK,,5,U Stars Supermarket
+2026-07-17T23:13:36.414044,place_details_reviews,1,AIzaSy...IDGw,838,Choa Chu Kang,Keat Hong,shopping,convenience store,ChIJUQsONwAR2jERq1_eU9ahgRM,OK,,5,MWH Minimart
+2026-07-17T23:13:36.799190,place_details_reviews,1,AIzaSy...IDGw,839,Choa Chu Kang,Keat Hong,recreation,gym,ChIJCTok6ekR2jERnFfFyIKukCo,OK,,5,24/7 FITNESS Keat Hong CC
+2026-07-17T23:13:37.548637,place_details_reviews,1,AIzaSy...IDGw,840,Choa Chu Kang,Keat Hong,recreation,cinema,ChIJFx7cQgAR2jERum7NN5FvIOk,OK,,5,Shaw Theatres JEM
+2026-07-17T23:13:38.313312,place_details_reviews,1,AIzaSy...IDGw,841,Choa Chu Kang,Keat Hong,recreation,playground,ChIJJdCFw34R2jERfyY5itp3Ef0,OK,,5,The Arena @ Keat Hong
+2026-07-17T23:13:38.699162,place_details_reviews,1,AIzaSy...IDGw,842,Choa Chu Kang,Keat Hong,nature,park,ChIJV5TJomQR2jERFhdFK6hszDA,OK,,5,Keat Hong Park
+2026-07-17T23:13:39.518854,place_details_reviews,1,AIzaSy...IDGw,843,Choa Chu Kang,Keat Hong,nature,nature reserve,ChIJO9cemPUQ2jERvlh8KtwhtAc,OK,,5,Bukit Timah Nature Reserve
+2026-07-17T23:13:40.076995,place_details_reviews,1,AIzaSy...IDGw,844,Choa Chu Kang,Keat Hong,nature,waterfront,ChIJSfNpUs8R2jERYIMfv2PbtrQ,OK,,5,Keat Hong Colours
+2026-07-17T23:13:40.684334,place_details_reviews,1,AIzaSy...IDGw,845,Choa Chu Kang,Keat Hong,nature,park connector,ChIJAfY-aQAR2jERJU4PExbtgb0,OK,,1,BUKIT PANJANG NORTH PARK CONNECTOR
+2026-07-17T23:13:41.227815,place_details_reviews,1,AIzaSy...IDGw,846,Choa Chu Kang,Peng Siang,education,childcare centre,ChIJkZEm_NoR2jER2JHSz_r0VHQ,OK,,5,Greenery Childcare Centre
+2026-07-17T23:13:42.016308,place_details_reviews,1,AIzaSy...IDGw,847,Choa Chu Kang,Peng Siang,education,secondary school,ChIJbUEQbd0R2jERyMl2YGs8yHE,OK,,0,Bukit Panjang Government High School
+2026-07-17T23:13:42.567637,place_details_reviews,1,AIzaSy...IDGw,848,Choa Chu Kang,Peng Siang,education,polytechnic,ChIJ14hzqgUT2jER-IIzRuD1twI,OK,,5,Republic Polytechnic
+2026-07-17T23:13:42.956829,place_details_reviews,1,AIzaSy...IDGw,849,Choa Chu Kang,Peng Siang,education,university,ChIJ2QJCeFYa2jERa434wdYIjUg,OK,,5,National University of Singapore
+2026-07-17T23:13:43.787241,place_details_reviews,1,AIzaSy...IDGw,850,Choa Chu Kang,Peng Siang,education,university,ChIJvQQziYAQ2jERCOP-JKA4N9k,OK,,5,Singapore University of Social Sciences
+2026-07-17T23:13:44.253279,place_details_reviews,1,AIzaSy...IDGw,851,Choa Chu Kang,Peng Siang,education,tuition centre,ChIJnaMykicR2jER3Xno5vA2bKw,OK,,5,"Top Grades Tuition & Enrichment @ Yew Tee, Choa Chu Kang - Visit our IG for Genuine Feedback fr Parents & Students"
+2026-07-17T23:13:45.132953,place_details_reviews,1,AIzaSy...IDGw,852,Choa Chu Kang,Peng Siang,education,library,ChIJAQAASKMR2jER1rsyt_ipOM0,OK,,5,Bukit Panjang Library
+2026-07-17T23:13:45.600188,place_details_reviews,1,AIzaSy...IDGw,853,Choa Chu Kang,Peng Siang,food,coffee shop,ChIJF6L3RxsR2jERsa-T6m-jewk,OK,,5,Cafe Toofee
+2026-07-17T23:13:46.179880,place_details_reviews,1,AIzaSy...IDGw,854,Choa Chu Kang,Peng Siang,food,restaurant,ChIJe4TXSQAR2jER0Wk-_1MhJ3E,OK,,5,NiKU iKU Lot One
+2026-07-17T23:13:46.539806,place_details_reviews,1,AIzaSy...IDGw,855,Choa Chu Kang,Peng Siang,shopping,grocery store,ChIJw0-mTsQR2jERy7OwWvki9_Y,OK,,5,Prime Supermarket
+2026-07-17T23:13:47.408307,place_details_reviews,1,AIzaSy...IDGw,856,Choa Chu Kang,Peng Siang,shopping,convenience store,ChIJwU-8UYoR2jERj61OQIahxao,OK,,4,Shell Select
+2026-07-17T23:13:48.209163,place_details_reviews,1,AIzaSy...IDGw,857,Choa Chu Kang,Peng Siang,shopping,convenience store,ChIJR9cxZfUR2jERLeG_6lSjeT8,OK,,5,Reliance Minimart
+2026-07-17T23:13:48.776258,place_details_reviews,1,AIzaSy...IDGw,858,Choa Chu Kang,Peng Siang,nature,nature reserve,ChIJs3oprUQQ2jERp8A9mbkPZJE,OK,,5,Bukit Batok Nature Park
+2026-07-17T23:13:49.642204,place_details_reviews,1,AIzaSy...IDGw,859,Choa Chu Kang,Peng Siang,nature,nature reserve,ChIJe0cEPoIS2jERs_rS2qvGOxw,OK,,5,Sungei Buloh Wetland Reserve
+2026-07-17T23:13:50.436762,place_details_reviews,1,AIzaSy...IDGw,860,Choa Chu Kang,Peng Siang,nature,beach,ChIJaaC07KIR2jERl3-DgSWf4aE,OK,,5,Pang Sua Pond
+2026-07-17T23:13:51.176940,place_details_reviews,1,AIzaSy...IDGw,861,Choa Chu Kang,Peng Siang,nature,waterfront,ChIJG1Bg-egR2jERlyZD-VZYKr0,OK,,5,The Warren
+2026-07-17T23:13:51.708085,place_details_reviews,1,AIzaSy...IDGw,862,Choa Chu Kang,Teck Whye,education,kindergarten,ChIJ8_KvfsAR2jERfQLW0Ksyn3M,OK,,5,Heartyland Infant Care
+2026-07-17T23:13:52.379697,place_details_reviews,1,AIzaSy...IDGw,863,Choa Chu Kang,Teck Whye,education,kindergarten,ChIJSYqf2cAR2jERrGcAxhxtkuY,OK,,1,PCF Sparkletots @ Chua Chu Kang Blk 123
+2026-07-17T23:13:53.058756,place_details_reviews,1,AIzaSy...IDGw,864,Choa Chu Kang,Teck Whye,education,childcare centre,ChIJP5via78R2jERvCVmC4rlk9M,OK,,5,Graceland Student Care Centre @ Teck Whye
+2026-07-17T23:13:53.410790,place_details_reviews,1,AIzaSy...IDGw,865,Choa Chu Kang,Teck Whye,education,primary school,ChIJ3cskXpUR2jERdU9fhheLjng,OK,,0,Teck Whye Primary School
+2026-07-17T23:13:54.221141,place_details_reviews,1,AIzaSy...IDGw,866,Choa Chu Kang,Teck Whye,education,tuition centre,ChIJuzAmzEER2jERFgICe8sAm50,OK,,5,Five Star Tuition Centre Pte Ltd - CCK & Bukit Panjang
+2026-07-17T23:13:54.936826,place_details_reviews,1,AIzaSy...IDGw,867,Choa Chu Kang,Teck Whye,transport,MRT station,ChIJaVWaf2UR2jERSrqsjpnIeA8,OK,,5,Teck Whye LRT Station (BP4)
+2026-07-17T23:13:55.747159,place_details_reviews,1,AIzaSy...IDGw,868,Choa Chu Kang,Teck Whye,transport,MRT station,ChIJ3fQU87gR2jER-t4l9-JUnlM,OK,,5,Teck Whye
+2026-07-17T23:13:56.372483,place_details_reviews,1,AIzaSy...IDGw,869,Choa Chu Kang,Teck Whye,transport,bus stop,ChIJzwEotr8R2jERuxmRJ9EQG2c,OK,,1,Aft Teck Whye Walk
+2026-07-17T23:13:56.818957,place_details_reviews,1,AIzaSy...IDGw,870,Choa Chu Kang,Teck Whye,food,hawker centre,ChIJU5KbYb8R2jERt0l-XxTMFgI,OK,,5,Teck Whye Shopping Centre
+2026-07-17T23:13:57.718234,place_details_reviews,1,AIzaSy...IDGw,871,Choa Chu Kang,Teck Whye,food,coffee shop,ChIJJYcyrZgR2jERlbxWO4Qrz_M,OK,,5,"Blk 144, #01-223 Coffeeshop"
+2026-07-17T23:13:58.599754,place_details_reviews,1,AIzaSy...IDGw,872,Choa Chu Kang,Teck Whye,food,restaurant,ChIJachyI7kR2jERSFpre7YXAeQ,OK,,5,Sinaran Seafood And Catering
+2026-07-17T23:13:59.255631,place_details_reviews,1,AIzaSy...IDGw,873,Choa Chu Kang,Teck Whye,food,restaurant,ChIJlW0um74R2jERJB9IfmT4Qmo,OK,,5,Rasa Rasa @ Teck Whye
+2026-07-17T23:13:59.728554,place_details_reviews,1,AIzaSy...IDGw,874,Choa Chu Kang,Teck Whye,food,cafe,ChIJB4DN1L4R2jERRJdF4b8bKN8,OK,,5,Tiong Wah Restaurant
+2026-07-17T23:14:00.168006,place_details_reviews,1,AIzaSy...IDGw,875,Choa Chu Kang,Teck Whye,shopping,supermarket,ChIJoTxBzrgR2jERavGEbvzC5Ys,OK,,5,Sheng Siong Supermarket
+2026-07-17T23:14:00.682782,place_details_reviews,1,AIzaSy...IDGw,876,Choa Chu Kang,Teck Whye,shopping,supermarket,ChIJUyCFc78R2jER66jgvwK72GQ,OK,,5,Prime Supermarket
+2026-07-17T23:14:01.539378,place_details_reviews,1,AIzaSy...IDGw,877,Choa Chu Kang,Teck Whye,shopping,grocery store,ChIJT7Abab8R2jERgZYAd7wZGRw,OK,,5,FairPrice Jalan Teck Whye
+2026-07-17T23:14:02.232745,place_details_reviews,1,AIzaSy...IDGw,878,Choa Chu Kang,Teck Whye,shopping,convenience store,ChIJnzRHJm4R2jERYJHl7D_Ebig,OK,,1,KS MINIMART
+2026-07-17T23:14:02.809492,place_details_reviews,1,AIzaSy...IDGw,879,Choa Chu Kang,Teck Whye,shopping,convenience store,ChIJU5KbYb8R2jERgVOdRbbTujs,OK,,5,7-Eleven
+2026-07-17T23:14:03.348370,place_details_reviews,1,AIzaSy...IDGw,880,Choa Chu Kang,Teck Whye,recreation,gym,ChIJo-H2DwAR2jERSQNla9xggfU,OK,,5,Anytime Fitness Teck Whye
+2026-07-17T23:14:03.940868,place_details_reviews,1,AIzaSy...IDGw,881,Choa Chu Kang,Teck Whye,recreation,playground,ChIJZ3ACqhQR2jERx_j0-Cfw6rg,OK,,5,Teck Whye View Playground
+2026-07-17T23:14:04.399881,place_details_reviews,1,AIzaSy...IDGw,882,Choa Chu Kang,Teck Whye,recreation,playground,ChIJl-IVHwAR2jERoPhqWhsVR4Y,OK,,1,132 Teck Whye Playground
+2026-07-17T23:14:05.202705,place_details_reviews,1,AIzaSy...IDGw,883,Choa Chu Kang,Teck Whye,nature,park,ChIJ7f9_i8AR2jERt4VIjb8jqtQ,OK,,1,Teck Whye Garden
+2026-07-17T23:14:06.144358,place_details_reviews,1,AIzaSy...IDGw,884,Choa Chu Kang,Teck Whye,nature,nature reserve,ChIJq_5RjPUQ2jERQZR7bzih7tw,OK,,5,Hindhede Nature Park
+2026-07-17T23:14:06.912252,place_details_reviews,1,AIzaSy...IDGw,885,Choa Chu Kang,Teck Whye,nature,garden,ChIJsQreV8AR2jERjx98Uh4KjWk,OK,,5,Teck Whye Gardens
+2026-07-17T23:14:07.291790,place_details_reviews,1,AIzaSy...IDGw,886,Choa Chu Kang,Teck Whye,nature,waterfront,ChIJh7igdIER2jERvzXtNoQZYhM,OK,,5,Teck Whye View
+2026-07-17T23:14:07.936631,place_details_reviews,1,AIzaSy...IDGw,887,Choa Chu Kang,Yew Tee,education,kindergarten,ChIJqxup_x8S2jERtdgCFdt0Kjs,OK,,2,PCF Sparkletots Preschool @ Yew Tee Blk 690D
+2026-07-17T23:14:08.560402,place_details_reviews,1,AIzaSy...IDGw,888,Choa Chu Kang,Yew Tee,education,kindergarten,ChIJmRqPF8QR2jERBjbHumdR_z4,OK,,5,Greenfield Montessori
+2026-07-17T23:14:09.631133,place_details_reviews,1,AIzaSy...IDGw,889,Choa Chu Kang,Yew Tee,transport,MRT station,ChIJXda8xtoR2jERkD1aoLDmzhI,OK,,5,Yew Tee
+2026-07-17T23:14:10.015291,place_details_reviews,1,AIzaSy...IDGw,890,Choa Chu Kang,Yew Tee,transport,bus stop,ChIJUzOd9fMR2jERZz6ereXhra8,OK,,5,Yew Tee Stn
+2026-07-17T23:14:10.678068,place_details_reviews,1,AIzaSy...IDGw,891,Choa Chu Kang,Yew Tee,transport,bus stop,ChIJN3hidfQR2jERr8CzSfsZPig,OK,,4,Opp Yew Tee Stn
+2026-07-17T23:14:11.421247,place_details_reviews,1,AIzaSy...IDGw,892,Choa Chu Kang,Yew Tee,food,food court,ChIJucjD4T8Q2jERVgeeSlTgLOE,OK,,5,Kopitiam Corner
+2026-07-17T23:14:12.142528,place_details_reviews,1,AIzaSy...IDGw,893,Choa Chu Kang,Yew Tee,food,food court,ChIJ2xwx_PMR2jERB955as6dQeU,OK,,5,Koufu
+2026-07-17T23:14:12.918802,place_details_reviews,1,AIzaSy...IDGw,894,Choa Chu Kang,Yew Tee,food,restaurant,ChIJM9H3S3kR2jERDSkclfQn8NY,OK,,5,Saizeriya - Yew Tee Point
+2026-07-17T23:14:13.350831,place_details_reviews,1,AIzaSy...IDGw,895,Choa Chu Kang,Yew Tee,food,restaurant,ChIJR6-rTh4R2jERY9kBnJwfyy4,OK,,5,SYED CAFE Exclusive
+2026-07-17T23:14:14.219666,place_details_reviews,1,AIzaSy...IDGw,896,Choa Chu Kang,Yew Tee,shopping,shopping mall,ChIJL3h_-fMR2jERaA6mW3u-wNU,OK,,5,YewTee Point
+2026-07-17T23:14:14.728978,place_details_reviews,1,AIzaSy...IDGw,897,Choa Chu Kang,Yew Tee,shopping,shopping mall,ChIJp4CPcscR2jERIEqVvSuOfmc,OK,,5,Yew Tee Square
+2026-07-17T23:14:15.369052,place_details_reviews,1,AIzaSy...IDGw,898,Choa Chu Kang,Yew Tee,shopping,supermarket,ChIJ2xwx_PMR2jERRAWDe04IwWg,OK,,5,FairPrice Yew Tee Point
+2026-07-17T23:14:15.795200,place_details_reviews,1,AIzaSy...IDGw,899,Choa Chu Kang,Yew Tee,shopping,convenience store,ChIJx4SrEPQR2jERYHsJxQ_5KFs,OK,,5,7-Eleven
+2026-07-17T23:14:16.361038,place_details_reviews,1,AIzaSy...IDGw,900,Choa Chu Kang,Yew Tee,shopping,convenience store,ChIJE3WPyR8S2jERqwXJHvswCAY,OK,,5,7-Eleven + Mr Softee
+2026-07-17T23:14:17.116952,place_details_reviews,1,AIzaSy...IDGw,901,Choa Chu Kang,Yew Tee,recreation,gym,ChIJQy8bLdUR2jERSWcTQMqhVAw,OK,,5,24/7 FITNESS Yew Tee
+2026-07-17T23:14:17.796959,place_details_reviews,1,AIzaSy...IDGw,902,Choa Chu Kang,Yew Tee,recreation,gym,ChIJNwuGbrcR2jERgxca13aS0-U,OK,,5,Anytime Fitness Yew Tee Community Club
+2026-07-17T23:14:18.487636,place_details_reviews,1,AIzaSy...IDGw,903,Choa Chu Kang,Yew Tee,recreation,sports centre,ChIJqQr7ofER2jERH_EFPnj1qC4,OK,,5,Yew Tee Community Club
+2026-07-17T23:14:19.111377,place_details_reviews,1,AIzaSy...IDGw,904,Choa Chu Kang,Yew Tee,recreation,playground,ChIJ2eXtg0IR2jERYSIcEnmYWd0,OK,,5,Yew Tee Park Playground
+2026-07-17T23:14:19.506009,place_details_reviews,1,AIzaSy...IDGw,905,Choa Chu Kang,Yew Tee,nature,waterfront,ChIJ2WNRKrER2jER3AtxY3AFgPU,OK,,4,The Life Style Corridor - Yew Tee
+2026-07-17T23:14:20.395354,place_details_reviews,1,AIzaSy...IDGw,906,Choa Chu Kang,Yew Tee,nature,waterfront,ChIJv7B8VQAR2jERRQiTx7TMXgA,OK,,5,Yew Tee Waterplay Plaza

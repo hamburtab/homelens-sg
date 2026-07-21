@@ -1,0 +1,55 @@
+﻿planning_area,subzone,poi_dimension,facility_count,avg_rating,total_user_ratings,rating_100
+Woodlands,Greenwood Park,education,20,4.805,1234,96.1
+Woodlands,Greenwood Park,transport,7,3.729,943,74.58
+Woodlands,Greenwood Park,food,20,4.11,72820,82.2
+Woodlands,Greenwood Park,shopping,20,4.22,61961,84.4
+Woodlands,Greenwood Park,recreation,20,4.38,8198,87.6
+Woodlands,Greenwood Park,nature,20,4.425,9495,88.5
+Woodlands,Midview,education,20,4.675,1144,93.5
+Woodlands,Midview,transport,20,3.955,1262,79.1
+Woodlands,Midview,food,20,4.17,152811,83.4
+Woodlands,Midview,shopping,20,4.255,66217,85.1
+Woodlands,Midview,recreation,20,4.195,7989,83.9
+Woodlands,Midview,nature,20,4.447,9429,88.94
+Woodlands,North Coast,education,20,4.635,1186,92.7
+Woodlands,North Coast,transport,20,4.1,3173,82.0
+Woodlands,North Coast,food,20,4.14,80191,82.8
+Woodlands,North Coast,shopping,20,4.245,52546,84.9
+Woodlands,North Coast,recreation,20,4.185,9395,83.7
+Woodlands,North Coast,nature,20,4.48,14971,89.6
+Woodlands,Senoko West,education,20,4.785,1551,95.7
+Woodlands,Senoko West,transport,20,3.835,977,76.7
+Woodlands,Senoko West,food,20,4.275,126419,85.5
+Woodlands,Senoko West,shopping,20,4.22,86010,84.4
+Woodlands,Senoko West,recreation,20,4.15,9844,83.0
+Woodlands,Senoko West,nature,20,4.465,29361,89.3
+Woodlands,Woodgrove,education,20,4.755,1188,95.1
+Woodlands,Woodgrove,transport,20,4.045,1581,80.9
+Woodlands,Woodgrove,food,20,4.17,166882,83.4
+Woodlands,Woodgrove,shopping,20,4.195,54303,83.9
+Woodlands,Woodgrove,recreation,20,4.225,11867,84.5
+Woodlands,Woodgrove,nature,20,4.455,19449,89.1
+Woodlands,Woodlands East,education,20,4.735,1285,94.7
+Woodlands,Woodlands East,transport,20,4.005,2144,80.1
+Woodlands,Woodlands East,food,20,4.145,53993,82.9
+Woodlands,Woodlands East,shopping,20,4.29,43688,85.8
+Woodlands,Woodlands East,recreation,20,4.335,9692,86.7
+Woodlands,Woodlands East,nature,20,4.45,12423,89.0
+Woodlands,Woodlands Regional Centre,education,20,4.625,1152,92.5
+Woodlands,Woodlands Regional Centre,transport,20,3.995,2140,79.9
+Woodlands,Woodlands Regional Centre,food,20,4.15,71568,83.0
+Woodlands,Woodlands Regional Centre,shopping,20,4.19,41318,83.8
+Woodlands,Woodlands Regional Centre,recreation,20,4.31,7857,86.2
+Woodlands,Woodlands Regional Centre,nature,20,4.442,7958,88.84
+Woodlands,Woodlands South,education,20,4.69,1349,93.8
+Woodlands,Woodlands South,transport,20,4.045,1951,80.9
+Woodlands,Woodlands South,food,20,4.085,52500,81.7
+Woodlands,Woodlands South,shopping,20,4.255,63697,85.1
+Woodlands,Woodlands South,recreation,20,4.34,8157,86.8
+Woodlands,Woodlands South,nature,20,4.411,11805,88.22
+Woodlands,Woodlands West,education,20,4.68,1328,93.6
+Woodlands,Woodlands West,transport,20,4.015,3361,80.3
+Woodlands,Woodlands West,food,20,4.145,61634,82.9
+Woodlands,Woodlands West,shopping,20,4.26,38211,85.2
+Woodlands,Woodlands West,recreation,20,4.275,11415,85.5
+Woodlands,Woodlands West,nature,20,4.435,11966,88.7

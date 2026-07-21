@@ -1,0 +1,355 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-18T17:03:11.150647,text_search,2,AIzaSy...8yB0,3,River Valley,Institution Hill,education,kindergarten,"kindergarten in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:11.784508,text_search,2,AIzaSy...8yB0,4,River Valley,Institution Hill,education,childcare centre,"childcare centre in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:12.794631,text_search,2,AIzaSy...8yB0,5,River Valley,Institution Hill,education,primary school,"primary school in Institution Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:03:13.935803,text_search,2,AIzaSy...8yB0,6,River Valley,Institution Hill,education,secondary school,"secondary school in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:14.910814,text_search,2,AIzaSy...8yB0,7,River Valley,Institution Hill,education,junior college,"junior college in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:15.647258,text_search,2,AIzaSy...8yB0,8,River Valley,Institution Hill,education,polytechnic,"polytechnic in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:16.615366,text_search,2,AIzaSy...8yB0,9,River Valley,Institution Hill,education,university,"university in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:17.487833,text_search,2,AIzaSy...8yB0,10,River Valley,Institution Hill,education,tuition centre,"tuition centre in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:18.441885,text_search,2,AIzaSy...8yB0,11,River Valley,Institution Hill,education,library,"library in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:19.621645,text_search,2,AIzaSy...8yB0,12,River Valley,Institution Hill,transport,MRT station,"MRT station in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:20.680892,text_search,2,AIzaSy...8yB0,13,River Valley,Institution Hill,transport,bus stop,"bus stop in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:21.554458,text_search,2,AIzaSy...8yB0,14,River Valley,Institution Hill,transport,bus interchange,"bus interchange in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:22.394681,text_search,2,AIzaSy...8yB0,15,River Valley,Institution Hill,transport,LRT station,"LRT station in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:23.580553,text_search,2,AIzaSy...8yB0,16,River Valley,Institution Hill,food,hawker centre,"hawker centre in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:24.736570,text_search,2,AIzaSy...8yB0,17,River Valley,Institution Hill,food,food court,"food court in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:25.369606,text_search,2,AIzaSy...8yB0,18,River Valley,Institution Hill,food,coffee shop,"coffee shop in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:26.255328,text_search,2,AIzaSy...8yB0,19,River Valley,Institution Hill,food,restaurant,"restaurant in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:27.307127,text_search,2,AIzaSy...8yB0,20,River Valley,Institution Hill,food,cafe,"cafe in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:28.306181,text_search,2,AIzaSy...8yB0,21,River Valley,Institution Hill,shopping,shopping mall,"shopping mall in Institution Hill, River Valley, Singapore",OK,,9,
+2026-07-18T17:03:29.513157,text_search,2,AIzaSy...8yB0,22,River Valley,Institution Hill,shopping,supermarket,"supermarket in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:30.617687,text_search,2,AIzaSy...8yB0,23,River Valley,Institution Hill,shopping,grocery store,"grocery store in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:31.554775,text_search,2,AIzaSy...8yB0,24,River Valley,Institution Hill,shopping,convenience store,"convenience store in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:32.779432,text_search,2,AIzaSy...8yB0,25,River Valley,Institution Hill,shopping,wet market,"wet market in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:33.879748,text_search,2,AIzaSy...8yB0,26,River Valley,Institution Hill,recreation,gym,"gym in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:34.911222,text_search,2,AIzaSy...8yB0,27,River Valley,Institution Hill,recreation,sports centre,"sports centre in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:35.675947,text_search,2,AIzaSy...8yB0,28,River Valley,Institution Hill,recreation,swimming complex,"swimming complex in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:36.839069,text_search,2,AIzaSy...8yB0,29,River Valley,Institution Hill,recreation,cinema,"cinema in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:37.936835,text_search,2,AIzaSy...8yB0,30,River Valley,Institution Hill,recreation,community club,"community club in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:38.768154,text_search,2,AIzaSy...8yB0,31,River Valley,Institution Hill,recreation,playground,"playground in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:39.696648,text_search,2,AIzaSy...8yB0,32,River Valley,Institution Hill,nature,park,"park in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:40.582896,text_search,2,AIzaSy...8yB0,33,River Valley,Institution Hill,nature,nature reserve,"nature reserve in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:41.617973,text_search,2,AIzaSy...8yB0,34,River Valley,Institution Hill,nature,garden,"garden in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:42.605728,text_search,2,AIzaSy...8yB0,35,River Valley,Institution Hill,nature,beach,"beach in Institution Hill, River Valley, Singapore",OK,,15,
+2026-07-18T17:03:43.447404,text_search,2,AIzaSy...8yB0,36,River Valley,Institution Hill,nature,waterfront,"waterfront in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:44.399197,text_search,2,AIzaSy...8yB0,37,River Valley,Institution Hill,nature,park connector,"park connector in Institution Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:45.418625,text_search,2,AIzaSy...8yB0,38,River Valley,Leonie Hill,education,kindergarten,"kindergarten in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:46.361085,text_search,2,AIzaSy...8yB0,39,River Valley,Leonie Hill,education,childcare centre,"childcare centre in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:47.127046,text_search,2,AIzaSy...8yB0,40,River Valley,Leonie Hill,education,primary school,"primary school in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:48.024052,text_search,2,AIzaSy...8yB0,41,River Valley,Leonie Hill,education,secondary school,"secondary school in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:48.791830,text_search,2,AIzaSy...8yB0,42,River Valley,Leonie Hill,education,junior college,"junior college in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:49.712512,text_search,2,AIzaSy...8yB0,43,River Valley,Leonie Hill,education,polytechnic,"polytechnic in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:50.335156,text_search,2,AIzaSy...8yB0,44,River Valley,Leonie Hill,education,university,"university in Leonie Hill, River Valley, Singapore",OK,,12,
+2026-07-18T17:03:50.926726,text_search,2,AIzaSy...8yB0,45,River Valley,Leonie Hill,education,tuition centre,"tuition centre in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:51.590691,text_search,2,AIzaSy...8yB0,46,River Valley,Leonie Hill,education,library,"library in Leonie Hill, River Valley, Singapore",OK,,19,
+2026-07-18T17:03:52.240391,text_search,2,AIzaSy...8yB0,47,River Valley,Leonie Hill,transport,MRT station,"MRT station in Leonie Hill, River Valley, Singapore",OK,,9,
+2026-07-18T17:03:52.838678,text_search,2,AIzaSy...8yB0,48,River Valley,Leonie Hill,transport,bus stop,"bus stop in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:53.512873,text_search,2,AIzaSy...8yB0,49,River Valley,Leonie Hill,transport,bus interchange,"bus interchange in Leonie Hill, River Valley, Singapore",OK,,12,
+2026-07-18T17:03:54.301767,text_search,2,AIzaSy...8yB0,50,River Valley,Leonie Hill,transport,LRT station,"LRT station in Leonie Hill, River Valley, Singapore",OK,,11,
+2026-07-18T17:03:54.972290,text_search,2,AIzaSy...8yB0,51,River Valley,Leonie Hill,food,hawker centre,"hawker centre in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:55.634252,text_search,2,AIzaSy...8yB0,52,River Valley,Leonie Hill,food,food court,"food court in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:56.346271,text_search,2,AIzaSy...8yB0,53,River Valley,Leonie Hill,food,coffee shop,"coffee shop in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:57.194845,text_search,2,AIzaSy...8yB0,54,River Valley,Leonie Hill,food,restaurant,"restaurant in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:58.197014,text_search,2,AIzaSy...8yB0,55,River Valley,Leonie Hill,food,cafe,"cafe in Leonie Hill, River Valley, Singapore",OK,,17,
+2026-07-18T17:03:59.067250,text_search,2,AIzaSy...8yB0,56,River Valley,Leonie Hill,shopping,shopping mall,"shopping mall in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:03:59.951297,text_search,2,AIzaSy...8yB0,57,River Valley,Leonie Hill,shopping,supermarket,"supermarket in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:00.635729,text_search,2,AIzaSy...8yB0,58,River Valley,Leonie Hill,shopping,grocery store,"grocery store in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:01.368068,text_search,2,AIzaSy...8yB0,59,River Valley,Leonie Hill,shopping,convenience store,"convenience store in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:02.054058,text_search,2,AIzaSy...8yB0,60,River Valley,Leonie Hill,shopping,wet market,"wet market in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:02.808844,text_search,2,AIzaSy...8yB0,61,River Valley,Leonie Hill,recreation,gym,"gym in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:03.744851,text_search,2,AIzaSy...8yB0,62,River Valley,Leonie Hill,recreation,sports centre,"sports centre in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:04.750599,text_search,2,AIzaSy...8yB0,63,River Valley,Leonie Hill,recreation,swimming complex,"swimming complex in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:05.352325,text_search,2,AIzaSy...8yB0,64,River Valley,Leonie Hill,recreation,cinema,"cinema in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:06.377255,text_search,2,AIzaSy...8yB0,65,River Valley,Leonie Hill,recreation,community club,"community club in Leonie Hill, River Valley, Singapore",OK,,13,
+2026-07-18T17:04:07.279593,text_search,2,AIzaSy...8yB0,66,River Valley,Leonie Hill,recreation,playground,"playground in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:08.230909,text_search,2,AIzaSy...8yB0,67,River Valley,Leonie Hill,nature,park,"park in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:09.244794,text_search,2,AIzaSy...8yB0,68,River Valley,Leonie Hill,nature,nature reserve,"nature reserve in Leonie Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:10.028672,text_search,2,AIzaSy...8yB0,69,River Valley,Leonie Hill,nature,garden,"garden in Leonie Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:11.055279,text_search,2,AIzaSy...8yB0,70,River Valley,Leonie Hill,nature,beach,"beach in Leonie Hill, River Valley, Singapore",OK,,7,
+2026-07-18T17:04:11.874023,text_search,2,AIzaSy...8yB0,71,River Valley,Leonie Hill,nature,waterfront,"waterfront in Leonie Hill, River Valley, Singapore",OK,,15,
+2026-07-18T17:04:12.739497,text_search,2,AIzaSy...8yB0,72,River Valley,Leonie Hill,nature,park connector,"park connector in Leonie Hill, River Valley, Singapore",OK,,12,
+2026-07-18T17:04:13.462741,text_search,2,AIzaSy...8yB0,73,River Valley,One Tree Hill,education,kindergarten,"kindergarten in One Tree Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:14.422451,text_search,2,AIzaSy...8yB0,74,River Valley,One Tree Hill,education,childcare centre,"childcare centre in One Tree Hill, River Valley, Singapore",OK,,2,
+2026-07-18T17:04:15.314031,text_search,2,AIzaSy...8yB0,75,River Valley,One Tree Hill,education,primary school,"primary school in One Tree Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:16.084446,text_search,2,AIzaSy...8yB0,76,River Valley,One Tree Hill,education,secondary school,"secondary school in One Tree Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:17.049069,text_search,2,AIzaSy...8yB0,77,River Valley,One Tree Hill,education,junior college,"junior college in One Tree Hill, River Valley, Singapore",OK,,4,
+2026-07-18T17:04:17.610950,text_search,2,AIzaSy...8yB0,78,River Valley,One Tree Hill,education,polytechnic,"polytechnic in One Tree Hill, River Valley, Singapore",OK,,3,
+2026-07-18T17:04:18.207620,text_search,2,AIzaSy...8yB0,79,River Valley,One Tree Hill,education,university,"university in One Tree Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:19.150647,text_search,2,AIzaSy...8yB0,80,River Valley,One Tree Hill,education,tuition centre,"tuition centre in One Tree Hill, River Valley, Singapore",OK,,15,
+2026-07-18T17:04:19.775689,text_search,2,AIzaSy...8yB0,81,River Valley,One Tree Hill,education,library,"library in One Tree Hill, River Valley, Singapore",OK,,5,
+2026-07-18T17:04:20.652340,text_search,2,AIzaSy...8yB0,82,River Valley,One Tree Hill,transport,MRT station,"MRT station in One Tree Hill, River Valley, Singapore",OK,,3,
+2026-07-18T17:04:21.676947,text_search,2,AIzaSy...8yB0,83,River Valley,One Tree Hill,transport,bus stop,"bus stop in One Tree Hill, River Valley, Singapore",OK,,2,
+2026-07-18T17:04:22.489127,text_search,2,AIzaSy...8yB0,84,River Valley,One Tree Hill,transport,bus interchange,"bus interchange in One Tree Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:23.353638,text_search,2,AIzaSy...8yB0,85,River Valley,One Tree Hill,transport,LRT station,"LRT station in One Tree Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:24.168654,text_search,2,AIzaSy...8yB0,86,River Valley,One Tree Hill,food,hawker centre,"hawker centre in One Tree Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:25.148213,text_search,2,AIzaSy...8yB0,87,River Valley,One Tree Hill,food,food court,"food court in One Tree Hill, River Valley, Singapore",OK,,3,
+2026-07-18T17:04:26.315389,text_search,2,AIzaSy...8yB0,88,River Valley,One Tree Hill,food,coffee shop,"coffee shop in One Tree Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:27.359281,text_search,2,AIzaSy...8yB0,89,River Valley,One Tree Hill,food,restaurant,"restaurant in One Tree Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:28.072920,text_search,2,AIzaSy...8yB0,90,River Valley,One Tree Hill,food,cafe,"cafe in One Tree Hill, River Valley, Singapore",OK,,7,
+2026-07-18T17:04:28.803717,text_search,2,AIzaSy...8yB0,91,River Valley,One Tree Hill,shopping,shopping mall,"shopping mall in One Tree Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:29.665500,text_search,2,AIzaSy...8yB0,92,River Valley,One Tree Hill,shopping,supermarket,"supermarket in One Tree Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:30.479865,text_search,2,AIzaSy...8yB0,93,River Valley,One Tree Hill,shopping,grocery store,"grocery store in One Tree Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:31.394084,text_search,2,AIzaSy...8yB0,94,River Valley,One Tree Hill,shopping,convenience store,"convenience store in One Tree Hill, River Valley, Singapore",OK,,5,
+2026-07-18T17:04:32.241283,text_search,2,AIzaSy...8yB0,95,River Valley,One Tree Hill,shopping,wet market,"wet market in One Tree Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:32.965174,text_search,2,AIzaSy...8yB0,96,River Valley,One Tree Hill,recreation,gym,"gym in One Tree Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:34.198121,text_search,2,AIzaSy...8yB0,97,River Valley,One Tree Hill,recreation,sports centre,"sports centre in One Tree Hill, River Valley, Singapore",OK,,4,
+2026-07-18T17:04:34.774838,text_search,2,AIzaSy...8yB0,98,River Valley,One Tree Hill,recreation,swimming complex,"swimming complex in One Tree Hill, River Valley, Singapore",OK,,12,
+2026-07-18T17:04:35.618772,text_search,2,AIzaSy...8yB0,99,River Valley,One Tree Hill,recreation,cinema,"cinema in One Tree Hill, River Valley, Singapore",OK,,3,
+2026-07-18T17:04:36.449583,text_search,2,AIzaSy...8yB0,100,River Valley,One Tree Hill,recreation,community club,"community club in One Tree Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:37.263541,text_search,2,AIzaSy...8yB0,101,River Valley,One Tree Hill,recreation,playground,"playground in One Tree Hill, River Valley, Singapore",OK,,12,
+2026-07-18T17:04:37.993962,text_search,2,AIzaSy...8yB0,102,River Valley,One Tree Hill,nature,park,"park in One Tree Hill, River Valley, Singapore",OK,,9,
+2026-07-18T17:04:38.638570,text_search,2,AIzaSy...8yB0,103,River Valley,One Tree Hill,nature,nature reserve,"nature reserve in One Tree Hill, River Valley, Singapore",OK,,8,
+2026-07-18T17:04:39.519367,text_search,2,AIzaSy...8yB0,104,River Valley,One Tree Hill,nature,garden,"garden in One Tree Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:40.174463,text_search,2,AIzaSy...8yB0,105,River Valley,One Tree Hill,nature,beach,"beach in One Tree Hill, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:41.008125,text_search,2,AIzaSy...8yB0,106,River Valley,One Tree Hill,nature,waterfront,"waterfront in One Tree Hill, River Valley, Singapore",OK,,5,
+2026-07-18T17:04:41.927982,text_search,2,AIzaSy...8yB0,107,River Valley,One Tree Hill,nature,park connector,"park connector in One Tree Hill, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:42.534016,text_search,2,AIzaSy...8yB0,108,River Valley,Oxley,education,kindergarten,"kindergarten in Oxley, River Valley, Singapore",OK,,4,
+2026-07-18T17:04:43.283369,text_search,2,AIzaSy...8yB0,109,River Valley,Oxley,education,childcare centre,"childcare centre in Oxley, River Valley, Singapore",OK,,6,
+2026-07-18T17:04:44.168986,text_search,2,AIzaSy...8yB0,110,River Valley,Oxley,education,primary school,"primary school in Oxley, River Valley, Singapore",OK,,3,
+2026-07-18T17:04:44.946665,text_search,2,AIzaSy...8yB0,111,River Valley,Oxley,education,secondary school,"secondary school in Oxley, River Valley, Singapore",OK,,4,
+2026-07-18T17:04:45.828187,text_search,2,AIzaSy...8yB0,112,River Valley,Oxley,education,junior college,"junior college in Oxley, River Valley, Singapore",OK,,14,
+2026-07-18T17:04:46.842032,text_search,2,AIzaSy...8yB0,113,River Valley,Oxley,education,polytechnic,"polytechnic in Oxley, River Valley, Singapore",OK,,10,
+2026-07-18T17:04:47.509934,text_search,2,AIzaSy...8yB0,114,River Valley,Oxley,education,university,"university in Oxley, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:48.093238,text_search,2,AIzaSy...8yB0,115,River Valley,Oxley,education,tuition centre,"tuition centre in Oxley, River Valley, Singapore",OK,,7,
+2026-07-18T17:04:48.637813,text_search,2,AIzaSy...8yB0,116,River Valley,Oxley,education,library,"library in Oxley, River Valley, Singapore",OK,,3,
+2026-07-18T17:04:49.539306,text_search,2,AIzaSy...8yB0,117,River Valley,Oxley,transport,MRT station,"MRT station in Oxley, River Valley, Singapore",OK,,1,
+2026-07-18T17:04:50.251441,text_search,2,AIzaSy...8yB0,118,River Valley,Oxley,transport,bus stop,"bus stop in Oxley, River Valley, Singapore",OK,,2,
+2026-07-18T17:04:50.871898,text_search,2,AIzaSy...8yB0,119,River Valley,Oxley,transport,bus interchange,"bus interchange in Oxley, River Valley, Singapore",OK,,14,
+2026-07-18T17:04:51.744516,text_search,2,AIzaSy...8yB0,120,River Valley,Oxley,transport,LRT station,"LRT station in Oxley, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:52.624727,text_search,2,AIzaSy...8yB0,121,River Valley,Oxley,food,hawker centre,"hawker centre in Oxley, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:53.562317,text_search,2,AIzaSy...8yB0,122,River Valley,Oxley,food,food court,"food court in Oxley, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:54.402387,text_search,2,AIzaSy...8yB0,123,River Valley,Oxley,food,coffee shop,"coffee shop in Oxley, River Valley, Singapore",OK,,6,
+2026-07-18T17:04:55.143023,text_search,2,AIzaSy...8yB0,124,River Valley,Oxley,food,restaurant,"restaurant in Oxley, River Valley, Singapore",OK,,20,
+2026-07-18T17:04:56.029249,text_search,2,AIzaSy...8yB0,125,River Valley,Oxley,food,cafe,"cafe in Oxley, River Valley, Singapore",OK,,7,
+2026-07-18T17:04:56.796337,text_search,2,AIzaSy...8yB0,126,River Valley,Oxley,shopping,shopping mall,"shopping mall in Oxley, River Valley, Singapore",OK,,10,
+2026-07-18T17:04:57.766949,text_search,2,AIzaSy...8yB0,127,River Valley,Oxley,shopping,supermarket,"supermarket in Oxley, River Valley, Singapore",OK,,15,
+2026-07-18T17:04:58.565385,text_search,2,AIzaSy...8yB0,128,River Valley,Oxley,shopping,grocery store,"grocery store in Oxley, River Valley, Singapore",OK,,15,
+2026-07-18T17:04:59.500793,text_search,2,AIzaSy...8yB0,129,River Valley,Oxley,shopping,convenience store,"convenience store in Oxley, River Valley, Singapore",OK,,4,
+2026-07-18T17:05:00.102474,text_search,2,AIzaSy...8yB0,130,River Valley,Oxley,shopping,wet market,"wet market in Oxley, River Valley, Singapore",OK,,5,
+2026-07-18T17:05:00.875395,text_search,2,AIzaSy...8yB0,131,River Valley,Oxley,recreation,gym,"gym in Oxley, River Valley, Singapore",OK,,10,
+2026-07-18T17:05:01.694263,text_search,2,AIzaSy...8yB0,132,River Valley,Oxley,recreation,sports centre,"sports centre in Oxley, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:02.789048,text_search,2,AIzaSy...8yB0,133,River Valley,Oxley,recreation,swimming complex,"swimming complex in Oxley, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:03.578296,text_search,2,AIzaSy...8yB0,134,River Valley,Oxley,recreation,cinema,"cinema in Oxley, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:04.146862,text_search,2,AIzaSy...8yB0,135,River Valley,Oxley,recreation,community club,"community club in Oxley, River Valley, Singapore",OK,,5,
+2026-07-18T17:05:04.846782,text_search,2,AIzaSy...8yB0,136,River Valley,Oxley,recreation,playground,"playground in Oxley, River Valley, Singapore",OK,,6,
+2026-07-18T17:05:05.494195,text_search,2,AIzaSy...8yB0,137,River Valley,Oxley,nature,park,"park in Oxley, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:06.104297,text_search,2,AIzaSy...8yB0,138,River Valley,Oxley,nature,nature reserve,"nature reserve in Oxley, River Valley, Singapore",OK,,7,
+2026-07-18T17:05:06.834250,text_search,2,AIzaSy...8yB0,139,River Valley,Oxley,nature,garden,"garden in Oxley, River Valley, Singapore",OK,,1,
+2026-07-18T17:05:07.463409,text_search,2,AIzaSy...8yB0,140,River Valley,Oxley,nature,beach,"beach in Oxley, River Valley, Singapore",OK,,3,
+2026-07-18T17:05:08.394898,text_search,2,AIzaSy...8yB0,141,River Valley,Oxley,nature,waterfront,"waterfront in Oxley, River Valley, Singapore",OK,,6,
+2026-07-18T17:05:09.246138,text_search,2,AIzaSy...8yB0,142,River Valley,Oxley,nature,park connector,"park connector in Oxley, River Valley, Singapore",OK,,15,
+2026-07-18T17:05:09.895409,text_search,2,AIzaSy...8yB0,143,River Valley,Paterson,education,kindergarten,"kindergarten in Paterson, River Valley, Singapore",OK,,1,
+2026-07-18T17:05:10.787618,text_search,2,AIzaSy...8yB0,144,River Valley,Paterson,education,childcare centre,"childcare centre in Paterson, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:11.736378,text_search,2,AIzaSy...8yB0,145,River Valley,Paterson,education,primary school,"primary school in Paterson, River Valley, Singapore",OK,,2,
+2026-07-18T17:05:12.340089,text_search,2,AIzaSy...8yB0,146,River Valley,Paterson,education,secondary school,"secondary school in Paterson, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:13.334993,text_search,2,AIzaSy...8yB0,147,River Valley,Paterson,education,junior college,"junior college in Paterson, River Valley, Singapore",OK,,11,
+2026-07-18T17:05:14.284649,text_search,2,AIzaSy...8yB0,148,River Valley,Paterson,education,polytechnic,"polytechnic in Paterson, River Valley, Singapore",OK,,6,
+2026-07-18T17:05:15.325502,text_search,2,AIzaSy...8yB0,149,River Valley,Paterson,education,university,"university in Paterson, River Valley, Singapore",OK,,15,
+2026-07-18T17:05:16.062682,text_search,2,AIzaSy...8yB0,150,River Valley,Paterson,education,tuition centre,"tuition centre in Paterson, River Valley, Singapore",OK,,14,
+2026-07-18T17:05:17.131736,text_search,2,AIzaSy...8yB0,151,River Valley,Paterson,education,library,"library in Paterson, River Valley, Singapore",OK,,9,
+2026-07-18T17:05:17.848906,text_search,2,AIzaSy...8yB0,152,River Valley,Paterson,transport,MRT station,"MRT station in Paterson, River Valley, Singapore",OK,,2,
+2026-07-18T17:05:18.404808,text_search,2,AIzaSy...8yB0,153,River Valley,Paterson,transport,bus stop,"bus stop in Paterson, River Valley, Singapore",OK,,3,
+2026-07-18T17:05:19.469351,text_search,2,AIzaSy...8yB0,154,River Valley,Paterson,transport,bus interchange,"bus interchange in Paterson, River Valley, Singapore",OK,,13,
+2026-07-18T17:05:20.427388,text_search,2,AIzaSy...8yB0,155,River Valley,Paterson,transport,LRT station,"LRT station in Paterson, River Valley, Singapore",OK,,15,
+2026-07-18T17:05:21.091226,text_search,2,AIzaSy...8yB0,156,River Valley,Paterson,food,hawker centre,"hawker centre in Paterson, River Valley, Singapore",OK,,17,
+2026-07-18T17:05:21.968065,text_search,2,AIzaSy...8yB0,157,River Valley,Paterson,food,food court,"food court in Paterson, River Valley, Singapore",OK,,19,
+2026-07-18T17:05:22.565887,text_search,2,AIzaSy...8yB0,158,River Valley,Paterson,food,coffee shop,"coffee shop in Paterson, River Valley, Singapore",OK,,10,
+2026-07-18T17:05:23.212049,text_search,2,AIzaSy...8yB0,159,River Valley,Paterson,food,restaurant,"restaurant in Paterson, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:24.097253,text_search,2,AIzaSy...8yB0,160,River Valley,Paterson,food,cafe,"cafe in Paterson, River Valley, Singapore",OK,,11,
+2026-07-18T17:05:25.016191,text_search,2,AIzaSy...8yB0,161,River Valley,Paterson,shopping,shopping mall,"shopping mall in Paterson, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:25.912953,text_search,2,AIzaSy...8yB0,162,River Valley,Paterson,shopping,supermarket,"supermarket in Paterson, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:26.817438,text_search,2,AIzaSy...8yB0,163,River Valley,Paterson,shopping,grocery store,"grocery store in Paterson, River Valley, Singapore",OK,,4,
+2026-07-18T17:05:27.662498,text_search,2,AIzaSy...8yB0,164,River Valley,Paterson,shopping,convenience store,"convenience store in Paterson, River Valley, Singapore",OK,,6,
+2026-07-18T17:05:28.292262,text_search,2,AIzaSy...8yB0,165,River Valley,Paterson,shopping,wet market,"wet market in Paterson, River Valley, Singapore",OK,,7,
+2026-07-18T17:05:29.143402,text_search,2,AIzaSy...8yB0,166,River Valley,Paterson,recreation,gym,"gym in Paterson, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:29.711072,text_search,2,AIzaSy...8yB0,167,River Valley,Paterson,recreation,sports centre,"sports centre in Paterson, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:30.348873,text_search,2,AIzaSy...8yB0,168,River Valley,Paterson,recreation,swimming complex,"swimming complex in Paterson, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:31.091769,text_search,2,AIzaSy...8yB0,169,River Valley,Paterson,recreation,cinema,"cinema in Paterson, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:32.046084,text_search,2,AIzaSy...8yB0,170,River Valley,Paterson,recreation,community club,"community club in Paterson, River Valley, Singapore",OK,,20,
+2026-07-18T17:05:32.697336,text_search,2,AIzaSy...8yB0,171,River Valley,Paterson,recreation,playground,"playground in Paterson, River Valley, Singapore",OK,,14,
+2026-07-18T17:05:33.402777,text_search,2,AIzaSy...8yB0,172,River Valley,Paterson,nature,park,"park in Paterson, River Valley, Singapore",OK,,18,
+2026-07-18T17:05:34.288398,text_search,2,AIzaSy...8yB0,173,River Valley,Paterson,nature,nature reserve,"nature reserve in Paterson, River Valley, Singapore",OK,,13,
+2026-07-18T17:05:34.900381,text_search,2,AIzaSy...8yB0,174,River Valley,Paterson,nature,garden,"garden in Paterson, River Valley, Singapore",OK,,19,
+2026-07-18T17:05:35.682615,text_search,2,AIzaSy...8yB0,175,River Valley,Paterson,nature,beach,"beach in Paterson, River Valley, Singapore",OK,,1,
+2026-07-18T17:05:36.475167,text_search,2,AIzaSy...8yB0,176,River Valley,Paterson,nature,waterfront,"waterfront in Paterson, River Valley, Singapore",OK,,9,
+2026-07-18T17:05:37.439140,text_search,2,AIzaSy...8yB0,177,River Valley,Paterson,nature,park connector,"park connector in Paterson, River Valley, Singapore",OK,,9,
+2026-07-18T17:05:37.913362,place_details_reviews,2,AIzaSy...8yB0,178,River Valley,Institution Hill,education,kindergarten,ChIJrbxqbVYZ2jEREs2Bq8ZAm6M,OK,,5,Superland Pre-school (River valley)
+2026-07-18T17:05:38.311858,place_details_reviews,2,AIzaSy...8yB0,179,River Valley,Institution Hill,education,kindergarten,ChIJJ1rP4p4Z2jERTuGtVjG6BZE,OK,,5,Cambridge @ River Valley
+2026-07-18T17:05:38.636260,place_details_reviews,2,AIzaSy...8yB0,180,River Valley,Institution Hill,education,primary school,ChIJN0U4f5sZ2jERvMJyLZdur2s,OK,,0,River Valley Primary School
+2026-07-18T17:05:39.107940,place_details_reviews,2,AIzaSy...8yB0,181,River Valley,Institution Hill,education,secondary school,ChIJ6bZLcpkZ2jER93bC-z2IZfQ,OK,,5,DIMENSIONS School of Higher Education / Languages (City Campus)
+2026-07-18T17:05:39.892112,place_details_reviews,2,AIzaSy...8yB0,182,River Valley,Institution Hill,education,secondary school,ChIJq6r6EpkZ2jER6iB6Cx-PJXg,OK,,5,Dimensions International College
+2026-07-18T17:05:40.562844,place_details_reviews,2,AIzaSy...8yB0,183,River Valley,Institution Hill,education,junior college,ChIJ61lTU6EQ2jERiBDECMxHYFY,OK,,5,National Junior College
+2026-07-18T17:05:41.376384,place_details_reviews,2,AIzaSy...8yB0,184,River Valley,Institution Hill,education,junior college,ChIJESRAQ1sa2jERlSmmrDCCriw,OK,,5,Anglo-Chinese Junior College
+2026-07-18T17:05:42.304758,place_details_reviews,2,AIzaSy...8yB0,185,River Valley,Institution Hill,education,polytechnic,ChIJFXzxL2Aa2jERnoWTOdJdVKk,OK,,5,Singapore Polytechnic
+2026-07-18T17:05:42.905617,place_details_reviews,2,AIzaSy...8yB0,186,River Valley,Institution Hill,education,polytechnic,ChIJWeO0jn0Q2jERQwzr3v_n0nU,OK,,5,Ngee Ann Polytechnic
+2026-07-18T17:05:43.487844,place_details_reviews,2,AIzaSy...8yB0,187,River Valley,Institution Hill,education,tuition centre,ChIJkYFOqZQZ2jERyK47GVvwBUE,OK,,5,Erudition Learning Hub
+2026-07-18T17:05:44.074036,place_details_reviews,2,AIzaSy...8yB0,188,River Valley,Institution Hill,education,tuition centre,ChIJxXbZS5oZ2jERptJ2JPGeb08,OK,,5,IB Super Education Centre
+2026-07-18T17:05:44.913233,place_details_reviews,2,AIzaSy...8yB0,189,River Valley,Institution Hill,education,library,ChIJ1fYfwGAa2jERy7f1JLymou0,OK,,5,SP - Library & FabLab
+2026-07-18T17:05:45.356392,place_details_reviews,2,AIzaSy...8yB0,190,River Valley,Institution Hill,education,library,ChIJKaGsJKUZ2jERxa8yhKrdPfI,OK,,5,National Library / Lee Kong Chian Reference Library
+2026-07-18T17:05:45.858516,place_details_reviews,2,AIzaSy...8yB0,191,River Valley,Institution Hill,transport,MRT station,ChIJZ6DkSpsZ2jERgGDtbZEvAbY,OK,,5,Great World
+2026-07-18T17:05:46.394630,place_details_reviews,2,AIzaSy...8yB0,192,River Valley,Institution Hill,transport,MRT station,ChIJBT-Cx8kZ2jERHiqn93WInCo,OK,,3,Great World MRT station Exit 5
+2026-07-18T17:05:47.037346,place_details_reviews,2,AIzaSy...8yB0,193,River Valley,Institution Hill,transport,bus stop,ChIJiyh-u5gZ2jERHdoLF0rI8Zc,OK,,4,Aft River Valley Rd
+2026-07-18T17:05:47.526759,place_details_reviews,2,AIzaSy...8yB0,194,River Valley,Institution Hill,transport,bus stop,ChIJteXMe5kZ2jERWg_iqJLcsbk,OK,,5,Bef Kim Yam Rd
+2026-07-18T17:05:48.121923,place_details_reviews,2,AIzaSy...8yB0,195,River Valley,Institution Hill,transport,LRT station,ChIJXVEaZ58Z2jERj3zBU4-2-Zs,OK,,5,Fort Canning
+2026-07-18T17:05:48.699921,place_details_reviews,2,AIzaSy...8yB0,196,River Valley,Institution Hill,food,hawker centre,ChIJ_c6vFoMZ2jERBWATXfBQ7Aw,OK,,5,Zion Riverside Food Centre
+2026-07-18T17:05:49.232949,place_details_reviews,2,AIzaSy...8yB0,197,River Valley,Institution Hill,food,hawker centre,ChIJo82iHRYb2jERs6XaOYfn0jg,OK,,5,Uncle Lim’s Diner
+2026-07-18T17:05:49.867528,place_details_reviews,2,AIzaSy...8yB0,198,River Valley,Institution Hill,food,food court,ChIJl1akTQYZ2jERm7v5ig4zPkw,OK,,5,TiffinLabs
+2026-07-18T17:05:50.653278,place_details_reviews,2,AIzaSy...8yB0,199,River Valley,Institution Hill,food,food court,ChIJh9dKz3UZ2jERYE4pG5Tuzeo,OK,,5,Sin Chao Gardens 新潮園
+2026-07-18T17:05:51.244077,place_details_reviews,2,AIzaSy...8yB0,200,River Valley,Institution Hill,food,coffee shop,ChIJd03DWwAZ2jERyzRj95WD1So,OK,,1,Chua cu king
+2026-07-18T17:05:51.858740,place_details_reviews,2,AIzaSy...8yB0,201,River Valley,Institution Hill,food,coffee shop,ChIJQY_beAAZ2jERGItRE1UqNH0,OK,,5,amayadori.house
+2026-07-18T17:05:52.335079,place_details_reviews,2,AIzaSy...8yB0,202,River Valley,Institution Hill,food,restaurant,ChIJqyyyhq0Z2jER9z-UJ7U6rtk,OK,,5,"L'Entrecôte Singapore River Valley, The Steak & Fries Bistro"
+2026-07-18T17:05:53.033942,place_details_reviews,2,AIzaSy...8yB0,203,River Valley,Institution Hill,food,restaurant,ChIJc7yZKm8Z2jER7uFRMfjA_RE,OK,,5,Orh Gao Peh Gao (New Bahru)
+2026-07-18T17:05:53.774352,place_details_reviews,2,AIzaSy...8yB0,204,River Valley,Institution Hill,food,cafe,ChIJXXb1AHUZ2jERSnrsjtx2gIk,OK,,5,artwerkx - dine 'n' unwind
+2026-07-18T17:05:54.344002,place_details_reviews,2,AIzaSy...8yB0,205,River Valley,Institution Hill,food,cafe,ChIJT3fdLZwZ2jERJx-QGgPAoac,OK,,5,Common Man Coffee Roasters - Martin Road
+2026-07-18T17:05:55.116379,place_details_reviews,2,AIzaSy...8yB0,206,River Valley,Institution Hill,shopping,shopping mall,ChIJLZ9oWoEZ2jERwxPWGD_Zpnw,OK,,5,Valley Point Shopping Centre
+2026-07-18T17:05:55.950871,place_details_reviews,2,AIzaSy...8yB0,207,River Valley,Institution Hill,shopping,shopping mall,ChIJnXwAOKAZ2jERAs-MHs1aDgI,OK,,5,CQ @ Clarke Quay
+2026-07-18T17:05:56.339486,place_details_reviews,2,AIzaSy...8yB0,208,River Valley,Institution Hill,shopping,supermarket,ChIJjZniPwAZ2jERx4qx_7dlNy0,OK,,5,FairPrice Finest Clarke Quay
+2026-07-18T17:05:56.942455,place_details_reviews,2,AIzaSy...8yB0,209,River Valley,Institution Hill,shopping,supermarket,ChIJ-9_r1pgZ2jERv99vYp5_7EM,OK,,5,I-Tec Supermart Pte Ltd
+2026-07-18T17:05:57.612719,place_details_reviews,2,AIzaSy...8yB0,210,River Valley,Institution Hill,shopping,grocery store,ChIJJW2-kpcZ2jER27BcHvBnNN4,OK,,5,Luna Supermart
+2026-07-18T17:05:58.589219,place_details_reviews,2,AIzaSy...8yB0,211,River Valley,Institution Hill,shopping,convenience store,ChIJazlY6Z4Z2jERlQT48mfOXtE,OK,,5,7-Eleven
+2026-07-18T17:05:59.038424,place_details_reviews,2,AIzaSy...8yB0,212,River Valley,Institution Hill,shopping,wet market,ChIJOU6y-HkZ2jERchOICIgjl0E,OK,,5,Tiong Bahru Market
+2026-07-18T17:05:59.468244,place_details_reviews,2,AIzaSy...8yB0,213,River Valley,Institution Hill,shopping,wet market,ChIJL0re-lYP2jERKbCDnL-dhZ0,OK,,3,Fresh Kampong Chicken
+2026-07-18T17:05:59.985960,place_details_reviews,2,AIzaSy...8yB0,214,River Valley,Institution Hill,recreation,gym,ChIJ-WBwsS0Z2jERPU7nCWlvWzU,OK,,5,XYCO Studio (Reformer - Mohamed Sultan)
+2026-07-18T17:06:00.371876,place_details_reviews,2,AIzaSy...8yB0,215,River Valley,Institution Hill,recreation,gym,ChIJgYDkBVoZ2jERVeYxP23lr_w,OK,,5,Performance by Active Fitness
+2026-07-18T17:06:01.015670,place_details_reviews,2,AIzaSy...8yB0,216,River Valley,Institution Hill,recreation,sports centre,ChIJoRyyI8QZ2jER2tR8NTL8VG0,OK,,5,The Ice Bath Club - River Valley
+2026-07-18T17:06:01.352927,place_details_reviews,2,AIzaSy...8yB0,217,River Valley,Institution Hill,recreation,swimming complex,ChIJcfBJ73cZ2jER5S5NNc2gGSY,OK,,5,HydroSplash Swimming Academy
+2026-07-18T17:06:01.898052,place_details_reviews,2,AIzaSy...8yB0,218,River Valley,Institution Hill,recreation,cinema,ChIJF0N_wggZ2jERCyYCQ6sl7r0,OK,,5,Golden Village Cineleisure
+2026-07-18T17:06:02.375271,place_details_reviews,2,AIzaSy...8yB0,219,River Valley,Institution Hill,recreation,cinema,ChIJ1btJfAAZ2jEReSzub3K76o4,OK,,5,Filmhouse at Golden Mile Tower
+2026-07-18T17:06:02.990377,place_details_reviews,2,AIzaSy...8yB0,220,River Valley,Institution Hill,recreation,community club,ChIJAcs3hFIQ2jERyK9SYBlkYKc,OK,,5,Hillview Community Club
+2026-07-18T17:06:03.329851,place_details_reviews,2,AIzaSy...8yB0,221,River Valley,Institution Hill,recreation,community club,ChIJ6wSMeewZ2jERnRkQnVf_7-c,OK,,5,Cairnhill Community Club
+2026-07-18T17:06:04.051100,place_details_reviews,2,AIzaSy...8yB0,222,River Valley,Institution Hill,recreation,playground,ChIJ4QfXz4cZ2jERRcFVXIdWHB8,OK,,5,Kiztopia Prestige
+2026-07-18T17:06:04.938442,place_details_reviews,2,AIzaSy...8yB0,223,River Valley,Institution Hill,recreation,playground,ChIJPV8Z1JwZ2jERKuFD4uIVgOM,OK,,5,Jubilee Park
+2026-07-18T17:06:06.334883,place_details_reviews,2,AIzaSy...8yB0,224,River Valley,Institution Hill,nature,park,ChIJVSYjJKIZ2jERpRFinATD52s,OK,,5,Fort Canning Park
+2026-07-18T17:06:06.986862,place_details_reviews,2,AIzaSy...8yB0,225,River Valley,Institution Hill,nature,park,ChIJt6Q1H5sZ2jER31JuwJ42tdk,OK,,5,Yong An Park
+2026-07-18T17:06:07.413817,place_details_reviews,2,AIzaSy...8yB0,226,River Valley,Institution Hill,nature,nature reserve,ChIJO9cemPUQ2jERvlh8KtwhtAc,OK,,5,Bukit Timah Nature Reserve
+2026-07-18T17:06:08.181211,place_details_reviews,2,AIzaSy...8yB0,227,River Valley,Institution Hill,nature,nature reserve,ChIJR9wDuIwQ2jERp5g9l0m9MQ0,OK,,5,Rifle Range Nature Park
+2026-07-18T17:06:08.830697,place_details_reviews,2,AIzaSy...8yB0,228,River Valley,Institution Hill,nature,garden,ChIJo714KsEZ2jERAwbjfpK78oY,OK,,5,Sang Nila Utama Garden
+2026-07-18T17:06:09.183536,place_details_reviews,2,AIzaSy...8yB0,229,River Valley,Institution Hill,nature,garden,ChIJJR6WlZwZ2jERrqozupYl9tg,OK,,5,Kim Seng Park
+2026-07-18T17:06:09.855340,place_details_reviews,2,AIzaSy...8yB0,230,River Valley,Institution Hill,nature,beach,ChIJUzbaYws82jERXHKMRlUKIug,OK,,5,Changi Beach Park
+2026-07-18T17:06:10.407483,place_details_reviews,2,AIzaSy...8yB0,231,River Valley,Institution Hill,nature,waterfront,ChIJ3W1vL2sZ2jERMzwdvYswq0E,OK,,3,Hill House
+2026-07-18T17:06:10.967489,place_details_reviews,2,AIzaSy...8yB0,232,River Valley,Institution Hill,nature,waterfront,ChIJlYODbp0Z2jER72E6GXzYISY,OK,,5,Waterfront Plaza
+2026-07-18T17:06:11.442449,place_details_reviews,2,AIzaSy...8yB0,233,River Valley,Institution Hill,nature,park connector,ChIJsdQGeKoZ2jERO5l14EAanao,OK,,5,Alexandra Park Connector
+2026-07-18T17:06:12.188637,place_details_reviews,2,AIzaSy...8yB0,234,River Valley,Institution Hill,nature,park connector,ChIJe1R9UwAZ2jERayGjYu179xQ,OK,,0,Henderson Park Connector
+2026-07-18T17:06:12.701532,place_details_reviews,2,AIzaSy...8yB0,235,River Valley,Leonie Hill,education,kindergarten,ChIJFawMlY8Z2jERJLjCWxNy2PE,OK,,5,Little Village
+2026-07-18T17:06:13.449242,place_details_reviews,2,AIzaSy...8yB0,236,River Valley,Leonie Hill,education,kindergarten,ChIJHSrhfp8Z2jERF_ctJKdXMNY,OK,,5,The Schoolhouse River Valley
+2026-07-18T17:06:13.897922,place_details_reviews,2,AIzaSy...8yB0,237,River Valley,Leonie Hill,education,primary school,ChIJ-UtF31oa2jER2fW9Tw7KxOg,OK,,0,Fairfield Methodist School (Primary)
+2026-07-18T17:06:14.549301,place_details_reviews,2,AIzaSy...8yB0,238,River Valley,Leonie Hill,education,secondary school,ChIJcaSUXoUZ2jERpw8Ux-cPvwc,OK,,5,Leonie Gardens
+2026-07-18T17:06:15.036334,place_details_reviews,2,AIzaSy...8yB0,239,River Valley,Leonie Hill,education,secondary school,ChIJAeSQDpAZ2jERVXZO-y1KDgw,OK,,5,Leonie Parcview
+2026-07-18T17:06:15.655359,place_details_reviews,2,AIzaSy...8yB0,240,River Valley,Leonie Hill,education,junior college,ChIJcU51PAAZ2jER1benHzewWK8,OK,,0,Leonie Hill Residences
+2026-07-18T17:06:16.231939,place_details_reviews,2,AIzaSy...8yB0,241,River Valley,Leonie Hill,education,junior college,ChIJQY_o_cEX2jERigszGxBJ7BM,OK,,5,Eunoia Junior College
+2026-07-18T17:06:16.955703,place_details_reviews,2,AIzaSy...8yB0,242,River Valley,Leonie Hill,education,tuition centre,ChIJCclkuJoZ2jERC20_7A8RPJw,OK,,5,Leonie Condotel
+2026-07-18T17:06:17.326065,place_details_reviews,2,AIzaSy...8yB0,243,River Valley,Leonie Hill,education,tuition centre,ChIJq5jj_FoZ2jERLU3v4q2EUmQ,OK,,5,The Eton Academy by EtonHouse (Great World)
+2026-07-18T17:06:17.871757,place_details_reviews,2,AIzaSy...8yB0,244,River Valley,Leonie Hill,education,library,ChIJTXdxQk4b2jER4HdHnRNjvLY,OK,,5,HV Little Library
+2026-07-18T17:06:18.494321,place_details_reviews,2,AIzaSy...8yB0,245,River Valley,Leonie Hill,food,hawker centre,ChIJsUJymcwZ2jERaYAaWRthb5s,OK,,5,Hawkers' Street @ ION
+2026-07-18T17:06:19.135101,place_details_reviews,2,AIzaSy...8yB0,246,River Valley,Leonie Hill,food,food court,ChIJBfpIMFIa2jER0kicxx7NJvk,OK,,5,The Dining Avenue
+2026-07-18T17:06:19.895537,place_details_reviews,2,AIzaSy...8yB0,247,River Valley,Leonie Hill,food,food court,ChIJ61QFbgAb2jERKfAzYiZspZU,OK,,5,Food Court @Harbourlink Innohub
+2026-07-18T17:06:20.738486,place_details_reviews,2,AIzaSy...8yB0,248,River Valley,Leonie Hill,food,coffee shop,ChIJsagBcgAb2jERAeP1PYWVL58,OK,,5,Grounds On A Hill Coffee
+2026-07-18T17:06:21.197537,place_details_reviews,2,AIzaSy...8yB0,249,River Valley,Leonie Hill,food,coffee shop,ChIJ6ezLFuUZ2jERPQ4NOq9Yel0,OK,,5,PRAIRIE by Craftsmen (River Valley)
+2026-07-18T17:06:21.803781,place_details_reviews,2,AIzaSy...8yB0,250,River Valley,Leonie Hill,shopping,supermarket,ChIJiarwlIIZ2jEREShmpZLux_U,OK,,2,Ponni SuperMarket
+2026-07-18T17:06:22.305734,place_details_reviews,2,AIzaSy...8yB0,251,River Valley,Leonie Hill,shopping,supermarket,ChIJp_zYIlwa2jERrIDQ8AVDvCw,OK,,5,FairPrice Dover Crescent
+2026-07-18T17:06:22.956305,place_details_reviews,2,AIzaSy...8yB0,252,River Valley,Leonie Hill,shopping,grocery store,ChIJTyWXW4EZ2jERvzrznx6-XSc,OK,,5,"Little Farms Market, Valley Point (Grocery store)"
+2026-07-18T17:06:23.439393,place_details_reviews,2,AIzaSy...8yB0,253,River Valley,Leonie Hill,shopping,grocery store,ChIJ9TjTdLEZ2jERhpGMY35BuUE,OK,,5,Surrey Hills Grocer - ION Orchard
+2026-07-18T17:06:23.977492,place_details_reviews,2,AIzaSy...8yB0,254,River Valley,Leonie Hill,recreation,gym,ChIJz3Jxs08Z2jERWmmEcduC5Zk,OK,,5,REVL Training River Valley
+2026-07-18T17:06:24.623409,place_details_reviews,2,AIzaSy...8yB0,255,River Valley,Leonie Hill,recreation,gym,ChIJv45dMSA92jERDu9ehYGLbyw,OK,,5,Flex Fitness
+2026-07-18T17:06:24.979026,place_details_reviews,2,AIzaSy...8yB0,256,River Valley,Leonie Hill,recreation,sports centre,ChIJgx4YWagR2jERCasQYF6YSKI,OK,,5,ARK Sports Village
+2026-07-18T17:06:25.833453,place_details_reviews,2,AIzaSy...8yB0,257,River Valley,Leonie Hill,recreation,swimming complex,ChIJ33aWL4UZ2jER0141MjJksAY,OK,,5,Rivershire
+2026-07-18T17:06:26.434752,place_details_reviews,2,AIzaSy...8yB0,258,River Valley,Leonie Hill,recreation,playground,ChIJ1burLQgZ2jERMgJbSUuMYlA,OK,,5,Jubilee Children's Playground
+2026-07-18T17:06:27.058119,place_details_reviews,2,AIzaSy...8yB0,259,River Valley,Leonie Hill,recreation,playground,ChIJSSw7_tQb2jER3ivwN-5BwNM,OK,,5,COMO Adventure Grove
+2026-07-18T17:06:27.477733,place_details_reviews,2,AIzaSy...8yB0,260,River Valley,Leonie Hill,nature,beach,ChIJ_ZlKpJoZ2jERfZeoV4gJXVY,OK,,5,Leonie Towers A&B
+2026-07-18T17:06:28.065150,place_details_reviews,2,AIzaSy...8yB0,261,River Valley,One Tree Hill,education,kindergarten,ChIJFT9OV-8Z2jERSE7VPxvF2jo,OK,,5,MapleBear One Tree Hill
+2026-07-18T17:06:28.751261,place_details_reviews,2,AIzaSy...8yB0,262,River Valley,One Tree Hill,education,childcare centre,ChIJD1yqEFsZ2jERZxcPZOcuV74,OK,,5,The Orange Tree Preschool ( River Valley)
+2026-07-18T17:06:29.469622,place_details_reviews,2,AIzaSy...8yB0,263,River Valley,One Tree Hill,education,secondary school,ChIJo6oYDmEb2jERxsECpdT_e2k,OK,,0,Kent Ridge Secondary School
+2026-07-18T17:06:30.040039,place_details_reviews,2,AIzaSy...8yB0,264,River Valley,One Tree Hill,education,polytechnic,ChIJ86DyH0sb2jERfgzlDlxKdGc,OK,,5,Singapore Polytechnic Gate 1
+2026-07-18T17:06:30.736307,place_details_reviews,2,AIzaSy...8yB0,265,River Valley,One Tree Hill,education,university,ChIJ2QJCeFYa2jERa434wdYIjUg,OK,,5,National University of Singapore
+2026-07-18T17:06:31.493732,place_details_reviews,2,AIzaSy...8yB0,266,River Valley,One Tree Hill,education,tuition centre,ChIJp6tPGPIa2jER6d7E_4I65Z0,OK,,5,"Simon Eio Learning Centre - Primary, Secondary and JC Math & Science Tuition @ Clementi"
+2026-07-18T17:06:32.257902,place_details_reviews,2,AIzaSy...8yB0,267,River Valley,One Tree Hill,education,tuition centre,ChIJyRhBI9Eb2jERRoJYxpEvUW8,OK,,5,inStic Academy
+2026-07-18T17:06:32.693728,place_details_reviews,2,AIzaSy...8yB0,268,River Valley,One Tree Hill,education,library,ChIJLa4ra1Ua2jERYkEE5BYF-Os,OK,,5,ISEAS Library
+2026-07-18T17:06:33.064165,place_details_reviews,2,AIzaSy...8yB0,269,River Valley,One Tree Hill,education,library,ChIJJfVEO6UZ2jERq7ZasSTiEgg,OK,,5,Central Library
+2026-07-18T17:06:33.443330,place_details_reviews,2,AIzaSy...8yB0,270,River Valley,One Tree Hill,transport,MRT station,ChIJAeN00WAZ2jERRJuNySfxAXg,OK,,5,Great World MRT Station (TE15)
+2026-07-18T17:06:34.243492,place_details_reviews,2,AIzaSy...8yB0,271,River Valley,One Tree Hill,transport,bus stop,ChIJFz8TWogZ2jERsHpmtIIgD_8,OK,,4,Aft One Tree Hill
+2026-07-18T17:06:35.045095,place_details_reviews,2,AIzaSy...8yB0,272,River Valley,One Tree Hill,transport,bus stop,ChIJ67q1UIgZ2jERdEgiJ7Yelg0,OK,,2,Bef One Tree Hill
+2026-07-18T17:06:35.549591,place_details_reviews,2,AIzaSy...8yB0,273,River Valley,One Tree Hill,food,food court,ChIJMZpVzkgb2jER9Q9XfcbZYEU,OK,,5,Food Court 3 (Foodgle)
+2026-07-18T17:06:36.290491,place_details_reviews,2,AIzaSy...8yB0,274,River Valley,One Tree Hill,food,coffee shop,ChIJJzS8IAAZ2jER1c0YG9w1B6U,OK,,5,AU Croissant - Valley Point
+2026-07-18T17:06:36.975689,place_details_reviews,2,AIzaSy...8yB0,275,River Valley,One Tree Hill,food,coffee shop,ChIJXVpoansZ2jERuX-GAWwCDps,OK,,5,Grace Espresso
+2026-07-18T17:06:37.402859,place_details_reviews,2,AIzaSy...8yB0,276,River Valley,One Tree Hill,food,restaurant,ChIJ-WJNg9gZ2jERNJWbDrY4Z4w,OK,,5,Huevos @ River Valley
+2026-07-18T17:06:38.063598,place_details_reviews,2,AIzaSy...8yB0,277,River Valley,One Tree Hill,food,cafe,ChIJRXPeW4EZ2jERKDsNsob_hMA,OK,,5,"Little Farms Cafe, Valley Point"
+2026-07-18T17:06:38.707488,place_details_reviews,2,AIzaSy...8yB0,278,River Valley,One Tree Hill,shopping,convenience store,ChIJD7BdsFMa2jERWEnSy9Ema4M,OK,,5,7-Eleven
+2026-07-18T17:06:39.442841,place_details_reviews,2,AIzaSy...8yB0,279,River Valley,One Tree Hill,shopping,convenience store,ChIJ7WVN2X8b2jER00M1lbb-Z2k,OK,,5,7-Eleven
+2026-07-18T17:06:39.972167,place_details_reviews,2,AIzaSy...8yB0,280,River Valley,One Tree Hill,shopping,wet market,ChIJP-DyGdUb2jER4JzqRS-ubV8,OK,,5,Redhill Market
+2026-07-18T17:06:40.422932,place_details_reviews,2,AIzaSy...8yB0,281,River Valley,One Tree Hill,recreation,gym,ChIJTyWXW4EZ2jERZ5grKszKe_w,OK,,5,Anytime Fitness Valley Point
+2026-07-18T17:06:40.897679,place_details_reviews,2,AIzaSy...8yB0,282,River Valley,One Tree Hill,recreation,gym,ChIJa_wYV5Ub2jERLq4unP5LuXY,OK,,5,"Level Up Gym, one-north"
+2026-07-18T17:06:41.304901,place_details_reviews,2,AIzaSy...8yB0,283,River Valley,One Tree Hill,recreation,sports centre,ChIJ2cCNCFga2jER5JmIg6WzSNk,OK,,5,University Sports Centre
+2026-07-18T17:06:42.003380,place_details_reviews,2,AIzaSy...8yB0,284,River Valley,One Tree Hill,recreation,sports centre,ChIJWSysU5YQ2jERUzf-4-qhSY0,OK,,5,The Rainforest Sports Hub
+2026-07-18T17:06:42.447407,place_details_reviews,2,AIzaSy...8yB0,285,River Valley,One Tree Hill,recreation,swimming complex,ChIJUyDLFgAb2jER9AFttwsQ2Bg,OK,,4,Hundred Trees Condominium Swimming Pool
+2026-07-18T17:06:43.167513,place_details_reviews,2,AIzaSy...8yB0,286,River Valley,One Tree Hill,recreation,swimming complex,ChIJs2QKBVga2jERnVJjmUHtjZ8,OK,,5,Outdoor Swimming Pool
+2026-07-18T17:06:43.905311,place_details_reviews,2,AIzaSy...8yB0,287,River Valley,One Tree Hill,recreation,cinema,ChIJ3dSCfKMR2jERsBpC6UoFuaQ,OK,,5,EagleWings Cinematics
+2026-07-18T17:06:44.635679,place_details_reviews,2,AIzaSy...8yB0,288,River Valley,One Tree Hill,recreation,cinema,ChIJgYTJddwR2jER8MdGymd5AOA,OK,,5,CozyPlace @ Bukit Timah
+2026-07-18T17:06:45.080594,place_details_reviews,2,AIzaSy...8yB0,289,River Valley,One Tree Hill,recreation,community club,ChIJ4ydWlqMa2jERWCR933Y5D7s,OK,,5,Ayer Rajah Community Club
+2026-07-18T17:06:45.768334,place_details_reviews,2,AIzaSy...8yB0,290,River Valley,One Tree Hill,recreation,playground,ChIJmRYS5H0b2jERJXevI-inQZM,OK,,5,Nature Playgarden at One-North
+2026-07-18T17:06:46.244429,place_details_reviews,2,AIzaSy...8yB0,291,River Valley,One Tree Hill,recreation,playground,ChIJL-jdIuUa2jERgORf1PTFUow,OK,,5,Adventure Playground
+2026-07-18T17:06:46.715043,place_details_reviews,2,AIzaSy...8yB0,292,River Valley,One Tree Hill,nature,park,ChIJr_uWXrEb2jERw4hpdv17mZc,OK,,5,Kent Ridge Park
+2026-07-18T17:06:47.277599,place_details_reviews,2,AIzaSy...8yB0,293,River Valley,One Tree Hill,nature,park,ChIJ46XHZU8a2jERLxNPweiD2II,OK,,5,one-north Park: Fusionopolis South
+2026-07-18T17:06:47.890787,place_details_reviews,2,AIzaSy...8yB0,294,River Valley,One Tree Hill,nature,nature reserve,ChIJ_6g8kisX2jERaGrSixd_xbM,OK,,5,Windsor Nature Park
+2026-07-18T17:06:48.721838,place_details_reviews,2,AIzaSy...8yB0,295,River Valley,One Tree Hill,nature,garden,ChIJ-VQwRRka2jERkc_lV9HqbwE,OK,,5,Palm Valley Lawn
+2026-07-18T17:06:49.391961,place_details_reviews,2,AIzaSy...8yB0,296,River Valley,One Tree Hill,nature,beach,ChIJo1Gj9OUa2jERXyGNXLwuzls,OK,,5,Turning Point To Boardwalk
+2026-07-18T17:06:49.919421,place_details_reviews,2,AIzaSy...8yB0,297,River Valley,One Tree Hill,nature,waterfront,ChIJ4UCb_ogZ2jERk96GO_PxPSM,OK,,5,One Tree Hill Residence
+2026-07-18T17:06:50.285668,place_details_reviews,2,AIzaSy...8yB0,298,River Valley,One Tree Hill,nature,waterfront,ChIJxVb47OMZ2jERCsdFtwjWAbU,OK,,1,One Tree Hill Collection
+2026-07-18T17:06:51.093938,place_details_reviews,2,AIzaSy...8yB0,299,River Valley,One Tree Hill,nature,park connector,ChIJJTvN5Ckb2jERdwPiAsqZxOo,OK,,2,West Coast Park Connector
+2026-07-18T17:06:51.821347,place_details_reviews,2,AIzaSy...8yB0,300,River Valley,One Tree Hill,nature,park connector,ChIJOXwacPMP2jERxTgW0ZaOFTQ,OK,,2,Park Connector
+2026-07-18T17:06:52.731465,place_details_reviews,2,AIzaSy...8yB0,301,River Valley,Oxley,education,kindergarten,ChIJtW2S_BAZ2jERDOrEZ0MpN4Q,OK,,5,Ganenu Preschool
+2026-07-18T17:06:53.572064,place_details_reviews,2,AIzaSy...8yB0,302,River Valley,Oxley,education,kindergarten,ChIJBY8Y5lwZ2jER-fWFTTZwrms,OK,,5,Camelot River Valley
+2026-07-18T17:06:54.394926,place_details_reviews,2,AIzaSy...8yB0,303,River Valley,Oxley,education,childcare centre,ChIJPx2BBJkZ2jERCi66iJplKYo,OK,,5,Berries World of Learning School (River Valley)
+2026-07-18T17:06:54.778513,place_details_reviews,2,AIzaSy...8yB0,304,River Valley,Oxley,education,primary school,ChIJYZvVnUMZ2jERs0xGCAFVHtU,OK,,0,Wise Oaks International School Valley Point
+2026-07-18T17:06:55.410670,place_details_reviews,2,AIzaSy...8yB0,305,River Valley,Oxley,education,secondary school,ChIJr1lusOsP2jERKAFcVUeYtEA,OK,,0,River Valley High School
+2026-07-18T17:06:55.803809,place_details_reviews,2,AIzaSy...8yB0,306,River Valley,Oxley,education,polytechnic,ChIJA9odp5kZ2jERXSSkYc1TkXM,OK,,5,Oxley Thanksgiving Residence
+2026-07-18T17:06:56.521565,place_details_reviews,2,AIzaSy...8yB0,307,River Valley,Oxley,education,university,ChIJ2Se9YZgZ2jERRO4d7yqcVvw,OK,,5,SHRM College
+2026-07-18T17:06:56.987033,place_details_reviews,2,AIzaSy...8yB0,308,River Valley,Oxley,education,tuition centre,ChIJXQppHREZ2jERBhZwNW08umo,OK,,1,Chapter One English Boutique Studio @ Oxley
+2026-07-18T17:06:57.356200,place_details_reviews,2,AIzaSy...8yB0,309,River Valley,Oxley,transport,bus stop,ChIJ2dm4a5gZ2jERfYGemD_ClOc,OK,,3,Opp Haw Par Glass Twr
+2026-07-18T17:06:58.086092,place_details_reviews,2,AIzaSy...8yB0,310,River Valley,Oxley,food,hawker centre,ChIJe4wL_OsZ2jERySoDk6jlhNQ,OK,,5,Newton Food Centre
+2026-07-18T17:06:58.483829,place_details_reviews,2,AIzaSy...8yB0,311,River Valley,Oxley,food,food court,ChIJlR5jkYwX2jERr3u657WFQ_k,OK,,5,FoodHub @ Oxley Bizhub
+2026-07-18T17:06:59.126773,place_details_reviews,2,AIzaSy...8yB0,312,River Valley,Oxley,food,food court,ChIJ30KSbWoZ2jERxp8ZGfxwO6M,OK,,5,EatAlley
+2026-07-18T17:06:59.583770,place_details_reviews,2,AIzaSy...8yB0,313,River Valley,Oxley,food,coffee shop,ChIJ3X2MHAAZ2jERXNy1nKspSL4,OK,,5,Pinhole Coffee Bar (Oxley Tower)
+2026-07-18T17:07:00.185676,place_details_reviews,2,AIzaSy...8yB0,314,River Valley,Oxley,food,restaurant,ChIJnSA4xRIZ2jER17VAN5UZznM,OK,,5,Xiao Long Kan Hotpot Clarke Quay 小龙坎火锅克拉码头
+2026-07-18T17:07:00.643441,place_details_reviews,2,AIzaSy...8yB0,315,River Valley,Oxley,shopping,shopping mall,ChIJ18C-mwoZ2jERlpSawcucgk0,OK,,5,Clarke Quay Central
+2026-07-18T17:07:01.175017,place_details_reviews,2,AIzaSy...8yB0,316,River Valley,Oxley,shopping,grocery store,ChIJI7X7IgAZ2jERFwfTjp6bLVo,OK,,1,Maha Supermarket
+2026-07-18T17:07:01.649016,place_details_reviews,2,AIzaSy...8yB0,317,River Valley,Oxley,shopping,wet market,ChIJ8RaES-AX2jERwZwf5dmpK7M,OK,,5,Quan Shui Wet Market @ Upper Thomson
+2026-07-18T17:07:02.188064,place_details_reviews,2,AIzaSy...8yB0,318,River Valley,Oxley,shopping,wet market,ChIJ6SKfUzwQ2jERezteXcNnbAE,OK,,5,Quan Shui Wet Market
+2026-07-18T17:07:02.773473,place_details_reviews,2,AIzaSy...8yB0,319,River Valley,Oxley,recreation,gym,ChIJZwkDgWcZ2jERh9P5sZTtGFQ,OK,,5,BFT River Valley
+2026-07-18T17:07:03.565497,place_details_reviews,2,AIzaSy...8yB0,320,River Valley,Oxley,recreation,sports centre,ChIJyWQnEYkb2jER6BxhOn5f-BA,OK,,5,Delta Sport Centre
+2026-07-18T17:07:04.076338,place_details_reviews,2,AIzaSy...8yB0,321,River Valley,Oxley,recreation,swimming complex,ChIJmfXs64IZ2jERl8HoJu6_gbQ,OK,,5,Oxley Residence
+2026-07-18T17:07:04.710997,place_details_reviews,2,AIzaSy...8yB0,322,River Valley,Oxley,recreation,swimming complex,ChIJS0UZhQ0Z2jERu6tfeo1Jw9M,OK,,5,Oxley Edge
+2026-07-18T17:07:05.559206,place_details_reviews,2,AIzaSy...8yB0,323,River Valley,Oxley,recreation,cinema,ChIJvYAsbY0Z2jERqAXNqB3iKHI,OK,,5,Shaw Theatres Lido
+2026-07-18T17:07:06.117237,place_details_reviews,2,AIzaSy...8yB0,324,River Valley,Oxley,recreation,cinema,ChIJFx7cQgAR2jERum7NN5FvIOk,OK,,5,Shaw Theatres JEM
+2026-07-18T17:07:06.880422,place_details_reviews,2,AIzaSy...8yB0,325,River Valley,Oxley,recreation,community club,ChIJia6dov4Z2jERjdeO3xGAx8U,OK,,5,Tanglin Community Club
+2026-07-18T17:07:07.544092,place_details_reviews,2,AIzaSy...8yB0,326,River Valley,Oxley,recreation,playground,ChIJNfxAeBQZ2jERDMfwU1GkqnA,OK,,5,491 River Valley Rd Playground
+2026-07-18T17:07:08.564062,place_details_reviews,2,AIzaSy...8yB0,327,River Valley,Oxley,nature,park,ChIJofcP-4MZ2jERCc6zuAnS_j8,OK,,0,Valley Park
+2026-07-18T17:07:09.139514,place_details_reviews,2,AIzaSy...8yB0,328,River Valley,Oxley,nature,garden,ChIJG3XqK5gZ2jERsltp5XRe4yE,OK,,0,Oxley Garden
+2026-07-18T17:07:09.810880,place_details_reviews,2,AIzaSy...8yB0,329,River Valley,Oxley,nature,park connector,ChIJp2xL6ycb2jERudi_c8iaKn8,OK,,5,Alexandra Park Connector
+2026-07-18T17:07:10.532397,place_details_reviews,2,AIzaSy...8yB0,330,River Valley,Paterson,education,kindergarten,ChIJLzGz544Z2jERpy7zaXY1bIM,OK,,5,Little Hands Montessori Kindergarten
+2026-07-18T17:07:11.251462,place_details_reviews,2,AIzaSy...8yB0,331,River Valley,Paterson,education,primary school,ChIJj9Z3WYAZ2jERKAd2w2a8QuY,OK,,0,Alexandra Primary School
+2026-07-18T17:07:11.785218,place_details_reviews,2,AIzaSy...8yB0,332,River Valley,Paterson,education,junior college,ChIJz_-CGpUR2jERsxAVVh_vnoY,OK,,5,Jurong Pioneer Junior College
+2026-07-18T17:07:12.395635,place_details_reviews,2,AIzaSy...8yB0,333,River Valley,Paterson,education,polytechnic,ChIJ14hzqgUT2jER-IIzRuD1twI,OK,,5,Republic Polytechnic
+2026-07-18T17:07:13.007224,place_details_reviews,2,AIzaSy...8yB0,334,River Valley,Paterson,education,university,ChIJu74zZo4Z2jERucA62MR0dLM,OK,,0,Center for American Education Pte. Ltd.
+2026-07-18T17:07:13.646631,place_details_reviews,2,AIzaSy...8yB0,335,River Valley,Paterson,education,tuition centre,ChIJ16wJ_5IZ2jERJyW8dH6kzUo,OK,,5,Swim Monkey Swim School
+2026-07-18T17:07:13.991678,place_details_reviews,2,AIzaSy...8yB0,336,River Valley,Paterson,education,tuition centre,ChIJu3mTX4MZ2jERQCaUDCHVpJo,OK,,5,"Kumon Learning Centre - Great World (Maths, English and Chinese Enrichment)"
+2026-07-18T17:07:14.355709,place_details_reviews,2,AIzaSy...8yB0,337,River Valley,Paterson,education,library,ChIJfWE7NwAR2jERE_LL5Mx2EVM,OK,,5,Community Library
+2026-07-18T17:07:15.172368,place_details_reviews,2,AIzaSy...8yB0,338,River Valley,Paterson,transport,MRT station,ChIJl_5f7Y0Z2jERHoVZ2LLJFOg,OK,,5,Orchard
+2026-07-18T17:07:15.619153,place_details_reviews,2,AIzaSy...8yB0,339,River Valley,Paterson,transport,bus stop,ChIJi2JAT4EZ2jERoAdJk1AFniU,OK,,5,Opp Valley Pt
+2026-07-18T17:07:16.413711,place_details_reviews,2,AIzaSy...8yB0,340,River Valley,Paterson,transport,bus interchange,ChIJgRXvJoUZ2jER8GDD4BjFDU4,OK,,2,Great World Stn Exit 5
+2026-07-18T17:07:17.206667,place_details_reviews,2,AIzaSy...8yB0,341,River Valley,Paterson,food,food court,ChIJkTga80Ub2jERswFe-PJ5jas,OK,,5,SP Food Court 1
+2026-07-18T17:07:17.922068,place_details_reviews,2,AIzaSy...8yB0,342,River Valley,Paterson,food,restaurant,ChIJC6PqytcZ2jERp8XGR-Ewi2Q,OK,,5,Vibez Bistro Bar
+2026-07-18T17:07:18.531746,place_details_reviews,2,AIzaSy...8yB0,343,River Valley,Paterson,shopping,shopping mall,ChIJl_sOMpIZ2jERKgmuCf4FCs0,OK,,5,Paragon
+2026-07-18T17:07:18.948597,place_details_reviews,2,AIzaSy...8yB0,344,River Valley,Paterson,shopping,supermarket,ChIJTyWXW4EZ2jERNKBCOx_-4LA,OK,,5,FairPrice Finest Valley Point
+2026-07-18T17:07:19.534851,place_details_reviews,2,AIzaSy...8yB0,345,River Valley,Paterson,shopping,convenience store,ChIJ_YB4KMYb2jERjzJ17850exU,OK,,5,7-Eleven
+2026-07-18T17:07:19.901921,place_details_reviews,2,AIzaSy...8yB0,346,River Valley,Paterson,shopping,convenience store,ChIJIbYcWp4Z2jERFFUwWObbnoo,OK,,5,7-Eleven
+2026-07-18T17:07:20.341468,place_details_reviews,2,AIzaSy...8yB0,347,River Valley,Paterson,shopping,wet market,ChIJA-S30F8b2jER46-WSc7Ak2g,OK,,5,Teban Gardens Wet Market
+2026-07-18T17:07:21.044799,place_details_reviews,2,AIzaSy...8yB0,348,River Valley,Paterson,shopping,wet market,ChIJ2-fuRZ8R2jERo1jNY3fv4iw,OK,,5,Fajar Market
+2026-07-18T17:07:21.481927,place_details_reviews,2,AIzaSy...8yB0,349,River Valley,Paterson,recreation,sports centre,ChIJJXk9FAob2jER_myuN6aQDr4,OK,,4,Singapore Polytechnic Sports Complex
+2026-07-18T17:07:22.045242,place_details_reviews,2,AIzaSy...8yB0,350,River Valley,Paterson,recreation,swimming complex,ChIJVQ8bzSoa2jERbYemdYtj8kM,OK,,5,Delta Swimming Complex
+2026-07-18T17:07:22.610863,place_details_reviews,2,AIzaSy...8yB0,351,River Valley,Paterson,recreation,swimming complex,ChIJBXaaCo8Z2jERv49tomJx7ys,OK,,5,Paterson Residence
+2026-07-18T17:07:22.979544,place_details_reviews,2,AIzaSy...8yB0,352,River Valley,Paterson,recreation,cinema,ChIJwSnuRoMZ2jERyFQaIW4hNJA,OK,,5,Golden Village
+2026-07-18T17:07:23.437309,place_details_reviews,2,AIzaSy...8yB0,353,River Valley,Paterson,recreation,community club,ChIJGacQ0GMQ2jER8wwsO3AmbKg,OK,,5,Bukit Timah Community Club
+2026-07-18T17:07:23.892742,place_details_reviews,2,AIzaSy...8yB0,354,River Valley,Paterson,nature,garden,ChIJSVu_qY8Z2jERiRchzGFKfpo,OK,,5,The Paterson
+2026-07-18T17:07:24.676601,place_details_reviews,2,AIzaSy...8yB0,355,River Valley,Paterson,nature,beach,ChIJ3-aNIoIZ2jER4vt1Yy7gVtg,OK,,5,Paterson Suites
+2026-07-18T17:07:25.343206,place_details_reviews,2,AIzaSy...8yB0,356,River Valley,Paterson,nature,waterfront,ChIJK5yRZPwZ2jEROwS9RslT7D0,OK,,5,Riverside Terrace at Grand Copthorne Waterfront Hotel

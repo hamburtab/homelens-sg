@@ -2,7 +2,8 @@ import { useEffect, useRef } from 'react';
 import { TileLayer, useMap } from 'react-leaflet';
 import type { Feature } from 'geojson';
 import type { Polygon, MultiPolygon } from 'geojson';
-import type { SelectedRegion, FocusState } from '../../lib/types';
+import type { SelectedRegion, FocusState, LocationAnchor } from '../../lib/types';
+import type { SubzoneProfile } from '../../lib/types';
 import { ALL_CATEGORIES } from '../../lib/osm-config';
 import { PlanningAreaLayer } from './PlanningAreaLayer';
 import { SubzoneLayer } from './SubzoneLayer';
@@ -10,6 +11,7 @@ import { MarkerLayer } from './MarkerLayer';
 import { TransitLayer } from './TransitLayer';
 import { FocusMask } from './FocusMask';
 import { RentalMarkers } from './RentalMarkers';
+import { AnchorLocationLayer } from './AnchorLocationLayer';
 import bbox from '@turf/bbox';
 
 const STREET = 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png';
@@ -24,7 +26,9 @@ interface P {
   focusGeom: FGeom; maskGeom: FGeom; focusState: FocusState | null;
   activeCats: Set<string>; satellite: boolean;
   filteredListings: any[]; selectedListingId: string | null;
-  onSelectPA: (r: SelectedRegion) => void; onHoverPA: (r: SelectedRegion | null) => void;
+  regionScores?: Record<string, number>; subzoneScores?: Record<string, SubzoneProfile>;
+  anchorLocation?: LocationAnchor | null;
+  onSelectPA: (r: SelectedRegion) => void; onSelectSubzone: (r: SelectedRegion) => void; onHoverPA: (r: SelectedRegion | null) => void;
   onFocusSZ: (id: string, f: Feature) => void; onClear: () => void;
   onSelectListing: (l: any) => void;
   onSelectOsm: (f: Feature, l: string) => void;
@@ -46,15 +50,16 @@ export function MapLayers(p: P) {
   return (
     <>
       <TileLayer url={p.satellite ? SAT : STREET} attribution={ATTR} />
-      {!p.drillPA && p.planningAreas && <PlanningAreaLayer data={p.planningAreas} colorMap={p.colorMap} selectedArea={p.selectedArea} onSelect={p.onSelectPA} onHover={p.onHoverPA} />}
+      {!p.drillPA && p.planningAreas && <PlanningAreaLayer data={p.planningAreas} colorMap={p.colorMap} selectedArea={p.selectedArea} onSelect={p.onSelectPA} onHover={p.onHoverPA} regionScores={p.regionScores} />}
       {p.drillPA && p.subzones && p.colorMap.size > 0 && (
-        <SubzoneLayer data={p.subzones} colorMap={p.colorMap} selectedArea={p.selectedArea} onSelect={p.onSelectPA} onHover={p.onHoverPA}
-          onFocusSubzone={p.onFocusSZ} filterParentId={p.drillSZ ? undefined : p.drillPA} outlineOnly={!p.drillSZ} />
+        <SubzoneLayer data={p.subzones} colorMap={p.colorMap} selectedArea={p.selectedArea} onSelect={p.onSelectSubzone} onHover={p.onHoverPA}
+          onFocusSubzone={p.onFocusSZ} filterParentId={p.drillSZ ? undefined : p.drillPA} outlineOnly={!p.drillSZ} subzoneScores={p.subzoneScores} />
       )}
       <MarkerLayer activeIds={p.activeCats} categories={ALL_CATEGORIES} onFocus={() => {}} onSelectFeature={p.onSelectOsm} focusGeometry={p.drillSZ ? p.focusGeom : null} />
       <TransitLayer activeIds={p.activeCats} categories={ALL_CATEGORIES} onFocus={() => {}} onSelectFeature={p.onSelectOsm} />
       {p.drillPA && <FocusMask focus={p.focusState} focusGeometry={p.maskGeom} onClear={p.onClear} />}
       {p.filteredListings.length > 0 && <RentalMarkers listings={p.filteredListings} selectedId={p.selectedListingId} onSelect={p.onSelectListing} />}
+      <AnchorLocationLayer anchor={p.anchorLocation} />
     </>
   );
 }

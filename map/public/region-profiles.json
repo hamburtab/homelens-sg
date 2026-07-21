@@ -1,0 +1,2477 @@
+{
+  "generatedAt": "2026-07-20T11:00:17.074006+00:00",
+  "profiles": {
+    "ANG MO KIO": {
+      "name": "ANG MO KIO",
+      "liveabilityScore": 86.5,
+      "dimensions": {
+        "education": {
+          "score": 96.6,
+          "places": 240,
+          "reviews": 120
+        },
+        "transport": {
+          "score": 82.5,
+          "places": 232,
+          "reviews": 120
+        },
+        "food": {
+          "score": 82.2,
+          "places": 209,
+          "reviews": 115
+        },
+        "shopping": {
+          "score": 82.0,
+          "places": 240,
+          "reviews": 120
+        },
+        "recreation": {
+          "score": 85.9,
+          "places": 240,
+          "reviews": 120
+        },
+        "nature": {
+          "score": 89.6,
+          "places": 239,
+          "reviews": 120
+        }
+      },
+      "subzoneCount": 12,
+      "placeEvidence": 1400,
+      "reviewEvidence": 715,
+      "liveSaleListings": 239,
+      "liveRentalListings": 376,
+      "market": {
+        "medianHdbPrice": 465500.0,
+        "medianFloorAreaSqm": 74.0,
+        "candidateCount": 287,
+        "recentTransactions": 1678,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "BEDOK": {
+      "name": "BEDOK",
+      "liveabilityScore": 86.6,
+      "dimensions": {
+        "education": {
+          "score": 95.7,
+          "places": 160,
+          "reviews": 80
+        },
+        "transport": {
+          "score": 80.2,
+          "places": 159,
+          "reviews": 80
+        },
+        "food": {
+          "score": 85.1,
+          "places": 160,
+          "reviews": 80
+        },
+        "shopping": {
+          "score": 83.8,
+          "places": 160,
+          "reviews": 80
+        },
+        "recreation": {
+          "score": 86.2,
+          "places": 157,
+          "reviews": 80
+        },
+        "nature": {
+          "score": 88.7,
+          "places": 160,
+          "reviews": 80
+        }
+      },
+      "subzoneCount": 8,
+      "placeEvidence": 956,
+      "reviewEvidence": 480,
+      "liveSaleListings": 260,
+      "liveRentalListings": 390,
+      "market": {
+        "medianHdbPrice": 555000.0,
+        "medianFloorAreaSqm": 91.0,
+        "candidateCount": 373,
+        "recentTransactions": 2032,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "BISHAN": {
+      "name": "BISHAN",
+      "liveabilityScore": 87.2,
+      "dimensions": {
+        "education": {
+          "score": 94.4,
+          "places": 60,
+          "reviews": 30
+        },
+        "transport": {
+          "score": 84.7,
+          "places": 60,
+          "reviews": 30
+        },
+        "food": {
+          "score": 85.1,
+          "places": 60,
+          "reviews": 30
+        },
+        "shopping": {
+          "score": 84.8,
+          "places": 60,
+          "reviews": 30
+        },
+        "recreation": {
+          "score": 84.5,
+          "places": 60,
+          "reviews": 30
+        },
+        "nature": {
+          "score": 89.4,
+          "places": 60,
+          "reviews": 30
+        }
+      },
+      "subzoneCount": 3,
+      "placeEvidence": 360,
+      "reviewEvidence": 180,
+      "liveSaleListings": 183,
+      "liveRentalListings": 172,
+      "market": {
+        "medianHdbPrice": 846000.0,
+        "medianFloorAreaSqm": 105.0,
+        "candidateCount": 131,
+        "recentTransactions": 566,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "BOON LAY": {
+      "name": "BOON LAY",
+      "liveabilityScore": 84.7,
+      "dimensions": {
+        "education": {
+          "score": 89.7,
+          "places": 65,
+          "reviews": 115
+        },
+        "transport": {
+          "score": 83.6,
+          "places": 23,
+          "reviews": 33
+        },
+        "food": {
+          "score": 75.1,
+          "places": 29,
+          "reviews": 85
+        },
+        "shopping": {
+          "score": 84.8,
+          "places": 29,
+          "reviews": 46
+        },
+        "recreation": {
+          "score": 88.1,
+          "places": 48,
+          "reviews": 82
+        },
+        "nature": {
+          "score": 87.2,
+          "places": 41,
+          "reviews": 92
+        }
+      },
+      "subzoneCount": 4,
+      "placeEvidence": 235,
+      "reviewEvidence": 453,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "BUKIT BATOK": {
+      "name": "BUKIT BATOK",
+      "liveabilityScore": 83.3,
+      "dimensions": {
+        "education": {
+          "score": 85.7,
+          "places": 127,
+          "reviews": 187
+        },
+        "transport": {
+          "score": 80.9,
+          "places": 36,
+          "reviews": 32
+        },
+        "food": {
+          "score": 81.4,
+          "places": 68,
+          "reviews": 116
+        },
+        "shopping": {
+          "score": 77.8,
+          "places": 71,
+          "reviews": 113
+        },
+        "recreation": {
+          "score": 85.8,
+          "places": 91,
+          "reviews": 141
+        },
+        "nature": {
+          "score": 88.1,
+          "places": 63,
+          "reviews": 98
+        }
+      },
+      "subzoneCount": 9,
+      "placeEvidence": 456,
+      "reviewEvidence": 687,
+      "liveSaleListings": 300,
+      "liveRentalListings": 318,
+      "market": {
+        "medianHdbPrice": 565000.0,
+        "medianFloorAreaSqm": 93.0,
+        "candidateCount": 387,
+        "recentTransactions": 2530,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "BUKIT MERAH": {
+      "name": "BUKIT MERAH",
+      "liveabilityScore": 84.9,
+      "dimensions": {
+        "education": {
+          "score": 89.7,
+          "places": 246,
+          "reviews": 329
+        },
+        "transport": {
+          "score": 81.4,
+          "places": 88,
+          "reviews": 158
+        },
+        "food": {
+          "score": 85.3,
+          "places": 121,
+          "reviews": 317
+        },
+        "shopping": {
+          "score": 81.4,
+          "places": 125,
+          "reviews": 179
+        },
+        "recreation": {
+          "score": 85.4,
+          "places": 177,
+          "reviews": 268
+        },
+        "nature": {
+          "score": 86.3,
+          "places": 156,
+          "reviews": 251
+        }
+      },
+      "subzoneCount": 17,
+      "placeEvidence": 913,
+      "reviewEvidence": 1502,
+      "liveSaleListings": 232,
+      "liveRentalListings": 352,
+      "market": {
+        "medianHdbPrice": 768750.0,
+        "medianFloorAreaSqm": 90.0,
+        "candidateCount": 290,
+        "recentTransactions": 1645,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "BUKIT PANJANG": {
+      "name": "BUKIT PANJANG",
+      "liveabilityScore": 83.8,
+      "dimensions": {
+        "education": {
+          "score": 89.5,
+          "places": 109,
+          "reviews": 172
+        },
+        "transport": {
+          "score": 77.3,
+          "places": 45,
+          "reviews": 92
+        },
+        "food": {
+          "score": 83.2,
+          "places": 49,
+          "reviews": 155
+        },
+        "shopping": {
+          "score": 78.3,
+          "places": 50,
+          "reviews": 96
+        },
+        "recreation": {
+          "score": 86.9,
+          "places": 69,
+          "reviews": 117
+        },
+        "nature": {
+          "score": 87.3,
+          "places": 62,
+          "reviews": 102
+        }
+      },
+      "subzoneCount": 7,
+      "placeEvidence": 384,
+      "reviewEvidence": 734,
+      "liveSaleListings": 208,
+      "liveRentalListings": 251,
+      "market": {
+        "medianHdbPrice": 599444.0,
+        "medianFloorAreaSqm": 102.0,
+        "candidateCount": 249,
+        "recentTransactions": 1251,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "BUKIT TIMAH": {
+      "name": "BUKIT TIMAH",
+      "liveabilityScore": 85.2,
+      "dimensions": {
+        "education": {
+          "score": 91.0,
+          "places": 128,
+          "reviews": 238
+        },
+        "transport": {
+          "score": 84.9,
+          "places": 34,
+          "reviews": 103
+        },
+        "food": {
+          "score": 84.0,
+          "places": 59,
+          "reviews": 201
+        },
+        "shopping": {
+          "score": 76.7,
+          "places": 63,
+          "reviews": 128
+        },
+        "recreation": {
+          "score": 88.4,
+          "places": 84,
+          "reviews": 234
+        },
+        "nature": {
+          "score": 86.1,
+          "places": 70,
+          "reviews": 165
+        }
+      },
+      "subzoneCount": 8,
+      "placeEvidence": 438,
+      "reviewEvidence": 1069,
+      "liveSaleListings": 28,
+      "liveRentalListings": 43,
+      "market": {
+        "medianHdbPrice": 960888.0,
+        "medianFloorAreaSqm": 108.0,
+        "candidateCount": 23,
+        "recentTransactions": 98,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "CENTRAL WATER CATCHMENT": {
+      "name": "CENTRAL WATER CATCHMENT",
+      "liveabilityScore": 86.7,
+      "dimensions": {
+        "education": {
+          "score": 92.8,
+          "places": 20,
+          "reviews": 10
+        },
+        "transport": {
+          "score": 86.1,
+          "places": 20,
+          "reviews": 10
+        },
+        "food": {
+          "score": 84.2,
+          "places": 20,
+          "reviews": 10
+        },
+        "shopping": {
+          "score": 81.7,
+          "places": 20,
+          "reviews": 10
+        },
+        "recreation": {
+          "score": 84.8,
+          "places": 20,
+          "reviews": 10
+        },
+        "nature": {
+          "score": 90.5,
+          "places": 20,
+          "reviews": 10
+        }
+      },
+      "subzoneCount": 1,
+      "placeEvidence": 120,
+      "reviewEvidence": 60,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "CHANGI": {
+      "name": "CHANGI",
+      "liveabilityScore": 86.1,
+      "dimensions": {
+        "education": {
+          "score": 92.6,
+          "places": 60,
+          "reviews": 30
+        },
+        "transport": {
+          "score": 79.8,
+          "places": 60,
+          "reviews": 30
+        },
+        "food": {
+          "score": 85.4,
+          "places": 41,
+          "reviews": 25
+        },
+        "shopping": {
+          "score": 85.1,
+          "places": 60,
+          "reviews": 30
+        },
+        "recreation": {
+          "score": 86.0,
+          "places": 60,
+          "reviews": 30
+        },
+        "nature": {
+          "score": 87.8,
+          "places": 60,
+          "reviews": 30
+        }
+      },
+      "subzoneCount": 3,
+      "placeEvidence": 341,
+      "reviewEvidence": 175,
+      "liveSaleListings": 1,
+      "liveRentalListings": 2,
+      "market": null
+    },
+    "CHANGI BAY": {
+      "name": "CHANGI BAY",
+      "liveabilityScore": 86.1,
+      "dimensions": {
+        "education": {
+          "score": 91.5,
+          "places": 20,
+          "reviews": 10
+        },
+        "transport": {
+          "score": 81.5,
+          "places": 20,
+          "reviews": 10
+        },
+        "food": {
+          "score": 83.4,
+          "places": 20,
+          "reviews": 10
+        },
+        "shopping": {
+          "score": 86.4,
+          "places": 20,
+          "reviews": 10
+        },
+        "recreation": {
+          "score": 85.2,
+          "places": 13,
+          "reviews": 10
+        },
+        "nature": {
+          "score": 88.8,
+          "places": 20,
+          "reviews": 10
+        }
+      },
+      "subzoneCount": 1,
+      "placeEvidence": 113,
+      "reviewEvidence": 60,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "CHOA CHU KANG": {
+      "name": "CHOA CHU KANG",
+      "liveabilityScore": 83.2,
+      "dimensions": {
+        "education": {
+          "score": 87.4,
+          "places": 84,
+          "reviews": 143
+        },
+        "transport": {
+          "score": 82.7,
+          "places": 30,
+          "reviews": 60
+        },
+        "food": {
+          "score": 82.0,
+          "places": 48,
+          "reviews": 125
+        },
+        "shopping": {
+          "score": 75.4,
+          "places": 46,
+          "reviews": 125
+        },
+        "recreation": {
+          "score": 85.1,
+          "places": 56,
+          "reviews": 91
+        },
+        "nature": {
+          "score": 86.9,
+          "places": 50,
+          "reviews": 111
+        }
+      },
+      "subzoneCount": 6,
+      "placeEvidence": 314,
+      "reviewEvidence": 655,
+      "liveSaleListings": 275,
+      "liveRentalListings": 355,
+      "market": {
+        "medianHdbPrice": 580000.0,
+        "medianFloorAreaSqm": 106.0,
+        "candidateCount": 339,
+        "recentTransactions": 1575,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "CLEMENTI": {
+      "name": "CLEMENTI",
+      "liveabilityScore": 85.0,
+      "dimensions": {
+        "education": {
+          "score": 90.4,
+          "places": 141,
+          "reviews": 174
+        },
+        "transport": {
+          "score": 80.0,
+          "places": 54,
+          "reviews": 70
+        },
+        "food": {
+          "score": 86.8,
+          "places": 66,
+          "reviews": 185
+        },
+        "shopping": {
+          "score": 81.5,
+          "places": 74,
+          "reviews": 105
+        },
+        "recreation": {
+          "score": 84.4,
+          "places": 97,
+          "reviews": 136
+        },
+        "nature": {
+          "score": 86.9,
+          "places": 92,
+          "reviews": 138
+        }
+      },
+      "subzoneCount": 9,
+      "placeEvidence": 524,
+      "reviewEvidence": 808,
+      "liveSaleListings": 109,
+      "liveRentalListings": 307,
+      "market": {
+        "medianHdbPrice": 544000.0,
+        "medianFloorAreaSqm": 77.2,
+        "candidateCount": 158,
+        "recentTransactions": 951,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "DOWNTOWN CORE": {
+      "name": "DOWNTOWN CORE",
+      "liveabilityScore": 87.5,
+      "dimensions": {
+        "education": {
+          "score": 91.7,
+          "places": 260,
+          "reviews": 130
+        },
+        "transport": {
+          "score": 85.3,
+          "places": 260,
+          "reviews": 130
+        },
+        "food": {
+          "score": 85.3,
+          "places": 260,
+          "reviews": 130
+        },
+        "shopping": {
+          "score": 84.8,
+          "places": 254,
+          "reviews": 130
+        },
+        "recreation": {
+          "score": 88.7,
+          "places": 260,
+          "reviews": 130
+        },
+        "nature": {
+          "score": 89.4,
+          "places": 260,
+          "reviews": 130
+        }
+      },
+      "subzoneCount": 13,
+      "placeEvidence": 1554,
+      "reviewEvidence": 780,
+      "liveSaleListings": 3,
+      "liveRentalListings": 8,
+      "market": {
+        "medianHdbPrice": 597500.0,
+        "medianFloorAreaSqm": 82.0,
+        "candidateCount": 46,
+        "recentTransactions": 297,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "GEYLANG": {
+      "name": "GEYLANG",
+      "liveabilityScore": 86.1,
+      "dimensions": {
+        "education": {
+          "score": 91.9,
+          "places": 98,
+          "reviews": 50
+        },
+        "transport": {
+          "score": 82.8,
+          "places": 100,
+          "reviews": 50
+        },
+        "food": {
+          "score": 83.9,
+          "places": 100,
+          "reviews": 50
+        },
+        "shopping": {
+          "score": 84.7,
+          "places": 100,
+          "reviews": 50
+        },
+        "recreation": {
+          "score": 86.2,
+          "places": 90,
+          "reviews": 50
+        },
+        "nature": {
+          "score": 87.1,
+          "places": 89,
+          "reviews": 50
+        }
+      },
+      "subzoneCount": 5,
+      "placeEvidence": 577,
+      "reviewEvidence": 300,
+      "liveSaleListings": 107,
+      "liveRentalListings": 189,
+      "market": {
+        "medianHdbPrice": 566000.0,
+        "medianFloorAreaSqm": 77.0,
+        "candidateCount": 196,
+        "recentTransactions": 1169,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "HOUGANG": {
+      "name": "HOUGANG",
+      "liveabilityScore": 85.3,
+      "dimensions": {
+        "education": {
+          "score": 92.7,
+          "places": 200,
+          "reviews": 100
+        },
+        "transport": {
+          "score": 81.3,
+          "places": 179,
+          "reviews": 100
+        },
+        "food": {
+          "score": 82.9,
+          "places": 200,
+          "reviews": 100
+        },
+        "shopping": {
+          "score": 81.5,
+          "places": 200,
+          "reviews": 100
+        },
+        "recreation": {
+          "score": 84.8,
+          "places": 200,
+          "reviews": 100
+        },
+        "nature": {
+          "score": 88.8,
+          "places": 189,
+          "reviews": 100
+        }
+      },
+      "subzoneCount": 10,
+      "placeEvidence": 1168,
+      "reviewEvidence": 600,
+      "liveSaleListings": 284,
+      "liveRentalListings": 446,
+      "market": {
+        "medianHdbPrice": 623000.0,
+        "medianFloorAreaSqm": 93.0,
+        "candidateCount": 390,
+        "recentTransactions": 2041,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "JURONG EAST": {
+      "name": "JURONG EAST",
+      "liveabilityScore": 85.1,
+      "dimensions": {
+        "education": {
+          "score": 91.2,
+          "places": 168,
+          "reviews": 245
+        },
+        "transport": {
+          "score": 80.3,
+          "places": 65,
+          "reviews": 107
+        },
+        "food": {
+          "score": 83.9,
+          "places": 80,
+          "reviews": 228
+        },
+        "shopping": {
+          "score": 83.6,
+          "places": 84,
+          "reviews": 151
+        },
+        "recreation": {
+          "score": 86.1,
+          "places": 112,
+          "reviews": 166
+        },
+        "nature": {
+          "score": 85.5,
+          "places": 93,
+          "reviews": 173
+        }
+      },
+      "subzoneCount": 11,
+      "placeEvidence": 602,
+      "reviewEvidence": 1070,
+      "liveSaleListings": 168,
+      "liveRentalListings": 204,
+      "market": {
+        "medianHdbPrice": 530000.0,
+        "medianFloorAreaSqm": 93.0,
+        "candidateCount": 157,
+        "recentTransactions": 817,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "JURONG WEST": {
+      "name": "JURONG WEST",
+      "liveabilityScore": 83.3,
+      "dimensions": {
+        "education": {
+          "score": 89.5,
+          "places": 145,
+          "reviews": 274
+        },
+        "transport": {
+          "score": 81.4,
+          "places": 52,
+          "reviews": 99
+        },
+        "food": {
+          "score": 81.4,
+          "places": 66,
+          "reviews": 161
+        },
+        "shopping": {
+          "score": 76.7,
+          "places": 75,
+          "reviews": 165
+        },
+        "recreation": {
+          "score": 86.6,
+          "places": 99,
+          "reviews": 160
+        },
+        "nature": {
+          "score": 84.1,
+          "places": 74,
+          "reviews": 130
+        }
+      },
+      "subzoneCount": 9,
+      "placeEvidence": 511,
+      "reviewEvidence": 989,
+      "liveSaleListings": 479,
+      "liveRentalListings": 464,
+      "market": {
+        "medianHdbPrice": 568000.0,
+        "medianFloorAreaSqm": 104.0,
+        "candidateCount": 509,
+        "recentTransactions": 2541,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "KALLANG": {
+      "name": "KALLANG",
+      "liveabilityScore": 86.3,
+      "dimensions": {
+        "education": {
+          "score": 91.5,
+          "places": 180,
+          "reviews": 90
+        },
+        "transport": {
+          "score": 84.2,
+          "places": 180,
+          "reviews": 90
+        },
+        "food": {
+          "score": 84.3,
+          "places": 169,
+          "reviews": 90
+        },
+        "shopping": {
+          "score": 84.5,
+          "places": 180,
+          "reviews": 90
+        },
+        "recreation": {
+          "score": 85.2,
+          "places": 180,
+          "reviews": 90
+        },
+        "nature": {
+          "score": 88.3,
+          "places": 180,
+          "reviews": 90
+        }
+      },
+      "subzoneCount": 9,
+      "placeEvidence": 1069,
+      "reviewEvidence": 540,
+      "liveSaleListings": 148,
+      "liveRentalListings": 218,
+      "market": {
+        "medianHdbPrice": 685000.0,
+        "medianFloorAreaSqm": 88.0,
+        "candidateCount": 205,
+        "recentTransactions": 1436,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "LIM CHU KANG": {
+      "name": "LIM CHU KANG",
+      "liveabilityScore": 86.5,
+      "dimensions": {
+        "education": {
+          "score": 96.6,
+          "places": 20,
+          "reviews": 10
+        },
+        "transport": {
+          "score": 82.7,
+          "places": 12,
+          "reviews": 10
+        },
+        "food": {
+          "score": 82.9,
+          "places": 20,
+          "reviews": 10
+        },
+        "shopping": {
+          "score": 83.0,
+          "places": 20,
+          "reviews": 10
+        },
+        "recreation": {
+          "score": 85.6,
+          "places": 20,
+          "reviews": 10
+        },
+        "nature": {
+          "score": 88.1,
+          "places": 20,
+          "reviews": 10
+        }
+      },
+      "subzoneCount": 1,
+      "placeEvidence": 112,
+      "reviewEvidence": 60,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "MANDAI": {
+      "name": "MANDAI",
+      "liveabilityScore": 85.9,
+      "dimensions": {
+        "education": {
+          "score": 94.8,
+          "places": 60,
+          "reviews": 30
+        },
+        "transport": {
+          "score": 80.3,
+          "places": 60,
+          "reviews": 30
+        },
+        "food": {
+          "score": 84.3,
+          "places": 60,
+          "reviews": 30
+        },
+        "shopping": {
+          "score": 85.0,
+          "places": 60,
+          "reviews": 30
+        },
+        "recreation": {
+          "score": 81.0,
+          "places": 60,
+          "reviews": 30
+        },
+        "nature": {
+          "score": 89.7,
+          "places": 56,
+          "reviews": 30
+        }
+      },
+      "subzoneCount": 3,
+      "placeEvidence": 356,
+      "reviewEvidence": 180,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "MARINA EAST": {
+      "name": "MARINA EAST",
+      "liveabilityScore": 88.2,
+      "dimensions": {
+        "education": {
+          "score": 91.6,
+          "places": 20,
+          "reviews": 10
+        },
+        "transport": {
+          "score": 85.9,
+          "places": 20,
+          "reviews": 10
+        },
+        "food": {
+          "score": 83.7,
+          "places": 20,
+          "reviews": 10
+        },
+        "shopping": {
+          "score": 85.7,
+          "places": 20,
+          "reviews": 10
+        },
+        "recreation": {
+          "score": 88.3,
+          "places": 20,
+          "reviews": 10
+        },
+        "nature": {
+          "score": 94.0,
+          "places": 2,
+          "reviews": 10
+        }
+      },
+      "subzoneCount": 1,
+      "placeEvidence": 102,
+      "reviewEvidence": 60,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "MARINA SOUTH": {
+      "name": "MARINA SOUTH",
+      "liveabilityScore": 88.3,
+      "dimensions": {
+        "education": {
+          "score": 92.7,
+          "places": 20,
+          "reviews": 10
+        },
+        "transport": {
+          "score": 85.4,
+          "places": 20,
+          "reviews": 10
+        },
+        "food": {
+          "score": 85.5,
+          "places": 20,
+          "reviews": 10
+        },
+        "shopping": {
+          "score": 85.1,
+          "places": 20,
+          "reviews": 10
+        },
+        "recreation": {
+          "score": 90.8,
+          "places": 20,
+          "reviews": 10
+        },
+        "nature": {
+          "score": 90.5,
+          "places": 20,
+          "reviews": 10
+        }
+      },
+      "subzoneCount": 1,
+      "placeEvidence": 120,
+      "reviewEvidence": 60,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "MARINE PARADE": {
+      "name": "MARINE PARADE",
+      "liveabilityScore": 85.8,
+      "dimensions": {
+        "education": {
+          "score": 90.6,
+          "places": 100,
+          "reviews": 50
+        },
+        "transport": {
+          "score": 82.5,
+          "places": 100,
+          "reviews": 50
+        },
+        "food": {
+          "score": 82.9,
+          "places": 100,
+          "reviews": 50
+        },
+        "shopping": {
+          "score": 83.9,
+          "places": 100,
+          "reviews": 50
+        },
+        "recreation": {
+          "score": 86.6,
+          "places": 100,
+          "reviews": 50
+        },
+        "nature": {
+          "score": 88.5,
+          "places": 100,
+          "reviews": 50
+        }
+      },
+      "subzoneCount": 5,
+      "placeEvidence": 600,
+      "reviewEvidence": 300,
+      "liveSaleListings": 42,
+      "liveRentalListings": 30,
+      "market": {
+        "medianHdbPrice": 571500.0,
+        "medianFloorAreaSqm": 82.0,
+        "candidateCount": 46,
+        "recentTransactions": 282,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "MUSEUM": {
+      "name": "MUSEUM",
+      "liveabilityScore": 86.6,
+      "dimensions": {
+        "education": {
+          "score": 91.4,
+          "places": 47,
+          "reviews": 140
+        },
+        "transport": {
+          "score": 86.7,
+          "places": 12,
+          "reviews": 54
+        },
+        "food": {
+          "score": 85.8,
+          "places": 24,
+          "reviews": 95
+        },
+        "shopping": {
+          "score": 79.5,
+          "places": 25,
+          "reviews": 104
+        },
+        "recreation": {
+          "score": 87.7,
+          "places": 35,
+          "reviews": 116
+        },
+        "nature": {
+          "score": 88.2,
+          "places": 25,
+          "reviews": 97
+        }
+      },
+      "subzoneCount": 3,
+      "placeEvidence": 168,
+      "reviewEvidence": 606,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "NEWTON": {
+      "name": "NEWTON",
+      "liveabilityScore": 86.6,
+      "dimensions": {
+        "education": {
+          "score": 92.2,
+          "places": 120,
+          "reviews": 60
+        },
+        "transport": {
+          "score": 82.3,
+          "places": 120,
+          "reviews": 60
+        },
+        "food": {
+          "score": 83.6,
+          "places": 101,
+          "reviews": 55
+        },
+        "shopping": {
+          "score": 85.8,
+          "places": 120,
+          "reviews": 60
+        },
+        "recreation": {
+          "score": 87.2,
+          "places": 120,
+          "reviews": 60
+        },
+        "nature": {
+          "score": 88.4,
+          "places": 120,
+          "reviews": 60
+        }
+      },
+      "subzoneCount": 6,
+      "placeEvidence": 701,
+      "reviewEvidence": 355,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "NORTH-EASTERN ISLANDS": {
+      "name": "NORTH-EASTERN ISLANDS",
+      "liveabilityScore": 86.8,
+      "dimensions": {
+        "education": {
+          "score": 91.9,
+          "places": 20,
+          "reviews": 10
+        },
+        "transport": {
+          "score": 85.7,
+          "places": 20,
+          "reviews": 10
+        },
+        "food": {
+          "score": 83.6,
+          "places": 20,
+          "reviews": 10
+        },
+        "shopping": {
+          "score": 84.4,
+          "places": 20,
+          "reviews": 10
+        },
+        "recreation": {
+          "score": 84.9,
+          "places": 20,
+          "reviews": 10
+        },
+        "nature": {
+          "score": 90.3,
+          "places": 20,
+          "reviews": 10
+        }
+      },
+      "subzoneCount": 1,
+      "placeEvidence": 120,
+      "reviewEvidence": 60,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "NOVENA": {
+      "name": "NOVENA",
+      "liveabilityScore": 86.6,
+      "dimensions": {
+        "education": {
+          "score": 94.1,
+          "places": 100,
+          "reviews": 50
+        },
+        "transport": {
+          "score": 80.9,
+          "places": 100,
+          "reviews": 50
+        },
+        "food": {
+          "score": 84.2,
+          "places": 100,
+          "reviews": 50
+        },
+        "shopping": {
+          "score": 83.9,
+          "places": 100,
+          "reviews": 50
+        },
+        "recreation": {
+          "score": 88.4,
+          "places": 100,
+          "reviews": 50
+        },
+        "nature": {
+          "score": 87.9,
+          "places": 100,
+          "reviews": 50
+        }
+      },
+      "subzoneCount": 5,
+      "placeEvidence": 600,
+      "reviewEvidence": 300,
+      "liveSaleListings": 56,
+      "liveRentalListings": 56,
+      "market": {
+        "medianHdbPrice": 685000.0,
+        "medianFloorAreaSqm": 88.0,
+        "candidateCount": 205,
+        "recentTransactions": 1436,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "ORCHARD": {
+      "name": "ORCHARD",
+      "liveabilityScore": 88.3,
+      "dimensions": {
+        "education": {
+          "score": 95.0,
+          "places": 60,
+          "reviews": 30
+        },
+        "transport": {
+          "score": 86.5,
+          "places": 60,
+          "reviews": 30
+        },
+        "food": {
+          "score": 85.2,
+          "places": 60,
+          "reviews": 30
+        },
+        "shopping": {
+          "score": 86.1,
+          "places": 60,
+          "reviews": 30
+        },
+        "recreation": {
+          "score": 88.3,
+          "places": 60,
+          "reviews": 30
+        },
+        "nature": {
+          "score": 88.5,
+          "places": 60,
+          "reviews": 30
+        }
+      },
+      "subzoneCount": 3,
+      "placeEvidence": 360,
+      "reviewEvidence": 180,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "OUTRAM": {
+      "name": "OUTRAM",
+      "liveabilityScore": 86.5,
+      "dimensions": {
+        "education": {
+          "score": 91.2,
+          "places": 78,
+          "reviews": 40
+        },
+        "transport": {
+          "score": 81.0,
+          "places": 80,
+          "reviews": 40
+        },
+        "food": {
+          "score": 85.7,
+          "places": 80,
+          "reviews": 40
+        },
+        "shopping": {
+          "score": 85.6,
+          "places": 80,
+          "reviews": 40
+        },
+        "recreation": {
+          "score": 86.2,
+          "places": 80,
+          "reviews": 40
+        },
+        "nature": {
+          "score": 89.3,
+          "places": 75,
+          "reviews": 40
+        }
+      },
+      "subzoneCount": 4,
+      "placeEvidence": 473,
+      "reviewEvidence": 240,
+      "liveSaleListings": 32,
+      "liveRentalListings": 49,
+      "market": null
+    },
+    "PASIR RIS": {
+      "name": "PASIR RIS",
+      "liveabilityScore": 86.3,
+      "dimensions": {
+        "education": {
+          "score": 95.1,
+          "places": 160,
+          "reviews": 80
+        },
+        "transport": {
+          "score": 78.1,
+          "places": 160,
+          "reviews": 80
+        },
+        "food": {
+          "score": 85.2,
+          "places": 160,
+          "reviews": 80
+        },
+        "shopping": {
+          "score": 82.8,
+          "places": 160,
+          "reviews": 80
+        },
+        "recreation": {
+          "score": 88.3,
+          "places": 144,
+          "reviews": 80
+        },
+        "nature": {
+          "score": 88.3,
+          "places": 150,
+          "reviews": 80
+        }
+      },
+      "subzoneCount": 8,
+      "placeEvidence": 934,
+      "reviewEvidence": 480,
+      "liveSaleListings": 138,
+      "liveRentalListings": 193,
+      "market": {
+        "medianHdbPrice": 716000.0,
+        "medianFloorAreaSqm": 123.0,
+        "candidateCount": 215,
+        "recentTransactions": 879,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "PAYA LEBAR": {
+      "name": "PAYA LEBAR",
+      "liveabilityScore": 85.6,
+      "dimensions": {
+        "education": {
+          "score": 90.3,
+          "places": 100,
+          "reviews": 50
+        },
+        "transport": {
+          "score": 82.3,
+          "places": 100,
+          "reviews": 50
+        },
+        "food": {
+          "score": 83.1,
+          "places": 100,
+          "reviews": 50
+        },
+        "shopping": {
+          "score": 83.5,
+          "places": 86,
+          "reviews": 50
+        },
+        "recreation": {
+          "score": 85.7,
+          "places": 100,
+          "reviews": 50
+        },
+        "nature": {
+          "score": 88.6,
+          "places": 49,
+          "reviews": 50
+        }
+      },
+      "subzoneCount": 5,
+      "placeEvidence": 535,
+      "reviewEvidence": 300,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "PIONEER": {
+      "name": "PIONEER",
+      "liveabilityScore": 82.8,
+      "dimensions": {
+        "education": {
+          "score": 89.0,
+          "places": 82,
+          "reviews": 147
+        },
+        "transport": {
+          "score": 75.3,
+          "places": 23,
+          "reviews": 55
+        },
+        "food": {
+          "score": 79.3,
+          "places": 35,
+          "reviews": 119
+        },
+        "shopping": {
+          "score": 79.2,
+          "places": 38,
+          "reviews": 88
+        },
+        "recreation": {
+          "score": 86.1,
+          "places": 59,
+          "reviews": 125
+        },
+        "nature": {
+          "score": 88.0,
+          "places": 55,
+          "reviews": 135
+        }
+      },
+      "subzoneCount": 5,
+      "placeEvidence": 292,
+      "reviewEvidence": 669,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "PUNGGOL": {
+      "name": "PUNGGOL",
+      "liveabilityScore": 85.7,
+      "dimensions": {
+        "education": {
+          "score": 94.5,
+          "places": 140,
+          "reviews": 70
+        },
+        "transport": {
+          "score": 80.6,
+          "places": 125,
+          "reviews": 70
+        },
+        "food": {
+          "score": 82.0,
+          "places": 140,
+          "reviews": 70
+        },
+        "shopping": {
+          "score": 80.7,
+          "places": 140,
+          "reviews": 70
+        },
+        "recreation": {
+          "score": 87.2,
+          "places": 140,
+          "reviews": 70
+        },
+        "nature": {
+          "score": 89.4,
+          "places": 140,
+          "reviews": 70
+        }
+      },
+      "subzoneCount": 7,
+      "placeEvidence": 825,
+      "reviewEvidence": 420,
+      "liveSaleListings": 442,
+      "liveRentalListings": 464,
+      "market": {
+        "medianHdbPrice": 670000.0,
+        "medianFloorAreaSqm": 93.0,
+        "candidateCount": 533,
+        "recentTransactions": 2897,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "QUEENSTOWN": {
+      "name": "QUEENSTOWN",
+      "liveabilityScore": 85.0,
+      "dimensions": {
+        "education": {
+          "score": 88.6,
+          "places": 213,
+          "reviews": 347
+        },
+        "transport": {
+          "score": 83.4,
+          "places": 74,
+          "reviews": 193
+        },
+        "food": {
+          "score": 86.0,
+          "places": 107,
+          "reviews": 353
+        },
+        "shopping": {
+          "score": 78.7,
+          "places": 101,
+          "reviews": 221
+        },
+        "recreation": {
+          "score": 86.4,
+          "places": 151,
+          "reviews": 334
+        },
+        "nature": {
+          "score": 86.9,
+          "places": 123,
+          "reviews": 282
+        }
+      },
+      "subzoneCount": 15,
+      "placeEvidence": 769,
+      "reviewEvidence": 1730,
+      "liveSaleListings": 180,
+      "liveRentalListings": 292,
+      "market": {
+        "medianHdbPrice": 793922.0,
+        "medianFloorAreaSqm": 82.5,
+        "candidateCount": 172,
+        "recentTransactions": 1208,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "RIVER VALLEY": {
+      "name": "RIVER VALLEY",
+      "liveabilityScore": 86.2,
+      "dimensions": {
+        "education": {
+          "score": 87.5,
+          "places": 70,
+          "reviews": 196
+        },
+        "transport": {
+          "score": 85.1,
+          "places": 23,
+          "reviews": 48
+        },
+        "food": {
+          "score": 87.1,
+          "places": 46,
+          "reviews": 131
+        },
+        "shopping": {
+          "score": 80.9,
+          "places": 41,
+          "reviews": 116
+        },
+        "recreation": {
+          "score": 88.5,
+          "places": 55,
+          "reviews": 198
+        },
+        "nature": {
+          "score": 87.9,
+          "places": 43,
+          "reviews": 108
+        }
+      },
+      "subzoneCount": 5,
+      "placeEvidence": 278,
+      "reviewEvidence": 797,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "ROCHOR": {
+      "name": "ROCHOR",
+      "liveabilityScore": 87.2,
+      "dimensions": {
+        "education": {
+          "score": 91.4,
+          "places": 200,
+          "reviews": 100
+        },
+        "transport": {
+          "score": 84.8,
+          "places": 188,
+          "reviews": 100
+        },
+        "food": {
+          "score": 86.1,
+          "places": 200,
+          "reviews": 100
+        },
+        "shopping": {
+          "score": 85.5,
+          "places": 200,
+          "reviews": 100
+        },
+        "recreation": {
+          "score": 87.0,
+          "places": 200,
+          "reviews": 100
+        },
+        "nature": {
+          "score": 88.3,
+          "places": 200,
+          "reviews": 100
+        }
+      },
+      "subzoneCount": 10,
+      "placeEvidence": 1188,
+      "reviewEvidence": 600,
+      "liveSaleListings": 21,
+      "liveRentalListings": 36,
+      "market": null
+    },
+    "SELETAR": {
+      "name": "SELETAR",
+      "liveabilityScore": 85.9,
+      "dimensions": {
+        "education": {
+          "score": 91.6,
+          "places": 80,
+          "reviews": 40
+        },
+        "transport": {
+          "score": 82.2,
+          "places": 80,
+          "reviews": 40
+        },
+        "food": {
+          "score": 83.5,
+          "places": 62,
+          "reviews": 40
+        },
+        "shopping": {
+          "score": 83.2,
+          "places": 66,
+          "reviews": 40
+        },
+        "recreation": {
+          "score": 85.2,
+          "places": 73,
+          "reviews": 40
+        },
+        "nature": {
+          "score": 89.8,
+          "places": 80,
+          "reviews": 40
+        }
+      },
+      "subzoneCount": 4,
+      "placeEvidence": 441,
+      "reviewEvidence": 240,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "SEMBAWANG": {
+      "name": "SEMBAWANG",
+      "liveabilityScore": 85.9,
+      "dimensions": {
+        "education": {
+          "score": 94.6,
+          "places": 180,
+          "reviews": 90
+        },
+        "transport": {
+          "score": 79.3,
+          "places": 135,
+          "reviews": 90
+        },
+        "food": {
+          "score": 82.7,
+          "places": 161,
+          "reviews": 85
+        },
+        "shopping": {
+          "score": 82.6,
+          "places": 155,
+          "reviews": 85
+        },
+        "recreation": {
+          "score": 87.4,
+          "places": 180,
+          "reviews": 90
+        },
+        "nature": {
+          "score": 89.1,
+          "places": 143,
+          "reviews": 90
+        }
+      },
+      "subzoneCount": 9,
+      "placeEvidence": 954,
+      "reviewEvidence": 530,
+      "liveSaleListings": 162,
+      "liveRentalListings": 213,
+      "market": {
+        "medianHdbPrice": 599500.0,
+        "medianFloorAreaSqm": 93.0,
+        "candidateCount": 288,
+        "recentTransactions": 1870,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "SENGKANG": {
+      "name": "SENGKANG",
+      "liveabilityScore": 85.8,
+      "dimensions": {
+        "education": {
+          "score": 94.0,
+          "places": 140,
+          "reviews": 70
+        },
+        "transport": {
+          "score": 80.9,
+          "places": 134,
+          "reviews": 70
+        },
+        "food": {
+          "score": 81.6,
+          "places": 133,
+          "reviews": 70
+        },
+        "shopping": {
+          "score": 81.6,
+          "places": 140,
+          "reviews": 70
+        },
+        "recreation": {
+          "score": 87.8,
+          "places": 139,
+          "reviews": 70
+        },
+        "nature": {
+          "score": 88.6,
+          "places": 123,
+          "reviews": 70
+        }
+      },
+      "subzoneCount": 7,
+      "placeEvidence": 809,
+      "reviewEvidence": 420,
+      "liveSaleListings": 432,
+      "liveRentalListings": 542,
+      "market": {
+        "medianHdbPrice": 655000.0,
+        "medianFloorAreaSqm": 94.0,
+        "candidateCount": 640,
+        "recentTransactions": 3326,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "SERANGOON": {
+      "name": "SERANGOON",
+      "liveabilityScore": 84.6,
+      "dimensions": {
+        "education": {
+          "score": 93.5,
+          "places": 140,
+          "reviews": 70
+        },
+        "transport": {
+          "score": 78.7,
+          "places": 140,
+          "reviews": 70
+        },
+        "food": {
+          "score": 82.8,
+          "places": 140,
+          "reviews": 70
+        },
+        "shopping": {
+          "score": 80.9,
+          "places": 140,
+          "reviews": 70
+        },
+        "recreation": {
+          "score": 82.9,
+          "places": 138,
+          "reviews": 70
+        },
+        "nature": {
+          "score": 88.8,
+          "places": 137,
+          "reviews": 70
+        }
+      },
+      "subzoneCount": 7,
+      "placeEvidence": 835,
+      "reviewEvidence": 420,
+      "liveSaleListings": 115,
+      "liveRentalListings": 167,
+      "market": {
+        "medianHdbPrice": 661500.0,
+        "medianFloorAreaSqm": 95.0,
+        "candidateCount": 123,
+        "recentTransactions": 550,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "SIMPANG": {
+      "name": "SIMPANG",
+      "liveabilityScore": 86.3,
+      "dimensions": {
+        "education": {
+          "score": 92.2,
+          "places": 80,
+          "reviews": 40
+        },
+        "transport": {
+          "score": 83.8,
+          "places": 80,
+          "reviews": 40
+        },
+        "food": {
+          "score": 83.8,
+          "places": 80,
+          "reviews": 40
+        },
+        "shopping": {
+          "score": 84.1,
+          "places": 80,
+          "reviews": 40
+        },
+        "recreation": {
+          "score": 84.9,
+          "places": 80,
+          "reviews": 40
+        },
+        "nature": {
+          "score": 89.2,
+          "places": 80,
+          "reviews": 40
+        }
+      },
+      "subzoneCount": 4,
+      "placeEvidence": 480,
+      "reviewEvidence": 240,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "SINGAPORE RIVER": {
+      "name": "SINGAPORE RIVER",
+      "liveabilityScore": 87.5,
+      "dimensions": {
+        "education": {
+          "score": 90.6,
+          "places": 60,
+          "reviews": 30
+        },
+        "transport": {
+          "score": 83.2,
+          "places": 60,
+          "reviews": 30
+        },
+        "food": {
+          "score": 85.1,
+          "places": 41,
+          "reviews": 25
+        },
+        "shopping": {
+          "score": 86.2,
+          "places": 46,
+          "reviews": 30
+        },
+        "recreation": {
+          "score": 90.8,
+          "places": 60,
+          "reviews": 30
+        },
+        "nature": {
+          "score": 89.3,
+          "places": 60,
+          "reviews": 30
+        }
+      },
+      "subzoneCount": 3,
+      "placeEvidence": 327,
+      "reviewEvidence": 175,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "SOUTHERN ISLANDS": {
+      "name": "SOUTHERN ISLANDS",
+      "liveabilityScore": 86.5,
+      "dimensions": {
+        "education": {
+          "score": 89.7,
+          "places": 40,
+          "reviews": 20
+        },
+        "transport": {
+          "score": 81.3,
+          "places": 40,
+          "reviews": 20
+        },
+        "food": {
+          "score": 85.3,
+          "places": 40,
+          "reviews": 20
+        },
+        "shopping": {
+          "score": 84.5,
+          "places": 40,
+          "reviews": 20
+        },
+        "recreation": {
+          "score": 88.3,
+          "places": 40,
+          "reviews": 20
+        },
+        "nature": {
+          "score": 89.8,
+          "places": 40,
+          "reviews": 20
+        }
+      },
+      "subzoneCount": 2,
+      "placeEvidence": 240,
+      "reviewEvidence": 120,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "STRAITS VIEW": {
+      "name": "STRAITS VIEW",
+      "liveabilityScore": 88.4,
+      "dimensions": {
+        "education": {
+          "score": 94.6,
+          "places": 20,
+          "reviews": 10
+        },
+        "transport": {
+          "score": 87.3,
+          "places": 20,
+          "reviews": 10
+        },
+        "food": {
+          "score": 84.7,
+          "places": 20,
+          "reviews": 10
+        },
+        "shopping": {
+          "score": 86.0,
+          "places": 20,
+          "reviews": 10
+        },
+        "recreation": {
+          "score": 87.8,
+          "places": 20,
+          "reviews": 10
+        },
+        "nature": {
+          "score": 89.9,
+          "places": 20,
+          "reviews": 10
+        }
+      },
+      "subzoneCount": 1,
+      "placeEvidence": 120,
+      "reviewEvidence": 60,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "SUNGEI KADUT": {
+      "name": "SUNGEI KADUT",
+      "liveabilityScore": 85.8,
+      "dimensions": {
+        "education": {
+          "score": 92.1,
+          "places": 100,
+          "reviews": 50
+        },
+        "transport": {
+          "score": 84.7,
+          "places": 100,
+          "reviews": 50
+        },
+        "food": {
+          "score": 82.3,
+          "places": 100,
+          "reviews": 50
+        },
+        "shopping": {
+          "score": 83.3,
+          "places": 100,
+          "reviews": 50
+        },
+        "recreation": {
+          "score": 84.0,
+          "places": 100,
+          "reviews": 50
+        },
+        "nature": {
+          "score": 88.5,
+          "places": 100,
+          "reviews": 50
+        }
+      },
+      "subzoneCount": 5,
+      "placeEvidence": 600,
+      "reviewEvidence": 300,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "TAMPINES": {
+      "name": "TAMPINES",
+      "liveabilityScore": 87.4,
+      "dimensions": {
+        "education": {
+          "score": 95.6,
+          "places": 100,
+          "reviews": 50
+        },
+        "transport": {
+          "score": 86.3,
+          "places": 100,
+          "reviews": 50
+        },
+        "food": {
+          "score": 83.9,
+          "places": 100,
+          "reviews": 50
+        },
+        "shopping": {
+          "score": 84.4,
+          "places": 100,
+          "reviews": 50
+        },
+        "recreation": {
+          "score": 86.4,
+          "places": 100,
+          "reviews": 50
+        },
+        "nature": {
+          "score": 88.0,
+          "places": 100,
+          "reviews": 50
+        }
+      },
+      "subzoneCount": 5,
+      "placeEvidence": 600,
+      "reviewEvidence": 300,
+      "liveSaleListings": 374,
+      "liveRentalListings": 442,
+      "market": {
+        "medianHdbPrice": 660000.0,
+        "medianFloorAreaSqm": 103.5,
+        "candidateCount": 583,
+        "recentTransactions": 3025,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "TANGLIN": {
+      "name": "TANGLIN",
+      "liveabilityScore": 85.5,
+      "dimensions": {
+        "education": {
+          "score": 90.9,
+          "places": 65,
+          "reviews": 133
+        },
+        "transport": {
+          "score": 84.3,
+          "places": 20,
+          "reviews": 60
+        },
+        "food": {
+          "score": 79.8,
+          "places": 28,
+          "reviews": 80
+        },
+        "shopping": {
+          "score": 78.8,
+          "places": 31,
+          "reviews": 60
+        },
+        "recreation": {
+          "score": 88.2,
+          "places": 44,
+          "reviews": 93
+        },
+        "nature": {
+          "score": 91.1,
+          "places": 38,
+          "reviews": 142
+        }
+      },
+      "subzoneCount": 4,
+      "placeEvidence": 226,
+      "reviewEvidence": 568,
+      "liveSaleListings": 5,
+      "liveRentalListings": 1,
+      "market": null
+    },
+    "TENGAH": {
+      "name": "TENGAH",
+      "liveabilityScore": 85.3,
+      "dimensions": {
+        "education": {
+          "score": 88.5,
+          "places": 97,
+          "reviews": 169
+        },
+        "transport": {
+          "score": 75.5,
+          "places": 28,
+          "reviews": 49
+        },
+        "food": {
+          "score": 85.2,
+          "places": 47,
+          "reviews": 141
+        },
+        "shopping": {
+          "score": 81.0,
+          "places": 46,
+          "reviews": 99
+        },
+        "recreation": {
+          "score": 91.0,
+          "places": 60,
+          "reviews": 106
+        },
+        "nature": {
+          "score": 90.4,
+          "places": 63,
+          "reviews": 139
+        }
+      },
+      "subzoneCount": 6,
+      "placeEvidence": 341,
+      "reviewEvidence": 703,
+      "liveSaleListings": 0,
+      "liveRentalListings": 26,
+      "market": null
+    },
+    "TOA PAYOH": {
+      "name": "TOA PAYOH",
+      "liveabilityScore": 85.6,
+      "dimensions": {
+        "education": {
+          "score": 94.6,
+          "places": 240,
+          "reviews": 120
+        },
+        "transport": {
+          "score": 81.0,
+          "places": 215,
+          "reviews": 120
+        },
+        "food": {
+          "score": 82.5,
+          "places": 207,
+          "reviews": 120
+        },
+        "shopping": {
+          "score": 82.8,
+          "places": 240,
+          "reviews": 120
+        },
+        "recreation": {
+          "score": 84.6,
+          "places": 227,
+          "reviews": 120
+        },
+        "nature": {
+          "score": 88.2,
+          "places": 240,
+          "reviews": 120
+        }
+      },
+      "subzoneCount": 12,
+      "placeEvidence": 1369,
+      "reviewEvidence": 720,
+      "liveSaleListings": 271,
+      "liveRentalListings": 301,
+      "market": {
+        "medianHdbPrice": 659444.0,
+        "medianFloorAreaSqm": 82.0,
+        "candidateCount": 243,
+        "recentTransactions": 1774,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "TUAS": {
+      "name": "TUAS",
+      "liveabilityScore": 85.4,
+      "dimensions": {
+        "education": {
+          "score": 91.0,
+          "places": 102,
+          "reviews": 207
+        },
+        "transport": {
+          "score": 84.6,
+          "places": 27,
+          "reviews": 33
+        },
+        "food": {
+          "score": 83.0,
+          "places": 42,
+          "reviews": 41
+        },
+        "shopping": {
+          "score": 79.6,
+          "places": 49,
+          "reviews": 109
+        },
+        "recreation": {
+          "score": 86.8,
+          "places": 57,
+          "reviews": 113
+        },
+        "nature": {
+          "score": 87.6,
+          "places": 65,
+          "reviews": 161
+        }
+      },
+      "subzoneCount": 6,
+      "placeEvidence": 342,
+      "reviewEvidence": 664,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "WESTERN ISLANDS": {
+      "name": "WESTERN ISLANDS",
+      "liveabilityScore": 86.5,
+      "dimensions": {
+        "education": {
+          "score": 93.1,
+          "places": 60,
+          "reviews": 30
+        },
+        "transport": {
+          "score": 83.6,
+          "places": 60,
+          "reviews": 30
+        },
+        "food": {
+          "score": 82.5,
+          "places": 60,
+          "reviews": 30
+        },
+        "shopping": {
+          "score": 84.9,
+          "places": 60,
+          "reviews": 30
+        },
+        "recreation": {
+          "score": 86.3,
+          "places": 60,
+          "reviews": 30
+        },
+        "nature": {
+          "score": 88.6,
+          "places": 60,
+          "reviews": 30
+        }
+      },
+      "subzoneCount": 3,
+      "placeEvidence": 360,
+      "reviewEvidence": 180,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "WESTERN WATER CATCHMENT": {
+      "name": "WESTERN WATER CATCHMENT",
+      "liveabilityScore": 85.3,
+      "dimensions": {
+        "education": {
+          "score": 87.3,
+          "places": 54,
+          "reviews": 132
+        },
+        "transport": {
+          "score": 84.8,
+          "places": 20,
+          "reviews": 52
+        },
+        "food": {
+          "score": 80.6,
+          "places": 25,
+          "reviews": 102
+        },
+        "shopping": {
+          "score": 83.6,
+          "places": 27,
+          "reviews": 112
+        },
+        "recreation": {
+          "score": 88.7,
+          "places": 36,
+          "reviews": 92
+        },
+        "nature": {
+          "score": 86.7,
+          "places": 30,
+          "reviews": 91
+        }
+      },
+      "subzoneCount": 3,
+      "placeEvidence": 192,
+      "reviewEvidence": 581,
+      "liveSaleListings": 0,
+      "liveRentalListings": 0,
+      "market": null
+    },
+    "WOODLANDS": {
+      "name": "WOODLANDS",
+      "liveabilityScore": 86.0,
+      "dimensions": {
+        "education": {
+          "score": 94.2,
+          "places": 180,
+          "reviews": 90
+        },
+        "transport": {
+          "score": 79.8,
+          "places": 167,
+          "reviews": 90
+        },
+        "food": {
+          "score": 83.1,
+          "places": 180,
+          "reviews": 90
+        },
+        "shopping": {
+          "score": 84.7,
+          "places": 180,
+          "reviews": 90
+        },
+        "recreation": {
+          "score": 85.3,
+          "places": 180,
+          "reviews": 90
+        },
+        "nature": {
+          "score": 88.9,
+          "places": 180,
+          "reviews": 90
+        }
+      },
+      "subzoneCount": 9,
+      "placeEvidence": 1067,
+      "reviewEvidence": 540,
+      "liveSaleListings": 395,
+      "liveRentalListings": 486,
+      "market": {
+        "medianHdbPrice": 591750.0,
+        "medianFloorAreaSqm": 102.0,
+        "candidateCount": 614,
+        "recentTransactions": 3064,
+        "latestTransactionMonth": "2026-06"
+      }
+    },
+    "YISHUN": {
+      "name": "YISHUN",
+      "liveabilityScore": 85.5,
+      "dimensions": {
+        "education": {
+          "score": 92.9,
+          "places": 180,
+          "reviews": 90
+        },
+        "transport": {
+          "score": 80.3,
+          "places": 174,
+          "reviews": 90
+        },
+        "food": {
+          "score": 83.4,
+          "places": 169,
+          "reviews": 90
+        },
+        "shopping": {
+          "score": 82.5,
+          "places": 180,
+          "reviews": 90
+        },
+        "recreation": {
+          "score": 85.9,
+          "places": 180,
+          "reviews": 90
+        },
+        "nature": {
+          "score": 88.3,
+          "places": 147,
+          "reviews": 90
+        }
+      },
+      "subzoneCount": 9,
+      "placeEvidence": 1030,
+      "reviewEvidence": 540,
+      "liveSaleListings": 410,
+      "liveRentalListings": 591,
+      "market": {
+        "medianHdbPrice": 535500.0,
+        "medianFloorAreaSqm": 92.0,
+        "candidateCount": 533,
+        "recentTransactions": 2693,
+        "latestTransactionMonth": "2026-06"
+      }
+    }
+  }
+}

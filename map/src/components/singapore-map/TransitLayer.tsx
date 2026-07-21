@@ -7,7 +7,6 @@ import { useLayerData } from '../../hooks/useLayerData';
 import centroid from '@turf/centroid';
 import bbox from '@turf/bbox';
 
-const CANVAS = L.canvas({ padding: 0.5 });
 const TRANSIT = new Set(['railway_station','bus_stop']);
 const MIN_ZOOM = 14;
 
@@ -51,7 +50,6 @@ export function TransitLayer({ activeIds, categories, onFocus, onSelectFeature }
     if (!features.length) return;
 
     const gl = L.geoJSON({ type:'FeatureCollection', features } as FeatureCollection, {
-      renderer: CANVAS,
       pointToLayer: (f, ll) => {
         const col = (f as any)._color; const icon = (f as any)._icon; const name = fname(f);
         const label = name.length > 14 ? name.slice(0,12)+'…' : name;

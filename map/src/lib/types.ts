@@ -9,6 +9,20 @@ export interface LayerCategory { id: string; label: string; icon: string; color:
 export interface LayerGroup { id: string; label: string; categories: LayerCategory[]; }
 export interface FocusState { bounds: [[number, number], [number, number]]; label: string; }
 
+export interface LocationAnchor {
+  id: string;
+  provider: 'onemap';
+  name: string;
+  address: string;
+  postalCode?: string;
+  latitude: number;
+  longitude: number;
+  confidence: number;
+  planningArea: string;
+  subzone: string;
+  maxDistanceM?: number;
+}
+
 export interface SingaporeMapProps {
   onSelect?: (region: SelectedRegion) => void;
   onHover?: (region: SelectedRegion | null) => void;
@@ -18,16 +32,47 @@ export interface SingaporeMapProps {
   listingFilter?: (listing: RentalListing) => boolean;
   listingSort?: (a: RentalListing, b: RentalListing) => number;
   listingLabelMap?: ListingLabelMap;
+  regionScores?: Record<string, number>;
+  subzoneScores?: Record<string, SubzoneProfile>;
+  maxListingMarkers?: number;
+  anchorLocation?: LocationAnchor | null;
 }
 
 export interface RentalListing {
-  id: string; latitude: number; longitude: number; title?: string; price?: number;
+  id: string; latitude?: number; longitude?: number; title?: string; price?: number;
+  mode?: 'sale' | 'rent';
   address?: string; propertyType?: string; bedrooms?: number; bathrooms?: number;
   areaSqft?: number; areaSqm?: number; furnishing?: string; images?: string[];
   url?: string; description?: string; postedDate?: string; district?: string;
   nearestMRT?: string; amenities?: string[]; [key: string]: unknown;
 }
 export type ListingLabelMap = Record<string, string>;
+
+export interface DimensionProfile { score: number | null; places: number; reviews: number; }
+export interface SubzoneProfile {
+  name: string;
+  planningArea: string;
+  liveabilityScore: number | null;
+  dimensions: Record<string, DimensionProfile>;
+}
+
+export interface RegionProfile {
+  name: string;
+  liveabilityScore: number | null;
+  dimensions: Record<string, DimensionProfile>;
+  subzoneCount: number;
+  placeEvidence: number;
+  reviewEvidence: number;
+  liveSaleListings: number;
+  liveRentalListings: number;
+  market?: {
+    medianHdbPrice: number;
+    medianFloorAreaSqm: number;
+    candidateCount: number;
+    recentTransactions: number;
+    latestTransactionMonth: string;
+  } | null;
+}
 
 export type PlanningAreaCollection = GeoJSON.FeatureCollection<GeoJSON.MultiPolygon | GeoJSON.Polygon, PlanningAreaProperties>;
 export type SubzoneCollection = GeoJSON.FeatureCollection<GeoJSON.MultiPolygon | GeoJSON.Polygon, SubzoneProperties>;

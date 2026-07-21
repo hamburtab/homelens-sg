@@ -1,0 +1,55 @@
+﻿planning_area,subzone,poi_dimension,facility_count,avg_rating,total_user_ratings,rating_100
+Kallang,Bendemeer,education,20,4.445,1825,88.9
+Kallang,Bendemeer,transport,20,4.355,2846,87.1
+Kallang,Bendemeer,food,20,4.235,122984,84.7
+Kallang,Bendemeer,shopping,20,4.195,124048,83.9
+Kallang,Bendemeer,recreation,20,4.24,11598,84.8
+Kallang,Bendemeer,nature,20,4.41,26731,88.2
+Kallang,Boon Keng,education,20,4.585,4011,91.7
+Kallang,Boon Keng,transport,20,4.31,2775,86.2
+Kallang,Boon Keng,food,9,4.033,65556,80.66
+Kallang,Boon Keng,shopping,20,4.21,107354,84.2
+Kallang,Boon Keng,recreation,20,4.255,9859,85.1
+Kallang,Boon Keng,nature,20,4.37,24104,87.4
+Kallang,Crawford,education,20,4.535,2543,90.7
+Kallang,Crawford,transport,20,4.175,3503,83.5
+Kallang,Crawford,food,20,4.265,133867,85.3
+Kallang,Crawford,shopping,20,4.26,166040,85.2
+Kallang,Crawford,recreation,20,4.28,13197,85.6
+Kallang,Crawford,nature,20,4.375,23306,87.5
+Kallang,Geylang Bahru,education,20,4.485,1751,89.7
+Kallang,Geylang Bahru,transport,20,4.0,1517,80.0
+Kallang,Geylang Bahru,food,20,4.26,117344,85.2
+Kallang,Geylang Bahru,shopping,20,4.215,117507,84.3
+Kallang,Geylang Bahru,recreation,20,4.26,6775,85.2
+Kallang,Geylang Bahru,nature,20,4.445,23792,88.9
+Kallang,Kallang Bahru,education,20,4.684,3361,93.68
+Kallang,Kallang Bahru,transport,20,4.23,1684,84.6
+Kallang,Kallang Bahru,food,20,4.265,121650,85.3
+Kallang,Kallang Bahru,shopping,20,4.215,117669,84.3
+Kallang,Kallang Bahru,recreation,20,4.255,14118,85.1
+Kallang,Kallang Bahru,nature,20,4.42,177742,88.4
+Kallang,Kampong Bugis,education,20,4.595,1369,91.9
+Kallang,Kampong Bugis,transport,20,4.285,2101,85.7
+Kallang,Kampong Bugis,food,20,4.18,83590,83.6
+Kallang,Kampong Bugis,shopping,20,4.15,87471,83.0
+Kallang,Kampong Bugis,recreation,20,4.265,8623,85.3
+Kallang,Kampong Bugis,nature,20,4.33,25735,86.6
+Kallang,Kampong Java,education,20,4.779,2687,95.58
+Kallang,Kampong Java,transport,20,4.2,1673,84.0
+Kallang,Kampong Java,food,20,4.16,137190,83.2
+Kallang,Kampong Java,shopping,20,4.285,172243,85.7
+Kallang,Kampong Java,recreation,20,4.33,9480,86.6
+Kallang,Kampong Java,nature,20,4.425,184660,88.5
+Kallang,Lavender,education,20,4.556,2347,91.12
+Kallang,Lavender,transport,20,4.12,3702,82.4
+Kallang,Lavender,food,20,4.255,129518,85.1
+Kallang,Lavender,shopping,20,4.235,143562,84.7
+Kallang,Lavender,recreation,20,4.18,8395,83.6
+Kallang,Lavender,nature,20,4.435,182880,88.7
+Kallang,Tanjong Rhu,education,20,4.505,2637,90.1
+Kallang,Tanjong Rhu,transport,20,4.221,2554,84.42
+Kallang,Tanjong Rhu,food,20,4.185,133118,83.7
+Kallang,Tanjong Rhu,shopping,20,4.25,83519,85.0
+Kallang,Tanjong Rhu,recreation,20,4.275,20238,85.5
+Kallang,Tanjong Rhu,nature,20,4.52,180897,90.4

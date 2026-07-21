@@ -1,0 +1,49 @@
+{
+  "source": "Google Maps / Google Places contributed community review dataset",
+  "contribution_type": "group_member_dataset",
+  "checked_on": "2026-07-20",
+  "dataset_root": "data/external/community_reviews/google_maps_subzone_reviews",
+  "primary_profile_path": "data/external/community_reviews/google_maps_subzone_reviews/all_singapore_subzone_objective_dimension_review_profile.csv",
+  "planning_areas": 55,
+  "subzones": 332,
+  "profile_rows": 332,
+  "profile_columns": 146,
+  "profile_key_duplicates": 0,
+  "subzone_keys_matching_map_geojson": 332,
+  "subzone_keys_missing_from_map_geojson": 0,
+  "map_geojson_keys_missing_from_profile": 0,
+  "places_raw_rows": 28555,
+  "reviews_raw_rows": 21686,
+  "dimension_summary_rows": 1728,
+  "review_summary_rows": 1728,
+  "dimensions": [
+    "education",
+    "transport",
+    "food",
+    "shopping",
+    "recreation",
+    "nature"
+  ],
+  "sha256": {
+    "all_singapore_places_raw.csv": "f592a6f7dd553b2a98b14bb74bc07b15467dd160af9a85946e8d63cfd8f299bf",
+    "all_singapore_reviews_raw.csv": "03aea391d81801d069537afcc1d8fc63cf3c9249acba9f20aeb03f277efed254",
+    "all_singapore_subzone_objective_dimension_review_profile.csv": "788ad1db69cd84f7fefd35d5ebc28fdbfeeaf7486f776835df1a76e826e4102a",
+    "all_singapore_subzone_objective_dimension_summary.csv": "ca23f724176c01bb342b59c5cdeebcbf3dc99f24ad1731ad8657f8bc473d4935",
+    "all_singapore_subzone_objective_review_summary.csv": "9d5e86962fd3df3ab0179f82115c5b1ba3b7d094150f4aa5424bf8e5c1a626d1"
+  },
+  "integration_status": "external_not_product_input",
+  "privacy": {
+    "contains_review_text": true,
+    "contains_review_author_names": true,
+    "contains_review_author_urls": true,
+    "public_frontend_allowed": false
+  },
+  "known_limitations": [
+    "The older 127-subzone collection and newer 205-subzone collection used different sampling densities.",
+    "Raw place and review tables cover 288 subzones; the final profile covers all 332 subzones.",
+    "Google review retrieval is sampled and is not a complete review census.",
+    "Place assignment was query-based and was not strictly validated by point-in-polygon for every result.",
+    "The contributor reported seven place results outside the usual Singapore bounding box.",
+    "Raw review data contains personal identifiers and must not be copied into map/public or another public bundle."
+  ]
+}

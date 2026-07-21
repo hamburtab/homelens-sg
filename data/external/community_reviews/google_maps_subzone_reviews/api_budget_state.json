@@ -1,0 +1,11 @@
+{
+  "date": "2026-07-20",
+  "total_calls": 1648,
+  "total_call_budget": 3800,
+  "calls_by_key_id": {
+    "6f5fd889d0c4": 950,
+    "750ffa1dfd31": 698,
+    "492a181d4759": 0,
+    "83459cc7a5f5": 0
+  }
+}

@@ -5,7 +5,12 @@ interface P { groups: LayerGroup[]; active: Set<string>; onToggle: (id: string) 
 
 export function LayerPanel({ groups, active, onToggle, onToggleGroup }: P) {
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set());
-  const tc = (gid: string) => setCollapsed(p => { const n = new Set(p); n.has(gid)?n.delete(gid):n.add(gid); return n; });
+  const tc = (gid: string) => setCollapsed(p => {
+    const next = new Set(p);
+    if (next.has(gid)) next.delete(gid);
+    else next.add(gid);
+    return next;
+  });
   return (
     <div className="layer-panel">
       <div className="layer-panel__header">📍 地图图层</div>

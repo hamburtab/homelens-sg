@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-07-20T11:00:17.074006+00:00",
+  "historicalMarket": {
+    "candidateRows": 7730,
+    "towns": 26,
+    "rowsWithCoordinates": 7651,
+    "latestObservationMonth": "2026-06"
+  },
+  "liveListings": {
+    "sale": {
+      "rows": 6359,
+      "rows_with_coordinates": 5255,
+      "coordinate_coverage": 0.8264,
+      "rows_with_planning_area": 6099,
+      "planning_area_coverage": 0.9591,
+      "location_sources": {
+        "historical_hdb_address_match": 4291,
+        "unresolved": 1104,
+        "rental_address_match": 964
+      },
+      "area_sources": {
+        "coordinate_point_in_polygon": 5255,
+        "historical_hdb_street_match": 844,
+        "unresolved": 260
+      }
+    },
+    "rent": {
+      "rows": 8041,
+      "rows_with_coordinates": 7932,
+      "coordinate_coverage": 0.9864,
+      "rows_with_planning_area": 7984,
+      "planning_area_coverage": 0.9929,
+      "location_sources": {
+        "listing_coordinate": 7932,
+        "unresolved": 109
+      },
+      "area_sources": {
+        "coordinate_point_in_polygon": 7932,
+        "unresolved": 57,
+        "historical_hdb_street_match": 52
+      }
+    },
+    "latestScrape": "2026-07-20 10:08:00.603524+00:00",
+    "saleParsedPageRanges": [
+      "1-145",
+      "301-500"
+    ],
+    "saleRawPagesAwaitingImport": "146-185",
+    "knownSalePageGap": "186-300 and pages after 500",
+    "coverageWarning": "PropertyGuru sale data is a partial research snapshot, not complete market inventory."
+  },
+  "communityEvidence": {
+    "planningAreas": 55,
+    "subzones": 332,
+    "dimensions": [
+      "education",
+      "transport",
+      "food",
+      "shopping",
+      "recreation",
+      "nature"
+    ],
+    "privacy": "Only aggregate counts and scores are published; review text and author data stay external."
+  },
+  "model": {
+    "role": "Reference price only; never used to relax budget constraints.",
+    "holdoutMapePercent": 5.9,
+    "holdoutR2": 0.928
+  },
+  "unavailable": [
+    "Walking-time and route-aware commute estimates",
+    "Complete live-sale inventory and automated weekly refresh",
+    "Exact coordinates for unresolved listing addresses",
+    "Private-condominium historical recommendation model"
+  ]
+}

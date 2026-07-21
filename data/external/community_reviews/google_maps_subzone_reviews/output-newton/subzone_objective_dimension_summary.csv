@@ -1,0 +1,37 @@
+﻿planning_area,subzone,poi_dimension,facility_count,avg_rating,total_user_ratings,rating_100
+Newton,Cairnhill,education,20,4.65,491,93.0
+Newton,Cairnhill,transport,20,4.105,1164,82.1
+Newton,Cairnhill,food,20,4.125,131083,82.5
+Newton,Cairnhill,shopping,20,4.32,171005,86.4
+Newton,Cairnhill,recreation,20,4.37,9525,87.4
+Newton,Cairnhill,nature,20,4.395,23589,87.9
+Newton,Goodwood Park,education,20,4.65,1147,93.0
+Newton,Goodwood Park,transport,20,4.205,2191,84.1
+Newton,Goodwood Park,food,20,4.235,140028,84.7
+Newton,Goodwood Park,shopping,20,4.32,195485,86.4
+Newton,Goodwood Park,recreation,20,4.326,7066,86.52
+Newton,Goodwood Park,nature,20,4.455,31921,89.1
+Newton,Istana Negara,education,20,4.529,2991,90.58
+Newton,Istana Negara,transport,20,4.121,1325,82.42
+Newton,Istana Negara,food,1,4.2,14987,84.0
+Newton,Istana Negara,shopping,20,4.24,154247,84.8
+Newton,Istana Negara,recreation,20,4.426,7466,88.52
+Newton,Istana Negara,nature,20,4.34,24067,86.8
+Newton,Monk'S Hill,education,20,4.63,1526,92.6
+Newton,Monk'S Hill,transport,20,4.115,1566,82.3
+Newton,Monk'S Hill,food,20,4.215,123044,84.3
+Newton,Monk'S Hill,shopping,20,4.255,182749,85.1
+Newton,Monk'S Hill,recreation,20,4.325,8312,86.5
+Newton,Monk'S Hill,nature,20,4.47,34709,89.4
+Newton,Newton Circus,education,20,4.535,466,90.7
+Newton,Newton Circus,transport,20,3.939,1012,78.78
+Newton,Newton Circus,food,20,4.175,116505,83.5
+Newton,Newton Circus,shopping,20,4.29,216261,85.8
+Newton,Newton Circus,recreation,20,4.274,9880,85.48
+Newton,Newton Circus,nature,20,4.435,21963,88.7
+Newton,Orange Grove,education,20,4.67,1429,93.4
+Newton,Orange Grove,transport,20,4.21,852,84.2
+Newton,Orange Grove,food,20,4.16,128677,83.2
+Newton,Orange Grove,shopping,20,4.32,146654,86.4
+Newton,Orange Grove,recreation,20,4.435,5816,88.7
+Newton,Orange Grove,nature,20,4.435,31754,88.7

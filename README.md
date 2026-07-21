@@ -1,189 +1,172 @@
-用户输入预算、房型、区域、面积等需求后，系统会先筛选满足硬条件的候选，再进行综合排名，并说明推荐理由。
+# SG HomeRadar / HomeLens SG
 
-仓库同时包含 Python 推荐服务和独立的 React 地图应用。目录职责、数据分层以及
-历史文件的新位置见 [`docs/REPOSITORY_STRUCTURE.md`](docs/REPOSITORY_STRUCTURE.md)。
+SG HomeRadar 是一个面向新加坡 HDB 的可解释找房与区域探索系统，对应 proposal 中的两条核心交互路径：
 
-## 1. 已实现的
-必须的输入：
-1. 用户输入自己承受的最高价格
-2. 想要在的区域
-3. 几个房间
-(输入可以是自然语言)
+- **Macro Exploration**：在 55 个 URA planning areas 和 332 个 subzones 上探索交通、餐饮、购物、教育、自然与休闲生活便利度。
+- **Micro Retrieval**：用中英文自然语言描述预算、房型、区域、面积、租期和交通要求，系统先执行硬条件，再对历史证据进行多目标排名并解释原因。
 
-输出：
-这个地理位置房型的过去两年的成交金额平均数、中位数、房间面积、剩余租期和预测价格。见下面的截图
+系统把官方 HDB 历史成交、经许可分批获取的 PropertyGuru 租售挂牌、官方地理设施以及聚合社区证据整合进同一产品。它是课程研究与决策支持工具，不是估价服务或完整市场库存。
 
-### 1.1 知识库来源
+## 已实现功能
 
-系统从新加坡政府网站 data.gov.sg 下载官方 HDB 转售数据，并处理日期、价格、面积、楼层、剩余租期、缺失值和异常值。
+### 统一网页产品
 
-当前在仓库中的数据：
+- 精美、响应式的 React 单页界面；
+- 新加坡 planning area / subzone 交互地图；
+- 真实生活便利度热力着色与六维证据面板；
+- 买房、租房挂牌筛选目录；
+- 自然语言推荐表单、AI/规则解析切换；
+- OneMap 任意新加坡 POI/地址检索、候选确认与地图定位；
+- 以确认地点为圆心的直线距离硬筛选、排序、地图范围圈和房源距离展示；
+- 推荐卡、证据强度、Pareto trade-off 标记；
+- 最多 3 个候选的并排比较；
+- 定期挂牌快照与历史推荐结果联动；
+- 方法、模型、数据覆盖和未实现能力说明。
 
-| 内容 | 当前结果 |
-| --- | ---: |
-| 清洗后记录 | 235,355条 |
-| 完整分析月份 | 2017年1月－2026年6月 |
-| 候选知识库 | 7,730个楼栋＋房型候选 |
+### 推荐与模型
 
-知识库使用最近24个完整月份的数据，并按下面的单位汇总：
+- 预算、房型、指定 town、最小面积、最小剩余租期和 MRT 距离硬条件；
+- 用户可输入 “NUS”“VivoCity” 或完整地址；LLM/规则只提取地点文本，后端 OneMap 才负责解析坐标；
+- affordability、space、lease、location、transit、amenities 和 market activity 多目标排名；
+- 缺失证据不会被当作 0，也不会偷偷放宽硬条件；
+- 最近 24 个完整月份的 7,730 个 HDB 楼栋＋房型候选；
+- 随机森林仅提供参考价格，历史 75% 分位价格继续控制预算筛选；
+- 时间留出测试约为 MAPE 5.9%、R² 0.928。
 
-```text
-区域 + 楼栋 + 街道 + 房型
-```
+### 当前产品数据
 
-每个候选包含历史价格范围、面积、楼层、剩余租期、交易数量、最近交易时间和价格趋势。
+| 数据 | 当前规模 | 产品用途 |
+| --- | ---: | --- |
+| HDB 历史成交 | 235,355 条清洗记录 | 价格、面积、租期、趋势和模型 |
+| HDB 候选知识库 | 7,730 条 | 推荐与区域市场画像 |
+| 买房挂牌 | 6,359 条唯一挂牌 | 部分市场快照与推荐联动 |
+| 租房挂牌 | 8,041 条 | 租房目录与地图 |
+| Planning areas | 55 | 宏观探索 |
+| Subzones | 332 | 六维生活便利度画像 |
 
-目前推荐范围是：
+地址解析没有伪造位置：
 
-- 只包含 HDB 转售住房；
-- 只包含官方历史数据中出现过的楼栋；
-- 每个候选至少有3笔近期交易；
-- 覆盖26个标准 HDB town；
-- 不包含私人公寓和实时挂牌房源。
+- 买房挂牌 5,255 / 6,359（82.6%）可以通过历史 HDB 地址或相同租房地址确定位置；
+- 租房挂牌 7,932 / 8,041（98.6%）带有效坐标；
+- 对仍无精确坐标的地址，仅当历史 HDB 楼栋证明该街道全部属于同一 planning area 时，才补充区域级判断；因此买房/租房的 planning-area 可筛选覆盖分别达到 95.9% / 99.3%；
+- 无法可靠定位的挂牌仍保留在列表中，但不显示地图 marker；
+- `locationSource` 与 `areaSource` 分别说明地图点和区域判断的证据来源。
 
-### 1.2 关于用户输入
+## 快速运行
 
-没有大模型的 API Key 时，系统使用规则理解用户输入：
-
-- 正则表达式识别预算、面积、租期和距离；
-- 关键词识别“宽敞”“便宜”“靠近地铁”等偏好；
-- 词典识别房型和 HDB town。
-
-例如：
-
-```text
-I want a spacious 4-room flat under 650k, preferably in Tampines.
-```
-
-会被识别为：
-
-```json
-{
-  "budget": 650000,
-  "flat_types": ["4 ROOM"],
-  "preferred_towns": ["TAMPINES"],
-  "weights": {
-    "affordability": 0.32,
-    "space": 0.324,
-    "lease": 0.13,
-    "location": 0.27,
-    "transit": 0.12,
-    "amenities": 0.06,
-    "market_activity": 0.04
-  }
-}
-```
-
-中文输入也可以识别：
-
-```text
-预算65万以内，想要四房，最好在Tampines，面积大一点。
-```
-
-### 1.3 硬条件筛选和推荐排名
-
-推荐流程分为四步：
-
-1. 把自然语言转换成结构化需求；
-2. 先应用预算、房型、必须区域、最低面积和最低租期等硬条件；
-3. 对满足硬条件的候选，根据价格、面积、租期、位置和数据量进行排名；
-4. 为最终结果增加随机森林参考价格和推荐理由。
-
-预算筛选使用近期成交价格的 **75%分位数**，比只看中位数更保守。
-
-如果用户说 `preferably in Tampines`，Tampines 是软偏好，其他区域仍可能出现；如果说 `only in Tampines`，Tampines 会成为硬条件。
-
-系统还会标记低样本候选、Pareto优秀选项和缺失数据，并尽量避免所有结果集中在同一个 town。
-
-### 1.4 随机森林参考价格
-
-项目比较了历史中位数基线和随机森林回归模型。模型使用区域、房型、楼层、面积、剩余租期和交易时间等特征。
-
-当前时间测试集结果：
-
-| 指标 | 随机森林结果 |
-| --- | ---: |
-| MAE | 约 S$39,686 |
-| MAPE | 约 5.90% |
-| R² | 约 0.928 |
-
-随机森林只提供参考价格，不参与预算硬筛选，也不代表正式房屋估值。
-
-### 1.5 输出是：
-
-推荐结果会展示历史价格范围、面积、租期、交易数量、综合分数、ML参考价格、推荐理由和数据不足提示。
-
-## 2. 还有哪些没有实现
-
-| 功能 | 当前状态 |
-| --- | --- |
-| OneMap楼栋坐标 | 客户端和计算代码已写好，但凭证未配置，当前0个候选有坐标 |
-| 附近设施结果 | MRT、巴士站、公园和小贩中心数据已下载，但尚未与楼栋匹配 |
-| 任意地点附近找房 | 尚不支持，例如“找NUS附近5公里内的房子”目前无法完成 |
-| 实际步行或通勤时间 | 尚未实现；现有地理算法只能计算直线距离 |
-| LTA实时交通 | 尚未接入巴士班次、拥挤程度和实际路线 |
-| 实时在售房源 | 尚未爬取商业房产网站，也没有实时挂牌价格 |
-| OpenAI大模型解析 | 接口已预留，但API Key为空且默认关闭 |
-
-大模型意图解析支持 OpenAI Responses API 兼容的中转站。在 `.env` 中设置
-`OPENAI_API_KEY`、`OPENAI_BASE_URL`、`OPENAI_MODEL` 并将
-`HOMELENS_ENABLE_LLM` 设为 `true` 即可启用。
-
-关于位置功能，需要特别注意：
-
-- 当前规则主要识别26个标准 HDB town；
-- 系统还不能把 NUS、公司地址或任意地标作为搜索中心；
-- OneMap 尚未运行，所以现在不能准确展示推荐楼栋附近的设施；
-- 如果用户要求“800米内必须有MRT”，系统会提示缺少地理证据；
-- “我不想住在Bedok”目前只能被识别并提示，还不能保证结果一定排除Bedok。
-
-## 3. 如何测试已经实现的功能
-
-### 3.1 安装
+需要 Python 3.10+ 和 Node.js。
 
 ```bash
-cd homelens-sg
 python3 -m pip install -e .
-```
-
-### 3.2 网页测试
-
-
-
-按 `Ctrl+C` 停止服务器。
-
-### 3.3 API测试
-
-暂时没有
-
-## 4. 测试
-
-仓库已经包含候选知识库、完整处理后数据、随机森林模型、指标和图表。可以直接运行：
-
-```bash
-git clone https://github.com/hamburtab/homelens-sg.git
-cd homelens-sg
-python3 -m pip install -e .
-python3 -m unittest discover -s tests -v
+cd map
+npm install
+npm run build
+cd ..
 python3 scripts/serve.py --port 8000
 ```
 
-然后打开 `http://127.0.0.1:8000`。
+打开：
 
-建议测试：
+```text
+http://127.0.0.1:8000
+```
 
-| 输入 | 预期结果 |
-| --- | --- |
-| `A spacious 4-room flat under 650k, preferably in Tampines` | 正常返回推荐并提高面积和区域权重 |
-| `预算65万以内，想要四房，最好在Tampines` | 能识别中文预算、房型和区域 |
-| `4-room under 100k` | 没有精确结果，不会偷偷放宽预算 |
-| `4-room under 650k, within 800m of MRT` | 提示目前没有OneMap坐标，无法验证MRT距离 |
+Python 服务会同时提供生产版网页和 `/api/*` 推荐接口。
 
-下面的命令只在需要下载最新数据并重新生成研究结果时运行：
+任意地点搜索需要 OneMap token 或 OneMap 账号凭证。它们只放在本机 `.env`，不会发送到浏览器：
+
+```text
+ONEMAP_TOKEN=...
+# 或同时配置 ONEMAP_EMAIL 与 ONEMAP_PASSWORD
+```
+
+## 重新生成产品数据
+
+仓库已包含可直接运行的产品数据。只有原始/组员数据发生变化时才需要执行：
 
 ```bash
-python3 scripts/build_dataset.py
-python3 scripts/download_layers.py
-python3 scripts/train_model.py --trees 80
-python3 scripts/explore_data.py
+python3 scripts/enrich_existing_candidates.py
+python3 scripts/build_product_data.py
+cd map && npm run build
 ```
+
+其中：
+
+- `enrich_existing_candidates.py` 使用已有楼栋坐标和官方 MRT、巴士、小贩中心、公园图层计算直线距离与设施数量，不请求新的地理 API；
+- `build_product_data.py` 合并挂牌、按最新 `scraped_at` 去重、标准化地址、定位 planning area/subzone，并生成隐私安全的前端 JSON；
+- 组员原始文件保持不变，所有产品文件都可从来源重新生成。
+
+## API
+
+### `GET /api/health`
+
+返回知识库、模型、LLM、挂牌和数据日期状态。
+
+### `GET /api/overview`
+
+返回 health 与产品数据覆盖摘要。
+
+### `POST /api/recommend`
+
+示例：
+
+```json
+{
+  "query": "预算65万以内，想要四房，最好在Tampines，靠近地铁",
+  "budget": 650000,
+  "flat_types": ["4 ROOM"],
+  "preferred_towns": ["TAMPINES"],
+  "top_k": 8,
+  "use_llm": false
+}
+```
+
+返回历史推荐、分数拆解、解释、模型参考价、警告以及最多 12 条部分实时买房匹配。
+
+### `GET /api/locations/search?q=NUS&limit=5`
+
+返回 OneMap 的新加坡地点候选及其 planning area/subzone。用户必须确认候选后，前端才把 `anchor_latitude`、`anchor_longitude` 和可选的 `max_anchor_distance_m` 交给推荐接口。坐标不由 LLM 生成。
+
+自然语言也可写成 `A 4-room under 650k within 3km of NUS`。第一次请求会返回 `location_confirmation_required` 和候选；确认后再次请求才计算推荐。当前距离采用 Haversine 直线距离，不代表步行、驾车或公共交通路线。
+
+## LLM 中转站
+
+项目支持 OpenAI Responses API 兼容中转站。真实凭证只放在本机 `.env`：
+
+```text
+OPENAI_API_KEY=...
+OPENAI_BASE_URL=...
+OPENAI_MODEL=...
+HOMELENS_ENABLE_LLM=true
+```
+
+没有 LLM 或调用失败时，系统自动回退到确定性中英文规则解析。模型只负责意图提取，不控制硬筛选和最终事实。
+
+## 测试
+
+```bash
+python3 -m unittest discover -s tests -v
+cd map && npm run build
+```
+
+当前为 52 项 Python 测试；在限制本地 socket 的沙箱中，HTTP loopback 测试会跳过，其余测试通过。前端 lint、TypeScript 与生产构建也已通过；真实 OneMap NUS 搜索、地点确认和 3 km 硬筛选已完成本机端到端验收。
+
+## 隐私与数据边界
+
+- 公共前端不包含 PropertyGuru `raw_listing_text` 或内部 source reference；
+- Google 原始评论文本、作者名和作者 URL 不进入公共前端；
+- 页面只显示社区聚合评分、place 数和 review evidence 数；
+- 买房数据为不连续页面的课程研究快照：当前解析第 1–145、301–500 页；146–185 页原始页面待导入，第 186–300 页及第 500 页以后仍存在缺口；
+- 没有实现每周自动调度，这是当前明确的项目范围。
+
+## 明确保留的未来能力
+
+页面已经为下列能力显示 `Planned` 或禁用占位，但不会假装已经实现：
+
+- 基于道路网络的步行时间与真实通勤路线；
+- 无法通过地址匹配的挂牌精确坐标；
+- 完整实时买房库存与自动每周更新；
+- 私人公寓历史推荐模型；
+- 需要 LTA 实时线路/拥挤度数据的功能。
+
+更详细的数据来源、目录职责和交接状态见 `docs/`、`artifacts/manifests/` 与 `CODEX_PROJECT_HANDOFF.md`。

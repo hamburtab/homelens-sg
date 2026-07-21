@@ -29,6 +29,33 @@ class SchemaTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             UserPreferences(budget=650_000, preferred_towns=[123])
 
+    def test_anchor_coordinates_are_paired_and_singapore_bounded(self) -> None:
+        with self.assertRaises(ValueError):
+            UserPreferences(budget=650_000, anchor_latitude=1.2966)
+        with self.assertRaises(ValueError):
+            UserPreferences(
+                budget=650_000,
+                anchor_latitude=40.0,
+                anchor_longitude=-74.0,
+            )
+        with self.assertRaises(ValueError):
+            UserPreferences(budget=650_000, max_anchor_distance_m=3_000)
+        with self.assertRaises(ValueError):
+            UserPreferences(
+                budget=650_000,
+                anchor_latitude=1.2966,
+                anchor_longitude=103.7764,
+                max_anchor_distance_m=0,
+            )
+        valid = UserPreferences(
+            budget=650_000,
+            anchor_name="NUS",
+            anchor_latitude=1.2966,
+            anchor_longitude=103.7764,
+            max_anchor_distance_m=3_000,
+        )
+        self.assertEqual(valid.anchor_name, "NUS")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -12,14 +12,16 @@ from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 
 from homelens.errors import HomeLensError
+from homelens.config import PROJECT_ROOT
 from homelens.service import HomeLensService
 from homelens.utils import json_default
 
 
 STATIC_DIR = Path(__file__).resolve().parent / "static"
+FRONTEND_DIST = PROJECT_ROOT / "map" / "dist"
 MAX_REQUEST_BYTES = 128 * 1024
 
 
@@ -46,8 +48,7 @@ def handler_factory(service: HomeLensService) -> type[BaseHTTPRequestHandler]:
             self.end_headers()
             self.wfile.write(body)
 
-        def _static(self, filename: str) -> None:
-            path = STATIC_DIR / filename
+        def _file(self, path: Path) -> None:
             if not path.exists() or not path.is_file():
                 self._json(HTTPStatus.NOT_FOUND, {"error": "not_found"})
                 return
@@ -61,18 +62,61 @@ def handler_factory(service: HomeLensService) -> type[BaseHTTPRequestHandler]:
             self.end_headers()
             self.wfile.write(body)
 
-        def do_GET(self) -> None:  # noqa: N802
-            path = urlparse(self.path).path
-            if path == "/api/health":
-                self._json(HTTPStatus.OK, service.health())
-            elif path in ("/", "/index.html"):
-                self._static("index.html")
-            elif path == "/styles.css":
-                self._static("styles.css")
-            elif path == "/app.js":
-                self._static("app.js")
+        def _frontend(self, request_path: str) -> None:
+            if FRONTEND_DIST.exists():
+                relative = request_path.lstrip("/") or "index.html"
+                path = (FRONTEND_DIST / relative).resolve()
+                if path.is_relative_to(FRONTEND_DIST.resolve()) and path.is_file():
+                    self._file(path)
+                    return
+                # The built app is a single-page application.
+                if "." not in Path(relative).name:
+                    self._file(FRONTEND_DIST / "index.html")
+                    return
+                self._json(HTTPStatus.NOT_FOUND, {"error": "not_found"})
+                return
+            legacy = {
+                "/": "index.html",
+                "/index.html": "index.html",
+                "/styles.css": "styles.css",
+                "/app.js": "app.js",
+            }.get(request_path)
+            if legacy:
+                self._file(STATIC_DIR / legacy)
             else:
                 self._json(HTTPStatus.NOT_FOUND, {"error": "not_found"})
+
+        def do_GET(self) -> None:  # noqa: N802
+            parsed = urlparse(self.path)
+            path = parsed.path
+            try:
+                if path == "/api/health":
+                    self._json(HTTPStatus.OK, service.health())
+                elif path == "/api/overview":
+                    self._json(HTTPStatus.OK, service.overview())
+                elif path == "/api/locations/search":
+                    parameters = parse_qs(parsed.query)
+                    query = (parameters.get("q") or [""])[0]
+                    raw_limit = (parameters.get("limit") or ["5"])[0]
+                    try:
+                        limit = int(raw_limit)
+                    except ValueError as error:
+                        raise ValueError("location candidate limit must be an integer") from error
+                    self._json(HTTPStatus.OK, service.search_locations(query, limit=limit))
+                elif path.startswith("/api/"):
+                    self._json(HTTPStatus.NOT_FOUND, {"error": "not_found"})
+                else:
+                    self._frontend(path)
+            except ValueError as error:
+                self._json(
+                    HTTPStatus.BAD_REQUEST,
+                    {"error": "invalid_request", "message": str(error)},
+                )
+            except HomeLensError as error:
+                self._json(
+                    HTTPStatus.SERVICE_UNAVAILABLE,
+                    {"error": "service_unavailable", "message": str(error)},
+                )
 
         def do_POST(self) -> None:  # noqa: N802
             path = urlparse(self.path).path

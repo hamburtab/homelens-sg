@@ -48,6 +48,10 @@ class UserPreferences:
     min_floor_area_sqm: float | None = None
     min_remaining_lease_years: float | None = None
     max_mrt_distance_m: float | None = None
+    anchor_name: str | None = None
+    anchor_latitude: float | None = None
+    anchor_longitude: float | None = None
+    max_anchor_distance_m: float | None = None
     require_preferred_town: bool = False
     weights: dict[str, float] = field(default_factory=lambda: dict(DEFAULT_WEIGHTS))
 
@@ -68,6 +72,7 @@ class UserPreferences:
             "min_floor_area_sqm",
             "min_remaining_lease_years",
             "max_mrt_distance_m",
+            "max_anchor_distance_m",
         ):
             value = getattr(self, attribute)
             if value is not None:
@@ -77,6 +82,32 @@ class UserPreferences:
                 if not math.isfinite(value) or value < 0:
                     raise ValueError(f"{attribute} must be a finite non-negative number")
                 setattr(self, attribute, value)
+
+        if self.anchor_name is not None:
+            if not isinstance(self.anchor_name, str):
+                raise ValueError("anchor_name must be text")
+            self.anchor_name = self.anchor_name.strip() or None
+            if self.anchor_name and len(self.anchor_name) > 200:
+                raise ValueError("anchor_name must be at most 200 characters")
+        coordinates = (self.anchor_latitude, self.anchor_longitude)
+        if (coordinates[0] is None) != (coordinates[1] is None):
+            raise ValueError("anchor_latitude and anchor_longitude must be provided together")
+        if coordinates[0] is not None:
+            if any(isinstance(value, bool) for value in coordinates):
+                raise ValueError("anchor coordinates must be finite Singapore coordinates")
+            self.anchor_latitude = float(coordinates[0])
+            self.anchor_longitude = float(coordinates[1])
+            if not (
+                math.isfinite(self.anchor_latitude)
+                and math.isfinite(self.anchor_longitude)
+                and 1.13 <= self.anchor_latitude <= 1.50
+                and 103.55 <= self.anchor_longitude <= 104.15
+            ):
+                raise ValueError("anchor coordinates must fall within Singapore")
+        if self.max_anchor_distance_m is not None and self.anchor_latitude is None:
+            raise ValueError("max_anchor_distance_m requires a confirmed anchor location")
+        if self.max_anchor_distance_m is not None and self.max_anchor_distance_m <= 0:
+            raise ValueError("max_anchor_distance_m must be greater than zero")
 
         if not isinstance(self.require_preferred_town, bool):
             raise ValueError("require_preferred_town must be true or false")
@@ -111,6 +142,10 @@ class UserPreferences:
             "min_floor_area_sqm",
             "min_remaining_lease_years",
             "max_mrt_distance_m",
+            "anchor_name",
+            "anchor_latitude",
+            "anchor_longitude",
+            "max_anchor_distance_m",
             "require_preferred_town",
             "weights",
         }

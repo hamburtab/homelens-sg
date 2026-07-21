@@ -1,0 +1,1729 @@
+﻿planning_area,subzone,poi_dimension,facility_count,avg_rating,total_user_ratings,rating_100
+Ang Mo Kio,Ang Mo Kio Town Centre,education,20,4.865,948,97.3
+Ang Mo Kio,Ang Mo Kio Town Centre,transport,20,4.165,17402,83.3
+Ang Mo Kio,Ang Mo Kio Town Centre,food,20,4.12,26154,82.4
+Ang Mo Kio,Ang Mo Kio Town Centre,shopping,20,4.05,79014,81.0
+Ang Mo Kio,Ang Mo Kio Town Centre,recreation,20,4.437,7774,88.74
+Ang Mo Kio,Ang Mo Kio Town Centre,nature,19,4.516,30605,90.32
+Ang Mo Kio,Cheng San,education,20,4.768,3860,95.36
+Ang Mo Kio,Cheng San,transport,20,3.75,1520,75.0
+Ang Mo Kio,Cheng San,food,20,4.095,61434,81.9
+Ang Mo Kio,Cheng San,shopping,20,4.145,82518,82.9
+Ang Mo Kio,Cheng San,recreation,20,4.355,8506,87.1
+Ang Mo Kio,Cheng San,nature,20,4.49,23519,89.8
+Ang Mo Kio,Chong Boon,education,20,4.87,849,97.4
+Ang Mo Kio,Chong Boon,transport,20,4.25,2119,85.0
+Ang Mo Kio,Chong Boon,food,20,4.055,22956,81.1
+Ang Mo Kio,Chong Boon,shopping,20,4.075,67083,81.5
+Ang Mo Kio,Chong Boon,recreation,20,4.216,6845,84.32
+Ang Mo Kio,Chong Boon,nature,20,4.425,32317,88.5
+Ang Mo Kio,Kebun Bahru,education,20,4.825,729,96.5
+Ang Mo Kio,Kebun Bahru,transport,20,4.24,3026,84.8
+Ang Mo Kio,Kebun Bahru,food,20,4.11,86516,82.2
+Ang Mo Kio,Kebun Bahru,shopping,20,4.12,73157,82.4
+Ang Mo Kio,Kebun Bahru,recreation,20,4.335,6705,86.7
+Ang Mo Kio,Kebun Bahru,nature,20,4.5,44518,90.0
+Ang Mo Kio,Sembawang Hills,education,20,4.79,851,95.8
+Ang Mo Kio,Sembawang Hills,transport,20,4.02,309,80.4
+Ang Mo Kio,Sembawang Hills,food,1,3.9,2392,78.0
+Ang Mo Kio,Sembawang Hills,shopping,20,4.13,89235,82.6
+Ang Mo Kio,Sembawang Hills,recreation,20,4.335,5458,86.7
+Ang Mo Kio,Sembawang Hills,nature,20,4.475,21449,89.5
+Ang Mo Kio,Shangri-La,education,20,4.774,2703,95.48
+Ang Mo Kio,Shangri-La,transport,20,4.165,3905,83.3
+Ang Mo Kio,Shangri-La,food,20,4.085,103123,81.7
+Ang Mo Kio,Shangri-La,shopping,20,4.15,43001,83.0
+Ang Mo Kio,Shangri-La,recreation,20,4.316,5706,86.32
+Ang Mo Kio,Shangri-La,nature,20,4.46,38637,89.2
+Ang Mo Kio,Tagore,education,20,4.73,851,94.6
+Ang Mo Kio,Tagore,transport,20,4.315,2110,86.3
+Ang Mo Kio,Tagore,food,20,4.065,89384,81.3
+Ang Mo Kio,Tagore,shopping,20,4.135,104485,82.7
+Ang Mo Kio,Tagore,recreation,20,4.215,8180,84.3
+Ang Mo Kio,Tagore,nature,20,4.53,29371,90.6
+Ang Mo Kio,Townsville,education,20,4.816,780,96.32
+Ang Mo Kio,Townsville,transport,12,4.167,381,83.34
+Ang Mo Kio,Townsville,food,20,4.135,128583,82.7
+Ang Mo Kio,Townsville,shopping,20,4.09,34980,81.8
+Ang Mo Kio,Townsville,recreation,20,4.2,8565,84.0
+Ang Mo Kio,Townsville,nature,20,4.495,18195,89.9
+Ang Mo Kio,Yio Chu Kang,education,20,4.87,984,97.4
+Ang Mo Kio,Yio Chu Kang,transport,20,4.03,1862,80.6
+Ang Mo Kio,Yio Chu Kang,food,8,4.2,13144,84.0
+Ang Mo Kio,Yio Chu Kang,shopping,20,4.125,84663,82.5
+Ang Mo Kio,Yio Chu Kang,recreation,20,4.3,6737,86.0
+Ang Mo Kio,Yio Chu Kang,nature,20,4.495,39308,89.9
+Ang Mo Kio,Yio Chu Kang East,education,20,4.88,953,97.6
+Ang Mo Kio,Yio Chu Kang East,transport,20,4.185,2199,83.7
+Ang Mo Kio,Yio Chu Kang East,food,20,4.135,28247,82.7
+Ang Mo Kio,Yio Chu Kang East,shopping,20,4.095,78026,81.9
+Ang Mo Kio,Yio Chu Kang East,recreation,20,4.311,6874,86.22
+Ang Mo Kio,Yio Chu Kang East,nature,20,4.455,30274,89.1
+Ang Mo Kio,Yio Chu Kang North,education,20,4.88,944,97.6
+Ang Mo Kio,Yio Chu Kang North,transport,20,4.09,1754,81.8
+Ang Mo Kio,Yio Chu Kang North,food,20,4.165,24153,83.3
+Ang Mo Kio,Yio Chu Kang North,shopping,20,4.045,41380,80.9
+Ang Mo Kio,Yio Chu Kang North,recreation,20,4.332,8929,86.64
+Ang Mo Kio,Yio Chu Kang North,nature,20,4.45,28569,89.0
+Ang Mo Kio,Yio Chu Kang West,education,20,4.865,952,97.3
+Ang Mo Kio,Yio Chu Kang West,transport,20,4.12,1821,82.4
+Ang Mo Kio,Yio Chu Kang West,food,20,4.125,22566,82.5
+Ang Mo Kio,Yio Chu Kang West,shopping,20,4.01,41599,80.2
+Ang Mo Kio,Yio Chu Kang West,recreation,20,4.189,7527,83.78
+Ang Mo Kio,Yio Chu Kang West,nature,20,4.465,34848,89.3
+Bedok,Bayshore,education,20,4.726,2501,94.52
+Bedok,Bayshore,transport,20,4.025,1119,80.5
+Bedok,Bayshore,food,20,4.3,126250,86.0
+Bedok,Bayshore,shopping,20,4.19,93943,83.8
+Bedok,Bayshore,recreation,20,4.335,27094,86.7
+Bedok,Bayshore,nature,20,4.465,59576,89.3
+Bedok,Bedok North,education,20,4.815,2490,96.3
+Bedok,Bedok North,transport,20,3.983,2751,79.66
+Bedok,Bedok North,food,20,4.17,31390,83.4
+Bedok,Bedok North,shopping,20,4.14,59588,82.8
+Bedok,Bedok North,recreation,20,4.217,12551,84.34
+Bedok,Bedok North,nature,20,4.405,41971,88.1
+Bedok,Bedok Reservoir,education,20,4.805,2465,96.1
+Bedok,Bedok Reservoir,transport,20,4.19,3272,83.8
+Bedok,Bedok Reservoir,food,20,4.265,34052,85.3
+Bedok,Bedok Reservoir,shopping,20,4.18,81024,83.6
+Bedok,Bedok Reservoir,recreation,20,4.38,32125,87.6
+Bedok,Bedok Reservoir,nature,20,4.435,41989,88.7
+Bedok,Bedok South,education,20,4.815,1292,96.3
+Bedok,Bedok South,transport,20,3.845,2199,76.9
+Bedok,Bedok South,food,20,4.255,30434,85.1
+Bedok,Bedok South,shopping,20,4.14,77359,82.8
+Bedok,Bedok South,recreation,17,4.22,9325,84.4
+Bedok,Bedok South,nature,20,4.325,40295,86.5
+Bedok,Frankel,education,20,4.85,1404,97.0
+Bedok,Frankel,transport,20,3.985,2193,79.7
+Bedok,Frankel,food,20,4.255,50841,85.1
+Bedok,Frankel,shopping,20,4.19,87357,83.8
+Bedok,Frankel,recreation,20,4.35,27511,87.0
+Bedok,Frankel,nature,20,4.45,64479,89.0
+Bedok,Kaki Bukit,education,20,4.71,3017,94.2
+Bedok,Kaki Bukit,transport,20,3.97,2982,79.4
+Bedok,Kaki Bukit,food,20,4.245,100371,84.9
+Bedok,Kaki Bukit,shopping,20,4.24,159401,84.8
+Bedok,Kaki Bukit,recreation,20,4.245,16766,84.9
+Bedok,Kaki Bukit,nature,20,4.47,61597,89.4
+Bedok,Kembangan,education,20,4.805,1334,96.1
+Bedok,Kembangan,transport,20,4.042,3164,80.84
+Bedok,Kembangan,food,20,4.24,65903,84.8
+Bedok,Kembangan,shopping,20,4.215,140612,84.3
+Bedok,Kembangan,recreation,20,4.37,26631,87.4
+Bedok,Kembangan,nature,20,4.475,67063,89.5
+Bedok,Siglap,education,20,4.75,1685,95.0
+Bedok,Siglap,transport,19,4.026,2155,80.52
+Bedok,Siglap,food,20,4.325,71628,86.5
+Bedok,Siglap,shopping,20,4.21,80859,84.2
+Bedok,Siglap,recreation,20,4.337,15101,86.74
+Bedok,Siglap,nature,20,4.455,50815,89.1
+Bishan,Bishan East,education,20,4.675,1297,93.5
+Bishan,Bishan East,transport,20,4.337,3420,86.74
+Bishan,Bishan East,food,20,4.22,90678,84.4
+Bishan,Bishan East,shopping,20,4.21,117258,84.2
+Bishan,Bishan East,recreation,20,4.205,6905,84.1
+Bishan,Bishan East,nature,20,4.465,53340,89.3
+Bishan,Marymount,education,20,4.611,1330,92.22
+Bishan,Marymount,transport,20,4.075,2972,81.5
+Bishan,Marymount,food,20,4.22,143880,84.4
+Bishan,Marymount,shopping,20,4.255,95900,85.1
+Bishan,Marymount,recreation,20,4.205,6286,84.1
+Bishan,Marymount,nature,20,4.49,37700,89.8
+Bishan,Upper Thomson,education,20,4.88,1221,97.6
+Bishan,Upper Thomson,transport,20,4.3,4317,86.0
+Bishan,Upper Thomson,food,20,4.32,42073,86.4
+Bishan,Upper Thomson,shopping,20,4.25,68896,85.0
+Bishan,Upper Thomson,recreation,20,4.27,7443,85.4
+Bishan,Upper Thomson,nature,20,4.455,25411,89.1
+Boon Lay,Liu Fang,education,16,4.5,5780,90.0
+Boon Lay,Liu Fang,transport,5,4.08,628,81.6
+Boon Lay,Liu Fang,food,9,3.989,5673,79.78
+Boon Lay,Liu Fang,shopping,7,4.4,31493,88.0
+Boon Lay,Liu Fang,recreation,12,4.442,5527,88.84
+Boon Lay,Liu Fang,nature,10,4.322,7424,86.44
+Boon Lay,Samulun,education,16,4.475,3686,89.5
+Boon Lay,Samulun,transport,6,4.1,886,82.0
+Boon Lay,Samulun,food,7,3.943,12078,78.86
+Boon Lay,Samulun,shopping,7,4.433,31572,88.66
+Boon Lay,Samulun,recreation,12,4.342,7765,86.84
+Boon Lay,Samulun,nature,10,4.333,14222,86.66
+Boon Lay,Shipyard,education,18,4.477,3034,89.54
+Boon Lay,Shipyard,transport,5,4.26,621,85.2
+Boon Lay,Shipyard,food,7,3.729,8438,74.58
+Boon Lay,Shipyard,shopping,7,4.129,10327,82.58
+Boon Lay,Shipyard,recreation,12,4.358,7205,87.16
+Boon Lay,Shipyard,nature,12,4.418,15070,88.36
+Boon Lay,Tukang,education,15,4.5,2418,90.0
+Boon Lay,Tukang,transport,7,4.271,631,85.42
+Boon Lay,Tukang,food,6,3.217,6136,64.34
+Boon Lay,Tukang,shopping,8,4.037,10327,80.74
+Boon Lay,Tukang,recreation,12,4.483,6998,89.66
+Boon Lay,Tukang,nature,9,4.35,3143,87.0
+Bukit Batok,Brickworks,education,16,4.291,4011,85.82
+Bukit Batok,Brickworks,transport,4,4.025,3189,80.5
+Bukit Batok,Brickworks,food,8,4.212,5606,84.24
+Bukit Batok,Brickworks,shopping,9,4.178,13148,83.56
+Bukit Batok,Brickworks,recreation,12,4.258,12731,85.16
+Bukit Batok,Brickworks,nature,8,4.525,13563,90.5
+Bukit Batok,Bukit Batok Central,education,15,4.17,1809,83.4
+Bukit Batok,Bukit Batok Central,transport,4,4.025,3189,80.5
+Bukit Batok,Bukit Batok Central,food,9,4.156,5475,83.12
+Bukit Batok,Bukit Batok Central,shopping,8,3.762,10572,75.24
+Bukit Batok,Bukit Batok Central,recreation,9,4.3,3634,86.0
+Bukit Batok,Bukit Batok Central,nature,8,4.414,11893,88.28
+Bukit Batok,Bukit Batok East,education,16,4.345,5657,86.9
+Bukit Batok,Bukit Batok East,transport,4,4.025,3189,80.5
+Bukit Batok,Bukit Batok East,food,8,4.1,5901,82.0
+Bukit Batok,Bukit Batok East,shopping,8,3.838,10580,76.76
+Bukit Batok,Bukit Batok East,recreation,11,4.309,9316,86.18
+Bukit Batok,Bukit Batok East,nature,9,4.543,5270,90.86
+Bukit Batok,Bukit Batok South,education,15,4.256,1739,85.12
+Bukit Batok,Bukit Batok South,transport,4,4.025,3189,80.5
+Bukit Batok,Bukit Batok South,food,7,4.1,5649,82.0
+Bukit Batok,Bukit Batok South,shopping,9,3.878,11817,77.56
+Bukit Batok,Bukit Batok South,recreation,10,4.411,4569,88.22
+Bukit Batok,Bukit Batok South,nature,7,4.5,5257,90.0
+Bukit Batok,Bukit Batok West,education,17,4.275,11752,85.5
+Bukit Batok,Bukit Batok West,transport,4,4.025,3189,80.5
+Bukit Batok,Bukit Batok West,food,7,3.971,4619,79.42
+Bukit Batok,Bukit Batok West,shopping,9,3.878,11582,77.56
+Bukit Batok,Bukit Batok West,recreation,11,4.36,10773,87.2
+Bukit Batok,Bukit Batok West,nature,10,4.5,10887,90.0
+Bukit Batok,Gombak,education,15,4.333,3671,86.66
+Bukit Batok,Gombak,transport,5,4.12,3191,82.4
+Bukit Batok,Gombak,food,8,4.138,5335,82.76
+Bukit Batok,Gombak,shopping,6,3.717,10559,74.34
+Bukit Batok,Gombak,recreation,12,4.283,10506,85.66
+Bukit Batok,Gombak,nature,7,4.471,6170,89.42
+Bukit Batok,Guilin,education,10,4.414,1890,88.28
+Bukit Batok,Guilin,transport,3,4.0,3252,80.0
+Bukit Batok,Guilin,food,7,3.614,2561,72.28
+Bukit Batok,Guilin,shopping,7,3.867,3915,77.34
+Bukit Batok,Guilin,recreation,8,4.1,4646,82.0
+Bukit Batok,Guilin,nature,3,3.933,1527,78.66
+Bukit Batok,Hillview,education,16,4.425,4874,88.5
+Bukit Batok,Hillview,transport,5,4.14,2109,82.8
+Bukit Batok,Hillview,food,7,4.157,6831,83.14
+Bukit Batok,Hillview,shopping,8,4.012,14010,80.24
+Bukit Batok,Hillview,recreation,12,4.283,3092,85.66
+Bukit Batok,Hillview,nature,7,4.029,4183,80.58
+Bukit Batok,Hong Kah North,education,7,3.9,1659,78.0
+Bukit Batok,Hong Kah North,transport,3,3.933,2624,78.66
+Bukit Batok,Hong Kah North,food,7,4.1,2279,82.0
+Bukit Batok,Hong Kah North,shopping,7,3.8,4132,76.0
+Bukit Batok,Hong Kah North,recreation,6,4.267,9118,85.34
+Bukit Batok,Hong Kah North,nature,4,4.325,4529,86.5
+Bukit Panjang,Bangkit,education,18,4.5,4787,90.0
+Bukit Panjang,Bangkit,transport,7,3.943,996,78.86
+Bukit Panjang,Bangkit,food,5,4.12,6870,82.4
+Bukit Panjang,Bangkit,shopping,6,3.717,17365,74.34
+Bukit Panjang,Bangkit,recreation,9,4.344,3654,86.88
+Bukit Panjang,Bangkit,nature,8,4.375,3920,87.5
+Bukit Panjang,Dairy Farm,education,16,4.508,1454,90.16
+Bukit Panjang,Dairy Farm,transport,7,4.014,1042,80.28
+Bukit Panjang,Dairy Farm,food,6,4.033,3407,80.66
+Bukit Panjang,Dairy Farm,shopping,6,3.933,2577,78.66
+Bukit Panjang,Dairy Farm,recreation,9,4.478,4821,89.56
+Bukit Panjang,Dairy Farm,nature,7,4.5,1477,90.0
+Bukit Panjang,Fajar,education,13,4.545,10109,90.9
+Bukit Panjang,Fajar,transport,4,3.5,51,70.0
+Bukit Panjang,Fajar,food,9,3.989,6903,79.78
+Bukit Panjang,Fajar,shopping,8,4.025,10571,80.5
+Bukit Panjang,Fajar,recreation,12,4.233,4843,84.66
+Bukit Panjang,Fajar,nature,11,4.036,5794,80.72
+Bukit Panjang,Jelebu,education,17,4.392,4453,87.84
+Bukit Panjang,Jelebu,transport,8,3.9,1257,78.0
+Bukit Panjang,Jelebu,food,7,4.471,6152,89.42
+Bukit Panjang,Jelebu,shopping,7,3.843,18646,76.86
+Bukit Panjang,Jelebu,recreation,10,4.43,4141,88.6
+Bukit Panjang,Jelebu,nature,11,4.345,19518,86.9
+Bukit Panjang,Nature Reserve,education,17,4.664,11268,93.28
+Bukit Panjang,Nature Reserve,transport,7,3.9,1093,78.0
+Bukit Panjang,Nature Reserve,food,8,4.35,6066,87.0
+Bukit Panjang,Nature Reserve,shopping,8,3.775,17303,75.5
+Bukit Panjang,Nature Reserve,recreation,10,4.39,3745,87.8
+Bukit Panjang,Nature Reserve,nature,6,4.667,11679,93.34
+Bukit Panjang,Saujana,education,16,4.318,1973,86.36
+Bukit Panjang,Saujana,transport,6,3.833,1089,76.66
+Bukit Panjang,Saujana,food,9,4.144,10632,82.88
+Bukit Panjang,Saujana,shopping,8,4.15,17889,83.0
+Bukit Panjang,Saujana,recreation,11,4.373,3999,87.46
+Bukit Panjang,Saujana,nature,9,4.478,7223,89.56
+Bukit Panjang,Senja,education,12,4.378,2609,87.56
+Bukit Panjang,Senja,transport,6,3.783,117,75.66
+Bukit Panjang,Senja,food,5,3.96,1835,79.2
+Bukit Panjang,Senja,shopping,7,3.914,16903,78.28
+Bukit Panjang,Senja,recreation,8,4.162,4763,83.24
+Bukit Panjang,Senja,nature,10,4.37,4493,87.4
+Central Water Catchment,Central Water Catchment,education,20,4.642,4207,92.84
+Central Water Catchment,Central Water Catchment,transport,20,4.305,3414,86.1
+Central Water Catchment,Central Water Catchment,food,20,4.21,52506,84.2
+Central Water Catchment,Central Water Catchment,shopping,20,4.085,13759,81.7
+Central Water Catchment,Central Water Catchment,recreation,20,4.24,12174,84.8
+Central Water Catchment,Central Water Catchment,nature,20,4.525,20728,90.5
+Changi,Changi Airport,education,20,4.606,3324,92.12
+Changi,Changi Airport,transport,20,3.8,2909,76.0
+Changi,Changi Airport,food,20,4.255,98911,85.1
+Changi,Changi Airport,shopping,20,4.27,170180,85.4
+Changi,Changi Airport,recreation,20,4.275,28879,85.5
+Changi,Changi Airport,nature,20,4.41,44507,88.2
+Changi,Changi Point,education,20,4.642,3407,92.84
+Changi,Changi Point,transport,20,4.084,16740,81.68
+Changi,Changi Point,food,20,4.28,88311,85.6
+Changi,Changi Point,shopping,20,4.275,182988,85.5
+Changi,Changi Point,recreation,20,4.34,23540,86.8
+Changi,Changi Point,nature,20,4.42,32670,88.4
+Changi,Changi West,education,20,4.64,1864,92.8
+Changi,Changi West,transport,20,4.09,4390,81.8
+Changi,Changi West,food,1,4.3,13986,86.0
+Changi,Changi West,shopping,20,4.225,201729,84.5
+Changi,Changi West,recreation,20,4.28,28559,85.6
+Changi,Changi West,nature,20,4.34,32161,86.8
+Changi Bay,Changi Bay,education,20,4.574,1807,91.48
+Changi Bay,Changi Bay,transport,20,4.075,3047,81.5
+Changi Bay,Changi Bay,food,20,4.17,135391,83.4
+Changi Bay,Changi Bay,shopping,20,4.32,161543,86.4
+Changi Bay,Changi Bay,recreation,13,4.262,13698,85.24
+Changi Bay,Changi Bay,nature,20,4.44,51213,88.8
+Choa Chu Kang,Choa Chu Kang Central,education,14,4.39,1533,87.8
+Choa Chu Kang,Choa Chu Kang Central,transport,4,4.0,358,80.0
+Choa Chu Kang,Choa Chu Kang Central,food,9,4.033,4776,80.66
+Choa Chu Kang,Choa Chu Kang Central,shopping,8,3.537,11980,70.74
+Choa Chu Kang,Choa Chu Kang Central,recreation,8,4.057,2275,81.14
+Choa Chu Kang,Choa Chu Kang Central,nature,7,4.257,3570,85.14
+Choa Chu Kang,Choa Chu Kang North,education,14,4.39,1436,87.8
+Choa Chu Kang,Choa Chu Kang North,transport,6,4.133,1133,82.66
+Choa Chu Kang,Choa Chu Kang North,food,9,4.2,5254,84.0
+Choa Chu Kang,Choa Chu Kang North,shopping,9,3.6,12595,72.0
+Choa Chu Kang,Choa Chu Kang North,recreation,9,4.3,6606,86.0
+Choa Chu Kang,Choa Chu Kang North,nature,8,4.312,3311,86.24
+Choa Chu Kang,Keat Hong,education,14,4.456,1902,89.12
+Choa Chu Kang,Keat Hong,transport,5,4.12,415,82.4
+Choa Chu Kang,Keat Hong,food,5,4.14,1013,82.8
+Choa Chu Kang,Keat Hong,shopping,6,4.0,2340,80.0
+Choa Chu Kang,Keat Hong,recreation,10,4.32,4832,86.4
+Choa Chu Kang,Keat Hong,nature,9,4.367,12250,87.34
+Choa Chu Kang,Peng Siang,education,17,4.308,4541,86.16
+Choa Chu Kang,Peng Siang,transport,5,4.06,384,81.2
+Choa Chu Kang,Peng Siang,food,9,4.078,4474,81.56
+Choa Chu Kang,Peng Siang,shopping,9,3.767,11496,75.34
+Choa Chu Kang,Peng Siang,recreation,11,4.127,6706,82.54
+Choa Chu Kang,Peng Siang,nature,10,4.44,11448,88.8
+Choa Chu Kang,Teck Whye,education,12,4.356,1514,87.12
+Choa Chu Kang,Teck Whye,transport,5,4.26,200,85.2
+Choa Chu Kang,Teck Whye,food,8,4.112,5296,82.24
+Choa Chu Kang,Teck Whye,shopping,7,4.029,2714,80.58
+Choa Chu Kang,Teck Whye,recreation,9,4.362,2320,87.24
+Choa Chu Kang,Teck Whye,nature,8,4.1,6196,82.0
+Choa Chu Kang,Yew Tee,education,13,4.32,1355,86.4
+Choa Chu Kang,Yew Tee,transport,5,4.22,995,84.4
+Choa Chu Kang,Yew Tee,food,8,4.062,2916,81.24
+Choa Chu Kang,Yew Tee,shopping,7,3.814,4483,76.28
+Choa Chu Kang,Yew Tee,recreation,9,4.356,4243,87.12
+Choa Chu Kang,Yew Tee,nature,8,4.562,7258,91.24
+Clementi,Clementi Central,education,16,4.467,13214,89.34
+Clementi,Clementi Central,transport,5,3.96,1498,79.2
+Clementi,Clementi Central,food,7,4.129,5616,82.58
+Clementi,Clementi Central,shopping,8,3.55,18504,71.0
+Clementi,Clementi Central,recreation,11,4.164,16319,83.28
+Clementi,Clementi Central,nature,12,4.333,12642,86.66
+Clementi,Clementi North,education,15,4.555,1730,91.1
+Clementi,Clementi North,transport,7,4.086,1516,81.72
+Clementi,Clementi North,food,7,4.314,5855,86.28
+Clementi,Clementi North,shopping,9,4.178,19139,83.56
+Clementi,Clementi North,recreation,11,4.227,16184,84.54
+Clementi,Clementi North,nature,11,4.436,8308,88.72
+Clementi,Clementi West,education,16,4.558,1547,91.16
+Clementi,Clementi West,transport,5,3.96,1509,79.2
+Clementi,Clementi West,food,7,4.357,7898,87.14
+Clementi,Clementi West,shopping,8,4.15,20386,83.0
+Clementi,Clementi West,recreation,11,4.264,15863,85.28
+Clementi,Clementi West,nature,12,4.342,7771,86.84
+Clementi,Clementi Woods,education,13,4.43,1549,88.6
+Clementi,Clementi Woods,transport,5,3.96,1498,79.2
+Clementi,Clementi Woods,food,7,4.571,6526,91.42
+Clementi,Clementi Woods,shopping,8,4.112,20718,82.24
+Clementi,Clementi Woods,recreation,10,4.16,16045,83.2
+Clementi,Clementi Woods,nature,11,4.418,8163,88.36
+Clementi,Faber,education,17,4.55,4319,91.0
+Clementi,Faber,transport,6,4.117,1484,82.34
+Clementi,Faber,food,7,4.329,7615,86.58
+Clementi,Faber,shopping,9,4.167,18531,83.34
+Clementi,Faber,recreation,11,4.182,5708,83.64
+Clementi,Faber,nature,10,4.267,8991,85.34
+Clementi,Pandan,education,18,4.443,4510,88.86
+Clementi,Pandan,transport,6,3.75,1501,75.0
+Clementi,Pandan,food,9,4.444,6817,88.88
+Clementi,Pandan,shopping,8,4.462,13938,89.24
+Clementi,Pandan,recreation,12,4.3,7465,86.0
+Clementi,Pandan,nature,7,4.44,168,88.8
+Clementi,Sunset Way,education,12,4.533,1799,90.66
+Clementi,Sunset Way,transport,7,4.014,1509,80.28
+Clementi,Sunset Way,food,6,4.2,2418,84.0
+Clementi,Sunset Way,shopping,7,3.8,13751,76.0
+Clementi,Sunset Way,recreation,10,4.233,4509,84.66
+Clementi,Sunset Way,nature,8,4.338,345,86.76
+Clementi,Toh Tuck,education,17,4.538,4541,90.76
+Clementi,Toh Tuck,transport,6,3.9,1555,78.0
+Clementi,Toh Tuck,food,9,4.256,8006,85.12
+Clementi,Toh Tuck,shopping,8,4.2,28449,84.0
+Clementi,Toh Tuck,recreation,12,4.267,5957,85.34
+Clementi,Toh Tuck,nature,12,4.242,11086,84.84
+Clementi,West Coast,education,17,4.592,1453,91.84
+Clementi,West Coast,transport,7,4.186,1515,83.72
+Clementi,West Coast,food,7,4.457,10866,89.14
+Clementi,West Coast,shopping,9,4.011,19607,80.22
+Clementi,West Coast,recreation,9,4.178,4325,83.56
+Clementi,West Coast,nature,9,4.344,7374,86.88
+Downtown Core,Anson,education,20,4.621,3053,92.42
+Downtown Core,Anson,transport,20,4.305,1663,86.1
+Downtown Core,Anson,food,20,4.295,133170,85.9
+Downtown Core,Anson,shopping,20,4.225,146813,84.5
+Downtown Core,Anson,recreation,20,4.45,7042,89.0
+Downtown Core,Anson,nature,20,4.505,22080,90.1
+Downtown Core,Bayfront Subzone,education,20,4.7,3043,94.0
+Downtown Core,Bayfront Subzone,transport,20,4.375,4418,87.5
+Downtown Core,Bayfront Subzone,food,20,4.305,124805,86.1
+Downtown Core,Bayfront Subzone,shopping,14,4.271,91655,85.42
+Downtown Core,Bayfront Subzone,recreation,20,4.46,6952,89.2
+Downtown Core,Bayfront Subzone,nature,20,4.475,59604,89.5
+Downtown Core,Bugis,education,20,4.662,2775,93.24
+Downtown Core,Bugis,transport,20,4.31,3696,86.2
+Downtown Core,Bugis,food,20,4.28,97862,85.6
+Downtown Core,Bugis,shopping,20,4.21,113026,84.2
+Downtown Core,Bugis,recreation,20,4.375,6468,87.5
+Downtown Core,Bugis,nature,20,4.485,34018,89.7
+Downtown Core,Cecil,education,20,4.545,3778,90.9
+Downtown Core,Cecil,transport,20,4.06,2049,81.2
+Downtown Core,Cecil,food,20,4.285,124390,85.7
+Downtown Core,Cecil,shopping,20,4.225,149289,84.5
+Downtown Core,Cecil,recreation,20,4.465,5312,89.3
+Downtown Core,Cecil,nature,20,4.28,26480,85.6
+Downtown Core,Central Subzone,education,20,4.462,2761,89.24
+Downtown Core,Central Subzone,transport,20,4.32,1583,86.4
+Downtown Core,Central Subzone,food,20,4.275,132149,85.5
+Downtown Core,Central Subzone,shopping,20,4.12,168074,82.4
+Downtown Core,Central Subzone,recreation,20,4.47,4254,89.4
+Downtown Core,Central Subzone,nature,20,4.48,219921,89.6
+Downtown Core,City Hall,education,20,4.365,3307,87.3
+Downtown Core,City Hall,transport,20,4.36,6286,87.2
+Downtown Core,City Hall,food,20,4.13,135499,82.6
+Downtown Core,City Hall,shopping,20,4.305,146818,86.1
+Downtown Core,City Hall,recreation,20,4.33,5214,86.6
+Downtown Core,City Hall,nature,20,4.475,185697,89.5
+Downtown Core,Clifford Pier,education,20,4.6,3354,92.0
+Downtown Core,Clifford Pier,transport,20,4.38,2782,87.6
+Downtown Core,Clifford Pier,food,20,4.335,126015,86.7
+Downtown Core,Clifford Pier,shopping,20,4.3,115672,86.0
+Downtown Core,Clifford Pier,recreation,20,4.46,8952,89.2
+Downtown Core,Clifford Pier,nature,20,4.51,188776,90.2
+Downtown Core,Marina Centre,education,20,4.66,3477,93.2
+Downtown Core,Marina Centre,transport,20,4.19,2651,83.8
+Downtown Core,Marina Centre,food,20,4.23,124180,84.6
+Downtown Core,Marina Centre,shopping,20,4.245,77866,84.9
+Downtown Core,Marina Centre,recreation,20,4.49,7956,89.8
+Downtown Core,Marina Centre,nature,20,4.495,215362,89.9
+Downtown Core,Maxwell,education,20,4.605,3611,92.1
+Downtown Core,Maxwell,transport,20,4.225,4332,84.5
+Downtown Core,Maxwell,food,20,4.145,78128,82.9
+Downtown Core,Maxwell,shopping,20,4.275,147251,85.5
+Downtown Core,Maxwell,recreation,20,4.47,5157,89.4
+Downtown Core,Maxwell,nature,20,4.455,29030,89.1
+Downtown Core,Nicoll,education,20,4.658,3534,93.16
+Downtown Core,Nicoll,transport,20,4.115,870,82.3
+Downtown Core,Nicoll,food,20,4.27,129335,85.4
+Downtown Core,Nicoll,shopping,20,4.2,126529,84.0
+Downtown Core,Nicoll,recreation,20,4.385,6748,87.7
+Downtown Core,Nicoll,nature,20,4.485,186010,89.7
+Downtown Core,Phillip,education,20,4.6,3182,92.0
+Downtown Core,Phillip,transport,20,4.295,1275,85.9
+Downtown Core,Phillip,food,20,4.255,122674,85.1
+Downtown Core,Phillip,shopping,20,4.365,135838,87.3
+Downtown Core,Phillip,recreation,20,4.31,8404,86.2
+Downtown Core,Phillip,nature,20,4.44,25800,88.8
+Downtown Core,Raffles Place,education,20,4.558,2794,91.16
+Downtown Core,Raffles Place,transport,20,4.44,3039,88.8
+Downtown Core,Raffles Place,food,20,4.345,99226,86.9
+Downtown Core,Raffles Place,shopping,20,4.215,103741,84.3
+Downtown Core,Raffles Place,recreation,20,4.53,7867,90.6
+Downtown Core,Raffles Place,nature,20,4.51,27634,90.2
+Downtown Core,Tanjong Pagar,education,20,4.541,2595,90.82
+Downtown Core,Tanjong Pagar,transport,20,4.04,1743,80.8
+Downtown Core,Tanjong Pagar,food,20,4.275,97946,85.5
+Downtown Core,Tanjong Pagar,shopping,20,4.195,56554,83.9
+Downtown Core,Tanjong Pagar,recreation,20,4.49,5890,89.8
+Downtown Core,Tanjong Pagar,nature,20,4.495,189436,89.9
+Geylang,Aljunied,education,20,4.574,4030,91.48
+Geylang,Aljunied,transport,20,4.3,2022,86.0
+Geylang,Aljunied,food,20,4.255,105632,85.1
+Geylang,Aljunied,shopping,20,4.255,104147,85.1
+Geylang,Aljunied,recreation,14,4.314,7074,86.28
+Geylang,Aljunied,nature,20,4.445,57673,88.9
+Geylang,Geylang East,education,18,4.6,737,92.0
+Geylang,Geylang East,transport,20,4.145,3048,82.9
+Geylang,Geylang East,food,20,4.175,77241,83.5
+Geylang,Geylang East,shopping,20,4.245,81942,84.9
+Geylang,Geylang East,recreation,16,4.4,5184,88.0
+Geylang,Geylang East,nature,20,4.315,6856,86.3
+Geylang,Kallang Way,education,20,4.495,995,89.9
+Geylang,Kallang Way,transport,20,4.02,1304,80.4
+Geylang,Kallang Way,food,20,4.245,91490,84.9
+Geylang,Kallang Way,shopping,20,4.255,92202,85.1
+Geylang,Kallang Way,recreation,20,4.365,7367,87.3
+Geylang,Kallang Way,nature,9,4.344,14269,86.88
+Geylang,Kampong Ubi,education,20,4.606,976,92.12
+Geylang,Kampong Ubi,transport,20,4.045,1046,80.9
+Geylang,Kampong Ubi,food,20,4.16,108538,83.2
+Geylang,Kampong Ubi,shopping,20,4.255,87904,85.1
+Geylang,Kampong Ubi,recreation,20,4.295,8392,85.9
+Geylang,Kampong Ubi,nature,20,4.31,14946,86.2
+Geylang,Macpherson,education,20,4.705,642,94.1
+Geylang,Macpherson,transport,20,4.185,1364,83.7
+Geylang,Macpherson,food,20,4.135,60814,82.7
+Geylang,Macpherson,shopping,20,4.175,67910,83.5
+Geylang,Macpherson,recreation,20,4.185,7972,83.7
+Geylang,Macpherson,nature,20,4.35,12508,87.0
+Hougang,Defu Industrial Park,education,20,4.605,571,92.1
+Hougang,Defu Industrial Park,transport,20,4.174,1891,83.48
+Hougang,Defu Industrial Park,food,20,4.24,84546,84.8
+Hougang,Defu Industrial Park,shopping,20,4.095,82234,81.9
+Hougang,Defu Industrial Park,recreation,20,4.175,10912,83.5
+Hougang,Defu Industrial Park,nature,20,4.425,32156,88.5
+Hougang,Hougang Central,education,20,4.735,600,94.7
+Hougang,Hougang Central,transport,20,4.065,902,81.3
+Hougang,Hougang Central,food,20,4.14,20393,82.8
+Hougang,Hougang Central,shopping,20,4.04,59399,80.8
+Hougang,Hougang Central,recreation,20,4.31,12441,86.2
+Hougang,Hougang Central,nature,20,4.425,28059,88.5
+Hougang,Hougang East,education,20,4.725,866,94.5
+Hougang,Hougang East,transport,20,4.175,1786,83.5
+Hougang,Hougang East,food,20,4.12,15369,82.4
+Hougang,Hougang East,shopping,20,4.06,97230,81.2
+Hougang,Hougang East,recreation,20,4.28,13680,85.6
+Hougang,Hougang East,nature,9,4.378,8708,87.56
+Hougang,Hougang West,education,20,4.68,677,93.6
+Hougang,Hougang West,transport,20,4.28,929,85.6
+Hougang,Hougang West,food,20,4.1,19258,82.0
+Hougang,Hougang West,shopping,20,4.055,85309,81.1
+Hougang,Hougang West,recreation,20,4.25,11068,85.0
+Hougang,Hougang West,nature,20,4.48,27074,89.6
+Hougang,Kangkar,education,20,4.568,931,91.36
+Hougang,Kangkar,transport,20,4.021,1666,80.42
+Hougang,Kangkar,food,20,4.11,133421,82.2
+Hougang,Kangkar,shopping,20,4.04,86599,80.8
+Hougang,Kangkar,recreation,20,4.19,16806,83.8
+Hougang,Kangkar,nature,20,4.43,25955,88.6
+Hougang,Kovan,education,20,4.605,1020,92.1
+Hougang,Kovan,transport,20,3.975,1757,79.5
+Hougang,Kovan,food,20,4.065,24219,81.3
+Hougang,Kovan,shopping,20,4.09,60673,81.8
+Hougang,Kovan,recreation,20,4.245,10331,84.9
+Hougang,Kovan,nature,20,4.46,29649,89.2
+Hougang,Lorong Ah Soo,education,20,4.553,711,91.06
+Hougang,Lorong Ah Soo,transport,20,4.09,1645,81.8
+Hougang,Lorong Ah Soo,food,20,4.23,18662,84.6
+Hougang,Lorong Ah Soo,shopping,20,4.11,53438,82.2
+Hougang,Lorong Ah Soo,recreation,20,4.22,10381,84.4
+Hougang,Lorong Ah Soo,nature,20,4.41,32148,88.2
+Hougang,Lorong Halus,education,20,4.553,297,91.06
+Hougang,Lorong Halus,transport,9,3.867,1563,77.34
+Hougang,Lorong Halus,food,20,4.2,32982,84.0
+Hougang,Lorong Halus,shopping,20,4.105,82105,82.1
+Hougang,Lorong Halus,recreation,20,4.24,15757,84.8
+Hougang,Lorong Halus,nature,20,4.455,24981,89.1
+Hougang,Tai Seng,education,20,4.716,850,94.32
+Hougang,Tai Seng,transport,20,3.78,1014,75.6
+Hougang,Tai Seng,food,20,4.075,17115,81.5
+Hougang,Tai Seng,shopping,20,4.1,91305,82.0
+Hougang,Tai Seng,recreation,20,4.2,11457,84.0
+Hougang,Tai Seng,nature,20,4.43,16654,88.6
+Hougang,Trafalgar,education,20,4.595,1084,91.9
+Hougang,Trafalgar,transport,10,4.15,383,83.0
+Hougang,Trafalgar,food,20,4.18,120855,83.6
+Hougang,Trafalgar,shopping,20,4.08,83769,81.6
+Hougang,Trafalgar,recreation,20,4.265,11586,85.3
+Hougang,Trafalgar,nature,20,4.465,30701,89.3
+Jurong East,International Business Park,education,15,4.464,1350,89.28
+Jurong East,International Business Park,transport,7,3.943,2517,78.86
+Jurong East,International Business Park,food,7,4.443,513,88.86
+Jurong East,International Business Park,shopping,9,4.322,39346,86.44
+Jurong East,International Business Park,recreation,10,4.33,4759,86.6
+Jurong East,International Business Park,nature,6,4.18,12088,83.6
+Jurong East,Jurong Gateway,education,15,4.7,1558,94.0
+Jurong East,Jurong Gateway,transport,5,4.08,2497,81.6
+Jurong East,Jurong Gateway,food,8,4.1,8720,82.0
+Jurong East,Jurong Gateway,shopping,8,4.025,39115,80.5
+Jurong East,Jurong Gateway,recreation,9,4.233,6131,84.66
+Jurong East,Jurong Gateway,nature,11,4.26,23000,85.2
+Jurong East,Jurong Port,education,16,4.5,2589,90.0
+Jurong East,Jurong Port,transport,5,4.0,2471,80.0
+Jurong East,Jurong Port,food,8,4.0,9951,80.0
+Jurong East,Jurong Port,shopping,8,4.45,35792,89.0
+Jurong East,Jurong Port,recreation,11,4.23,7448,84.6
+Jurong East,Jurong Port,nature,11,4.29,13008,85.8
+Jurong East,Jurong River,education,16,4.642,4686,92.84
+Jurong East,Jurong River,transport,4,4.0,2468,80.0
+Jurong East,Jurong River,food,9,4.5,10158,90.0
+Jurong East,Jurong River,shopping,8,4.162,40690,83.24
+Jurong East,Jurong River,recreation,9,4.25,5489,85.0
+Jurong East,Jurong River,nature,8,4.238,6426,84.76
+Jurong East,Lakeside (Business),education,18,4.407,2405,88.14
+Jurong East,Lakeside (Business),transport,6,3.917,1319,78.34
+Jurong East,Lakeside (Business),food,10,4.067,15512,81.34
+Jurong East,Lakeside (Business),shopping,9,4.222,40691,84.44
+Jurong East,Lakeside (Business),recreation,11,4.48,6941,89.6
+Jurong East,Lakeside (Business),nature,6,4.56,6843,91.2
+Jurong East,Lakeside (Leisure),education,15,4.573,8566,91.46
+Jurong East,Lakeside (Leisure),transport,6,3.933,2718,78.66
+Jurong East,Lakeside (Leisure),food,9,4.1,16372,82.0
+Jurong East,Lakeside (Leisure),shopping,8,4.1,38394,82.0
+Jurong East,Lakeside (Leisure),recreation,12,4.392,6344,87.84
+Jurong East,Lakeside (Leisure),nature,5,4.45,9083,89.0
+Jurong East,Penjuru Crescent,education,17,4.577,2421,91.54
+Jurong East,Penjuru Crescent,transport,7,4.029,2479,80.58
+Jurong East,Penjuru Crescent,food,6,3.7,805,74.0
+Jurong East,Penjuru Crescent,shopping,7,4.2,33307,84.0
+Jurong East,Penjuru Crescent,recreation,8,4.325,8125,86.5
+Jurong East,Penjuru Crescent,nature,11,3.964,9405,79.28
+Jurong East,Teban Gardens,education,12,4.456,1629,89.12
+Jurong East,Teban Gardens,transport,7,4.343,3309,86.86
+Jurong East,Teban Gardens,food,6,4.317,3839,86.34
+Jurong East,Teban Gardens,shopping,5,4.32,3722,86.4
+Jurong East,Teban Gardens,recreation,10,4.06,4080,81.2
+Jurong East,Teban Gardens,nature,8,4.543,493,90.86
+Jurong East,Toh Guan,education,17,4.554,2351,91.08
+Jurong East,Toh Guan,transport,6,3.95,2438,79.0
+Jurong East,Toh Guan,food,5,3.94,1169,78.8
+Jurong East,Toh Guan,shopping,9,3.989,39267,79.78
+Jurong East,Toh Guan,recreation,12,4.483,5559,89.66
+Jurong East,Toh Guan,nature,10,4.4,14343,88.0
+Jurong East,Yuhua East,education,13,4.682,5146,93.64
+Jurong East,Yuhua East,transport,6,4.067,2480,81.34
+Jurong East,Yuhua East,food,6,4.483,7073,89.66
+Jurong East,Yuhua East,shopping,7,3.886,6969,77.72
+Jurong East,Yuhua East,recreation,10,4.233,4810,84.66
+Jurong East,Yuhua East,nature,9,4.25,9722,85.0
+Jurong East,Yuhua West,education,14,4.633,5275,92.66
+Jurong East,Yuhua West,transport,6,3.85,3369,77.0
+Jurong East,Yuhua West,food,6,4.483,7073,89.66
+Jurong East,Yuhua West,shopping,6,4.35,6449,87.0
+Jurong East,Yuhua West,recreation,10,4.25,6249,85.0
+Jurong East,Yuhua West,nature,8,4.1,9745,82.0
+Jurong West,Boon Lay Place,education,17,4.508,4475,90.16
+Jurong West,Boon Lay Place,transport,5,4.08,627,81.6
+Jurong West,Boon Lay Place,food,6,4.05,11165,81.0
+Jurong West,Boon Lay Place,shopping,6,3.733,31532,74.66
+Jurong West,Boon Lay Place,recreation,10,4.41,4623,88.2
+Jurong West,Boon Lay Place,nature,8,4.188,10141,83.76
+Jurong West,Chin Bee,education,17,4.515,2153,90.3
+Jurong West,Chin Bee,transport,8,4.012,1396,80.24
+Jurong West,Chin Bee,food,8,4.338,10669,86.76
+Jurong West,Chin Bee,shopping,10,3.78,54549,75.6
+Jurong West,Chin Bee,recreation,11,4.436,7520,88.72
+Jurong West,Chin Bee,nature,9,4.367,18327,87.34
+Jurong West,Hong Kah,education,17,4.469,3195,89.38
+Jurong West,Hong Kah,transport,5,4.18,2657,83.6
+Jurong West,Hong Kah,food,5,4.14,7275,82.8
+Jurong West,Hong Kah,shopping,7,3.757,31728,75.14
+Jurong West,Hong Kah,recreation,12,4.233,9925,84.66
+Jurong West,Hong Kah,nature,9,4.222,11996,84.44
+Jurong West,Jurong West Central,education,15,4.236,1783,84.72
+Jurong West,Jurong West Central,transport,6,4.15,316,83.0
+Jurong West,Jurong West Central,food,9,3.956,15042,79.12
+Jurong West,Jurong West Central,shopping,9,3.633,37845,72.66
+Jurong West,Jurong West Central,recreation,9,4.411,9890,88.22
+Jurong West,Jurong West Central,nature,8,4.15,4456,83.0
+Jurong West,Kian Teck,education,16,4.65,2786,93.0
+Jurong West,Kian Teck,transport,4,4.475,757,89.5
+Jurong West,Kian Teck,food,5,3.96,2395,79.2
+Jurong West,Kian Teck,shopping,8,4.012,42770,80.24
+Jurong West,Kian Teck,recreation,11,4.236,7791,84.72
+Jurong West,Kian Teck,nature,10,4.08,19535,81.6
+Jurong West,Safti,education,14,4.636,2117,92.72
+Jurong West,Safti,transport,5,3.84,141,76.8
+Jurong West,Safti,food,9,4.1,10641,82.0
+Jurong West,Safti,shopping,8,3.938,34794,78.76
+Jurong West,Safti,recreation,12,4.408,7752,88.16
+Jurong West,Safti,nature,10,4.3,12618,86.0
+Jurong West,Taman Jurong,education,14,4.42,3230,88.4
+Jurong West,Taman Jurong,transport,6,3.6,163,72.0
+Jurong West,Taman Jurong,food,7,4.171,8086,83.42
+Jurong West,Taman Jurong,shopping,9,3.711,38347,74.22
+Jurong West,Taman Jurong,recreation,12,4.308,10291,86.16
+Jurong West,Taman Jurong,nature,7,4.171,9541,83.42
+Jurong West,Wenya,education,18,4.569,2333,91.38
+Jurong West,Wenya,transport,6,4.317,1163,86.34
+Jurong West,Wenya,food,7,4.1,14942,82.0
+Jurong West,Wenya,shopping,9,4.0,32176,80.0
+Jurong West,Wenya,recreation,11,4.3,8596,86.0
+Jurong West,Wenya,nature,10,4.23,14355,84.6
+Jurong West,Yunnan,education,17,4.277,2723,85.54
+Jurong West,Yunnan,transport,7,4.114,3257,82.28
+Jurong West,Yunnan,food,10,3.88,8803,77.6
+Jurong West,Yunnan,shopping,9,3.944,45611,78.88
+Jurong West,Yunnan,recreation,11,4.245,10229,84.9
+Jurong West,Yunnan,nature,3,3.9,661,78.0
+Kallang,Bendemeer,education,20,4.445,1825,88.9
+Kallang,Bendemeer,transport,20,4.355,2846,87.1
+Kallang,Bendemeer,food,20,4.235,122984,84.7
+Kallang,Bendemeer,shopping,20,4.195,124048,83.9
+Kallang,Bendemeer,recreation,20,4.24,11598,84.8
+Kallang,Bendemeer,nature,20,4.41,26731,88.2
+Kallang,Boon Keng,education,20,4.585,4011,91.7
+Kallang,Boon Keng,transport,20,4.31,2775,86.2
+Kallang,Boon Keng,food,9,4.033,65556,80.66
+Kallang,Boon Keng,shopping,20,4.21,107354,84.2
+Kallang,Boon Keng,recreation,20,4.255,9859,85.1
+Kallang,Boon Keng,nature,20,4.37,24104,87.4
+Kallang,Crawford,education,20,4.535,2543,90.7
+Kallang,Crawford,transport,20,4.175,3503,83.5
+Kallang,Crawford,food,20,4.265,133867,85.3
+Kallang,Crawford,shopping,20,4.26,166040,85.2
+Kallang,Crawford,recreation,20,4.28,13197,85.6
+Kallang,Crawford,nature,20,4.375,23306,87.5
+Kallang,Geylang Bahru,education,20,4.485,1751,89.7
+Kallang,Geylang Bahru,transport,20,4.0,1517,80.0
+Kallang,Geylang Bahru,food,20,4.26,117344,85.2
+Kallang,Geylang Bahru,shopping,20,4.215,117507,84.3
+Kallang,Geylang Bahru,recreation,20,4.26,6775,85.2
+Kallang,Geylang Bahru,nature,20,4.445,23792,88.9
+Kallang,Kallang Bahru,education,20,4.684,3361,93.68
+Kallang,Kallang Bahru,transport,20,4.23,1684,84.6
+Kallang,Kallang Bahru,food,20,4.265,121650,85.3
+Kallang,Kallang Bahru,shopping,20,4.215,117669,84.3
+Kallang,Kallang Bahru,recreation,20,4.255,14118,85.1
+Kallang,Kallang Bahru,nature,20,4.42,177742,88.4
+Kallang,Kampong Bugis,education,20,4.595,1369,91.9
+Kallang,Kampong Bugis,transport,20,4.285,2101,85.7
+Kallang,Kampong Bugis,food,20,4.18,83590,83.6
+Kallang,Kampong Bugis,shopping,20,4.15,87471,83.0
+Kallang,Kampong Bugis,recreation,20,4.265,8623,85.3
+Kallang,Kampong Bugis,nature,20,4.33,25735,86.6
+Kallang,Kampong Java,education,20,4.779,2687,95.58
+Kallang,Kampong Java,transport,20,4.2,1673,84.0
+Kallang,Kampong Java,food,20,4.16,137190,83.2
+Kallang,Kampong Java,shopping,20,4.285,172243,85.7
+Kallang,Kampong Java,recreation,20,4.33,9480,86.6
+Kallang,Kampong Java,nature,20,4.425,184660,88.5
+Kallang,Lavender,education,20,4.556,2347,91.12
+Kallang,Lavender,transport,20,4.12,3702,82.4
+Kallang,Lavender,food,20,4.255,129518,85.1
+Kallang,Lavender,shopping,20,4.235,143562,84.7
+Kallang,Lavender,recreation,20,4.18,8395,83.6
+Kallang,Lavender,nature,20,4.435,182880,88.7
+Kallang,Tanjong Rhu,education,20,4.505,2637,90.1
+Kallang,Tanjong Rhu,transport,20,4.221,2554,84.42
+Kallang,Tanjong Rhu,food,20,4.185,133118,83.7
+Kallang,Tanjong Rhu,shopping,20,4.25,83519,85.0
+Kallang,Tanjong Rhu,recreation,20,4.275,20238,85.5
+Kallang,Tanjong Rhu,nature,20,4.52,180897,90.4
+Lim Chu Kang,Lim Chu Kang,education,20,4.83,986,96.6
+Lim Chu Kang,Lim Chu Kang,transport,12,4.133,1311,82.66
+Lim Chu Kang,Lim Chu Kang,food,20,4.145,140531,82.9
+Lim Chu Kang,Lim Chu Kang,shopping,20,4.15,53360,83.0
+Lim Chu Kang,Lim Chu Kang,recreation,20,4.28,16531,85.6
+Lim Chu Kang,Lim Chu Kang,nature,20,4.405,35565,88.1
+Mandai,Mandai East,education,20,4.771,3663,95.42
+Mandai,Mandai East,transport,20,4.059,595,81.18
+Mandai,Mandai East,food,20,4.215,37972,84.3
+Mandai,Mandai East,shopping,20,4.295,46669,85.9
+Mandai,Mandai East,recreation,20,4.035,11065,80.7
+Mandai,Mandai East,nature,16,4.494,34478,89.88
+Mandai,Mandai Estate,education,20,4.847,2016,96.94
+Mandai,Mandai Estate,transport,20,3.994,198,79.88
+Mandai,Mandai Estate,food,20,4.215,105545,84.3
+Mandai,Mandai Estate,shopping,20,4.205,50013,84.1
+Mandai,Mandai Estate,recreation,20,4.035,10889,80.7
+Mandai,Mandai Estate,nature,20,4.47,37051,89.4
+Mandai,Mandai West,education,20,4.6,3840,92.0
+Mandai,Mandai West,transport,20,3.994,243,79.88
+Mandai,Mandai West,food,20,4.22,115616,84.4
+Mandai,Mandai West,shopping,20,4.25,58195,85.0
+Mandai,Mandai West,recreation,20,4.08,10412,81.6
+Mandai,Mandai West,nature,20,4.49,46597,89.8
+Marina East,Marina East,education,20,4.579,1392,91.58
+Marina East,Marina East,transport,20,4.295,2405,85.9
+Marina East,Marina East,food,20,4.185,109028,83.7
+Marina East,Marina East,shopping,20,4.285,115088,85.7
+Marina East,Marina East,recreation,20,4.415,8292,88.3
+Marina East,Marina East,nature,2,4.7,650,94.0
+Marina South,Marina South,education,20,4.637,3422,92.74
+Marina South,Marina South,transport,20,4.268,8382,85.36
+Marina South,Marina South,food,20,4.275,119049,85.5
+Marina South,Marina South,shopping,20,4.255,177735,85.1
+Marina South,Marina South,recreation,20,4.54,7526,90.8
+Marina South,Marina South,nature,20,4.525,214957,90.5
+Marine Parade,East Coast,education,20,4.437,2610,88.74
+Marine Parade,East Coast,transport,20,4.235,849,84.7
+Marine Parade,East Coast,food,20,4.195,78525,83.9
+Marine Parade,East Coast,shopping,20,4.135,44726,82.7
+Marine Parade,East Coast,recreation,20,4.4,6406,88.0
+Marine Parade,East Coast,nature,20,4.45,63690,89.0
+Marine Parade,Katong,education,20,4.745,464,94.9
+Marine Parade,Katong,transport,20,4.225,744,84.5
+Marine Parade,Katong,food,20,4.24,22844,84.8
+Marine Parade,Katong,shopping,20,4.16,50624,83.2
+Marine Parade,Katong,recreation,20,4.384,12932,87.68
+Marine Parade,Katong,nature,20,4.455,66393,89.1
+Marine Parade,Marina East (Mp),education,20,4.589,2514,91.78
+Marine Parade,Marina East (Mp),transport,20,4.01,3326,80.2
+Marine Parade,Marina East (Mp),food,20,4.08,83204,81.6
+Marine Parade,Marina East (Mp),shopping,20,4.26,139467,85.2
+Marine Parade,Marina East (Mp),recreation,20,4.35,13085,87.0
+Marine Parade,Marina East (Mp),nature,20,4.46,221368,89.2
+Marine Parade,Marine Parade,education,20,4.31,811,86.2
+Marine Parade,Marine Parade,transport,20,3.94,1214,78.8
+Marine Parade,Marine Parade,food,20,4.06,45682,81.2
+Marine Parade,Marine Parade,shopping,20,4.24,119383,84.8
+Marine Parade,Marine Parade,recreation,20,4.3,6585,86.0
+Marine Parade,Marine Parade,nature,20,4.295,207753,85.9
+Marine Parade,Mountbatten,education,20,4.574,3822,91.48
+Marine Parade,Mountbatten,transport,20,4.21,850,84.2
+Marine Parade,Mountbatten,food,20,4.15,52908,83.0
+Marine Parade,Mountbatten,shopping,20,4.18,109866,83.6
+Marine Parade,Mountbatten,recreation,20,4.215,7238,84.3
+Marine Parade,Mountbatten,nature,20,4.455,31779,89.1
+Museum,Bras Basah,education,17,4.564,4265,91.28
+Museum,Bras Basah,transport,4,4.5,2228,90.0
+Museum,Bras Basah,food,9,4.1,48368,82.0
+Museum,Bras Basah,shopping,8,3.738,37587,74.76
+Museum,Bras Basah,recreation,12,4.392,13748,87.84
+Museum,Bras Basah,nature,11,4.291,187648,85.82
+Museum,Dhoby Ghaut,education,17,4.58,8088,91.6
+Museum,Dhoby Ghaut,transport,4,4.35,1282,87.0
+Museum,Dhoby Ghaut,food,9,4.378,102002,87.56
+Museum,Dhoby Ghaut,shopping,7,3.743,47417,74.86
+Museum,Dhoby Ghaut,recreation,12,4.35,14383,87.0
+Museum,Dhoby Ghaut,nature,11,4.509,36896,90.18
+Museum,Fort Canning,education,13,4.556,15079,91.12
+Museum,Fort Canning,transport,4,4.15,510,83.0
+Museum,Fort Canning,food,6,4.433,76914,88.66
+Museum,Fort Canning,shopping,10,4.33,70439,86.6
+Museum,Fort Canning,recreation,11,4.409,15953,88.18
+Museum,Fort Canning,nature,3,4.467,14806,89.34
+Newton,Cairnhill,education,20,4.65,491,93.0
+Newton,Cairnhill,transport,20,4.105,1164,82.1
+Newton,Cairnhill,food,20,4.125,131083,82.5
+Newton,Cairnhill,shopping,20,4.32,171005,86.4
+Newton,Cairnhill,recreation,20,4.37,9525,87.4
+Newton,Cairnhill,nature,20,4.395,23589,87.9
+Newton,Goodwood Park,education,20,4.65,1147,93.0
+Newton,Goodwood Park,transport,20,4.205,2191,84.1
+Newton,Goodwood Park,food,20,4.235,140028,84.7
+Newton,Goodwood Park,shopping,20,4.32,195485,86.4
+Newton,Goodwood Park,recreation,20,4.326,7066,86.52
+Newton,Goodwood Park,nature,20,4.455,31921,89.1
+Newton,Istana Negara,education,20,4.529,2991,90.58
+Newton,Istana Negara,transport,20,4.121,1325,82.42
+Newton,Istana Negara,food,1,4.2,14987,84.0
+Newton,Istana Negara,shopping,20,4.24,154247,84.8
+Newton,Istana Negara,recreation,20,4.426,7466,88.52
+Newton,Istana Negara,nature,20,4.34,24067,86.8
+Newton,Monk'S Hill,education,20,4.63,1526,92.6
+Newton,Monk'S Hill,transport,20,4.115,1566,82.3
+Newton,Monk'S Hill,food,20,4.215,123044,84.3
+Newton,Monk'S Hill,shopping,20,4.255,182749,85.1
+Newton,Monk'S Hill,recreation,20,4.325,8312,86.5
+Newton,Monk'S Hill,nature,20,4.47,34709,89.4
+Newton,Newton Circus,education,20,4.535,466,90.7
+Newton,Newton Circus,transport,20,3.939,1012,78.78
+Newton,Newton Circus,food,20,4.175,116505,83.5
+Newton,Newton Circus,shopping,20,4.29,216261,85.8
+Newton,Newton Circus,recreation,20,4.274,9880,85.48
+Newton,Newton Circus,nature,20,4.435,21963,88.7
+Newton,Orange Grove,education,20,4.67,1429,93.4
+Newton,Orange Grove,transport,20,4.21,852,84.2
+Newton,Orange Grove,food,20,4.16,128677,83.2
+Newton,Orange Grove,shopping,20,4.32,146654,86.4
+Newton,Orange Grove,recreation,20,4.435,5816,88.7
+Newton,Orange Grove,nature,20,4.435,31754,88.7
+North-Eastern Islands,North-Eastern Islands,education,20,4.594,738,91.88
+North-Eastern Islands,North-Eastern Islands,transport,20,4.285,689,85.7
+North-Eastern Islands,North-Eastern Islands,food,20,4.18,141546,83.6
+North-Eastern Islands,North-Eastern Islands,shopping,20,4.22,94892,84.4
+North-Eastern Islands,North-Eastern Islands,recreation,20,4.245,11672,84.9
+North-Eastern Islands,North-Eastern Islands,nature,20,4.515,21404,90.3
+Novena,Balestier,education,20,4.77,1113,95.4
+Novena,Balestier,transport,20,3.995,830,79.9
+Novena,Balestier,food,20,4.135,132949,82.7
+Novena,Balestier,shopping,20,4.135,82201,82.7
+Novena,Balestier,recreation,20,4.52,11434,90.4
+Novena,Balestier,nature,20,4.435,27892,88.7
+Novena,Dunearn,education,20,4.675,694,93.5
+Novena,Dunearn,transport,20,4.058,1021,81.16
+Novena,Dunearn,food,20,4.225,126479,84.5
+Novena,Dunearn,shopping,20,4.205,59279,84.1
+Novena,Dunearn,recreation,20,4.37,7839,87.4
+Novena,Dunearn,nature,20,4.39,35396,87.8
+Novena,Malcolm,education,20,4.725,3062,94.5
+Novena,Malcolm,transport,20,3.942,964,78.84
+Novena,Malcolm,food,20,4.165,147713,83.3
+Novena,Malcolm,shopping,20,4.14,75764,82.8
+Novena,Malcolm,recreation,20,4.39,8524,87.8
+Novena,Malcolm,nature,20,4.4,22587,88.0
+Novena,Moulmein,education,20,4.739,764,94.78
+Novena,Moulmein,transport,20,3.915,833,78.3
+Novena,Moulmein,food,20,4.3,149499,86.0
+Novena,Moulmein,shopping,20,4.24,93044,84.8
+Novena,Moulmein,recreation,20,4.495,9730,89.9
+Novena,Moulmein,nature,20,4.395,23900,87.9
+Novena,Mount Pleasant,education,20,4.605,4448,92.1
+Novena,Mount Pleasant,transport,20,4.315,1727,86.3
+Novena,Mount Pleasant,food,20,4.23,136267,84.6
+Novena,Mount Pleasant,shopping,20,4.255,170689,85.1
+Novena,Mount Pleasant,recreation,20,4.32,8452,86.4
+Novena,Mount Pleasant,nature,20,4.355,20670,87.1
+Orchard,Boulevard,education,20,4.795,987,95.9
+Orchard,Boulevard,transport,20,4.325,2301,86.5
+Orchard,Boulevard,food,20,4.215,141690,84.3
+Orchard,Boulevard,shopping,20,4.3,132458,86.0
+Orchard,Boulevard,recreation,20,4.33,8503,86.6
+Orchard,Boulevard,nature,20,4.46,34537,89.2
+Orchard,Somerset,education,20,4.739,823,94.78
+Orchard,Somerset,transport,20,4.325,2552,86.5
+Orchard,Somerset,food,20,4.315,119436,86.3
+Orchard,Somerset,shopping,20,4.295,157838,85.9
+Orchard,Somerset,recreation,20,4.385,11978,87.7
+Orchard,Somerset,nature,20,4.38,180557,87.6
+Orchard,Tanglin,education,20,4.711,1036,94.22
+Orchard,Tanglin,transport,20,4.326,1742,86.52
+Orchard,Tanglin,food,20,4.25,136670,85.0
+Orchard,Tanglin,shopping,20,4.325,181882,86.5
+Orchard,Tanglin,recreation,20,4.535,6985,90.7
+Orchard,Tanglin,nature,20,4.435,30246,88.7
+Outram,China Square,education,18,4.5,1044,90.0
+Outram,China Square,transport,20,4.05,2604,81.0
+Outram,China Square,food,20,4.155,111472,83.1
+Outram,China Square,shopping,20,4.21,108468,84.2
+Outram,China Square,recreation,20,4.33,6195,86.6
+Outram,China Square,nature,20,4.5,187828,90.0
+Outram,Chinatown,education,20,4.478,3704,89.56
+Outram,Chinatown,transport,20,4.125,3414,82.5
+Outram,Chinatown,food,20,4.375,125439,87.5
+Outram,Chinatown,shopping,20,4.3,125612,86.0
+Outram,Chinatown,recreation,20,4.34,6643,86.8
+Outram,Chinatown,nature,20,4.48,22446,89.6
+Outram,Pearl'S Hill,education,20,4.632,1318,92.64
+Outram,Pearl'S Hill,transport,20,4.02,2338,80.4
+Outram,Pearl'S Hill,food,20,4.27,143058,85.4
+Outram,Pearl'S Hill,shopping,20,4.29,87063,85.8
+Outram,Pearl'S Hill,recreation,20,4.36,6052,87.2
+Outram,Pearl'S Hill,nature,15,4.42,22911,88.4
+Outram,People'S Park,education,20,4.615,1273,92.3
+Outram,People'S Park,transport,20,4.005,2391,80.1
+Outram,People'S Park,food,20,4.33,136718,86.6
+Outram,People'S Park,shopping,20,4.325,176973,86.5
+Outram,People'S Park,recreation,20,4.215,8466,84.3
+Outram,People'S Park,nature,20,4.45,33035,89.0
+Pasir Ris,Flora Drive,education,20,4.655,665,93.1
+Pasir Ris,Flora Drive,transport,20,3.935,1778,78.7
+Pasir Ris,Flora Drive,food,20,4.095,23661,81.9
+Pasir Ris,Flora Drive,shopping,20,4.13,29268,82.6
+Pasir Ris,Flora Drive,recreation,20,4.44,6865,88.8
+Pasir Ris,Flora Drive,nature,20,4.27,11489,85.4
+Pasir Ris,Loyang East,education,20,4.78,1695,95.6
+Pasir Ris,Loyang East,transport,20,4.11,1945,82.2
+Pasir Ris,Loyang East,food,20,4.35,24253,87.0
+Pasir Ris,Loyang East,shopping,20,4.155,31026,83.1
+Pasir Ris,Loyang East,recreation,20,4.385,9846,87.7
+Pasir Ris,Loyang East,nature,20,4.33,20341,86.6
+Pasir Ris,Loyang West,education,20,4.815,1754,96.3
+Pasir Ris,Loyang West,transport,20,4.205,1958,84.1
+Pasir Ris,Loyang West,food,20,4.28,25574,85.6
+Pasir Ris,Loyang West,shopping,20,4.125,30638,82.5
+Pasir Ris,Loyang West,recreation,20,4.42,22602,88.4
+Pasir Ris,Loyang West,nature,20,4.3,21505,86.0
+Pasir Ris,Pasir Ris Central,education,20,4.81,863,96.2
+Pasir Ris,Pasir Ris Central,transport,20,3.715,2507,74.3
+Pasir Ris,Pasir Ris Central,food,20,4.315,15082,86.3
+Pasir Ris,Pasir Ris Central,shopping,20,4.14,29674,82.8
+Pasir Ris,Pasir Ris Central,recreation,14,4.521,5289,90.42
+Pasir Ris,Pasir Ris Central,nature,20,4.47,9418,89.4
+Pasir Ris,Pasir Ris Drive,education,20,4.685,757,93.7
+Pasir Ris,Pasir Ris Drive,transport,20,3.725,1784,74.5
+Pasir Ris,Pasir Ris Drive,food,20,4.225,14820,84.5
+Pasir Ris,Pasir Ris Drive,shopping,20,4.15,29053,83.0
+Pasir Ris,Pasir Ris Drive,recreation,18,4.406,6391,88.12
+Pasir Ris,Pasir Ris Drive,nature,10,4.51,8678,90.2
+Pasir Ris,Pasir Ris Park,education,20,4.725,792,94.5
+Pasir Ris,Pasir Ris Park,transport,20,3.89,8102,77.8
+Pasir Ris,Pasir Ris Park,food,20,4.37,16811,87.4
+Pasir Ris,Pasir Ris Park,shopping,20,4.15,29053,83.0
+Pasir Ris,Pasir Ris Park,recreation,20,4.34,21683,86.8
+Pasir Ris,Pasir Ris Park,nature,20,4.485,9456,89.7
+Pasir Ris,Pasir Ris Wafer Fab Park,education,20,4.755,828,95.1
+Pasir Ris,Pasir Ris Wafer Fab Park,transport,20,3.847,8824,76.94
+Pasir Ris,Pasir Ris Wafer Fab Park,food,20,4.19,58427,83.8
+Pasir Ris,Pasir Ris Wafer Fab Park,shopping,20,4.12,31428,82.4
+Pasir Ris,Pasir Ris Wafer Fab Park,recreation,12,4.458,18445,89.16
+Pasir Ris,Pasir Ris Wafer Fab Park,nature,20,4.48,16408,89.6
+Pasir Ris,Pasir Ris West,education,20,4.81,785,96.2
+Pasir Ris,Pasir Ris West,transport,20,3.81,2209,76.2
+Pasir Ris,Pasir Ris West,food,20,4.245,15603,84.9
+Pasir Ris,Pasir Ris West,shopping,20,4.15,30089,83.0
+Pasir Ris,Pasir Ris West,recreation,20,4.385,22536,87.7
+Pasir Ris,Pasir Ris West,nature,20,4.515,13473,90.3
+Paya Lebar,Airport Road,education,20,4.482,1177,89.64
+Paya Lebar,Airport Road,transport,20,4.058,2421,81.16
+Paya Lebar,Airport Road,food,20,4.145,93455,82.9
+Paya Lebar,Airport Road,shopping,20,4.215,61595,84.3
+Paya Lebar,Airport Road,recreation,20,4.29,7955,85.8
+Paya Lebar,Airport Road,nature,9,4.367,7037,87.34
+Paya Lebar,Paya Lebar East,education,20,4.494,2898,89.88
+Paya Lebar,Paya Lebar East,transport,20,4.053,2317,81.06
+Paya Lebar,Paya Lebar East,food,20,4.095,39295,81.9
+Paya Lebar,Paya Lebar East,shopping,20,4.135,93724,82.7
+Paya Lebar,Paya Lebar East,recreation,20,4.305,24733,86.1
+Paya Lebar,Paya Lebar East,nature,9,4.478,9443,89.56
+Paya Lebar,Paya Lebar North,education,20,4.524,3261,90.48
+Paya Lebar,Paya Lebar North,transport,20,4.145,2921,82.9
+Paya Lebar,Paya Lebar North,food,20,4.15,37908,83.0
+Paya Lebar,Paya Lebar North,shopping,6,4.25,40678,85.0
+Paya Lebar,Paya Lebar North,recreation,20,4.25,24668,85.0
+Paya Lebar,Paya Lebar North,nature,17,4.465,49613,89.3
+Paya Lebar,Paya Lebar West,education,20,4.512,2805,90.24
+Paya Lebar,Paya Lebar West,transport,20,4.147,2737,82.94
+Paya Lebar,Paya Lebar West,food,20,4.155,40405,83.1
+Paya Lebar,Paya Lebar West,shopping,20,4.14,125166,82.8
+Paya Lebar,Paya Lebar West,recreation,20,4.32,20339,86.4
+Paya Lebar,Paya Lebar West,nature,5,4.36,7117,87.2
+Paya Lebar,Plab,education,20,4.556,1118,91.12
+Paya Lebar,Plab,transport,20,4.179,2587,83.58
+Paya Lebar,Plab,food,20,4.22,124112,84.4
+Paya Lebar,Plab,shopping,20,4.195,141053,83.9
+Paya Lebar,Plab,recreation,20,4.26,13201,85.2
+Paya Lebar,Plab,nature,9,4.411,8362,88.22
+Pioneer,Benoi Sector,education,16,4.423,3762,88.46
+Pioneer,Benoi Sector,transport,6,3.65,1142,73.0
+Pioneer,Benoi Sector,food,5,3.92,2168,78.4
+Pioneer,Benoi Sector,shopping,9,3.975,19599,79.5
+Pioneer,Benoi Sector,recreation,12,4.308,8058,86.16
+Pioneer,Benoi Sector,nature,11,4.373,22477,87.46
+Pioneer,Gul Basin,education,17,4.508,6076,90.16
+Pioneer,Gul Basin,transport,7,3.686,1321,73.72
+Pioneer,Gul Basin,food,8,4.412,1183,88.24
+Pioneer,Gul Basin,shopping,9,3.922,30180,78.44
+Pioneer,Gul Basin,recreation,12,4.4,10221,88.0
+Pioneer,Gul Basin,nature,12,4.436,164757,88.72
+Pioneer,Gul Circle,education,18,4.521,6639,90.42
+Pioneer,Gul Circle,transport,2,4.7,254,94.0
+Pioneer,Gul Circle,food,6,4.1,1362,82.0
+Pioneer,Gul Circle,shopping,7,4.286,4736,85.72
+Pioneer,Gul Circle,recreation,12,4.264,10292,85.28
+Pioneer,Gul Circle,nature,9,4.556,12197,91.12
+Pioneer,Joo Koon,education,15,4.231,7230,84.62
+Pioneer,Joo Koon,transport,3,3.833,1906,76.66
+Pioneer,Joo Koon,food,7,3.443,1515,68.86
+Pioneer,Joo Koon,shopping,5,3.6,3966,72.0
+Pioneer,Joo Koon,recreation,11,4.327,9843,86.54
+Pioneer,Joo Koon,nature,11,4.336,19365,86.72
+Pioneer,Pioneer Sector,education,16,4.542,3306,90.84
+Pioneer,Pioneer Sector,transport,5,3.6,1049,72.0
+Pioneer,Pioneer Sector,food,9,3.9,4329,78.0
+Pioneer,Pioneer Sector,shopping,8,3.925,27928,78.5
+Pioneer,Pioneer Sector,recreation,12,4.225,9459,84.5
+Pioneer,Pioneer Sector,nature,12,4.333,19205,86.66
+Punggol,Coney Island,education,20,4.71,1699,94.2
+Punggol,Coney Island,transport,14,4.131,1202,82.62
+Punggol,Coney Island,food,20,4.065,19426,81.3
+Punggol,Coney Island,shopping,20,4.075,79868,81.5
+Punggol,Coney Island,recreation,20,4.37,13488,87.4
+Punggol,Coney Island,nature,20,4.54,10617,90.8
+Punggol,Matilda,education,20,4.82,1598,96.4
+Punggol,Matilda,transport,11,3.87,524,77.4
+Punggol,Matilda,food,20,4.02,26306,80.4
+Punggol,Matilda,shopping,20,4.035,49228,80.7
+Punggol,Matilda,recreation,20,4.321,12670,86.42
+Punggol,Matilda,nature,20,4.475,17484,89.5
+Punggol,Northshore,education,20,4.615,1597,92.3
+Punggol,Northshore,transport,20,4.315,1341,86.3
+Punggol,Northshore,food,20,4.19,29496,83.8
+Punggol,Northshore,shopping,20,4.035,54981,80.7
+Punggol,Northshore,recreation,20,4.41,14490,88.2
+Punggol,Northshore,nature,20,4.45,16227,89.0
+Punggol,Punggol Canal,education,20,4.71,1806,94.2
+Punggol,Punggol Canal,transport,20,3.847,1328,76.94
+Punggol,Punggol Canal,food,20,4.1,21280,82.0
+Punggol,Punggol Canal,shopping,20,3.98,61873,79.6
+Punggol,Punggol Canal,recreation,20,4.337,19076,86.74
+Punggol,Punggol Canal,nature,20,4.47,14452,89.4
+Punggol,Punggol Field,education,20,4.77,2330,95.4
+Punggol,Punggol Field,transport,20,3.91,1279,78.2
+Punggol,Punggol Field,food,20,4.06,19343,81.2
+Punggol,Punggol Field,shopping,20,4.025,63437,80.5
+Punggol,Punggol Field,recreation,20,4.395,14826,87.9
+Punggol,Punggol Field,nature,20,4.45,10518,89.0
+Punggol,Punggol Town Centre,education,20,4.7,3305,94.0
+Punggol,Punggol Town Centre,transport,20,4.04,1414,80.8
+Punggol,Punggol Town Centre,food,20,4.12,21402,82.4
+Punggol,Punggol Town Centre,shopping,20,4.02,58945,80.4
+Punggol,Punggol Town Centre,recreation,20,4.342,13894,86.84
+Punggol,Punggol Town Centre,nature,20,4.432,9452,88.64
+Punggol,Waterway East,education,20,4.765,1634,95.3
+Punggol,Waterway East,transport,20,4.07,1367,81.4
+Punggol,Waterway East,food,20,4.135,26032,82.7
+Punggol,Waterway East,shopping,20,4.075,82273,81.5
+Punggol,Waterway East,recreation,20,4.335,13119,86.7
+Punggol,Waterway East,nature,20,4.485,29612,89.7
+River Valley,Institution Hill,education,13,4.367,3475,87.34
+River Valley,Institution Hill,transport,5,4.16,530,83.2
+River Valley,Institution Hill,food,10,4.51,8159,90.2
+River Valley,Institution Hill,shopping,8,4.175,59250,83.5
+River Valley,Institution Hill,recreation,10,4.59,3813,91.8
+River Valley,Institution Hill,nature,11,4.41,29587,88.2
+River Valley,Leonie Hill,education,14,4.455,1530,89.1
+River Valley,Leonie Hill,transport,4,4.267,115,85.34
+River Valley,Leonie Hill,food,8,4.243,6750,84.86
+River Valley,Leonie Hill,shopping,9,4.025,4997,80.5
+River Valley,Leonie Hill,recreation,10,4.433,490,88.66
+River Valley,Leonie Hill,nature,5,4.15,151,83.0
+River Valley,One Tree Hill,education,13,4.373,3791,87.46
+River Valley,One Tree Hill,transport,4,4.4,190,88.0
+River Valley,One Tree Hill,food,9,4.322,7067,86.44
+River Valley,One Tree Hill,shopping,7,3.329,6893,66.58
+River Valley,One Tree Hill,recreation,12,4.567,3052,91.34
+River Valley,One Tree Hill,nature,10,4.58,4438,91.6
+River Valley,Oxley,education,14,4.4,3709,88.0
+River Valley,Oxley,transport,4,4.275,191,85.5
+River Valley,Oxley,food,9,4.278,21605,85.56
+River Valley,Oxley,shopping,8,4.425,15253,88.5
+River Valley,Oxley,recreation,11,4.3,6872,86.0
+River Valley,Oxley,nature,7,4.317,11019,86.34
+River Valley,Paterson,education,16,4.292,5750,85.84
+River Valley,Paterson,transport,6,4.217,1463,84.34
+River Valley,Paterson,food,10,4.39,24677,87.8
+River Valley,Paterson,shopping,9,4.178,26685,83.56
+River Valley,Paterson,recreation,12,4.242,9545,84.84
+River Valley,Paterson,nature,10,4.38,21706,87.6
+Rochor,Bencoolen,education,20,4.4,3012,88.0
+Rochor,Bencoolen,transport,20,4.24,4146,84.8
+Rochor,Bencoolen,food,20,4.365,121807,87.3
+Rochor,Bencoolen,shopping,20,4.295,164341,85.9
+Rochor,Bencoolen,recreation,20,4.355,9227,87.1
+Rochor,Bencoolen,nature,20,4.45,184482,89.0
+Rochor,Farrer Park,education,20,4.653,3733,93.06
+Rochor,Farrer Park,transport,20,4.121,4170,82.42
+Rochor,Farrer Park,food,20,4.31,147318,86.2
+Rochor,Farrer Park,shopping,20,4.25,181324,85.0
+Rochor,Farrer Park,recreation,20,4.315,11094,86.3
+Rochor,Farrer Park,nature,20,4.425,187860,88.5
+Rochor,Kampong Glam,education,20,4.728,1006,94.56
+Rochor,Kampong Glam,transport,20,4.31,4668,86.2
+Rochor,Kampong Glam,food,20,4.38,136179,87.6
+Rochor,Kampong Glam,shopping,20,4.265,147313,85.3
+Rochor,Kampong Glam,recreation,20,4.31,10018,86.2
+Rochor,Kampong Glam,nature,20,4.45,188977,89.0
+Rochor,Little India,education,20,4.706,3299,94.12
+Rochor,Little India,transport,20,4.325,3182,86.5
+Rochor,Little India,food,20,4.32,140937,86.4
+Rochor,Little India,shopping,20,4.28,140701,85.6
+Rochor,Little India,recreation,20,4.3,9966,86.0
+Rochor,Little India,nature,20,4.45,24980,89.0
+Rochor,Mackenzie,education,20,4.67,1515,93.4
+Rochor,Mackenzie,transport,20,4.19,3603,83.8
+Rochor,Mackenzie,food,20,4.26,169909,85.2
+Rochor,Mackenzie,shopping,20,4.33,214756,86.6
+Rochor,Mackenzie,recreation,20,4.24,11405,84.8
+Rochor,Mackenzie,nature,20,4.34,27473,86.8
+Rochor,Mount Emily,education,20,4.611,953,92.22
+Rochor,Mount Emily,transport,15,4.087,3294,81.74
+Rochor,Mount Emily,food,20,4.19,121917,83.8
+Rochor,Mount Emily,shopping,20,4.165,133720,83.3
+Rochor,Mount Emily,recreation,20,4.43,8033,88.6
+Rochor,Mount Emily,nature,20,4.415,179931,88.3
+Rochor,Rochor Canal,education,20,4.484,1321,89.68
+Rochor,Rochor Canal,transport,13,4.2,2911,84.0
+Rochor,Rochor Canal,food,20,4.315,137148,86.3
+Rochor,Rochor Canal,shopping,20,4.27,168727,85.4
+Rochor,Rochor Canal,recreation,20,4.22,8571,84.4
+Rochor,Rochor Canal,nature,20,4.385,177987,87.7
+Rochor,Selegie,education,20,4.48,1368,89.6
+Rochor,Selegie,transport,20,4.275,2037,85.5
+Rochor,Selegie,food,20,4.285,156271,85.7
+Rochor,Selegie,shopping,20,4.29,194257,85.8
+Rochor,Selegie,recreation,20,4.39,9879,87.8
+Rochor,Selegie,nature,20,4.405,28657,88.1
+Rochor,Sungei Road,education,20,4.432,3008,88.64
+Rochor,Sungei Road,transport,20,4.31,4559,86.2
+Rochor,Sungei Road,food,20,4.27,148595,85.4
+Rochor,Sungei Road,shopping,20,4.27,168727,85.4
+Rochor,Sungei Road,recreation,20,4.45,11254,89.0
+Rochor,Sungei Road,nature,20,4.485,186228,89.7
+Rochor,Victoria,education,20,4.535,2380,90.7
+Rochor,Victoria,transport,20,4.275,3651,85.5
+Rochor,Victoria,food,20,4.34,128052,86.8
+Rochor,Victoria,shopping,20,4.33,156449,86.6
+Rochor,Victoria,recreation,20,4.465,8966,89.3
+Rochor,Victoria,nature,20,4.33,180187,86.6
+Seletar,Pulau Punggol Barat,education,20,4.606,1445,92.12
+Seletar,Pulau Punggol Barat,transport,20,4.27,2834,85.4
+Seletar,Pulau Punggol Barat,food,20,4.0,39766,80.0
+Seletar,Pulau Punggol Barat,shopping,20,4.085,67624,81.7
+Seletar,Pulau Punggol Barat,recreation,20,4.253,14627,85.06
+Seletar,Pulau Punggol Barat,nature,20,4.535,21685,90.7
+Seletar,Pulau Punggol Timor,education,20,4.6,2003,92.0
+Seletar,Pulau Punggol Timor,transport,20,4.145,2705,82.9
+Seletar,Pulau Punggol Timor,food,2,3.7,1446,74.0
+Seletar,Pulau Punggol Timor,shopping,6,4.167,13797,83.34
+Seletar,Pulau Punggol Timor,recreation,20,4.189,15445,83.78
+Seletar,Pulau Punggol Timor,nature,20,4.5,20667,90.0
+Seletar,Seletar,education,20,4.578,1624,91.56
+Seletar,Seletar,transport,20,4.015,1725,80.3
+Seletar,Seletar,food,20,4.285,48294,85.7
+Seletar,Seletar,shopping,20,4.175,104012,83.5
+Seletar,Seletar,recreation,20,4.255,15109,85.1
+Seletar,Seletar,nature,20,4.54,19710,90.8
+Seletar,Seletar Aerospace Park,education,20,4.528,1350,90.56
+Seletar,Seletar Aerospace Park,transport,20,4.019,973,80.38
+Seletar,Seletar Aerospace Park,food,20,4.285,27110,85.7
+Seletar,Seletar Aerospace Park,shopping,20,4.225,66765,84.5
+Seletar,Seletar Aerospace Park,recreation,13,4.4,8391,88.0
+Seletar,Seletar Aerospace Park,nature,20,4.39,10507,87.8
+Sembawang,Admiralty,education,20,4.81,1336,96.2
+Sembawang,Admiralty,transport,20,4.15,2889,83.0
+Sembawang,Admiralty,food,20,3.96,27741,79.2
+Sembawang,Admiralty,shopping,20,4.175,106721,83.5
+Sembawang,Admiralty,recreation,20,4.205,9702,84.1
+Sembawang,Admiralty,nature,20,4.432,17718,88.64
+Sembawang,Sembawang Central,education,20,4.715,1878,94.3
+Sembawang,Sembawang Central,transport,15,3.987,1637,79.74
+Sembawang,Sembawang Central,food,20,4.155,64867,83.1
+Sembawang,Sembawang Central,shopping,20,4.15,64838,83.0
+Sembawang,Sembawang Central,recreation,20,4.385,6588,87.7
+Sembawang,Sembawang Central,nature,11,4.473,12626,89.46
+Sembawang,Sembawang East,education,20,4.705,869,94.1
+Sembawang,Sembawang East,transport,15,3.987,1637,79.74
+Sembawang,Sembawang East,food,20,4.115,40357,82.3
+Sembawang,Sembawang East,shopping,20,4.115,55625,82.3
+Sembawang,Sembawang East,recreation,20,4.35,6054,87.0
+Sembawang,Sembawang East,nature,14,4.479,14899,89.58
+Sembawang,Sembawang North,education,20,4.68,856,93.6
+Sembawang,Sembawang North,transport,16,4.075,2196,81.5
+Sembawang,Sembawang North,food,20,4.08,40268,81.6
+Sembawang,Sembawang North,shopping,20,4.165,63319,83.3
+Sembawang,Sembawang North,recreation,20,4.34,7696,86.8
+Sembawang,Sembawang North,nature,13,4.485,12656,89.7
+Sembawang,Sembawang Springs,education,20,4.735,811,94.7
+Sembawang,Sembawang Springs,transport,13,3.877,2202,77.54
+Sembawang,Sembawang Springs,food,20,4.125,36066,82.5
+Sembawang,Sembawang Springs,shopping,20,4.165,62241,83.3
+Sembawang,Sembawang Springs,recreation,20,4.445,5501,88.9
+Sembawang,Sembawang Springs,nature,14,4.479,13302,89.58
+Sembawang,Sembawang Straits,education,20,4.735,812,94.7
+Sembawang,Sembawang Straits,transport,13,3.969,1618,79.38
+Sembawang,Sembawang Straits,food,1,4.2,1945,84.0
+Sembawang,Sembawang Straits,shopping,14,4.021,18936,80.42
+Sembawang,Sembawang Straits,recreation,20,4.47,4616,89.4
+Sembawang,Sembawang Straits,nature,14,4.479,12661,89.58
+Sembawang,Senoko North,education,20,4.795,922,95.9
+Sembawang,Senoko North,transport,10,3.611,1580,72.22
+Sembawang,Senoko North,food,20,4.22,37020,84.4
+Sembawang,Senoko North,shopping,1,3.9,815,78.0
+Sembawang,Senoko North,recreation,20,4.26,9475,85.2
+Sembawang,Senoko North,nature,20,4.455,27267,89.1
+Sembawang,Senoko South,education,20,4.658,951,93.16
+Sembawang,Senoko South,transport,20,3.953,1652,79.06
+Sembawang,Senoko South,food,20,4.155,135068,83.1
+Sembawang,Senoko South,shopping,20,4.14,44396,82.8
+Sembawang,Senoko South,recreation,20,4.455,5561,89.1
+Sembawang,Senoko South,nature,20,4.4,24023,88.0
+Sembawang,The Wharves,education,20,4.72,807,94.4
+Sembawang,The Wharves,transport,13,3.862,1647,77.24
+Sembawang,The Wharves,food,20,4.25,121541,85.0
+Sembawang,The Wharves,shopping,20,4.09,75962,81.8
+Sembawang,The Wharves,recreation,20,4.405,5222,88.1
+Sembawang,The Wharves,nature,17,4.465,18033,89.3
+Sengkang,Anchorvale,education,20,4.75,1043,95.0
+Sengkang,Anchorvale,transport,20,3.925,1889,78.5
+Sengkang,Anchorvale,food,20,4.125,26324,82.5
+Sengkang,Anchorvale,shopping,20,4.03,51788,80.6
+Sengkang,Anchorvale,recreation,19,4.521,8322,90.42
+Sengkang,Anchorvale,nature,3,4.467,5061,89.34
+Sengkang,Compassvale,education,20,4.67,973,93.4
+Sengkang,Compassvale,transport,20,4.106,2194,82.12
+Sengkang,Compassvale,food,20,4.155,92477,83.1
+Sengkang,Compassvale,shopping,20,4.09,108191,81.8
+Sengkang,Compassvale,recreation,20,4.275,11625,85.5
+Sengkang,Compassvale,nature,20,4.485,13248,89.7
+Sengkang,Fernvale,education,20,4.712,693,94.24
+Sengkang,Fernvale,transport,20,4.0,2326,80.0
+Sengkang,Fernvale,food,20,4.09,30505,81.8
+Sengkang,Fernvale,shopping,20,4.105,57436,82.1
+Sengkang,Fernvale,recreation,20,4.295,12106,85.9
+Sengkang,Fernvale,nature,20,4.415,18794,88.3
+Sengkang,Lorong Halus North,education,20,4.816,1046,96.32
+Sengkang,Lorong Halus North,transport,14,3.967,968,79.34
+Sengkang,Lorong Halus North,food,20,4.115,93047,82.3
+Sengkang,Lorong Halus North,shopping,20,4.065,53262,81.3
+Sengkang,Lorong Halus North,recreation,20,4.395,9084,87.9
+Sengkang,Lorong Halus North,nature,20,4.39,29984,87.8
+Sengkang,Rivervale,education,20,4.753,1216,95.06
+Sengkang,Rivervale,transport,20,4.235,1831,84.7
+Sengkang,Rivervale,food,20,3.925,16583,78.5
+Sengkang,Rivervale,shopping,20,4.12,97324,82.4
+Sengkang,Rivervale,recreation,20,4.415,9914,88.3
+Sengkang,Rivervale,nature,20,4.45,28809,89.0
+Sengkang,Sengkang Town Centre,education,20,4.595,2650,91.9
+Sengkang,Sengkang Town Centre,transport,20,3.967,1720,79.34
+Sengkang,Sengkang Town Centre,food,13,4.0,12286,80.0
+Sengkang,Sengkang Town Centre,shopping,20,4.05,49673,81.0
+Sengkang,Sengkang Town Centre,recreation,20,4.46,8386,89.2
+Sengkang,Sengkang Town Centre,nature,20,4.375,10006,87.5
+Sengkang,Sengkang West,education,20,4.621,2513,92.42
+Sengkang,Sengkang West,transport,20,4.079,1936,81.58
+Sengkang,Sengkang West,food,20,4.13,41215,82.6
+Sengkang,Sengkang West,shopping,20,4.095,96425,81.9
+Sengkang,Sengkang West,recreation,20,4.375,9489,87.5
+Sengkang,Sengkang West,nature,20,4.455,30517,89.1
+Serangoon,Lorong Chuan,education,20,4.711,1447,94.22
+Serangoon,Lorong Chuan,transport,20,3.853,1486,77.06
+Serangoon,Lorong Chuan,food,20,4.145,113357,82.9
+Serangoon,Lorong Chuan,shopping,20,4.105,98430,82.1
+Serangoon,Lorong Chuan,recreation,20,4.155,9018,83.1
+Serangoon,Lorong Chuan,nature,20,4.425,22344,88.5
+Serangoon,Seletar Hills,education,20,4.411,1386,88.22
+Serangoon,Seletar Hills,transport,20,4.06,1539,81.2
+Serangoon,Seletar Hills,food,20,4.26,37062,85.2
+Serangoon,Seletar Hills,shopping,20,4.13,65679,82.6
+Serangoon,Seletar Hills,recreation,20,4.365,10924,87.3
+Serangoon,Seletar Hills,nature,20,4.48,17391,89.6
+Serangoon,Serangoon Central,education,20,4.685,1231,93.7
+Serangoon,Serangoon Central,transport,20,3.937,1545,78.74
+Serangoon,Serangoon Central,food,20,4.175,30614,83.5
+Serangoon,Serangoon Central,shopping,20,3.995,85860,79.9
+Serangoon,Serangoon Central,recreation,18,4.206,8405,84.12
+Serangoon,Serangoon Central,nature,20,4.405,20467,88.1
+Serangoon,Serangoon Garden,education,20,4.715,1284,94.3
+Serangoon,Serangoon Garden,transport,20,3.89,4931,77.8
+Serangoon,Serangoon Garden,food,20,4.17,60173,83.4
+Serangoon,Serangoon Garden,shopping,20,4.03,78278,80.6
+Serangoon,Serangoon Garden,recreation,20,4.13,10752,82.6
+Serangoon,Serangoon Garden,nature,20,4.46,20682,89.2
+Serangoon,Serangoon North,education,20,4.735,1302,94.7
+Serangoon,Serangoon North,transport,20,3.91,1432,78.2
+Serangoon,Serangoon North,food,20,4.02,24225,80.4
+Serangoon,Serangoon North,shopping,20,4.015,63475,80.3
+Serangoon,Serangoon North,recreation,20,4.0,6963,80.0
+Serangoon,Serangoon North,nature,20,4.45,20561,89.0
+Serangoon,Serangoon North Ind Estate,education,20,4.825,1287,96.5
+Serangoon,Serangoon North Ind Estate,transport,20,3.79,1415,75.8
+Serangoon,Serangoon North Ind Estate,food,20,4.08,45212,81.6
+Serangoon,Serangoon North Ind Estate,shopping,20,3.935,40200,78.7
+Serangoon,Serangoon North Ind Estate,recreation,20,3.98,5337,79.6
+Serangoon,Serangoon North Ind Estate,nature,17,4.453,15392,89.06
+Serangoon,Upper Paya Lebar,education,20,4.66,1203,93.2
+Serangoon,Upper Paya Lebar,transport,20,4.115,2887,82.3
+Serangoon,Upper Paya Lebar,food,20,4.125,73768,82.5
+Serangoon,Upper Paya Lebar,shopping,20,4.1,113776,82.0
+Serangoon,Upper Paya Lebar,recreation,20,4.17,10323,83.4
+Serangoon,Upper Paya Lebar,nature,20,4.415,11502,88.3
+Simpang,Pulau Seletar,education,20,4.533,2000,90.66
+Simpang,Pulau Seletar,transport,20,4.195,602,83.9
+Simpang,Pulau Seletar,food,20,4.19,147131,83.8
+Simpang,Pulau Seletar,shopping,20,4.21,170147,84.2
+Simpang,Pulau Seletar,recreation,20,4.3,14433,86.0
+Simpang,Pulau Seletar,nature,20,4.505,19954,90.1
+Simpang,Simpang North,education,20,4.65,3859,93.0
+Simpang,Simpang North,transport,20,4.115,841,82.3
+Simpang,Simpang North,food,20,4.165,114802,83.3
+Simpang,Simpang North,shopping,20,4.26,125717,85.2
+Simpang,Simpang North,recreation,20,4.21,11995,84.2
+Simpang,Simpang North,nature,20,4.445,32086,88.9
+Simpang,Simpang South,education,20,4.57,3611,91.4
+Simpang,Simpang South,transport,20,4.17,385,83.4
+Simpang,Simpang South,food,20,4.21,138572,84.2
+Simpang,Simpang South,shopping,20,4.205,101094,84.1
+Simpang,Simpang South,recreation,20,4.195,10247,83.9
+Simpang,Simpang South,nature,20,4.445,31396,88.9
+Simpang,Tanjong Irau,education,20,4.685,1857,93.7
+Simpang,Tanjong Irau,transport,20,4.28,666,85.6
+Simpang,Tanjong Irau,food,20,4.19,152733,83.8
+Simpang,Tanjong Irau,shopping,20,4.15,122697,83.0
+Simpang,Tanjong Irau,recreation,20,4.28,11351,85.6
+Simpang,Tanjong Irau,nature,20,4.45,38279,89.0
+Singapore River,Boat Quay,education,20,4.51,3718,90.2
+Singapore River,Boat Quay,transport,20,4.33,1955,86.6
+Singapore River,Boat Quay,food,20,4.255,106279,85.1
+Singapore River,Boat Quay,shopping,15,4.28,97228,85.6
+Singapore River,Boat Quay,recreation,20,4.56,8119,91.2
+Singapore River,Boat Quay,nature,20,4.495,27468,89.9
+Singapore River,Clarke Quay,education,20,4.44,60196,88.8
+Singapore River,Clarke Quay,transport,20,4.058,1793,81.16
+Singapore River,Clarke Quay,food,1,3.5,196,70.0
+Singapore River,Clarke Quay,shopping,11,4.309,79314,86.18
+Singapore River,Clarke Quay,recreation,20,4.6,4350,92.0
+Singapore River,Clarke Quay,nature,20,4.48,231772,89.6
+Singapore River,Robertson Quay,education,20,4.637,3957,92.74
+Singapore River,Robertson Quay,transport,20,4.095,1208,81.9
+Singapore River,Robertson Quay,food,20,4.295,95204,85.9
+Singapore River,Robertson Quay,shopping,20,4.33,170385,86.6
+Singapore River,Robertson Quay,recreation,20,4.46,6792,89.2
+Singapore River,Robertson Quay,nature,20,4.415,186579,88.3
+Southern Islands,Sentosa,education,20,4.368,3151,87.36
+Southern Islands,Sentosa,transport,20,4.025,1042,80.5
+Southern Islands,Sentosa,food,20,4.32,96259,86.4
+Southern Islands,Sentosa,shopping,20,4.205,74367,84.1
+Southern Islands,Sentosa,recreation,20,4.44,8559,88.8
+Southern Islands,Sentosa,nature,20,4.515,32074,90.3
+Southern Islands,Southern Group,education,20,4.605,3746,92.1
+Southern Islands,Southern Group,transport,20,4.105,2316,82.1
+Southern Islands,Southern Group,food,20,4.215,132753,84.3
+Southern Islands,Southern Group,shopping,20,4.25,130701,85.0
+Southern Islands,Southern Group,recreation,20,4.395,9304,87.9
+Southern Islands,Southern Group,nature,20,4.465,191955,89.3
+Straits View,Straits View,education,20,4.73,3152,94.6
+Straits View,Straits View,transport,20,4.365,1981,87.3
+Straits View,Straits View,food,20,4.235,148175,84.7
+Straits View,Straits View,shopping,20,4.3,106740,86.0
+Straits View,Straits View,recreation,20,4.39,10220,87.8
+Straits View,Straits View,nature,20,4.495,184666,89.9
+Sungei Kadut,Gali Batu,education,20,4.69,2425,93.8
+Sungei Kadut,Gali Batu,transport,20,4.245,2014,84.9
+Sungei Kadut,Gali Batu,food,20,4.16,125042,83.2
+Sungei Kadut,Gali Batu,shopping,20,4.11,95307,82.2
+Sungei Kadut,Gali Batu,recreation,20,4.13,10754,82.6
+Sungei Kadut,Gali Batu,nature,20,4.435,34421,88.7
+Sungei Kadut,Kranji,education,20,4.763,2211,95.26
+Sungei Kadut,Kranji,transport,20,4.385,3274,87.7
+Sungei Kadut,Kranji,food,20,4.115,129450,82.3
+Sungei Kadut,Kranji,shopping,20,4.2,107665,84.0
+Sungei Kadut,Kranji,recreation,20,4.245,14216,84.9
+Sungei Kadut,Kranji,nature,20,4.425,24846,88.5
+Sungei Kadut,Pang Sua,education,20,4.394,2646,87.88
+Sungei Kadut,Pang Sua,transport,20,4.12,2474,82.4
+Sungei Kadut,Pang Sua,food,20,4.09,123639,81.8
+Sungei Kadut,Pang Sua,shopping,20,4.14,60958,82.8
+Sungei Kadut,Pang Sua,recreation,20,4.235,15270,84.7
+Sungei Kadut,Pang Sua,nature,20,4.425,16516,88.5
+Sungei Kadut,Reservoir View,education,20,4.458,2750,89.16
+Sungei Kadut,Reservoir View,transport,20,4.18,2270,83.6
+Sungei Kadut,Reservoir View,food,20,4.075,83442,81.5
+Sungei Kadut,Reservoir View,shopping,20,4.23,88016,84.6
+Sungei Kadut,Reservoir View,recreation,20,4.2,13182,84.0
+Sungei Kadut,Reservoir View,nature,20,4.41,26016,88.2
+Sungei Kadut,Turf Club,education,20,4.711,1191,94.22
+Sungei Kadut,Turf Club,transport,20,4.245,3806,84.9
+Sungei Kadut,Turf Club,food,20,4.145,118393,82.9
+Sungei Kadut,Turf Club,shopping,20,4.15,77127,83.0
+Sungei Kadut,Turf Club,recreation,20,4.185,15152,83.7
+Sungei Kadut,Turf Club,nature,20,4.425,23902,88.5
+Tampines,Simei,education,20,4.632,1989,92.64
+Tampines,Simei,transport,20,4.315,4166,86.3
+Tampines,Simei,food,20,4.115,117903,82.3
+Tampines,Simei,shopping,20,4.225,85764,84.5
+Tampines,Simei,recreation,20,4.23,27607,84.6
+Tampines,Simei,nature,20,4.41,19793,88.2
+Tampines,Tampines East,education,20,4.82,1549,96.4
+Tampines,Tampines East,transport,20,4.285,2216,85.7
+Tampines,Tampines East,food,20,4.12,46478,82.4
+Tampines,Tampines East,shopping,20,4.21,78389,84.2
+Tampines,Tampines East,recreation,20,4.315,28602,86.3
+Tampines,Tampines East,nature,20,4.345,8347,86.9
+Tampines,Tampines North,education,20,4.79,14529,95.8
+Tampines,Tampines North,transport,20,4.365,3487,87.3
+Tampines,Tampines North,food,20,4.215,41525,84.3
+Tampines,Tampines North,shopping,20,4.25,68245,85.0
+Tampines,Tampines North,recreation,20,4.34,23749,86.8
+Tampines,Tampines North,nature,20,4.385,7323,87.7
+Tampines,Tampines West,education,20,4.785,14881,95.7
+Tampines,Tampines West,transport,20,4.405,2929,88.1
+Tampines,Tampines West,food,20,4.27,46761,85.4
+Tampines,Tampines West,shopping,20,4.195,67652,83.9
+Tampines,Tampines West,recreation,20,4.43,23666,88.6
+Tampines,Tampines West,nature,20,4.425,8841,88.5
+Tampines,Xilin,education,20,4.883,14442,97.66
+Tampines,Xilin,transport,20,4.205,2905,84.1
+Tampines,Xilin,food,20,4.245,161295,84.9
+Tampines,Xilin,shopping,20,4.22,105901,84.4
+Tampines,Xilin,recreation,20,4.295,28182,85.9
+Tampines,Xilin,nature,20,4.44,27273,88.8
+Tengah,Brickland,education,18,4.443,4684,88.86
+Tengah,Brickland,transport,6,3.9,323,78.0
+Tengah,Brickland,food,9,4.489,1927,89.78
+Tengah,Brickland,shopping,10,4.17,13929,83.4
+Tengah,Brickland,recreation,11,4.573,7174,91.46
+Tengah,Brickland,nature,12,4.525,9233,90.5
+Tengah,Forest Hill,education,17,4.492,5136,89.84
+Tengah,Forest Hill,transport,6,3.933,523,78.66
+Tengah,Forest Hill,food,9,4.278,10523,85.56
+Tengah,Forest Hill,shopping,8,4.125,2048,82.5
+Tengah,Forest Hill,recreation,11,4.56,3628,91.2
+Tengah,Forest Hill,nature,12,4.517,23555,90.34
+Tengah,Garden,education,15,4.28,2408,85.6
+Tengah,Garden,transport,4,3.725,936,74.5
+Tengah,Garden,food,9,4.078,4105,81.56
+Tengah,Garden,shopping,7,4.029,1449,80.58
+Tengah,Garden,recreation,10,4.47,6939,89.4
+Tengah,Garden,nature,10,4.63,3657,92.6
+Tengah,Park,education,15,4.445,297,88.9
+Tengah,Park,transport,4,3.533,71,70.66
+Tengah,Park,food,6,4.283,2458,85.66
+Tengah,Park,shopping,7,3.971,1530,79.42
+Tengah,Park,recreation,10,4.54,4472,90.8
+Tengah,Park,nature,11,4.418,3566,88.36
+Tengah,Plantation,education,17,4.543,7226,90.86
+Tengah,Plantation,transport,4,3.867,68,77.34
+Tengah,Plantation,food,6,4.367,3283,87.34
+Tengah,Plantation,shopping,6,3.883,1230,77.66
+Tengah,Plantation,recreation,9,4.578,5062,91.56
+Tengah,Plantation,nature,7,4.571,1360,91.42
+Tengah,Tengah Industrial Estate,education,15,4.333,1068,86.66
+Tengah,Tengah Industrial Estate,transport,4,3.533,71,70.66
+Tengah,Tengah Industrial Estate,food,8,4.075,2748,81.5
+Tengah,Tengah Industrial Estate,shopping,8,4.037,1311,80.74
+Tengah,Tengah Industrial Estate,recreation,9,4.578,3732,91.56
+Tengah,Tengah Industrial Estate,nature,11,4.5,3549,90.0
+Toa Payoh,Bidadari,education,20,4.74,2224,94.8
+Toa Payoh,Bidadari,transport,20,4.05,1975,81.0
+Toa Payoh,Bidadari,food,20,4.165,72167,83.3
+Toa Payoh,Bidadari,shopping,20,4.205,113305,84.1
+Toa Payoh,Bidadari,recreation,20,4.315,6467,86.3
+Toa Payoh,Bidadari,nature,20,4.3,14194,86.0
+Toa Payoh,Boon Teck,education,20,4.755,1980,95.1
+Toa Payoh,Boon Teck,transport,13,3.985,3091,79.7
+Toa Payoh,Boon Teck,food,20,4.105,100342,82.1
+Toa Payoh,Boon Teck,shopping,20,4.155,60000,83.1
+Toa Payoh,Boon Teck,recreation,20,4.365,8234,87.3
+Toa Payoh,Boon Teck,nature,20,4.47,28740,89.4
+Toa Payoh,Braddell,education,20,4.784,2222,95.68
+Toa Payoh,Braddell,transport,20,4.156,2874,83.12
+Toa Payoh,Braddell,food,20,3.995,35779,79.9
+Toa Payoh,Braddell,shopping,20,4.16,92130,83.2
+Toa Payoh,Braddell,recreation,20,4.305,7900,86.1
+Toa Payoh,Braddell,nature,20,4.395,25565,87.9
+Toa Payoh,Joo Seng,education,20,4.76,1366,95.2
+Toa Payoh,Joo Seng,transport,20,3.94,2587,78.8
+Toa Payoh,Joo Seng,food,20,4.135,90479,82.7
+Toa Payoh,Joo Seng,shopping,20,4.07,70717,81.4
+Toa Payoh,Joo Seng,recreation,20,4.215,8562,84.3
+Toa Payoh,Joo Seng,nature,20,4.43,64502,88.6
+Toa Payoh,Kim Keat,education,20,4.72,1661,94.4
+Toa Payoh,Kim Keat,transport,20,3.958,1443,79.16
+Toa Payoh,Kim Keat,food,20,4.125,45850,82.5
+Toa Payoh,Kim Keat,shopping,20,4.09,75056,81.8
+Toa Payoh,Kim Keat,recreation,20,4.23,7867,84.6
+Toa Payoh,Kim Keat,nature,20,4.42,31119,88.4
+Toa Payoh,Lorong 8 Toa Payoh,education,20,4.665,2268,93.3
+Toa Payoh,Lorong 8 Toa Payoh,transport,20,4.0,1787,80.0
+Toa Payoh,Lorong 8 Toa Payoh,food,4,4.15,11555,83.0
+Toa Payoh,Lorong 8 Toa Payoh,shopping,20,4.075,64664,81.5
+Toa Payoh,Lorong 8 Toa Payoh,recreation,20,4.19,9002,83.8
+Toa Payoh,Lorong 8 Toa Payoh,nature,20,4.4,32486,88.0
+Toa Payoh,Pei Chun,education,20,4.57,1948,91.4
+Toa Payoh,Pei Chun,transport,12,4.233,1747,84.66
+Toa Payoh,Pei Chun,food,20,4.06,100406,81.2
+Toa Payoh,Pei Chun,shopping,20,4.24,73687,84.8
+Toa Payoh,Pei Chun,recreation,20,4.1,8947,82.0
+Toa Payoh,Pei Chun,nature,20,4.405,35548,88.1
+Toa Payoh,Potong Pasir,education,20,4.642,1046,92.84
+Toa Payoh,Potong Pasir,transport,10,3.92,1880,78.4
+Toa Payoh,Potong Pasir,food,20,4.15,68148,83.0
+Toa Payoh,Potong Pasir,shopping,20,4.135,69244,82.7
+Toa Payoh,Potong Pasir,recreation,20,4.255,8149,85.1
+Toa Payoh,Potong Pasir,nature,20,4.42,18303,88.4
+Toa Payoh,Sennett,education,20,4.753,1542,95.06
+Toa Payoh,Sennett,transport,20,3.895,2385,77.9
+Toa Payoh,Sennett,food,20,4.175,112446,83.5
+Toa Payoh,Sennett,shopping,20,4.1,36916,82.0
+Toa Payoh,Sennett,recreation,19,4.142,6673,82.84
+Toa Payoh,Sennett,nature,20,4.47,24837,89.4
+Toa Payoh,Toa Payoh Central,education,20,4.785,2359,95.7
+Toa Payoh,Toa Payoh Central,transport,20,4.0,3049,80.0
+Toa Payoh,Toa Payoh Central,food,20,4.13,32745,82.6
+Toa Payoh,Toa Payoh Central,shopping,20,4.135,87287,82.7
+Toa Payoh,Toa Payoh Central,recreation,20,4.305,7826,86.1
+Toa Payoh,Toa Payoh Central,nature,20,4.39,20466,87.8
+Toa Payoh,Toa Payoh West,education,20,4.825,2320,96.5
+Toa Payoh,Toa Payoh West,transport,20,4.175,8787,83.5
+Toa Payoh,Toa Payoh West,food,3,4.3,4501,86.0
+Toa Payoh,Toa Payoh West,shopping,20,4.12,61722,82.4
+Toa Payoh,Toa Payoh West,recreation,8,4.125,5603,82.5
+Toa Payoh,Toa Payoh West,nature,20,4.385,32215,87.7
+Toa Payoh,Woodleigh,education,20,4.775,2269,95.5
+Toa Payoh,Woodleigh,transport,20,4.27,2279,85.4
+Toa Payoh,Woodleigh,food,20,4.19,74518,83.8
+Toa Payoh,Woodleigh,shopping,20,4.165,126172,83.3
+Toa Payoh,Woodleigh,recreation,20,4.165,10173,83.3
+Toa Payoh,Woodleigh,nature,20,4.41,19728,88.2
+Tuas,Tengeh,education,18,4.586,2866,91.72
+Tuas,Tengeh,transport,6,4.15,1112,83.0
+Tuas,Tengeh,food,7,4.129,2980,82.58
+Tuas,Tengeh,shopping,8,4.037,16457,80.74
+Tuas,Tengeh,recreation,12,4.45,9488,89.0
+Tuas,Tengeh,nature,12,4.433,45357,88.66
+Tuas,Tuas Bay,education,18,4.556,4457,91.12
+Tuas,Tuas Bay,transport,4,4.25,892,85.0
+Tuas,Tuas Bay,food,6,4.2,2670,84.0
+Tuas,Tuas Bay,shopping,9,3.956,25103,79.12
+Tuas,Tuas Bay,recreation,8,4.1,9835,82.0
+Tuas,Tuas Bay,nature,12,4.318,168765,86.36
+Tuas,Tuas North,education,17,4.52,3471,90.4
+Tuas,Tuas North,transport,4,4.25,892,85.0
+Tuas,Tuas North,food,7,4.186,2970,83.72
+Tuas,Tuas North,shopping,9,3.722,3860,74.44
+Tuas,Tuas North,recreation,10,4.444,10030,88.88
+Tuas,Tuas North,nature,11,4.382,10235,87.64
+Tuas,Tuas Promenade,education,18,4.58,6202,91.6
+Tuas,Tuas Promenade,transport,4,4.25,892,85.0
+Tuas,Tuas Promenade,food,8,4.062,8204,81.24
+Tuas,Tuas Promenade,shopping,7,4.029,24881,80.58
+Tuas,Tuas Promenade,recreation,9,4.367,9786,87.34
+Tuas,Tuas Promenade,nature,11,4.56,5597,91.2
+Tuas,Tuas View,education,15,4.527,5175,90.54
+Tuas,Tuas View,transport,5,4.26,895,85.2
+Tuas,Tuas View,food,7,4.186,2970,83.72
+Tuas,Tuas View,shopping,8,4.312,27893,86.24
+Tuas,Tuas View,recreation,9,4.244,6680,84.88
+Tuas,Tuas View,nature,10,4.256,16644,85.12
+Tuas,Tuas View Extension,education,16,4.515,5093,90.3
+Tuas,Tuas View Extension,transport,4,4.25,892,85.0
+Tuas,Tuas View Extension,food,7,4.171,3057,83.42
+Tuas,Tuas View Extension,shopping,8,3.862,5932,77.24
+Tuas,Tuas View Extension,recreation,9,4.367,6895,87.34
+Tuas,Tuas View Extension,nature,9,4.3,11040,86.0
+Western Islands,Jurong Island And Bukom,education,20,4.715,2310,94.3
+Western Islands,Jurong Island And Bukom,transport,20,4.105,3350,82.1
+Western Islands,Jurong Island And Bukom,food,20,4.035,48544,80.7
+Western Islands,Jurong Island And Bukom,shopping,20,4.255,119034,85.1
+Western Islands,Jurong Island And Bukom,recreation,20,4.32,13908,86.4
+Western Islands,Jurong Island And Bukom,nature,20,4.405,32189,88.1
+Western Islands,Semakau,education,20,4.632,1792,92.64
+Western Islands,Semakau,transport,20,4.21,556,84.2
+Western Islands,Semakau,food,20,4.2,151045,84.0
+Western Islands,Semakau,shopping,20,4.24,112028,84.8
+Western Islands,Semakau,recreation,20,4.345,12123,86.9
+Western Islands,Semakau,nature,20,4.45,36345,89.0
+Western Islands,Sudong,education,20,4.615,3661,92.3
+Western Islands,Sudong,transport,20,4.23,311,84.6
+Western Islands,Sudong,food,20,4.145,138889,82.9
+Western Islands,Sudong,shopping,20,4.24,75459,84.8
+Western Islands,Sudong,recreation,20,4.28,12298,85.6
+Western Islands,Sudong,nature,20,4.44,35206,88.8
+Western Water Catchment,Bahar,education,18,4.257,3674,85.14
+Western Water Catchment,Bahar,transport,5,4.125,133,82.5
+Western Water Catchment,Bahar,food,7,4.086,5844,81.72
+Western Water Catchment,Bahar,shopping,8,4.388,41876,87.76
+Western Water Catchment,Bahar,recreation,12,4.364,9390,87.28
+Western Water Catchment,Bahar,nature,11,4.32,13903,86.4
+Western Water Catchment,Cleantech,education,18,4.442,3729,88.84
+Western Water Catchment,Cleantech,transport,7,4.314,88,86.28
+Western Water Catchment,Cleantech,food,9,4.044,3080,80.88
+Western Water Catchment,Cleantech,shopping,9,4.178,19340,83.56
+Western Water Catchment,Cleantech,recreation,12,4.55,5056,91.0
+Western Water Catchment,Cleantech,nature,7,4.214,8357,84.28
+Western Water Catchment,Murai,education,18,4.393,4239,87.86
+Western Water Catchment,Murai,transport,8,4.25,197,85.0
+Western Water Catchment,Murai,food,9,3.978,2988,79.56
+Western Water Catchment,Murai,shopping,10,4.01,12931,80.2
+Western Water Catchment,Murai,recreation,12,4.39,12764,87.8
+Western Water Catchment,Murai,nature,12,4.418,17875,88.36
+Woodlands,Greenwood Park,education,20,4.805,1234,96.1
+Woodlands,Greenwood Park,transport,7,3.729,943,74.58
+Woodlands,Greenwood Park,food,20,4.11,72820,82.2
+Woodlands,Greenwood Park,shopping,20,4.22,61961,84.4
+Woodlands,Greenwood Park,recreation,20,4.38,8198,87.6
+Woodlands,Greenwood Park,nature,20,4.425,9495,88.5
+Woodlands,Midview,education,20,4.675,1144,93.5
+Woodlands,Midview,transport,20,3.955,1262,79.1
+Woodlands,Midview,food,20,4.17,152811,83.4
+Woodlands,Midview,shopping,20,4.255,66217,85.1
+Woodlands,Midview,recreation,20,4.195,7989,83.9
+Woodlands,Midview,nature,20,4.447,9429,88.94
+Woodlands,North Coast,education,20,4.635,1186,92.7
+Woodlands,North Coast,transport,20,4.1,3173,82.0
+Woodlands,North Coast,food,20,4.14,80191,82.8
+Woodlands,North Coast,shopping,20,4.245,52546,84.9
+Woodlands,North Coast,recreation,20,4.185,9395,83.7
+Woodlands,North Coast,nature,20,4.48,14971,89.6
+Woodlands,Senoko West,education,20,4.785,1551,95.7
+Woodlands,Senoko West,transport,20,3.835,977,76.7
+Woodlands,Senoko West,food,20,4.275,126419,85.5
+Woodlands,Senoko West,shopping,20,4.22,86010,84.4
+Woodlands,Senoko West,recreation,20,4.15,9844,83.0
+Woodlands,Senoko West,nature,20,4.465,29361,89.3
+Woodlands,Woodgrove,education,20,4.755,1188,95.1
+Woodlands,Woodgrove,transport,20,4.045,1581,80.9
+Woodlands,Woodgrove,food,20,4.17,166882,83.4
+Woodlands,Woodgrove,shopping,20,4.195,54303,83.9
+Woodlands,Woodgrove,recreation,20,4.225,11867,84.5
+Woodlands,Woodgrove,nature,20,4.455,19449,89.1
+Woodlands,Woodlands East,education,20,4.735,1285,94.7
+Woodlands,Woodlands East,transport,20,4.005,2144,80.1
+Woodlands,Woodlands East,food,20,4.145,53993,82.9
+Woodlands,Woodlands East,shopping,20,4.29,43688,85.8
+Woodlands,Woodlands East,recreation,20,4.335,9692,86.7
+Woodlands,Woodlands East,nature,20,4.45,12423,89.0
+Woodlands,Woodlands Regional Centre,education,20,4.625,1152,92.5
+Woodlands,Woodlands Regional Centre,transport,20,3.995,2140,79.9
+Woodlands,Woodlands Regional Centre,food,20,4.15,71568,83.0
+Woodlands,Woodlands Regional Centre,shopping,20,4.19,41318,83.8
+Woodlands,Woodlands Regional Centre,recreation,20,4.31,7857,86.2
+Woodlands,Woodlands Regional Centre,nature,20,4.442,7958,88.84
+Woodlands,Woodlands South,education,20,4.69,1349,93.8
+Woodlands,Woodlands South,transport,20,4.045,1951,80.9
+Woodlands,Woodlands South,food,20,4.085,52500,81.7
+Woodlands,Woodlands South,shopping,20,4.255,63697,85.1
+Woodlands,Woodlands South,recreation,20,4.34,8157,86.8
+Woodlands,Woodlands South,nature,20,4.411,11805,88.22
+Woodlands,Woodlands West,education,20,4.68,1328,93.6
+Woodlands,Woodlands West,transport,20,4.015,3361,80.3
+Woodlands,Woodlands West,food,20,4.145,61634,82.9
+Woodlands,Woodlands West,shopping,20,4.26,38211,85.2
+Woodlands,Woodlands West,recreation,20,4.275,11415,85.5
+Woodlands,Woodlands West,nature,20,4.435,11966,88.7
+Yishun,Khatib,education,20,4.54,1131,90.8
+Yishun,Khatib,transport,20,4.04,4057,80.8
+Yishun,Khatib,food,20,4.105,30968,82.1
+Yishun,Khatib,shopping,20,4.085,74001,81.7
+Yishun,Khatib,recreation,20,4.45,19063,89.0
+Yishun,Khatib,nature,15,4.407,12287,88.14
+Yishun,Lower Seletar,education,20,4.647,1139,92.94
+Yishun,Lower Seletar,transport,20,4.39,5509,87.8
+Yishun,Lower Seletar,food,20,4.21,46771,84.2
+Yishun,Lower Seletar,shopping,20,4.22,109605,84.4
+Yishun,Lower Seletar,recreation,20,4.325,17507,86.5
+Yishun,Lower Seletar,nature,20,4.395,13357,87.9
+Yishun,Nee Soon,education,20,4.789,935,95.78
+Yishun,Nee Soon,transport,20,4.085,3690,81.7
+Yishun,Nee Soon,food,20,4.19,38040,83.8
+Yishun,Nee Soon,shopping,20,4.215,107404,84.3
+Yishun,Nee Soon,recreation,20,4.365,9899,87.3
+Yishun,Nee Soon,nature,20,4.435,17907,88.7
+Yishun,Northland,education,20,4.6,951,92.0
+Yishun,Northland,transport,20,3.85,2708,77.0
+Yishun,Northland,food,20,4.23,42697,84.6
+Yishun,Northland,shopping,20,4.125,80166,82.5
+Yishun,Northland,recreation,20,4.205,11894,84.1
+Yishun,Northland,nature,16,4.431,12368,88.62
+Yishun,Springleaf,education,20,4.753,972,95.06
+Yishun,Springleaf,transport,14,4.277,618,85.54
+Yishun,Springleaf,food,20,4.2,139124,84.0
+Yishun,Springleaf,shopping,20,4.085,52017,81.7
+Yishun,Springleaf,recreation,20,4.33,9942,86.6
+Yishun,Springleaf,nature,3,4.5,680,90.0
+Yishun,Yishun Central,education,20,4.432,1327,88.64
+Yishun,Yishun Central,transport,20,3.826,2359,76.52
+Yishun,Yishun Central,food,20,4.2,32277,84.0
+Yishun,Yishun Central,shopping,20,4.1,67617,82.0
+Yishun,Yishun Central,recreation,20,4.22,18993,84.4
+Yishun,Yishun Central,nature,20,4.421,5548,88.42
+Yishun,Yishun East,education,20,4.805,2055,96.1
+Yishun,Yishun East,transport,20,3.795,4044,75.9
+Yishun,Yishun East,food,20,4.135,31400,82.7
+Yishun,Yishun East,shopping,20,4.12,69074,82.4
+Yishun,Yishun East,recreation,20,4.195,10164,83.9
+Yishun,Yishun East,nature,20,4.415,20900,88.3
+Yishun,Yishun South,education,20,4.689,906,93.78
+Yishun,Yishun South,transport,20,3.965,4055,79.3
+Yishun,Yishun South,food,20,4.068,30329,81.36
+Yishun,Yishun South,shopping,20,4.12,80871,82.4
+Yishun,Yishun South,recreation,20,4.375,19074,87.5
+Yishun,Yishun South,nature,13,4.377,11731,87.54
+Yishun,Yishun West,education,20,4.544,832,90.88
+Yishun,Yishun West,transport,20,3.965,3703,79.3
+Yishun,Yishun West,food,9,4.211,20411,84.22
+Yishun,Yishun West,shopping,20,4.055,46603,81.1
+Yishun,Yishun West,recreation,20,4.17,9996,83.4
+Yishun,Yishun West,nature,20,4.411,9799,88.22

@@ -65,7 +65,6 @@ export function MarkerLayer({ activeIds, categories, onFocus, onSelectFeature, f
     if (!features.length) return;
 
     const gl = L.geoJSON({ type:'FeatureCollection', features } as FeatureCollection, {
-      renderer: CANVAS,
       pointToLayer: (f, ll) => {
         const cid = (f as any)._cid; const color = (f as any)._color; const icon = (f as any)._icon;
         const d = !isIn(ll.lng, ll.lat); const col = d ? '#bbb' : color; const op = d ? 0.3 : 0.75;

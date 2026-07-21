@@ -28,6 +28,31 @@ class ConstantPriceModel:
         return np.full(len(frame), 612_345.0)
 
 
+class FakeLocationIndex:
+    def locate(self, latitude, longitude):
+        return {"planning_area": "QUEENSTOWN", "subzone": "NATIONAL UNIVERSITY OF S'PORE"}
+
+
+class FakeLocationResolver:
+    index = FakeLocationIndex()
+
+    def search(self, query, *, limit=5):
+        return [
+            {
+                "id": "onemap:nus",
+                "provider": "onemap",
+                "name": "National University of Singapore",
+                "address": "21 Lower Kent Ridge Road",
+                "postal_code": "119077",
+                "latitude": 1.2966,
+                "longitude": 103.7764,
+                "confidence": 0.9,
+                "planning_area": "QUEENSTOWN",
+                "subzone": "NATIONAL UNIVERSITY OF S'PORE",
+            }
+        ][:limit]
+
+
 class ServiceAndWebTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
@@ -49,6 +74,35 @@ class ServiceAndWebTests(unittest.TestCase):
             lta_account_key="",
         )
         self.service = HomeLensService(self.settings)
+
+    def test_natural_language_place_requires_onemap_confirmation(self) -> None:
+        self.service._location_resolver = FakeLocationResolver()
+        result = self.service.get_recommendations(
+            {"query": "4-room under 650k within 3km of NUS", "use_llm": False}
+        )
+        self.assertEqual(result["status"], "location_confirmation_required")
+        self.assertEqual(result["location_query"], "NUS")
+        self.assertEqual(result["location_candidates"][0]["provider"], "onemap")
+
+    def test_confirmed_place_is_validated_and_exposed(self) -> None:
+        self.service._location_resolver = FakeLocationResolver()
+        self.service._candidates = self.candidates.copy()
+        self.service._candidates["latitude"] = 1.2966
+        self.service._candidates["longitude"] = 103.7764
+        result = self.service.get_recommendations(
+            {
+                "budget": 1_000_000,
+                "anchor_name": "NUS",
+                "anchor_latitude": 1.2966,
+                "anchor_longitude": 103.7764,
+                "top_k": 2,
+            }
+        )
+        self.assertEqual(result["anchor_context"]["planning_area"], "QUEENSTOWN")
+        self.assertEqual(result["anchor_context"]["subzone"], "NATIONAL UNIVERSITY OF S'PORE")
+        self.assertTrue(
+            all(item["anchor_distance_m"] is not None for item in result["recommendations"])
+        )
 
     def tearDown(self) -> None:
         self.temporary.cleanup()

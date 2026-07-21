@@ -1,0 +1,635 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-19T13:15:05.289259,text_search,1,AIzaSy...IDGw,1,Jurong East,International Business Park,education,kindergarten,"kindergarten in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:06.372580,text_search,1,AIzaSy...IDGw,2,Jurong East,International Business Park,education,childcare centre,"childcare centre in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:07.499917,text_search,1,AIzaSy...IDGw,3,Jurong East,International Business Park,education,primary school,"primary school in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:08.670622,text_search,1,AIzaSy...IDGw,4,Jurong East,International Business Park,education,secondary school,"secondary school in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:09.345043,text_search,1,AIzaSy...IDGw,5,Jurong East,International Business Park,education,junior college,"junior college in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:10.471333,text_search,1,AIzaSy...IDGw,6,Jurong East,International Business Park,education,polytechnic,"polytechnic in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:11.693542,text_search,1,AIzaSy...IDGw,7,Jurong East,International Business Park,education,university,"university in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:12.620299,text_search,1,AIzaSy...IDGw,8,Jurong East,International Business Park,education,tuition centre,"tuition centre in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:13.658401,text_search,1,AIzaSy...IDGw,9,Jurong East,International Business Park,education,library,"library in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:14.634056,text_search,1,AIzaSy...IDGw,10,Jurong East,International Business Park,transport,MRT station,"MRT station in International Business Park, Jurong East, Singapore",OK,,18,
+2026-07-19T13:15:15.494754,text_search,1,AIzaSy...IDGw,11,Jurong East,International Business Park,transport,bus stop,"bus stop in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:16.208572,text_search,1,AIzaSy...IDGw,12,Jurong East,International Business Park,transport,bus interchange,"bus interchange in International Business Park, Jurong East, Singapore",OK,,6,
+2026-07-19T13:15:17.205337,text_search,1,AIzaSy...IDGw,13,Jurong East,International Business Park,transport,LRT station,"LRT station in International Business Park, Jurong East, Singapore",OK,,15,
+2026-07-19T13:15:18.052299,text_search,1,AIzaSy...IDGw,14,Jurong East,International Business Park,food,hawker centre,"hawker centre in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:19.297545,text_search,1,AIzaSy...IDGw,15,Jurong East,International Business Park,food,food court,"food court in International Business Park, Jurong East, Singapore",OK,,12,
+2026-07-19T13:15:20.221509,text_search,1,AIzaSy...IDGw,16,Jurong East,International Business Park,food,coffee shop,"coffee shop in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:21.115384,text_search,1,AIzaSy...IDGw,17,Jurong East,International Business Park,food,restaurant,"restaurant in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:21.976867,text_search,1,AIzaSy...IDGw,18,Jurong East,International Business Park,food,cafe,"cafe in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:23.070624,text_search,1,AIzaSy...IDGw,19,Jurong East,International Business Park,shopping,shopping mall,"shopping mall in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:24.212463,text_search,1,AIzaSy...IDGw,20,Jurong East,International Business Park,shopping,supermarket,"supermarket in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:25.078538,text_search,1,AIzaSy...IDGw,21,Jurong East,International Business Park,shopping,grocery store,"grocery store in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:25.982578,text_search,1,AIzaSy...IDGw,22,Jurong East,International Business Park,shopping,convenience store,"convenience store in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:26.772985,text_search,1,AIzaSy...IDGw,23,Jurong East,International Business Park,shopping,wet market,"wet market in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:27.405933,text_search,1,AIzaSy...IDGw,24,Jurong East,International Business Park,recreation,gym,"gym in International Business Park, Jurong East, Singapore",OK,,2,
+2026-07-19T13:15:28.318122,text_search,1,AIzaSy...IDGw,25,Jurong East,International Business Park,recreation,sports centre,"sports centre in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:29.220939,text_search,1,AIzaSy...IDGw,26,Jurong East,International Business Park,recreation,swimming complex,"swimming complex in International Business Park, Jurong East, Singapore",OK,,9,
+2026-07-19T13:15:29.924136,text_search,1,AIzaSy...IDGw,27,Jurong East,International Business Park,recreation,cinema,"cinema in International Business Park, Jurong East, Singapore",OK,,4,
+2026-07-19T13:15:30.884257,text_search,1,AIzaSy...IDGw,28,Jurong East,International Business Park,recreation,community club,"community club in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:31.704087,text_search,1,AIzaSy...IDGw,29,Jurong East,International Business Park,recreation,playground,"playground in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:32.705790,text_search,1,AIzaSy...IDGw,30,Jurong East,International Business Park,nature,park,"park in International Business Park, Jurong East, Singapore",OK,,1,
+2026-07-19T13:15:33.746925,text_search,1,AIzaSy...IDGw,31,Jurong East,International Business Park,nature,nature reserve,"nature reserve in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:34.497464,text_search,1,AIzaSy...IDGw,32,Jurong East,International Business Park,nature,garden,"garden in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:35.493697,text_search,1,AIzaSy...IDGw,33,Jurong East,International Business Park,nature,beach,"beach in International Business Park, Jurong East, Singapore",OK,,11,
+2026-07-19T13:15:36.170203,text_search,1,AIzaSy...IDGw,34,Jurong East,International Business Park,nature,waterfront,"waterfront in International Business Park, Jurong East, Singapore",OK,,13,
+2026-07-19T13:15:37.005794,text_search,1,AIzaSy...IDGw,35,Jurong East,International Business Park,nature,park connector,"park connector in International Business Park, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:38.048977,text_search,1,AIzaSy...IDGw,36,Jurong East,Jurong Gateway,education,kindergarten,"kindergarten in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:39.044610,text_search,1,AIzaSy...IDGw,37,Jurong East,Jurong Gateway,education,childcare centre,"childcare centre in Jurong Gateway, Jurong East, Singapore",OK,,16,
+2026-07-19T13:15:40.013936,text_search,1,AIzaSy...IDGw,38,Jurong East,Jurong Gateway,education,primary school,"primary school in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:40.829222,text_search,1,AIzaSy...IDGw,39,Jurong East,Jurong Gateway,education,secondary school,"secondary school in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:41.873568,text_search,1,AIzaSy...IDGw,40,Jurong East,Jurong Gateway,education,junior college,"junior college in Jurong Gateway, Jurong East, Singapore",OK,,17,
+2026-07-19T13:15:42.752583,text_search,1,AIzaSy...IDGw,41,Jurong East,Jurong Gateway,education,polytechnic,"polytechnic in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:43.411213,text_search,1,AIzaSy...IDGw,42,Jurong East,Jurong Gateway,education,university,"university in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:44.139286,text_search,1,AIzaSy...IDGw,43,Jurong East,Jurong Gateway,education,tuition centre,"tuition centre in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:44.862329,text_search,1,AIzaSy...IDGw,44,Jurong East,Jurong Gateway,education,library,"library in Jurong Gateway, Jurong East, Singapore",OK,,1,
+2026-07-19T13:15:45.608253,text_search,1,AIzaSy...IDGw,45,Jurong East,Jurong Gateway,transport,MRT station,"MRT station in Jurong Gateway, Jurong East, Singapore",OK,,3,
+2026-07-19T13:15:46.614645,text_search,1,AIzaSy...IDGw,46,Jurong East,Jurong Gateway,transport,bus stop,"bus stop in Jurong Gateway, Jurong East, Singapore",OK,,5,
+2026-07-19T13:15:47.698417,text_search,1,AIzaSy...IDGw,47,Jurong East,Jurong Gateway,transport,bus interchange,"bus interchange in Jurong Gateway, Jurong East, Singapore",OK,,4,
+2026-07-19T13:15:48.382687,text_search,1,AIzaSy...IDGw,48,Jurong East,Jurong Gateway,transport,LRT station,"LRT station in Jurong Gateway, Jurong East, Singapore",OK,,6,
+2026-07-19T13:15:49.490314,text_search,1,AIzaSy...IDGw,49,Jurong East,Jurong Gateway,food,hawker centre,"hawker centre in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:50.413657,text_search,1,AIzaSy...IDGw,50,Jurong East,Jurong Gateway,food,food court,"food court in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:51.530399,text_search,1,AIzaSy...IDGw,51,Jurong East,Jurong Gateway,food,coffee shop,"coffee shop in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:52.494077,text_search,1,AIzaSy...IDGw,52,Jurong East,Jurong Gateway,food,restaurant,"restaurant in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:53.268434,text_search,1,AIzaSy...IDGw,53,Jurong East,Jurong Gateway,food,cafe,"cafe in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:54.317848,text_search,1,AIzaSy...IDGw,54,Jurong East,Jurong Gateway,shopping,shopping mall,"shopping mall in Jurong Gateway, Jurong East, Singapore",OK,,3,
+2026-07-19T13:15:55.326421,text_search,1,AIzaSy...IDGw,55,Jurong East,Jurong Gateway,shopping,supermarket,"supermarket in Jurong Gateway, Jurong East, Singapore",OK,,10,
+2026-07-19T13:15:56.470907,text_search,1,AIzaSy...IDGw,56,Jurong East,Jurong Gateway,shopping,grocery store,"grocery store in Jurong Gateway, Jurong East, Singapore",OK,,19,
+2026-07-19T13:15:57.736789,text_search,1,AIzaSy...IDGw,57,Jurong East,Jurong Gateway,shopping,convenience store,"convenience store in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:58.766891,text_search,1,AIzaSy...IDGw,58,Jurong East,Jurong Gateway,shopping,wet market,"wet market in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:15:59.622543,text_search,1,AIzaSy...IDGw,59,Jurong East,Jurong Gateway,recreation,gym,"gym in Jurong Gateway, Jurong East, Singapore",OK,,19,
+2026-07-19T13:16:00.497866,text_search,1,AIzaSy...IDGw,60,Jurong East,Jurong Gateway,recreation,sports centre,"sports centre in Jurong Gateway, Jurong East, Singapore",OK,,8,
+2026-07-19T13:16:01.519817,text_search,1,AIzaSy...IDGw,61,Jurong East,Jurong Gateway,recreation,swimming complex,"swimming complex in Jurong Gateway, Jurong East, Singapore",OK,,3,
+2026-07-19T13:16:02.855481,text_search,1,AIzaSy...IDGw,62,Jurong East,Jurong Gateway,recreation,cinema,"cinema in Jurong Gateway, Jurong East, Singapore",OK,,1,
+2026-07-19T13:16:03.635629,text_search,1,AIzaSy...IDGw,63,Jurong East,Jurong Gateway,recreation,community club,"community club in Jurong Gateway, Jurong East, Singapore",OK,,15,
+2026-07-19T13:16:04.375262,text_search,1,AIzaSy...IDGw,64,Jurong East,Jurong Gateway,recreation,playground,"playground in Jurong Gateway, Jurong East, Singapore",OK,,5,
+2026-07-19T13:16:05.506294,text_search,1,AIzaSy...IDGw,65,Jurong East,Jurong Gateway,nature,park,"park in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:06.303629,text_search,1,AIzaSy...IDGw,66,Jurong East,Jurong Gateway,nature,nature reserve,"nature reserve in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:07.277908,text_search,1,AIzaSy...IDGw,67,Jurong East,Jurong Gateway,nature,garden,"garden in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:08.212639,text_search,1,AIzaSy...IDGw,68,Jurong East,Jurong Gateway,nature,beach,"beach in Jurong Gateway, Jurong East, Singapore",OK,,14,
+2026-07-19T13:16:09.279815,text_search,1,AIzaSy...IDGw,69,Jurong East,Jurong Gateway,nature,waterfront,"waterfront in Jurong Gateway, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:10.072799,text_search,1,AIzaSy...IDGw,70,Jurong East,Jurong Gateway,nature,park connector,"park connector in Jurong Gateway, Jurong East, Singapore",OK,,10,
+2026-07-19T13:16:10.792856,text_search,1,AIzaSy...IDGw,71,Jurong East,Jurong Port,education,kindergarten,"kindergarten in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:11.950434,text_search,1,AIzaSy...IDGw,72,Jurong East,Jurong Port,education,childcare centre,"childcare centre in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:12.731431,text_search,1,AIzaSy...IDGw,73,Jurong East,Jurong Port,education,primary school,"primary school in Jurong Port, Jurong East, Singapore",OK,,12,
+2026-07-19T13:16:13.483574,text_search,1,AIzaSy...IDGw,74,Jurong East,Jurong Port,education,secondary school,"secondary school in Jurong Port, Jurong East, Singapore",OK,,11,
+2026-07-19T13:16:14.546916,text_search,1,AIzaSy...IDGw,75,Jurong East,Jurong Port,education,junior college,"junior college in Jurong Port, Jurong East, Singapore",OK,,14,
+2026-07-19T13:16:15.211889,text_search,1,AIzaSy...IDGw,76,Jurong East,Jurong Port,education,polytechnic,"polytechnic in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:16.171447,text_search,1,AIzaSy...IDGw,77,Jurong East,Jurong Port,education,university,"university in Jurong Port, Jurong East, Singapore",OK,,16,
+2026-07-19T13:16:16.928631,text_search,1,AIzaSy...IDGw,78,Jurong East,Jurong Port,education,tuition centre,"tuition centre in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:17.697242,text_search,1,AIzaSy...IDGw,79,Jurong East,Jurong Port,education,library,"library in Jurong Port, Jurong East, Singapore",OK,,2,
+2026-07-19T13:16:18.674495,text_search,1,AIzaSy...IDGw,80,Jurong East,Jurong Port,transport,MRT station,"MRT station in Jurong Port, Jurong East, Singapore",OK,,7,
+2026-07-19T13:16:19.777329,text_search,1,AIzaSy...IDGw,81,Jurong East,Jurong Port,transport,bus stop,"bus stop in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:20.458413,text_search,1,AIzaSy...IDGw,82,Jurong East,Jurong Port,transport,bus interchange,"bus interchange in Jurong Port, Jurong East, Singapore",OK,,4,
+2026-07-19T13:16:21.165336,text_search,1,AIzaSy...IDGw,83,Jurong East,Jurong Port,transport,LRT station,"LRT station in Jurong Port, Jurong East, Singapore",OK,,2,
+2026-07-19T13:16:22.281088,text_search,1,AIzaSy...IDGw,84,Jurong East,Jurong Port,food,hawker centre,"hawker centre in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:23.030512,text_search,1,AIzaSy...IDGw,85,Jurong East,Jurong Port,food,food court,"food court in Jurong Port, Jurong East, Singapore",OK,,8,
+2026-07-19T13:16:24.127345,text_search,1,AIzaSy...IDGw,86,Jurong East,Jurong Port,food,coffee shop,"coffee shop in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:24.781719,text_search,1,AIzaSy...IDGw,87,Jurong East,Jurong Port,food,restaurant,"restaurant in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:25.801729,text_search,1,AIzaSy...IDGw,88,Jurong East,Jurong Port,food,cafe,"cafe in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:26.543864,text_search,1,AIzaSy...IDGw,89,Jurong East,Jurong Port,shopping,shopping mall,"shopping mall in Jurong Port, Jurong East, Singapore",OK,,15,
+2026-07-19T13:16:27.532364,text_search,1,AIzaSy...IDGw,90,Jurong East,Jurong Port,shopping,supermarket,"supermarket in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:28.728597,text_search,1,AIzaSy...IDGw,91,Jurong East,Jurong Port,shopping,grocery store,"grocery store in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:29.680962,text_search,1,AIzaSy...IDGw,92,Jurong East,Jurong Port,shopping,convenience store,"convenience store in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:30.502986,text_search,1,AIzaSy...IDGw,93,Jurong East,Jurong Port,shopping,wet market,"wet market in Jurong Port, Jurong East, Singapore",OK,,16,
+2026-07-19T13:16:31.201699,text_search,1,AIzaSy...IDGw,94,Jurong East,Jurong Port,recreation,gym,"gym in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:32.274742,text_search,1,AIzaSy...IDGw,95,Jurong East,Jurong Port,recreation,sports centre,"sports centre in Jurong Port, Jurong East, Singapore",OK,,3,
+2026-07-19T13:16:33.106462,text_search,1,AIzaSy...IDGw,96,Jurong East,Jurong Port,recreation,swimming complex,"swimming complex in Jurong Port, Jurong East, Singapore",OK,,1,
+2026-07-19T13:16:33.885895,text_search,1,AIzaSy...IDGw,97,Jurong East,Jurong Port,recreation,cinema,"cinema in Jurong Port, Jurong East, Singapore",OK,,3,
+2026-07-19T13:16:34.711656,text_search,1,AIzaSy...IDGw,98,Jurong East,Jurong Port,recreation,community club,"community club in Jurong Port, Jurong East, Singapore",OK,,13,
+2026-07-19T13:16:35.631328,text_search,1,AIzaSy...IDGw,99,Jurong East,Jurong Port,recreation,playground,"playground in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:36.657495,text_search,1,AIzaSy...IDGw,100,Jurong East,Jurong Port,nature,park,"park in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:37.751159,text_search,1,AIzaSy...IDGw,101,Jurong East,Jurong Port,nature,nature reserve,"nature reserve in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:38.399124,text_search,1,AIzaSy...IDGw,102,Jurong East,Jurong Port,nature,garden,"garden in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:39.470925,text_search,1,AIzaSy...IDGw,103,Jurong East,Jurong Port,nature,beach,"beach in Jurong Port, Jurong East, Singapore",OK,,7,
+2026-07-19T13:16:40.440663,text_search,1,AIzaSy...IDGw,104,Jurong East,Jurong Port,nature,waterfront,"waterfront in Jurong Port, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:41.527396,text_search,1,AIzaSy...IDGw,105,Jurong East,Jurong Port,nature,park connector,"park connector in Jurong Port, Jurong East, Singapore",OK,,4,
+2026-07-19T13:16:42.351336,text_search,1,AIzaSy...IDGw,106,Jurong East,Jurong River,education,kindergarten,"kindergarten in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:43.102797,text_search,1,AIzaSy...IDGw,107,Jurong East,Jurong River,education,childcare centre,"childcare centre in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:43.908237,text_search,1,AIzaSy...IDGw,108,Jurong East,Jurong River,education,primary school,"primary school in Jurong River, Jurong East, Singapore",OK,,8,
+2026-07-19T13:16:44.786038,text_search,1,AIzaSy...IDGw,109,Jurong East,Jurong River,education,secondary school,"secondary school in Jurong River, Jurong East, Singapore",OK,,16,
+2026-07-19T13:16:45.922923,text_search,1,AIzaSy...IDGw,110,Jurong East,Jurong River,education,junior college,"junior college in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:46.925900,text_search,1,AIzaSy...IDGw,111,Jurong East,Jurong River,education,polytechnic,"polytechnic in Jurong River, Jurong East, Singapore",OK,,14,
+2026-07-19T13:16:47.910665,text_search,1,AIzaSy...IDGw,112,Jurong East,Jurong River,education,university,"university in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:48.865741,text_search,1,AIzaSy...IDGw,113,Jurong East,Jurong River,education,tuition centre,"tuition centre in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:49.713409,text_search,1,AIzaSy...IDGw,114,Jurong East,Jurong River,education,library,"library in Jurong River, Jurong East, Singapore",OK,,1,
+2026-07-19T13:16:50.807749,text_search,1,AIzaSy...IDGw,115,Jurong East,Jurong River,transport,MRT station,"MRT station in Jurong River, Jurong East, Singapore",OK,,3,
+2026-07-19T13:16:51.490506,text_search,1,AIzaSy...IDGw,116,Jurong East,Jurong River,transport,bus stop,"bus stop in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:52.194688,text_search,1,AIzaSy...IDGw,117,Jurong East,Jurong River,transport,bus interchange,"bus interchange in Jurong River, Jurong East, Singapore",OK,,4,
+2026-07-19T13:16:53.152978,text_search,1,AIzaSy...IDGw,118,Jurong East,Jurong River,transport,LRT station,"LRT station in Jurong River, Jurong East, Singapore",OK,,3,
+2026-07-19T13:16:53.878123,text_search,1,AIzaSy...IDGw,119,Jurong East,Jurong River,food,hawker centre,"hawker centre in Jurong River, Jurong East, Singapore",OK,,10,
+2026-07-19T13:16:54.658382,text_search,1,AIzaSy...IDGw,120,Jurong East,Jurong River,food,food court,"food court in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:55.771991,text_search,1,AIzaSy...IDGw,121,Jurong East,Jurong River,food,coffee shop,"coffee shop in Jurong River, Jurong East, Singapore",OK,,17,
+2026-07-19T13:16:56.608531,text_search,1,AIzaSy...IDGw,122,Jurong East,Jurong River,food,restaurant,"restaurant in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:57.617746,text_search,1,AIzaSy...IDGw,123,Jurong East,Jurong River,food,cafe,"cafe in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:16:58.657824,text_search,1,AIzaSy...IDGw,124,Jurong East,Jurong River,shopping,shopping mall,"shopping mall in Jurong River, Jurong East, Singapore",OK,,8,
+2026-07-19T13:16:59.540224,text_search,1,AIzaSy...IDGw,125,Jurong East,Jurong River,shopping,supermarket,"supermarket in Jurong River, Jurong East, Singapore",OK,,16,
+2026-07-19T13:17:00.208208,text_search,1,AIzaSy...IDGw,126,Jurong East,Jurong River,shopping,grocery store,"grocery store in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:00.967817,text_search,1,AIzaSy...IDGw,127,Jurong East,Jurong River,shopping,convenience store,"convenience store in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:01.663124,text_search,1,AIzaSy...IDGw,128,Jurong East,Jurong River,shopping,wet market,"wet market in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:02.466272,text_search,1,AIzaSy...IDGw,129,Jurong East,Jurong River,recreation,gym,"gym in Jurong River, Jurong East, Singapore",OK,,19,
+2026-07-19T13:17:03.153562,text_search,1,AIzaSy...IDGw,130,Jurong East,Jurong River,recreation,sports centre,"sports centre in Jurong River, Jurong East, Singapore",OK,,2,
+2026-07-19T13:17:03.954674,text_search,1,AIzaSy...IDGw,131,Jurong East,Jurong River,recreation,swimming complex,"swimming complex in Jurong River, Jurong East, Singapore",OK,,1,
+2026-07-19T13:17:04.584572,text_search,1,AIzaSy...IDGw,132,Jurong East,Jurong River,recreation,cinema,"cinema in Jurong River, Jurong East, Singapore",OK,,3,
+2026-07-19T13:17:05.306377,text_search,1,AIzaSy...IDGw,133,Jurong East,Jurong River,recreation,community club,"community club in Jurong River, Jurong East, Singapore",OK,,19,
+2026-07-19T13:17:06.118192,text_search,1,AIzaSy...IDGw,134,Jurong East,Jurong River,recreation,playground,"playground in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:06.827807,text_search,1,AIzaSy...IDGw,135,Jurong East,Jurong River,nature,park,"park in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:07.669983,text_search,1,AIzaSy...IDGw,136,Jurong East,Jurong River,nature,nature reserve,"nature reserve in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:08.993412,text_search,1,AIzaSy...IDGw,137,Jurong East,Jurong River,nature,garden,"garden in Jurong River, Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:09.866306,text_search,1,AIzaSy...IDGw,138,Jurong East,Jurong River,nature,beach,"beach in Jurong River, Jurong East, Singapore",OK,,1,
+2026-07-19T13:17:10.716511,text_search,1,AIzaSy...IDGw,139,Jurong East,Jurong River,nature,waterfront,"waterfront in Jurong River, Jurong East, Singapore",OK,,9,
+2026-07-19T13:17:11.636599,text_search,1,AIzaSy...IDGw,140,Jurong East,Jurong River,nature,park connector,"park connector in Jurong River, Jurong East, Singapore",OK,,5,
+2026-07-19T13:17:12.677525,text_search,1,AIzaSy...IDGw,141,Jurong East,Lakeside (Business),education,kindergarten,"kindergarten in Lakeside (Business), Jurong East, Singapore",OK,,14,
+2026-07-19T13:17:13.720881,text_search,1,AIzaSy...IDGw,142,Jurong East,Lakeside (Business),education,childcare centre,"childcare centre in Lakeside (Business), Jurong East, Singapore",OK,,12,
+2026-07-19T13:17:14.434234,text_search,1,AIzaSy...IDGw,143,Jurong East,Lakeside (Business),education,primary school,"primary school in Lakeside (Business), Jurong East, Singapore",OK,,3,
+2026-07-19T13:17:15.107965,text_search,1,AIzaSy...IDGw,144,Jurong East,Lakeside (Business),education,secondary school,"secondary school in Lakeside (Business), Jurong East, Singapore",OK,,11,
+2026-07-19T13:17:16.114005,text_search,1,AIzaSy...IDGw,145,Jurong East,Lakeside (Business),education,junior college,"junior college in Lakeside (Business), Jurong East, Singapore",OK,,4,
+2026-07-19T13:17:17.109733,text_search,1,AIzaSy...IDGw,146,Jurong East,Lakeside (Business),education,polytechnic,"polytechnic in Lakeside (Business), Jurong East, Singapore",OK,,17,
+2026-07-19T13:17:17.715732,text_search,1,AIzaSy...IDGw,147,Jurong East,Lakeside (Business),education,university,"university in Lakeside (Business), Jurong East, Singapore",OK,,4,
+2026-07-19T13:17:18.402121,text_search,1,AIzaSy...IDGw,148,Jurong East,Lakeside (Business),education,tuition centre,"tuition centre in Lakeside (Business), Jurong East, Singapore",OK,,16,
+2026-07-19T13:17:19.355049,text_search,1,AIzaSy...IDGw,149,Jurong East,Lakeside (Business),education,library,"library in Lakeside (Business), Jurong East, Singapore",OK,,4,
+2026-07-19T13:17:20.319109,text_search,1,AIzaSy...IDGw,150,Jurong East,Lakeside (Business),transport,MRT station,"MRT station in Lakeside (Business), Jurong East, Singapore",OK,,4,
+2026-07-19T13:17:21.163159,text_search,1,AIzaSy...IDGw,151,Jurong East,Lakeside (Business),transport,bus stop,"bus stop in Lakeside (Business), Jurong East, Singapore",OK,,7,
+2026-07-19T13:17:22.248095,text_search,1,AIzaSy...IDGw,152,Jurong East,Lakeside (Business),transport,bus interchange,"bus interchange in Lakeside (Business), Jurong East, Singapore",OK,,10,
+2026-07-19T13:17:22.994152,text_search,1,AIzaSy...IDGw,153,Jurong East,Lakeside (Business),transport,LRT station,"LRT station in Lakeside (Business), Jurong East, Singapore",OK,,5,
+2026-07-19T13:17:23.794627,text_search,1,AIzaSy...IDGw,154,Jurong East,Lakeside (Business),food,hawker centre,"hawker centre in Lakeside (Business), Jurong East, Singapore",OK,,15,
+2026-07-19T13:17:24.447389,text_search,1,AIzaSy...IDGw,155,Jurong East,Lakeside (Business),food,food court,"food court in Lakeside (Business), Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:25.580614,text_search,1,AIzaSy...IDGw,156,Jurong East,Lakeside (Business),food,coffee shop,"coffee shop in Lakeside (Business), Jurong East, Singapore",OK,,11,
+2026-07-19T13:17:26.290569,text_search,1,AIzaSy...IDGw,157,Jurong East,Lakeside (Business),food,restaurant,"restaurant in Lakeside (Business), Jurong East, Singapore",OK,,2,
+2026-07-19T13:17:27.264986,text_search,1,AIzaSy...IDGw,158,Jurong East,Lakeside (Business),food,cafe,"cafe in Lakeside (Business), Jurong East, Singapore",OK,,16,
+2026-07-19T13:17:27.951853,text_search,1,AIzaSy...IDGw,159,Jurong East,Lakeside (Business),shopping,shopping mall,"shopping mall in Lakeside (Business), Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:28.571861,text_search,1,AIzaSy...IDGw,160,Jurong East,Lakeside (Business),shopping,supermarket,"supermarket in Lakeside (Business), Jurong East, Singapore",OK,,11,
+2026-07-19T13:17:29.608243,text_search,1,AIzaSy...IDGw,161,Jurong East,Lakeside (Business),shopping,grocery store,"grocery store in Lakeside (Business), Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:30.555778,text_search,1,AIzaSy...IDGw,162,Jurong East,Lakeside (Business),shopping,convenience store,"convenience store in Lakeside (Business), Jurong East, Singapore",OK,,16,
+2026-07-19T13:17:31.309314,text_search,1,AIzaSy...IDGw,163,Jurong East,Lakeside (Business),shopping,wet market,"wet market in Lakeside (Business), Jurong East, Singapore",OK,,4,
+2026-07-19T13:17:32.010644,text_search,1,AIzaSy...IDGw,164,Jurong East,Lakeside (Business),recreation,gym,"gym in Lakeside (Business), Jurong East, Singapore",OK,,14,
+2026-07-19T13:17:32.788066,text_search,1,AIzaSy...IDGw,165,Jurong East,Lakeside (Business),recreation,sports centre,"sports centre in Lakeside (Business), Jurong East, Singapore",OK,,17,
+2026-07-19T13:17:33.634777,text_search,1,AIzaSy...IDGw,166,Jurong East,Lakeside (Business),recreation,swimming complex,"swimming complex in Lakeside (Business), Jurong East, Singapore",OK,,5,
+2026-07-19T13:17:34.562030,text_search,1,AIzaSy...IDGw,167,Jurong East,Lakeside (Business),recreation,cinema,"cinema in Lakeside (Business), Jurong East, Singapore",OK,,1,
+2026-07-19T13:17:35.563344,text_search,1,AIzaSy...IDGw,168,Jurong East,Lakeside (Business),recreation,community club,"community club in Lakeside (Business), Jurong East, Singapore",OK,,14,
+2026-07-19T13:17:36.755665,text_search,1,AIzaSy...IDGw,169,Jurong East,Lakeside (Business),recreation,playground,"playground in Lakeside (Business), Jurong East, Singapore",OK,,19,
+2026-07-19T13:17:37.423278,text_search,1,AIzaSy...IDGw,170,Jurong East,Lakeside (Business),nature,park,"park in Lakeside (Business), Jurong East, Singapore",OK,,16,
+2026-07-19T13:17:38.420627,text_search,1,AIzaSy...IDGw,171,Jurong East,Lakeside (Business),nature,nature reserve,"nature reserve in Lakeside (Business), Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:39.052695,text_search,1,AIzaSy...IDGw,172,Jurong East,Lakeside (Business),nature,garden,"garden in Lakeside (Business), Jurong East, Singapore",OK,,14,
+2026-07-19T13:17:39.902208,text_search,1,AIzaSy...IDGw,173,Jurong East,Lakeside (Business),nature,beach,"beach in Lakeside (Business), Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:40.557581,text_search,1,AIzaSy...IDGw,174,Jurong East,Lakeside (Business),nature,waterfront,"waterfront in Lakeside (Business), Jurong East, Singapore",OK,,13,
+2026-07-19T13:17:41.324517,text_search,1,AIzaSy...IDGw,175,Jurong East,Lakeside (Business),nature,park connector,"park connector in Lakeside (Business), Jurong East, Singapore",OK,,2,
+2026-07-19T13:17:42.342474,text_search,1,AIzaSy...IDGw,176,Jurong East,Lakeside (Leisure),education,kindergarten,"kindergarten in Lakeside (Leisure), Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:42.997926,text_search,1,AIzaSy...IDGw,177,Jurong East,Lakeside (Leisure),education,childcare centre,"childcare centre in Lakeside (Leisure), Jurong East, Singapore",OK,,16,
+2026-07-19T13:17:43.813369,text_search,1,AIzaSy...IDGw,178,Jurong East,Lakeside (Leisure),education,primary school,"primary school in Lakeside (Leisure), Jurong East, Singapore",OK,,5,
+2026-07-19T13:17:44.939734,text_search,1,AIzaSy...IDGw,179,Jurong East,Lakeside (Leisure),education,secondary school,"secondary school in Lakeside (Leisure), Jurong East, Singapore",OK,,19,
+2026-07-19T13:17:45.920990,text_search,1,AIzaSy...IDGw,180,Jurong East,Lakeside (Leisure),education,junior college,"junior college in Lakeside (Leisure), Jurong East, Singapore",OK,,15,
+2026-07-19T13:17:46.799594,text_search,1,AIzaSy...IDGw,181,Jurong East,Lakeside (Leisure),education,polytechnic,"polytechnic in Lakeside (Leisure), Jurong East, Singapore",OK,,9,
+2026-07-19T13:17:47.712300,text_search,1,AIzaSy...IDGw,182,Jurong East,Lakeside (Leisure),education,university,"university in Lakeside (Leisure), Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:48.781293,text_search,1,AIzaSy...IDGw,183,Jurong East,Lakeside (Leisure),education,tuition centre,"tuition centre in Lakeside (Leisure), Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:49.663581,text_search,1,AIzaSy...IDGw,184,Jurong East,Lakeside (Leisure),education,library,"library in Lakeside (Leisure), Jurong East, Singapore",OK,,2,
+2026-07-19T13:17:50.208211,text_search,1,AIzaSy...IDGw,185,Jurong East,Lakeside (Leisure),transport,MRT station,"MRT station in Lakeside (Leisure), Jurong East, Singapore",OK,,5,
+2026-07-19T13:17:51.052987,text_search,1,AIzaSy...IDGw,186,Jurong East,Lakeside (Leisure),transport,bus stop,"bus stop in Lakeside (Leisure), Jurong East, Singapore",OK,,15,
+2026-07-19T13:17:51.923859,text_search,1,AIzaSy...IDGw,187,Jurong East,Lakeside (Leisure),transport,bus interchange,"bus interchange in Lakeside (Leisure), Jurong East, Singapore",OK,,11,
+2026-07-19T13:17:52.467551,text_search,1,AIzaSy...IDGw,188,Jurong East,Lakeside (Leisure),transport,LRT station,"LRT station in Lakeside (Leisure), Jurong East, Singapore",OK,,5,
+2026-07-19T13:17:53.184149,text_search,1,AIzaSy...IDGw,189,Jurong East,Lakeside (Leisure),food,hawker centre,"hawker centre in Lakeside (Leisure), Jurong East, Singapore",OK,,9,
+2026-07-19T13:17:54.175617,text_search,1,AIzaSy...IDGw,190,Jurong East,Lakeside (Leisure),food,food court,"food court in Lakeside (Leisure), Jurong East, Singapore",OK,,10,
+2026-07-19T13:17:54.881302,text_search,1,AIzaSy...IDGw,191,Jurong East,Lakeside (Leisure),food,coffee shop,"coffee shop in Lakeside (Leisure), Jurong East, Singapore",OK,,13,
+2026-07-19T13:17:55.589079,text_search,1,AIzaSy...IDGw,192,Jurong East,Lakeside (Leisure),food,restaurant,"restaurant in Lakeside (Leisure), Jurong East, Singapore",OK,,2,
+2026-07-19T13:17:56.398483,text_search,1,AIzaSy...IDGw,193,Jurong East,Lakeside (Leisure),food,cafe,"cafe in Lakeside (Leisure), Jurong East, Singapore",OK,,17,
+2026-07-19T13:17:57.439847,text_search,1,AIzaSy...IDGw,194,Jurong East,Lakeside (Leisure),shopping,shopping mall,"shopping mall in Lakeside (Leisure), Jurong East, Singapore",OK,,14,
+2026-07-19T13:17:58.161095,text_search,1,AIzaSy...IDGw,195,Jurong East,Lakeside (Leisure),shopping,supermarket,"supermarket in Lakeside (Leisure), Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:58.880646,text_search,1,AIzaSy...IDGw,196,Jurong East,Lakeside (Leisure),shopping,grocery store,"grocery store in Lakeside (Leisure), Jurong East, Singapore",OK,,20,
+2026-07-19T13:17:59.548360,text_search,1,AIzaSy...IDGw,197,Jurong East,Lakeside (Leisure),shopping,convenience store,"convenience store in Lakeside (Leisure), Jurong East, Singapore",OK,,6,
+2026-07-19T13:18:00.543321,text_search,1,AIzaSy...IDGw,198,Jurong East,Lakeside (Leisure),shopping,wet market,"wet market in Lakeside (Leisure), Jurong East, Singapore",OK,,3,
+2026-07-19T13:18:01.429248,text_search,1,AIzaSy...IDGw,199,Jurong East,Lakeside (Leisure),recreation,gym,"gym in Lakeside (Leisure), Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:02.350634,text_search,1,AIzaSy...IDGw,200,Jurong East,Lakeside (Leisure),recreation,sports centre,"sports centre in Lakeside (Leisure), Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:03.561536,text_search,1,AIzaSy...IDGw,201,Jurong East,Lakeside (Leisure),recreation,swimming complex,"swimming complex in Lakeside (Leisure), Jurong East, Singapore",OK,,15,
+2026-07-19T13:18:04.566095,text_search,1,AIzaSy...IDGw,202,Jurong East,Lakeside (Leisure),recreation,cinema,"cinema in Lakeside (Leisure), Jurong East, Singapore",OK,,2,
+2026-07-19T13:18:05.311960,text_search,1,AIzaSy...IDGw,203,Jurong East,Lakeside (Leisure),recreation,community club,"community club in Lakeside (Leisure), Jurong East, Singapore",OK,,14,
+2026-07-19T13:18:06.048958,text_search,1,AIzaSy...IDGw,204,Jurong East,Lakeside (Leisure),recreation,playground,"playground in Lakeside (Leisure), Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:06.912871,text_search,1,AIzaSy...IDGw,205,Jurong East,Lakeside (Leisure),nature,park,"park in Lakeside (Leisure), Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:07.969821,text_search,1,AIzaSy...IDGw,206,Jurong East,Lakeside (Leisure),nature,nature reserve,"nature reserve in Lakeside (Leisure), Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:08.848421,text_search,1,AIzaSy...IDGw,207,Jurong East,Lakeside (Leisure),nature,garden,"garden in Lakeside (Leisure), Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:09.516647,text_search,1,AIzaSy...IDGw,208,Jurong East,Lakeside (Leisure),nature,beach,"beach in Lakeside (Leisure), Jurong East, Singapore",OK,,11,
+2026-07-19T13:18:10.408283,text_search,1,AIzaSy...IDGw,209,Jurong East,Lakeside (Leisure),nature,waterfront,"waterfront in Lakeside (Leisure), Jurong East, Singapore",OK,,16,
+2026-07-19T13:18:11.079088,text_search,1,AIzaSy...IDGw,210,Jurong East,Lakeside (Leisure),nature,park connector,"park connector in Lakeside (Leisure), Jurong East, Singapore",OK,,1,
+2026-07-19T13:18:12.112352,text_search,1,AIzaSy...IDGw,211,Jurong East,Penjuru Crescent,education,kindergarten,"kindergarten in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:13.197930,text_search,1,AIzaSy...IDGw,212,Jurong East,Penjuru Crescent,education,childcare centre,"childcare centre in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:14.203360,text_search,1,AIzaSy...IDGw,213,Jurong East,Penjuru Crescent,education,primary school,"primary school in Penjuru Crescent, Jurong East, Singapore",OK,,3,
+2026-07-19T13:18:15.234269,text_search,1,AIzaSy...IDGw,214,Jurong East,Penjuru Crescent,education,secondary school,"secondary school in Penjuru Crescent, Jurong East, Singapore",OK,,8,
+2026-07-19T13:18:16.060077,text_search,1,AIzaSy...IDGw,215,Jurong East,Penjuru Crescent,education,junior college,"junior college in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:17.016696,text_search,1,AIzaSy...IDGw,216,Jurong East,Penjuru Crescent,education,polytechnic,"polytechnic in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:17.811310,text_search,1,AIzaSy...IDGw,217,Jurong East,Penjuru Crescent,education,university,"university in Penjuru Crescent, Jurong East, Singapore",OK,,10,
+2026-07-19T13:18:18.782477,text_search,1,AIzaSy...IDGw,218,Jurong East,Penjuru Crescent,education,tuition centre,"tuition centre in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:19.875915,text_search,1,AIzaSy...IDGw,219,Jurong East,Penjuru Crescent,education,library,"library in Penjuru Crescent, Jurong East, Singapore",OK,,12,
+2026-07-19T13:18:20.994776,text_search,1,AIzaSy...IDGw,220,Jurong East,Penjuru Crescent,transport,MRT station,"MRT station in Penjuru Crescent, Jurong East, Singapore",OK,,18,
+2026-07-19T13:18:21.910269,text_search,1,AIzaSy...IDGw,221,Jurong East,Penjuru Crescent,transport,bus stop,"bus stop in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:22.805377,text_search,1,AIzaSy...IDGw,222,Jurong East,Penjuru Crescent,transport,bus interchange,"bus interchange in Penjuru Crescent, Jurong East, Singapore",OK,,11,
+2026-07-19T13:18:24.002863,text_search,1,AIzaSy...IDGw,223,Jurong East,Penjuru Crescent,transport,LRT station,"LRT station in Penjuru Crescent, Jurong East, Singapore",OK,,11,
+2026-07-19T13:18:25.030695,text_search,1,AIzaSy...IDGw,224,Jurong East,Penjuru Crescent,food,hawker centre,"hawker centre in Penjuru Crescent, Jurong East, Singapore",OK,,17,
+2026-07-19T13:18:26.151401,text_search,1,AIzaSy...IDGw,225,Jurong East,Penjuru Crescent,food,food court,"food court in Penjuru Crescent, Jurong East, Singapore",OK,,14,
+2026-07-19T13:18:27.223357,text_search,1,AIzaSy...IDGw,226,Jurong East,Penjuru Crescent,food,coffee shop,"coffee shop in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:28.161387,text_search,1,AIzaSy...IDGw,227,Jurong East,Penjuru Crescent,food,restaurant,"restaurant in Penjuru Crescent, Jurong East, Singapore",OK,,7,
+2026-07-19T13:18:29.499283,text_search,1,AIzaSy...IDGw,228,Jurong East,Penjuru Crescent,food,cafe,"cafe in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:30.744932,text_search,1,AIzaSy...IDGw,229,Jurong East,Penjuru Crescent,shopping,shopping mall,"shopping mall in Penjuru Crescent, Jurong East, Singapore",OK,,19,
+2026-07-19T13:18:31.719329,text_search,1,AIzaSy...IDGw,230,Jurong East,Penjuru Crescent,shopping,supermarket,"supermarket in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:32.529055,text_search,1,AIzaSy...IDGw,231,Jurong East,Penjuru Crescent,shopping,grocery store,"grocery store in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:33.308206,text_search,1,AIzaSy...IDGw,232,Jurong East,Penjuru Crescent,shopping,convenience store,"convenience store in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:34.472379,text_search,1,AIzaSy...IDGw,233,Jurong East,Penjuru Crescent,shopping,wet market,"wet market in Penjuru Crescent, Jurong East, Singapore",OK,,16,
+2026-07-19T13:18:35.218586,text_search,1,AIzaSy...IDGw,234,Jurong East,Penjuru Crescent,recreation,gym,"gym in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:35.893774,text_search,1,AIzaSy...IDGw,235,Jurong East,Penjuru Crescent,recreation,sports centre,"sports centre in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:36.610638,text_search,1,AIzaSy...IDGw,236,Jurong East,Penjuru Crescent,recreation,swimming complex,"swimming complex in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:37.552107,text_search,1,AIzaSy...IDGw,237,Jurong East,Penjuru Crescent,recreation,cinema,"cinema in Penjuru Crescent, Jurong East, Singapore",OK,,5,
+2026-07-19T13:18:38.682847,text_search,1,AIzaSy...IDGw,238,Jurong East,Penjuru Crescent,recreation,community club,"community club in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:39.482749,text_search,1,AIzaSy...IDGw,239,Jurong East,Penjuru Crescent,recreation,playground,"playground in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:40.493027,text_search,1,AIzaSy...IDGw,240,Jurong East,Penjuru Crescent,nature,park,"park in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:41.209630,text_search,1,AIzaSy...IDGw,241,Jurong East,Penjuru Crescent,nature,nature reserve,"nature reserve in Penjuru Crescent, Jurong East, Singapore",OK,,4,
+2026-07-19T13:18:42.272125,text_search,1,AIzaSy...IDGw,242,Jurong East,Penjuru Crescent,nature,garden,"garden in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:43.287138,text_search,1,AIzaSy...IDGw,243,Jurong East,Penjuru Crescent,nature,beach,"beach in Penjuru Crescent, Jurong East, Singapore",OK,,3,
+2026-07-19T13:18:43.942066,text_search,1,AIzaSy...IDGw,244,Jurong East,Penjuru Crescent,nature,waterfront,"waterfront in Penjuru Crescent, Jurong East, Singapore",OK,,7,
+2026-07-19T13:18:44.959468,text_search,1,AIzaSy...IDGw,245,Jurong East,Penjuru Crescent,nature,park connector,"park connector in Penjuru Crescent, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:45.745833,text_search,1,AIzaSy...IDGw,246,Jurong East,Teban Gardens,education,kindergarten,"kindergarten in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:46.577816,text_search,1,AIzaSy...IDGw,247,Jurong East,Teban Gardens,education,childcare centre,"childcare centre in Teban Gardens, Jurong East, Singapore",OK,,11,
+2026-07-19T13:18:47.477910,text_search,1,AIzaSy...IDGw,248,Jurong East,Teban Gardens,education,primary school,"primary school in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:48.624416,text_search,1,AIzaSy...IDGw,249,Jurong East,Teban Gardens,education,secondary school,"secondary school in Teban Gardens, Jurong East, Singapore",OK,,17,
+2026-07-19T13:18:49.489136,text_search,1,AIzaSy...IDGw,250,Jurong East,Teban Gardens,education,junior college,"junior college in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:50.476133,text_search,1,AIzaSy...IDGw,251,Jurong East,Teban Gardens,education,polytechnic,"polytechnic in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:51.722211,text_search,1,AIzaSy...IDGw,252,Jurong East,Teban Gardens,education,university,"university in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:52.661492,text_search,1,AIzaSy...IDGw,253,Jurong East,Teban Gardens,education,tuition centre,"tuition centre in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:53.667882,text_search,1,AIzaSy...IDGw,254,Jurong East,Teban Gardens,education,library,"library in Teban Gardens, Jurong East, Singapore",OK,,8,
+2026-07-19T13:18:54.361204,text_search,1,AIzaSy...IDGw,255,Jurong East,Teban Gardens,transport,MRT station,"MRT station in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:55.456691,text_search,1,AIzaSy...IDGw,256,Jurong East,Teban Gardens,transport,bus stop,"bus stop in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:56.393868,text_search,1,AIzaSy...IDGw,257,Jurong East,Teban Gardens,transport,bus interchange,"bus interchange in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:18:57.450682,text_search,1,AIzaSy...IDGw,258,Jurong East,Teban Gardens,transport,LRT station,"LRT station in Teban Gardens, Jurong East, Singapore",OK,,16,
+2026-07-19T13:18:58.384719,text_search,1,AIzaSy...IDGw,259,Jurong East,Teban Gardens,food,hawker centre,"hawker centre in Teban Gardens, Jurong East, Singapore",OK,,2,
+2026-07-19T13:18:59.442788,text_search,1,AIzaSy...IDGw,260,Jurong East,Teban Gardens,food,food court,"food court in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:00.622205,text_search,1,AIzaSy...IDGw,261,Jurong East,Teban Gardens,food,coffee shop,"coffee shop in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:01.766404,text_search,1,AIzaSy...IDGw,262,Jurong East,Teban Gardens,food,restaurant,"restaurant in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:02.512988,text_search,1,AIzaSy...IDGw,263,Jurong East,Teban Gardens,food,cafe,"cafe in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:03.690246,text_search,1,AIzaSy...IDGw,264,Jurong East,Teban Gardens,shopping,shopping mall,"shopping mall in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:04.692694,text_search,1,AIzaSy...IDGw,265,Jurong East,Teban Gardens,shopping,supermarket,"supermarket in Teban Gardens, Jurong East, Singapore",OK,,15,
+2026-07-19T13:19:05.334941,text_search,1,AIzaSy...IDGw,266,Jurong East,Teban Gardens,shopping,grocery store,"grocery store in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:06.195105,text_search,1,AIzaSy...IDGw,267,Jurong East,Teban Gardens,shopping,convenience store,"convenience store in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:07.390740,text_search,1,AIzaSy...IDGw,268,Jurong East,Teban Gardens,shopping,wet market,"wet market in Teban Gardens, Jurong East, Singapore",OK,,1,
+2026-07-19T13:19:08.087096,text_search,1,AIzaSy...IDGw,269,Jurong East,Teban Gardens,recreation,gym,"gym in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:09.052264,text_search,1,AIzaSy...IDGw,270,Jurong East,Teban Gardens,recreation,sports centre,"sports centre in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:10.143435,text_search,1,AIzaSy...IDGw,271,Jurong East,Teban Gardens,recreation,swimming complex,"swimming complex in Teban Gardens, Jurong East, Singapore",OK,,16,
+2026-07-19T13:19:11.212665,text_search,1,AIzaSy...IDGw,272,Jurong East,Teban Gardens,recreation,cinema,"cinema in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:12.220734,text_search,1,AIzaSy...IDGw,273,Jurong East,Teban Gardens,recreation,community club,"community club in Teban Gardens, Jurong East, Singapore",OK,,7,
+2026-07-19T13:19:12.867825,text_search,1,AIzaSy...IDGw,274,Jurong East,Teban Gardens,recreation,playground,"playground in Teban Gardens, Jurong East, Singapore",OK,,15,
+2026-07-19T13:19:13.972758,text_search,1,AIzaSy...IDGw,275,Jurong East,Teban Gardens,nature,park,"park in Teban Gardens, Jurong East, Singapore",OK,,12,
+2026-07-19T13:19:14.985976,text_search,1,AIzaSy...IDGw,276,Jurong East,Teban Gardens,nature,nature reserve,"nature reserve in Teban Gardens, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:16.021619,text_search,1,AIzaSy...IDGw,277,Jurong East,Teban Gardens,nature,garden,"garden in Teban Gardens, Jurong East, Singapore",OK,,1,
+2026-07-19T13:19:16.654550,text_search,1,AIzaSy...IDGw,278,Jurong East,Teban Gardens,nature,beach,"beach in Teban Gardens, Jurong East, Singapore",OK,,2,
+2026-07-19T13:19:17.327034,text_search,1,AIzaSy...IDGw,279,Jurong East,Teban Gardens,nature,waterfront,"waterfront in Teban Gardens, Jurong East, Singapore",OK,,4,
+2026-07-19T13:19:18.327674,text_search,1,AIzaSy...IDGw,280,Jurong East,Teban Gardens,nature,park connector,"park connector in Teban Gardens, Jurong East, Singapore",OK,,1,
+2026-07-19T13:19:20.483559,text_search,1,AIzaSy...IDGw,281,Jurong East,Toh Guan,education,kindergarten,"kindergarten in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:21.139832,text_search,1,AIzaSy...IDGw,282,Jurong East,Toh Guan,education,childcare centre,"childcare centre in Toh Guan, Jurong East, Singapore",OK,,3,
+2026-07-19T13:19:22.119952,text_search,1,AIzaSy...IDGw,283,Jurong East,Toh Guan,education,primary school,"primary school in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:23.033940,text_search,1,AIzaSy...IDGw,284,Jurong East,Toh Guan,education,secondary school,"secondary school in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:23.851547,text_search,1,AIzaSy...IDGw,285,Jurong East,Toh Guan,education,junior college,"junior college in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:24.752339,text_search,1,AIzaSy...IDGw,286,Jurong East,Toh Guan,education,polytechnic,"polytechnic in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:25.485696,text_search,1,AIzaSy...IDGw,287,Jurong East,Toh Guan,education,university,"university in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:26.357367,text_search,1,AIzaSy...IDGw,288,Jurong East,Toh Guan,education,tuition centre,"tuition centre in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:27.000205,text_search,1,AIzaSy...IDGw,289,Jurong East,Toh Guan,education,library,"library in Toh Guan, Jurong East, Singapore",OK,,18,
+2026-07-19T13:19:27.911660,text_search,1,AIzaSy...IDGw,290,Jurong East,Toh Guan,transport,MRT station,"MRT station in Toh Guan, Jurong East, Singapore",OK,,3,
+2026-07-19T13:19:29.056607,text_search,1,AIzaSy...IDGw,291,Jurong East,Toh Guan,transport,bus stop,"bus stop in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:29.868188,text_search,1,AIzaSy...IDGw,292,Jurong East,Toh Guan,transport,bus interchange,"bus interchange in Toh Guan, Jurong East, Singapore",OK,,14,
+2026-07-19T13:19:30.753529,text_search,1,AIzaSy...IDGw,293,Jurong East,Toh Guan,transport,LRT station,"LRT station in Toh Guan, Jurong East, Singapore",OK,,7,
+2026-07-19T13:19:31.905087,text_search,1,AIzaSy...IDGw,294,Jurong East,Toh Guan,food,hawker centre,"hawker centre in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:32.723226,text_search,1,AIzaSy...IDGw,295,Jurong East,Toh Guan,food,food court,"food court in Toh Guan, Jurong East, Singapore",OK,,5,
+2026-07-19T13:19:33.893611,text_search,1,AIzaSy...IDGw,296,Jurong East,Toh Guan,food,coffee shop,"coffee shop in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:35.040813,text_search,1,AIzaSy...IDGw,297,Jurong East,Toh Guan,food,restaurant,"restaurant in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:35.765227,text_search,1,AIzaSy...IDGw,298,Jurong East,Toh Guan,food,cafe,"cafe in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:36.605548,text_search,1,AIzaSy...IDGw,299,Jurong East,Toh Guan,shopping,shopping mall,"shopping mall in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:37.542450,text_search,1,AIzaSy...IDGw,300,Jurong East,Toh Guan,shopping,supermarket,"supermarket in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:38.494344,text_search,1,AIzaSy...IDGw,301,Jurong East,Toh Guan,shopping,grocery store,"grocery store in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:39.223440,text_search,1,AIzaSy...IDGw,302,Jurong East,Toh Guan,shopping,convenience store,"convenience store in Toh Guan, Jurong East, Singapore",OK,,7,
+2026-07-19T13:19:40.276044,text_search,1,AIzaSy...IDGw,303,Jurong East,Toh Guan,shopping,wet market,"wet market in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:41.325666,text_search,1,AIzaSy...IDGw,304,Jurong East,Toh Guan,recreation,gym,"gym in Toh Guan, Jurong East, Singapore",OK,,15,
+2026-07-19T13:19:42.169559,text_search,1,AIzaSy...IDGw,305,Jurong East,Toh Guan,recreation,sports centre,"sports centre in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:42.995174,text_search,1,AIzaSy...IDGw,306,Jurong East,Toh Guan,recreation,swimming complex,"swimming complex in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:43.944763,text_search,1,AIzaSy...IDGw,307,Jurong East,Toh Guan,recreation,cinema,"cinema in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:44.927680,text_search,1,AIzaSy...IDGw,308,Jurong East,Toh Guan,recreation,community club,"community club in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:45.781915,text_search,1,AIzaSy...IDGw,309,Jurong East,Toh Guan,recreation,playground,"playground in Toh Guan, Jurong East, Singapore",OK,,15,
+2026-07-19T13:19:46.551513,text_search,1,AIzaSy...IDGw,310,Jurong East,Toh Guan,nature,park,"park in Toh Guan, Jurong East, Singapore",OK,,9,
+2026-07-19T13:19:47.552049,text_search,1,AIzaSy...IDGw,311,Jurong East,Toh Guan,nature,nature reserve,"nature reserve in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:48.230123,text_search,1,AIzaSy...IDGw,312,Jurong East,Toh Guan,nature,garden,"garden in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:49.304842,text_search,1,AIzaSy...IDGw,313,Jurong East,Toh Guan,nature,beach,"beach in Toh Guan, Jurong East, Singapore",OK,,6,
+2026-07-19T13:19:50.165736,text_search,1,AIzaSy...IDGw,314,Jurong East,Toh Guan,nature,waterfront,"waterfront in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:51.273747,text_search,1,AIzaSy...IDGw,315,Jurong East,Toh Guan,nature,park connector,"park connector in Toh Guan, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:52.028785,text_search,1,AIzaSy...IDGw,316,Jurong East,Yuhua East,education,kindergarten,"kindergarten in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:52.856415,text_search,1,AIzaSy...IDGw,317,Jurong East,Yuhua East,education,childcare centre,"childcare centre in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:53.655200,text_search,1,AIzaSy...IDGw,318,Jurong East,Yuhua East,education,primary school,"primary school in Yuhua East, Jurong East, Singapore",OK,,1,
+2026-07-19T13:19:54.332118,text_search,1,AIzaSy...IDGw,319,Jurong East,Yuhua East,education,secondary school,"secondary school in Yuhua East, Jurong East, Singapore",OK,,15,
+2026-07-19T13:19:55.230409,text_search,1,AIzaSy...IDGw,320,Jurong East,Yuhua East,education,junior college,"junior college in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:56.130425,text_search,1,AIzaSy...IDGw,321,Jurong East,Yuhua East,education,polytechnic,"polytechnic in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:57.073098,text_search,1,AIzaSy...IDGw,322,Jurong East,Yuhua East,education,university,"university in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:58.144974,text_search,1,AIzaSy...IDGw,323,Jurong East,Yuhua East,education,tuition centre,"tuition centre in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:19:58.953873,text_search,1,AIzaSy...IDGw,324,Jurong East,Yuhua East,education,library,"library in Yuhua East, Jurong East, Singapore",OK,,7,
+2026-07-19T13:19:59.622915,text_search,1,AIzaSy...IDGw,325,Jurong East,Yuhua East,transport,MRT station,"MRT station in Yuhua East, Jurong East, Singapore",OK,,5,
+2026-07-19T13:20:00.638286,text_search,1,AIzaSy...IDGw,326,Jurong East,Yuhua East,transport,bus stop,"bus stop in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:01.474840,text_search,1,AIzaSy...IDGw,327,Jurong East,Yuhua East,transport,bus interchange,"bus interchange in Yuhua East, Jurong East, Singapore",OK,,18,
+2026-07-19T13:20:02.393855,text_search,1,AIzaSy...IDGw,328,Jurong East,Yuhua East,transport,LRT station,"LRT station in Yuhua East, Jurong East, Singapore",OK,,4,
+2026-07-19T13:20:03.249776,text_search,1,AIzaSy...IDGw,329,Jurong East,Yuhua East,food,hawker centre,"hawker centre in Yuhua East, Jurong East, Singapore",OK,,5,
+2026-07-19T13:20:04.239409,text_search,1,AIzaSy...IDGw,330,Jurong East,Yuhua East,food,food court,"food court in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:04.911162,text_search,1,AIzaSy...IDGw,331,Jurong East,Yuhua East,food,coffee shop,"coffee shop in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:06.163629,text_search,1,AIzaSy...IDGw,332,Jurong East,Yuhua East,food,restaurant,"restaurant in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:07.293344,text_search,1,AIzaSy...IDGw,333,Jurong East,Yuhua East,food,cafe,"cafe in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:08.152515,text_search,1,AIzaSy...IDGw,334,Jurong East,Yuhua East,shopping,shopping mall,"shopping mall in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:09.075854,text_search,1,AIzaSy...IDGw,335,Jurong East,Yuhua East,shopping,supermarket,"supermarket in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:09.939495,text_search,1,AIzaSy...IDGw,336,Jurong East,Yuhua East,shopping,grocery store,"grocery store in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:11.037400,text_search,1,AIzaSy...IDGw,337,Jurong East,Yuhua East,shopping,convenience store,"convenience store in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:11.909386,text_search,1,AIzaSy...IDGw,338,Jurong East,Yuhua East,shopping,wet market,"wet market in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:12.705957,text_search,1,AIzaSy...IDGw,339,Jurong East,Yuhua East,recreation,gym,"gym in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:13.581065,text_search,1,AIzaSy...IDGw,340,Jurong East,Yuhua East,recreation,sports centre,"sports centre in Yuhua East, Jurong East, Singapore",OK,,12,
+2026-07-19T13:20:14.180851,text_search,1,AIzaSy...IDGw,341,Jurong East,Yuhua East,recreation,swimming complex,"swimming complex in Yuhua East, Jurong East, Singapore",OK,,1,
+2026-07-19T13:20:15.100467,text_search,1,AIzaSy...IDGw,342,Jurong East,Yuhua East,recreation,cinema,"cinema in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:16.050962,text_search,1,AIzaSy...IDGw,343,Jurong East,Yuhua East,recreation,community club,"community club in Yuhua East, Jurong East, Singapore",OK,,1,
+2026-07-19T13:20:16.952625,text_search,1,AIzaSy...IDGw,344,Jurong East,Yuhua East,recreation,playground,"playground in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:17.892578,text_search,1,AIzaSy...IDGw,345,Jurong East,Yuhua East,nature,park,"park in Yuhua East, Jurong East, Singapore",OK,,9,
+2026-07-19T13:20:18.881040,text_search,1,AIzaSy...IDGw,346,Jurong East,Yuhua East,nature,nature reserve,"nature reserve in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:19.755306,text_search,1,AIzaSy...IDGw,347,Jurong East,Yuhua East,nature,garden,"garden in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:20.681795,text_search,1,AIzaSy...IDGw,348,Jurong East,Yuhua East,nature,beach,"beach in Yuhua East, Jurong East, Singapore",OK,,19,
+2026-07-19T13:20:21.503112,text_search,1,AIzaSy...IDGw,349,Jurong East,Yuhua East,nature,waterfront,"waterfront in Yuhua East, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:22.577601,text_search,1,AIzaSy...IDGw,350,Jurong East,Yuhua East,nature,park connector,"park connector in Yuhua East, Jurong East, Singapore",OK,,12,
+2026-07-19T13:20:23.610950,text_search,1,AIzaSy...IDGw,351,Jurong East,Yuhua West,education,kindergarten,"kindergarten in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:24.428329,text_search,1,AIzaSy...IDGw,352,Jurong East,Yuhua West,education,childcare centre,"childcare centre in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:25.041747,text_search,1,AIzaSy...IDGw,353,Jurong East,Yuhua West,education,primary school,"primary school in Yuhua West, Jurong East, Singapore",OK,,1,
+2026-07-19T13:20:26.107875,text_search,1,AIzaSy...IDGw,354,Jurong East,Yuhua West,education,secondary school,"secondary school in Yuhua West, Jurong East, Singapore",OK,,10,
+2026-07-19T13:20:26.793223,text_search,1,AIzaSy...IDGw,355,Jurong East,Yuhua West,education,junior college,"junior college in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:27.471911,text_search,1,AIzaSy...IDGw,356,Jurong East,Yuhua West,education,polytechnic,"polytechnic in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:28.673372,text_search,1,AIzaSy...IDGw,357,Jurong East,Yuhua West,education,university,"university in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:29.600100,text_search,1,AIzaSy...IDGw,358,Jurong East,Yuhua West,education,tuition centre,"tuition centre in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:30.202726,text_search,1,AIzaSy...IDGw,359,Jurong East,Yuhua West,education,library,"library in Yuhua West, Jurong East, Singapore",OK,,8,
+2026-07-19T13:20:30.968824,text_search,1,AIzaSy...IDGw,360,Jurong East,Yuhua West,transport,MRT station,"MRT station in Yuhua West, Jurong East, Singapore",OK,,6,
+2026-07-19T13:20:31.999281,text_search,1,AIzaSy...IDGw,361,Jurong East,Yuhua West,transport,bus stop,"bus stop in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:32.873456,text_search,1,AIzaSy...IDGw,362,Jurong East,Yuhua West,transport,bus interchange,"bus interchange in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:33.523698,text_search,1,AIzaSy...IDGw,363,Jurong East,Yuhua West,transport,LRT station,"LRT station in Yuhua West, Jurong East, Singapore",OK,,3,
+2026-07-19T13:20:34.221734,text_search,1,AIzaSy...IDGw,364,Jurong East,Yuhua West,food,hawker centre,"hawker centre in Yuhua West, Jurong East, Singapore",OK,,2,
+2026-07-19T13:20:35.327325,text_search,1,AIzaSy...IDGw,365,Jurong East,Yuhua West,food,food court,"food court in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:36.322120,text_search,1,AIzaSy...IDGw,366,Jurong East,Yuhua West,food,coffee shop,"coffee shop in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:37.511754,text_search,1,AIzaSy...IDGw,367,Jurong East,Yuhua West,food,restaurant,"restaurant in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:38.382226,text_search,1,AIzaSy...IDGw,368,Jurong East,Yuhua West,food,cafe,"cafe in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:39.212459,text_search,1,AIzaSy...IDGw,369,Jurong East,Yuhua West,shopping,shopping mall,"shopping mall in Yuhua West, Jurong East, Singapore",OK,,8,
+2026-07-19T13:20:40.121771,text_search,1,AIzaSy...IDGw,370,Jurong East,Yuhua West,shopping,supermarket,"supermarket in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:41.124642,text_search,1,AIzaSy...IDGw,371,Jurong East,Yuhua West,shopping,grocery store,"grocery store in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:42.090069,text_search,1,AIzaSy...IDGw,372,Jurong East,Yuhua West,shopping,convenience store,"convenience store in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:42.851904,text_search,1,AIzaSy...IDGw,373,Jurong East,Yuhua West,shopping,wet market,"wet market in Yuhua West, Jurong East, Singapore",OK,,4,
+2026-07-19T13:20:43.862603,text_search,1,AIzaSy...IDGw,374,Jurong East,Yuhua West,recreation,gym,"gym in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:44.527207,text_search,1,AIzaSy...IDGw,375,Jurong East,Yuhua West,recreation,sports centre,"sports centre in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:45.440792,text_search,1,AIzaSy...IDGw,376,Jurong East,Yuhua West,recreation,swimming complex,"swimming complex in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:46.374613,text_search,1,AIzaSy...IDGw,377,Jurong East,Yuhua West,recreation,cinema,"cinema in Yuhua West, Jurong East, Singapore",OK,,3,
+2026-07-19T13:20:47.195493,text_search,1,AIzaSy...IDGw,378,Jurong East,Yuhua West,recreation,community club,"community club in Yuhua West, Jurong East, Singapore",OK,,1,
+2026-07-19T13:20:48.022951,text_search,1,AIzaSy...IDGw,379,Jurong East,Yuhua West,recreation,playground,"playground in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:49.279489,text_search,1,AIzaSy...IDGw,380,Jurong East,Yuhua West,nature,park,"park in Yuhua West, Jurong East, Singapore",OK,,16,
+2026-07-19T13:20:49.940627,text_search,1,AIzaSy...IDGw,381,Jurong East,Yuhua West,nature,nature reserve,"nature reserve in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:50.594525,text_search,1,AIzaSy...IDGw,382,Jurong East,Yuhua West,nature,garden,"garden in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:51.516543,text_search,1,AIzaSy...IDGw,383,Jurong East,Yuhua West,nature,beach,"beach in Yuhua West, Jurong East, Singapore",OK,,7,
+2026-07-19T13:20:52.532145,text_search,1,AIzaSy...IDGw,384,Jurong East,Yuhua West,nature,waterfront,"waterfront in Yuhua West, Jurong East, Singapore",OK,,20,
+2026-07-19T13:20:53.584705,text_search,1,AIzaSy...IDGw,385,Jurong East,Yuhua West,nature,park connector,"park connector in Yuhua West, Jurong East, Singapore",OK,,6,
+2026-07-19T13:20:54.304207,place_details_reviews,1,AIzaSy...IDGw,386,Jurong East,International Business Park,education,kindergarten,ChIJFQohtqAa2jERXPTpxSYMPD4,OK,,5,Mulberry Learning @ Jurong East
+2026-07-19T13:20:54.743414,place_details_reviews,1,AIzaSy...IDGw,387,Jurong East,International Business Park,education,kindergarten,ChIJq6qqxQsQ2jERvKYjtmGqunA,OK,,5,Small Wonder @ IBP
+2026-07-19T13:20:55.386658,place_details_reviews,1,AIzaSy...IDGw,388,Jurong East,International Business Park,education,childcare centre,ChIJ85gyOVcR2jERoWWV9hLVi8s,OK,,5,MapleBear Jurong East (ICON@IBP)
+2026-07-19T13:20:55.945086,place_details_reviews,1,AIzaSy...IDGw,389,Jurong East,International Business Park,education,primary school,ChIJ0T7jSwkQ2jER-a0ny2o5Vf4,OK,,5,Posso Preschool @ Jurong East
+2026-07-19T13:20:56.777038,place_details_reviews,1,AIzaSy...IDGw,390,Jurong East,International Business Park,education,secondary school,ChIJsyTJCRcQ2jERfwQiMdnbBFE,OK,,0,Crest Secondary School
+2026-07-19T13:20:57.321867,place_details_reviews,1,AIzaSy...IDGw,391,Jurong East,International Business Park,education,secondary school,ChIJ6ddYmGQZ2jER9G6abHZE-40,OK,,5,BMC International College
+2026-07-19T13:20:57.741143,place_details_reviews,1,AIzaSy...IDGw,392,Jurong East,International Business Park,education,junior college,ChIJz_-CGpUR2jERsxAVVh_vnoY,OK,,5,Jurong Pioneer Junior College
+2026-07-19T13:20:58.504740,place_details_reviews,1,AIzaSy...IDGw,393,Jurong East,International Business Park,education,polytechnic,ChIJxVNWrtIR2jERD9kc1O6NM-g,OK,,5,AEG International College
+2026-07-19T13:20:59.047287,place_details_reviews,1,AIzaSy...IDGw,394,Jurong East,International Business Park,education,polytechnic,ChIJu4iD8AkQ2jERKzq1wfE3cAM,OK,,5,Jurong Data Centre
+2026-07-19T13:20:59.447783,place_details_reviews,1,AIzaSy...IDGw,395,Jurong East,International Business Park,education,university,ChIJneq9amAX2jERBgLoW3zvY34,OK,,5,East Asia Institute of Management
+2026-07-19T13:21:00.183022,place_details_reviews,1,AIzaSy...IDGw,396,Jurong East,International Business Park,education,university,ChIJQQiiawoQ2jERxJd8zeFnC1I,OK,,5,1A International Business Park
+2026-07-19T13:21:01.123813,place_details_reviews,1,AIzaSy...IDGw,397,Jurong East,International Business Park,education,tuition centre,ChIJP7jTIv8R2jER4JahjcBUVBM,OK,,5,Indigo Education Centre @ Jurong East
+2026-07-19T13:21:02.104686,place_details_reviews,1,AIzaSy...IDGw,398,Jurong East,International Business Park,education,tuition centre,ChIJ3dlEIIIR2jER3-En6GUBx_M,OK,,5,The Thought Tailor (Jurong East) | English & GP Tuition
+2026-07-19T13:21:02.923893,place_details_reviews,1,AIzaSy...IDGw,399,Jurong East,International Business Park,education,library,ChIJraqq-gUQ2jERYpaqvOqNXdk,OK,,5,Jurong Library
+2026-07-19T13:21:03.707235,place_details_reviews,1,AIzaSy...IDGw,400,Jurong East,International Business Park,education,library,ChIJEcb5CwkQ2jERyfIJMFYWcgQ,OK,,2,Business Library Pte. Ltd.
+2026-07-19T13:21:04.342299,place_details_reviews,1,AIzaSy...IDGw,401,Jurong East,International Business Park,transport,MRT station,ChIJL52pCg8Q2jERgiWsODe3X9I,OK,,5,Jurong East
+2026-07-19T13:21:04.755324,place_details_reviews,1,AIzaSy...IDGw,402,Jurong East,International Business Park,transport,MRT station,ChIJW0D9FA8Q2jERViyXL9hsxMA,OK,,5,Jurong East
+2026-07-19T13:21:05.300063,place_details_reviews,1,AIzaSy...IDGw,403,Jurong East,International Business Park,transport,bus stop,ChIJ5ai35wkQ2jERra1n1-KXh_k,OK,,1,Opp Intl Business Pk
+2026-07-19T13:21:05.815835,place_details_reviews,1,AIzaSy...IDGw,404,Jurong East,International Business Park,transport,bus stop,ChIJdZDcTqca2jER4l3B4MDOCe0,OK,,3,Intl Business Pk
+2026-07-19T13:21:06.669949,place_details_reviews,1,AIzaSy...IDGw,405,Jurong East,International Business Park,transport,bus interchange,ChIJm8BQMFIR2jERYNUW5oJMmHA,OK,,5,Jurong East Bus Interchange
+2026-07-19T13:21:07.362357,place_details_reviews,1,AIzaSy...IDGw,406,Jurong East,International Business Park,transport,bus interchange,ChIJDXrp5xwR2jERvfmdtm1otwA,OK,,5,Jurong East Bus Interchange
+2026-07-19T13:21:08.192653,place_details_reviews,1,AIzaSy...IDGw,407,Jurong East,International Business Park,transport,LRT station,ChIJAeniGMYR2jERibvsRwNnaQQ,OK,,5,31 International Business Park
+2026-07-19T13:21:08.791139,place_details_reviews,1,AIzaSy...IDGw,408,Jurong East,International Business Park,food,hawker centre,ChIJlVeNiAkQ2jER5A5aCuh7spE,OK,,5,Billion Food Point
+2026-07-19T13:21:09.846784,place_details_reviews,1,AIzaSy...IDGw,409,Jurong East,International Business Park,food,hawker centre,ChIJ6bVdxQsQ2jER1Gr5VGc8SLM,OK,,5,Yummy Yummy
+2026-07-19T13:21:10.537167,place_details_reviews,1,AIzaSy...IDGw,410,Jurong East,International Business Park,food,food court,ChIJcRdfu5oR2jERfivaGAgMN7Y,OK,,5,Thai Food @ The Foodplace
+2026-07-19T13:21:11.209089,place_details_reviews,1,AIzaSy...IDGw,411,Jurong East,International Business Park,food,coffee shop,ChIJ2aAtKgAR2jERGtUpQeII0co,OK,,4,Kopi Tarik
+2026-07-19T13:21:11.741558,place_details_reviews,1,AIzaSy...IDGw,412,Jurong East,International Business Park,food,coffee shop,ChIJDd8JhqAa2jEREKIGssU4qN0,OK,,5,Vivavox
+2026-07-19T13:21:12.243609,place_details_reviews,1,AIzaSy...IDGw,413,Jurong East,International Business Park,food,restaurant,ChIJ3ws6DAAR2jEReyj4XRkuRYM,OK,,5,Nandhana's Restaurant @IBP Jurong East
+2026-07-19T13:21:12.626474,place_details_reviews,1,AIzaSy...IDGw,414,Jurong East,International Business Park,food,cafe,ChIJ75NPmTEb2jERJlM6FUENrf0,OK,,5,55 Degrees
+2026-07-19T13:21:13.041884,place_details_reviews,1,AIzaSy...IDGw,415,Jurong East,International Business Park,shopping,shopping mall,ChIJ82AoVA8Q2jERkHnr1RPW9B4,OK,,5,Westgate
+2026-07-19T13:21:13.733789,place_details_reviews,1,AIzaSy...IDGw,416,Jurong East,International Business Park,shopping,shopping mall,ChIJa2nb2g0Q2jERlcUMLtMVyoI,OK,,5,IMM Building
+2026-07-19T13:21:14.192570,place_details_reviews,1,AIzaSy...IDGw,417,Jurong East,International Business Park,shopping,supermarket,ChIJD865Hw8Q2jERXwifyEiU_Bc,OK,,5,FairPrice Xtra JEM
+2026-07-19T13:21:14.771832,place_details_reviews,1,AIzaSy...IDGw,418,Jurong East,International Business Park,shopping,supermarket,ChIJa2nb2g0Q2jERblly7bE-Wlg,OK,,5,Giant Supermarket
+2026-07-19T13:21:15.220186,place_details_reviews,1,AIzaSy...IDGw,419,Jurong East,International Business Park,shopping,convenience store,ChIJMdeyeLER2jERGOKEWXuIGwo,OK,,5,Trade hub Muslim food
+2026-07-19T13:21:15.971911,place_details_reviews,1,AIzaSy...IDGw,420,Jurong East,International Business Park,shopping,convenience store,ChIJbZbo1iIR2jERZtKZBoQu1Ck,OK,,5,7-Eleven
+2026-07-19T13:21:16.534248,place_details_reviews,1,AIzaSy...IDGw,421,Jurong East,International Business Park,shopping,wet market,ChIJA-S30F8b2jER46-WSc7Ak2g,OK,,5,Teban Gardens Wet Market
+2026-07-19T13:21:16.920188,place_details_reviews,1,AIzaSy...IDGw,422,Jurong East,International Business Park,shopping,wet market,ChIJfY_zJ6MF2jERefg_hPaVgp8,OK,,5,Jurong Fishery Port
+2026-07-19T13:21:17.504735,place_details_reviews,1,AIzaSy...IDGw,423,Jurong East,International Business Park,recreation,gym,ChIJzXmxSt0R2jERIreSLynTrgg,OK,,5,The Gym Pod @ International Business Park Jurong East
+2026-07-19T13:21:18.127247,place_details_reviews,1,AIzaSy...IDGw,424,Jurong East,International Business Park,recreation,gym,ChIJL_5Q7hYR2jERp4K4dOW6OHI,OK,,5,BFT Jurong
+2026-07-19T13:21:18.775371,place_details_reviews,1,AIzaSy...IDGw,425,Jurong East,International Business Park,recreation,swimming complex,ChIJWaHnCyAQ2jERlnBesVA4gic,OK,,5,Jurong East Swimming Complex
+2026-07-19T13:21:19.138970,place_details_reviews,1,AIzaSy...IDGw,426,Jurong East,International Business Park,recreation,swimming complex,ChIJKx-bFRwR2jERM4B74f48Y4c,OK,,1,THE CHEVRONS Swimming Pool
+2026-07-19T13:21:19.801545,place_details_reviews,1,AIzaSy...IDGw,427,Jurong East,International Business Park,recreation,cinema,ChIJFx7cQgAR2jERum7NN5FvIOk,OK,,5,Shaw Theatres JEM
+2026-07-19T13:21:20.324947,place_details_reviews,1,AIzaSy...IDGw,428,Jurong East,International Business Park,recreation,cinema,ChIJWcpxFQQQ2jERpLIO6PcPP4U,OK,,5,Omni-Theatre
+2026-07-19T13:21:20.883180,place_details_reviews,1,AIzaSy...IDGw,429,Jurong East,International Business Park,recreation,community club,ChIJ4ydWlqMa2jERWCR933Y5D7s,OK,,5,Ayer Rajah Community Club
+2026-07-19T13:21:21.617642,place_details_reviews,1,AIzaSy...IDGw,430,Jurong East,International Business Park,recreation,community club,ChIJ72UutBsQ2jERo9kuR_0VQVg,OK,,5,Yuhua Community Club
+2026-07-19T13:21:22.228618,place_details_reviews,1,AIzaSy...IDGw,431,Jurong East,International Business Park,recreation,playground,ChIJTynXQQAR2jERs9_0QDzIVaM,OK,,5,Yooland Indoor Playground
+2026-07-19T13:21:22.599872,place_details_reviews,1,AIzaSy...IDGw,432,Jurong East,International Business Park,recreation,playground,ChIJg9hvvQUQ2jERRcM5nYmImsU,OK,,5,Playground
+2026-07-19T13:21:23.120056,place_details_reviews,1,AIzaSy...IDGw,433,Jurong East,International Business Park,nature,park,ChIJHScAn6Aa2jERIfxq_oetrYU,OK,,0,International Business Park
+2026-07-19T13:21:23.530699,place_details_reviews,1,AIzaSy...IDGw,434,Jurong East,International Business Park,nature,nature reserve,ChIJs3oprUQQ2jERp8A9mbkPZJE,OK,,5,Bukit Batok Nature Park
+2026-07-19T13:21:24.367494,place_details_reviews,1,AIzaSy...IDGw,435,Jurong East,International Business Park,nature,nature reserve,ChIJO9cemPUQ2jERvlh8KtwhtAc,OK,,5,Bukit Timah Nature Reserve
+2026-07-19T13:21:24.899435,place_details_reviews,1,AIzaSy...IDGw,436,Jurong East,International Business Park,nature,garden,ChIJ2w1yhwoQ2jERO7UFtkXCcnk,OK,,5,ICON @ IBP
+2026-07-19T13:21:25.300720,place_details_reviews,1,AIzaSy...IDGw,437,Jurong East,International Business Park,nature,park connector,ChIJl_bxTgoQ2jERPSQY-1H61zY,OK,,5,Nordic European Centre
+2026-07-19T13:21:26.139868,place_details_reviews,1,AIzaSy...IDGw,438,Jurong East,Jurong Gateway,education,kindergarten,ChIJS8SybkYR2jERkkAyVK6tic8,OK,,5,Kiddiwinkie Schoolhouse @ Jurong Gateway
+2026-07-19T13:21:26.815466,place_details_reviews,1,AIzaSy...IDGw,439,Jurong East,Jurong Gateway,education,kindergarten,ChIJkRPP8VsR2jERIB8SvJ7bbgk,OK,,5,ELFA Preschool @ Jurong East
+2026-07-19T13:21:27.414763,place_details_reviews,1,AIzaSy...IDGw,440,Jurong East,Jurong Gateway,education,childcare centre,ChIJZ3B4xVYR2jERdQhLoumwiA8,OK,,5,in:genius Student Care @ Jurong Gateway
+2026-07-19T13:21:28.142202,place_details_reviews,1,AIzaSy...IDGw,441,Jurong East,Jurong Gateway,education,primary school,ChIJW0UfzQQQ2jERh4EbohGYgDc,OK,,0,Fuhua Primary School
+2026-07-19T13:21:28.944174,place_details_reviews,1,AIzaSy...IDGw,442,Jurong East,Jurong Gateway,education,secondary school,ChIJXc8jYicQ2jERFunXyoPO2M0,OK,,0,Jurongville Secondary School
+2026-07-19T13:21:29.671398,place_details_reviews,1,AIzaSy...IDGw,443,Jurong East,Jurong Gateway,education,junior college,ChIJT5S8dAUQ2jERlO45LX8tw-U,OK,,5,The Brainery Code @ Jurong
+2026-07-19T13:21:30.202174,place_details_reviews,1,AIzaSy...IDGw,444,Jurong East,Jurong Gateway,education,polytechnic,ChIJSesPoQUQ2jERk2dNLBwchLQ,OK,,5,Jurong Academy Pte. Ltd.
+2026-07-19T13:21:30.931007,place_details_reviews,1,AIzaSy...IDGw,445,Jurong East,Jurong Gateway,education,university,ChIJlZoVmwUQ2jERsmoHDrhjvNA,OK,,5,Nanyang Asia College
+2026-07-19T13:21:31.374641,place_details_reviews,1,AIzaSy...IDGw,446,Jurong East,Jurong Gateway,education,university,ChIJj2bknAUQ2jERfJDtdndWgqQ,OK,,5,KLC International Institute @ Jurong Gateway
+2026-07-19T13:21:31.762401,place_details_reviews,1,AIzaSy...IDGw,447,Jurong East,Jurong Gateway,education,tuition centre,ChIJLVNcmwUQ2jERzQeEMhSqdGc,OK,,5,Tuition with Arthur Lee
+2026-07-19T13:21:32.276334,place_details_reviews,1,AIzaSy...IDGw,448,Jurong East,Jurong Gateway,education,tuition centre,ChIJoSscogUQ2jERX5KSh_sgyuc,OK,,5,Learners' Lodge @ Jurong Gateway
+2026-07-19T13:21:33.043998,place_details_reviews,1,AIzaSy...IDGw,449,Jurong East,Jurong Gateway,transport,MRT station,ChIJh9X09qMR2jERJ8_dEZ6XKy0,OK,,5,Jurong East MRT Station (JE5) (U/C)
+2026-07-19T13:21:33.907668,place_details_reviews,1,AIzaSy...IDGw,450,Jurong East,Jurong Gateway,food,hawker centre,ChIJDycdABkQ2jERbkUDDjZBFk8,OK,,5,Yuhua Village Market and Food Centre
+2026-07-19T13:21:34.650105,place_details_reviews,1,AIzaSy...IDGw,451,Jurong East,Jurong Gateway,food,hawker centre,ChIJwYx9mx8Q2jERbnODLJmL8gc,OK,,5,Yuhua Place Market and Hawker Centre
+2026-07-19T13:21:35.244755,place_details_reviews,1,AIzaSy...IDGw,452,Jurong East,Jurong Gateway,food,food court,ChIJ9dQHj7ER2jERnpzPaCIsiEc,OK,,5,Food Junction
+2026-07-19T13:21:36.038828,place_details_reviews,1,AIzaSy...IDGw,453,Jurong East,Jurong Gateway,food,food court,ChIJb9T5PA8Q2jERg9gtGzcYV6Y,OK,,5,Kopitiam Food Hall
+2026-07-19T13:21:36.513047,place_details_reviews,1,AIzaSy...IDGw,454,Jurong East,Jurong Gateway,food,coffee shop,ChIJXzrYedQX2jERoCkWC9d6Lcg,OK,,5,Ting Yuan
+2026-07-19T13:21:37.023609,place_details_reviews,1,AIzaSy...IDGw,455,Jurong East,Jurong Gateway,food,coffee shop,ChIJf3Q1fAAR2jERQu3wrMTv-H8,OK,,5,Hearty Cafe
+2026-07-19T13:21:37.594499,place_details_reviews,1,AIzaSy...IDGw,456,Jurong East,Jurong Gateway,food,restaurant,ChIJsbKPN4ER2jERLslb3_Zc4iI,OK,,5,Hakka Yu Jem
+2026-07-19T13:21:38.717967,place_details_reviews,1,AIzaSy...IDGw,457,Jurong East,Jurong Gateway,food,restaurant,ChIJYTY6IAAR2jERXV0GVn4NwMk,OK,,5,Nan Yang Dao 南洋岛 @ JEM
+2026-07-19T13:21:39.640904,place_details_reviews,1,AIzaSy...IDGw,458,Jurong East,Jurong Gateway,shopping,shopping mall,ChIJb20nHg8Q2jERuBnOGGnuq-s,OK,,5,Jem
+2026-07-19T13:21:40.038879,place_details_reviews,1,AIzaSy...IDGw,459,Jurong East,Jurong Gateway,shopping,supermarket,ChIJiWfwdQUQ2jERTrgaZHZT4Pg,OK,,5,FairPrice Jurong East
+2026-07-19T13:21:40.756745,place_details_reviews,1,AIzaSy...IDGw,460,Jurong East,Jurong Gateway,shopping,convenience store,ChIJyRL4GwAR2jER8OKW1WzergM,OK,,5,7-Eleven
+2026-07-19T13:21:41.274631,place_details_reviews,1,AIzaSy...IDGw,461,Jurong East,Jurong Gateway,shopping,convenience store,ChIJYcAFgssR2jERo4xZSmcifTc,OK,,5,Cheers
+2026-07-19T13:21:42.072147,place_details_reviews,1,AIzaSy...IDGw,462,Jurong East,Jurong Gateway,recreation,gym,ChIJM8FF1ZAR2jERuDhsvx_JALo,OK,,5,Anytime Fitness Jurong East Central
+2026-07-19T13:21:42.609079,place_details_reviews,1,AIzaSy...IDGw,463,Jurong East,Jurong Gateway,recreation,gym,ChIJu9W1vw8Q2jERfFfvL_j9NVY,OK,,5,Fitness First - Westgate
+2026-07-19T13:21:43.047386,place_details_reviews,1,AIzaSy...IDGw,464,Jurong East,Jurong Gateway,recreation,sports centre,ChIJ2XCvCiAQ2jERNcw38Db6v5w,OK,,5,Jurong East Sport Centre
+2026-07-19T13:21:43.757897,place_details_reviews,1,AIzaSy...IDGw,465,Jurong East,Jurong Gateway,recreation,community club,ChIJd4ldQJMP2jERlQdLPkzVa4A,OK,,5,The Frontier Community Club
+2026-07-19T13:21:44.511241,place_details_reviews,1,AIzaSy...IDGw,466,Jurong East,Jurong Gateway,nature,park,ChIJJfOlM70R2jERRj0tG9FqivQ,OK,,5,Jurong Play Grounds
+2026-07-19T13:21:45.129966,place_details_reviews,1,AIzaSy...IDGw,467,Jurong East,Jurong Gateway,nature,nature reserve,ChIJuZ4kdB0Q2jERdp1SrojDF_I,OK,,5,Chinese Garden
+2026-07-19T13:21:45.794872,place_details_reviews,1,AIzaSy...IDGw,468,Jurong East,Jurong Gateway,nature,garden,ChIJYfjZ5wIQ2jER-5CKxpDbgEI,OK,,5,Japanese Garden
+2026-07-19T13:21:46.579420,place_details_reviews,1,AIzaSy...IDGw,469,Jurong East,Jurong Gateway,nature,beach,ChIJ3z47TJsR2jERfdX6dpG5Z58,OK,,5,"Parkway Shenton Medical Clinic, Jurong Gateway"
+2026-07-19T13:21:47.357483,place_details_reviews,1,AIzaSy...IDGw,470,Jurong East,Jurong Gateway,nature,beach,ChIJP9VXGUYb2jERtdnj6hqK6J0,OK,,1,West coast Road
+2026-07-19T13:21:47.784437,place_details_reviews,1,AIzaSy...IDGw,471,Jurong East,Jurong Gateway,nature,waterfront,ChIJ3dTg3A8Q2jERI61lPg1ExlM,OK,,5,J Gateway
+2026-07-19T13:21:48.304171,place_details_reviews,1,AIzaSy...IDGw,472,Jurong East,Jurong Gateway,nature,park connector,ChIJh96XTAAP2jERpzIEPWepVmE,OK,,2,Jurong Park Connector
+2026-07-19T13:21:48.996886,place_details_reviews,1,AIzaSy...IDGw,473,Jurong East,Jurong Gateway,nature,park connector,ChIJmSxPXwAR2jERHtCgu8jdPoU,OK,,0,Jurong Town Hall Park Connector
+2026-07-19T13:21:49.437969,place_details_reviews,1,AIzaSy...IDGw,474,Jurong East,Jurong Port,education,kindergarten,ChIJXX7H5RkQ2jERvkECJ1cEdPQ,OK,,5,Little Footprints Preschool @ Jurong East 248
+2026-07-19T13:21:50.104979,place_details_reviews,1,AIzaSy...IDGw,475,Jurong East,Jurong Port,education,primary school,ChIJd4xooCEQ2jERifojA0epL4w,OK,,0,Jurong Primary School
+2026-07-19T13:21:50.556427,place_details_reviews,1,AIzaSy...IDGw,476,Jurong East,Jurong Port,education,primary school,ChIJubizZRcQ2jERZIeyb0momvE,OK,,0,Yuhua Primary School
+2026-07-19T13:21:51.065970,place_details_reviews,1,AIzaSy...IDGw,477,Jurong East,Jurong Port,education,junior college,ChIJ7aAp7AkX2jERMXPZER1KuCU,OK,,5,Nanyang Junior College
+2026-07-19T13:21:51.538578,place_details_reviews,1,AIzaSy...IDGw,478,Jurong East,Jurong Port,education,polytechnic,ChIJFXzxL2Aa2jERnoWTOdJdVKk,OK,,5,Singapore Polytechnic
+2026-07-19T13:21:52.061264,place_details_reviews,1,AIzaSy...IDGw,479,Jurong East,Jurong Port,education,polytechnic,ChIJWeO0jn0Q2jERQwzr3v_n0nU,OK,,5,Ngee Ann Polytechnic
+2026-07-19T13:21:52.889160,place_details_reviews,1,AIzaSy...IDGw,480,Jurong East,Jurong Port,education,tuition centre,ChIJ0QPFeeQR2jERm-2lfVxMdSk,OK,,5,EduFirst Learning Centre (Jurong East Branch) - English Math Chinese Science Tuition Centre Singapore
+2026-07-19T13:21:53.356545,place_details_reviews,1,AIzaSy...IDGw,481,Jurong East,Jurong Port,education,library,ChIJF3XNQ5MP2jERXeUO2D_OtYY,OK,,5,Jurong West Library
+2026-07-19T13:21:54.109874,place_details_reviews,1,AIzaSy...IDGw,482,Jurong East,Jurong Port,transport,bus stop,ChIJaWgoqk8F2jERVQR0ifOTKjw,OK,,3,Jurong Port Workshops
+2026-07-19T13:21:54.590206,place_details_reviews,1,AIzaSy...IDGw,483,Jurong East,Jurong Port,food,food court,ChIJe2fyt1EF2jERVtbsI5Hyvcc,OK,,5,Jurong Port Food Centre
+2026-07-19T13:21:55.387071,place_details_reviews,1,AIzaSy...IDGw,484,Jurong East,Jurong Port,food,coffee shop,ChIJa68lOxYR2jERa4QEIf8g6XY,OK,,5,Han n Han Nanyang Coffeeshop
+2026-07-19T13:21:56.068057,place_details_reviews,1,AIzaSy...IDGw,485,Jurong East,Jurong Port,food,restaurant,ChIJNzPuIxsX2jERCubjluZTnUk,OK,,5,Canopy Jurong Lake Gardens
+2026-07-19T13:21:56.864439,place_details_reviews,1,AIzaSy...IDGw,486,Jurong East,Jurong Port,food,restaurant,ChIJeRlJiJUR2jEROmzeM9L4Vvw,OK,,5,JT’s Manukan Grille - Jurong East
+2026-07-19T13:21:57.353530,place_details_reviews,1,AIzaSy...IDGw,487,Jurong East,Jurong Port,shopping,convenience store,ChIJCfTXdQAR2jER3Y_eaiBjd20,OK,,1,Welcome 262 Mini-Mart
+2026-07-19T13:21:58.069322,place_details_reviews,1,AIzaSy...IDGw,488,Jurong East,Jurong Port,shopping,convenience store,ChIJw7-n0SAQ2jERFtzXNsfcXlo,OK,,1,Hoe Guan Minimart
+2026-07-19T13:21:58.715692,place_details_reviews,1,AIzaSy...IDGw,489,Jurong East,Jurong Port,shopping,wet market,ChIJyVmpHUoF2jERlBCX3zMfUfA,OK,,5,Jurong Fishery Port
+2026-07-19T13:21:59.102195,place_details_reviews,1,AIzaSy...IDGw,490,Jurong East,Jurong Port,recreation,gym,ChIJjbUiegAR2jER1bY16HbEfv0,OK,,5,Jurong East ActiveSG Gym
+2026-07-19T13:21:59.852467,place_details_reviews,1,AIzaSy...IDGw,491,Jurong East,Jurong Port,recreation,sports centre,ChIJ5ZWFLk0R2jERhmo1GKC9Eso,OK,,0,Jurong East Sport Hall
+2026-07-19T13:22:00.530388,place_details_reviews,1,AIzaSy...IDGw,492,Jurong East,Jurong Port,recreation,cinema,ChIJgWtqxOwP2jERydU8CT8sako,OK,,5,Golden Village
+2026-07-19T13:22:00.923494,place_details_reviews,1,AIzaSy...IDGw,493,Jurong East,Jurong Port,recreation,playground,ChIJxZJBOxgQ2jEReoKUUVNDHZU,OK,,5,Playground
+2026-07-19T13:22:01.595000,place_details_reviews,1,AIzaSy...IDGw,494,Jurong East,Jurong Port,nature,park,ChIJqVUlbe0P2jER-8gqnsq4eNk,OK,,5,Jurong Central Park
+2026-07-19T13:22:02.443788,place_details_reviews,1,AIzaSy...IDGw,495,Jurong East,Jurong Port,nature,park,ChIJWQLwKP0P2jER-AOMrDbkIW8,OK,,5,Jurong Lake Gardens
+2026-07-19T13:22:03.166441,place_details_reviews,1,AIzaSy...IDGw,496,Jurong East,Jurong Port,nature,nature reserve,ChIJEw9LsqQP2jERoMzmu0HIe44,OK,,5,Rasau Walk
+2026-07-19T13:22:03.973207,place_details_reviews,1,AIzaSy...IDGw,497,Jurong East,Jurong Port,nature,nature reserve,ChIJR9wDuIwQ2jERp5g9l0m9MQ0,OK,,5,Rifle Range Nature Park
+2026-07-19T13:22:04.676057,place_details_reviews,1,AIzaSy...IDGw,498,Jurong East,Jurong Port,nature,garden,ChIJA8Chy6wP2jER5gV-C5bUNKI,OK,,5,Lakeside Garden
+2026-07-19T13:22:05.336134,place_details_reviews,1,AIzaSy...IDGw,499,Jurong East,Jurong Port,nature,waterfront,ChIJq7zh5DMF2jERb7tD2bcHjZo,OK,,5,Jurong Port Pte Ltd
+2026-07-19T13:22:05.872812,place_details_reviews,1,AIzaSy...IDGw,500,Jurong East,Jurong Port,nature,waterfront,ChIJeZyq8ZoP2jERC13qGO_hM7M,OK,,5,Jurong Lake Floating Wetlands
+2026-07-19T13:22:06.256372,place_details_reviews,1,AIzaSy...IDGw,501,Jurong East,Jurong River,education,kindergarten,ChIJPWtYrJkR2jERUXJs-vkRj4s,OK,,5,Superland Pre-School (Jurong East)
+2026-07-19T13:22:06.989309,place_details_reviews,1,AIzaSy...IDGw,502,Jurong East,Jurong River,education,university,ChIJj2bknAUQ2jERNj9MeojQNPA,OK,,5,Spring College International
+2026-07-19T13:22:07.692462,place_details_reviews,1,AIzaSy...IDGw,503,Jurong East,Jurong River,food,hawker centre,ChIJd8qWeB8Q2jERBE8TKhpUvxU,OK,,5,Yuhua Place
+2026-07-19T13:22:08.181968,place_details_reviews,1,AIzaSy...IDGw,504,Jurong East,Jurong River,food,food court,ChIJJWh3WwAR2jER_Jz1qGVtakU,OK,,1,Jurong East Food Court
+2026-07-19T13:22:08.862963,place_details_reviews,1,AIzaSy...IDGw,505,Jurong East,Jurong River,food,food court,ChIJfcMZnQUQ2jER6J4W7AxF0uM,OK,,5,Foodclique
+2026-07-19T13:22:09.813768,place_details_reviews,1,AIzaSy...IDGw,506,Jurong East,Jurong River,food,coffee shop,ChIJBzNsagAR2jERX4XWO2GBAyI,OK,,5,Zero Hour Coffee
+2026-07-19T13:22:10.669559,place_details_reviews,1,AIzaSy...IDGw,507,Jurong East,Jurong River,food,restaurant,ChIJ487Dp2oR2jERTV1zM0iJNYo,OK,,5,YC Dining & Bar | Western Restaurant Bar
+2026-07-19T13:22:11.110700,place_details_reviews,1,AIzaSy...IDGw,508,Jurong East,Jurong River,food,restaurant,ChIJU7ygrXcR2jERfYr0Io14l5s,OK,,5,He Jia Huan
+2026-07-19T13:22:11.576743,place_details_reviews,1,AIzaSy...IDGw,509,Jurong East,Jurong River,food,cafe,ChIJRfjvYMkP2jERIzYiCJo-PYo,OK,,5,Eden | Chinese Garden | Halal-Certified
+2026-07-19T13:22:12.369879,place_details_reviews,1,AIzaSy...IDGw,510,Jurong East,Jurong River,shopping,convenience store,ChIJBbu0LhAQ2jERKFrnCQCDaSs,OK,,5,7-Eleven
+2026-07-19T13:22:13.069871,place_details_reviews,1,AIzaSy...IDGw,511,Jurong East,Jurong River,shopping,wet market,ChIJo6zVvtwP2jERyf2Nuhm97cM,OK,,5,505 Jurong West Market & Food Centre
+2026-07-19T13:22:13.512023,place_details_reviews,1,AIzaSy...IDGw,512,Jurong East,Jurong River,recreation,community club,ChIJl3OX0d4P2jERfrhbQVC52gI,OK,,5,Jurong Green Community Club
+2026-07-19T13:22:14.162349,place_details_reviews,1,AIzaSy...IDGw,513,Jurong East,Jurong River,nature,park,ChIJAXJ59R8Q2jERdOy17ZXsT88,OK,,5,Carpark - Jurong East Sports Complex
+2026-07-19T13:22:14.988807,place_details_reviews,1,AIzaSy...IDGw,514,Jurong East,Jurong River,nature,waterfront,ChIJUWD1pFAP2jERy6n20jfMmqQ,OK,,5,PAssion Wave @ Jurong Lake Gardens
+2026-07-19T13:22:15.395055,place_details_reviews,1,AIzaSy...IDGw,515,Jurong East,Lakeside (Business),education,childcare centre,ChIJndkzewkR2jERv3YGBGvlhsA,OK,,1,Lakeside Student Care (Jurong East)
+2026-07-19T13:22:15.982864,place_details_reviews,1,AIzaSy...IDGw,516,Jurong East,Lakeside (Business),education,primary school,ChIJVwe1euUP2jERXOcoAuUFS9Y,OK,,0,Lakeside Primary School
+2026-07-19T13:22:16.369631,place_details_reviews,1,AIzaSy...IDGw,517,Jurong East,Lakeside (Business),education,secondary school,ChIJ9TkRCBcQ2jERr5vfHgln9C4,OK,,0,Commonwealth Secondary School
+2026-07-19T13:22:17.050513,place_details_reviews,1,AIzaSy...IDGw,518,Jurong East,Lakeside (Business),education,university,ChIJzQgay6UR2jERPb7L3jvTpO4,OK,,5,Perennial Business City
+2026-07-19T13:22:17.578223,place_details_reviews,1,AIzaSy...IDGw,519,Jurong East,Lakeside (Business),education,tuition centre,ChIJs_HzpB8Q2jERR4GH1L6JwLA,OK,,3,Elite Creations Education Centre
+2026-07-19T13:22:18.250613,place_details_reviews,1,AIzaSy...IDGw,520,Jurong East,Lakeside (Business),education,tuition centre,ChIJ0-D1oQUQ2jERKUV6H20ywWo,OK,,5,Trinity Learning Centre
+2026-07-19T13:22:18.692871,place_details_reviews,1,AIzaSy...IDGw,521,Jurong East,Lakeside (Business),transport,MRT station,ChIJRbJiD-cP2jERkXkR2OZh8hI,OK,,5,Lakeside
+2026-07-19T13:22:19.562970,place_details_reviews,1,AIzaSy...IDGw,522,Jurong East,Lakeside (Business),transport,MRT station,ChIJUeGvkh4Q2jER21Tz2-_e-_I,OK,,5,Chinese Garden
+2026-07-19T13:22:20.223869,place_details_reviews,1,AIzaSy...IDGw,523,Jurong East,Lakeside (Business),transport,bus stop,ChIJX2HOp-cP2jERA6fPSEhdhjU,OK,,5,Lakeside Stn
+2026-07-19T13:22:21.068104,place_details_reviews,1,AIzaSy...IDGw,524,Jurong East,Lakeside (Business),transport,bus stop,ChIJgZCJuucP2jER0K5hyTlYlag,OK,,5,Opp Lakeside Stn
+2026-07-19T13:22:21.920633,place_details_reviews,1,AIzaSy...IDGw,525,Jurong East,Lakeside (Business),food,hawker centre,ChIJHabbDPsP2jEROQtuba0GHhc,OK,,5,Taman Jurong Market & Food Centre
+2026-07-19T13:22:22.596044,place_details_reviews,1,AIzaSy...IDGw,526,Jurong East,Lakeside (Business),food,food court,ChIJn0G3BhUR2jEREQEUgC4LZww,OK,,5,Koufu
+2026-07-19T13:22:23.320175,place_details_reviews,1,AIzaSy...IDGw,527,Jurong East,Lakeside (Business),food,coffee shop,ChIJE5u0wHAZ2jERGgPcjCawHnM,OK,,5,Glyph Supply Co
+2026-07-19T13:22:23.741682,place_details_reviews,1,AIzaSy...IDGw,528,Jurong East,Lakeside (Business),food,restaurant,ChIJYc224NwP2jERbGWRSbHzftY,OK,,5,Lakeside Eatery
+2026-07-19T13:22:24.564447,place_details_reviews,1,AIzaSy...IDGw,529,Jurong East,Lakeside (Business),food,restaurant,ChIJnxLBRwAb2jER4XgO-W_dte8,OK,,0,Lakeside park side
+2026-07-19T13:22:25.464107,place_details_reviews,1,AIzaSy...IDGw,530,Jurong East,Lakeside (Business),shopping,supermarket,ChIJo8wN5qUa2jERTAxWc0A6fak,OK,,5,Sheng Siong Supermarket
+2026-07-19T13:22:25.897808,place_details_reviews,1,AIzaSy...IDGw,531,Jurong East,Lakeside (Business),shopping,supermarket,ChIJLVIrvFUF2jERKgyxcADnXm8,OK,,5,Sheng Siong Supermarket
+2026-07-19T13:22:26.731701,place_details_reviews,1,AIzaSy...IDGw,532,Jurong East,Lakeside (Business),shopping,grocery store,ChIJL2VjLVUR2jERsOWri848eXY,OK,,5,Varshini Grocery Store
+2026-07-19T13:22:27.346049,place_details_reviews,1,AIzaSy...IDGw,533,Jurong East,Lakeside (Business),shopping,grocery store,ChIJ4fDhXwAP2jER7HzShwxpMag,OK,,1,Freshlane minimart - Lakeside Outlet
+2026-07-19T13:22:28.033733,place_details_reviews,1,AIzaSy...IDGw,534,Jurong East,Lakeside (Business),shopping,convenience store,ChIJffTNEecP2jERpa5FxHAcKSY,OK,,5,7-Eleven
+2026-07-19T13:22:28.943010,place_details_reviews,1,AIzaSy...IDGw,535,Jurong East,Lakeside (Business),recreation,gym,ChIJgRH1kBYR2jER7dj5D25XNWo,OK,,5,Extreme Fitness - Personal Training Jurong East
+2026-07-19T13:22:29.514623,place_details_reviews,1,AIzaSy...IDGw,536,Jurong East,Lakeside (Business),recreation,gym,ChIJoRUO01IR2jERHiBmFCHu9ZA,OK,,5,Dungeon Performance
+2026-07-19T13:22:29.915688,place_details_reviews,1,AIzaSy...IDGw,537,Jurong East,Lakeside (Business),recreation,swimming complex,ChIJZ5KdZS4P2jERJqwjFbLRyhQ,OK,,5,ActiveSG Park @ Jurong Lake Gardens
+2026-07-19T13:22:30.758630,place_details_reviews,1,AIzaSy...IDGw,538,Jurong East,Lakeside (Business),recreation,cinema,ChIJIU1XigUQ2jERnmoHug3eYKY,OK,,5,Shaw Theatres JCube
+2026-07-19T13:22:31.504250,place_details_reviews,1,AIzaSy...IDGw,539,Jurong East,Lakeside (Business),recreation,community club,ChIJxYNXE_sP2jEReHgQTCiiv-8,OK,,5,Taman Jurong Community Club
+2026-07-19T13:22:32.302839,place_details_reviews,1,AIzaSy...IDGw,540,Jurong East,Lakeside (Business),recreation,playground,ChIJx7P2KJ8P2jER2CjBImw8IAg,OK,,5,Forest Ramble
+2026-07-19T13:22:32.959896,place_details_reviews,1,AIzaSy...IDGw,541,Jurong East,Lakeside (Business),recreation,playground,ChIJDzZ6g4sP2jEROUlI78hhhWk,OK,,5,Play Pavilion
+2026-07-19T13:22:33.474707,place_details_reviews,1,AIzaSy...IDGw,542,Jurong East,Lakeside (Business),nature,park,ChIJ1T8GV0wP2jERU1itDGjy6ec,OK,,5,Lakeside Field
+2026-07-19T13:22:34.003327,place_details_reviews,1,AIzaSy...IDGw,543,Jurong East,Lakeside (Business),nature,waterfront,ChIJW11vfwAR2jERVPUxm_xSNQY,OK,,1,Perennial Business City (Public Space)
+2026-07-19T13:22:34.781814,place_details_reviews,1,AIzaSy...IDGw,544,Jurong East,Lakeside (Leisure),education,childcare centre,ChIJWbShSR8Q2jER-8Aly5VGAlY,OK,,5,Lakeside Family Centre (Jurong East)
+2026-07-19T13:22:35.314821,place_details_reviews,1,AIzaSy...IDGw,545,Jurong East,Lakeside (Leisure),education,secondary school,ChIJsUBgxf4P2jERpCwsWp4c_V0,OK,,0,Jurong Secondary School
+2026-07-19T13:22:35.910787,place_details_reviews,1,AIzaSy...IDGw,546,Jurong East,Lakeside (Leisure),education,tuition centre,ChIJFZIEu6Ma2jERvLsDl_vT6WI,OK,,5,TLC Learning Centre
+2026-07-19T13:22:36.472922,place_details_reviews,1,AIzaSy...IDGw,547,Jurong East,Lakeside (Leisure),food,food court,ChIJAQAAkFUF2jER4AVvYRS7r4c,OK,,5,Food More
+2026-07-19T13:22:37.368112,place_details_reviews,1,AIzaSy...IDGw,548,Jurong East,Lakeside (Leisure),food,food court,ChIJncjPBA8U2jER5ol9uaCD7KY,OK,,5,ORTO
+2026-07-19T13:22:38.204015,place_details_reviews,1,AIzaSy...IDGw,549,Jurong East,Lakeside (Leisure),food,coffee shop,ChIJN4QbY_8P2jERAwAiIQaXgxQ,OK,,5,Starbucks
+2026-07-19T13:22:38.804656,place_details_reviews,1,AIzaSy...IDGw,550,Jurong East,Lakeside (Leisure),food,coffee shop,ChIJt6qo6x8Q2jEREHVN58Sgrrk,OK,,5,346 Coffee Shop
+2026-07-19T13:22:39.211912,place_details_reviews,1,AIzaSy...IDGw,551,Jurong East,Lakeside (Leisure),recreation,gym,ChIJxWwh6k4P2jERaDoN3Xy17JE,OK,,5,Jurong Lake Gardens ActiveSG Gym
+2026-07-19T13:22:39.616909,place_details_reviews,1,AIzaSy...IDGw,552,Jurong East,Lakeside (Leisure),recreation,swimming complex,ChIJ6QCPCgAP2jERoZOvShyzyL4,OK,,1,ActiveSG Park Swimming pool @ Jurong Lake Gardens
+2026-07-19T13:22:40.249691,place_details_reviews,1,AIzaSy...IDGw,553,Jurong East,Lakeside (Leisure),nature,waterfront,ChIJjdfBCf0P2jERudzzVTy5ZLY,OK,,5,Wave Plaza @ Jurong Lake Gardens
+2026-07-19T13:22:40.849305,place_details_reviews,1,AIzaSy...IDGw,554,Jurong East,Penjuru Crescent,education,childcare centre,ChIJ9xq4i60a2jERtrsKmFap4qA,OK,,5,Penjuru Recreation Centre
+2026-07-19T13:22:41.462134,place_details_reviews,1,AIzaSy...IDGw,555,Jurong East,Penjuru Crescent,education,junior college,ChIJESRAQ1sa2jERlSmmrDCCriw,OK,,5,Anglo-Chinese Junior College
+2026-07-19T13:22:42.256332,place_details_reviews,1,AIzaSy...IDGw,556,Jurong East,Penjuru Crescent,education,polytechnic,ChIJSUYnLEQQ2jERt0KHLpRBH0M,OK,,5,HOPE Technik
+2026-07-19T13:22:43.076580,place_details_reviews,1,AIzaSy...IDGw,557,Jurong East,Penjuru Crescent,education,polytechnic,ChIJ2eeHhYsP2jER5yfQUReXqG8,OK,,5,Vac-Tech Engineering Pte Ltd
+2026-07-19T13:22:43.563156,place_details_reviews,1,AIzaSy...IDGw,558,Jurong East,Penjuru Crescent,education,library,ChIJtzMNcAAR2jERTB2jtey1QbE,OK,,1,Jurong Library Book Exchange Corner
+2026-07-19T13:22:44.166896,place_details_reviews,1,AIzaSy...IDGw,559,Jurong East,Penjuru Crescent,transport,bus stop,ChIJ8wthjbEa2jERpAyhU0nm8gY,OK,,5,Aft Penjuru Pl
+2026-07-19T13:22:44.713747,place_details_reviews,1,AIzaSy...IDGw,560,Jurong East,Penjuru Crescent,transport,bus stop,ChIJWVNwV7Ea2jER0y0eyYMKCrU,OK,,5,Bef Penjuru Cl
+2026-07-19T13:22:45.553120,place_details_reviews,1,AIzaSy...IDGw,561,Jurong East,Penjuru Crescent,transport,LRT station,ChIJd8tgHq4a2jERU8Hir8EbClc,OK,,4,Bef Penjuru Wk
+2026-07-19T13:22:46.199710,place_details_reviews,1,AIzaSy...IDGw,562,Jurong East,Penjuru Crescent,food,hawker centre,ChIJxSsxw28b2jERx2k4lNmzi1E,OK,,5,The People's Canteen
+2026-07-19T13:22:46.784346,place_details_reviews,1,AIzaSy...IDGw,563,Jurong East,Penjuru Crescent,food,hawker centre,ChIJq269F68a2jERNfOn3w394Tk,OK,,5,Penjuru Foodcourt
+2026-07-19T13:22:47.558647,place_details_reviews,1,AIzaSy...IDGw,564,Jurong East,Penjuru Crescent,food,coffee shop,ChIJI2cBd7Ua2jERAye8efOrSQU,OK,,5,Lim Hui Eng (Food Court)
+2026-07-19T13:22:48.316046,place_details_reviews,1,AIzaSy...IDGw,565,Jurong East,Penjuru Crescent,food,restaurant,ChIJH1JbAvMb2jERtSaQXkh2w78,OK,,5,Zhonghe Town Restaurant
+2026-07-19T13:22:49.179554,place_details_reviews,1,AIzaSy...IDGw,566,Jurong East,Penjuru Crescent,food,restaurant,ChIJx5nbr7kP2jERXb9izYnS1Jc,OK,,5,中河小镇 penjuru
+2026-07-19T13:22:49.963523,place_details_reviews,1,AIzaSy...IDGw,567,Jurong East,Penjuru Crescent,shopping,supermarket,ChIJSW_APfsb2jERqLsrO6vaOl4,OK,,3,Viva Supermarket
+2026-07-19T13:22:50.748200,place_details_reviews,1,AIzaSy...IDGw,568,Jurong East,Penjuru Crescent,shopping,supermarket,ChIJPQG4i60a2jERim25W-EXrc0,OK,,5,Archana Provision Stores Pte Ltd
+2026-07-19T13:22:51.326663,place_details_reviews,1,AIzaSy...IDGw,569,Jurong East,Penjuru Crescent,shopping,convenience store,ChIJPzM9Nksb2jERytUZOBYnCDI,OK,,4,Kolee Supermarkets
+2026-07-19T13:22:52.092200,place_details_reviews,1,AIzaSy...IDGw,570,Jurong East,Penjuru Crescent,nature,park,ChIJJW5znqgb2jER3_KgZJ6NQs0,OK,,3,CEVA Logistics
+2026-07-19T13:22:52.725006,place_details_reviews,1,AIzaSy...IDGw,571,Jurong East,Penjuru Crescent,nature,nature reserve,ChIJda_ZZ8gb2jERIBm0jSNkB7I,OK,,4,Tanjong Penjuru
+2026-07-19T13:22:53.298700,place_details_reviews,1,AIzaSy...IDGw,572,Jurong East,Penjuru Crescent,nature,garden,ChIJZZCpGAAP2jEROBDdT7Th7Gg,OK,,5,Edible Garden
+2026-07-19T13:22:54.021702,place_details_reviews,1,AIzaSy...IDGw,573,Jurong East,Penjuru Crescent,nature,beach,ChIJQ8uk4vwa2jERqMrT6OFBMuw,OK,,5,West Coast Park
+2026-07-19T13:22:54.491177,place_details_reviews,1,AIzaSy...IDGw,574,Jurong East,Penjuru Crescent,nature,waterfront,ChIJcQhrBHIb2jERs9a4pd6udts,OK,,5,HSL Waterfront @ Penjuru
+2026-07-19T13:22:55.373578,place_details_reviews,1,AIzaSy...IDGw,575,Jurong East,Penjuru Crescent,nature,waterfront,ChIJOek2eMwa2jER6Cd3Q_Cz9MI,OK,,5,HSL Constructor Pte Ltd
+2026-07-19T13:22:56.176518,place_details_reviews,1,AIzaSy...IDGw,576,Jurong East,Penjuru Crescent,nature,park connector,ChIJV0iBUwAb2jERVcTeHmRHQOQ,OK,,3,West Coast Park Connector
+2026-07-19T13:22:56.559266,place_details_reviews,1,AIzaSy...IDGw,577,Jurong East,Teban Gardens,education,kindergarten,ChIJuR645KUa2jER_GNLhTmyv-0,OK,,5,Little Footprints Preschool @ Teban Gardens
+2026-07-19T13:22:57.335479,place_details_reviews,1,AIzaSy...IDGw,578,Jurong East,Teban Gardens,education,kindergarten,ChIJp2DF2a4a2jERmS8fo7JB6tk,OK,,5,M.Y World @ Teban Gardens
+2026-07-19T13:22:57.949729,place_details_reviews,1,AIzaSy...IDGw,579,Jurong East,Teban Gardens,education,polytechnic,ChIJb_AiiqUa2jER2_eJ1sbtVEo,OK,,5,Teban Neighbourhood Park
+2026-07-19T13:22:58.648797,place_details_reviews,1,AIzaSy...IDGw,580,Jurong East,Teban Gardens,education,library,ChIJSyC_eQAb2jERSZAMKAdvyHk,OK,,0,Amhas’s Library
+2026-07-19T13:22:59.424218,place_details_reviews,1,AIzaSy...IDGw,581,Jurong East,Teban Gardens,transport,MRT station,ChIJIz0plWYb2jERJ_oheIb2nEA,OK,,5,Pandan Reservoir MRT Station (JE7) (U/C)
+2026-07-19T13:23:00.052753,place_details_reviews,1,AIzaSy...IDGw,582,Jurong East,Teban Gardens,transport,bus stop,ChIJkaDDEaQa2jER9t-CvRLXzzk,OK,,2,Aft Pandan Gdns
+2026-07-19T13:23:00.753760,place_details_reviews,1,AIzaSy...IDGw,583,Jurong East,Teban Gardens,transport,bus stop,ChIJ43JX8aQa2jERmedYgwKLZrc,OK,,2,Bef Teban Gdns Rd
+2026-07-19T13:23:01.355324,place_details_reviews,1,AIzaSy...IDGw,584,Jurong East,Teban Gardens,transport,bus interchange,ChIJGyCyDI8R2jERSmw3of7rIA4,OK,,5,Jurong Town Hall Bus Interchange
+2026-07-19T13:23:02.125077,place_details_reviews,1,AIzaSy...IDGw,585,Jurong East,Teban Gardens,food,hawker centre,ChIJj_R4uqUa2jER5f3xsgsfE7k,OK,,5,Teban Market Place
+2026-07-19T13:23:02.937092,place_details_reviews,1,AIzaSy...IDGw,586,Jurong East,Teban Gardens,food,coffee shop,ChIJIWvcUwAb2jERwWsPM1SZcPM,OK,,5,Madras Coffee House's - Teban Gardens Outlet
+2026-07-19T13:23:03.327718,place_details_reviews,1,AIzaSy...IDGw,587,Jurong East,Teban Gardens,food,coffee shop,ChIJ7SzkDEEb2jERsjLH_X_y9V4,OK,,3,Yung Sheng Group 61 Coffeeshop
+2026-07-19T13:23:03.970866,place_details_reviews,1,AIzaSy...IDGw,588,Jurong East,Teban Gardens,food,restaurant,ChIJb-ZKF68a2jERdMTKLnF6DBk,OK,,5,MakanShiok
+2026-07-19T13:23:04.763662,place_details_reviews,1,AIzaSy...IDGw,589,Jurong East,Teban Gardens,shopping,supermarket,ChIJSyI0s6Ua2jERLnh5NwlyrZY,OK,,5,FairPrice Teban Gardens
+2026-07-19T13:23:05.337869,place_details_reviews,1,AIzaSy...IDGw,590,Jurong East,Teban Gardens,shopping,convenience store,ChIJIe_aV4wb2jER1OKDFSD9siI,OK,,3,Cherry Myine minimart
+2026-07-19T13:23:06.013192,place_details_reviews,1,AIzaSy...IDGw,591,Jurong East,Teban Gardens,recreation,sports centre,ChIJa8qMHo0b2jERI8TmSTdf6AY,OK,,5,Teban Gardens Street Soccer Court
+2026-07-19T13:23:06.786232,place_details_reviews,1,AIzaSy...IDGw,592,Jurong East,Teban Gardens,recreation,swimming complex,ChIJSyI0s6Ua2jERqaHd4UUGX98,OK,,5,Singapore Pools (Teban Gardens Branch)
+2026-07-19T13:23:07.225367,place_details_reviews,1,AIzaSy...IDGw,593,Jurong East,Teban Gardens,recreation,community club,ChIJdcxxUa8a2jERt3c0ZzeyAnc,OK,,5,Teban Gardens Residents' Network
+2026-07-19T13:23:08.084912,place_details_reviews,1,AIzaSy...IDGw,594,Jurong East,Teban Gardens,recreation,playground,ChIJq6Eze7cb2jERWV8jpd4hHEg,OK,,2,Childrens Playground
+2026-07-19T13:23:08.448412,place_details_reviews,1,AIzaSy...IDGw,595,Jurong East,Teban Gardens,nature,park,ChIJnSDl8KIa2jERsBuTB8XC7F0,OK,,5,Pandan Gardens Leisure Park
+2026-07-19T13:23:09.222444,place_details_reviews,1,AIzaSy...IDGw,596,Jurong East,Teban Gardens,nature,nature reserve,ChIJMdSL4qQa2jERUTf11hFg0Gs,OK,,5,Pandan Reservoir Park
+2026-07-19T13:23:09.603641,place_details_reviews,1,AIzaSy...IDGw,597,Jurong East,Teban Gardens,nature,garden,ChIJVZ5roaMa2jERzDGfY33Ojng,OK,,0,Pandan Gardens
+2026-07-19T13:23:10.050149,place_details_reviews,1,AIzaSy...IDGw,598,Jurong East,Teban Gardens,nature,waterfront,ChIJ9Ysev6ga2jERZFv75rXCuuA,OK,,5,Teban Vista
+2026-07-19T13:23:10.522655,place_details_reviews,1,AIzaSy...IDGw,599,Jurong East,Teban Gardens,nature,waterfront,ChIJF6hEy1gb2jERgzlbePpu2Zs,OK,,5,Teban View
+2026-07-19T13:23:11.260001,place_details_reviews,1,AIzaSy...IDGw,600,Jurong East,Teban Gardens,nature,park connector,ChIJK_1o8qIa2jERzisybK_sjEs,OK,,4,Pandan Garden Park Connector
+2026-07-19T13:23:12.092185,place_details_reviews,1,AIzaSy...IDGw,601,Jurong East,Toh Guan,education,kindergarten,ChIJwRKV5SoR2jER0DpRl6wAXvE,OK,,5,Columbia Preschool
+2026-07-19T13:23:12.801178,place_details_reviews,1,AIzaSy...IDGw,602,Jurong East,Toh Guan,education,childcare centre,ChIJDYZyqMQR2jERXcP95O9ot1s,OK,,1,PCF Sparkletots @ Bukit Batok East Blk 271
+2026-07-19T13:23:13.334863,place_details_reviews,1,AIzaSy...IDGw,603,Jurong East,Toh Guan,education,junior college,ChIJwURjtzoQ2jERlHPeEoKRpho,OK,,5,Millennia Institute
+2026-07-19T13:23:14.003994,place_details_reviews,1,AIzaSy...IDGw,604,Jurong East,Toh Guan,education,tuition centre,ChIJFbbt2GcP2jERXW9ZVK5Crp0,OK,,5,"ANJUS TUITION CENTRE ,SINGAPORE"
+2026-07-19T13:23:14.585804,place_details_reviews,1,AIzaSy...IDGw,605,Jurong East,Toh Guan,transport,MRT station,ChIJxX8WDbsR2jERIVhyxioCkYo,OK,,5,Toh Guan MRT Station (JE4) (U/C)
+2026-07-19T13:23:15.003701,place_details_reviews,1,AIzaSy...IDGw,606,Jurong East,Toh Guan,transport,bus stop,ChIJRXikcW0Q2jER0SbxeeJHt3c,OK,,3,Opp Toh Guan Ctr
+2026-07-19T13:23:15.789544,place_details_reviews,1,AIzaSy...IDGw,607,Jurong East,Toh Guan,transport,bus stop,ChIJzYBmgRIQ2jERZHkmOlvAV98,OK,,1,Opp Jurong East Warehse
+2026-07-19T13:23:16.297235,place_details_reviews,1,AIzaSy...IDGw,608,Jurong East,Toh Guan,food,hawker centre,ChIJF2vl6BMQ2jERsiECr9CGPc0,OK,,5,Toh Guan Food & Drinks Centre
+2026-07-19T13:23:16.785060,place_details_reviews,1,AIzaSy...IDGw,609,Jurong East,Toh Guan,food,hawker centre,ChIJ9WEkchEQ2jERjPvfnQCLuNw,OK,,5,Broadway Coffee Shop
+2026-07-19T13:23:17.540944,place_details_reviews,1,AIzaSy...IDGw,610,Jurong East,Toh Guan,food,food court,ChIJrafOgW0Q2jERofCmL5b8VqU,OK,,5,FoodHub @ Enterprise Hub
+2026-07-19T13:23:18.122813,place_details_reviews,1,AIzaSy...IDGw,611,Jurong East,Toh Guan,food,restaurant,ChIJvV_3DXMR2jERA3nYATFfdtY,OK,,5,Fat Belly Western Delight
+2026-07-19T13:23:18.729902,place_details_reviews,1,AIzaSy...IDGw,612,Jurong East,Toh Guan,shopping,grocery store,ChIJi622Im0Q2jERs5j2gNPxfLw,OK,,3,Toh Guan Cafe & Mini Mart
+2026-07-19T13:23:19.122012,place_details_reviews,1,AIzaSy...IDGw,613,Jurong East,Toh Guan,shopping,grocery store,ChIJF2vl6BMQ2jERd3xLQ9EDlBg,OK,,5,Top Guan Mini-Mart
+2026-07-19T13:23:19.875081,place_details_reviews,1,AIzaSy...IDGw,614,Jurong East,Toh Guan,shopping,convenience store,ChIJ-Sv2cREQ2jERM4yAhg_AxEI,OK,,5,Joo Guan Hin Minimart
+2026-07-19T13:23:20.695712,place_details_reviews,1,AIzaSy...IDGw,615,Jurong East,Toh Guan,recreation,gym,ChIJB9knrzcR2jERJ3QrCCmpE1Q,OK,,5,Verge Training Jurong East
+2026-07-19T13:23:21.287188,place_details_reviews,1,AIzaSy...IDGw,616,Jurong East,Toh Guan,recreation,sports centre,ChIJZSATVAAR2jERz6R1wkykgjQ,OK,,2,Football Court
+2026-07-19T13:23:22.032260,place_details_reviews,1,AIzaSy...IDGw,617,Jurong East,Toh Guan,recreation,playground,ChIJw39Zci8R2jERpNmcOXsoRtw,OK,,5,Playground
+2026-07-19T13:23:22.441697,place_details_reviews,1,AIzaSy...IDGw,618,Jurong East,Toh Guan,recreation,playground,ChIJ92lzuWgR2jER-LC_eyie21k,OK,,5,Playground
+2026-07-19T13:23:22.935355,place_details_reviews,1,AIzaSy...IDGw,619,Jurong East,Toh Guan,nature,park,ChIJe5RWDBIQ2jER4pA2An_wQAw,OK,,5,Toh Guan Park
+2026-07-19T13:23:23.798464,place_details_reviews,1,AIzaSy...IDGw,620,Jurong East,Toh Guan,nature,garden,ChIJVb7_GwAR2jERoCurZt6Wdao,OK,,5,Sunken Garden
+2026-07-19T13:23:24.587377,place_details_reviews,1,AIzaSy...IDGw,621,Jurong East,Toh Guan,nature,waterfront,ChIJD1tjcgAR2jERXl7ysbLBf2U,OK,,5,Toh Guan Grove
+2026-07-19T13:23:25.313507,place_details_reviews,1,AIzaSy...IDGw,622,Jurong East,Yuhua East,education,childcare centre,ChIJy9kUBRsQ2jERxAHxJxuJPqk,OK,,2,PCF Yuhua Blk 108
+2026-07-19T13:23:25.702703,place_details_reviews,1,AIzaSy...IDGw,623,Jurong East,Yuhua East,education,polytechnic,ChIJNWIiegUQ2jERvlKGyH2sDZ8,OK,,5,St.Hua Private School 圣华技术学院
+2026-07-19T13:23:26.342323,place_details_reviews,1,AIzaSy...IDGw,624,Jurong East,Yuhua East,education,tuition centre,ChIJiQ4esBAQ2jERTUqOVsL6A-8,OK,,5,"Axcell Tuition Centre, Jurong East"
+2026-07-19T13:23:26.805790,place_details_reviews,1,AIzaSy...IDGw,625,Jurong East,Yuhua East,transport,bus stop,ChIJ67r3wBsQ2jERRwsurjYUeGk,OK,,3,Bef Yuhua CC
+2026-07-19T13:23:27.598542,place_details_reviews,1,AIzaSy...IDGw,626,Jurong East,Yuhua East,transport,bus stop,ChIJT3_RgQ8Q2jERK8UR_aNdJlo,OK,,5,Bef Jurong East Stn
+2026-07-19T13:23:28.458625,place_details_reviews,1,AIzaSy...IDGw,627,Jurong East,Yuhua East,shopping,shopping mall,ChIJp5W0GgAR2jERLZjnYyg12b8,OK,,5,Yuhua Village
+2026-07-19T13:23:31.828605,place_details_reviews,1,AIzaSy...IDGw,628,Jurong East,Yuhua East,shopping,supermarket,ChIJtV4cjx8Q2jERMTt5rW87q9Y,OK,,5,FairPrice
+2026-07-19T13:23:32.451412,place_details_reviews,1,AIzaSy...IDGw,629,Jurong East,Yuhua East,shopping,convenience store,ChIJpSf51xQR2jERpqCvFBFUDT4,OK,,5,7-Eleven
+2026-07-19T13:23:32.901635,place_details_reviews,1,AIzaSy...IDGw,630,Jurong East,Yuhua East,shopping,convenience store,ChIJEfpFCMMR2jER2Hv0m16_E3M,OK,,5,7-Eleven
+2026-07-19T13:23:33.475972,place_details_reviews,1,AIzaSy...IDGw,631,Jurong East,Yuhua West,education,childcare centre,ChIJqwjRZnUQ2jER4sUlxzFoDwE,OK,,5,Star Learners @ Jurong East | Preschool & Childcare
+2026-07-19T13:23:34.274352,place_details_reviews,1,AIzaSy...IDGw,632,Jurong East,Yuhua West,education,secondary school,ChIJ1cQfVhEFBBARBg-S8fpTjKE,OK,,0,Yuhua Secondary School
+2026-07-19T13:23:34.776871,place_details_reviews,1,AIzaSy...IDGw,633,Jurong East,Yuhua West,transport,bus stop,ChIJa6ZAzw8Q2jERRc4TgY003K4,OK,,5,J Gateway
+2026-07-19T13:23:35.283327,place_details_reviews,1,AIzaSy...IDGw,634,Jurong East,Yuhua West,recreation,swimming complex,ChIJ4Qton5oP2jERihKBVLOV04k,OK,,5,Jurong West Swimming Complex

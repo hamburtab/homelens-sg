@@ -1,0 +1,369 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-18T16:58:38.122906,text_search,1,AIzaSy...IDGw,585,Tuas,Tengeh,education,kindergarten,"kindergarten in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:58:39.164309,text_search,1,AIzaSy...IDGw,586,Tuas,Tengeh,education,childcare centre,"childcare centre in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:58:40.219053,text_search,1,AIzaSy...IDGw,587,Tuas,Tengeh,education,primary school,"primary school in Tengeh, Tuas, Singapore",OK,,3,
+2026-07-18T16:58:41.162755,text_search,1,AIzaSy...IDGw,588,Tuas,Tengeh,education,secondary school,"secondary school in Tengeh, Tuas, Singapore",OK,,10,
+2026-07-18T16:58:41.778171,text_search,1,AIzaSy...IDGw,589,Tuas,Tengeh,education,junior college,"junior college in Tengeh, Tuas, Singapore",OK,,17,
+2026-07-18T16:58:42.552356,text_search,1,AIzaSy...IDGw,590,Tuas,Tengeh,education,polytechnic,"polytechnic in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:58:43.555610,text_search,1,AIzaSy...IDGw,591,Tuas,Tengeh,education,university,"university in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:58:44.278567,text_search,1,AIzaSy...IDGw,592,Tuas,Tengeh,education,tuition centre,"tuition centre in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:58:45.262927,text_search,1,AIzaSy...IDGw,593,Tuas,Tengeh,education,library,"library in Tengeh, Tuas, Singapore",OK,,19,
+2026-07-18T16:58:46.306492,text_search,1,AIzaSy...IDGw,594,Tuas,Tengeh,transport,MRT station,"MRT station in Tengeh, Tuas, Singapore",OK,,6,
+2026-07-18T16:58:47.108947,text_search,1,AIzaSy...IDGw,595,Tuas,Tengeh,transport,bus stop,"bus stop in Tengeh, Tuas, Singapore",OK,,19,
+2026-07-18T16:58:47.869908,text_search,1,AIzaSy...IDGw,596,Tuas,Tengeh,transport,bus interchange,"bus interchange in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:58:48.917156,text_search,1,AIzaSy...IDGw,597,Tuas,Tengeh,transport,LRT station,"LRT station in Tengeh, Tuas, Singapore",OK,,8,
+2026-07-18T16:58:49.655080,text_search,1,AIzaSy...IDGw,598,Tuas,Tengeh,food,hawker centre,"hawker centre in Tengeh, Tuas, Singapore",OK,,19,
+2026-07-18T16:58:50.412701,text_search,1,AIzaSy...IDGw,599,Tuas,Tengeh,food,food court,"food court in Tengeh, Tuas, Singapore",OK,,18,
+2026-07-18T16:58:51.351607,text_search,1,AIzaSy...IDGw,600,Tuas,Tengeh,food,coffee shop,"coffee shop in Tengeh, Tuas, Singapore",OK,,12,
+2026-07-18T16:58:52.198608,text_search,1,AIzaSy...IDGw,601,Tuas,Tengeh,food,restaurant,"restaurant in Tengeh, Tuas, Singapore",OK,,6,
+2026-07-18T16:58:53.140191,text_search,1,AIzaSy...IDGw,602,Tuas,Tengeh,food,cafe,"cafe in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:58:53.804588,text_search,1,AIzaSy...IDGw,603,Tuas,Tengeh,shopping,shopping mall,"shopping mall in Tengeh, Tuas, Singapore",OK,,4,
+2026-07-18T16:58:54.795414,text_search,1,AIzaSy...IDGw,604,Tuas,Tengeh,shopping,supermarket,"supermarket in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:58:55.576252,text_search,1,AIzaSy...IDGw,605,Tuas,Tengeh,shopping,grocery store,"grocery store in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:58:56.378145,text_search,1,AIzaSy...IDGw,606,Tuas,Tengeh,shopping,convenience store,"convenience store in Tengeh, Tuas, Singapore",OK,,6,
+2026-07-18T16:58:57.228668,text_search,1,AIzaSy...IDGw,607,Tuas,Tengeh,shopping,wet market,"wet market in Tengeh, Tuas, Singapore",OK,,3,
+2026-07-18T16:58:57.894494,text_search,1,AIzaSy...IDGw,608,Tuas,Tengeh,recreation,gym,"gym in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:58:58.926745,text_search,1,AIzaSy...IDGw,609,Tuas,Tengeh,recreation,sports centre,"sports centre in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:58:59.918415,text_search,1,AIzaSy...IDGw,610,Tuas,Tengeh,recreation,swimming complex,"swimming complex in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:00.549128,text_search,1,AIzaSy...IDGw,611,Tuas,Tengeh,recreation,cinema,"cinema in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:01.533309,text_search,1,AIzaSy...IDGw,612,Tuas,Tengeh,recreation,community club,"community club in Tengeh, Tuas, Singapore",OK,,3,
+2026-07-18T16:59:02.553319,text_search,1,AIzaSy...IDGw,613,Tuas,Tengeh,recreation,playground,"playground in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:03.318931,text_search,1,AIzaSy...IDGw,614,Tuas,Tengeh,nature,park,"park in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:04.286941,text_search,1,AIzaSy...IDGw,615,Tuas,Tengeh,nature,nature reserve,"nature reserve in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:05.076734,text_search,1,AIzaSy...IDGw,616,Tuas,Tengeh,nature,garden,"garden in Tengeh, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:06.052105,text_search,1,AIzaSy...IDGw,617,Tuas,Tengeh,nature,beach,"beach in Tengeh, Tuas, Singapore",OK,,15,
+2026-07-18T16:59:06.951396,text_search,1,AIzaSy...IDGw,618,Tuas,Tengeh,nature,waterfront,"waterfront in Tengeh, Tuas, Singapore",OK,,12,
+2026-07-18T16:59:07.881766,text_search,1,AIzaSy...IDGw,619,Tuas,Tengeh,nature,park connector,"park connector in Tengeh, Tuas, Singapore",OK,,7,
+2026-07-18T16:59:08.479331,text_search,1,AIzaSy...IDGw,620,Tuas,Tuas Bay,education,kindergarten,"kindergarten in Tuas Bay, Tuas, Singapore",OK,,7,
+2026-07-18T16:59:09.919447,text_search,1,AIzaSy...IDGw,621,Tuas,Tuas Bay,education,childcare centre,"childcare centre in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:10.939481,text_search,1,AIzaSy...IDGw,622,Tuas,Tuas Bay,education,primary school,"primary school in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:11.743640,text_search,1,AIzaSy...IDGw,623,Tuas,Tuas Bay,education,secondary school,"secondary school in Tuas Bay, Tuas, Singapore",OK,,19,
+2026-07-18T16:59:12.335233,text_search,1,AIzaSy...IDGw,624,Tuas,Tuas Bay,education,junior college,"junior college in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:12.939127,text_search,1,AIzaSy...IDGw,625,Tuas,Tuas Bay,education,polytechnic,"polytechnic in Tuas Bay, Tuas, Singapore",OK,,7,
+2026-07-18T16:59:13.973561,text_search,1,AIzaSy...IDGw,626,Tuas,Tuas Bay,education,university,"university in Tuas Bay, Tuas, Singapore",OK,,10,
+2026-07-18T16:59:14.738757,text_search,1,AIzaSy...IDGw,627,Tuas,Tuas Bay,education,tuition centre,"tuition centre in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:15.647079,text_search,1,AIzaSy...IDGw,628,Tuas,Tuas Bay,education,library,"library in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:16.403427,text_search,1,AIzaSy...IDGw,629,Tuas,Tuas Bay,transport,MRT station,"MRT station in Tuas Bay, Tuas, Singapore",OK,,4,
+2026-07-18T16:59:17.615625,text_search,1,AIzaSy...IDGw,630,Tuas,Tuas Bay,transport,bus stop,"bus stop in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:18.595862,text_search,1,AIzaSy...IDGw,631,Tuas,Tuas Bay,transport,bus interchange,"bus interchange in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:19.290312,text_search,1,AIzaSy...IDGw,632,Tuas,Tuas Bay,transport,LRT station,"LRT station in Tuas Bay, Tuas, Singapore",OK,,8,
+2026-07-18T16:59:20.193217,text_search,1,AIzaSy...IDGw,633,Tuas,Tuas Bay,food,hawker centre,"hawker centre in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:20.913471,text_search,1,AIzaSy...IDGw,634,Tuas,Tuas Bay,food,food court,"food court in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:21.634771,text_search,1,AIzaSy...IDGw,635,Tuas,Tuas Bay,food,coffee shop,"coffee shop in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:22.577679,text_search,1,AIzaSy...IDGw,636,Tuas,Tuas Bay,food,restaurant,"restaurant in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:23.559504,text_search,1,AIzaSy...IDGw,637,Tuas,Tuas Bay,food,cafe,"cafe in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:24.452088,text_search,1,AIzaSy...IDGw,638,Tuas,Tuas Bay,shopping,shopping mall,"shopping mall in Tuas Bay, Tuas, Singapore",OK,,3,
+2026-07-18T16:59:25.053669,text_search,1,AIzaSy...IDGw,639,Tuas,Tuas Bay,shopping,supermarket,"supermarket in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:25.757126,text_search,1,AIzaSy...IDGw,640,Tuas,Tuas Bay,shopping,grocery store,"grocery store in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:26.727892,text_search,1,AIzaSy...IDGw,641,Tuas,Tuas Bay,shopping,convenience store,"convenience store in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:27.687348,text_search,1,AIzaSy...IDGw,642,Tuas,Tuas Bay,shopping,wet market,"wet market in Tuas Bay, Tuas, Singapore",OK,,13,
+2026-07-18T16:59:28.371886,text_search,1,AIzaSy...IDGw,643,Tuas,Tuas Bay,recreation,gym,"gym in Tuas Bay, Tuas, Singapore",OK,,6,
+2026-07-18T16:59:29.036880,text_search,1,AIzaSy...IDGw,644,Tuas,Tuas Bay,recreation,sports centre,"sports centre in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:29.711676,text_search,1,AIzaSy...IDGw,645,Tuas,Tuas Bay,recreation,swimming complex,"swimming complex in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:30.445856,text_search,1,AIzaSy...IDGw,646,Tuas,Tuas Bay,recreation,cinema,"cinema in Tuas Bay, Tuas, Singapore",OK,,16,
+2026-07-18T16:59:31.468265,text_search,1,AIzaSy...IDGw,647,Tuas,Tuas Bay,recreation,community club,"community club in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:32.430360,text_search,1,AIzaSy...IDGw,648,Tuas,Tuas Bay,recreation,playground,"playground in Tuas Bay, Tuas, Singapore",OK,,17,
+2026-07-18T16:59:33.324931,text_search,1,AIzaSy...IDGw,649,Tuas,Tuas Bay,nature,park,"park in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:34.131959,text_search,1,AIzaSy...IDGw,650,Tuas,Tuas Bay,nature,nature reserve,"nature reserve in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:35.047216,text_search,1,AIzaSy...IDGw,651,Tuas,Tuas Bay,nature,garden,"garden in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:35.722475,text_search,1,AIzaSy...IDGw,652,Tuas,Tuas Bay,nature,beach,"beach in Tuas Bay, Tuas, Singapore",OK,,14,
+2026-07-18T16:59:36.690192,text_search,1,AIzaSy...IDGw,653,Tuas,Tuas Bay,nature,waterfront,"waterfront in Tuas Bay, Tuas, Singapore",OK,,16,
+2026-07-18T16:59:37.623840,text_search,1,AIzaSy...IDGw,654,Tuas,Tuas Bay,nature,park connector,"park connector in Tuas Bay, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:38.711288,text_search,1,AIzaSy...IDGw,655,Tuas,Tuas North,education,kindergarten,"kindergarten in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:39.378269,text_search,1,AIzaSy...IDGw,656,Tuas,Tuas North,education,childcare centre,"childcare centre in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:40.142563,text_search,1,AIzaSy...IDGw,657,Tuas,Tuas North,education,primary school,"primary school in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:40.898533,text_search,1,AIzaSy...IDGw,658,Tuas,Tuas North,education,secondary school,"secondary school in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:41.563591,text_search,1,AIzaSy...IDGw,659,Tuas,Tuas North,education,junior college,"junior college in Tuas North, Tuas, Singapore",OK,,15,
+2026-07-18T16:59:42.416274,text_search,1,AIzaSy...IDGw,660,Tuas,Tuas North,education,polytechnic,"polytechnic in Tuas North, Tuas, Singapore",OK,,19,
+2026-07-18T16:59:43.364931,text_search,1,AIzaSy...IDGw,661,Tuas,Tuas North,education,university,"university in Tuas North, Tuas, Singapore",OK,,18,
+2026-07-18T16:59:44.292992,text_search,1,AIzaSy...IDGw,662,Tuas,Tuas North,education,tuition centre,"tuition centre in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:45.450562,text_search,1,AIzaSy...IDGw,663,Tuas,Tuas North,education,library,"library in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:46.029513,text_search,1,AIzaSy...IDGw,664,Tuas,Tuas North,transport,MRT station,"MRT station in Tuas North, Tuas, Singapore",OK,,5,
+2026-07-18T16:59:46.657308,text_search,1,AIzaSy...IDGw,665,Tuas,Tuas North,transport,bus stop,"bus stop in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:47.464286,text_search,1,AIzaSy...IDGw,666,Tuas,Tuas North,transport,bus interchange,"bus interchange in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:48.527545,text_search,1,AIzaSy...IDGw,667,Tuas,Tuas North,transport,LRT station,"LRT station in Tuas North, Tuas, Singapore",OK,,18,
+2026-07-18T16:59:49.250064,text_search,1,AIzaSy...IDGw,668,Tuas,Tuas North,food,hawker centre,"hawker centre in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:50.211872,text_search,1,AIzaSy...IDGw,669,Tuas,Tuas North,food,food court,"food court in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:51.131364,text_search,1,AIzaSy...IDGw,670,Tuas,Tuas North,food,coffee shop,"coffee shop in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:51.965346,text_search,1,AIzaSy...IDGw,671,Tuas,Tuas North,food,restaurant,"restaurant in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:52.573487,text_search,1,AIzaSy...IDGw,672,Tuas,Tuas North,food,cafe,"cafe in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:53.522000,text_search,1,AIzaSy...IDGw,673,Tuas,Tuas North,shopping,shopping mall,"shopping mall in Tuas North, Tuas, Singapore",OK,,7,
+2026-07-18T16:59:54.833372,text_search,1,AIzaSy...IDGw,674,Tuas,Tuas North,shopping,supermarket,"supermarket in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:55.789176,text_search,1,AIzaSy...IDGw,675,Tuas,Tuas North,shopping,grocery store,"grocery store in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:56.808322,text_search,1,AIzaSy...IDGw,676,Tuas,Tuas North,shopping,convenience store,"convenience store in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:57.754213,text_search,1,AIzaSy...IDGw,677,Tuas,Tuas North,shopping,wet market,"wet market in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:58.533904,text_search,1,AIzaSy...IDGw,678,Tuas,Tuas North,recreation,gym,"gym in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T16:59:59.286131,text_search,1,AIzaSy...IDGw,679,Tuas,Tuas North,recreation,sports centre,"sports centre in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:00.238859,text_search,1,AIzaSy...IDGw,680,Tuas,Tuas North,recreation,swimming complex,"swimming complex in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:00.829557,text_search,1,AIzaSy...IDGw,681,Tuas,Tuas North,recreation,cinema,"cinema in Tuas North, Tuas, Singapore",OK,,3,
+2026-07-18T17:00:01.841635,text_search,1,AIzaSy...IDGw,682,Tuas,Tuas North,recreation,community club,"community club in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:02.721663,text_search,1,AIzaSy...IDGw,683,Tuas,Tuas North,recreation,playground,"playground in Tuas North, Tuas, Singapore",OK,,4,
+2026-07-18T17:00:03.683385,text_search,1,AIzaSy...IDGw,684,Tuas,Tuas North,nature,park,"park in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:04.533557,text_search,1,AIzaSy...IDGw,685,Tuas,Tuas North,nature,nature reserve,"nature reserve in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:05.382615,text_search,1,AIzaSy...IDGw,686,Tuas,Tuas North,nature,garden,"garden in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:06.025008,text_search,1,AIzaSy...IDGw,687,Tuas,Tuas North,nature,beach,"beach in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:07.036552,text_search,1,AIzaSy...IDGw,688,Tuas,Tuas North,nature,waterfront,"waterfront in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:07.950304,text_search,1,AIzaSy...IDGw,689,Tuas,Tuas North,nature,park connector,"park connector in Tuas North, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:08.817467,text_search,1,AIzaSy...IDGw,690,Tuas,Tuas Promenade,education,kindergarten,"kindergarten in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:09.602239,text_search,1,AIzaSy...IDGw,691,Tuas,Tuas Promenade,education,childcare centre,"childcare centre in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:10.439913,text_search,1,AIzaSy...IDGw,692,Tuas,Tuas Promenade,education,primary school,"primary school in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:11.413886,text_search,1,AIzaSy...IDGw,693,Tuas,Tuas Promenade,education,secondary school,"secondary school in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:12.315101,text_search,1,AIzaSy...IDGw,694,Tuas,Tuas Promenade,education,junior college,"junior college in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:13.035760,text_search,1,AIzaSy...IDGw,695,Tuas,Tuas Promenade,education,polytechnic,"polytechnic in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:14.018534,text_search,1,AIzaSy...IDGw,696,Tuas,Tuas Promenade,education,university,"university in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:14.914450,text_search,1,AIzaSy...IDGw,697,Tuas,Tuas Promenade,education,tuition centre,"tuition centre in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:15.770883,text_search,1,AIzaSy...IDGw,698,Tuas,Tuas Promenade,education,library,"library in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:16.560055,text_search,1,AIzaSy...IDGw,699,Tuas,Tuas Promenade,transport,MRT station,"MRT station in Tuas Promenade, Tuas, Singapore",OK,,5,
+2026-07-18T17:00:17.558246,text_search,1,AIzaSy...IDGw,700,Tuas,Tuas Promenade,transport,bus stop,"bus stop in Tuas Promenade, Tuas, Singapore",OK,,10,
+2026-07-18T17:00:18.509366,text_search,1,AIzaSy...IDGw,701,Tuas,Tuas Promenade,transport,bus interchange,"bus interchange in Tuas Promenade, Tuas, Singapore",OK,,10,
+2026-07-18T17:00:19.482607,text_search,1,AIzaSy...IDGw,702,Tuas,Tuas Promenade,transport,LRT station,"LRT station in Tuas Promenade, Tuas, Singapore",OK,,9,
+2026-07-18T17:00:20.344546,text_search,1,AIzaSy...IDGw,703,Tuas,Tuas Promenade,food,hawker centre,"hawker centre in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:21.253823,text_search,1,AIzaSy...IDGw,704,Tuas,Tuas Promenade,food,food court,"food court in Tuas Promenade, Tuas, Singapore",OK,,13,
+2026-07-18T17:00:22.000617,text_search,1,AIzaSy...IDGw,705,Tuas,Tuas Promenade,food,coffee shop,"coffee shop in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:23.065747,text_search,1,AIzaSy...IDGw,706,Tuas,Tuas Promenade,food,restaurant,"restaurant in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:24.024035,text_search,1,AIzaSy...IDGw,707,Tuas,Tuas Promenade,food,cafe,"cafe in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:24.845287,text_search,1,AIzaSy...IDGw,708,Tuas,Tuas Promenade,shopping,shopping mall,"shopping mall in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:25.853492,text_search,1,AIzaSy...IDGw,709,Tuas,Tuas Promenade,shopping,supermarket,"supermarket in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:26.694637,text_search,1,AIzaSy...IDGw,710,Tuas,Tuas Promenade,shopping,grocery store,"grocery store in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:27.471066,text_search,1,AIzaSy...IDGw,711,Tuas,Tuas Promenade,shopping,convenience store,"convenience store in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:28.429463,text_search,1,AIzaSy...IDGw,712,Tuas,Tuas Promenade,shopping,wet market,"wet market in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:29.462283,text_search,1,AIzaSy...IDGw,713,Tuas,Tuas Promenade,recreation,gym,"gym in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:30.517731,text_search,1,AIzaSy...IDGw,714,Tuas,Tuas Promenade,recreation,sports centre,"sports centre in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:31.193627,text_search,1,AIzaSy...IDGw,715,Tuas,Tuas Promenade,recreation,swimming complex,"swimming complex in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:32.287862,text_search,1,AIzaSy...IDGw,716,Tuas,Tuas Promenade,recreation,cinema,"cinema in Tuas Promenade, Tuas, Singapore",OK,,11,
+2026-07-18T17:00:32.965628,text_search,1,AIzaSy...IDGw,717,Tuas,Tuas Promenade,recreation,community club,"community club in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:34.038576,text_search,1,AIzaSy...IDGw,718,Tuas,Tuas Promenade,recreation,playground,"playground in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:34.900286,text_search,1,AIzaSy...IDGw,719,Tuas,Tuas Promenade,nature,park,"park in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:35.677620,text_search,1,AIzaSy...IDGw,720,Tuas,Tuas Promenade,nature,nature reserve,"nature reserve in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:36.734323,text_search,1,AIzaSy...IDGw,721,Tuas,Tuas Promenade,nature,garden,"garden in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:37.603747,text_search,1,AIzaSy...IDGw,722,Tuas,Tuas Promenade,nature,beach,"beach in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:38.434479,text_search,1,AIzaSy...IDGw,723,Tuas,Tuas Promenade,nature,waterfront,"waterfront in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:39.211890,text_search,1,AIzaSy...IDGw,724,Tuas,Tuas Promenade,nature,park connector,"park connector in Tuas Promenade, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:40.124379,text_search,1,AIzaSy...IDGw,725,Tuas,Tuas View,education,kindergarten,"kindergarten in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:41.168058,text_search,1,AIzaSy...IDGw,726,Tuas,Tuas View,education,childcare centre,"childcare centre in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:41.718439,text_search,1,AIzaSy...IDGw,727,Tuas,Tuas View,education,primary school,"primary school in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:42.522269,text_search,1,AIzaSy...IDGw,728,Tuas,Tuas View,education,secondary school,"secondary school in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:43.128045,text_search,1,AIzaSy...IDGw,729,Tuas,Tuas View,education,junior college,"junior college in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:43.790204,text_search,1,AIzaSy...IDGw,730,Tuas,Tuas View,education,polytechnic,"polytechnic in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:44.648721,text_search,1,AIzaSy...IDGw,731,Tuas,Tuas View,education,university,"university in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:45.377072,text_search,1,AIzaSy...IDGw,732,Tuas,Tuas View,education,tuition centre,"tuition centre in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:46.327916,text_search,1,AIzaSy...IDGw,733,Tuas,Tuas View,education,library,"library in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:47.180687,text_search,1,AIzaSy...IDGw,734,Tuas,Tuas View,transport,MRT station,"MRT station in Tuas View, Tuas, Singapore",OK,,4,
+2026-07-18T17:00:47.926265,text_search,1,AIzaSy...IDGw,735,Tuas,Tuas View,transport,bus stop,"bus stop in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:49.058752,text_search,1,AIzaSy...IDGw,736,Tuas,Tuas View,transport,bus interchange,"bus interchange in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:49.811081,text_search,1,AIzaSy...IDGw,737,Tuas,Tuas View,transport,LRT station,"LRT station in Tuas View, Tuas, Singapore",OK,,12,
+2026-07-18T17:00:50.913889,text_search,1,AIzaSy...IDGw,738,Tuas,Tuas View,food,hawker centre,"hawker centre in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:51.558346,text_search,1,AIzaSy...IDGw,739,Tuas,Tuas View,food,food court,"food court in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:52.173101,text_search,1,AIzaSy...IDGw,740,Tuas,Tuas View,food,coffee shop,"coffee shop in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:53.254873,text_search,1,AIzaSy...IDGw,741,Tuas,Tuas View,food,restaurant,"restaurant in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:53.903636,text_search,1,AIzaSy...IDGw,742,Tuas,Tuas View,food,cafe,"cafe in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:54.945726,text_search,1,AIzaSy...IDGw,743,Tuas,Tuas View,shopping,shopping mall,"shopping mall in Tuas View, Tuas, Singapore",OK,,10,
+2026-07-18T17:00:55.659116,text_search,1,AIzaSy...IDGw,744,Tuas,Tuas View,shopping,supermarket,"supermarket in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:56.616458,text_search,1,AIzaSy...IDGw,745,Tuas,Tuas View,shopping,grocery store,"grocery store in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:57.537001,text_search,1,AIzaSy...IDGw,746,Tuas,Tuas View,shopping,convenience store,"convenience store in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:58.238543,text_search,1,AIzaSy...IDGw,747,Tuas,Tuas View,shopping,wet market,"wet market in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:59.073923,text_search,1,AIzaSy...IDGw,748,Tuas,Tuas View,recreation,gym,"gym in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:00:59.726937,text_search,1,AIzaSy...IDGw,749,Tuas,Tuas View,recreation,sports centre,"sports centre in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:00.490852,text_search,1,AIzaSy...IDGw,750,Tuas,Tuas View,recreation,swimming complex,"swimming complex in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:01.331451,text_search,1,AIzaSy...IDGw,751,Tuas,Tuas View,recreation,cinema,"cinema in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:02.238256,text_search,1,AIzaSy...IDGw,752,Tuas,Tuas View,recreation,community club,"community club in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:03.170231,text_search,1,AIzaSy...IDGw,753,Tuas,Tuas View,recreation,playground,"playground in Tuas View, Tuas, Singapore",OK,,1,
+2026-07-18T17:01:03.932615,text_search,1,AIzaSy...IDGw,754,Tuas,Tuas View,nature,park,"park in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:04.898099,text_search,1,AIzaSy...IDGw,755,Tuas,Tuas View,nature,nature reserve,"nature reserve in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:05.713400,text_search,1,AIzaSy...IDGw,756,Tuas,Tuas View,nature,garden,"garden in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:06.467489,text_search,1,AIzaSy...IDGw,757,Tuas,Tuas View,nature,beach,"beach in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:07.327666,text_search,1,AIzaSy...IDGw,758,Tuas,Tuas View,nature,waterfront,"waterfront in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:08.139656,text_search,1,AIzaSy...IDGw,759,Tuas,Tuas View,nature,park connector,"park connector in Tuas View, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:09.101503,text_search,1,AIzaSy...IDGw,760,Tuas,Tuas View Extension,education,kindergarten,"kindergarten in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:09.733942,text_search,1,AIzaSy...IDGw,761,Tuas,Tuas View Extension,education,childcare centre,"childcare centre in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:10.311947,text_search,1,AIzaSy...IDGw,762,Tuas,Tuas View Extension,education,primary school,"primary school in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:11.243532,text_search,1,AIzaSy...IDGw,763,Tuas,Tuas View Extension,education,secondary school,"secondary school in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:11.990062,text_search,1,AIzaSy...IDGw,764,Tuas,Tuas View Extension,education,junior college,"junior college in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:12.958965,text_search,1,AIzaSy...IDGw,765,Tuas,Tuas View Extension,education,polytechnic,"polytechnic in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:13.677163,text_search,1,AIzaSy...IDGw,766,Tuas,Tuas View Extension,education,university,"university in Tuas View Extension, Tuas, Singapore",OK,,5,
+2026-07-18T17:01:14.583422,text_search,1,AIzaSy...IDGw,767,Tuas,Tuas View Extension,education,tuition centre,"tuition centre in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:15.590474,text_search,1,AIzaSy...IDGw,768,Tuas,Tuas View Extension,education,library,"library in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:16.141704,text_search,1,AIzaSy...IDGw,769,Tuas,Tuas View Extension,transport,MRT station,"MRT station in Tuas View Extension, Tuas, Singapore",OK,,6,
+2026-07-18T17:01:17.065396,text_search,1,AIzaSy...IDGw,770,Tuas,Tuas View Extension,transport,bus stop,"bus stop in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:17.631880,text_search,1,AIzaSy...IDGw,771,Tuas,Tuas View Extension,transport,bus interchange,"bus interchange in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:18.266388,text_search,1,AIzaSy...IDGw,772,Tuas,Tuas View Extension,transport,LRT station,"LRT station in Tuas View Extension, Tuas, Singapore",OK,,6,
+2026-07-18T17:01:19.258990,text_search,1,AIzaSy...IDGw,773,Tuas,Tuas View Extension,food,hawker centre,"hawker centre in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:20.183480,text_search,1,AIzaSy...IDGw,774,Tuas,Tuas View Extension,food,food court,"food court in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:20.911805,text_search,1,AIzaSy...IDGw,775,Tuas,Tuas View Extension,food,coffee shop,"coffee shop in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:21.600750,text_search,1,AIzaSy...IDGw,776,Tuas,Tuas View Extension,food,restaurant,"restaurant in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:22.276397,text_search,1,AIzaSy...IDGw,777,Tuas,Tuas View Extension,food,cafe,"cafe in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:23.017513,text_search,1,AIzaSy...IDGw,778,Tuas,Tuas View Extension,shopping,shopping mall,"shopping mall in Tuas View Extension, Tuas, Singapore",OK,,14,
+2026-07-18T17:01:23.611379,text_search,1,AIzaSy...IDGw,779,Tuas,Tuas View Extension,shopping,supermarket,"supermarket in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:24.335124,text_search,1,AIzaSy...IDGw,780,Tuas,Tuas View Extension,shopping,grocery store,"grocery store in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:25.299574,text_search,1,AIzaSy...IDGw,781,Tuas,Tuas View Extension,shopping,convenience store,"convenience store in Tuas View Extension, Tuas, Singapore",OK,,17,
+2026-07-18T17:01:26.167557,text_search,1,AIzaSy...IDGw,782,Tuas,Tuas View Extension,shopping,wet market,"wet market in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:26.690084,text_search,1,AIzaSy...IDGw,783,Tuas,Tuas View Extension,recreation,gym,"gym in Tuas View Extension, Tuas, Singapore",OK,,9,
+2026-07-18T17:01:27.300437,text_search,1,AIzaSy...IDGw,784,Tuas,Tuas View Extension,recreation,sports centre,"sports centre in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:28.167575,text_search,1,AIzaSy...IDGw,785,Tuas,Tuas View Extension,recreation,swimming complex,"swimming complex in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:29.149508,text_search,1,AIzaSy...IDGw,786,Tuas,Tuas View Extension,recreation,cinema,"cinema in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:29.948645,text_search,1,AIzaSy...IDGw,787,Tuas,Tuas View Extension,recreation,community club,"community club in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:30.752187,text_search,1,AIzaSy...IDGw,788,Tuas,Tuas View Extension,recreation,playground,"playground in Tuas View Extension, Tuas, Singapore",OK,,4,
+2026-07-18T17:01:31.821559,text_search,1,AIzaSy...IDGw,789,Tuas,Tuas View Extension,nature,park,"park in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:32.625960,text_search,1,AIzaSy...IDGw,790,Tuas,Tuas View Extension,nature,nature reserve,"nature reserve in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:33.441290,text_search,1,AIzaSy...IDGw,791,Tuas,Tuas View Extension,nature,garden,"garden in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:34.217395,text_search,1,AIzaSy...IDGw,792,Tuas,Tuas View Extension,nature,beach,"beach in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:34.888922,text_search,1,AIzaSy...IDGw,793,Tuas,Tuas View Extension,nature,waterfront,"waterfront in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:35.869980,text_search,1,AIzaSy...IDGw,794,Tuas,Tuas View Extension,nature,park connector,"park connector in Tuas View Extension, Tuas, Singapore",OK,,20,
+2026-07-18T17:01:36.722626,place_details_reviews,1,AIzaSy...IDGw,795,Tuas,Tengeh,education,kindergarten,ChIJN90Nj7wP2jERgN1VjjEZc5M,OK,,5,Star Learners @ Jurong West | Preschool & Childcare
+2026-07-18T17:01:37.477218,place_details_reviews,1,AIzaSy...IDGw,796,Tuas,Tengeh,education,kindergarten,ChIJzVHfqPoR2jERQxYAxlE584o,OK,,5,Skool4Kidz Preschool @ Tengah Garden Vale
+2026-07-18T17:01:37.856752,place_details_reviews,1,AIzaSy...IDGw,797,Tuas,Tengeh,education,childcare centre,ChIJ2eGKpRIP2jERRXtIJGSDs3M,OK,,5,My Talent Childcare Centre Pte Ltd
+2026-07-18T17:01:38.352905,place_details_reviews,1,AIzaSy...IDGw,798,Tuas,Tengeh,education,childcare centre,ChIJ8d5LMt8P2jERjSEgSRq9JE8,OK,,5,Little Talent Childcare Centre Pte. Ltd.
+2026-07-18T17:01:38.763172,place_details_reviews,1,AIzaSy...IDGw,799,Tuas,Tengeh,education,primary school,ChIJNfn2jZwP2jERnKZlZ5yCUWc,OK,,0,Pioneer Primary School
+2026-07-18T17:01:39.349217,place_details_reviews,1,AIzaSy...IDGw,800,Tuas,Tengeh,education,primary school,ChIJubizZRcQ2jERZIeyb0momvE,OK,,0,Yuhua Primary School
+2026-07-18T17:01:39.920004,place_details_reviews,1,AIzaSy...IDGw,801,Tuas,Tengeh,education,secondary school,ChIJsyTJCRcQ2jERfwQiMdnbBFE,OK,,0,Crest Secondary School
+2026-07-18T17:01:40.573493,place_details_reviews,1,AIzaSy...IDGw,802,Tuas,Tengeh,education,secondary school,ChIJ5df3mjwb2jER9xmMRPwpHxY,OK,,0,Grace Orchard School
+2026-07-18T17:01:41.252324,place_details_reviews,1,AIzaSy...IDGw,803,Tuas,Tengeh,education,junior college,ChIJz_-CGpUR2jERsxAVVh_vnoY,OK,,5,Jurong Pioneer Junior College
+2026-07-18T17:01:41.871402,place_details_reviews,1,AIzaSy...IDGw,804,Tuas,Tengeh,education,junior college,ChIJESRAQ1sa2jERlSmmrDCCriw,OK,,5,Anglo-Chinese Junior College
+2026-07-18T17:01:42.312164,place_details_reviews,1,AIzaSy...IDGw,805,Tuas,Tengeh,education,polytechnic,ChIJb2t9OOwP2jERvgjlTHVoDbY,OK,,5,Sembcorp Tengeh Floating Solar Farm
+2026-07-18T17:01:42.871779,place_details_reviews,1,AIzaSy...IDGw,806,Tuas,Tengeh,education,polytechnic,ChIJFXzxL2Aa2jERnoWTOdJdVKk,OK,,5,Singapore Polytechnic
+2026-07-18T17:01:43.506984,place_details_reviews,1,AIzaSy...IDGw,807,Tuas,Tengeh,education,university,ChIJY0QBmQoP2jERGYItxQAIu7g,OK,,5,Nanyang Technological University
+2026-07-18T17:01:43.961220,place_details_reviews,1,AIzaSy...IDGw,808,Tuas,Tengeh,education,university,ChIJYZ7ZKaEa2jERUxA5Jfd3l0Y,OK,,5,Technical University of Munich Asia
+2026-07-18T17:01:44.471168,place_details_reviews,1,AIzaSy...IDGw,809,Tuas,Tengeh,education,tuition centre,ChIJxVpRXY0b2jERLaTEQpzXKf0,OK,,5,Pillora Learning
+2026-07-18T17:01:45.302242,place_details_reviews,1,AIzaSy...IDGw,810,Tuas,Tengeh,education,tuition centre,ChIJFZIEu6Ma2jERvLsDl_vT6WI,OK,,5,TLC Learning Centre
+2026-07-18T17:01:46.042228,place_details_reviews,1,AIzaSy...IDGw,811,Tuas,Tengeh,education,library,ChIJfWE7NwAR2jERE_LL5Mx2EVM,OK,,5,Community Library
+2026-07-18T17:01:46.697379,place_details_reviews,1,AIzaSy...IDGw,812,Tuas,Tengeh,education,library,ChIJF3XNQ5MP2jERXeUO2D_OtYY,OK,,5,Jurong West Library
+2026-07-18T17:01:47.288523,place_details_reviews,1,AIzaSy...IDGw,813,Tuas,Tengeh,transport,MRT station,ChIJr58cQ3EP2jERru6GwJ1Dwkw,OK,,5,Tuas Link MRT Station (EW33)
+2026-07-18T17:01:47.994410,place_details_reviews,1,AIzaSy...IDGw,814,Tuas,Tengeh,transport,MRT station,ChIJ-0lQjPAF2jERJJJZHjuPqyM,OK,,5,Tuas Crescent
+2026-07-18T17:01:48.724771,place_details_reviews,1,AIzaSy...IDGw,815,Tuas,Tengeh,transport,bus stop,ChIJXc9SX0oP2jER8s3ua9aIz6w,OK,,5,Tuas Ter
+2026-07-18T17:01:49.362596,place_details_reviews,1,AIzaSy...IDGw,816,Tuas,Tengeh,transport,bus stop,ChIJg8AeAtAP2jERr3UyslYVfUc,OK,,5,Tuas Bus Terminal
+2026-07-18T17:01:50.017919,place_details_reviews,1,AIzaSy...IDGw,817,Tuas,Tengeh,transport,bus interchange,ChIJ4ZFAPzUP2jERJg21mbOHbF8,OK,,5,Tuas Checkpt
+2026-07-18T17:01:50.806431,place_details_reviews,1,AIzaSy...IDGw,818,Tuas,Tengeh,transport,LRT station,ChIJsadYyEwP2jERL7SpvzQCd5Q,OK,,5,Tuas Link
+2026-07-18T17:01:51.388563,place_details_reviews,1,AIzaSy...IDGw,819,Tuas,Tengeh,food,hawker centre,ChIJqRSFdPMF2jERTXCElqe8mvI,OK,,5,Tuas Village
+2026-07-18T17:01:51.783766,place_details_reviews,1,AIzaSy...IDGw,820,Tuas,Tengeh,food,hawker centre,ChIJRW3GpAgG2jERjcD97jht7uQ,OK,,5,Tuas Food Court
+2026-07-18T17:01:52.354039,place_details_reviews,1,AIzaSy...IDGw,821,Tuas,Tengeh,food,food court,ChIJH9-HnXwG2jERvaGcJE_l7gU,OK,,5,Family Food Court
+2026-07-18T17:01:52.719114,place_details_reviews,1,AIzaSy...IDGw,822,Tuas,Tengeh,food,coffee shop,ChIJRSF9x5QF2jERuYkw-1w-g4c,OK,,5,Foodprints 24hours Coffeeshop @ Tuas Amenity Centre
+2026-07-18T17:01:53.511236,place_details_reviews,1,AIzaSy...IDGw,823,Tuas,Tengeh,food,coffee shop,ChIJVT5ceAAR2jERRjjQDwKT8lU,OK,,5,That Tengah Cafe
+2026-07-18T17:01:54.162570,place_details_reviews,1,AIzaSy...IDGw,824,Tuas,Tengeh,food,restaurant,ChIJ5UCkFuEH2jERbLSqUpAAb4c,OK,,5,Greenhouse Bistro
+2026-07-18T17:01:54.699779,place_details_reviews,1,AIzaSy...IDGw,825,Tuas,Tengeh,food,restaurant,ChIJO_0iuLQI2jERkcDiNJD7aIA,OK,,5,Marina Bistro
+2026-07-18T17:01:55.297414,place_details_reviews,1,AIzaSy...IDGw,826,Tuas,Tengeh,shopping,shopping mall,ChIJ82AoVA8Q2jERkHnr1RPW9B4,OK,,5,Westgate
+2026-07-18T17:01:56.254800,place_details_reviews,1,AIzaSy...IDGw,827,Tuas,Tengeh,shopping,shopping mall,ChIJTUwwFe4F2jER8nff4GW7VYk,OK,,5,Tuas Amenity Centre
+2026-07-18T17:01:56.945194,place_details_reviews,1,AIzaSy...IDGw,828,Tuas,Tengeh,shopping,supermarket,ChIJKT_1j6UH2jERkLci31GhzzY,OK,,5,Star Supermart Pte Ltd
+2026-07-18T17:01:57.738543,place_details_reviews,1,AIzaSy...IDGw,829,Tuas,Tengeh,shopping,supermarket,ChIJLfRqV6AG2jERjP1FABo-jd0,OK,,5,Popular Supermarket Pte Ltd
+2026-07-18T17:01:58.402846,place_details_reviews,1,AIzaSy...IDGw,830,Tuas,Tengeh,shopping,convenience store,ChIJU_BrNrQP2jERLyb5ms8hM5s,OK,,5,7-Eleven
+2026-07-18T17:01:59.187761,place_details_reviews,1,AIzaSy...IDGw,831,Tuas,Tengeh,shopping,convenience store,ChIJHTArI1oP2jERmvNbjhQpCWM,OK,,4,Nihi Mini Mart
+2026-07-18T17:01:59.751627,place_details_reviews,1,AIzaSy...IDGw,832,Tuas,Tengeh,shopping,wet market,ChIJA-S30F8b2jER46-WSc7Ak2g,OK,,5,Teban Gardens Wet Market
+2026-07-18T17:02:00.228622,place_details_reviews,1,AIzaSy...IDGw,833,Tuas,Tengeh,shopping,wet market,ChIJW-4wFvQR2jERVo2FJjUF2vc,OK,,5,Yew Tee Market
+2026-07-18T17:02:01.044012,place_details_reviews,1,AIzaSy...IDGw,834,Tuas,Tengeh,recreation,gym,ChIJYbJVYwAR2jERcogZd0m9MzE,OK,,5,Anytime Fitness Parc Point
+2026-07-18T17:02:01.794906,place_details_reviews,1,AIzaSy...IDGw,835,Tuas,Tengeh,recreation,gym,ChIJqdpyTAAR2jERpc1R5OQjxf8,OK,,1,Fitness Corner
+2026-07-18T17:02:02.313138,place_details_reviews,1,AIzaSy...IDGw,836,Tuas,Tengeh,recreation,sports centre,ChIJEQvJWqAG2jERslFOpTLoeuU,OK,,5,Tuas South Recreation Centre
+2026-07-18T17:02:02.993214,place_details_reviews,1,AIzaSy...IDGw,837,Tuas,Tengeh,recreation,sports centre,ChIJEwW7gpoP2jER4o0mrMTZddM,OK,,5,Jurong West Sport Centre
+2026-07-18T17:02:03.848342,place_details_reviews,1,AIzaSy...IDGw,838,Tuas,Tengeh,recreation,swimming complex,ChIJ4Qton5oP2jERihKBVLOV04k,OK,,5,Jurong West Swimming Complex
+2026-07-18T17:02:04.258416,place_details_reviews,1,AIzaSy...IDGw,839,Tuas,Tengeh,recreation,swimming complex,ChIJWaHnCyAQ2jERlnBesVA4gic,OK,,5,Jurong East Swimming Complex
+2026-07-18T17:02:04.979746,place_details_reviews,1,AIzaSy...IDGw,840,Tuas,Tengeh,recreation,cinema,ChIJFx7cQgAR2jERum7NN5FvIOk,OK,,5,Shaw Theatres JEM
+2026-07-18T17:02:05.626928,place_details_reviews,1,AIzaSy...IDGw,841,Tuas,Tengeh,recreation,cinema,ChIJgWtqxOwP2jERydU8CT8sako,OK,,5,Golden Village
+2026-07-18T17:02:06.249339,place_details_reviews,1,AIzaSy...IDGw,842,Tuas,Tengeh,recreation,community club,ChIJB9mfegAR2jERf4xJn0cGWPw,OK,,5,Tengah Community Club
+2026-07-18T17:02:06.629147,place_details_reviews,1,AIzaSy...IDGw,843,Tuas,Tengeh,recreation,community club,ChIJ72UutBsQ2jERo9kuR_0VQVg,OK,,5,Yuhua Community Club
+2026-07-18T17:02:07.255579,place_details_reviews,1,AIzaSy...IDGw,844,Tuas,Tengeh,recreation,playground,ChIJb07DGAAR2jERsA-WOhZ_XhM,OK,,2,Rooster playground
+2026-07-18T17:02:07.595064,place_details_reviews,1,AIzaSy...IDGw,845,Tuas,Tengeh,recreation,playground,ChIJuX_EDwAR2jERd8U3MVMRZCM,OK,,1,Parc Residences Playground (Social Hub)
+2026-07-18T17:02:08.506347,place_details_reviews,1,AIzaSy...IDGw,846,Tuas,Tengeh,nature,park,ChIJp167A6UP2jERUrVmCHG99mg,OK,,5,The Potter's Garden
+2026-07-18T17:02:09.173113,place_details_reviews,1,AIzaSy...IDGw,847,Tuas,Tengeh,nature,park,ChIJmUB0VF8P2jERdMJOzvt85Gs,OK,,5,Garden of Peace
+2026-07-18T17:02:09.860187,place_details_reviews,1,AIzaSy...IDGw,848,Tuas,Tengeh,nature,nature reserve,ChIJe0cEPoIS2jERs_rS2qvGOxw,OK,,5,Sungei Buloh Wetland Reserve
+2026-07-18T17:02:10.262436,place_details_reviews,1,AIzaSy...IDGw,849,Tuas,Tengeh,nature,nature reserve,ChIJ3dcI_PUN2jERTnYeNNfju5c,OK,,5,Kranji Marshes
+2026-07-18T17:02:10.760769,place_details_reviews,1,AIzaSy...IDGw,850,Tuas,Tengeh,nature,garden,ChIJVb7_GwAR2jERoCurZt6Wdao,OK,,5,Sunken Garden
+2026-07-18T17:02:11.536622,place_details_reviews,1,AIzaSy...IDGw,851,Tuas,Tengeh,nature,garden,ChIJuZ4kdB0Q2jERdp1SrojDF_I,OK,,5,Chinese Garden
+2026-07-18T17:02:12.207399,place_details_reviews,1,AIzaSy...IDGw,852,Tuas,Tengeh,nature,beach,ChIJc6s2rage2jERzvX_e5IB_6k,OK,,5,Tanjong Beach Club
+2026-07-18T17:02:12.633786,place_details_reviews,1,AIzaSy...IDGw,853,Tuas,Tengeh,nature,beach,ChIJ0QX_Brki2jER-pZKNdqk_a8,OK,,5,East Coast Park
+2026-07-18T17:02:13.358164,place_details_reviews,1,AIzaSy...IDGw,854,Tuas,Tengeh,nature,waterfront,ChIJhxTCMwAR2jER_GPkjT9CGEY,OK,,4,Garden Waterfront II @ Tengah
+2026-07-18T17:02:13.950593,place_details_reviews,1,AIzaSy...IDGw,855,Tuas,Tengeh,nature,park connector,ChIJxZwgg1kZ2jERfsCcuEg0JC4,OK,,5,Kallang Park Connector
+2026-07-18T17:02:14.774596,place_details_reviews,1,AIzaSy...IDGw,856,Tuas,Tengeh,nature,park connector,ChIJJTvN5Ckb2jERdwPiAsqZxOo,OK,,2,West Coast Park Connector
+2026-07-18T17:02:15.270499,place_details_reviews,1,AIzaSy...IDGw,857,Tuas,Tuas Bay,education,kindergarten,ChIJdxDa_Xwb2jERkiAzQWtc4to,OK,,5,KC SPACE @ Clementi (blk 432) | Student Care and Chinese Enrichment
+2026-07-18T17:02:15.895208,place_details_reviews,1,AIzaSy...IDGw,858,Tuas,Tuas Bay,education,kindergarten,ChIJ6fL2YJYa2jERf-IdiagcRMI,OK,,5,Japanese Kindergarten
+2026-07-18T17:02:16.492808,place_details_reviews,1,AIzaSy...IDGw,859,Tuas,Tuas Bay,education,childcare centre,ChIJQ3u8icEP2jER84TmbfrAhss,OK,,3,Little Explorers Cove
+2026-07-18T17:02:16.987981,place_details_reviews,1,AIzaSy...IDGw,860,Tuas,Tuas Bay,education,childcare centre,ChIJ9ZzxVt0P2jER9WN6rM_m3dc,OK,,3,7oaks Student Care Centre
+2026-07-18T17:02:17.668712,place_details_reviews,1,AIzaSy...IDGw,861,Tuas,Tuas Bay,education,primary school,ChIJiRDxoOkP2jERWvGpVvrW15I,OK,,0,Boon Lay Garden Primary School
+2026-07-18T17:02:18.292136,place_details_reviews,1,AIzaSy...IDGw,862,Tuas,Tuas Bay,education,primary school,ChIJOfCBMMcP2jERDSx2GZS4xZ0,OK,,0,Corporation Primary School
+2026-07-18T17:02:18.637846,place_details_reviews,1,AIzaSy...IDGw,863,Tuas,Tuas Bay,education,secondary school,ChIJSUORF_YX2jER0brqnqpRHmY,OK,,5,Aesperon Academy
+2026-07-18T17:02:19.250849,place_details_reviews,1,AIzaSy...IDGw,864,Tuas,Tuas Bay,education,secondary school,ChIJLyece_IF2jERaPfzJ0kywBw,OK,,5,BS Technology Pte Ltd
+2026-07-18T17:02:19.782039,place_details_reviews,1,AIzaSy...IDGw,865,Tuas,Tuas Bay,education,junior college,ChIJ61lTU6EQ2jERiBDECMxHYFY,OK,,5,National Junior College
+2026-07-18T17:02:20.287818,place_details_reviews,1,AIzaSy...IDGw,866,Tuas,Tuas Bay,education,polytechnic,ChIJcWfV_mk92jERlqKEnZLi8os,OK,,5,Temasek Polytechnic
+2026-07-18T17:02:20.715440,place_details_reviews,1,AIzaSy...IDGw,867,Tuas,Tuas Bay,education,university,ChIJ9X7QCrkR2jEROrobPKwyqOo,OK,,5,TEG International College
+2026-07-18T17:02:21.078697,place_details_reviews,1,AIzaSy...IDGw,868,Tuas,Tuas Bay,education,tuition centre,ChIJyRhBI9Eb2jERRoJYxpEvUW8,OK,,5,inStic Academy
+2026-07-18T17:02:21.698510,place_details_reviews,1,AIzaSy...IDGw,869,Tuas,Tuas Bay,education,library,ChIJraqq-gUQ2jERYpaqvOqNXdk,OK,,5,Jurong Library
+2026-07-18T17:02:22.187571,place_details_reviews,1,AIzaSy...IDGw,870,Tuas,Tuas Bay,food,coffee shop,ChIJf72XBAAB2jERGp98NIL593M,OK,,1,Bay cafe
+2026-07-18T17:02:22.853461,place_details_reviews,1,AIzaSy...IDGw,871,Tuas,Tuas Bay,shopping,shopping mall,ChIJa9YM2-wP2jERmOUStQKyiS0,OK,,5,Jurong Point
+2026-07-18T17:02:23.257884,place_details_reviews,1,AIzaSy...IDGw,872,Tuas,Tuas Bay,shopping,grocery store,ChIJaXaqRyQH2jERsidCj1nXpT4,OK,,5,BS Supermarket
+2026-07-18T17:02:23.640352,place_details_reviews,1,AIzaSy...IDGw,873,Tuas,Tuas Bay,shopping,convenience store,ChIJH2-VLgwG2jERTM603rFRb6k,OK,,5,Kavi Minmart
+2026-07-18T17:02:24.185164,place_details_reviews,1,AIzaSy...IDGw,874,Tuas,Tuas Bay,shopping,wet market,ChIJk8yy94wH2jERKuZViLbXbyE,OK,,5,Ajmal Super Market
+2026-07-18T17:02:24.612358,place_details_reviews,1,AIzaSy...IDGw,875,Tuas,Tuas Bay,shopping,wet market,ChIJMxwNLgwG2jERnctUAtq_oaA,OK,,5,Long King Canteen
+2026-07-18T17:02:25.109302,place_details_reviews,1,AIzaSy...IDGw,876,Tuas,Tuas Bay,recreation,gym,ChIJc3Ry4Q0G2jER2AGeWhk0ANE,OK,,5,Tuas View Dormitory
+2026-07-18T17:02:25.710203,place_details_reviews,1,AIzaSy...IDGw,877,Tuas,Tuas Bay,recreation,sports centre,ChIJz_P0cQAH2jERNeLA800M1TM,OK,,1,Tuas view badminton hall
+2026-07-18T17:02:26.080481,place_details_reviews,1,AIzaSy...IDGw,878,Tuas,Tuas Bay,recreation,community club,ChIJPV-ku7QI2jER0-78Eng_3gQ,OK,,5,Raffles Marina
+2026-07-18T17:02:26.517624,place_details_reviews,1,AIzaSy...IDGw,879,Tuas,Tuas Bay,recreation,playground,ChIJf1HVW78H2jER9_jmWc8523U,OK,,3,Tuas View Dormitory play ground
+2026-07-18T17:02:26.963140,place_details_reviews,1,AIzaSy...IDGw,880,Tuas,Tuas Bay,nature,park,ChIJ9xmoA9MJ2jERyAaxAMJVMvk,OK,,5,Raffles Marina Open Car Park
+2026-07-18T17:02:27.680960,place_details_reviews,1,AIzaSy...IDGw,881,Tuas,Tuas Bay,nature,nature reserve,ChIJtfU3zT0Z2jER6lrC-S-Tw2U,OK,,5,Kingfisher Wetlands Wildlife Lookout
+2026-07-18T17:02:28.363764,place_details_reviews,1,AIzaSy...IDGw,882,Tuas,Tuas Bay,nature,garden,ChIJMxZ-kwQZ2jERdsqftXeWCWI,OK,,5,Gardens by the Bay
+2026-07-18T17:02:29.084791,place_details_reviews,1,AIzaSy...IDGw,883,Tuas,Tuas Bay,nature,beach,ChIJX427JQAJ2jERxejO9XVYyX4,OK,,5,Sunset Beach
+2026-07-18T17:02:29.679478,place_details_reviews,1,AIzaSy...IDGw,884,Tuas,Tuas Bay,nature,beach,ChIJJ7uQc3sI2jER82XIjwqkgnY,OK,,0,Seaview 2B1R 4pax Condo Forest City 4D-1809 - Two-Bedroom Apartment
+2026-07-18T17:02:30.292747,place_details_reviews,1,AIzaSy...IDGw,885,Tuas,Tuas Bay,nature,waterfront,ChIJS0N079IF2jERb_pxl_uNAGE,OK,,5,PUB Tuas Water Reclamation Plant (TWRP) Project
+2026-07-18T17:02:30.976495,place_details_reviews,1,AIzaSy...IDGw,886,Tuas,Tuas Bay,nature,park connector,ChIJh96XTAAP2jERpzIEPWepVmE,OK,,2,Jurong Park Connector
+2026-07-18T17:02:31.408759,place_details_reviews,1,AIzaSy...IDGw,887,Tuas,Tuas North,education,kindergarten,ChIJv9msmZka2jERfSSohCAPsV8,OK,,5,Clementi Woods Kindergarten
+2026-07-18T17:02:31.865456,place_details_reviews,1,AIzaSy...IDGw,888,Tuas,Tuas North,education,kindergarten,ChIJq55LB_Qa2jERwkpjikTUzOo,OK,,5,Little Footprints Preschool @ West Coast
+2026-07-18T17:02:32.463854,place_details_reviews,1,AIzaSy...IDGw,889,Tuas,Tuas North,education,childcare centre,ChIJE9H8xe0a2jERXzF6aD5Kjig,OK,,1,Little Dolphins Playskool
+2026-07-18T17:02:33.251622,place_details_reviews,1,AIzaSy...IDGw,890,Tuas,Tuas North,education,primary school,ChIJN2U85fIa2jERU3xusMZifDo,OK,,5,International Community School (Singapore)
+2026-07-18T17:02:33.979820,place_details_reviews,1,AIzaSy...IDGw,891,Tuas,Tuas North,education,primary school,ChIJF1fc0_Aa2jERRBt9Q6qpP7g,OK,,0,"The Japanese School, Singapore (Primary, Clementi Campus)"
+2026-07-18T17:02:34.351944,place_details_reviews,1,AIzaSy...IDGw,892,Tuas,Tuas North,education,secondary school,ChIJsUBgxf4P2jERpCwsWp4c_V0,OK,,0,Jurong Secondary School
+2026-07-18T17:02:35.040765,place_details_reviews,1,AIzaSy...IDGw,893,Tuas,Tuas North,education,university,ChIJYXfGW7MI2jERjGRuxV239T0,OK,,5,Raffles Marina Lighthouse
+2026-07-18T17:02:35.668739,place_details_reviews,1,AIzaSy...IDGw,894,Tuas,Tuas North,education,tuition centre,ChIJy6S2UosF2jERb1apdMY4OLQ,OK,,5,JTC Space @ Tuas
+2026-07-18T17:02:36.291131,place_details_reviews,1,AIzaSy...IDGw,895,Tuas,Tuas North,education,tuition centre,ChIJAwTMRQ8G2jERUCY7N-bMpz4,OK,,5,Tuas Cove Industrial Centre
+2026-07-18T17:02:36.654760,place_details_reviews,1,AIzaSy...IDGw,896,Tuas,Tuas North,education,library,ChIJZ9HEX_Ya2jERi2N5S_3VrUg,OK,,5,NUS Music Library
+2026-07-18T17:02:37.106533,place_details_reviews,1,AIzaSy...IDGw,897,Tuas,Tuas North,education,library,ChIJ77M1mP4a2jERRfwA553Qz3E,OK,,5,NUS Central Library
+2026-07-18T17:02:37.667631,place_details_reviews,1,AIzaSy...IDGw,898,Tuas,Tuas North,shopping,supermarket,ChIJ8Ws24PEa2jEReonyo71rFUo,OK,,5,Sheng Siong Supermarket
+2026-07-18T17:02:38.232135,place_details_reviews,1,AIzaSy...IDGw,899,Tuas,Tuas North,shopping,convenience store,ChIJrVzybQAb2jERZBI5RVlxv_M,OK,,5,GOOD PRICE HUB
+2026-07-18T17:02:38.680144,place_details_reviews,1,AIzaSy...IDGw,900,Tuas,Tuas North,shopping,wet market,ChIJh1TUclEH2jERCBpSDkoibpM,OK,,5,SARATHA SUPER MARKET
+2026-07-18T17:02:39.224609,place_details_reviews,1,AIzaSy...IDGw,901,Tuas,Tuas North,recreation,gym,ChIJa_wYV5Ub2jERLq4unP5LuXY,OK,,5,"Level Up Gym, one-north"
+2026-07-18T17:02:39.756480,place_details_reviews,1,AIzaSy...IDGw,902,Tuas,Tuas North,recreation,gym,ChIJS3JE5Ggb2jERRHDCUkB7e5E,OK,,5,BFT West Coast Plaza
+2026-07-18T17:02:40.482756,place_details_reviews,1,AIzaSy...IDGw,903,Tuas,Tuas North,recreation,sports centre,ChIJLw31c1ga2jERCDzCX7DG_2s,OK,,0,Sports and Recreation Centre
+2026-07-18T17:02:41.024844,place_details_reviews,1,AIzaSy...IDGw,904,Tuas,Tuas North,recreation,swimming complex,ChIJ6QCPCgAP2jERoZOvShyzyL4,OK,,0,ActiveSG Park Swimming pool @ Jurong Lake Gardens
+2026-07-18T17:02:41.434545,place_details_reviews,1,AIzaSy...IDGw,905,Tuas,Tuas North,recreation,playground,ChIJx7P2KJ8P2jER2CjBImw8IAg,OK,,5,Forest Ramble
+2026-07-18T17:02:41.956296,place_details_reviews,1,AIzaSy...IDGw,906,Tuas,Tuas North,nature,nature reserve,ChIJO9cemPUQ2jERvlh8KtwhtAc,OK,,5,Bukit Timah Nature Reserve
+2026-07-18T17:02:42.622504,place_details_reviews,1,AIzaSy...IDGw,907,Tuas,Tuas North,nature,nature reserve,ChIJDR2Au0sX2jERt1iFDZAqk70,OK,,5,Central Catchment Nature Reserve
+2026-07-18T17:02:43.410943,place_details_reviews,1,AIzaSy...IDGw,908,Tuas,Tuas North,nature,garden,ChIJA8Chy6wP2jER5gV-C5bUNKI,OK,,5,Lakeside Garden
+2026-07-18T17:02:44.119317,place_details_reviews,1,AIzaSy...IDGw,909,Tuas,Tuas North,nature,beach,ChIJdaXprl0d2jERgNFFobJrmqU,OK,,5,Central Beach Bazaar
+2026-07-18T17:02:44.778191,place_details_reviews,1,AIzaSy...IDGw,910,Tuas,Tuas North,nature,beach,ChIJa46EIgAf2jERfvBEe33AtHI,OK,,5,"Sentosa Beach, Singapore"
+2026-07-18T17:02:45.207808,place_details_reviews,1,AIzaSy...IDGw,911,Tuas,Tuas North,nature,waterfront,ChIJWzAodrYF2jERiRWsObW7Wrg,OK,,5,Northern Tuas Basin
+2026-07-18T17:02:45.750320,place_details_reviews,1,AIzaSy...IDGw,912,Tuas,Tuas Promenade,education,kindergarten,ChIJvYCei1UF2jERymQTneDrrAo,OK,,5,Star Learners @ Yung Ho | Preschool & Childcare
+2026-07-18T17:02:46.136637,place_details_reviews,1,AIzaSy...IDGw,913,Tuas,Tuas Promenade,education,kindergarten,ChIJWxRLsuQP2jERMrsDCR5X5ps,OK,,5,David & Goliath Preschool
+2026-07-18T17:02:46.686372,place_details_reviews,1,AIzaSy...IDGw,914,Tuas,Tuas Promenade,education,childcare centre,ChIJCQX_C-UP2jERUcj5WzJiXeQ,OK,,5,Little Footprints Preschool @ Lakeside
+2026-07-18T17:02:47.414682,place_details_reviews,1,AIzaSy...IDGw,915,Tuas,Tuas Promenade,education,childcare centre,ChIJHUK0FlIF2jERLcrbqLf1e-s,OK,,5,Raffles Kidz @ Jurong West (Yuan Ching) - Best Childcare and Preschool Singapore
+2026-07-18T17:02:48.158864,place_details_reviews,1,AIzaSy...IDGw,916,Tuas,Tuas Promenade,education,primary school,ChIJ_Va9QN0P2jERdRoBJnXUvRc,OK,,0,Rulang Primary School
+2026-07-18T17:02:48.712222,place_details_reviews,1,AIzaSy...IDGw,917,Tuas,Tuas Promenade,education,secondary school,ChIJc2MrR5QP2jERndRHjWsok84,OK,,0,Boon Lay Secondary School
+2026-07-18T17:02:49.382644,place_details_reviews,1,AIzaSy...IDGw,918,Tuas,Tuas Promenade,education,polytechnic,ChIJZX8AIGAa2jERZj1hXsMAZ3U,OK,,5,SP - Poly Marina
+2026-07-18T17:02:49.883051,place_details_reviews,1,AIzaSy...IDGw,919,Tuas,Tuas Promenade,education,university,ChIJ2QJCeFYa2jERa434wdYIjUg,OK,,5,National University of Singapore
+2026-07-18T17:02:50.549544,place_details_reviews,1,AIzaSy...IDGw,920,Tuas,Tuas Promenade,shopping,convenience store,ChIJe-ZwN_wF2jER0KBwGkVwwHk,OK,,5,Cdpl Tuas South Minimart
+2026-07-18T17:02:50.920361,place_details_reviews,1,AIzaSy...IDGw,921,Tuas,Tuas Promenade,shopping,convenience store,ChIJXZie6x8H2jEREnoU0bQhygA,OK,,5,MBS Mart
+2026-07-18T17:02:51.417485,place_details_reviews,1,AIzaSy...IDGw,922,Tuas,Tuas Promenade,recreation,gym,ChIJsbnFq6wP2jEROSzyyxLMqPo,OK,,5,Anytime Fitness D'Arena Jurong
+2026-07-18T17:02:51.872051,place_details_reviews,1,AIzaSy...IDGw,923,Tuas,Tuas Promenade,recreation,sports centre,ChIJ2cCNCFga2jER5JmIg6WzSNk,OK,,5,University Sports Centre
+2026-07-18T17:02:52.359591,place_details_reviews,1,AIzaSy...IDGw,924,Tuas,Tuas Promenade,nature,park,ChIJS7J7SLgP2jERY0V_EXRYGr0,OK,,5,Southern Promenade
+2026-07-18T17:02:52.904821,place_details_reviews,1,AIzaSy...IDGw,925,Tuas,Tuas Promenade,nature,nature reserve,ChIJR9wDuIwQ2jERp5g9l0m9MQ0,OK,,5,Rifle Range Nature Park
+2026-07-18T17:02:53.321092,place_details_reviews,1,AIzaSy...IDGw,926,Tuas,Tuas Promenade,nature,nature reserve,ChIJs3oprUQQ2jERp8A9mbkPZJE,OK,,5,Bukit Batok Nature Park
+2026-07-18T17:02:53.745424,place_details_reviews,1,AIzaSy...IDGw,927,Tuas,Tuas Promenade,nature,garden,ChIJF3hKujob2jERD6QEyf7zKDE,OK,,4,Rain Garden
+2026-07-18T17:02:54.171878,place_details_reviews,1,AIzaSy...IDGw,928,Tuas,Tuas Promenade,nature,beach,ChIJpRlNluQa2jERt1AMrgNfuhM,OK,,5,Promenade Lookout Jetty
+2026-07-18T17:02:54.931093,place_details_reviews,1,AIzaSy...IDGw,929,Tuas,Tuas Promenade,nature,waterfront,ChIJWVitHwgZ2jERhowC8-Xkd7g,OK,,5,Waterfront Promenade
+2026-07-18T17:02:55.620325,place_details_reviews,1,AIzaSy...IDGw,930,Tuas,Tuas Promenade,nature,waterfront,ChIJUy-X9g8Z2jERJ0Jko3en1Rw,OK,,5,Marina Bay Waterfront Promenade
+2026-07-18T17:02:56.266281,place_details_reviews,1,AIzaSy...IDGw,931,Tuas,Tuas Promenade,nature,park connector,ChIJMVuBJ-YZ2jER-Y8dU_xLsRo,OK,,5,Tanjong Rhu Promenade Park Connector
+2026-07-18T17:02:57.062056,place_details_reviews,1,AIzaSy...IDGw,932,Tuas,Tuas View,education,childcare centre,ChIJ6zAvwZkP2jER6DLjaI7x__E,OK,,5,KidsCampus Jurong West Childcare & Infant Care
+2026-07-18T17:02:57.839043,place_details_reviews,1,AIzaSy...IDGw,933,Tuas,Tuas View,education,primary school,ChIJkR1ecZEP2jERJhLeZx32rPs,OK,,0,Jurong West Primary School
+2026-07-18T17:02:58.589492,place_details_reviews,1,AIzaSy...IDGw,934,Tuas,Tuas View,education,primary school,ChIJVwe1euUP2jERXOcoAuUFS9Y,OK,,0,Lakeside Primary School
+2026-07-18T17:02:59.305796,place_details_reviews,1,AIzaSy...IDGw,935,Tuas,Tuas View,education,library,ChIJzQxH-Pga2jERBzWDbYXqrl4,OK,,0,Central Library
+2026-07-18T17:03:00.096792,place_details_reviews,1,AIzaSy...IDGw,936,Tuas,Tuas View,transport,bus stop,ChIJw-fMavsa2jERdBIJ0Lyb7yU,OK,,3,West Coast View
+2026-07-18T17:03:00.591962,place_details_reviews,1,AIzaSy...IDGw,937,Tuas,Tuas View,shopping,shopping mall,ChIJdxS7gPEa2jER1iMe8Ai90Ts,OK,,5,West Coast Plaza
+2026-07-18T17:03:01.053620,place_details_reviews,1,AIzaSy...IDGw,938,Tuas,Tuas View,shopping,shopping mall,ChIJZ1omp8gZ2jERgDUAb_hBKLY,OK,,5,City Square Mall
+2026-07-18T17:03:01.618072,place_details_reviews,1,AIzaSy...IDGw,939,Tuas,Tuas View,shopping,wet market,ChIJfY_zJ6MF2jERefg_hPaVgp8,OK,,5,Jurong Fishery Port
+2026-07-18T17:03:02.057323,place_details_reviews,1,AIzaSy...IDGw,940,Tuas,Tuas View,shopping,wet market,ChIJ6SKfUzwQ2jERezteXcNnbAE,OK,,5,Quan Shui Wet Market
+2026-07-18T17:03:02.954770,place_details_reviews,1,AIzaSy...IDGw,941,Tuas,Tuas View,recreation,gym,ChIJLXtnjpMa2jERBuUUK527K8c,OK,,5,Anytime Fitness West Coast Plaza
+2026-07-18T17:03:03.695202,place_details_reviews,1,AIzaSy...IDGw,942,Tuas,Tuas View,recreation,cinema,ChIJ3dSCfKMR2jERsBpC6UoFuaQ,OK,,5,EagleWings Cinematics
+2026-07-18T17:03:04.421580,place_details_reviews,1,AIzaSy...IDGw,943,Tuas,Tuas View,nature,garden,ChIJWQLwKP0P2jER-AOMrDbkIW8,OK,,5,Jurong Lake Gardens
+2026-07-18T17:03:04.782166,place_details_reviews,1,AIzaSy...IDGw,944,Tuas,Tuas View Extension,education,childcare centre,ChIJ7c_GlU8b2jERbcrgErGKEY0,OK,,5,Smart Berriis @ WestCoast
+2026-07-18T17:03:05.083020,place_details_reviews,1,AIzaSy...IDGw,945,Tuas,Tuas View Extension,education,primary school,ChIJ0c1cxJ4P2jERiZ70xxE_V1I,OK,,0,Xingnan Primary School
+2026-07-18T17:03:05.563303,place_details_reviews,1,AIzaSy...IDGw,946,Tuas,Tuas View Extension,education,tuition centre,ChIJYQX_tMwb2jER48GGx2PmWNM,OK,,5,Good School Learning Hub - Clementi
+2026-07-18T17:03:06.068024,place_details_reviews,1,AIzaSy...IDGw,947,Tuas,Tuas View Extension,food,coffee shop,ChIJMcPrCLsb2jERepk1_M2ySu0,OK,,5,Doublechin Cafe
+2026-07-18T17:03:06.836397,place_details_reviews,1,AIzaSy...IDGw,948,Tuas,Tuas View Extension,recreation,cinema,ChIJWcpxFQQQ2jERpLIO6PcPP4U,OK,,5,Omni-Theatre
+2026-07-18T17:03:07.575522,place_details_reviews,1,AIzaSy...IDGw,949,Tuas,Tuas View Extension,recreation,playground,ChIJSSw7_tQb2jER3ivwN-5BwNM,OK,,5,COMO Adventure Grove
+2026-07-18T17:03:08.273641,place_details_reviews,2,AIzaSy...8yB0,0,Tuas,Tuas View Extension,recreation,playground,ChIJL-jdIuUa2jERgORf1PTFUow,OK,,5,Adventure Playground
+2026-07-18T17:03:08.834357,place_details_reviews,2,AIzaSy...8yB0,1,Tuas,Tuas View Extension,nature,beach,ChIJuU9qyPgb2jERidqJVhPuyUw,OK,,5,Ola Beach Club
+2026-07-18T17:03:09.553485,place_details_reviews,2,AIzaSy...8yB0,2,Tuas,Tuas View Extension,nature,park connector,ChIJj2fIsToR2jER7yMokf5B1Ig,OK,,4,Hillview Park Connector

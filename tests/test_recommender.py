@@ -53,6 +53,25 @@ class RecommenderTests(unittest.TestCase):
         self.assertEqual(result["recommendations"][0]["town"], "TAMPINES")
         self.assertTrue(result["recommendations"][0]["preferred_town_match"])
 
+    def test_confirmed_anchor_is_a_distance_filter_and_explanation(self) -> None:
+        candidates = self.candidates.copy()
+        candidates["latitude"] = 1.35
+        candidates["longitude"] = 103.94
+        candidates.loc[candidates.index[0], "latitude"] = 1.2966
+        candidates.loc[candidates.index[0], "longitude"] = 103.7764
+        preferences = UserPreferences(
+            budget=1_000_000,
+            anchor_name="NUS",
+            anchor_latitude=1.2966,
+            anchor_longitude=103.7764,
+            max_anchor_distance_m=500,
+        )
+        result = recommend(candidates, preferences, top_k=3)
+        self.assertEqual(len(result["recommendations"]), 1)
+        item = result["recommendations"][0]
+        self.assertLessEqual(item["anchor_distance_m"], 500)
+        self.assertTrue(any("NUS" in reason for reason in item["reasons"]))
+
     def test_empty_result_returns_near_misses_without_relaxing(self) -> None:
         preferences = UserPreferences(budget=100_000, flat_types=("4 ROOM",))
         result = recommend(self.candidates, preferences, top_k=5)

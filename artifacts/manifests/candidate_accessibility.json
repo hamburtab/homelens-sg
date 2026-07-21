@@ -1,0 +1,12 @@
+{
+  "input_path": "data/processed/hdb_candidates_geocoded.csv",
+  "output_path": "data/processed/hdb_candidates_product.csv",
+  "method": "straight-line haversine distance from existing OneMap coordinates",
+  "distance_type": "straight-line haversine distance",
+  "candidate_rows": 7730,
+  "rows_with_coordinates": 7651,
+  "mrt_exit_points": 597,
+  "bus_stop_points": 5166,
+  "hawker_centre_points": 129,
+  "park_points": 461
+}

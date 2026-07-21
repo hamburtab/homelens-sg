@@ -1,0 +1,49 @@
+{
+  "source": "PropertyGuru Singapore — HDB for Sale",
+  "contribution_type": "group_member_dataset",
+  "received_on": "2026-07-20",
+  "page_start": 301,
+  "page_end": 400,
+  "page_count_reported": 100,
+  "parsed_csv_path": "data/external/listings/propertyguru/sale_pages_0301_0400/live_sale_listings.csv",
+  "parsed_rows": 1987,
+  "unique_listing_ids": 1987,
+  "unique_source_listing_references": 1987,
+  "csv_sha256": "5d652a988d25f88033ffe7e07680eb95cf6eb1618a528c1f568f41f78203413a",
+  "scraped_at_min_utc": "2026-07-20T09:53:39.160222+00:00",
+  "scraped_at_max_utc": "2026-07-20T10:08:00.603524+00:00",
+  "missing_required_fields": {
+    "listing_id": 0,
+    "source_listing_reference": 0,
+    "address": 0,
+    "asking_price": 0,
+    "floor_area_sqft": 0,
+    "scraped_at": 0
+  },
+  "missing_optional_fields": {
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "tenure": 6,
+    "built_year": 47,
+    "nearest_mrt_name": 143,
+    "latitude": 1987,
+    "longitude": 1987
+  },
+  "quality_flags": {
+    "area_or_psf_outlier_rows": 8,
+    "asking_price_outlier_rows": 0,
+    "area_rule": "floor_area_sqft < 300 or > 3000",
+    "psf_rule": "price_psf < 100 or > 3000",
+    "outlier_listing_ids": [
+      "71f4673bf369",
+      "4860899fd38e",
+      "cd649f0f8592",
+      "3884d55f6bd5",
+      "0cea0711954c",
+      "0cfa86b4b965",
+      "28de349f0379",
+      "b05aaecc75d5"
+    ]
+  },
+  "integration_status": "external_source_fragment_merged_to_interim"
+}

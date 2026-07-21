@@ -1,0 +1,73 @@
+﻿planning_area,subzone,poi_dimension,facility_count,avg_rating,total_user_ratings,rating_100
+Ang Mo Kio,Ang Mo Kio Town Centre,education,20,4.865,948,97.3
+Ang Mo Kio,Ang Mo Kio Town Centre,transport,20,4.165,17402,83.3
+Ang Mo Kio,Ang Mo Kio Town Centre,food,20,4.12,26154,82.4
+Ang Mo Kio,Ang Mo Kio Town Centre,shopping,20,4.05,79014,81.0
+Ang Mo Kio,Ang Mo Kio Town Centre,recreation,20,4.437,7774,88.74
+Ang Mo Kio,Ang Mo Kio Town Centre,nature,19,4.516,30605,90.32
+Ang Mo Kio,Cheng San,education,20,4.768,3860,95.36
+Ang Mo Kio,Cheng San,transport,20,3.75,1520,75.0
+Ang Mo Kio,Cheng San,food,20,4.095,61434,81.9
+Ang Mo Kio,Cheng San,shopping,20,4.145,82518,82.9
+Ang Mo Kio,Cheng San,recreation,20,4.355,8506,87.1
+Ang Mo Kio,Cheng San,nature,20,4.49,23519,89.8
+Ang Mo Kio,Chong Boon,education,20,4.87,849,97.4
+Ang Mo Kio,Chong Boon,transport,20,4.25,2119,85.0
+Ang Mo Kio,Chong Boon,food,20,4.055,22956,81.1
+Ang Mo Kio,Chong Boon,shopping,20,4.075,67083,81.5
+Ang Mo Kio,Chong Boon,recreation,20,4.216,6845,84.32
+Ang Mo Kio,Chong Boon,nature,20,4.425,32317,88.5
+Ang Mo Kio,Kebun Bahru,education,20,4.825,729,96.5
+Ang Mo Kio,Kebun Bahru,transport,20,4.24,3026,84.8
+Ang Mo Kio,Kebun Bahru,food,20,4.11,86516,82.2
+Ang Mo Kio,Kebun Bahru,shopping,20,4.12,73157,82.4
+Ang Mo Kio,Kebun Bahru,recreation,20,4.335,6705,86.7
+Ang Mo Kio,Kebun Bahru,nature,20,4.5,44518,90.0
+Ang Mo Kio,Sembawang Hills,education,20,4.79,851,95.8
+Ang Mo Kio,Sembawang Hills,transport,20,4.02,309,80.4
+Ang Mo Kio,Sembawang Hills,food,1,3.9,2392,78.0
+Ang Mo Kio,Sembawang Hills,shopping,20,4.13,89235,82.6
+Ang Mo Kio,Sembawang Hills,recreation,20,4.335,5458,86.7
+Ang Mo Kio,Sembawang Hills,nature,20,4.475,21449,89.5
+Ang Mo Kio,Shangri-La,education,20,4.774,2703,95.48
+Ang Mo Kio,Shangri-La,transport,20,4.165,3905,83.3
+Ang Mo Kio,Shangri-La,food,20,4.085,103123,81.7
+Ang Mo Kio,Shangri-La,shopping,20,4.15,43001,83.0
+Ang Mo Kio,Shangri-La,recreation,20,4.316,5706,86.32
+Ang Mo Kio,Shangri-La,nature,20,4.46,38637,89.2
+Ang Mo Kio,Tagore,education,20,4.73,851,94.6
+Ang Mo Kio,Tagore,transport,20,4.315,2110,86.3
+Ang Mo Kio,Tagore,food,20,4.065,89384,81.3
+Ang Mo Kio,Tagore,shopping,20,4.135,104485,82.7
+Ang Mo Kio,Tagore,recreation,20,4.215,8180,84.3
+Ang Mo Kio,Tagore,nature,20,4.53,29371,90.6
+Ang Mo Kio,Townsville,education,20,4.816,780,96.32
+Ang Mo Kio,Townsville,transport,12,4.167,381,83.34
+Ang Mo Kio,Townsville,food,20,4.135,128583,82.7
+Ang Mo Kio,Townsville,shopping,20,4.09,34980,81.8
+Ang Mo Kio,Townsville,recreation,20,4.2,8565,84.0
+Ang Mo Kio,Townsville,nature,20,4.495,18195,89.9
+Ang Mo Kio,Yio Chu Kang,education,20,4.87,984,97.4
+Ang Mo Kio,Yio Chu Kang,transport,20,4.03,1862,80.6
+Ang Mo Kio,Yio Chu Kang,food,8,4.2,13144,84.0
+Ang Mo Kio,Yio Chu Kang,shopping,20,4.125,84663,82.5
+Ang Mo Kio,Yio Chu Kang,recreation,20,4.3,6737,86.0
+Ang Mo Kio,Yio Chu Kang,nature,20,4.495,39308,89.9
+Ang Mo Kio,Yio Chu Kang East,education,20,4.88,953,97.6
+Ang Mo Kio,Yio Chu Kang East,transport,20,4.185,2199,83.7
+Ang Mo Kio,Yio Chu Kang East,food,20,4.135,28247,82.7
+Ang Mo Kio,Yio Chu Kang East,shopping,20,4.095,78026,81.9
+Ang Mo Kio,Yio Chu Kang East,recreation,20,4.311,6874,86.22
+Ang Mo Kio,Yio Chu Kang East,nature,20,4.455,30274,89.1
+Ang Mo Kio,Yio Chu Kang North,education,20,4.88,944,97.6
+Ang Mo Kio,Yio Chu Kang North,transport,20,4.09,1754,81.8
+Ang Mo Kio,Yio Chu Kang North,food,20,4.165,24153,83.3
+Ang Mo Kio,Yio Chu Kang North,shopping,20,4.045,41380,80.9
+Ang Mo Kio,Yio Chu Kang North,recreation,20,4.332,8929,86.64
+Ang Mo Kio,Yio Chu Kang North,nature,20,4.45,28569,89.0
+Ang Mo Kio,Yio Chu Kang West,education,20,4.865,952,97.3
+Ang Mo Kio,Yio Chu Kang West,transport,20,4.12,1821,82.4
+Ang Mo Kio,Yio Chu Kang West,food,20,4.125,22566,82.5
+Ang Mo Kio,Yio Chu Kang West,shopping,20,4.01,41599,80.2
+Ang Mo Kio,Yio Chu Kang West,recreation,20,4.189,7527,83.78
+Ang Mo Kio,Yio Chu Kang West,nature,20,4.465,34848,89.3

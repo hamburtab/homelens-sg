@@ -1,4 +1,4 @@
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { useRef, useEffect, useCallback } from 'react';
 import { GeoJSON, useMap } from 'react-leaflet';
 import type { GeoJSON as LGeo, Layer } from 'leaflet';
 import type { Feature } from 'geojson';
@@ -6,26 +6,26 @@ import type { PlanningAreaCollection, SelectedRegion, ColorMap } from '../../lib
 import { SELECTED_COLOR, SELECTED_BORDER } from '../../lib/colors';
 import { getPAColor } from '../../lib/pa-heatmap';
 
-interface P { data: PlanningAreaCollection; colorMap: ColorMap; selectedArea: SelectedRegion | null; onSelect: (r: SelectedRegion) => void; onHover: (r: SelectedRegion | null) => void; }
+interface P { data: PlanningAreaCollection; colorMap: ColorMap; selectedArea: SelectedRegion | null; onSelect: (r: SelectedRegion) => void; onHover: (r: SelectedRegion | null) => void; regionScores?: Record<string, number>; }
 type PL = { setStyle(s: Record<string,unknown>): void; bringToFront(): void };
 
-export function PlanningAreaLayer({ data, colorMap, selectedArea, onSelect, onHover }: P) {
+export function PlanningAreaLayer({ data, colorMap, selectedArea, onSelect, onHover, regionScores }: P) {
   const geoRef = useRef<LGeo | null>(null);
   const selRef = useRef<Layer | null>(null);
   const map = useMap();
-  const [zoom, setZoom] = useState(map.getZoom());
   const osRef = useRef(onSelect); osRef.current = onSelect;
   const ohRef = useRef(onHover); ohRef.current = onHover;
 
   useEffect(() => {
     const upd = () => {
-      const z = map.getZoom(); setZoom(z);
+      const z = map.getZoom();
       const g = geoRef.current; if (!g) return;
       const show = z >= 12; const fs = z <= 12 ? 10 : z <= 14 ? 12 : 15;
       g.eachLayer((l: Layer) => {
         try {
           const t = (l as any).getTooltip?.(); if (!t || !t._container) return;
-          show ? (l as any).openTooltip() : (l as any).closeTooltip();
+          if (show) (l as any).openTooltip();
+          else (l as any).closeTooltip();
           if (show) t._container.style.fontSize = `${fs}px`;
         } catch {}
       });
@@ -51,15 +51,17 @@ export function PlanningAreaLayer({ data, colorMap, selectedArea, onSelect, onHo
   const style = useCallback((f: Feature|undefined) => {
     const id = f?.properties?.PLN_AREA_N as string|undefined;
     const defColor = id ? (colorMap.get(id)||'#ccc') : '#ccc';
-    const heatColor = id ? getPAColor(id, defColor) : defColor;
-    return { fillColor: heatColor, fillOpacity:0.22, weight:1, color:'#aaa', opacity:0.25 };
-  }, [colorMap]);
+    const heatColor = id ? getPAColor(id, defColor, regionScores) : defColor;
+    return { fillColor: heatColor, fillOpacity:0.48, weight:1, color:'#ffffff', opacity:0.72 };
+  }, [colorMap, regionScores]);
 
   const onEach = useCallback((_f: Feature, l: Layer) => {
     const p = _f.properties as Record<string,string>|undefined;
     const id = p?.PLN_AREA_N ?? ''; const name = id;
     if (name && map.getZoom() >= 12) {
-      (l as any).bindTooltip(name, { permanent:true, direction:'center', className:'pa-label-tooltip', opacity:0.75 });
+      const score = regionScores?.[id];
+      const label = score == null ? name : `${name} · ${Math.round(score)}`;
+      (l as any).bindTooltip(label, { permanent:true, direction:'center', className:'pa-label-tooltip', opacity:0.82 });
     }
     const pl = l as unknown as PL;
     l.on({
@@ -73,7 +75,7 @@ export function PlanningAreaLayer({ data, colorMap, selectedArea, onSelect, onHo
         osRef.current({ id, name, type:'planning' });
       },
     });
-  }, [map]);
+  }, [map, regionScores]);
 
   useEffect(() => () => { selRef.current = null; }, []);
 

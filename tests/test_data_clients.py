@@ -70,6 +70,40 @@ class DataClientTests(unittest.TestCase):
         self.assertEqual(result["postal_code"], "521123")
         self.assertGreaterEqual(result["token_match_score"], 0.5)
 
+    def test_onemap_place_search_returns_ranked_deduplicated_candidates(self) -> None:
+        client = OneMapClient(token="test")
+        client.search = lambda query: {
+            "results": [
+                {
+                    "SEARCHVAL": "NATIONAL UNIVERSITY OF SINGAPORE",
+                    "BUILDING": "NATIONAL UNIVERSITY OF SINGAPORE",
+                    "ADDRESS": "21 LOWER KENT RIDGE ROAD SINGAPORE 119077",
+                    "POSTAL": "119077",
+                    "LATITUDE": "1.2966",
+                    "LONGITUDE": "103.7764",
+                },
+                {
+                    "SEARCHVAL": "NATIONAL UNIVERSITY OF SINGAPORE",
+                    "BUILDING": "NATIONAL UNIVERSITY OF SINGAPORE",
+                    "ADDRESS": "21 LOWER KENT RIDGE ROAD SINGAPORE 119077",
+                    "POSTAL": "119077",
+                    "LATITUDE": "1.2966",
+                    "LONGITUDE": "103.7764",
+                },
+                {
+                    "SEARCHVAL": "OUTSIDE SINGAPORE",
+                    "ADDRESS": "OUTSIDE SINGAPORE",
+                    "LATITUDE": "40.0",
+                    "LONGITUDE": "-74.0",
+                },
+            ]
+        }
+        candidates = client.search_candidates("NUS")
+        self.assertEqual(len(candidates), 1)
+        self.assertEqual(candidates[0]["provider"], "onemap")
+        self.assertEqual(candidates[0]["postal_code"], "119077")
+        self.assertTrue(candidates[0]["id"].startswith("onemap:"))
+
 
 if __name__ == "__main__":
     unittest.main()

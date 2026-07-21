@@ -72,10 +72,7 @@ export function RentalDetailPanel({ listing, onClose, labelMap }: RentalDetailPa
   const url = listing.url;
   const amenities = listing.amenities as string[] | undefined;
 
-  const primaryImage =
-    images && images.length > 0
-      ? images[0]
-      : 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" fill="%23e2e8f0"><rect width="400" height="240"/><text x="200" y="130" text-anchor="middle" fill="%2394a3b8" font-size="16">No Image</text></svg>';
+  const primaryImage = images && images.length > 0 ? images[0] : null;
 
   // Meta fields (bedrooms, bathrooms, propertyType, etc.)
   const metaKeys = keys.filter((k) => KNOWN_ROLES[k] === 'meta');
@@ -93,7 +90,11 @@ export function RentalDetailPanel({ listing, onClose, labelMap }: RentalDetailPa
 
         {/* Image */}
         <div className="rental-detail__image-wrap">
-          <img className="rental-detail__image" src={primaryImage} alt={title} loading="lazy" />
+          {primaryImage ? (
+            <img className="rental-detail__image" src={primaryImage} alt={title} loading="lazy" />
+          ) : (
+            <div className="rental-detail__image rental-detail__image--empty" aria-label="No listing image available">No image supplied</div>
+          )}
           {images && images.length > 1 && (
             <span className="rental-detail__image-count">1 / {images.length}</span>
           )}
@@ -104,7 +105,7 @@ export function RentalDetailPanel({ listing, onClose, labelMap }: RentalDetailPa
           {price !== undefined && price !== null && (
             <div className="rental-detail__header">
               <span className="rental-detail__price">{fmtPrice(price)}</span>
-              <span className="rental-detail__per">/mo</span>
+              {listing.mode === 'rent' && <span className="rental-detail__per">/mo</span>}
             </div>
           )}
 

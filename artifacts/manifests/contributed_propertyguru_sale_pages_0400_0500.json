@@ -1,0 +1,29 @@
+{
+  "source": "PropertyGuru Singapore — HDB for Sale",
+  "contribution_type": "group_member_dataset",
+  "collected_on": "2026-07-20",
+  "page_start": 400,
+  "page_end": 500,
+  "page_count": 101,
+  "raw_html_path": "data/external/listings/propertyguru/sale_pages_0400_0500/raw_html",
+  "parsed_csv_path": "data/external/listings/propertyguru/sale_pages_0400_0500/live_sale_listings.csv",
+  "contributor_script_path": "data/external/listings/propertyguru/sale_pages_0400_0500/scrape_live_sale_listings_contributor.py",
+  "parsed_rows": 1504,
+  "unique_listing_ids": 1504,
+  "raw_listing_rows_reported": 2020,
+  "csv_sha256": "b057ee7c991f0972dcb8c482cc23ba9ac9ac4b467aa6ec97ab1e1c28837bd2bc",
+  "raw_html_complete_for_range": true,
+  "missing_pages": [],
+  "latitude_missing": 1504,
+  "longitude_missing": 1504,
+  "schema_matches_main_sale_csv": true,
+  "listing_id_overlap_with_main_sale_csv": 2,
+  "source_reference_overlap_with_main_sale_csv": 2,
+  "listing_id_overlap_with_pages_0301_0400": 9,
+  "integration_status": "external_source_fragment_merged_to_interim",
+  "notes": [
+    "The package is preserved separately and has not overwritten the main partial sale CSV.",
+    "The supplied contributor script differs from the active scraper and does not declare the same output schema as the supplied CSV; retain it for provenance, not as the default runtime script.",
+    "This source fragment is preserved unchanged; its deduplicated derivative with pages 301-400 is tracked by artifacts/manifests/propertyguru_sale_pages_0301_0500_merge.json."
+  ]
+}

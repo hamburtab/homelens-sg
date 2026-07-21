@@ -30,6 +30,20 @@ class IntentTests(unittest.TestCase):
         self.assertEqual(result.values["flat_types"], ["4 ROOM"])
         self.assertEqual(result.values["preferred_towns"], ["PUNGGOL"])
 
+    def test_chinese_town_alias_and_numeric_flat_type(self) -> None:
+        result = parse_with_rules("预算65万，在淡滨尼找4房，靠近地铁")
+        self.assertEqual(result.values["budget"], 650_000)
+        self.assertEqual(result.values["flat_types"], ["4 ROOM"])
+        self.assertEqual(result.values["preferred_towns"], ["TAMPINES"])
+
+    def test_arbitrary_place_and_radius_are_extracted_without_coordinates(self) -> None:
+        english = parse_with_rules("A 4-room under 650k within 3km of NUS")
+        chinese = parse_with_rules("预算65万，在NUS附近3公里找四房")
+        for result in (english, chinese):
+            self.assertEqual(result.values["location_query"], "NUS")
+            self.assertEqual(result.values["max_anchor_distance_m"], 3_000)
+            self.assertNotIn("anchor_latitude", result.values)
+
     def test_negated_town_is_not_treated_as_a_preference(self) -> None:
         result = parse_with_rules("I do not want Bedok; preferably in Tampines")
         self.assertEqual(result.values["preferred_towns"], ["TAMPINES"])

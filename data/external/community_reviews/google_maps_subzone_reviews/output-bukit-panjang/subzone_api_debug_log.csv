@@ -1,0 +1,413 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-19T13:30:14.897686,text_search,2,AIzaSy...8yB0,158,Bukit Panjang,Bangkit,education,kindergarten,"kindergarten in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:15.845075,text_search,2,AIzaSy...8yB0,159,Bukit Panjang,Bangkit,education,childcare centre,"childcare centre in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:16.949397,text_search,2,AIzaSy...8yB0,160,Bukit Panjang,Bangkit,education,primary school,"primary school in Bangkit, Bukit Panjang, Singapore",OK,,17,
+2026-07-19T13:30:18.015748,text_search,2,AIzaSy...8yB0,161,Bukit Panjang,Bangkit,education,secondary school,"secondary school in Bangkit, Bukit Panjang, Singapore",OK,,13,
+2026-07-19T13:30:18.929714,text_search,2,AIzaSy...8yB0,162,Bukit Panjang,Bangkit,education,junior college,"junior college in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:19.959190,text_search,2,AIzaSy...8yB0,163,Bukit Panjang,Bangkit,education,polytechnic,"polytechnic in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:20.959731,text_search,2,AIzaSy...8yB0,164,Bukit Panjang,Bangkit,education,university,"university in Bangkit, Bukit Panjang, Singapore",OK,,9,
+2026-07-19T13:30:21.767685,text_search,2,AIzaSy...8yB0,165,Bukit Panjang,Bangkit,education,tuition centre,"tuition centre in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:22.551071,text_search,2,AIzaSy...8yB0,166,Bukit Panjang,Bangkit,education,library,"library in Bangkit, Bukit Panjang, Singapore",OK,,5,
+2026-07-19T13:30:23.295396,text_search,2,AIzaSy...8yB0,167,Bukit Panjang,Bangkit,transport,MRT station,"MRT station in Bangkit, Bukit Panjang, Singapore",OK,,17,
+2026-07-19T13:30:24.497780,text_search,2,AIzaSy...8yB0,168,Bukit Panjang,Bangkit,transport,bus stop,"bus stop in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:25.376845,text_search,2,AIzaSy...8yB0,169,Bukit Panjang,Bangkit,transport,bus interchange,"bus interchange in Bangkit, Bukit Panjang, Singapore",OK,,19,
+2026-07-19T13:30:26.245764,text_search,2,AIzaSy...8yB0,170,Bukit Panjang,Bangkit,transport,LRT station,"LRT station in Bangkit, Bukit Panjang, Singapore",OK,,5,
+2026-07-19T13:30:27.049158,text_search,2,AIzaSy...8yB0,171,Bukit Panjang,Bangkit,food,hawker centre,"hawker centre in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:27.844140,text_search,2,AIzaSy...8yB0,172,Bukit Panjang,Bangkit,food,food court,"food court in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:28.639596,text_search,2,AIzaSy...8yB0,173,Bukit Panjang,Bangkit,food,coffee shop,"coffee shop in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:29.503960,text_search,2,AIzaSy...8yB0,174,Bukit Panjang,Bangkit,food,restaurant,"restaurant in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:30.297095,text_search,2,AIzaSy...8yB0,175,Bukit Panjang,Bangkit,food,cafe,"cafe in Bangkit, Bukit Panjang, Singapore",OK,,12,
+2026-07-19T13:30:31.150251,text_search,2,AIzaSy...8yB0,176,Bukit Panjang,Bangkit,shopping,shopping mall,"shopping mall in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:31.839519,text_search,2,AIzaSy...8yB0,177,Bukit Panjang,Bangkit,shopping,supermarket,"supermarket in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:33.080433,text_search,2,AIzaSy...8yB0,178,Bukit Panjang,Bangkit,shopping,grocery store,"grocery store in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:33.736539,text_search,2,AIzaSy...8yB0,179,Bukit Panjang,Bangkit,shopping,convenience store,"convenience store in Bangkit, Bukit Panjang, Singapore",OK,,9,
+2026-07-19T13:30:34.547924,text_search,2,AIzaSy...8yB0,180,Bukit Panjang,Bangkit,shopping,wet market,"wet market in Bangkit, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:30:35.624955,text_search,2,AIzaSy...8yB0,181,Bukit Panjang,Bangkit,recreation,gym,"gym in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:36.410938,text_search,2,AIzaSy...8yB0,182,Bukit Panjang,Bangkit,recreation,sports centre,"sports centre in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:37.270966,text_search,2,AIzaSy...8yB0,183,Bukit Panjang,Bangkit,recreation,swimming complex,"swimming complex in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:38.265060,text_search,2,AIzaSy...8yB0,184,Bukit Panjang,Bangkit,recreation,cinema,"cinema in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:39.277593,text_search,2,AIzaSy...8yB0,185,Bukit Panjang,Bangkit,recreation,community club,"community club in Bangkit, Bukit Panjang, Singapore",OK,,5,
+2026-07-19T13:30:40.021583,text_search,2,AIzaSy...8yB0,186,Bukit Panjang,Bangkit,recreation,playground,"playground in Bangkit, Bukit Panjang, Singapore",OK,,18,
+2026-07-19T13:30:40.955262,text_search,2,AIzaSy...8yB0,187,Bukit Panjang,Bangkit,nature,park,"park in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:41.736477,text_search,2,AIzaSy...8yB0,188,Bukit Panjang,Bangkit,nature,nature reserve,"nature reserve in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:42.506767,text_search,2,AIzaSy...8yB0,189,Bukit Panjang,Bangkit,nature,garden,"garden in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:43.246218,text_search,2,AIzaSy...8yB0,190,Bukit Panjang,Bangkit,nature,beach,"beach in Bangkit, Bukit Panjang, Singapore",OK,,5,
+2026-07-19T13:30:44.116943,text_search,2,AIzaSy...8yB0,191,Bukit Panjang,Bangkit,nature,waterfront,"waterfront in Bangkit, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:44.946834,text_search,2,AIzaSy...8yB0,192,Bukit Panjang,Bangkit,nature,park connector,"park connector in Bangkit, Bukit Panjang, Singapore",OK,,9,
+2026-07-19T13:30:45.836755,text_search,2,AIzaSy...8yB0,193,Bukit Panjang,Dairy Farm,education,kindergarten,"kindergarten in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:46.862327,text_search,2,AIzaSy...8yB0,194,Bukit Panjang,Dairy Farm,education,childcare centre,"childcare centre in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:52.462786,text_search,2,AIzaSy...8yB0,195,Bukit Panjang,Dairy Farm,education,primary school,"primary school in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:53.633174,text_search,2,AIzaSy...8yB0,196,Bukit Panjang,Dairy Farm,education,secondary school,"secondary school in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:54.660086,text_search,2,AIzaSy...8yB0,197,Bukit Panjang,Dairy Farm,education,junior college,"junior college in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:55.984724,text_search,2,AIzaSy...8yB0,198,Bukit Panjang,Dairy Farm,education,polytechnic,"polytechnic in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:56.890423,text_search,2,AIzaSy...8yB0,199,Bukit Panjang,Dairy Farm,education,university,"university in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:57.923918,text_search,2,AIzaSy...8yB0,200,Bukit Panjang,Dairy Farm,education,tuition centre,"tuition centre in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:30:58.536088,text_search,2,AIzaSy...8yB0,201,Bukit Panjang,Dairy Farm,education,library,"library in Dairy Farm, Bukit Panjang, Singapore",OK,,9,
+2026-07-19T13:30:59.450344,text_search,2,AIzaSy...8yB0,202,Bukit Panjang,Dairy Farm,transport,MRT station,"MRT station in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:00.593199,text_search,2,AIzaSy...8yB0,203,Bukit Panjang,Dairy Farm,transport,bus stop,"bus stop in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:01.667394,text_search,2,AIzaSy...8yB0,204,Bukit Panjang,Dairy Farm,transport,bus interchange,"bus interchange in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:02.435268,text_search,2,AIzaSy...8yB0,205,Bukit Panjang,Dairy Farm,transport,LRT station,"LRT station in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:03.271874,text_search,2,AIzaSy...8yB0,206,Bukit Panjang,Dairy Farm,food,hawker centre,"hawker centre in Dairy Farm, Bukit Panjang, Singapore",OK,,14,
+2026-07-19T13:31:03.959060,text_search,2,AIzaSy...8yB0,207,Bukit Panjang,Dairy Farm,food,food court,"food court in Dairy Farm, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:31:04.904269,text_search,2,AIzaSy...8yB0,208,Bukit Panjang,Dairy Farm,food,coffee shop,"coffee shop in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:05.652673,text_search,2,AIzaSy...8yB0,209,Bukit Panjang,Dairy Farm,food,restaurant,"restaurant in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:06.603004,text_search,2,AIzaSy...8yB0,210,Bukit Panjang,Dairy Farm,food,cafe,"cafe in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:07.242717,text_search,2,AIzaSy...8yB0,211,Bukit Panjang,Dairy Farm,shopping,shopping mall,"shopping mall in Dairy Farm, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:31:08.195758,text_search,2,AIzaSy...8yB0,212,Bukit Panjang,Dairy Farm,shopping,supermarket,"supermarket in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:09.210466,text_search,2,AIzaSy...8yB0,213,Bukit Panjang,Dairy Farm,shopping,grocery store,"grocery store in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:10.129619,text_search,2,AIzaSy...8yB0,214,Bukit Panjang,Dairy Farm,shopping,convenience store,"convenience store in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:10.990607,text_search,2,AIzaSy...8yB0,215,Bukit Panjang,Dairy Farm,shopping,wet market,"wet market in Dairy Farm, Bukit Panjang, Singapore",OK,,9,
+2026-07-19T13:31:11.697877,text_search,2,AIzaSy...8yB0,216,Bukit Panjang,Dairy Farm,recreation,gym,"gym in Dairy Farm, Bukit Panjang, Singapore",OK,,5,
+2026-07-19T13:31:12.753003,text_search,2,AIzaSy...8yB0,217,Bukit Panjang,Dairy Farm,recreation,sports centre,"sports centre in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:13.700305,text_search,2,AIzaSy...8yB0,218,Bukit Panjang,Dairy Farm,recreation,swimming complex,"swimming complex in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:14.793455,text_search,2,AIzaSy...8yB0,219,Bukit Panjang,Dairy Farm,recreation,cinema,"cinema in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:15.525831,text_search,2,AIzaSy...8yB0,220,Bukit Panjang,Dairy Farm,recreation,community club,"community club in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:16.202195,text_search,2,AIzaSy...8yB0,221,Bukit Panjang,Dairy Farm,recreation,playground,"playground in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:17.204307,text_search,2,AIzaSy...8yB0,222,Bukit Panjang,Dairy Farm,nature,park,"park in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:17.858098,text_search,2,AIzaSy...8yB0,223,Bukit Panjang,Dairy Farm,nature,nature reserve,"nature reserve in Dairy Farm, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:31:18.685531,text_search,2,AIzaSy...8yB0,224,Bukit Panjang,Dairy Farm,nature,garden,"garden in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:19.567407,text_search,2,AIzaSy...8yB0,225,Bukit Panjang,Dairy Farm,nature,beach,"beach in Dairy Farm, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:20.384863,text_search,2,AIzaSy...8yB0,226,Bukit Panjang,Dairy Farm,nature,waterfront,"waterfront in Dairy Farm, Bukit Panjang, Singapore",OK,,9,
+2026-07-19T13:31:21.023521,text_search,2,AIzaSy...8yB0,227,Bukit Panjang,Dairy Farm,nature,park connector,"park connector in Dairy Farm, Bukit Panjang, Singapore",OK,,2,
+2026-07-19T13:31:21.985847,text_search,2,AIzaSy...8yB0,228,Bukit Panjang,Fajar,education,kindergarten,"kindergarten in Fajar, Bukit Panjang, Singapore",OK,,15,
+2026-07-19T13:31:23.039199,text_search,2,AIzaSy...8yB0,229,Bukit Panjang,Fajar,education,childcare centre,"childcare centre in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:23.734681,text_search,2,AIzaSy...8yB0,230,Bukit Panjang,Fajar,education,primary school,"primary school in Fajar, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:31:24.529422,text_search,2,AIzaSy...8yB0,231,Bukit Panjang,Fajar,education,secondary school,"secondary school in Fajar, Bukit Panjang, Singapore",OK,,6,
+2026-07-19T13:31:25.315540,text_search,2,AIzaSy...8yB0,232,Bukit Panjang,Fajar,education,junior college,"junior college in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:25.997402,text_search,2,AIzaSy...8yB0,233,Bukit Panjang,Fajar,education,polytechnic,"polytechnic in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:26.778041,text_search,2,AIzaSy...8yB0,234,Bukit Panjang,Fajar,education,university,"university in Fajar, Bukit Panjang, Singapore",OK,,14,
+2026-07-19T13:31:27.569253,text_search,2,AIzaSy...8yB0,235,Bukit Panjang,Fajar,education,tuition centre,"tuition centre in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:28.456811,text_search,2,AIzaSy...8yB0,236,Bukit Panjang,Fajar,education,library,"library in Fajar, Bukit Panjang, Singapore",OK,,10,
+2026-07-19T13:31:29.445956,text_search,2,AIzaSy...8yB0,237,Bukit Panjang,Fajar,transport,MRT station,"MRT station in Fajar, Bukit Panjang, Singapore",OK,,5,
+2026-07-19T13:31:30.699983,text_search,2,AIzaSy...8yB0,238,Bukit Panjang,Fajar,transport,bus stop,"bus stop in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:31.502911,text_search,2,AIzaSy...8yB0,239,Bukit Panjang,Fajar,transport,bus interchange,"bus interchange in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:32.338630,text_search,2,AIzaSy...8yB0,240,Bukit Panjang,Fajar,transport,LRT station,"LRT station in Fajar, Bukit Panjang, Singapore",OK,,13,
+2026-07-19T13:31:33.531599,text_search,2,AIzaSy...8yB0,241,Bukit Panjang,Fajar,food,hawker centre,"hawker centre in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:34.344261,text_search,2,AIzaSy...8yB0,242,Bukit Panjang,Fajar,food,food court,"food court in Fajar, Bukit Panjang, Singapore",OK,,14,
+2026-07-19T13:31:35.347929,text_search,2,AIzaSy...8yB0,243,Bukit Panjang,Fajar,food,coffee shop,"coffee shop in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:36.133389,text_search,2,AIzaSy...8yB0,244,Bukit Panjang,Fajar,food,restaurant,"restaurant in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:39.116962,text_search,2,AIzaSy...8yB0,245,Bukit Panjang,Fajar,food,cafe,"cafe in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:40.171346,text_search,2,AIzaSy...8yB0,246,Bukit Panjang,Fajar,shopping,shopping mall,"shopping mall in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:40.819750,text_search,2,AIzaSy...8yB0,247,Bukit Panjang,Fajar,shopping,supermarket,"supermarket in Fajar, Bukit Panjang, Singapore",OK,,14,
+2026-07-19T13:31:41.883428,text_search,2,AIzaSy...8yB0,248,Bukit Panjang,Fajar,shopping,grocery store,"grocery store in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:42.614370,text_search,2,AIzaSy...8yB0,249,Bukit Panjang,Fajar,shopping,convenience store,"convenience store in Fajar, Bukit Panjang, Singapore",OK,,15,
+2026-07-19T13:31:43.400279,text_search,2,AIzaSy...8yB0,250,Bukit Panjang,Fajar,shopping,wet market,"wet market in Fajar, Bukit Panjang, Singapore",OK,,4,
+2026-07-19T13:31:44.429960,text_search,2,AIzaSy...8yB0,251,Bukit Panjang,Fajar,recreation,gym,"gym in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:45.087219,text_search,2,AIzaSy...8yB0,252,Bukit Panjang,Fajar,recreation,sports centre,"sports centre in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:45.981889,text_search,2,AIzaSy...8yB0,253,Bukit Panjang,Fajar,recreation,swimming complex,"swimming complex in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:46.727120,text_search,2,AIzaSy...8yB0,254,Bukit Panjang,Fajar,recreation,cinema,"cinema in Fajar, Bukit Panjang, Singapore",OK,,9,
+2026-07-19T13:31:47.553259,text_search,2,AIzaSy...8yB0,255,Bukit Panjang,Fajar,recreation,community club,"community club in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:48.260212,text_search,2,AIzaSy...8yB0,256,Bukit Panjang,Fajar,recreation,playground,"playground in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:49.076575,text_search,2,AIzaSy...8yB0,257,Bukit Panjang,Fajar,nature,park,"park in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:49.711648,text_search,2,AIzaSy...8yB0,258,Bukit Panjang,Fajar,nature,nature reserve,"nature reserve in Fajar, Bukit Panjang, Singapore",OK,,18,
+2026-07-19T13:31:50.410554,text_search,2,AIzaSy...8yB0,259,Bukit Panjang,Fajar,nature,garden,"garden in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:51.311225,text_search,2,AIzaSy...8yB0,260,Bukit Panjang,Fajar,nature,beach,"beach in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:52.287839,text_search,2,AIzaSy...8yB0,261,Bukit Panjang,Fajar,nature,waterfront,"waterfront in Fajar, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:53.040790,text_search,2,AIzaSy...8yB0,262,Bukit Panjang,Fajar,nature,park connector,"park connector in Fajar, Bukit Panjang, Singapore",OK,,7,
+2026-07-19T13:31:53.979551,text_search,2,AIzaSy...8yB0,263,Bukit Panjang,Jelebu,education,kindergarten,"kindergarten in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:54.834924,text_search,2,AIzaSy...8yB0,264,Bukit Panjang,Jelebu,education,childcare centre,"childcare centre in Jelebu, Bukit Panjang, Singapore",OK,,10,
+2026-07-19T13:31:55.763935,text_search,2,AIzaSy...8yB0,265,Bukit Panjang,Jelebu,education,primary school,"primary school in Jelebu, Bukit Panjang, Singapore",OK,,10,
+2026-07-19T13:31:56.816634,text_search,2,AIzaSy...8yB0,266,Bukit Panjang,Jelebu,education,secondary school,"secondary school in Jelebu, Bukit Panjang, Singapore",OK,,11,
+2026-07-19T13:31:57.611588,text_search,2,AIzaSy...8yB0,267,Bukit Panjang,Jelebu,education,junior college,"junior college in Jelebu, Bukit Panjang, Singapore",OK,,18,
+2026-07-19T13:31:58.480220,text_search,2,AIzaSy...8yB0,268,Bukit Panjang,Jelebu,education,polytechnic,"polytechnic in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:31:59.589656,text_search,2,AIzaSy...8yB0,269,Bukit Panjang,Jelebu,education,university,"university in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:00.486856,text_search,2,AIzaSy...8yB0,270,Bukit Panjang,Jelebu,education,tuition centre,"tuition centre in Jelebu, Bukit Panjang, Singapore",OK,,8,
+2026-07-19T13:32:01.447316,text_search,2,AIzaSy...8yB0,271,Bukit Panjang,Jelebu,education,library,"library in Jelebu, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:32:02.302598,text_search,2,AIzaSy...8yB0,272,Bukit Panjang,Jelebu,transport,MRT station,"MRT station in Jelebu, Bukit Panjang, Singapore",OK,,18,
+2026-07-19T13:32:03.255998,text_search,2,AIzaSy...8yB0,273,Bukit Panjang,Jelebu,transport,bus stop,"bus stop in Jelebu, Bukit Panjang, Singapore",OK,,13,
+2026-07-19T13:32:03.986924,text_search,2,AIzaSy...8yB0,274,Bukit Panjang,Jelebu,transport,bus interchange,"bus interchange in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:04.873114,text_search,2,AIzaSy...8yB0,275,Bukit Panjang,Jelebu,transport,LRT station,"LRT station in Jelebu, Bukit Panjang, Singapore",OK,,18,
+2026-07-19T13:32:05.712067,text_search,2,AIzaSy...8yB0,276,Bukit Panjang,Jelebu,food,hawker centre,"hawker centre in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:06.735732,text_search,2,AIzaSy...8yB0,277,Bukit Panjang,Jelebu,food,food court,"food court in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:07.727718,text_search,2,AIzaSy...8yB0,278,Bukit Panjang,Jelebu,food,coffee shop,"coffee shop in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:08.806839,text_search,2,AIzaSy...8yB0,279,Bukit Panjang,Jelebu,food,restaurant,"restaurant in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:09.572380,text_search,2,AIzaSy...8yB0,280,Bukit Panjang,Jelebu,food,cafe,"cafe in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:10.707876,text_search,2,AIzaSy...8yB0,281,Bukit Panjang,Jelebu,shopping,shopping mall,"shopping mall in Jelebu, Bukit Panjang, Singapore",OK,,10,
+2026-07-19T13:32:11.929249,text_search,2,AIzaSy...8yB0,282,Bukit Panjang,Jelebu,shopping,supermarket,"supermarket in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:12.699498,text_search,2,AIzaSy...8yB0,283,Bukit Panjang,Jelebu,shopping,grocery store,"grocery store in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:13.594902,text_search,2,AIzaSy...8yB0,284,Bukit Panjang,Jelebu,shopping,convenience store,"convenience store in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:14.434539,text_search,2,AIzaSy...8yB0,285,Bukit Panjang,Jelebu,shopping,wet market,"wet market in Jelebu, Bukit Panjang, Singapore",OK,,18,
+2026-07-19T13:32:15.389198,text_search,2,AIzaSy...8yB0,286,Bukit Panjang,Jelebu,recreation,gym,"gym in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:16.335486,text_search,2,AIzaSy...8yB0,287,Bukit Panjang,Jelebu,recreation,sports centre,"sports centre in Jelebu, Bukit Panjang, Singapore",OK,,16,
+2026-07-19T13:32:17.248777,text_search,2,AIzaSy...8yB0,288,Bukit Panjang,Jelebu,recreation,swimming complex,"swimming complex in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:18.292810,text_search,2,AIzaSy...8yB0,289,Bukit Panjang,Jelebu,recreation,cinema,"cinema in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:19.321405,text_search,2,AIzaSy...8yB0,290,Bukit Panjang,Jelebu,recreation,community club,"community club in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:20.360721,text_search,2,AIzaSy...8yB0,291,Bukit Panjang,Jelebu,recreation,playground,"playground in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:21.344547,text_search,2,AIzaSy...8yB0,292,Bukit Panjang,Jelebu,nature,park,"park in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:22.104718,text_search,2,AIzaSy...8yB0,293,Bukit Panjang,Jelebu,nature,nature reserve,"nature reserve in Jelebu, Bukit Panjang, Singapore",OK,,19,
+2026-07-19T13:32:23.019697,text_search,2,AIzaSy...8yB0,294,Bukit Panjang,Jelebu,nature,garden,"garden in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:23.964274,text_search,2,AIzaSy...8yB0,295,Bukit Panjang,Jelebu,nature,beach,"beach in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:25.043257,text_search,2,AIzaSy...8yB0,296,Bukit Panjang,Jelebu,nature,waterfront,"waterfront in Jelebu, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:25.631308,text_search,2,AIzaSy...8yB0,297,Bukit Panjang,Jelebu,nature,park connector,"park connector in Jelebu, Bukit Panjang, Singapore",OK,,2,
+2026-07-19T13:32:26.482448,text_search,2,AIzaSy...8yB0,298,Bukit Panjang,Nature Reserve,education,kindergarten,"kindergarten in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:27.321077,text_search,2,AIzaSy...8yB0,299,Bukit Panjang,Nature Reserve,education,childcare centre,"childcare centre in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:29.063622,text_search,2,AIzaSy...8yB0,300,Bukit Panjang,Nature Reserve,education,primary school,"primary school in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:29.852219,text_search,2,AIzaSy...8yB0,301,Bukit Panjang,Nature Reserve,education,secondary school,"secondary school in Nature Reserve, Bukit Panjang, Singapore",OK,,16,
+2026-07-19T13:32:30.974163,text_search,2,AIzaSy...8yB0,302,Bukit Panjang,Nature Reserve,education,junior college,"junior college in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:32.074956,text_search,2,AIzaSy...8yB0,303,Bukit Panjang,Nature Reserve,education,polytechnic,"polytechnic in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:32.967714,text_search,2,AIzaSy...8yB0,304,Bukit Panjang,Nature Reserve,education,university,"university in Nature Reserve, Bukit Panjang, Singapore",OK,,14,
+2026-07-19T13:32:34.004685,text_search,2,AIzaSy...8yB0,305,Bukit Panjang,Nature Reserve,education,tuition centre,"tuition centre in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:34.806351,text_search,2,AIzaSy...8yB0,306,Bukit Panjang,Nature Reserve,education,library,"library in Nature Reserve, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:32:35.841270,text_search,2,AIzaSy...8yB0,307,Bukit Panjang,Nature Reserve,transport,MRT station,"MRT station in Nature Reserve, Bukit Panjang, Singapore",OK,,12,
+2026-07-19T13:32:36.728532,text_search,2,AIzaSy...8yB0,308,Bukit Panjang,Nature Reserve,transport,bus stop,"bus stop in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:37.482977,text_search,2,AIzaSy...8yB0,309,Bukit Panjang,Nature Reserve,transport,bus interchange,"bus interchange in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:38.538853,text_search,2,AIzaSy...8yB0,310,Bukit Panjang,Nature Reserve,transport,LRT station,"LRT station in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:39.535746,text_search,2,AIzaSy...8yB0,311,Bukit Panjang,Nature Reserve,food,hawker centre,"hawker centre in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:40.307444,text_search,2,AIzaSy...8yB0,312,Bukit Panjang,Nature Reserve,food,food court,"food court in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:41.446894,text_search,2,AIzaSy...8yB0,313,Bukit Panjang,Nature Reserve,food,coffee shop,"coffee shop in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:42.620108,text_search,2,AIzaSy...8yB0,314,Bukit Panjang,Nature Reserve,food,restaurant,"restaurant in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:43.614693,text_search,2,AIzaSy...8yB0,315,Bukit Panjang,Nature Reserve,food,cafe,"cafe in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:44.433212,text_search,2,AIzaSy...8yB0,316,Bukit Panjang,Nature Reserve,shopping,shopping mall,"shopping mall in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:45.372497,text_search,2,AIzaSy...8yB0,317,Bukit Panjang,Nature Reserve,shopping,supermarket,"supermarket in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:46.273310,text_search,2,AIzaSy...8yB0,318,Bukit Panjang,Nature Reserve,shopping,grocery store,"grocery store in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:51.801867,text_search,2,AIzaSy...8yB0,319,Bukit Panjang,Nature Reserve,shopping,convenience store,"convenience store in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:52.596031,text_search,2,AIzaSy...8yB0,320,Bukit Panjang,Nature Reserve,shopping,wet market,"wet market in Nature Reserve, Bukit Panjang, Singapore",OK,,7,
+2026-07-19T13:32:53.720827,text_search,2,AIzaSy...8yB0,321,Bukit Panjang,Nature Reserve,recreation,gym,"gym in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:54.417162,text_search,2,AIzaSy...8yB0,322,Bukit Panjang,Nature Reserve,recreation,sports centre,"sports centre in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:55.366054,text_search,2,AIzaSy...8yB0,323,Bukit Panjang,Nature Reserve,recreation,swimming complex,"swimming complex in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:56.282209,text_search,2,AIzaSy...8yB0,324,Bukit Panjang,Nature Reserve,recreation,cinema,"cinema in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:57.164500,text_search,2,AIzaSy...8yB0,325,Bukit Panjang,Nature Reserve,recreation,community club,"community club in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:58.165547,text_search,2,AIzaSy...8yB0,326,Bukit Panjang,Nature Reserve,recreation,playground,"playground in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:32:59.360168,text_search,2,AIzaSy...8yB0,327,Bukit Panjang,Nature Reserve,nature,park,"park in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:00.297261,text_search,2,AIzaSy...8yB0,328,Bukit Panjang,Nature Reserve,nature,nature reserve,"nature reserve in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:01.069981,text_search,2,AIzaSy...8yB0,329,Bukit Panjang,Nature Reserve,nature,garden,"garden in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:01.893828,text_search,2,AIzaSy...8yB0,330,Bukit Panjang,Nature Reserve,nature,beach,"beach in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:03.084427,text_search,2,AIzaSy...8yB0,331,Bukit Panjang,Nature Reserve,nature,waterfront,"waterfront in Nature Reserve, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:03.833257,text_search,2,AIzaSy...8yB0,332,Bukit Panjang,Nature Reserve,nature,park connector,"park connector in Nature Reserve, Bukit Panjang, Singapore",OK,,14,
+2026-07-19T13:33:04.809600,text_search,2,AIzaSy...8yB0,333,Bukit Panjang,Saujana,education,kindergarten,"kindergarten in Saujana, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:33:05.535894,text_search,2,AIzaSy...8yB0,334,Bukit Panjang,Saujana,education,childcare centre,"childcare centre in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:06.498259,text_search,2,AIzaSy...8yB0,335,Bukit Panjang,Saujana,education,primary school,"primary school in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:07.491348,text_search,2,AIzaSy...8yB0,336,Bukit Panjang,Saujana,education,secondary school,"secondary school in Saujana, Bukit Panjang, Singapore",OK,,8,
+2026-07-19T13:33:08.201925,text_search,2,AIzaSy...8yB0,337,Bukit Panjang,Saujana,education,junior college,"junior college in Saujana, Bukit Panjang, Singapore",OK,,13,
+2026-07-19T13:33:09.059979,text_search,2,AIzaSy...8yB0,338,Bukit Panjang,Saujana,education,polytechnic,"polytechnic in Saujana, Bukit Panjang, Singapore",OK,,17,
+2026-07-19T13:33:09.966486,text_search,2,AIzaSy...8yB0,339,Bukit Panjang,Saujana,education,university,"university in Saujana, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:33:10.746430,text_search,2,AIzaSy...8yB0,340,Bukit Panjang,Saujana,education,tuition centre,"tuition centre in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:11.301075,text_search,2,AIzaSy...8yB0,341,Bukit Panjang,Saujana,education,library,"library in Saujana, Bukit Panjang, Singapore",OK,,4,
+2026-07-19T13:33:12.084714,text_search,2,AIzaSy...8yB0,342,Bukit Panjang,Saujana,transport,MRT station,"MRT station in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:13.012184,text_search,2,AIzaSy...8yB0,343,Bukit Panjang,Saujana,transport,bus stop,"bus stop in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:13.797965,text_search,2,AIzaSy...8yB0,344,Bukit Panjang,Saujana,transport,bus interchange,"bus interchange in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:14.859917,text_search,2,AIzaSy...8yB0,345,Bukit Panjang,Saujana,transport,LRT station,"LRT station in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:15.656730,text_search,2,AIzaSy...8yB0,346,Bukit Panjang,Saujana,food,hawker centre,"hawker centre in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:16.620487,text_search,2,AIzaSy...8yB0,347,Bukit Panjang,Saujana,food,food court,"food court in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:17.727583,text_search,2,AIzaSy...8yB0,348,Bukit Panjang,Saujana,food,coffee shop,"coffee shop in Saujana, Bukit Panjang, Singapore",OK,,14,
+2026-07-19T13:33:18.647625,text_search,2,AIzaSy...8yB0,349,Bukit Panjang,Saujana,food,restaurant,"restaurant in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:19.458286,text_search,2,AIzaSy...8yB0,350,Bukit Panjang,Saujana,food,cafe,"cafe in Saujana, Bukit Panjang, Singapore",OK,,17,
+2026-07-19T13:33:20.136016,text_search,2,AIzaSy...8yB0,351,Bukit Panjang,Saujana,shopping,shopping mall,"shopping mall in Saujana, Bukit Panjang, Singapore",OK,,12,
+2026-07-19T13:33:20.888513,text_search,2,AIzaSy...8yB0,352,Bukit Panjang,Saujana,shopping,supermarket,"supermarket in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:21.863836,text_search,2,AIzaSy...8yB0,353,Bukit Panjang,Saujana,shopping,grocery store,"grocery store in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:22.657051,text_search,2,AIzaSy...8yB0,354,Bukit Panjang,Saujana,shopping,convenience store,"convenience store in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:23.477183,text_search,2,AIzaSy...8yB0,355,Bukit Panjang,Saujana,shopping,wet market,"wet market in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:24.648938,text_search,2,AIzaSy...8yB0,356,Bukit Panjang,Saujana,recreation,gym,"gym in Saujana, Bukit Panjang, Singapore",OK,,18,
+2026-07-19T13:33:25.815414,text_search,2,AIzaSy...8yB0,357,Bukit Panjang,Saujana,recreation,sports centre,"sports centre in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:26.808830,text_search,2,AIzaSy...8yB0,358,Bukit Panjang,Saujana,recreation,swimming complex,"swimming complex in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:27.979015,text_search,2,AIzaSy...8yB0,359,Bukit Panjang,Saujana,recreation,cinema,"cinema in Saujana, Bukit Panjang, Singapore",OK,,18,
+2026-07-19T13:33:28.793886,text_search,2,AIzaSy...8yB0,360,Bukit Panjang,Saujana,recreation,community club,"community club in Saujana, Bukit Panjang, Singapore",OK,,11,
+2026-07-19T13:33:29.423704,text_search,2,AIzaSy...8yB0,361,Bukit Panjang,Saujana,recreation,playground,"playground in Saujana, Bukit Panjang, Singapore",OK,,9,
+2026-07-19T13:33:30.168852,text_search,2,AIzaSy...8yB0,362,Bukit Panjang,Saujana,nature,park,"park in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:30.917342,text_search,2,AIzaSy...8yB0,363,Bukit Panjang,Saujana,nature,nature reserve,"nature reserve in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:31.718963,text_search,2,AIzaSy...8yB0,364,Bukit Panjang,Saujana,nature,garden,"garden in Saujana, Bukit Panjang, Singapore",OK,,5,
+2026-07-19T13:33:32.914833,text_search,2,AIzaSy...8yB0,365,Bukit Panjang,Saujana,nature,beach,"beach in Saujana, Bukit Panjang, Singapore",OK,,19,
+2026-07-19T13:33:33.979328,text_search,2,AIzaSy...8yB0,366,Bukit Panjang,Saujana,nature,waterfront,"waterfront in Saujana, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:34.931841,text_search,2,AIzaSy...8yB0,367,Bukit Panjang,Saujana,nature,park connector,"park connector in Saujana, Bukit Panjang, Singapore",OK,,8,
+2026-07-19T13:33:35.715947,text_search,2,AIzaSy...8yB0,368,Bukit Panjang,Senja,education,kindergarten,"kindergarten in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:36.398008,text_search,2,AIzaSy...8yB0,369,Bukit Panjang,Senja,education,childcare centre,"childcare centre in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:37.391832,text_search,2,AIzaSy...8yB0,370,Bukit Panjang,Senja,education,primary school,"primary school in Senja, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:33:38.189616,text_search,2,AIzaSy...8yB0,371,Bukit Panjang,Senja,education,secondary school,"secondary school in Senja, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:33:39.123169,text_search,2,AIzaSy...8yB0,372,Bukit Panjang,Senja,education,junior college,"junior college in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:39.815981,text_search,2,AIzaSy...8yB0,373,Bukit Panjang,Senja,education,polytechnic,"polytechnic in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:40.410523,text_search,2,AIzaSy...8yB0,374,Bukit Panjang,Senja,education,university,"university in Senja, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:33:41.103067,text_search,2,AIzaSy...8yB0,375,Bukit Panjang,Senja,education,tuition centre,"tuition centre in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:41.665315,text_search,2,AIzaSy...8yB0,376,Bukit Panjang,Senja,education,library,"library in Senja, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:33:42.416634,text_search,2,AIzaSy...8yB0,377,Bukit Panjang,Senja,transport,MRT station,"MRT station in Senja, Bukit Panjang, Singapore",OK,,6,
+2026-07-19T13:33:43.255598,text_search,2,AIzaSy...8yB0,378,Bukit Panjang,Senja,transport,bus stop,"bus stop in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:44.094103,text_search,2,AIzaSy...8yB0,379,Bukit Panjang,Senja,transport,bus interchange,"bus interchange in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:44.837233,text_search,2,AIzaSy...8yB0,380,Bukit Panjang,Senja,transport,LRT station,"LRT station in Senja, Bukit Panjang, Singapore",OK,,3,
+2026-07-19T13:33:45.867992,text_search,2,AIzaSy...8yB0,381,Bukit Panjang,Senja,food,hawker centre,"hawker centre in Senja, Bukit Panjang, Singapore",OK,,1,
+2026-07-19T13:33:47.164084,text_search,2,AIzaSy...8yB0,382,Bukit Panjang,Senja,food,food court,"food court in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:49.041105,text_search,2,AIzaSy...8yB0,383,Bukit Panjang,Senja,food,coffee shop,"coffee shop in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:49.897902,text_search,2,AIzaSy...8yB0,384,Bukit Panjang,Senja,food,restaurant,"restaurant in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:50.974803,text_search,2,AIzaSy...8yB0,385,Bukit Panjang,Senja,food,cafe,"cafe in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:51.990987,text_search,2,AIzaSy...8yB0,386,Bukit Panjang,Senja,shopping,shopping mall,"shopping mall in Senja, Bukit Panjang, Singapore",OK,,10,
+2026-07-19T13:33:52.799956,text_search,2,AIzaSy...8yB0,387,Bukit Panjang,Senja,shopping,supermarket,"supermarket in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:53.812832,text_search,2,AIzaSy...8yB0,388,Bukit Panjang,Senja,shopping,grocery store,"grocery store in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:54.706802,text_search,2,AIzaSy...8yB0,389,Bukit Panjang,Senja,shopping,convenience store,"convenience store in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:55.634711,text_search,2,AIzaSy...8yB0,390,Bukit Panjang,Senja,shopping,wet market,"wet market in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:33:56.395594,text_search,2,AIzaSy...8yB0,391,Bukit Panjang,Senja,recreation,gym,"gym in Senja, Bukit Panjang, Singapore",OK,,4,
+2026-07-19T13:33:57.395269,text_search,2,AIzaSy...8yB0,392,Bukit Panjang,Senja,recreation,sports centre,"sports centre in Senja, Bukit Panjang, Singapore",OK,,3,
+2026-07-19T13:33:58.367930,text_search,2,AIzaSy...8yB0,393,Bukit Panjang,Senja,recreation,swimming complex,"swimming complex in Senja, Bukit Panjang, Singapore",OK,,19,
+2026-07-19T13:33:59.520336,text_search,2,AIzaSy...8yB0,394,Bukit Panjang,Senja,recreation,cinema,"cinema in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:34:00.480486,text_search,2,AIzaSy...8yB0,395,Bukit Panjang,Senja,recreation,community club,"community club in Senja, Bukit Panjang, Singapore",OK,,3,
+2026-07-19T13:34:01.268623,text_search,2,AIzaSy...8yB0,396,Bukit Panjang,Senja,recreation,playground,"playground in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:34:01.989171,text_search,2,AIzaSy...8yB0,397,Bukit Panjang,Senja,nature,park,"park in Senja, Bukit Panjang, Singapore",OK,,8,
+2026-07-19T13:34:03.154844,text_search,2,AIzaSy...8yB0,398,Bukit Panjang,Senja,nature,nature reserve,"nature reserve in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:34:03.971095,text_search,2,AIzaSy...8yB0,399,Bukit Panjang,Senja,nature,garden,"garden in Senja, Bukit Panjang, Singapore",OK,,19,
+2026-07-19T13:34:05.007113,text_search,2,AIzaSy...8yB0,400,Bukit Panjang,Senja,nature,beach,"beach in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:34:05.801793,text_search,2,AIzaSy...8yB0,401,Bukit Panjang,Senja,nature,waterfront,"waterfront in Senja, Bukit Panjang, Singapore",OK,,20,
+2026-07-19T13:34:06.519177,text_search,2,AIzaSy...8yB0,402,Bukit Panjang,Senja,nature,park connector,"park connector in Senja, Bukit Panjang, Singapore",OK,,6,
+2026-07-19T13:34:06.926650,place_details_reviews,2,AIzaSy...8yB0,403,Bukit Panjang,Bangkit,education,kindergarten,ChIJBRGwXAAR2jERTs9vXojL5DY,OK,,5,Artemis Preskool @Bukit Panjang
+2026-07-19T13:34:07.277684,place_details_reviews,2,AIzaSy...8yB0,404,Bukit Panjang,Bangkit,education,kindergarten,ChIJ45x4iIgR2jERQfg5yAOn1ZU,OK,,5,Little Seeds Preschool (TSA - Bukit Panjang)
+2026-07-19T13:34:07.817376,place_details_reviews,2,AIzaSy...8yB0,405,Bukit Panjang,Bangkit,education,childcare centre,ChIJQ7lGiAER2jERufyY2n31G64,OK,,3,in:genius by NASCANS Student Care @ Bukit Panjang
+2026-07-19T13:34:08.556000,place_details_reviews,2,AIzaSy...8yB0,406,Bukit Panjang,Bangkit,education,childcare centre,ChIJPYvMLtER2jERBwgbdFjT2eg,OK,,5,Infant care
+2026-07-19T13:34:08.953584,place_details_reviews,2,AIzaSy...8yB0,407,Bukit Panjang,Bangkit,education,primary school,ChIJLYS9rqgR2jERu6jj_I969Gw,OK,,0,Bukit Panjang Primary School
+2026-07-19T13:34:09.340496,place_details_reviews,2,AIzaSy...8yB0,408,Bukit Panjang,Bangkit,education,primary school,ChIJJR5v3qMR2jER9QZ49ia1PWE,OK,,0,Zhenghua Primary School
+2026-07-19T13:34:09.740845,place_details_reviews,2,AIzaSy...8yB0,409,Bukit Panjang,Bangkit,education,secondary school,ChIJbUEQbd0R2jERyMl2YGs8yHE,OK,,0,Bukit Panjang Government High School
+2026-07-19T13:34:10.154549,place_details_reviews,2,AIzaSy...8yB0,410,Bukit Panjang,Bangkit,education,secondary school,ChIJS4GFPqAR2jERQGJOjeXgYz8,OK,,0,Greenridge Secondary School
+2026-07-19T13:34:10.869062,place_details_reviews,2,AIzaSy...8yB0,411,Bukit Panjang,Bangkit,education,junior college,ChIJz_-CGpUR2jERsxAVVh_vnoY,OK,,5,Jurong Pioneer Junior College
+2026-07-19T13:34:11.481234,place_details_reviews,2,AIzaSy...8yB0,412,Bukit Panjang,Bangkit,education,junior college,ChIJ61lTU6EQ2jERiBDECMxHYFY,OK,,5,National Junior College
+2026-07-19T13:34:11.859858,place_details_reviews,2,AIzaSy...8yB0,413,Bukit Panjang,Bangkit,education,polytechnic,ChIJFXzxL2Aa2jERnoWTOdJdVKk,OK,,5,Singapore Polytechnic
+2026-07-19T13:34:12.297641,place_details_reviews,2,AIzaSy...8yB0,414,Bukit Panjang,Bangkit,education,polytechnic,ChIJWeO0jn0Q2jERQwzr3v_n0nU,OK,,5,Ngee Ann Polytechnic
+2026-07-19T13:34:13.012714,place_details_reviews,2,AIzaSy...8yB0,415,Bukit Panjang,Bangkit,education,university,ChIJ2QJCeFYa2jERa434wdYIjUg,OK,,5,National University of Singapore
+2026-07-19T13:34:13.675780,place_details_reviews,2,AIzaSy...8yB0,416,Bukit Panjang,Bangkit,education,university,ChIJvQQziYAQ2jERCOP-JKA4N9k,OK,,5,Singapore University of Social Sciences
+2026-07-19T13:34:14.410810,place_details_reviews,2,AIzaSy...8yB0,417,Bukit Panjang,Bangkit,education,tuition centre,ChIJcVqc0KAR2jERqvndwuYWY9E,OK,,5,Nanyang Educational Consultancy (Bukit Panjang Tuition Centre)
+2026-07-19T13:34:14.980198,place_details_reviews,2,AIzaSy...8yB0,418,Bukit Panjang,Bangkit,education,tuition centre,ChIJZS3SpWAR2jER6yf3ZmS0DuY,OK,,5,Stepping Stones Learning Centre (Bukit Panjang)
+2026-07-19T13:34:15.636001,place_details_reviews,2,AIzaSy...8yB0,419,Bukit Panjang,Bangkit,education,library,ChIJAQAASKMR2jER1rsyt_ipOM0,OK,,5,Bukit Panjang Library
+2026-07-19T13:34:16.404471,place_details_reviews,2,AIzaSy...8yB0,420,Bukit Panjang,Bangkit,education,library,ChIJxzbY1z4Q2jERJ6mezML68e8,OK,,5,Bukit Batok Library
+2026-07-19T13:34:16.776101,place_details_reviews,2,AIzaSy...8yB0,421,Bukit Panjang,Bangkit,transport,MRT station,ChIJgZqT46AR2jER6yBW1RejuKo,OK,,5,Bangkit LRT Station (BP9)
+2026-07-19T13:34:17.364506,place_details_reviews,2,AIzaSy...8yB0,422,Bukit Panjang,Bangkit,transport,MRT station,ChIJARt1T4kR2jERTyE-4kybHC4,OK,,5,Bukit Panjang MRT Station (DT1)
+2026-07-19T13:34:17.833456,place_details_reviews,2,AIzaSy...8yB0,423,Bukit Panjang,Bangkit,transport,bus stop,ChIJtUsi46AR2jERwfFNB--Hvpg,OK,,5,Bangkit Stn
+2026-07-19T13:34:18.386467,place_details_reviews,2,AIzaSy...8yB0,424,Bukit Panjang,Bangkit,transport,bus stop,ChIJ4a4QHqER2jER1tPrTyGeSMM,OK,,3,Opp Bangkit Stn
+2026-07-19T13:34:19.252810,place_details_reviews,2,AIzaSy...8yB0,425,Bukit Panjang,Bangkit,transport,bus interchange,ChIJR58QIQAR2jER4V6UweGq9BQ,OK,,5,Bukit Panjang Bus Interchange
+2026-07-19T13:34:19.770829,place_details_reviews,2,AIzaSy...8yB0,426,Bukit Panjang,Bangkit,transport,bus interchange,ChIJgVMsWLsR2jERmO09ZfrDfUI,OK,,5,Bt Panjang Interchange
+2026-07-19T13:34:20.143624,place_details_reviews,2,AIzaSy...8yB0,427,Bukit Panjang,Bangkit,transport,LRT station,ChIJGdWU46AR2jERw9C4Aybv3lE,OK,,5,Bangkit
+2026-07-19T13:34:20.806816,place_details_reviews,2,AIzaSy...8yB0,428,Bukit Panjang,Bangkit,food,hawker centre,ChIJc0LVIKcR2jERFB8jEvb4t7g,OK,,5,Bukit Panjang Hawker Centre & Market
+2026-07-19T13:34:21.263199,place_details_reviews,2,AIzaSy...8yB0,429,Bukit Panjang,Bangkit,food,hawker centre,ChIJkXRszaAR2jEROQL4rhmhElg,OK,,5,Bangkit Market
+2026-07-19T13:34:21.714504,place_details_reviews,2,AIzaSy...8yB0,430,Bukit Panjang,Bangkit,food,food court,ChIJfQZezKAR2jER4rR7V_83Ejk,OK,,5,Food Hub Bangkit 257 Coffee House
+2026-07-19T13:34:22.159724,place_details_reviews,2,AIzaSy...8yB0,431,Bukit Panjang,Bangkit,food,coffee shop,ChIJByKUI6cR2jER4lOR_DjfH1g,OK,,5,Kim San Leng Food Centre Bukit Panjang
+2026-07-19T13:34:22.522459,place_details_reviews,2,AIzaSy...8yB0,432,Bukit Panjang,Bangkit,food,restaurant,ChIJsdW5choR2jERtYwZ71Vi2E8,OK,,5,Jinjja Kitchen @ Bukit Panjang Plaza
+2026-07-19T13:34:23.277157,place_details_reviews,2,AIzaSy...8yB0,433,Bukit Panjang,Bangkit,shopping,shopping mall,ChIJe3kTN6MR2jERr5FbmFCuxPI,OK,,5,Bukit Panjang Plaza
+2026-07-19T13:34:23.936877,place_details_reviews,2,AIzaSy...8yB0,434,Bukit Panjang,Bangkit,shopping,shopping mall,ChIJ_8HAraQR2jERaLrfjzD5k7Y,OK,,5,Hillion Mall
+2026-07-19T13:34:24.615600,place_details_reviews,2,AIzaSy...8yB0,435,Bukit Panjang,Bangkit,shopping,supermarket,ChIJcVqc0KAR2jERgbkigaoyY3E,OK,,5,Giant Express - Bangkit Blk 256
+2026-07-19T13:34:25.500329,place_details_reviews,2,AIzaSy...8yB0,436,Bukit Panjang,Bangkit,shopping,supermarket,ChIJUXhrN6MR2jER7xtwryUocpY,OK,,5,FairPrice Finest
+2026-07-19T13:34:25.959885,place_details_reviews,2,AIzaSy...8yB0,437,Bukit Panjang,Bangkit,shopping,convenience store,ChIJ08z-ThQR2jERSoTcHrvMOFM,OK,,5,Convenience Plus
+2026-07-19T13:34:26.414129,place_details_reviews,2,AIzaSy...8yB0,438,Bukit Panjang,Bangkit,recreation,gym,ChIJT4ngSQAR2jERYEldwDSeuw0,OK,,5,BFT Bangkit
+2026-07-19T13:34:27.138897,place_details_reviews,2,AIzaSy...8yB0,439,Bukit Panjang,Bangkit,recreation,gym,ChIJOVKixaIR2jERRlP-Omkol_M,OK,,5,Anytime Fitness Bukit Panjang
+2026-07-19T13:34:27.910631,place_details_reviews,2,AIzaSy...8yB0,440,Bukit Panjang,Bangkit,recreation,sports centre,ChIJgx4YWagR2jERCasQYF6YSKI,OK,,5,ARK Sports Village
+2026-07-19T13:34:32.890472,place_details_reviews,2,AIzaSy...8yB0,441,Bukit Panjang,Bangkit,recreation,swimming complex,ChIJs45bbr0R2jERwByR91EdWqw,OK,,5,Senja-Cashew Community Club
+2026-07-19T13:34:33.545458,place_details_reviews,2,AIzaSy...8yB0,442,Bukit Panjang,Bangkit,recreation,swimming complex,ChIJJWt786YR2jERcIgIkdUxv_0,OK,,5,Bukit Panjang Community Club
+2026-07-19T13:34:34.232565,place_details_reviews,2,AIzaSy...8yB0,443,Bukit Panjang,Bangkit,recreation,cinema,ChIJFx7cQgAR2jERum7NN5FvIOk,OK,,5,Shaw Theatres JEM
+2026-07-19T13:34:34.690465,place_details_reviews,2,AIzaSy...8yB0,444,Bukit Panjang,Bangkit,recreation,cinema,ChIJ3dSCfKMR2jERsBpC6UoFuaQ,OK,,5,EagleWings Cinematics
+2026-07-19T13:34:35.266153,place_details_reviews,2,AIzaSy...8yB0,445,Bukit Panjang,Bangkit,recreation,playground,ChIJYYGkfwoR2jERA18hEAHSmUk,OK,,5,Zhenghua Park Children's Playground
+2026-07-19T13:34:36.005872,place_details_reviews,2,AIzaSy...8yB0,446,Bukit Panjang,Bangkit,recreation,playground,ChIJW0wCIAcR2jERAEOR0GhMljA,OK,,5,Zhenghua Park
+2026-07-19T13:34:36.785365,place_details_reviews,2,AIzaSy...8yB0,447,Bukit Panjang,Bangkit,nature,nature reserve,ChIJ-f__r6oR2jER5UiO6z8HpQM,OK,,5,Dairy Farm Nature Park
+2026-07-19T13:34:37.617014,place_details_reviews,2,AIzaSy...8yB0,448,Bukit Panjang,Bangkit,nature,garden,ChIJFRoWIwgR2jER2v5DQcoF4pE,OK,,5,Bukit Panjang Butterfly Garden
+2026-07-19T13:34:38.076562,place_details_reviews,2,AIzaSy...8yB0,449,Bukit Panjang,Bangkit,nature,beach,ChIJaaC07KIR2jERl3-DgSWf4aE,OK,,5,Pang Sua Pond
+2026-07-19T13:34:38.518184,place_details_reviews,2,AIzaSy...8yB0,450,Bukit Panjang,Bangkit,nature,park connector,ChIJZ2n78R0R2jERv4IZBDswYrc,OK,,3,Bukit Panjang Park Connector
+2026-07-19T13:34:39.059223,place_details_reviews,2,AIzaSy...8yB0,451,Bukit Panjang,Bangkit,nature,park connector,ChIJAfY-aQAR2jERJU4PExbtgb0,OK,,1,BUKIT PANJANG NORTH PARK CONNECTOR
+2026-07-19T13:34:39.791798,place_details_reviews,2,AIzaSy...8yB0,452,Bukit Panjang,Dairy Farm,education,kindergarten,ChIJ65PzLjER2jERCvxBPn1Hom8,OK,,5,Willow Nursery and Preschool
+2026-07-19T13:34:40.389635,place_details_reviews,2,AIzaSy...8yB0,453,Bukit Panjang,Dairy Farm,education,kindergarten,ChIJM_QpOpsR2jERHTYzfoGuqHg,OK,,5,MindChamps Chinese PreSchool @ Dairy Farm
+2026-07-19T13:34:40.795059,place_details_reviews,2,AIzaSy...8yB0,454,Bukit Panjang,Dairy Farm,education,primary school,ChIJJXbrIZkR2jERQOapX1-lQWY,OK,,0,Greenridge Primary School
+2026-07-19T13:34:41.410905,place_details_reviews,2,AIzaSy...8yB0,455,Bukit Panjang,Dairy Farm,education,polytechnic,ChIJmRw2WwAR2jER-ljPZK8pgek,OK,,5,The Botany at Dairy Farm
+2026-07-19T13:34:42.200383,place_details_reviews,2,AIzaSy...8yB0,456,Bukit Panjang,Dairy Farm,education,university,ChIJtUdZcwAR2jERtDPH7xhL6Fk,OK,,5,Dairy Farm Residences
+2026-07-19T13:34:42.629289,place_details_reviews,2,AIzaSy...8yB0,457,Bukit Panjang,Dairy Farm,education,university,ChIJiZqCY6sR2jERGMIgfqtxXY0,OK,,5,The Dairy Farm
+2026-07-19T13:34:43.143481,place_details_reviews,2,AIzaSy...8yB0,458,Bukit Panjang,Dairy Farm,education,tuition centre,ChIJVSTfVioR2jERzl_KymLWRVM,OK,,5,"Edufirst Learning Centre (Bukit Panjang) – Math, English & Chinese Tuition | Tuition Centre | Student Care"
+2026-07-19T13:34:43.703096,place_details_reviews,2,AIzaSy...8yB0,459,Bukit Panjang,Dairy Farm,education,tuition centre,ChIJyUFZyb8Z2jERDtNTVdQgbCE,OK,,5,Qi Ming Learning Center 启明华文(Qi Ming Chinesisch-Lernzentrum) - formerly Zhang Lao Shi Chinese
+2026-07-19T13:34:44.118275,place_details_reviews,2,AIzaSy...8yB0,460,Bukit Panjang,Dairy Farm,education,library,ChIJ5-Dtl-kR2jERllI9-1NpYVY,OK,,5,Choa Chu Kang Library
+2026-07-19T13:34:44.662742,place_details_reviews,2,AIzaSy...8yB0,461,Bukit Panjang,Dairy Farm,transport,MRT station,ChIJARTcUrsR2jERUUjcHJScUz8,OK,,5,Bukit Panjang MRT/LRT station
+2026-07-19T13:34:45.367117,place_details_reviews,2,AIzaSy...8yB0,462,Bukit Panjang,Dairy Farm,transport,bus stop,ChIJb4trXFMQ2jERDlibxR9wfbE,OK,,2,Bef Dairy Farm Cres
+2026-07-19T13:34:46.216089,place_details_reviews,2,AIzaSy...8yB0,463,Bukit Panjang,Dairy Farm,transport,bus stop,ChIJYbxq2qwR2jERbjQomdNaMo4,OK,,1,Opp Dairy Farm Rd
+2026-07-19T13:34:46.649308,place_details_reviews,2,AIzaSy...8yB0,464,Bukit Panjang,Dairy Farm,transport,bus interchange,ChIJ8Qp3dQAR2jEROFXXj8Y8-Fg,OK,,1,Dairy Farm Mall
+2026-07-19T13:34:47.114601,place_details_reviews,2,AIzaSy...8yB0,465,Bukit Panjang,Dairy Farm,transport,LRT station,ChIJD58--UkR2jERMi5sKsqSqko,OK,,5,Bukit Panjang LRT Station (BP6)
+2026-07-19T13:34:47.780278,place_details_reviews,2,AIzaSy...8yB0,466,Bukit Panjang,Dairy Farm,food,hawker centre,ChIJwyqFZAAR2jERBNsK4AtckYU,OK,,5,Food Kakis @ Dairy Farm Mall
+2026-07-19T13:34:48.415075,place_details_reviews,2,AIzaSy...8yB0,467,Bukit Panjang,Dairy Farm,food,coffee shop,ChIJsdalOgAR2jEResRkWx-ygqk,OK,,5,The Coffee Bean & Tea Leaf - Dairy Farm Mall
+2026-07-19T13:34:48.920427,place_details_reviews,2,AIzaSy...8yB0,468,Bukit Panjang,Dairy Farm,food,coffee shop,ChIJoWvrTQAR2jERQ3tFieg_QJ8,OK,,5,Seafood Blue Lagoon
+2026-07-19T13:34:50.054281,place_details_reviews,2,AIzaSy...8yB0,469,Bukit Panjang,Dairy Farm,food,restaurant,ChIJd8QPNukR2jERaTPoSrco6PE,OK,,5,Monzen Izakaya and Grill
+2026-07-19T13:34:50.548486,place_details_reviews,2,AIzaSy...8yB0,470,Bukit Panjang,Dairy Farm,food,cafe,ChIJyw36fqQR2jERcCOpFI-_nYg,OK,,5,Baker & Cook - Dairy Farm
+2026-07-19T13:34:51.143494,place_details_reviews,2,AIzaSy...8yB0,471,Bukit Panjang,Dairy Farm,shopping,shopping mall,ChIJYQ4eVQAR2jERL9vRsD9nYsY,OK,,5,Dairy Farm Mall
+2026-07-19T13:34:51.743502,place_details_reviews,2,AIzaSy...8yB0,472,Bukit Panjang,Dairy Farm,shopping,supermarket,ChIJ0dkjcwAR2jERiwgHlWg0INA,OK,,5,FairPrice Finest Dairy Farm Residences
+2026-07-19T13:34:52.125399,place_details_reviews,2,AIzaSy...8yB0,473,Bukit Panjang,Dairy Farm,shopping,convenience store,ChIJJWqdY54R2jERP0w1YMk08Mc,OK,,5,M28 Minimart
+2026-07-19T13:34:52.737200,place_details_reviews,2,AIzaSy...8yB0,474,Bukit Panjang,Dairy Farm,shopping,wet market,ChIJ2-fuRZ8R2jERo1jNY3fv4iw,OK,,5,Fajar Market
+2026-07-19T13:34:53.214605,place_details_reviews,2,AIzaSy...8yB0,475,Bukit Panjang,Dairy Farm,recreation,gym,ChIJ3XZbumIR2jER1R_aC-6Kggs,OK,,5,BFT Dairy Farm
+2026-07-19T13:34:53.653772,place_details_reviews,2,AIzaSy...8yB0,476,Bukit Panjang,Dairy Farm,recreation,gym,ChIJhbpOJgAR2jERx241ISLOhgo,OK,,2,Dairy Farm Park Connector Fitness Station
+2026-07-19T13:34:54.181916,place_details_reviews,2,AIzaSy...8yB0,477,Bukit Panjang,Dairy Farm,recreation,swimming complex,ChIJ03G_xKIR2jERuE_Fzg7W0XE,OK,,5,Senja Cashew Swimming Complex (The Swimming Place)
+2026-07-19T13:34:54.757526,place_details_reviews,2,AIzaSy...8yB0,478,Bukit Panjang,Dairy Farm,recreation,cinema,ChIJgYTJddwR2jER8MdGymd5AOA,OK,,5,CozyPlace @ Bukit Timah
+2026-07-19T13:34:55.458664,place_details_reviews,2,AIzaSy...8yB0,479,Bukit Panjang,Dairy Farm,recreation,playground,ChIJfbpxiakR2jERtwba7LzBDVc,OK,,5,Chestnut Close Playground
+2026-07-19T13:34:55.849729,place_details_reviews,2,AIzaSy...8yB0,480,Bukit Panjang,Dairy Farm,nature,park,ChIJYaJF6IAR2jER9lwXd7Fnuj0,OK,,5,Dairy Farm Open Carpark B
+2026-07-19T13:34:56.506778,place_details_reviews,2,AIzaSy...8yB0,481,Bukit Panjang,Dairy Farm,nature,garden,ChIJUXqMQ1MQ2jERop6ZvgCy-2E,OK,,5,Dairy Farm Estate
+2026-07-19T13:34:57.110137,place_details_reviews,2,AIzaSy...8yB0,482,Bukit Panjang,Dairy Farm,nature,beach,ChIJtdbGAYAR2jERVLLHxQtZvSg,OK,,5,Dairy Farm Quarry
+2026-07-19T13:34:57.501564,place_details_reviews,2,AIzaSy...8yB0,483,Bukit Panjang,Dairy Farm,nature,park connector,ChIJmxJ7dQAR2jERQHkDALJc18Y,OK,,3,Dairy Farm Park Connector
+2026-07-19T13:34:57.949844,place_details_reviews,2,AIzaSy...8yB0,484,Bukit Panjang,Dairy Farm,nature,park connector,ChIJHxwMV3AR2jER_BkA5D3SY4k,OK,,2,Dairy Farm Park Connector
+2026-07-19T13:34:58.664785,place_details_reviews,2,AIzaSy...8yB0,485,Bukit Panjang,Fajar,education,kindergarten,ChIJX_-TfKER2jEReb5FkPzwaS4,OK,,1,My First Skool at Blk 443A Fajar Road
+2026-07-19T13:34:59.516935,place_details_reviews,2,AIzaSy...8yB0,486,Bukit Panjang,Fajar,education,childcare centre,ChIJg-qEifUR2jERHEvaLFCoNK0,OK,,5,Junior Seekers Student Care @ Fajar
+2026-07-19T13:35:00.495882,place_details_reviews,2,AIzaSy...8yB0,487,Bukit Panjang,Fajar,education,university,ChIJcYFHG58R2jER2gXSmmeYJhI,OK,,5,Stepping Stones Study Centre
+2026-07-19T13:35:01.119129,place_details_reviews,2,AIzaSy...8yB0,488,Bukit Panjang,Fajar,transport,MRT station,ChIJM762P58R2jER4-pjN_7oJpk,OK,,5,Fajar
+2026-07-19T13:35:01.594007,place_details_reviews,2,AIzaSy...8yB0,489,Bukit Panjang,Fajar,transport,MRT station,ChIJEWtLCEIR2jERr90xM0YManE,OK,,5,Fajar LRT Station (BP10)
+2026-07-19T13:35:02.071278,place_details_reviews,2,AIzaSy...8yB0,490,Bukit Panjang,Fajar,transport,bus stop,ChIJe_EoRp8R2jER-i4JDRQ84k4,OK,,4,Opp Fajar Stn
+2026-07-19T13:35:02.671665,place_details_reviews,2,AIzaSy...8yB0,491,Bukit Panjang,Fajar,food,hawker centre,ChIJM7Kvx3QZ2jER7umUFjan98g,OK,,5,Fajar Shopping Centre
+2026-07-19T13:35:03.519858,place_details_reviews,2,AIzaSy...8yB0,492,Bukit Panjang,Fajar,food,food court,ChIJ7dkTQp8R2jERNlhKbItdayA,OK,,5,Koufu
+2026-07-19T13:35:03.963558,place_details_reviews,2,AIzaSy...8yB0,493,Bukit Panjang,Fajar,food,food court,ChIJ_91nAA0R2jERQupXcOdEieY,OK,,5,WUFU COFFEESHOP 445 Fajar
+2026-07-19T13:35:04.758800,place_details_reviews,2,AIzaSy...8yB0,494,Bukit Panjang,Fajar,food,restaurant,ChIJF_3DrFsR2jERTNZcQZfKczM,OK,,5,Greendot Bukit Panjang Plaza
+2026-07-19T13:35:05.190398,place_details_reviews,2,AIzaSy...8yB0,495,Bukit Panjang,Fajar,shopping,supermarket,ChIJEwSPa58R2jERsbJaI3W6ac4,OK,,5,Sheng Siong Supermarket
+2026-07-19T13:35:05.981326,place_details_reviews,2,AIzaSy...8yB0,496,Bukit Panjang,Fajar,shopping,convenience store,ChIJt4eqXJ8R2jER36KWDuOUl1s,OK,,5,7-Eleven
+2026-07-19T13:35:06.351921,place_details_reviews,2,AIzaSy...8yB0,497,Bukit Panjang,Fajar,shopping,convenience store,ChIJjRrOww4R2jER0Fx-bHXfE0U,OK,,5,Srisai Minimart
+2026-07-19T13:35:06.943562,place_details_reviews,2,AIzaSy...8yB0,498,Bukit Panjang,Fajar,recreation,sports centre,ChIJkVO-z5gR2jERYR1mMHhBYc8,OK,,5,Fajar Sports Hub
+2026-07-19T13:35:07.518813,place_details_reviews,2,AIzaSy...8yB0,499,Bukit Panjang,Fajar,recreation,cinema,ChIJi19VjekR2jERWaroR6pc860,OK,,5,Shaw Theatres
+2026-07-19T13:35:08.366571,place_details_reviews,2,AIzaSy...8yB0,500,Bukit Panjang,Fajar,recreation,community club,ChIJn3ut854R2jERfkj909V6YhA,OK,,5,Zhenghua Community Club
+2026-07-19T13:35:09.146756,place_details_reviews,2,AIzaSy...8yB0,501,Bukit Panjang,Fajar,recreation,playground,ChIJbc6gyaMR2jERHvER6lqnSPQ,OK,,5,Playground
+2026-07-19T13:35:09.784582,place_details_reviews,2,AIzaSy...8yB0,502,Bukit Panjang,Fajar,nature,nature reserve,ChIJR9wDuIwQ2jERp5g9l0m9MQ0,OK,,5,Rifle Range Nature Park
+2026-07-19T13:35:10.216455,place_details_reviews,2,AIzaSy...8yB0,503,Bukit Panjang,Fajar,nature,garden,ChIJ3SLjNCwR2jER6HJiIG_jYMc,OK,,5,Siang Garden
+2026-07-19T13:35:10.750879,place_details_reviews,2,AIzaSy...8yB0,504,Bukit Panjang,Fajar,nature,waterfront,ChIJ96HBJZ8a2jERl1GsjJmk-70,OK,,5,Waterfront @ Faber
+2026-07-19T13:35:11.118525,place_details_reviews,2,AIzaSy...8yB0,505,Bukit Panjang,Fajar,nature,park connector,ChIJ__8_JqUb2jERpXwPzz-poks,OK,,5,Pasir Panjang Park
+2026-07-19T13:35:11.871223,place_details_reviews,2,AIzaSy...8yB0,506,Bukit Panjang,Jelebu,education,kindergarten,ChIJ2wJTN6MR2jERrpy2Gf89NT8,OK,,5,E-Bridge Pre-School Bukit Panjang
+2026-07-19T13:35:12.242424,place_details_reviews,2,AIzaSy...8yB0,507,Bukit Panjang,Jelebu,education,childcare centre,ChIJW-MNxLwR2jERc0FlnmTsDiU,OK,,1,PCF Sparkletots Preschool @ Cashew Blk 183
+2026-07-19T13:35:12.757379,place_details_reviews,2,AIzaSy...8yB0,508,Bukit Panjang,Jelebu,education,tuition centre,ChIJS95PQt0R2jERjAuuA_Ite7A,OK,,0,Bukit Panjang Tuition Class
+2026-07-19T13:35:13.295079,place_details_reviews,2,AIzaSy...8yB0,509,Bukit Panjang,Jelebu,education,tuition centre,ChIJYfvpNqMR2jERVZLa-n7UQV0,OK,,5,Mind Stretcher Bukit Panjang
+2026-07-19T13:35:13.794971,place_details_reviews,2,AIzaSy...8yB0,510,Bukit Panjang,Jelebu,transport,MRT station,ChIJ0_xeXrsR2jERpZ7qVzmnpag,OK,,5,Bukit Panjang
+2026-07-19T13:35:14.374313,place_details_reviews,2,AIzaSy...8yB0,511,Bukit Panjang,Jelebu,transport,bus stop,ChIJrxlbSqMR2jERQSELLa5LEFE,OK,,2,Opp Bt Panjang Plaza
+2026-07-19T13:35:14.765731,place_details_reviews,2,AIzaSy...8yB0,512,Bukit Panjang,Jelebu,transport,bus stop,ChIJLXDxn7wR2jERI6bdKcYEx2s,OK,,5,Bt Panjang Stn Exit A/LRT
+2026-07-19T13:35:15.205846,place_details_reviews,2,AIzaSy...8yB0,513,Bukit Panjang,Jelebu,food,hawker centre,ChIJyUme9TQR2jER1H5Rycs68oo,OK,,5,Hawkers' Street @ BPP
+2026-07-19T13:35:15.944856,place_details_reviews,2,AIzaSy...8yB0,514,Bukit Panjang,Jelebu,food,food court,ChIJMStxnCkR2jER1hx-HM88TfI,OK,,5,545 Whampoa Prawn Noodles (Bukit Panjang Plaza)
+2026-07-19T13:35:16.360883,place_details_reviews,2,AIzaSy...8yB0,515,Bukit Panjang,Jelebu,food,coffee shop,ChIJlYQIAQAR2jER3_KPJVaRgTw,OK,,5,The Coffee Bean & Tea Leaf
+2026-07-19T13:35:16.808976,place_details_reviews,2,AIzaSy...8yB0,516,Bukit Panjang,Jelebu,food,coffee shop,ChIJUZgbZKEV2jERAIK95u2eDUs,OK,,5,Buddy-San
+2026-07-19T13:35:17.233909,place_details_reviews,2,AIzaSy...8yB0,517,Bukit Panjang,Jelebu,food,restaurant,ChIJo5fFNAAR2jERP7mP-ShZHTY,OK,,5,Super Sushi @ Bukit Panjang Plaza
+2026-07-19T13:35:17.773605,place_details_reviews,2,AIzaSy...8yB0,518,Bukit Panjang,Jelebu,shopping,supermarket,ChIJ_xnxVaMR2jERK7dnPmCBqqc,OK,,5,FairPrice Hillion Mall
+2026-07-19T13:35:18.377989,place_details_reviews,2,AIzaSy...8yB0,519,Bukit Panjang,Jelebu,recreation,playground,ChIJzXrO_GgR2jERXBZ4BfZD4Fo,OK,,5,Senja Woods Playground
+2026-07-19T13:35:18.843327,place_details_reviews,2,AIzaSy...8yB0,520,Bukit Panjang,Jelebu,nature,nature reserve,ChIJO9cemPUQ2jERvlh8KtwhtAc,OK,,5,Bukit Timah Nature Reserve
+2026-07-19T13:35:19.549621,place_details_reviews,2,AIzaSy...8yB0,521,Bukit Panjang,Jelebu,nature,beach,ChIJQ8uk4vwa2jERqMrT6OFBMuw,OK,,5,West Coast Park
+2026-07-19T13:35:20.426089,place_details_reviews,2,AIzaSy...8yB0,522,Bukit Panjang,Jelebu,nature,beach,ChIJpRlNluQa2jERt1AMrgNfuhM,OK,,5,Promenade Lookout Jetty
+2026-07-19T13:35:21.098806,place_details_reviews,2,AIzaSy...8yB0,523,Bukit Panjang,Nature Reserve,education,childcare centre,ChIJ9_lHc6kR2jER926-6xNYLmE,OK,,2,Ace @ Work Childcare (BPCC)
+2026-07-19T13:35:21.508704,place_details_reviews,2,AIzaSy...8yB0,524,Bukit Panjang,Nature Reserve,education,primary school,ChIJV-m4CCQR2jEROYVc5UE50gI,OK,,5,Forest School Singapore
+2026-07-19T13:35:22.044383,place_details_reviews,2,AIzaSy...8yB0,525,Bukit Panjang,Nature Reserve,education,tuition centre,ChIJLa76vsgR2jER1Xa5czDFbEo,OK,,5,"Zenith Education Studio - Bukit Panjang | JC Tuition, Secondary Tuition & Pri | Math, Chem, Econs, Physics, GP, English"
+2026-07-19T13:35:22.829767,place_details_reviews,2,AIzaSy...8yB0,526,Bukit Panjang,Nature Reserve,education,tuition centre,ChIJUTJ-x7sR2jERGiwmS5KM0Ow,OK,,5,The Initiative Learning Hub
+2026-07-19T13:35:23.597559,place_details_reviews,2,AIzaSy...8yB0,527,Bukit Panjang,Nature Reserve,transport,bus stop,ChIJeeZcZLsR2jERalREqcR4aUs,OK,,4,Bt Panjang Stn Exit B
+2026-07-19T13:35:24.346772,place_details_reviews,2,AIzaSy...8yB0,528,Bukit Panjang,Nature Reserve,food,hawker centre,ChIJLyVUnQ8R2jERUApgCyTj3Pg,OK,,5,Senja Hawker Centre
+2026-07-19T13:35:25.142200,place_details_reviews,2,AIzaSy...8yB0,529,Bukit Panjang,Nature Reserve,food,coffee shop,ChIJi1qB8rMR2jERT4w1YCJfXR4,OK,,5,Keffie Slowdown Coffeebar (Homebased 🏠)
+2026-07-19T13:35:25.552252,place_details_reviews,2,AIzaSy...8yB0,530,Bukit Panjang,Nature Reserve,food,restaurant,ChIJA6QMKKgR2jERfRlvLfuGk2o,OK,,5,The ART (Assumption Restaurant for Training)
+2026-07-19T13:35:26.236070,place_details_reviews,2,AIzaSy...8yB0,531,Bukit Panjang,Nature Reserve,food,cafe,ChIJCaXKGjAR2jERV2b3bf4hj6Q,OK,,5,FlagWhite
+2026-07-19T13:35:26.713430,place_details_reviews,2,AIzaSy...8yB0,532,Bukit Panjang,Nature Reserve,shopping,convenience store,ChIJ_bA3iE0R2jERd4D-Ggvezxw,OK,,5,7-Eleven
+2026-07-19T13:35:27.148798,place_details_reviews,2,AIzaSy...8yB0,533,Bukit Panjang,Nature Reserve,recreation,playground,ChIJzyXb06oR2jERmRrMCYmdRJg,OK,,5,Bukit Batok Nature Park Playground
+2026-07-19T13:35:27.748936,place_details_reviews,2,AIzaSy...8yB0,534,Bukit Panjang,Nature Reserve,nature,waterfront,ChIJq_5RjPUQ2jERQZR7bzih7tw,OK,,5,Hindhede Nature Park
+2026-07-19T13:35:28.497112,place_details_reviews,2,AIzaSy...8yB0,535,Bukit Panjang,Saujana,education,kindergarten,ChIJWfJ6C6IR2jER7Hw1wojSTsg,OK,,0,PCF Sparkletots @ Bukit Panjang Blk 412
+2026-07-19T13:35:29.278002,place_details_reviews,2,AIzaSy...8yB0,536,Bukit Panjang,Saujana,education,childcare centre,ChIJlR6jX3IR2jER-7jRuKomnS0,OK,,5,Little Footprints Preschool @ Bukit Panjang 546
+2026-07-19T13:35:30.109354,place_details_reviews,2,AIzaSy...8yB0,537,Bukit Panjang,Saujana,education,childcare centre,ChIJ-60Lw7wR2jERMP6t40C50YA,OK,,5,Raffles Kidz @ Bukit Panjang – Best Childcare Centre And Preschool
+2026-07-19T13:35:30.714126,place_details_reviews,2,AIzaSy...8yB0,538,Bukit Panjang,Saujana,education,primary school,ChIJ52ZRhr0R2jERzrJbrhEZw8U,OK,,0,West View Primary School
+2026-07-19T13:35:31.139408,place_details_reviews,2,AIzaSy...8yB0,539,Bukit Panjang,Saujana,education,secondary school,ChIJZS8GNJER2jERSd-ue7liC-Q,OK,,0,West Spring Secondary School
+2026-07-19T13:35:31.768994,place_details_reviews,2,AIzaSy...8yB0,540,Bukit Panjang,Saujana,education,polytechnic,ChIJzYwU2PoR2jERoCNtSpIlsQU,OK,,5,Bukit Panjang Polyclinic
+2026-07-19T13:35:32.227015,place_details_reviews,2,AIzaSy...8yB0,541,Bukit Panjang,Saujana,food,coffee shop,ChIJoxvVHXER2jERatXpyzIyBi0,OK,,5,"Coffeeshop (Kimly Seafood) at Blk 163A Gangsa Road, Bukit Panjang"
+2026-07-19T13:35:32.608608,place_details_reviews,2,AIzaSy...8yB0,542,Bukit Panjang,Saujana,food,coffee shop,ChIJa-2L8qMR2jERoh8-RRcoGqs,OK,,5,Coffeeshop Food Court 103 Gangsa
+2026-07-19T13:35:33.380890,place_details_reviews,2,AIzaSy...8yB0,543,Bukit Panjang,Saujana,food,restaurant,ChIJ1yl3DkYR2jER0EUpkr2Eo28,OK,,5,A Hot Hideout @ Bukit Panjang (Junction 10)
+2026-07-19T13:35:33.860681,place_details_reviews,2,AIzaSy...8yB0,544,Bukit Panjang,Saujana,food,cafe,ChIJ873LtKgb2jERj6XcmvT6Ki4,OK,,5,Italian Coffee Lab Pasir Panjang
+2026-07-19T13:35:34.608147,place_details_reviews,2,AIzaSy...8yB0,545,Bukit Panjang,Saujana,shopping,supermarket,ChIJBx90AZwR2jERPk8B5rAO2nU,OK,,5,Sheng Siong Supermarket
+2026-07-19T13:35:35.306560,place_details_reviews,2,AIzaSy...8yB0,546,Bukit Panjang,Saujana,shopping,convenience store,ChIJrVzybQAb2jERZBI5RVlxv_M,OK,,5,GOOD PRICE HUB
+2026-07-19T13:35:35.665269,place_details_reviews,2,AIzaSy...8yB0,547,Bukit Panjang,Saujana,shopping,convenience store,ChIJsX1vLgAb2jER0PgFhz-HHqQ,OK,,1,Value $
+2026-07-19T13:35:36.341307,place_details_reviews,2,AIzaSy...8yB0,548,Bukit Panjang,Saujana,recreation,sports centre,ChIJ2cCNCFga2jER5JmIg6WzSNk,OK,,5,University Sports Centre
+2026-07-19T13:35:36.821354,place_details_reviews,2,AIzaSy...8yB0,549,Bukit Panjang,Saujana,recreation,playground,ChIJRc_-U6IR2jERmga-wRi1PPE,OK,,5,Bukit Panjang Neighborhood 5 Park
+2026-07-19T13:35:37.434244,place_details_reviews,2,AIzaSy...8yB0,550,Bukit Panjang,Saujana,nature,nature reserve,ChIJs3oprUQQ2jERp8A9mbkPZJE,OK,,5,Bukit Batok Nature Park
+2026-07-19T13:35:37.981014,place_details_reviews,2,AIzaSy...8yB0,551,Bukit Panjang,Saujana,nature,waterfront,ChIJE5oICqIR2jERy5-36TUYpeg,OK,,5,Blk 416 Saujana Rd
+2026-07-19T13:35:38.529561,place_details_reviews,2,AIzaSy...8yB0,552,Bukit Panjang,Senja,education,kindergarten,ChIJD2-555YR2jERB5redAVLl-U,OK,,5,Little Footprints Preschool @ Bukit Panjang 631
+2026-07-19T13:35:39.347741,place_details_reviews,2,AIzaSy...8yB0,553,Bukit Panjang,Senja,education,kindergarten,ChIJVStI-ZkR2jERHO-aAW_glWM,OK,,5,My First Skool at Blk 654 Senja Road
+2026-07-19T13:35:40.008168,place_details_reviews,2,AIzaSy...8yB0,554,Bukit Panjang,Senja,education,university,ChIJdZqHOjIR2jERDe7F2eSb-DA,OK,,0,Remote Closing University
+2026-07-19T13:35:40.534919,place_details_reviews,2,AIzaSy...8yB0,555,Bukit Panjang,Senja,transport,MRT station,ChIJf-3TQr0R2jERZOcoC-w4M3w,OK,,5,Senja
+2026-07-19T13:35:44.555131,place_details_reviews,2,AIzaSy...8yB0,556,Bukit Panjang,Senja,transport,MRT station,ChIJK3TSXcUR2jER7SH8XvXeaw0,OK,,5,Senja LRT Station (BP13)
+2026-07-19T13:35:45.359520,place_details_reviews,2,AIzaSy...8yB0,557,Bukit Panjang,Senja,transport,bus stop,ChIJ2eVz25YR2jER4TQyV_69WIE,OK,,5,Senja FC
+2026-07-19T13:35:45.750500,place_details_reviews,2,AIzaSy...8yB0,558,Bukit Panjang,Senja,food,food court,ChIJWdNbRZYR2jERgNM2d6-ZfOI,OK,,5,Kopitiam Corner
+2026-07-19T13:35:46.409823,place_details_reviews,2,AIzaSy...8yB0,559,Bukit Panjang,Senja,food,coffee shop,ChIJf9rJhgkR2jERKWwdij4W_Cc,OK,,5,The Coffee Bean & Tea Leaf
+2026-07-19T13:35:47.029700,place_details_reviews,2,AIzaSy...8yB0,560,Bukit Panjang,Senja,food,restaurant,ChIJD4WQ2gQR2jEROgvj6W01ML0,OK,,5,NeNe Chicken @ Senja Centre
+2026-07-19T13:35:47.487156,place_details_reviews,2,AIzaSy...8yB0,561,Bukit Panjang,Senja,food,cafe,ChIJEzwdAwAR2jEROg27peqba-U,OK,,5,FoodCity @ 643 Senja Close
+2026-07-19T13:35:48.072455,place_details_reviews,2,AIzaSy...8yB0,562,Bukit Panjang,Senja,shopping,supermarket,ChIJrcKiqvUR2jERF_P5o8P-8dQ,OK,,5,Sheng Siong Supermarket
+2026-07-19T13:35:48.859087,place_details_reviews,2,AIzaSy...8yB0,563,Bukit Panjang,Senja,shopping,supermarket,ChIJc1tfUJYR2jERsNqQ4sFo5dU,OK,,5,FairPrice Senja Grand
+2026-07-19T13:35:49.549182,place_details_reviews,2,AIzaSy...8yB0,564,Bukit Panjang,Senja,shopping,convenience store,ChIJc1tfUJYR2jERFzL18fOeBhA,OK,,5,7-Eleven
+2026-07-19T13:35:49.938541,place_details_reviews,2,AIzaSy...8yB0,565,Bukit Panjang,Senja,recreation,gym,ChIJNajq4DUR2jERJvP_DeebSsI,OK,,5,Senja-Cashew ActiveSG Gym
+2026-07-19T13:35:50.505305,place_details_reviews,2,AIzaSy...8yB0,566,Bukit Panjang,Senja,recreation,playground,ChIJhSV27ZYR2jERnJAUjgosAcc,OK,,5,Senja Grand Playgrounds
+2026-07-19T13:35:51.137302,place_details_reviews,2,AIzaSy...8yB0,567,Bukit Panjang,Senja,nature,park,ChIJ3y1cHqQR2jER5Ko4OYMbE5c,OK,,3,Senja Grand Park
+2026-07-19T13:35:51.518586,place_details_reviews,2,AIzaSy...8yB0,568,Bukit Panjang,Senja,nature,nature reserve,ChIJLYzHTZ4R2jERAw7BgUHSoig,OK,,5,Zhenghua Nature Park
+2026-07-19T13:35:52.322933,place_details_reviews,2,AIzaSy...8yB0,569,Bukit Panjang,Senja,nature,garden,ChIJsZhGo5YR2jERgEfb2Kj6xSs,OK,,5,Senja Parc View

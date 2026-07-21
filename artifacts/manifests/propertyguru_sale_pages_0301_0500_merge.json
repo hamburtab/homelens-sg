@@ -1,0 +1,74 @@
+{
+  "dataset": "PropertyGuru HDB sale pages 301-500 merged fragment",
+  "created_on": "2026-07-20",
+  "output_path": "data/interim/listings/propertyguru/live_sale_listings_pages_0301_0500.csv",
+  "merge_script": "scripts/scraping/integrate_sale_fragments.py",
+  "source_files": [
+    {
+      "page_range": "301-400",
+      "path": "data/external/listings/propertyguru/sale_pages_0301_0400/live_sale_listings.csv",
+      "rows": 1987,
+      "sha256": "5d652a988d25f88033ffe7e07680eb95cf6eb1618a528c1f568f41f78203413a"
+    },
+    {
+      "page_range": "400-500",
+      "path": "data/external/listings/propertyguru/sale_pages_0400_0500/live_sale_listings.csv",
+      "rows": 1504,
+      "sha256": "b057ee7c991f0972dcb8c482cc23ba9ac9ac4b467aa6ec97ab1e1c28837bd2bc"
+    }
+  ],
+  "input_rows": 3491,
+  "overlapping_listing_ids": 9,
+  "output_rows": 3482,
+  "unique_listing_ids": 3482,
+  "output_sha256": "8f39ad4bf34dd9cc8e6a848136e3c318341481dc50d4411308281505ea6539bb",
+  "deduplication_rule": "keep the row with the latest parsed scraped_at timestamp; later input wins exact timestamp ties",
+  "scraped_at_min_utc": "2026-07-20T09:32:15.184283+00:00",
+  "scraped_at_max_utc": "2026-07-20T10:08:00.603524+00:00",
+  "missing_required_fields": {
+    "listing_id": 0,
+    "source_listing_reference": 0,
+    "address": 0,
+    "asking_price": 0,
+    "floor_area_sqft": 0,
+    "scraped_at": 0
+  },
+  "missing_optional_fields": {
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "tenure": 6,
+    "built_year": 77,
+    "nearest_mrt_name": 250,
+    "latitude": 3482,
+    "longitude": 3482
+  },
+  "quality_flags": {
+    "area_or_psf_outlier_rows": 13,
+    "asking_price_outlier_rows": 0,
+    "area_rule": "floor_area_sqft < 300 or > 3000",
+    "psf_rule": "price_psf < 100 or > 3000",
+    "severity": "medium",
+    "impact": "Do not use the flagged area or PSF values for ranking or model features until reparsed from source evidence.",
+    "outlier_listing_ids": [
+      "71f4673bf369",
+      "4860899fd38e",
+      "cd649f0f8592",
+      "3884d55f6bd5",
+      "0cea0711954c",
+      "0cfa86b4b965",
+      "28de349f0379",
+      "b05aaecc75d5",
+      "5054f642186b",
+      "7877f95aff13",
+      "e00c7e14f54b",
+      "b0dbc1e2b477",
+      "7776421e0f94"
+    ]
+  },
+  "overlap_with_main_pages_0001_0145": {
+    "listing_ids": 10,
+    "source_listing_references": 10,
+    "unique_rows_if_merged_with_main": 6359
+  },
+  "integration_status": "interim_merged_fragment_not_appended_to_main"
+}

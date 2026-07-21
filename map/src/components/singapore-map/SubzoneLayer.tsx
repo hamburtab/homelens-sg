@@ -1,24 +1,20 @@
-import { useRef, useEffect, useCallback, useState } from 'react';
-import { GeoJSON, useMap } from 'react-leaflet';
+import { useRef, useEffect, useCallback } from 'react';
+import { GeoJSON } from 'react-leaflet';
 import type { GeoJSON as LGeo, Layer } from 'leaflet';
 import type { Feature } from 'geojson';
-import type { SubzoneCollection, SelectedRegion, ColorMap } from '../../lib/types';
+import type { SubzoneCollection, SelectedRegion, ColorMap, SubzoneProfile } from '../../lib/types';
 import { subzoneColor } from '../../lib/colors';
-import { SUBZONE_SCORES, buildScoreTooltip } from '../../lib/subzone-scores';
+import { buildScoreTooltip } from '../../lib/subzone-scores';
 
-interface P { data: SubzoneCollection; colorMap: ColorMap; selectedArea: SelectedRegion | null; onSelect: (r: SelectedRegion) => void; onHover: (r: SelectedRegion | null) => void; onFocusSubzone?: (id: string, f: Feature) => void; filterParentId?: string | null; outlineOnly?: boolean; }
+interface P { data: SubzoneCollection; colorMap: ColorMap; selectedArea: SelectedRegion | null; onSelect: (r: SelectedRegion) => void; onHover: (r: SelectedRegion | null) => void; onFocusSubzone?: (id: string, f: Feature) => void; filterParentId?: string | null; outlineOnly?: boolean; subzoneScores?: Record<string, SubzoneProfile>; }
 type PL = { setStyle(s: Record<string,unknown>): void; bringToFront(): void };
 
-export function SubzoneLayer({ data, colorMap, selectedArea, onSelect, onHover, onFocusSubzone, filterParentId, outlineOnly = false }: P) {
+export function SubzoneLayer({ data, colorMap, selectedArea, onSelect, onHover, onFocusSubzone, filterParentId, outlineOnly = false, subzoneScores }: P) {
   const geoRef = useRef<LGeo | null>(null);
   const selRef = useRef<Layer | null>(null);
-  const map = useMap();
-  const [zoom, setZoom] = useState(map.getZoom());
   const osRef = useRef(onSelect); osRef.current = onSelect;
   const ohRef = useRef(onHover); ohRef.current = onHover;
   const ofRef = useRef(onFocusSubzone); ofRef.current = onFocusSubzone;
-
-  useEffect(() => { const f = () => setZoom(map.getZoom()); map.on('zoomend', f); return () => { map.off('zoomend', f); }; }, [map]);
 
   useEffect(() => {
     const g = geoRef.current; if (!g) return;
@@ -46,7 +42,7 @@ export function SubzoneLayer({ data, colorMap, selectedArea, onSelect, onHover, 
     const p = _f.properties as Record<string,string>|undefined;
     const id = p?.SUBZONE_N ?? ''; const name = id; const pid = p?.PLN_AREA_N;
     const pl = l as unknown as PL;
-    const scores = SUBZONE_SCORES[name];
+    const scores = subzoneScores?.[name];
     const showLabel = Boolean(filterParentId);
 
     if (name && showLabel) {
@@ -87,7 +83,7 @@ export function SubzoneLayer({ data, colorMap, selectedArea, onSelect, onHover, 
         },
       });
     }
-  }, [filterParentId]);
+  }, [filterParentId, subzoneScores]);
 
   useEffect(() => () => { selRef.current = null; }, []);
 

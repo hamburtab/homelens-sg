@@ -115,6 +115,10 @@ def enrich_accessibility(
     if missing_layers:
         raise ValueError("missing official layer(s): " + ", ".join(sorted(missing_layers)))
     enriched = candidates.copy()
+    if "nearest_mrt_name" not in enriched:
+        enriched["nearest_mrt_name"] = pd.Series(None, index=enriched.index, dtype="object")
+    else:
+        enriched["nearest_mrt_name"] = enriched["nearest_mrt_name"].astype("object")
     coordinate_mask = enriched[["latitude", "longitude"]].notna().all(axis=1)
     valid_indices = enriched.index[coordinate_mask].tolist()
 

@@ -1,0 +1,73 @@
+﻿planning_area,subzone,poi_dimension,facility_count,avg_rating,total_user_ratings,rating_100
+Toa Payoh,Bidadari,education,20,4.74,2224,94.8
+Toa Payoh,Bidadari,transport,20,4.05,1975,81.0
+Toa Payoh,Bidadari,food,20,4.165,72167,83.3
+Toa Payoh,Bidadari,shopping,20,4.205,113305,84.1
+Toa Payoh,Bidadari,recreation,20,4.315,6467,86.3
+Toa Payoh,Bidadari,nature,20,4.3,14194,86.0
+Toa Payoh,Boon Teck,education,20,4.755,1980,95.1
+Toa Payoh,Boon Teck,transport,13,3.985,3091,79.7
+Toa Payoh,Boon Teck,food,20,4.105,100342,82.1
+Toa Payoh,Boon Teck,shopping,20,4.155,60000,83.1
+Toa Payoh,Boon Teck,recreation,20,4.365,8234,87.3
+Toa Payoh,Boon Teck,nature,20,4.47,28740,89.4
+Toa Payoh,Braddell,education,20,4.784,2222,95.68
+Toa Payoh,Braddell,transport,20,4.156,2874,83.12
+Toa Payoh,Braddell,food,20,3.995,35779,79.9
+Toa Payoh,Braddell,shopping,20,4.16,92130,83.2
+Toa Payoh,Braddell,recreation,20,4.305,7900,86.1
+Toa Payoh,Braddell,nature,20,4.395,25565,87.9
+Toa Payoh,Joo Seng,education,20,4.76,1366,95.2
+Toa Payoh,Joo Seng,transport,20,3.94,2587,78.8
+Toa Payoh,Joo Seng,food,20,4.135,90479,82.7
+Toa Payoh,Joo Seng,shopping,20,4.07,70717,81.4
+Toa Payoh,Joo Seng,recreation,20,4.215,8562,84.3
+Toa Payoh,Joo Seng,nature,20,4.43,64502,88.6
+Toa Payoh,Kim Keat,education,20,4.72,1661,94.4
+Toa Payoh,Kim Keat,transport,20,3.958,1443,79.16
+Toa Payoh,Kim Keat,food,20,4.125,45850,82.5
+Toa Payoh,Kim Keat,shopping,20,4.09,75056,81.8
+Toa Payoh,Kim Keat,recreation,20,4.23,7867,84.6
+Toa Payoh,Kim Keat,nature,20,4.42,31119,88.4
+Toa Payoh,Lorong 8 Toa Payoh,education,20,4.665,2268,93.3
+Toa Payoh,Lorong 8 Toa Payoh,transport,20,4.0,1787,80.0
+Toa Payoh,Lorong 8 Toa Payoh,food,4,4.15,11555,83.0
+Toa Payoh,Lorong 8 Toa Payoh,shopping,20,4.075,64664,81.5
+Toa Payoh,Lorong 8 Toa Payoh,recreation,20,4.19,9002,83.8
+Toa Payoh,Lorong 8 Toa Payoh,nature,20,4.4,32486,88.0
+Toa Payoh,Pei Chun,education,20,4.57,1948,91.4
+Toa Payoh,Pei Chun,transport,12,4.233,1747,84.66
+Toa Payoh,Pei Chun,food,20,4.06,100406,81.2
+Toa Payoh,Pei Chun,shopping,20,4.24,73687,84.8
+Toa Payoh,Pei Chun,recreation,20,4.1,8947,82.0
+Toa Payoh,Pei Chun,nature,20,4.405,35548,88.1
+Toa Payoh,Potong Pasir,education,20,4.642,1046,92.84
+Toa Payoh,Potong Pasir,transport,10,3.92,1880,78.4
+Toa Payoh,Potong Pasir,food,20,4.15,68148,83.0
+Toa Payoh,Potong Pasir,shopping,20,4.135,69244,82.7
+Toa Payoh,Potong Pasir,recreation,20,4.255,8149,85.1
+Toa Payoh,Potong Pasir,nature,20,4.42,18303,88.4
+Toa Payoh,Sennett,education,20,4.753,1542,95.06
+Toa Payoh,Sennett,transport,20,3.895,2385,77.9
+Toa Payoh,Sennett,food,20,4.175,112446,83.5
+Toa Payoh,Sennett,shopping,20,4.1,36916,82.0
+Toa Payoh,Sennett,recreation,19,4.142,6673,82.84
+Toa Payoh,Sennett,nature,20,4.47,24837,89.4
+Toa Payoh,Toa Payoh Central,education,20,4.785,2359,95.7
+Toa Payoh,Toa Payoh Central,transport,20,4.0,3049,80.0
+Toa Payoh,Toa Payoh Central,food,20,4.13,32745,82.6
+Toa Payoh,Toa Payoh Central,shopping,20,4.135,87287,82.7
+Toa Payoh,Toa Payoh Central,recreation,20,4.305,7826,86.1
+Toa Payoh,Toa Payoh Central,nature,20,4.39,20466,87.8
+Toa Payoh,Toa Payoh West,education,20,4.825,2320,96.5
+Toa Payoh,Toa Payoh West,transport,20,4.175,8787,83.5
+Toa Payoh,Toa Payoh West,food,3,4.3,4501,86.0
+Toa Payoh,Toa Payoh West,shopping,20,4.12,61722,82.4
+Toa Payoh,Toa Payoh West,recreation,8,4.125,5603,82.5
+Toa Payoh,Toa Payoh West,nature,20,4.385,32215,87.7
+Toa Payoh,Woodleigh,education,20,4.775,2269,95.5
+Toa Payoh,Woodleigh,transport,20,4.27,2279,85.4
+Toa Payoh,Woodleigh,food,20,4.19,74518,83.8
+Toa Payoh,Woodleigh,shopping,20,4.165,126172,83.3
+Toa Payoh,Woodleigh,recreation,20,4.165,10173,83.3
+Toa Payoh,Woodleigh,nature,20,4.41,19728,88.2

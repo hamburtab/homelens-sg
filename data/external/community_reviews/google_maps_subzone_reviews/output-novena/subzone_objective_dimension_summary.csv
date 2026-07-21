@@ -1,0 +1,31 @@
+﻿planning_area,subzone,poi_dimension,facility_count,avg_rating,total_user_ratings,rating_100
+Novena,Balestier,education,20,4.77,1113,95.4
+Novena,Balestier,transport,20,3.995,830,79.9
+Novena,Balestier,food,20,4.135,132949,82.7
+Novena,Balestier,shopping,20,4.135,82201,82.7
+Novena,Balestier,recreation,20,4.52,11434,90.4
+Novena,Balestier,nature,20,4.435,27892,88.7
+Novena,Dunearn,education,20,4.675,694,93.5
+Novena,Dunearn,transport,20,4.058,1021,81.16
+Novena,Dunearn,food,20,4.225,126479,84.5
+Novena,Dunearn,shopping,20,4.205,59279,84.1
+Novena,Dunearn,recreation,20,4.37,7839,87.4
+Novena,Dunearn,nature,20,4.39,35396,87.8
+Novena,Malcolm,education,20,4.725,3062,94.5
+Novena,Malcolm,transport,20,3.942,964,78.84
+Novena,Malcolm,food,20,4.165,147713,83.3
+Novena,Malcolm,shopping,20,4.14,75764,82.8
+Novena,Malcolm,recreation,20,4.39,8524,87.8
+Novena,Malcolm,nature,20,4.4,22587,88.0
+Novena,Moulmein,education,20,4.739,764,94.78
+Novena,Moulmein,transport,20,3.915,833,78.3
+Novena,Moulmein,food,20,4.3,149499,86.0
+Novena,Moulmein,shopping,20,4.24,93044,84.8
+Novena,Moulmein,recreation,20,4.495,9730,89.9
+Novena,Moulmein,nature,20,4.395,23900,87.9
+Novena,Mount Pleasant,education,20,4.605,4448,92.1
+Novena,Mount Pleasant,transport,20,4.315,1727,86.3
+Novena,Mount Pleasant,food,20,4.23,136267,84.6
+Novena,Mount Pleasant,shopping,20,4.255,170689,85.1
+Novena,Mount Pleasant,recreation,20,4.32,8452,86.4
+Novena,Mount Pleasant,nature,20,4.355,20670,87.1

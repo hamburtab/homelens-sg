@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Download/prepare HDB data and build the local candidate knowledge base."""
-111
 from __future__ import annotations
 
 import argparse

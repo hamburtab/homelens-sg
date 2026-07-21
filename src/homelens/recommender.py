@@ -7,6 +7,7 @@ from typing import Any
 import numpy as np
 import pandas as pd
 
+from homelens.geospatial import haversine_matrix
 from homelens.schemas import UserPreferences
 
 
@@ -107,6 +108,15 @@ def _hard_filter(
         distance = pd.to_numeric(eligible["nearest_mrt_distance_m"], errors="coerce")
         eligible = eligible.loc[distance.notna() & (distance <= preferences.max_mrt_distance_m)]
         filters.append(f"nearest MRT distance <= {preferences.max_mrt_distance_m:g} m")
+    if preferences.max_anchor_distance_m is not None:
+        distance = pd.to_numeric(eligible["anchor_distance_m"], errors="coerce")
+        eligible = eligible.loc[
+            distance.notna() & (distance <= preferences.max_anchor_distance_m)
+        ]
+        filters.append(
+            f"straight-line distance to {preferences.anchor_name or 'selected place'} "
+            f"<= {preferences.max_anchor_distance_m:g} m"
+        )
     return eligible.copy(), filters
 
 
@@ -125,6 +135,11 @@ def _near_misses(candidates: pd.DataFrame, preferences: UserPreferences) -> list
     if preferences.max_mrt_distance_m is not None:
         distance = pd.to_numeric(pool.get("nearest_mrt_distance_m"), errors="coerce")
         pool = pool.loc[distance.notna() & (distance <= preferences.max_mrt_distance_m)]
+    if preferences.max_anchor_distance_m is not None:
+        distance = pd.to_numeric(pool.get("anchor_distance_m"), errors="coerce")
+        pool = pool.loc[
+            distance.notna() & (distance <= preferences.max_anchor_distance_m)
+        ]
     over = pool.loc[pool["observed_price_high"] > preferences.budget].nsmallest(
         3, "observed_price_high"
     )
@@ -154,6 +169,25 @@ def recommend(
         raise ValueError("top_k must be between 1 and 50")
     # Never add placeholder columns to the service's cached knowledge base.
     candidates = candidates.copy()
+
+    if preferences.anchor_latitude is not None and preferences.anchor_longitude is not None:
+        candidates["anchor_distance_m"] = np.nan
+        if {"latitude", "longitude"}.issubset(candidates.columns):
+            coordinates = candidates[["latitude", "longitude"]].apply(
+                pd.to_numeric, errors="coerce"
+            )
+            valid = coordinates.notna().all(axis=1)
+            if valid.any():
+                distances = haversine_matrix(
+                    coordinates.loc[valid].to_numpy(float),
+                    np.asarray(
+                        [[preferences.anchor_latitude, preferences.anchor_longitude]],
+                        dtype=float,
+                    ),
+                )[:, 0]
+                candidates.loc[valid, "anchor_distance_m"] = distances
+    else:
+        candidates["anchor_distance_m"] = np.nan
 
     if preferences.max_mrt_distance_m is not None:
         distance = (
@@ -215,7 +249,7 @@ def recommend(
             continue
         available_dimensions[dimension] = (column, higher_is_better, bounds)
 
-    location_available = bool(preferences.preferred_towns)
+    location_available = bool(preferences.preferred_towns) or preferences.anchor_latitude is not None
     active_weight_sum = sum(preferences.weights[name] for name in available_dimensions)
     if location_available:
         active_weight_sum += preferences.weights["location"]
@@ -240,11 +274,31 @@ def recommend(
         observed_weight.loc[present] += effective_weights[dimension]
 
     if location_available:
-        location_score = eligible["town"].isin(preferences.preferred_towns).astype(float)
+        location_components: list[pd.Series] = []
+        if preferences.preferred_towns:
+            location_components.append(
+                eligible["town"].isin(preferences.preferred_towns).astype(float)
+            )
+        if preferences.anchor_latitude is not None:
+            anchor_distance = pd.to_numeric(eligible["anchor_distance_m"], errors="coerce")
+            if preferences.max_anchor_distance_m is not None:
+                anchor_score = (
+                    1 - anchor_distance / preferences.max_anchor_distance_m
+                ).clip(0, 1)
+            else:
+                bounds = _score_bounds(candidates, "anchor_distance_m")
+                anchor_score = (
+                    _normalised_score(anchor_distance, bounds, False)
+                    if bounds is not None
+                    else pd.Series(np.nan, index=eligible.index)
+                )
+            location_components.append(anchor_score)
+        location_score = pd.concat(location_components, axis=1).mean(axis=1, skipna=True)
         eligible["score_location"] = location_score
         component_columns["location"] = "score_location"
-        weighted_sum += location_score * effective_weights["location"]
-        observed_weight += effective_weights["location"]
+        present = location_score.notna()
+        weighted_sum.loc[present] += location_score.loc[present] * effective_weights["location"]
+        observed_weight.loc[present] += effective_weights["location"]
 
     eligible["evidence_coverage"] = observed_weight
     eligible["ranking_score"] = (weighted_sum / observed_weight.replace(0, np.nan)).fillna(0)
@@ -311,6 +365,12 @@ def recommend(
         ]
         if row.preferred_town_match:
             reasons.append(f"Matches the preferred town: {row.town.title()}.")
+        anchor_distance = _safe_float(row_dict.get("anchor_distance_m"))
+        if anchor_distance is not None:
+            reasons.append(
+                f"Straight-line distance to {preferences.anchor_name or 'the selected place'} "
+                f"is {anchor_distance / 1_000:.2f} km."
+            )
         mrt_distance = _safe_float(row_dict.get("nearest_mrt_distance_m"))
         mrt_name = row_dict.get("nearest_mrt_name")
         if mrt_distance is not None:
@@ -361,6 +421,7 @@ def recommend(
                 "price_trend_pct_annual": _safe_float(row.price_trend_pct_annual),
                 "nearest_mrt_name": mrt_name if isinstance(mrt_name, str) else None,
                 "nearest_mrt_distance_m": mrt_distance,
+                "anchor_distance_m": anchor_distance,
                 "bus_stops_500m": _safe_float(row_dict.get("bus_stops_500m")),
                 "amenities_1km": _safe_float(row_dict.get("amenities_1km")),
                 "reasons": reasons,

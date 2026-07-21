@@ -1,0 +1,248 @@
+﻿timestamp,api_type,api_key_index,api_key_masked,api_key_calls,planning_area,subzone,poi_dimension,place_query_type,query,status,error_message,result_count,place_name
+2026-07-17T23:19:21.056507,text_search,2,AIzaSy...8yB0,345,Western Water Catchment,Bahar,education,kindergarten,"kindergarten in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:22.162900,text_search,2,AIzaSy...8yB0,346,Western Water Catchment,Bahar,education,childcare centre,"childcare centre in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:22.849544,text_search,2,AIzaSy...8yB0,347,Western Water Catchment,Bahar,education,primary school,"primary school in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:23.685909,text_search,2,AIzaSy...8yB0,348,Western Water Catchment,Bahar,education,secondary school,"secondary school in Bahar, Western Water Catchment, Singapore",OK,,16,
+2026-07-17T23:19:24.689181,text_search,2,AIzaSy...8yB0,349,Western Water Catchment,Bahar,education,junior college,"junior college in Bahar, Western Water Catchment, Singapore",OK,,16,
+2026-07-17T23:19:25.548247,text_search,2,AIzaSy...8yB0,350,Western Water Catchment,Bahar,education,polytechnic,"polytechnic in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:26.631052,text_search,2,AIzaSy...8yB0,351,Western Water Catchment,Bahar,education,university,"university in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:27.339448,text_search,2,AIzaSy...8yB0,352,Western Water Catchment,Bahar,education,tuition centre,"tuition centre in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:28.084564,text_search,2,AIzaSy...8yB0,353,Western Water Catchment,Bahar,education,library,"library in Bahar, Western Water Catchment, Singapore",OK,,18,
+2026-07-17T23:19:28.676028,text_search,2,AIzaSy...8yB0,354,Western Water Catchment,Bahar,transport,MRT station,"MRT station in Bahar, Western Water Catchment, Singapore",OK,,2,
+2026-07-17T23:19:29.484323,text_search,2,AIzaSy...8yB0,355,Western Water Catchment,Bahar,transport,bus stop,"bus stop in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:30.209003,text_search,2,AIzaSy...8yB0,356,Western Water Catchment,Bahar,transport,bus interchange,"bus interchange in Bahar, Western Water Catchment, Singapore",OK,,4,
+2026-07-17T23:19:31.231248,text_search,2,AIzaSy...8yB0,357,Western Water Catchment,Bahar,transport,LRT station,"LRT station in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:32.114393,text_search,2,AIzaSy...8yB0,358,Western Water Catchment,Bahar,food,hawker centre,"hawker centre in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:33.199783,text_search,2,AIzaSy...8yB0,359,Western Water Catchment,Bahar,food,food court,"food court in Bahar, Western Water Catchment, Singapore",OK,,14,
+2026-07-17T23:19:34.258374,text_search,2,AIzaSy...8yB0,360,Western Water Catchment,Bahar,food,coffee shop,"coffee shop in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:35.190596,text_search,2,AIzaSy...8yB0,361,Western Water Catchment,Bahar,food,restaurant,"restaurant in Bahar, Western Water Catchment, Singapore",OK,,3,
+2026-07-17T23:19:36.142691,text_search,2,AIzaSy...8yB0,362,Western Water Catchment,Bahar,food,cafe,"cafe in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:37.233424,text_search,2,AIzaSy...8yB0,363,Western Water Catchment,Bahar,shopping,shopping mall,"shopping mall in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:38.240296,text_search,2,AIzaSy...8yB0,364,Western Water Catchment,Bahar,shopping,supermarket,"supermarket in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:38.912776,text_search,2,AIzaSy...8yB0,365,Western Water Catchment,Bahar,shopping,grocery store,"grocery store in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:39.556824,text_search,2,AIzaSy...8yB0,366,Western Water Catchment,Bahar,shopping,convenience store,"convenience store in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:40.710394,text_search,2,AIzaSy...8yB0,367,Western Water Catchment,Bahar,shopping,wet market,"wet market in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:41.820064,text_search,2,AIzaSy...8yB0,368,Western Water Catchment,Bahar,recreation,gym,"gym in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:42.926450,text_search,2,AIzaSy...8yB0,369,Western Water Catchment,Bahar,recreation,sports centre,"sports centre in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:43.801204,text_search,2,AIzaSy...8yB0,370,Western Water Catchment,Bahar,recreation,swimming complex,"swimming complex in Bahar, Western Water Catchment, Singapore",OK,,17,
+2026-07-17T23:19:44.469198,text_search,2,AIzaSy...8yB0,371,Western Water Catchment,Bahar,recreation,cinema,"cinema in Bahar, Western Water Catchment, Singapore",OK,,7,
+2026-07-17T23:19:45.399761,text_search,2,AIzaSy...8yB0,372,Western Water Catchment,Bahar,recreation,community club,"community club in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:46.179319,text_search,2,AIzaSy...8yB0,373,Western Water Catchment,Bahar,recreation,playground,"playground in Bahar, Western Water Catchment, Singapore",OK,,12,
+2026-07-17T23:19:47.325255,text_search,2,AIzaSy...8yB0,374,Western Water Catchment,Bahar,nature,park,"park in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:48.034393,text_search,2,AIzaSy...8yB0,375,Western Water Catchment,Bahar,nature,nature reserve,"nature reserve in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:49.294880,text_search,2,AIzaSy...8yB0,376,Western Water Catchment,Bahar,nature,garden,"garden in Bahar, Western Water Catchment, Singapore",OK,,18,
+2026-07-17T23:19:50.252830,text_search,2,AIzaSy...8yB0,377,Western Water Catchment,Bahar,nature,beach,"beach in Bahar, Western Water Catchment, Singapore",OK,,6,
+2026-07-17T23:19:50.840115,text_search,2,AIzaSy...8yB0,378,Western Water Catchment,Bahar,nature,waterfront,"waterfront in Bahar, Western Water Catchment, Singapore",OK,,12,
+2026-07-17T23:19:51.667813,text_search,2,AIzaSy...8yB0,379,Western Water Catchment,Bahar,nature,park connector,"park connector in Bahar, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:52.761322,text_search,2,AIzaSy...8yB0,380,Western Water Catchment,Cleantech,education,kindergarten,"kindergarten in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:53.744307,text_search,2,AIzaSy...8yB0,381,Western Water Catchment,Cleantech,education,childcare centre,"childcare centre in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:54.871400,text_search,2,AIzaSy...8yB0,382,Western Water Catchment,Cleantech,education,primary school,"primary school in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:19:55.973943,text_search,2,AIzaSy...8yB0,383,Western Water Catchment,Cleantech,education,secondary school,"secondary school in Cleantech, Western Water Catchment, Singapore",OK,,14,
+2026-07-17T23:19:56.664641,text_search,2,AIzaSy...8yB0,384,Western Water Catchment,Cleantech,education,junior college,"junior college in Cleantech, Western Water Catchment, Singapore",OK,,11,
+2026-07-17T23:19:57.506227,text_search,2,AIzaSy...8yB0,385,Western Water Catchment,Cleantech,education,polytechnic,"polytechnic in Cleantech, Western Water Catchment, Singapore",OK,,6,
+2026-07-17T23:19:58.549909,text_search,2,AIzaSy...8yB0,386,Western Water Catchment,Cleantech,education,university,"university in Cleantech, Western Water Catchment, Singapore",OK,,13,
+2026-07-17T23:19:59.352695,text_search,2,AIzaSy...8yB0,387,Western Water Catchment,Cleantech,education,tuition centre,"tuition centre in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:00.204953,text_search,2,AIzaSy...8yB0,388,Western Water Catchment,Cleantech,education,library,"library in Cleantech, Western Water Catchment, Singapore",OK,,10,
+2026-07-17T23:20:00.992595,text_search,2,AIzaSy...8yB0,389,Western Water Catchment,Cleantech,transport,MRT station,"MRT station in Cleantech, Western Water Catchment, Singapore",OK,,18,
+2026-07-17T23:20:01.803651,text_search,2,AIzaSy...8yB0,390,Western Water Catchment,Cleantech,transport,bus stop,"bus stop in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:02.738228,text_search,2,AIzaSy...8yB0,391,Western Water Catchment,Cleantech,transport,bus interchange,"bus interchange in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:03.622593,text_search,2,AIzaSy...8yB0,392,Western Water Catchment,Cleantech,transport,LRT station,"LRT station in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:05.019027,text_search,2,AIzaSy...8yB0,393,Western Water Catchment,Cleantech,food,hawker centre,"hawker centre in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:06.088662,text_search,2,AIzaSy...8yB0,394,Western Water Catchment,Cleantech,food,food court,"food court in Cleantech, Western Water Catchment, Singapore",OK,,9,
+2026-07-17T23:20:06.973933,text_search,2,AIzaSy...8yB0,395,Western Water Catchment,Cleantech,food,coffee shop,"coffee shop in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:07.925730,text_search,2,AIzaSy...8yB0,396,Western Water Catchment,Cleantech,food,restaurant,"restaurant in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:08.994579,text_search,2,AIzaSy...8yB0,397,Western Water Catchment,Cleantech,food,cafe,"cafe in Cleantech, Western Water Catchment, Singapore",OK,,16,
+2026-07-17T23:20:09.846025,text_search,2,AIzaSy...8yB0,398,Western Water Catchment,Cleantech,shopping,shopping mall,"shopping mall in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:10.794097,text_search,2,AIzaSy...8yB0,399,Western Water Catchment,Cleantech,shopping,supermarket,"supermarket in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:11.784270,text_search,2,AIzaSy...8yB0,400,Western Water Catchment,Cleantech,shopping,grocery store,"grocery store in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:12.649950,text_search,2,AIzaSy...8yB0,401,Western Water Catchment,Cleantech,shopping,convenience store,"convenience store in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:13.199434,text_search,2,AIzaSy...8yB0,402,Western Water Catchment,Cleantech,shopping,wet market,"wet market in Cleantech, Western Water Catchment, Singapore",OK,,6,
+2026-07-17T23:20:13.855571,text_search,2,AIzaSy...8yB0,403,Western Water Catchment,Cleantech,recreation,gym,"gym in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:14.819280,text_search,2,AIzaSy...8yB0,404,Western Water Catchment,Cleantech,recreation,sports centre,"sports centre in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:16.092534,text_search,2,AIzaSy...8yB0,405,Western Water Catchment,Cleantech,recreation,swimming complex,"swimming complex in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:16.936904,text_search,2,AIzaSy...8yB0,406,Western Water Catchment,Cleantech,recreation,cinema,"cinema in Cleantech, Western Water Catchment, Singapore",OK,,17,
+2026-07-17T23:20:18.047539,text_search,2,AIzaSy...8yB0,407,Western Water Catchment,Cleantech,recreation,community club,"community club in Cleantech, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:18.810882,text_search,2,AIzaSy...8yB0,408,Western Water Catchment,Cleantech,recreation,playground,"playground in Cleantech, Western Water Catchment, Singapore",OK,,10,
+2026-07-17T23:20:19.941731,text_search,2,AIzaSy...8yB0,409,Western Water Catchment,Cleantech,nature,park,"park in Cleantech, Western Water Catchment, Singapore",OK,,11,
+2026-07-17T23:20:20.704641,text_search,2,AIzaSy...8yB0,410,Western Water Catchment,Cleantech,nature,nature reserve,"nature reserve in Cleantech, Western Water Catchment, Singapore",OK,,11,
+2026-07-17T23:20:21.322312,text_search,2,AIzaSy...8yB0,411,Western Water Catchment,Cleantech,nature,garden,"garden in Cleantech, Western Water Catchment, Singapore",OK,,4,
+2026-07-17T23:20:22.061111,text_search,2,AIzaSy...8yB0,412,Western Water Catchment,Cleantech,nature,beach,"beach in Cleantech, Western Water Catchment, Singapore",OK,,8,
+2026-07-17T23:20:23.092924,text_search,2,AIzaSy...8yB0,413,Western Water Catchment,Cleantech,nature,waterfront,"waterfront in Cleantech, Western Water Catchment, Singapore",OK,,14,
+2026-07-17T23:20:23.636809,text_search,2,AIzaSy...8yB0,414,Western Water Catchment,Cleantech,nature,park connector,"park connector in Cleantech, Western Water Catchment, Singapore",OK,,10,
+2026-07-17T23:20:24.635245,text_search,2,AIzaSy...8yB0,415,Western Water Catchment,Murai,education,kindergarten,"kindergarten in Murai, Western Water Catchment, Singapore",OK,,13,
+2026-07-17T23:20:25.354142,text_search,2,AIzaSy...8yB0,416,Western Water Catchment,Murai,education,childcare centre,"childcare centre in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:26.248373,text_search,2,AIzaSy...8yB0,417,Western Water Catchment,Murai,education,primary school,"primary school in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:26.997788,text_search,2,AIzaSy...8yB0,418,Western Water Catchment,Murai,education,secondary school,"secondary school in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:27.898056,text_search,2,AIzaSy...8yB0,419,Western Water Catchment,Murai,education,junior college,"junior college in Murai, Western Water Catchment, Singapore",OK,,16,
+2026-07-17T23:20:28.463116,text_search,2,AIzaSy...8yB0,420,Western Water Catchment,Murai,education,polytechnic,"polytechnic in Murai, Western Water Catchment, Singapore",OK,,5,
+2026-07-17T23:20:29.063179,text_search,2,AIzaSy...8yB0,421,Western Water Catchment,Murai,education,university,"university in Murai, Western Water Catchment, Singapore",OK,,4,
+2026-07-17T23:20:30.020868,text_search,2,AIzaSy...8yB0,422,Western Water Catchment,Murai,education,tuition centre,"tuition centre in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:31.125716,text_search,2,AIzaSy...8yB0,423,Western Water Catchment,Murai,education,library,"library in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:31.769260,text_search,2,AIzaSy...8yB0,424,Western Water Catchment,Murai,transport,MRT station,"MRT station in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:32.403605,text_search,2,AIzaSy...8yB0,425,Western Water Catchment,Murai,transport,bus stop,"bus stop in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:33.193993,text_search,2,AIzaSy...8yB0,426,Western Water Catchment,Murai,transport,bus interchange,"bus interchange in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:33.981974,text_search,2,AIzaSy...8yB0,427,Western Water Catchment,Murai,transport,LRT station,"LRT station in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:35.069580,text_search,2,AIzaSy...8yB0,428,Western Water Catchment,Murai,food,hawker centre,"hawker centre in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:36.171052,text_search,2,AIzaSy...8yB0,429,Western Water Catchment,Murai,food,food court,"food court in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:37.146375,text_search,2,AIzaSy...8yB0,430,Western Water Catchment,Murai,food,coffee shop,"coffee shop in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:38.164094,text_search,2,AIzaSy...8yB0,431,Western Water Catchment,Murai,food,restaurant,"restaurant in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:39.125384,text_search,2,AIzaSy...8yB0,432,Western Water Catchment,Murai,food,cafe,"cafe in Murai, Western Water Catchment, Singapore",OK,,1,
+2026-07-17T23:20:39.933102,text_search,2,AIzaSy...8yB0,433,Western Water Catchment,Murai,shopping,shopping mall,"shopping mall in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:40.825689,text_search,2,AIzaSy...8yB0,434,Western Water Catchment,Murai,shopping,supermarket,"supermarket in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:41.988677,text_search,2,AIzaSy...8yB0,435,Western Water Catchment,Murai,shopping,grocery store,"grocery store in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:43.105759,text_search,2,AIzaSy...8yB0,436,Western Water Catchment,Murai,shopping,convenience store,"convenience store in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:44.116817,text_search,2,AIzaSy...8yB0,437,Western Water Catchment,Murai,shopping,wet market,"wet market in Murai, Western Water Catchment, Singapore",OK,,13,
+2026-07-17T23:20:44.938217,text_search,2,AIzaSy...8yB0,438,Western Water Catchment,Murai,recreation,gym,"gym in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:45.953986,text_search,2,AIzaSy...8yB0,439,Western Water Catchment,Murai,recreation,sports centre,"sports centre in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:46.913257,text_search,2,AIzaSy...8yB0,440,Western Water Catchment,Murai,recreation,swimming complex,"swimming complex in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:47.674925,text_search,2,AIzaSy...8yB0,441,Western Water Catchment,Murai,recreation,cinema,"cinema in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:48.747089,text_search,2,AIzaSy...8yB0,442,Western Water Catchment,Murai,recreation,community club,"community club in Murai, Western Water Catchment, Singapore",OK,,11,
+2026-07-17T23:20:49.659864,text_search,2,AIzaSy...8yB0,443,Western Water Catchment,Murai,recreation,playground,"playground in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:50.551818,text_search,2,AIzaSy...8yB0,444,Western Water Catchment,Murai,nature,park,"park in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:51.267372,text_search,2,AIzaSy...8yB0,445,Western Water Catchment,Murai,nature,nature reserve,"nature reserve in Murai, Western Water Catchment, Singapore",OK,,19,
+2026-07-17T23:20:52.167672,text_search,2,AIzaSy...8yB0,446,Western Water Catchment,Murai,nature,garden,"garden in Murai, Western Water Catchment, Singapore",OK,,20,
+2026-07-17T23:20:52.945942,text_search,2,AIzaSy...8yB0,447,Western Water Catchment,Murai,nature,beach,"beach in Murai, Western Water Catchment, Singapore",OK,,18,
+2026-07-17T23:20:53.744475,text_search,2,AIzaSy...8yB0,448,Western Water Catchment,Murai,nature,waterfront,"waterfront in Murai, Western Water Catchment, Singapore",OK,,11,
+2026-07-17T23:20:54.491177,text_search,2,AIzaSy...8yB0,449,Western Water Catchment,Murai,nature,park connector,"park connector in Murai, Western Water Catchment, Singapore",OK,,15,
+2026-07-17T23:20:55.336691,place_details_reviews,2,AIzaSy...8yB0,450,Western Water Catchment,Bahar,education,kindergarten,ChIJA1n8HI4P2jERAzhzQjCnrdg,OK,,5,MOE Kindergarten @ Frontier
+2026-07-17T23:20:56.002119,place_details_reviews,2,AIzaSy...8yB0,451,Western Water Catchment,Bahar,education,kindergarten,ChIJSQHt4fEP2jERpOJMKoC3OzY,OK,,3,MOE Kindergarten @ Jurong West
+2026-07-17T23:20:56.708789,place_details_reviews,2,AIzaSy...8yB0,452,Western Water Catchment,Bahar,education,childcare centre,ChIJKVR9GNoP2jERvoPCL0Y2vsA,OK,,2,Nashwa Childcare Centre
+2026-07-17T23:20:57.430159,place_details_reviews,2,AIzaSy...8yB0,453,Western Water Catchment,Bahar,education,childcare centre,ChIJRbvYP7kP2jERhVAPotashOk,OK,,3,Little Kinder Montessori @ Westwood
+2026-07-17T23:20:57.901308,place_details_reviews,2,AIzaSy...8yB0,454,Western Water Catchment,Bahar,education,primary school,ChIJzQs8Db4P2jERHjrNQ3yW6AI,OK,,0,Westwood Primary School
+2026-07-17T23:20:58.814115,place_details_reviews,2,AIzaSy...8yB0,455,Western Water Catchment,Bahar,education,primary school,ChIJj7nvVZYP2jER-5waIpz9-Bc,OK,,0,West Grove Primary School
+2026-07-17T23:20:59.172137,place_details_reviews,2,AIzaSy...8yB0,456,Western Water Catchment,Bahar,education,secondary school,ChIJZS8GNJER2jERSd-ue7liC-Q,OK,,0,West Spring Secondary School
+2026-07-17T23:20:59.658540,place_details_reviews,2,AIzaSy...8yB0,457,Western Water Catchment,Bahar,education,secondary school,ChIJr1lusOsP2jERKAFcVUeYtEA,OK,,0,River Valley High School
+2026-07-17T23:21:00.435743,place_details_reviews,2,AIzaSy...8yB0,458,Western Water Catchment,Bahar,education,junior college,ChIJz_-CGpUR2jERsxAVVh_vnoY,OK,,5,Jurong Pioneer Junior College
+2026-07-17T23:21:00.928840,place_details_reviews,2,AIzaSy...8yB0,459,Western Water Catchment,Bahar,education,junior college,ChIJ61lTU6EQ2jERiBDECMxHYFY,OK,,5,National Junior College
+2026-07-17T23:21:01.522933,place_details_reviews,2,AIzaSy...8yB0,460,Western Water Catchment,Bahar,education,polytechnic,ChIJZX8AIGAa2jERZj1hXsMAZ3U,OK,,5,SP - Poly Marina
+2026-07-17T23:21:02.146473,place_details_reviews,2,AIzaSy...8yB0,461,Western Water Catchment,Bahar,education,polytechnic,ChIJFXzxL2Aa2jERnoWTOdJdVKk,OK,,5,Singapore Polytechnic
+2026-07-17T23:21:02.927260,place_details_reviews,2,AIzaSy...8yB0,462,Western Water Catchment,Bahar,education,university,ChIJ2QJCeFYa2jERa434wdYIjUg,OK,,5,National University of Singapore
+2026-07-17T23:21:03.508396,place_details_reviews,2,AIzaSy...8yB0,463,Western Water Catchment,Bahar,education,university,ChIJ90rzxlYa2jERKheMspKJPOI,OK,,2,Saw Swee Hock School Of Public Health
+2026-07-17T23:21:04.377051,place_details_reviews,2,AIzaSy...8yB0,464,Western Water Catchment,Bahar,education,tuition centre,ChIJF-8FfJAP2jERda_2HYyhwKs,OK,,5,Edufront Learning Centre - Jurong West
+2026-07-17T23:21:05.209935,place_details_reviews,2,AIzaSy...8yB0,465,Western Water Catchment,Bahar,education,tuition centre,ChIJeT52RIoP2jERUQPMxCt4Hzo,OK,,5,EduFirst Learning Centre (Jurong West Branch) - English Math Chinese Science Tuition Centre Student Care
+2026-07-17T23:21:05.593385,place_details_reviews,2,AIzaSy...8yB0,466,Western Water Catchment,Bahar,education,library,ChIJF3XNQ5MP2jERXeUO2D_OtYY,OK,,5,Jurong West Library
+2026-07-17T23:21:06.201207,place_details_reviews,2,AIzaSy...8yB0,467,Western Water Catchment,Bahar,education,library,ChIJfWE7NwAR2jERE_LL5Mx2EVM,OK,,5,Community Library
+2026-07-17T23:21:06.994179,place_details_reviews,2,AIzaSy...8yB0,468,Western Water Catchment,Bahar,transport,MRT station,ChIJhf3gj3gP2jERdVKoCBMreI0,OK,,5,Bahar Junction MRT Station (JS7) (U/C)
+2026-07-17T23:21:07.678390,place_details_reviews,2,AIzaSy...8yB0,469,Western Water Catchment,Bahar,transport,MRT station,ChIJv03-Q9cP2jEROMd8GAAAvzQ,OK,,5,Tawas MRT Station (JW2) (U/C)
+2026-07-17T23:21:08.620072,place_details_reviews,2,AIzaSy...8yB0,470,Western Water Catchment,Bahar,transport,bus stop,ChIJl0WZMLAP2jERuOFY6fi3KPQ,OK,,3,Opp Nanyang Ave
+2026-07-17T23:21:09.322007,place_details_reviews,2,AIzaSy...8yB0,471,Western Water Catchment,Bahar,transport,bus stop,ChIJ1zzMILAP2jERPsWaDzDP_o0,OK,,0,Bef Jln Bahar
+2026-07-17T23:21:09.867450,place_details_reviews,2,AIzaSy...8yB0,472,Western Water Catchment,Bahar,transport,LRT station,ChIJI4ftDmEa2jERtj1VWjNTNRg,OK,,5,Dover
+2026-07-17T23:21:10.526150,place_details_reviews,2,AIzaSy...8yB0,473,Western Water Catchment,Bahar,food,hawker centre,ChIJ_c6vFoMZ2jERBWATXfBQ7Aw,OK,,5,Zion Riverside Food Centre
+2026-07-17T23:21:10.903697,place_details_reviews,2,AIzaSy...8yB0,474,Western Water Catchment,Bahar,food,hawker centre,ChIJawpcHb8P2jERsJHfCSDly0w,OK,,5,Food Master
+2026-07-17T23:21:11.311461,place_details_reviews,2,AIzaSy...8yB0,475,Western Water Catchment,Bahar,food,food court,ChIJK5zX4bEP2jERY8MbIaz8SZs,OK,,1,Lion Central Kitchen
+2026-07-17T23:21:11.861287,place_details_reviews,2,AIzaSy...8yB0,476,Western Water Catchment,Bahar,food,coffee shop,ChIJoZXsBgAb2jERYZSj5a-40SM,OK,,5,777 Famous Coffeeshop (Lengkok Bahru)
+2026-07-17T23:21:12.371689,place_details_reviews,2,AIzaSy...8yB0,477,Western Water Catchment,Bahar,food,coffee shop,ChIJVdCmxpgb2jERFao4qFxsSIU,OK,,5,Alchemist The Mill
+2026-07-17T23:21:13.011662,place_details_reviews,2,AIzaSy...8yB0,478,Western Water Catchment,Bahar,food,restaurant,ChIJjUHfOHwP2jER2Aew9uWukRg,OK,,5,Kampong House BBQ
+2026-07-17T23:21:13.773524,place_details_reviews,2,AIzaSy...8yB0,479,Western Water Catchment,Bahar,food,cafe,ChIJNRihQYIP2jERfxYgBxm_Zq4,OK,,5,Jinna royal Indian Muslim food Cafe 276
+2026-07-17T23:21:14.311415,place_details_reviews,2,AIzaSy...8yB0,480,Western Water Catchment,Bahar,shopping,shopping mall,ChIJa9YM2-wP2jERmOUStQKyiS0,OK,,5,Jurong Point
+2026-07-17T23:21:15.189277,place_details_reviews,2,AIzaSy...8yB0,481,Western Water Catchment,Bahar,shopping,shopping mall,ChIJ82AoVA8Q2jERkHnr1RPW9B4,OK,,5,Westgate
+2026-07-17T23:21:15.591097,place_details_reviews,2,AIzaSy...8yB0,482,Western Water Catchment,Bahar,shopping,supermarket,ChIJpSUUNq0P2jERckCJMy3euQ4,OK,,5,Sheng Siong Supermarket
+2026-07-17T23:21:16.306550,place_details_reviews,2,AIzaSy...8yB0,483,Western Water Catchment,Bahar,shopping,supermarket,ChIJa_6xD8IP2jERC2e3Q6mjwyg,OK,,5,FairPrice Boon Lay Shopping Complex
+2026-07-17T23:21:16.999673,place_details_reviews,2,AIzaSy...8yB0,484,Western Water Catchment,Bahar,shopping,grocery store,ChIJEcK5370P2jERhvdB-vBkNrM,OK,,5,Chennai Mart
+2026-07-17T23:21:17.669894,place_details_reviews,2,AIzaSy...8yB0,485,Western Water Catchment,Bahar,shopping,convenience store,ChIJ_WYxW7gP2jER6Jis7jXnJ2I,OK,,1,Seng Soon Heng Minimart
+2026-07-17T23:21:18.334019,place_details_reviews,2,AIzaSy...8yB0,486,Western Water Catchment,Bahar,shopping,wet market,ChIJRWOO094b2jER8TCrFZjKCHc,OK,,5,Ayer Rajah Market
+2026-07-17T23:21:18.777950,place_details_reviews,2,AIzaSy...8yB0,487,Western Water Catchment,Bahar,shopping,wet market,ChIJ82mn4sIb2jERYLD61tMIM9w,OK,,5,Telok Blangah Market
+2026-07-17T23:21:19.168863,place_details_reviews,2,AIzaSy...8yB0,488,Western Water Catchment,Bahar,recreation,gym,ChIJ____-8YP2jERGcYiWnpw43k,OK,,5,Dennis Gym
+2026-07-17T23:21:19.738964,place_details_reviews,2,AIzaSy...8yB0,489,Western Water Catchment,Bahar,recreation,gym,ChIJYbJVYwAR2jERcogZd0m9MzE,OK,,5,Anytime Fitness Parc Point
+2026-07-17T23:21:20.478171,place_details_reviews,2,AIzaSy...8yB0,490,Western Water Catchment,Bahar,recreation,sports centre,ChIJ_____6AP2jERTK8D_onaEL8,OK,,5,Sports & Recreation Centre
+2026-07-17T23:21:20.982111,place_details_reviews,2,AIzaSy...8yB0,491,Western Water Catchment,Bahar,recreation,sports centre,ChIJYSzUZFga2jER3mzgp6uuRUk,OK,,0,Sports and Recreation Centre
+2026-07-17T23:21:21.342066,place_details_reviews,2,AIzaSy...8yB0,492,Western Water Catchment,Bahar,recreation,swimming complex,ChIJ4Qton5oP2jERihKBVLOV04k,OK,,5,Jurong West Swimming Complex
+2026-07-17T23:21:21.721265,place_details_reviews,2,AIzaSy...8yB0,493,Western Water Catchment,Bahar,recreation,swimming complex,ChIJWaHnCyAQ2jERlnBesVA4gic,OK,,5,Jurong East Swimming Complex
+2026-07-17T23:21:22.549753,place_details_reviews,2,AIzaSy...8yB0,494,Western Water Catchment,Bahar,recreation,cinema,ChIJgWtqxOwP2jERydU8CT8sako,OK,,5,Golden Village
+2026-07-17T23:21:23.014155,place_details_reviews,2,AIzaSy...8yB0,495,Western Water Catchment,Bahar,recreation,cinema,ChIJFx7cQgAR2jERum7NN5FvIOk,OK,,5,Shaw Theatres JEM
+2026-07-17T23:21:23.619871,place_details_reviews,2,AIzaSy...8yB0,496,Western Water Catchment,Bahar,recreation,community club,ChIJd4ldQJMP2jERlQdLPkzVa4A,OK,,5,The Frontier Community Club
+2026-07-17T23:21:24.443458,place_details_reviews,2,AIzaSy...8yB0,497,Western Water Catchment,Bahar,recreation,community club,ChIJPeCff8EP2jERXw_DYnWynFY,OK,,5,Boon Lay Community Club
+2026-07-17T23:21:25.159371,place_details_reviews,2,AIzaSy...8yB0,498,Western Water Catchment,Bahar,recreation,playground,ChIJBy-BGcUP2jERWkfrFh-OmLk,OK,,5,Wenya Neighbourhood Park
+2026-07-17T23:21:25.897943,place_details_reviews,2,AIzaSy...8yB0,499,Western Water Catchment,Bahar,recreation,playground,ChIJRzglD-wR2jERgCmyEeAecXI,OK,,5,Choa Chu Kang Park
+2026-07-17T23:21:26.459840,place_details_reviews,2,AIzaSy...8yB0,500,Western Water Catchment,Bahar,nature,park,ChIJQ8uk4vwa2jERqMrT6OFBMuw,OK,,5,West Coast Park
+2026-07-17T23:21:27.142026,place_details_reviews,2,AIzaSy...8yB0,501,Western Water Catchment,Bahar,nature,nature reserve,ChIJe0cEPoIS2jERs_rS2qvGOxw,OK,,5,Sungei Buloh Wetland Reserve
+2026-07-17T23:21:27.881210,place_details_reviews,2,AIzaSy...8yB0,502,Western Water Catchment,Bahar,nature,nature reserve,ChIJDR2Au0sX2jERt1iFDZAqk70,OK,,5,Central Catchment Nature Reserve
+2026-07-17T23:21:28.439535,place_details_reviews,2,AIzaSy...8yB0,503,Western Water Catchment,Bahar,nature,garden,ChIJp167A6UP2jERUrVmCHG99mg,OK,,5,The Potter's Garden
+2026-07-17T23:21:29.172735,place_details_reviews,2,AIzaSy...8yB0,504,Western Water Catchment,Bahar,nature,garden,ChIJa84ncAAP2jER8d-rnU_p-Xw,OK,,4,Eco Pond
+2026-07-17T23:21:29.685480,place_details_reviews,2,AIzaSy...8yB0,505,Western Water Catchment,Bahar,nature,beach,ChIJnR_8MAAN2jERDyj8QDp7-is,OK,,5,Sarimbun Beach Landing
+2026-07-17T23:21:30.248379,place_details_reviews,2,AIzaSy...8yB0,506,Western Water Catchment,Bahar,nature,waterfront,ChIJeSKlfQAR2jERbFZOnzlzYAs,OK,,0,216B Garden Waterfront II
+2026-07-17T23:21:30.861166,place_details_reviews,2,AIzaSy...8yB0,507,Western Water Catchment,Bahar,nature,waterfront,ChIJUy-X9g8Z2jERJ0Jko3en1Rw,OK,,5,Marina Bay Waterfront Promenade
+2026-07-17T23:21:31.629307,place_details_reviews,2,AIzaSy...8yB0,508,Western Water Catchment,Bahar,nature,park connector,ChIJied_ZdIT2jERfFB2io7NbV0,OK,,5,Central Catchment Park Connector
+2026-07-17T23:21:32.169602,place_details_reviews,2,AIzaSy...8yB0,509,Western Water Catchment,Bahar,nature,park connector,ChIJxe3T7SsX2jERAGu8EXnVlsU,OK,,5,Whampoa Park Connector
+2026-07-17T23:21:32.496210,place_details_reviews,2,AIzaSy...8yB0,510,Western Water Catchment,Cleantech,education,kindergarten,ChIJ9z9cUZoP2jER_mb9ujpVoAA,OK,,0,Zulfa Kindergarten
+2026-07-17T23:21:33.048552,place_details_reviews,2,AIzaSy...8yB0,511,Western Water Catchment,Cleantech,education,kindergarten,ChIJnd7LAJUP2jERA5zlUim_JLY,OK,,0,PCF Pioneer Kindergarten
+2026-07-17T23:21:33.647866,place_details_reviews,2,AIzaSy...8yB0,512,Western Water Catchment,Cleantech,education,childcare centre,ChIJTzf2QAMP2jERuAEgbaiI0NU,OK,,5,Raffles Kidz @ Jurong West (Surbana Jurong Campus) – Best Childcare Centre and Preschool
+2026-07-17T23:21:34.349286,place_details_reviews,2,AIzaSy...8yB0,513,Western Water Catchment,Cleantech,education,childcare centre,ChIJ1WJkZK8R2jERs5MAep6Fo6s,OK,,5,Ace @ Work Childcare (Cashew)
+2026-07-17T23:21:35.033581,place_details_reviews,2,AIzaSy...8yB0,514,Western Water Catchment,Cleantech,education,primary school,ChIJpR_olcQR2jERpiolhW9hXws,OK,,0,Chua Chu Kang Primary School
+2026-07-17T23:21:35.550215,place_details_reviews,2,AIzaSy...8yB0,515,Western Water Catchment,Cleantech,education,primary school,ChIJOfCBMMcP2jERDSx2GZS4xZ0,OK,,0,Corporation Primary School
+2026-07-17T23:21:36.163066,place_details_reviews,2,AIzaSy...8yB0,516,Western Water Catchment,Cleantech,education,junior college,ChIJwURjtzoQ2jERlHPeEoKRpho,OK,,5,Millennia Institute
+2026-07-17T23:21:36.760750,place_details_reviews,2,AIzaSy...8yB0,517,Western Water Catchment,Cleantech,education,polytechnic,ChIJWeO0jn0Q2jERQwzr3v_n0nU,OK,,5,Ngee Ann Polytechnic
+2026-07-17T23:21:37.481927,place_details_reviews,2,AIzaSy...8yB0,518,Western Water Catchment,Cleantech,education,university,ChIJA0S4Y6UP2jERU2Vb3q4Ging,OK,,3,Nanyang Environment and Water Research Institute (NEWRI)
+2026-07-17T23:21:37.962086,place_details_reviews,2,AIzaSy...8yB0,519,Western Water Catchment,Cleantech,education,tuition centre,ChIJo7In2JIP2jERVfemtfvwlS4,OK,,5,Newtonlab Tuition Centre
+2026-07-17T23:21:38.389664,place_details_reviews,2,AIzaSy...8yB0,520,Western Water Catchment,Cleantech,education,tuition centre,ChIJGU3pVUsP2jERdu4vYkgoeXg,OK,,5,Unique Tuition
+2026-07-17T23:21:38.921765,place_details_reviews,2,AIzaSy...8yB0,521,Western Water Catchment,Cleantech,education,library,ChIJH09-DXUP2jERCg2KA3tyygw,OK,,5,Lee Wee Nam Library
+2026-07-17T23:21:39.737209,place_details_reviews,2,AIzaSy...8yB0,522,Western Water Catchment,Cleantech,education,library,ChIJKaGsJKUZ2jERxa8yhKrdPfI,OK,,5,National Library / Lee Kong Chian Reference Library
+2026-07-17T23:21:40.519728,place_details_reviews,2,AIzaSy...8yB0,523,Western Water Catchment,Cleantech,transport,MRT station,ChIJD-k_aWkP2jERtDsvgWjUqgk,OK,,3,Nanyang Crescent MRT Station (JW4) (U/C)
+2026-07-17T23:21:41.248213,place_details_reviews,2,AIzaSy...8yB0,524,Western Water Catchment,Cleantech,transport,bus stop,ChIJcV7oDJgP2jERdBT7fd6MJaI,OK,,1,Blk 827
+2026-07-17T23:21:41.672864,place_details_reviews,2,AIzaSy...8yB0,525,Western Water Catchment,Cleantech,transport,bus interchange,ChIJZ5viQtIb2jERyXcHanYDnwQ,OK,,5,Clementi Bus Interchange
+2026-07-17T23:21:42.427692,place_details_reviews,2,AIzaSy...8yB0,526,Western Water Catchment,Cleantech,transport,bus interchange,ChIJ-3ooCv4a2jERA66-nTPHAXk,OK,,3,West Coast Pk
+2026-07-17T23:21:43.178246,place_details_reviews,2,AIzaSy...8yB0,527,Western Water Catchment,Cleantech,transport,LRT station,ChIJf-3TQr0R2jERZOcoC-w4M3w,OK,,5,Senja
+2026-07-17T23:21:43.858450,place_details_reviews,2,AIzaSy...8yB0,528,Western Water Catchment,Cleantech,food,hawker centre,ChIJZYudK5EP2jERoyXvsmYRcEY,OK,,5,Jurong West Hawker Centre
+2026-07-17T23:21:44.301213,place_details_reviews,2,AIzaSy...8yB0,529,Western Water Catchment,Cleantech,food,hawker centre,ChIJLyVUnQ8R2jERUApgCyTj3Pg,OK,,5,Senja Hawker Centre
+2026-07-17T23:21:45.177272,place_details_reviews,2,AIzaSy...8yB0,530,Western Water Catchment,Cleantech,food,food court,ChIJo_GLMbYP2jERUljb-6qfg1Y,OK,,5,Foodgle Hub
+2026-07-17T23:21:46.104593,place_details_reviews,2,AIzaSy...8yB0,531,Western Water Catchment,Cleantech,food,food court,ChIJEU1FGwAP2jERgUpup_NG5CU,OK,,5,好口味 Hao Kou Wei
+2026-07-17T23:21:46.507328,place_details_reviews,2,AIzaSy...8yB0,532,Western Water Catchment,Cleantech,food,coffee shop,ChIJsSWDfv8P2jERXMs60E97GLg,OK,,5,ROBO-T
+2026-07-17T23:21:47.060927,place_details_reviews,2,AIzaSy...8yB0,533,Western Water Catchment,Cleantech,food,coffee shop,ChIJMcPrCLsb2jERepk1_M2ySu0,OK,,5,Doublechin Cafe
+2026-07-17T23:21:47.453543,place_details_reviews,2,AIzaSy...8yB0,534,Western Water Catchment,Cleantech,food,restaurant,ChIJGz4Xt4YP2jERzy-s-b09mJ0,OK,,5,Georges @ Wild West
+2026-07-17T23:21:48.095184,place_details_reviews,2,AIzaSy...8yB0,535,Western Water Catchment,Cleantech,food,restaurant,ChIJfeQqVroP2jERJgebI9BxvdM,OK,,5,KNS Restaurant
+2026-07-17T23:21:48.453417,place_details_reviews,2,AIzaSy...8yB0,536,Western Water Catchment,Cleantech,food,cafe,ChIJO6Cl5dUP2jERyod6vwyJh4Y,OK,,5,Connect71 Cafe
+2026-07-17T23:21:49.246534,place_details_reviews,2,AIzaSy...8yB0,537,Western Water Catchment,Cleantech,shopping,shopping mall,ChIJL3h_-fMR2jERaA6mW3u-wNU,OK,,5,YewTee Point
+2026-07-17T23:21:50.086087,place_details_reviews,2,AIzaSy...8yB0,538,Western Water Catchment,Cleantech,shopping,supermarket,ChIJhYVpl7sP2jERxTFqvG0XRkA,OK,,5,Phan Nee Supermarket
+2026-07-17T23:21:50.744517,place_details_reviews,2,AIzaSy...8yB0,539,Western Water Catchment,Cleantech,shopping,grocery store,ChIJIRGqWJkP2jERJ8VZc1UZXH4,OK,,4,Freshpick Supermarket
+2026-07-17T23:21:51.128980,place_details_reviews,2,AIzaSy...8yB0,540,Western Water Catchment,Cleantech,shopping,convenience store,ChIJiUb-tm4P2jERWF4tTthIEqc,OK,,5,7-Eleven
+2026-07-17T23:21:51.661182,place_details_reviews,2,AIzaSy...8yB0,541,Western Water Catchment,Cleantech,shopping,convenience store,ChIJmQ0Oi5oP2jERcTiysAvB2tU,OK,,2,Star Mart
+2026-07-17T23:21:52.463912,place_details_reviews,2,AIzaSy...8yB0,542,Western Water Catchment,Cleantech,shopping,wet market,ChIJ8RaES-AX2jERwZwf5dmpK7M,OK,,5,Quan Shui Wet Market @ Upper Thomson
+2026-07-17T23:21:53.123584,place_details_reviews,2,AIzaSy...8yB0,543,Western Water Catchment,Cleantech,recreation,gym,ChIJ3-nTfCgb2jERbXMBqgxT34M,OK,,5,Empower Fitness - Gym
+2026-07-17T23:21:53.661649,place_details_reviews,2,AIzaSy...8yB0,544,Western Water Catchment,Cleantech,recreation,sports centre,ChIJ2cCNCFga2jER5JmIg6WzSNk,OK,,5,University Sports Centre
+2026-07-17T23:21:54.289341,place_details_reviews,2,AIzaSy...8yB0,545,Western Water Catchment,Cleantech,recreation,cinema,ChIJ1btJfAAZ2jEReSzub3K76o4,OK,,5,Filmhouse at Golden Mile Tower
+2026-07-17T23:21:54.847692,place_details_reviews,2,AIzaSy...8yB0,546,Western Water Catchment,Cleantech,recreation,community club,ChIJDSW57PEa2jEROqULbMq8p1s,OK,,5,West Coast Community Centre
+2026-07-17T23:21:55.420758,place_details_reviews,2,AIzaSy...8yB0,547,Western Water Catchment,Cleantech,recreation,community club,ChIJNZVqxiwR2jER7LMKIhiXyMY,OK,,1,Community Service Commitee
+2026-07-17T23:21:56.015485,place_details_reviews,2,AIzaSy...8yB0,548,Western Water Catchment,Cleantech,recreation,playground,ChIJpedDYgAP2jERJeA_DcO2IWQ,OK,,1,Jurong Eco-Garden Playground
+2026-07-17T23:21:56.563014,place_details_reviews,2,AIzaSy...8yB0,549,Western Water Catchment,Cleantech,nature,park,ChIJDYQHxtcP2jERNpEz9zPKBDo,OK,,5,CleanTech Park
+2026-07-17T23:21:57.218684,place_details_reviews,2,AIzaSy...8yB0,550,Western Water Catchment,Cleantech,nature,park connector,ChIJxZwgg1kZ2jERfsCcuEg0JC4,OK,,5,Kallang Park Connector
+2026-07-17T23:21:57.864962,place_details_reviews,2,AIzaSy...8yB0,551,Western Water Catchment,Murai,education,kindergarten,ChIJr-mmF6sQ2jERSqHGpw7_OiI,OK,,5,Rain Trees International Kindergarten & Preschool
+2026-07-17T23:21:58.582704,place_details_reviews,2,AIzaSy...8yB0,552,Western Water Catchment,Murai,education,kindergarten,ChIJA3ZcEY8a2jERaP5Ur3S_lzU,OK,,3,MOE Kindergarten @ Pei Tong
+2026-07-17T23:21:59.267125,place_details_reviews,2,AIzaSy...8yB0,553,Western Water Catchment,Murai,education,childcare centre,ChIJnZRTxpoP2jERoR9EHukI1Dc,OK,,3,SDM Ichiban (Yunnan) Childcare Centre
+2026-07-17T23:22:00.000965,place_details_reviews,2,AIzaSy...8yB0,554,Western Water Catchment,Murai,education,secondary school,ChIJ811mo7kP2jERj4trV3RR83o,OK,,0,Westwood Secondary School
+2026-07-17T23:22:00.388174,place_details_reviews,2,AIzaSy...8yB0,555,Western Water Catchment,Murai,education,junior college,ChIJESRAQ1sa2jERlSmmrDCCriw,OK,,5,Anglo-Chinese Junior College
+2026-07-17T23:22:00.740466,place_details_reviews,2,AIzaSy...8yB0,556,Western Water Catchment,Murai,education,polytechnic,ChIJ14hzqgUT2jER-IIzRuD1twI,OK,,5,Republic Polytechnic
+2026-07-17T23:22:01.453536,place_details_reviews,2,AIzaSy...8yB0,557,Western Water Catchment,Murai,education,library,ChIJM57dQv8a2jERcqDzuzpDduE,OK,,5,NUS Hon Sui Sen Memorial Library
+2026-07-17T23:22:02.213101,place_details_reviews,2,AIzaSy...8yB0,558,Western Water Catchment,Murai,education,library,ChIJmYVTSugb2jERP-l57ZRd5sI,OK,,3,Comics Library at West Coast Community Centre
+2026-07-17T23:22:02.905553,place_details_reviews,2,AIzaSy...8yB0,559,Western Water Catchment,Murai,transport,bus stop,ChIJeQ30N-4a2jER_AbuuhGn4EE,OK,,3,Blk 716
+2026-07-17T23:22:03.344984,place_details_reviews,2,AIzaSy...8yB0,560,Western Water Catchment,Murai,transport,bus stop,ChIJj9YsEPAa2jERLb3r7HqBBcY,OK,,2,Aft West Coast Highway
+2026-07-17T23:22:03.886323,place_details_reviews,2,AIzaSy...8yB0,561,Western Water Catchment,Murai,transport,bus interchange,ChIJiyh-u5gZ2jERHdoLF0rI8Zc,OK,,4,Aft River Valley Rd
+2026-07-17T23:22:04.367852,place_details_reviews,2,AIzaSy...8yB0,562,Western Water Catchment,Murai,transport,bus interchange,ChIJWV61FVAa2jER21BqWE8RlwM,OK,,3,Ayer Rajah Ind Est
+2026-07-17T23:22:05.087719,place_details_reviews,2,AIzaSy...8yB0,563,Western Water Catchment,Murai,transport,LRT station,ChIJHyNaPekX2jERxU47N6QXCfM,OK,,5,Farmway LRT Station (SW2)
+2026-07-17T23:22:05.550627,place_details_reviews,2,AIzaSy...8yB0,564,Western Water Catchment,Murai,food,hawker centre,ChIJ7wEFCwAP2jERxMrQRLr46m8,OK,,1,Hong Lim Curry Puff @ Jurong West Hawker Center
+2026-07-17T23:22:06.165429,place_details_reviews,2,AIzaSy...8yB0,565,Western Water Catchment,Murai,food,food court,ChIJBfpIMFIa2jER0kicxx7NJvk,OK,,5,The Dining Avenue
+2026-07-17T23:22:06.527421,place_details_reviews,2,AIzaSy...8yB0,566,Western Water Catchment,Murai,food,food court,ChIJxXKPnO8b2jER2g18GHhh-Tk,OK,,5,Kopitiam
+2026-07-17T23:22:07.119220,place_details_reviews,2,AIzaSy...8yB0,567,Western Water Catchment,Murai,food,coffee shop,ChIJ_8M8XRob2jERNlp5OHUVWRQ,OK,,5,Benches Cafe
+2026-07-17T23:22:08.156584,place_details_reviews,2,AIzaSy...8yB0,568,Western Water Catchment,Murai,food,restaurant,ChIJo6rUTjIP2jERBRXnwk0QdZg,OK,,5,Tasmia Restaurant & Biryani House
+2026-07-17T23:22:08.620260,place_details_reviews,2,AIzaSy...8yB0,569,Western Water Catchment,Murai,food,cafe,ChIJn47tB_wX2jERwJVS9MBLH98,OK,,5,Wee's Family Coffee Shop (黄家咖啡店)
+2026-07-17T23:22:09.493998,place_details_reviews,2,AIzaSy...8yB0,570,Western Water Catchment,Murai,shopping,shopping mall,ChIJ91hVlEIa2jERm_cxYZ2WKow,OK,,5,The Star Vista
+2026-07-17T23:22:09.962587,place_details_reviews,2,AIzaSy...8yB0,571,Western Water Catchment,Murai,shopping,shopping mall,ChIJK52N1cUR2jERUTiO_ETnynU,OK,,5,One Holland Village
+2026-07-17T23:22:10.586972,place_details_reviews,2,AIzaSy...8yB0,572,Western Water Catchment,Murai,shopping,supermarket,ChIJC_92-Gca2jERSrlTfrBrrZk,OK,,5,Sheng Siong Supermarket
+2026-07-17T23:22:11.226276,place_details_reviews,2,AIzaSy...8yB0,573,Western Water Catchment,Murai,shopping,supermarket,ChIJp0JVlEIa2jER9lM6m1VP3S0,OK,,5,CS Fresh The Star Vista
+2026-07-17T23:22:11.984191,place_details_reviews,2,AIzaSy...8yB0,574,Western Water Catchment,Murai,shopping,grocery store,ChIJI9AJqksb2jERdafpPHdj-vA,OK,,5,VN Super Mart
+2026-07-17T23:22:12.416612,place_details_reviews,2,AIzaSy...8yB0,575,Western Water Catchment,Murai,shopping,grocery store,ChIJBQL7wAoP2jERx3d8MFX0-os,OK,,5,Prime Supermarket - NTU North Spine
+2026-07-17T23:22:12.785426,place_details_reviews,2,AIzaSy...8yB0,576,Western Water Catchment,Murai,shopping,convenience store,ChIJD7BdsFMa2jERWEnSy9Ema4M,OK,,5,7-Eleven
+2026-07-17T23:22:13.356204,place_details_reviews,2,AIzaSy...8yB0,577,Western Water Catchment,Murai,shopping,convenience store,ChIJFRknIwAb2jERw-SP2t03MVM,OK,,5,7-Eleven
+2026-07-17T23:22:13.860032,place_details_reviews,2,AIzaSy...8yB0,578,Western Water Catchment,Murai,shopping,wet market,ChIJ6SKfUzwQ2jERezteXcNnbAE,OK,,5,Quan Shui Wet Market
+2026-07-17T23:22:14.687637,place_details_reviews,2,AIzaSy...8yB0,579,Western Water Catchment,Murai,shopping,wet market,ChIJkXRszaAR2jEROQL4rhmhElg,OK,,5,Bangkit Market
+2026-07-17T23:22:15.468358,place_details_reviews,2,AIzaSy...8yB0,580,Western Water Catchment,Murai,recreation,gym,ChIJS1v-9jQb2jER7XzNEUFv8uM,OK,,5,Anytime Fitness Buona Vista
+2026-07-17T23:22:16.187744,place_details_reviews,2,AIzaSy...8yB0,581,Western Water Catchment,Murai,recreation,sports centre,ChIJ011Cblga2jER1T1FMxweSls,OK,,0,Sports and Recreation Centre
+2026-07-17T23:22:16.696997,place_details_reviews,2,AIzaSy...8yB0,582,Western Water Catchment,Murai,recreation,community club,ChIJ7zhb19wP2jERictRTHw9CFo,OK,,5,Jurong Spring Community Club
+2026-07-17T23:22:17.294632,place_details_reviews,2,AIzaSy...8yB0,583,Western Water Catchment,Murai,recreation,playground,ChIJ_3Bj3IQa2jERM0aLDH-DUqA,OK,,5,Firefly Park
+2026-07-17T23:22:18.064557,place_details_reviews,2,AIzaSy...8yB0,584,Western Water Catchment,Murai,nature,park,ChIJcRNpHFwR2jERYHKod6yVMM0,OK,,5,Upper Seletar Reservoir Park
+2026-07-17T23:22:18.494873,place_details_reviews,2,AIzaSy...8yB0,585,Western Water Catchment,Murai,nature,park,ChIJ____rBoU2jERyE5AP5-iwrc,OK,,5,Lower Seletar Reservoir Park
+2026-07-17T23:22:19.031204,place_details_reviews,2,AIzaSy...8yB0,586,Western Water Catchment,Murai,nature,nature reserve,ChIJ3dcI_PUN2jERTnYeNNfju5c,OK,,5,Kranji Marshes
+2026-07-17T23:22:19.422110,place_details_reviews,2,AIzaSy...8yB0,587,Western Water Catchment,Murai,nature,garden,ChIJKX-LS8Yb2jERdNNCrbU5VZI,OK,,5,Water Garden
+2026-07-17T23:22:19.787359,place_details_reviews,2,AIzaSy...8yB0,588,Western Water Catchment,Murai,nature,garden,ChIJsYdlxscb2jER0K5FsPzQOEM,OK,,5,Silver Garden
+2026-07-17T23:22:20.449763,place_details_reviews,2,AIzaSy...8yB0,589,Western Water Catchment,Murai,nature,beach,ChIJUzbaYws82jERXHKMRlUKIug,OK,,5,Changi Beach Park
+2026-07-17T23:22:20.924269,place_details_reviews,2,AIzaSy...8yB0,590,Western Water Catchment,Murai,nature,waterfront,ChIJGzsFnaIP2jERrOTb28iZr60,OK,,2,Waterfront Marine Surveyors
+2026-07-17T23:22:21.468790,place_details_reviews,2,AIzaSy...8yB0,591,Western Water Catchment,Murai,nature,park connector,ChIJ4QhPDSMT2jER-K6cnYYSNZw,OK,,5,Ulu Sembawang Park Connector

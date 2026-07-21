@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import re
 from typing import Any
 
@@ -98,3 +99,69 @@ class OneMapClient:
             "longitude": longitude,
             "token_match_score": round(match_score, 3),
         }
+
+    def search_candidates(self, query: str, *, limit: int = 5) -> list[dict[str, Any]]:
+        """Return ranked OneMap place candidates without assuming an HDB block address."""
+
+        clean_query = query.strip()
+        if len(clean_query) < 2 or len(clean_query) > 200:
+            raise ValueError("location query must contain between 2 and 200 characters")
+        if isinstance(limit, bool) or not 1 <= int(limit) <= 10:
+            raise ValueError("location candidate limit must be between 1 and 10")
+
+        query_tokens = set(re.findall(r"[A-Z0-9]+", clean_query.upper()))
+        payload = self.search(clean_query)
+        raw_results = payload.get("results", [])
+        candidates: list[dict[str, Any]] = []
+        seen: set[tuple[float, float, str]] = set()
+        for rank, result in enumerate(raw_results):
+            try:
+                latitude = float(result["LATITUDE"])
+                longitude = float(result["LONGITUDE"])
+            except (KeyError, TypeError, ValueError):
+                continue
+            if not (1.13 <= latitude <= 1.50 and 103.55 <= longitude <= 104.15):
+                continue
+
+            def meaningful(value: Any) -> str:
+                text = str(value or "").strip()
+                return "" if text.upper() in {"NIL", "NA", "N/A"} else text
+
+            building = meaningful(result.get("BUILDING"))
+            search_value = meaningful(result.get("SEARCHVAL"))
+            road = meaningful(result.get("ROAD_NAME"))
+            address = meaningful(result.get("ADDRESS")) or search_value or building or road
+            name = building or search_value or road or address
+            if not name or not address:
+                continue
+            dedupe_key = (round(latitude, 6), round(longitude, 6), address.upper())
+            if dedupe_key in seen:
+                continue
+            seen.add(dedupe_key)
+
+            searchable = " ".join((name, address, road)).upper()
+            result_tokens = set(re.findall(r"[A-Z0-9]+", searchable))
+            overlap = len(query_tokens & result_tokens) / max(len(query_tokens), 1)
+            query_lower = clean_query.casefold()
+            name_lower = name.casefold()
+            exact_bonus = 0.25 if name_lower == query_lower else 0.0
+            prefix_bonus = 0.1 if name_lower.startswith(query_lower) else 0.0
+            provider_rank_bonus = max(0.0, 0.1 - rank * 0.01)
+            confidence = min(1.0, overlap * 0.65 + exact_bonus + prefix_bonus + provider_rank_bonus)
+            provider_id = hashlib.sha256(
+                f"{latitude:.7f}|{longitude:.7f}|{address.upper()}".encode("utf-8")
+            ).hexdigest()[:16]
+            candidates.append(
+                {
+                    "id": f"onemap:{provider_id}",
+                    "provider": "onemap",
+                    "name": name,
+                    "address": address,
+                    "postal_code": meaningful(result.get("POSTAL")) or None,
+                    "latitude": latitude,
+                    "longitude": longitude,
+                    "confidence": round(confidence, 3),
+                }
+            )
+        candidates.sort(key=lambda item: item["confidence"], reverse=True)
+        return candidates[: int(limit)]

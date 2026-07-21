@@ -16,10 +16,12 @@ import bbox from '@turf/bbox';
 const SG: [number, number] = [1.3521, 103.8198];
 type FGeom = Feature<Polygon | MultiPolygon> | null;
 
-export function SingaporeMap({ onSelect, onHover, className, listingsUrl, listingFilter, listingSort, listingLabelMap }: SingaporeMapProps) {
+export function SingaporeMap({ onSelect, onHover, className, listingsUrl, listingFilter, listingSort, listingLabelMap, regionScores, subzoneScores, maxListingMarkers = 350, anchorLocation }: SingaporeMapProps) {
   const { planningAreas, subzones, loading, error } = useGeoJson();
   const { listings } = useRentalListings(listingsUrl);
-  const filtered = useFilteredListings(listings, listingFilter, listingSort);
+  const filtered = useFilteredListings(listings, listingFilter, listingSort)
+    .filter((listing) => Number.isFinite(listing.latitude) && Number.isFinite(listing.longitude))
+    .slice(0, maxListingMarkers);
   const [selListing, setSelListing] = useState<any>(null);
   const { selectedArea, setSelectedArea, setHoveredArea, colorMap } = useMapState(planningAreas);
 
@@ -45,6 +47,11 @@ export function SingaporeMap({ onSelect, onHover, className, listingsUrl, listin
     onSelect?.(r);
   }, [onSelect, setSelectedArea, findPA]);
 
+  const hSelectSubzone = useCallback((r: SelectedRegion) => {
+    setSelectedArea(r);
+    onSelect?.(r);
+  }, [onSelect, setSelectedArea]);
+
   const hHoverPA = useCallback((r: SelectedRegion | null) => { setHoveredArea(r); onHover?.(r); }, [onHover, setHoveredArea]);
 
   const hFocusSZ = useCallback((id: string, f: Feature) => {
@@ -54,14 +61,33 @@ export function SingaporeMap({ onSelect, onHover, className, listingsUrl, listin
   }, []);
 
   const hClear = useCallback(() => {
-    if (drillSZ) { setDrillSZ(null); setFocusGeom(drillPA ? findPA(drillPA) : null); setFocusState(null); setOsmFeat(null); }
-    else if (drillPA) { setDrillPA(null); setFocusGeom(null); setMaskGeom(null); setFocusState(null); }
-  }, [drillSZ, drillPA, findPA]);
+    if (drillSZ) {
+      setDrillSZ(null); setFocusGeom(drillPA ? findPA(drillPA) : null); setFocusState(null); setOsmFeat(null);
+      if (drillPA) {
+        const region: SelectedRegion = { id: drillPA, name: drillPA, type: 'planning' };
+        setSelectedArea(region); onSelect?.(region);
+      }
+    } else if (drillPA) {
+      setDrillPA(null); setFocusGeom(null); setMaskGeom(null); setFocusState(null); setSelectedArea(null);
+    }
+  }, [drillSZ, drillPA, findPA, onSelect, setSelectedArea]);
 
-  const tog = useCallback((id: string) => setActiveCats(p => { const n = new Set(p); n.has(id)?n.delete(id):n.add(id); return n; }), []);
+  const tog = useCallback((id: string) => setActiveCats(p => {
+    const next = new Set(p);
+    if (next.has(id)) next.delete(id);
+    else next.add(id);
+    return next;
+  }), []);
   const togG = useCallback((gid: string, sel: boolean) => {
     const g = OSM_GROUPS.find(x => x.id === gid); if (!g) return;
-    setActiveCats(p => { const n = new Set(p); for (const c of g.categories) sel?n.add(c.id):n.delete(c.id); return n; });
+    setActiveCats(p => {
+      const next = new Set(p);
+      for (const category of g.categories) {
+        if (sel) next.add(category.id);
+        else next.delete(category.id);
+      }
+      return next;
+    });
   }, []);
 
   if (error) return <div className="sg-map sg-map--error"><p>Failed to load map data: {error}</p></div>;
@@ -74,7 +100,9 @@ export function SingaporeMap({ onSelect, onHover, className, listingsUrl, listin
           planningAreas={planningAreas} subzones={subzones} colorMap={colorMap} selectedArea={selectedArea}
           drillPA={drillPA} drillSZ={drillSZ} focusGeom={focusGeom} maskGeom={maskGeom} focusState={focusState}
           activeCats={activeCats} satellite={satellite} filteredListings={filtered} selectedListingId={selListing?.id ?? null}
-          onSelectPA={hSelectPA} onHoverPA={hHoverPA} onFocusSZ={hFocusSZ} onClear={hClear}
+          regionScores={regionScores} subzoneScores={subzoneScores}
+          anchorLocation={anchorLocation}
+          onSelectPA={hSelectPA} onSelectSubzone={hSelectSubzone} onHoverPA={hHoverPA} onFocusSZ={hFocusSZ} onClear={hClear}
           onSelectListing={setSelListing} onSelectOsm={(f: Feature, l: string) => { setOsmFeat(f); setOsmLabel(l); }} />
       </MapContainer>
       <button className="basemap-toggle" onClick={() => setSatellite(s => !s)}>{satellite ? '🗺️ 街道' : '🛰️ 卫星'}</button>
@@ -89,6 +117,4 @@ export function SingaporeMap({ onSelect, onHover, className, listingsUrl, listin
   );
 }
 
-export type { SingaporeMapProps, SelectedRegion, RentalListing, ListingLabelMap } from '../../lib/types';
-export { findRegionByCoords, buildFeatureIndex, findRegionInIndex } from '../../lib/geo-utils';
-export { generateColorMap } from '../../lib/colors';
+export type { SingaporeMapProps, SelectedRegion, RentalListing, ListingLabelMap, RegionProfile, SubzoneProfile } from '../../lib/types';
