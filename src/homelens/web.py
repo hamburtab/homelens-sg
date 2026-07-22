@@ -103,6 +103,10 @@ def handler_factory(service: HomeLensService) -> type[BaseHTTPRequestHandler]:
                     except ValueError as error:
                         raise ValueError("location candidate limit must be an integer") from error
                     self._json(HTTPStatus.OK, service.search_locations(query, limit=limit))
+                elif path == "/api/advisor/session":
+                    parameters = parse_qs(parsed.query)
+                    session_id = (parameters.get("session_id") or [""])[0]
+                    self._json(HTTPStatus.OK, service.advisor_state(session_id))
                 elif path.startswith("/api/"):
                     self._json(HTTPStatus.NOT_FOUND, {"error": "not_found"})
                 else:
@@ -120,7 +124,7 @@ def handler_factory(service: HomeLensService) -> type[BaseHTTPRequestHandler]:
 
         def do_POST(self) -> None:  # noqa: N802
             path = urlparse(self.path).path
-            if path != "/api/recommend":
+            if path not in {"/api/recommend", "/api/advisor/message", "/api/advisor/reset"}:
                 self._json(HTTPStatus.NOT_FOUND, {"error": "not_found"})
                 return
             if self.headers.get_content_type() != "application/json":
@@ -169,7 +173,13 @@ def handler_factory(service: HomeLensService) -> type[BaseHTTPRequestHandler]:
                 payload = json.loads(self.rfile.read(length).decode("utf-8"))
                 if not isinstance(payload, dict):
                     raise ValueError("JSON body must be an object")
-                self._json(HTTPStatus.OK, service.get_recommendations(payload))
+                if path == "/api/recommend":
+                    result = service.get_recommendations(payload)
+                elif path == "/api/advisor/message":
+                    result = service.advisor_message(payload)
+                else:
+                    result = service.reset_advisor(payload)
+                self._json(HTTPStatus.OK, result)
             except (ValueError, json.JSONDecodeError) as error:
                 self._json(HTTPStatus.BAD_REQUEST, {"error": "invalid_request", "message": str(error)})
             except HomeLensError as error:

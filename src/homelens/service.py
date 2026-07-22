@@ -28,6 +28,7 @@ class HomeLensService:
         self._price_model_artifact: dict[str, Any] | None = None
         self._price_model_checked = False
         self._location_resolver: OneMapLocationResolver | None = None
+        self._advisor = None
 
     def _active_candidates_path(self):
         """Prefer the repository's enriched counterpart for the standard candidate file."""
@@ -109,6 +110,22 @@ class HomeLensService:
             "requires_confirmation": True,
         }
 
+    def _advisor_service(self):
+        if self._advisor is None:
+            from homelens.advisor import HousingAdvisor
+
+            self._advisor = HousingAdvisor(self, self.settings)
+        return self._advisor
+
+    def advisor_message(self, payload: dict[str, Any]) -> dict[str, Any]:
+        return self._advisor_service().message(payload)
+
+    def reset_advisor(self, payload: dict[str, Any]) -> dict[str, Any]:
+        return self._advisor_service().reset(payload)
+
+    def advisor_state(self, session_id: str) -> dict[str, Any]:
+        return self._advisor_service().state(session_id)
+
     def health(self) -> dict[str, Any]:
         candidates_path = self._active_candidates_path()
         model_path = self.settings.model_path
@@ -117,6 +134,10 @@ class HomeLensService:
             "candidate_knowledge_base": candidates_path.exists(),
             "price_model": model_path.exists(),
             "integrations": self.settings.integration_status(),
+            "advisor": {
+                "available": self.settings.integration_status()["openai"],
+                "session_storage": "process memory only; four-hour TTL",
+            },
             "candidate_source": str(candidates_path.relative_to(PROJECT_ROOT))
             if candidates_path.is_relative_to(PROJECT_ROOT)
             else str(candidates_path),

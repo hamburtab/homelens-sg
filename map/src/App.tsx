@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { CSSProperties, FormEvent } from 'react';
 import { SingaporeMap } from './components/singapore-map';
+import { AdvisorView } from './components/advisor/AdvisorView';
 import type {
   LocationAnchor,
   RegionProfile,
@@ -10,7 +11,7 @@ import type {
 } from './lib/types';
 import './App.css';
 
-type View = 'explore' | 'recommend' | 'listings' | 'method';
+type View = 'explore' | 'advisor' | 'recommend' | 'listings' | 'method';
 type ListingMode = 'sale' | 'rent';
 
 interface ProductStatus {
@@ -46,7 +47,7 @@ interface Health {
   candidate_rows_with_coordinates?: number;
   latest_observation_month?: string;
   towns?: string[];
-  integrations?: { openai?: boolean; onemap?: boolean };
+  integrations?: { openai?: boolean; onemap?: boolean; web_search?: boolean };
   live_listings?: { available: boolean; sale: number; rent: number };
 }
 
@@ -309,6 +310,7 @@ function App() {
         <nav aria-label="Primary navigation">
           {([
             ['explore', 'Explore'],
+            ['advisor', 'AI advisor'],
             ['recommend', 'Find a home'],
             ['listings', 'Live listings'],
             ['method', 'How it works'],
@@ -338,7 +340,19 @@ function App() {
             mapFilter={mapFilter}
             chooseAreaForSearch={chooseAreaForSearch}
             goRecommend={() => setView('recommend')}
+            goAdvisor={() => setView('advisor')}
             anchorLocation={anchorLocation}
+          />
+        )}
+        {view === 'advisor' && (
+          <AdvisorView
+            available={Boolean(health?.integrations?.openai)}
+            onAnchorChange={setAnchorLocation}
+            onShowMap={(mode) => {
+              setMapListingMode(mode);
+              setSelectedRegion(null);
+              setView('explore');
+            }}
           />
         )}
         {view === 'recommend' && (
@@ -375,6 +389,7 @@ function ExploreView({
   mapFilter,
   chooseAreaForSearch,
   goRecommend,
+  goAdvisor,
   anchorLocation,
 }: {
   status: ProductStatus | null;
@@ -389,6 +404,7 @@ function ExploreView({
   mapFilter: (listing: RentalListing) => boolean;
   chooseAreaForSearch: () => void;
   goRecommend: () => void;
+  goAdvisor: () => void;
   anchorLocation: LocationAnchor | null;
 }) {
   const profileIsRegion = selectedProfile && 'subzoneCount' in selectedProfile;
@@ -400,8 +416,9 @@ function ExploreView({
           <h1>Find the neighbourhood<br />that fits <em>your life.</em></h1>
           <p className="hero-lede">Explore liveability across all 55 planning areas, then turn your needs into an explainable HDB shortlist grounded in real market evidence.</p>
           <div className="hero-actions">
-            <button className="button button--primary" onClick={goRecommend}>Describe your ideal home <span>→</span></button>
-            <a className="button button--text" href="#explore-map">Explore the map ↓</a>
+            <button className="button button--primary" onClick={goAdvisor}>Talk to your housing advisor <span>→</span></button>
+            <button className="button button--text" onClick={goRecommend}>I already know my filters →</button>
+            <a className="button button--text" href="#explore-map">Explore map ↓</a>
           </div>
         </div>
         <div className="hero-proof" aria-label="Data coverage summary">

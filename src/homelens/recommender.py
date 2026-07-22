@@ -422,6 +422,8 @@ def recommend(
                 "nearest_mrt_name": mrt_name if isinstance(mrt_name, str) else None,
                 "nearest_mrt_distance_m": mrt_distance,
                 "anchor_distance_m": anchor_distance,
+                "latitude": _safe_float(row_dict.get("latitude")),
+                "longitude": _safe_float(row_dict.get("longitude")),
                 "bus_stops_500m": _safe_float(row_dict.get("bus_stops_500m")),
                 "amenities_1km": _safe_float(row_dict.get("amenities_1km")),
                 "reasons": reasons,

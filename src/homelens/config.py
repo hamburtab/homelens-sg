@@ -74,6 +74,7 @@ class Settings:
     openai_base_url: str
     openai_model: str
     enable_llm: bool
+    enable_web_search: bool
 
     @classmethod
     def from_environment(cls) -> "Settings":
@@ -103,6 +104,7 @@ class Settings:
             ).strip().rstrip("/"),
             openai_model=os.getenv("OPENAI_MODEL", "gpt-5.6-luna").strip(),
             enable_llm=_boolean_from_env("HOMELENS_ENABLE_LLM", False),
+            enable_web_search=_boolean_from_env("HOMELENS_ENABLE_WEB_SEARCH", True),
         )
 
     def integration_status(self) -> dict[str, bool]:
@@ -111,6 +113,13 @@ class Settings:
             "lta_datamall": bool(self.lta_account_key),
             "openai": bool(
                 self.enable_llm
+                and self.openai_api_key
+                and self.openai_base_url
+                and self.openai_model
+            ),
+            "web_search": bool(
+                self.enable_web_search
+                and self.enable_llm
                 and self.openai_api_key
                 and self.openai_base_url
                 and self.openai_model
