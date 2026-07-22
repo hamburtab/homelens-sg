@@ -30,6 +30,15 @@ IMPORTANCE_LEVELS = {"low", "medium", "high"}
 HOUSING_MODES = {"rent", "buy", "undecided"}
 RENTAL_SCOPES = {"room", "whole_unit", "flexible"}
 LOCATION_REASONS = {"explicit", "inferred_from_institution", "inferred_from_workplace"}
+LOCATION_RELATIONS = {"near", "in", "commute_to", "flexible"}
+LOCATION_FLEXIBILITIES = {"strict", "nearby", "broad", "unspecified"}
+LOCATION_RESOLUTION_STATUSES = {
+    "missing",
+    "recognized",
+    "pending_confirmation",
+    "unresolved",
+    "confirmed",
+}
 FLAT_TYPES = {"2 ROOM", "3 ROOM", "4 ROOM", "5 ROOM", "EXECUTIVE"}
 LOCAL_SOURCE_HDB = {
     "kind": "local",
@@ -83,8 +92,14 @@ class HousingProfile:
     institution: str | None = None
     workplace: str | None = None
     preferred_towns: list[str] = field(default_factory=list)
+    location_raw: str | None = None
     location_query: str | None = None
     location_reason: str | None = None
+    location_relation: str | None = None
+    location_flexibility: str | None = None
+    location_confidence: float | None = None
+    location_needs_clarification: bool = False
+    location_resolution_status: str = "missing"
     anchor_name: str | None = None
     anchor_address: str | None = None
     anchor_latitude: float | None = None
@@ -111,6 +126,14 @@ class HousingProfile:
         return bool(
             (self.anchor_latitude is not None and self.anchor_longitude is not None)
             or self.preferred_towns
+            or (self.location_query and not self.location_needs_clarification)
+        )
+
+    @property
+    def has_resolved_location(self) -> bool:
+        return bool(
+            (self.anchor_latitude is not None and self.anchor_longitude is not None)
+            or (self.preferred_towns and not self.location_query)
         )
 
     def clear_anchor(self) -> None:
@@ -134,11 +157,29 @@ class HousingProfile:
             "household_summary",
             "institution",
             "workplace",
-            "location_query",
         ):
             value = _clean_text(updates.get(key))
             if value is not None:
                 setattr(self, key, value)
+        location_raw = _clean_text(updates.get("location_raw"), maximum=200)
+        if location_raw is not None:
+            self.location_raw = location_raw
+        location_query = _clean_text(updates.get("location_query"), maximum=200)
+        if location_query is not None:
+            self.location_query = location_query
+        relation = updates.get("location_relation")
+        if relation in LOCATION_RELATIONS:
+            self.location_relation = relation
+        flexibility = updates.get("location_flexibility")
+        if flexibility in LOCATION_FLEXIBILITIES:
+            self.location_flexibility = flexibility
+        confidence = _finite_number(
+            updates.get("location_confidence"), minimum=0, maximum=1
+        )
+        if confidence is not None:
+            self.location_confidence = confidence
+        if isinstance(updates.get("location_needs_clarification"), bool):
+            self.location_needs_clarification = updates["location_needs_clarification"]
         location_reason = updates.get("location_reason")
         if location_reason in LOCATION_REASONS:
             self.location_reason = location_reason
@@ -189,8 +230,17 @@ class HousingProfile:
             for key in ("school_need", "childcare_need", "healthcare_need", "park_need"):
                 if getattr(self, key) is None:
                     setattr(self, key, "optional")
-        if old_query and self.location_query and old_query.casefold() != self.location_query.casefold():
+        query_changed = bool(
+            self.location_query
+            and (not old_query or old_query.casefold() != self.location_query.casefold())
+        )
+        if query_changed:
             self.clear_anchor()
+            self.location_resolution_status = "recognized"
+        elif self.anchor_latitude is not None and self.anchor_longitude is not None:
+            self.location_resolution_status = "confirmed"
+        elif self.preferred_towns and not self.location_query:
+            self.location_resolution_status = "confirmed"
 
     def public(self) -> dict[str, Any]:
         return asdict(self)
@@ -320,6 +370,34 @@ class OpenAIAdvisorClient:
     @staticmethod
     def _schema() -> dict[str, Any]:
         need = _nullable({"type": "string", "enum": sorted(NEED_LEVELS)})
+        location_intent = {
+            "type": "object",
+            "properties": {
+                "raw_mention": _nullable({"type": "string"}),
+                "search_query": _nullable({"type": "string"}),
+                "reason": _nullable(
+                    {"type": "string", "enum": sorted(LOCATION_REASONS)}
+                ),
+                "relation": _nullable(
+                    {"type": "string", "enum": sorted(LOCATION_RELATIONS)}
+                ),
+                "flexibility": _nullable(
+                    {"type": "string", "enum": sorted(LOCATION_FLEXIBILITIES)}
+                ),
+                "confidence": _nullable({"type": "number"}),
+                "needs_clarification": {"type": "boolean"},
+            },
+            "required": [
+                "raw_mention",
+                "search_query",
+                "reason",
+                "relation",
+                "flexibility",
+                "confidence",
+                "needs_clarification",
+            ],
+            "additionalProperties": False,
+        }
         updates = {
             "type": "object",
             "properties": {
@@ -330,10 +408,7 @@ class OpenAIAdvisorClient:
                 "institution": _nullable({"type": "string"}),
                 "workplace": _nullable({"type": "string"}),
                 "preferred_towns": {"type": "array", "items": {"type": "string"}},
-                "location_query": _nullable({"type": "string"}),
-                "location_reason": _nullable(
-                    {"type": "string", "enum": sorted(LOCATION_REASONS)}
-                ),
+                "location_intent": location_intent,
                 "max_anchor_distance_m": _nullable({"type": "number"}),
                 "estimated_budget": _nullable({"type": "number"}),
                 "max_budget": _nullable({"type": "number"}),
@@ -355,8 +430,8 @@ class OpenAIAdvisorClient:
             },
             "required": [
                 "housing_mode", "language", "life_stage", "household_summary",
-                "institution", "workplace", "preferred_towns", "location_query",
-                "location_reason", "max_anchor_distance_m", "estimated_budget",
+                "institution", "workplace", "preferred_towns", "location_intent",
+                "max_anchor_distance_m", "estimated_budget",
                 "max_budget", "hdb_flat_type", "bedrooms", "rental_scope",
                 "min_floor_area_sqm", "transport_importance", "school_need",
                 "childcare_need", "healthcare_need", "park_need", "additional_needs",
@@ -444,10 +519,18 @@ class OpenAIAdvisorClient:
             "and straight-line distance accurately. Never invent a listing, price, coordinate, "
             "route time, school eligibility, medical claim, or market fact. If evidence is absent, "
             "say so. Update the profile only from what the user explicitly states or from a modest, "
-            "transparent housing implication: for example, a student at a named institution may "
-            "have location_query set to that institution with location_reason "
-            "inferred_from_institution. A named HDB town belongs in preferred_towns; a landmark, "
-            "school or workplace belongs in location_query. For rent, budgets are monthly. For buy, "
+            "transparent housing implication. You are the PRIMARY semantic parser whenever this call "
+            "succeeds; deterministic rules are only an outage fallback. Put every newly expressed "
+            "place into location_intent. raw_mention is the exact place phrase, while search_query is "
+            "a concise canonical query suitable for Singapore OneMap, preferably the official English "
+            "place name. Remove conversational fragments and spatial words from search_query. Never "
+            "put coordinates there. Example: '南洋理工大学附近都可以' means raw_mention='南洋理工大学', "
+            "search_query='Nanyang Technological University', relation='near', flexibility='broad', "
+            "high confidence, and needs_clarification=false. A student at a named institution may use "
+            "that institution with reason inferred_from_institution. If the current message does not "
+            "introduce or correct a location, return null location fields and do not repeat the current "
+            "profile location. needs_clarification concerns semantic ambiguity only, not the absence of "
+            "coordinates. A named HDB town belongs in preferred_towns. For rent, budgets are monthly. For buy, "
             "budgets are total purchase budgets. Do not collect diagnoses or use nationality, race, "
             "religion, gender or other protected traits to rank housing. Never copy those traits into "
             "profile_updates, including household_summary, even when the user volunteers them. "
@@ -513,6 +596,36 @@ class OpenAIAdvisorClient:
         ) else "openai"
         result["web_search_unavailable"] = web_unavailable
         return result
+
+
+def _model_profile_updates(model_result: dict[str, Any]) -> dict[str, Any]:
+    """Translate the model's semantic contract into validated profile fields."""
+
+    raw_updates = model_result.get("profile_updates")
+    updates = dict(raw_updates) if isinstance(raw_updates, dict) else {}
+    location = updates.pop("location_intent", None)
+    if not isinstance(location, dict):
+        return updates
+    mappings = {
+        "raw_mention": "location_raw",
+        "search_query": "location_query",
+        "reason": "location_reason",
+        "relation": "location_relation",
+        "flexibility": "location_flexibility",
+        "confidence": "location_confidence",
+        "needs_clarification": "location_needs_clarification",
+    }
+    semantic_fields_present = any(
+        location.get(key) not in (None, "")
+        for key in ("raw_mention", "search_query", "reason", "relation", "flexibility", "confidence")
+    )
+    for source, target in mappings.items():
+        value = location.get(source)
+        if value not in (None, "", []):
+            updates[target] = value
+        elif source == "needs_clarification" and semantic_fields_present:
+            updates[target] = bool(value)
+    return updates
 
 
 def _dedupe_sources(sources: list[dict[str, Any]]) -> list[dict[str, str]]:
@@ -832,6 +945,12 @@ class HousingAdvisor:
                 "Is there anything else you would like to add? If not, I can now show my three recommended locations and three real listings."
             )
         key = missing[0]
+        if key == "location" and profile.location_needs_clarification:
+            return (
+                f"我理解到的地点是“{profile.location_raw or profile.location_query or '你刚才提到的位置'}”，但它仍有歧义。请告诉我更具体的地标、学校、公司或地址。"
+                if chinese else
+                f"I understood the place as '{profile.location_raw or profile.location_query or 'the place you mentioned'}', but it is still ambiguous. Please give a more specific landmark, school, workplace, or address."
+            )
         questions = {
             "housing_mode": (
                 "你目前更倾向租房还是买房？如果还没决定，我也可以先帮你比较。",
@@ -1185,6 +1304,8 @@ class HousingAdvisor:
         profile.anchor_planning_area = region["planning_area"]
         profile.anchor_subzone = region["subzone"]
         profile.location_query = profile.location_query or profile.anchor_name
+        profile.location_resolution_status = "confirmed"
+        profile.location_needs_clarification = False
         session.pending_locations = []
         return candidate
 
@@ -1252,7 +1373,6 @@ class HousingAdvisor:
                         sources.extend(evidence.get("sources") or [])
                 session.add_turn("user", f"Confirmed OneMap location: {candidate['name']}")
             else:
-                rule_updates, rule_recommendation = _rule_profile_updates(message, session.profile)
                 evidence = self._local_evidence(message, session.profile)
                 sources.extend(evidence.get("sources") or [])
                 model_result: dict[str, Any] | None = None
@@ -1263,11 +1383,8 @@ class HousingAdvisor:
                         )
                     except (requests.RequestException, ValueError, json.JSONDecodeError):
                         model_result = None
-                updates = dict(rule_updates)
                 if model_result:
-                    for key, value in (model_result.get("profile_updates") or {}).items():
-                        if value not in (None, "", []):
-                            updates[key] = value
+                    updates = _model_profile_updates(model_result)
                     answer = _clean_text(model_result.get("answer"), maximum=4_000) or self._fallback_answer(message, evidence)
                     recommendation_requested = bool(model_result.get("recommendation_requested"))
                     sources.extend(model_result.get("sources") or [])
@@ -1275,6 +1392,9 @@ class HousingAdvisor:
                     if model_result.get("web_search_unavailable"):
                         web_warning = "The configured API relay did not support web search for this turn; local evidence was used."
                 else:
+                    updates, recommendation_requested = _rule_profile_updates(
+                        message, session.profile
+                    )
                     answer = self._fallback_answer(message, evidence)
                 if (
                     updates.get("school_need") == "important"
@@ -1282,7 +1402,6 @@ class HousingAdvisor:
                     and not _child_school_need_explicit(message)
                 ):
                     updates.pop("school_need", None)
-                recommendation_requested = recommendation_requested or rule_recommendation
                 old_location_query = session.profile.location_query
                 session.profile.merge(updates)
                 if (
@@ -1298,6 +1417,7 @@ class HousingAdvisor:
                 ):
                     session.profile.location_query = session.profile.institution
                     session.profile.location_reason = "inferred_from_institution"
+                    session.profile.location_resolution_status = "recognized"
                 session.add_turn("user", message)
 
             profile = session.profile
@@ -1306,22 +1426,30 @@ class HousingAdvisor:
                 profile.location_query
                 and profile.anchor_latitude is None
                 and not session.pending_locations
+                and profile.location_resolution_status == "recognized"
+                and not profile.location_needs_clarification
             ):
                 try:
                     session.pending_locations = self.service.search_locations(
                         profile.location_query, limit=5
                     )["candidates"]
+                    profile.location_resolution_status = (
+                        "pending_confirmation"
+                        if session.pending_locations
+                        else "unresolved"
+                    )
                 except DataUnavailableError:
                     session.pending_locations = []
+                    profile.location_resolution_status = "unresolved"
                     web_warning = web_warning or "OneMap is unavailable; the exact location is not confirmed yet."
 
             progress = self._profile_progress(profile)
             recommendation_result = None
-            if session.pending_locations:
+            if recommendation_requested and progress["ready"] and not profile.has_resolved_location:
                 follow_up = (
-                    "为了避免把地点定位错，请先从下面的 OneMap 结果中确认一个地点。"
+                    f"我已经理解你的地点意图是“{profile.location_raw or profile.location_query}”，但在生成房源前仍需要一个真实地图中心点。请从下面的 OneMap 候选中确认；如果没有候选，请换一个可检索的地标或地址。"
                     if chinese else
-                    "To avoid locating you incorrectly, please confirm one of the OneMap results below."
+                    f"I understand the intended location as '{profile.location_raw or profile.location_query}', but a real map anchor is still required before listing retrieval. Confirm a OneMap candidate below, or provide another searchable landmark or address if none appears."
                 )
             elif recommendation_requested and progress["ready"]:
                 recommendation_result = self.recommendations(profile)
@@ -1331,6 +1459,13 @@ class HousingAdvisor:
                     "I applied the hard constraints and generated three locations and three real listings. Tell me what you would like to adjust."
                 )
                 sources.extend(recommendation_result.get("sources") or [])
+            elif session.pending_locations:
+                next_question = self._next_question(profile, progress, chinese=chinese)
+                follow_up = (
+                    f"我已识别地点为“{profile.location_raw or profile.location_query}”。下方 OneMap 候选用于确认地图中心点；你也可以先继续回答下一项：{next_question}"
+                    if chinese else
+                    f"I recognised the location as '{profile.location_raw or profile.location_query}'. The OneMap choices below confirm the map anchor; you can also continue with the next detail: {next_question}"
+                )
             else:
                 follow_up = self._next_question(profile, progress, chinese=chinese)
                 if recommendation_requested and not progress["ready"]:

@@ -30,7 +30,11 @@ class FakeLocationIndex:
 class FakeLocationResolver:
     index = FakeLocationIndex()
 
+    def __init__(self):
+        self.queries = []
+
     def search(self, query, *, limit=5):
+        self.queries.append(query)
         return [
             {
                 "id": "onemap:nus",
@@ -62,6 +66,52 @@ class FakeResponse:
 
     def json(self):
         return self.payload
+
+
+def blank_model_updates():
+    values = {
+        key: [] if key in {"preferred_towns", "additional_needs"} else None
+        for key in OpenAIAdvisorClient._schema()["properties"]["profile_updates"]["required"]
+    }
+    values["location_intent"] = {
+        "raw_mention": None,
+        "search_query": None,
+        "reason": None,
+        "relation": None,
+        "flexibility": None,
+        "confidence": None,
+        "needs_clarification": False,
+    }
+    return values
+
+
+class FakeSemanticAdvisorClient:
+    available = True
+
+    def respond(self, message, profile, turns, local_evidence):
+        updates = blank_model_updates()
+        if "南洋理工大学" in message:
+            updates.update({
+                "housing_mode": "buy",
+                "language": "zh",
+                "institution": "Nanyang Technological University",
+                "location_intent": {
+                    "raw_mention": "南洋理工大学",
+                    "search_query": "Nanyang Technological University",
+                    "reason": "explicit",
+                    "relation": "near",
+                    "flexibility": "broad",
+                    "confidence": 0.98,
+                    "needs_clarification": False,
+                },
+            })
+        return {
+            "answer": "我已经理解你的需求。",
+            "profile_updates": updates,
+            "recommendation_requested": False,
+            "sources": [],
+            "method": "openai",
+        }
 
 
 class AdvisorTests(unittest.TestCase):
@@ -107,7 +157,8 @@ class AdvisorTests(unittest.TestCase):
             onemap_password="",
         )
         self.service = HomeLensService(settings)
-        self.service._location_resolver = FakeLocationResolver()
+        self.location_resolver = FakeLocationResolver()
+        self.service._location_resolver = self.location_resolver
 
     def tearDown(self) -> None:
         self.temporary.cleanup()
@@ -182,10 +233,7 @@ class AdvisorTests(unittest.TestCase):
         )
         output = {
             "answer": "The answer is current.",
-            "profile_updates": {
-                key: [] if key in {"preferred_towns", "additional_needs"} else None
-                for key in OpenAIAdvisorClient._schema()["properties"]["profile_updates"]["required"]
-            },
+            "profile_updates": blank_model_updates(),
             "recommendation_requested": False,
             "sources": [],
         }
@@ -202,6 +250,42 @@ class AdvisorTests(unittest.TestCase):
         self.assertEqual(request["tools"], [{"type": "web_search"}])
         self.assertTrue(request["text"]["format"]["strict"])
         self.assertEqual(result["method"], "openai_web")
+
+    def test_ai_location_intent_drives_onemap_and_does_not_repeat_location_question(self) -> None:
+        advisor = self.service._advisor_service()
+        advisor.client = FakeSemanticAdvisorClient()
+
+        first = self.service.advisor_message(
+            {"message": "我想在南洋理工大学附近买房，附近都可以"}
+        )
+        self.assertEqual(
+            first["profile"]["location_query"],
+            "Nanyang Technological University",
+        )
+        self.assertEqual(first["profile"]["location_raw"], "南洋理工大学")
+        self.assertEqual(first["profile"]["location_relation"], "near")
+        self.assertEqual(first["profile"]["location_flexibility"], "broad")
+        self.assertEqual(
+            first["profile"]["location_resolution_status"],
+            "pending_confirmation",
+        )
+        self.assertTrue(first["progress"]["checks"]["location"])
+        self.assertEqual(
+            self.location_resolver.queries,
+            ["Nanyang Technological University"],
+        )
+        self.assertNotIn("你希望住在哪附近", first["reply"])
+        self.assertIn("最高预算", first["reply"])
+
+        second = self.service.advisor_message(
+            {"session_id": first["session_id"], "message": "顺便"}
+        )
+        self.assertEqual(
+            second["profile"]["location_query"],
+            "Nanyang Technological University",
+        )
+        self.assertNotIn("你希望住在哪附近", second["reply"])
+        self.assertEqual(len(self.location_resolver.queries), 1)
 
 
 if __name__ == "__main__":

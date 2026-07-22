@@ -30,8 +30,14 @@ interface AdvisorProfile {
   institution?: string | null;
   workplace?: string | null;
   preferred_towns?: string[];
+  location_raw?: string | null;
   location_query?: string | null;
   location_reason?: string | null;
+  location_relation?: string | null;
+  location_flexibility?: string | null;
+  location_confidence?: number | null;
+  location_needs_clarification?: boolean;
+  location_resolution_status?: 'missing' | 'recognized' | 'pending_confirmation' | 'unresolved' | 'confirmed';
   anchor_name?: string | null;
   anchor_address?: string | null;
   anchor_latitude?: number | null;
@@ -156,6 +162,15 @@ function profileRooms(profile: AdvisorProfile) {
   if (profile.rental_scope === 'whole_unit') return `${profile.bedrooms || 'Any'} BR whole unit`;
   if (profile.bedrooms) return `${profile.bedrooms} bedroom${profile.bedrooms > 1 ? 's' : ''}`;
   return 'Not set';
+}
+
+function locationStatus(profile: AdvisorProfile) {
+  if (profile.location_resolution_status === 'confirmed') return 'OneMap confirmed';
+  if (profile.location_resolution_status === 'pending_confirmation') return 'Recognised — confirm map point';
+  if (profile.location_resolution_status === 'unresolved') return 'Recognised — OneMap unresolved';
+  if (profile.location_needs_clarification) return 'Needs clarification';
+  if (profile.location_reason?.startsWith('inferred')) return 'Inferred from your context';
+  return '';
 }
 
 function sourceLabel(source: Source) {
@@ -424,7 +439,7 @@ export function AdvisorView({
           <div className="advisor-progress"><span style={{ width: `${progress.completed / progress.total * 100}%` }} /></div>
           <div className="advisor-profile__facts">
             <article className={progress.checks.housing_mode ? 'complete' : ''}><small>Plan</small><b>{profile.housing_mode ? titleCase(profile.housing_mode) : 'Not decided'}</b></article>
-            <article className={progress.checks.location ? 'complete' : ''}><small>Location</small><b>{profile.anchor_name || profile.preferred_towns?.map(titleCase).join(', ') || profile.location_query || 'Not set'}</b>{profile.location_reason?.startsWith('inferred') && <em>Inferred—please confirm</em>}</article>
+            <article className={progress.checks.location ? 'complete' : ''}><small>Location</small><b>{profile.anchor_name || profile.preferred_towns?.map(titleCase).join(', ') || profile.location_raw || profile.location_query || 'Not set'}</b>{locationStatus(profile) && <em>{locationStatus(profile)}</em>}</article>
             <article className={progress.checks.maximum_budget ? 'complete' : ''}><small>Maximum budget</small><b>{profileBudget(profile)}</b></article>
             <article className={progress.checks.rooms ? 'complete' : ''}><small>Rooms</small><b>{profileRooms(profile)}</b></article>
             <article className={progress.checks.extra_needs ? 'complete' : ''}><small>Extra needs</small><b>{needs.length ? needs.join(' · ') : profile.needs_discussed ? 'No strong extra need' : 'Not discussed'}</b></article>
