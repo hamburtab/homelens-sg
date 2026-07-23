@@ -51,6 +51,32 @@ class FakeLocationResolver:
         ][:limit]
 
 
+class RewriteLocationResolver:
+    index = FakeLocationIndex()
+
+    def __init__(self):
+        self.queries = []
+
+    def search(self, query, *, limit=5):
+        self.queries.append(query)
+        if query != "University Town":
+            return []
+        return [
+            {
+                "id": "onemap:utown",
+                "provider": "onemap",
+                "name": "UNIVERSITY TOWN",
+                "address": "2 College Avenue East",
+                "postal_code": "138612",
+                "latitude": 1.3083,
+                "longitude": 103.7730,
+                "confidence": 1.0,
+                "planning_area": "QUEENSTOWN",
+                "subzone": "DOVER",
+            }
+        ][:limit]
+
+
 class FakeResponse:
     def __init__(self, payload, status_code=200):
         self.payload = payload
@@ -70,7 +96,9 @@ class FakeResponse:
 
 def blank_model_updates():
     values = {
-        key: [] if key in {"preferred_towns", "additional_needs"} else None
+        key: []
+        if key in {"preferred_towns", "additional_needs", "hdb_flat_types", "bedroom_options"}
+        else None
         for key in OpenAIAdvisorClient._schema()["properties"]["profile_updates"]["required"]
     }
     values["location_intent"] = {
@@ -87,6 +115,9 @@ def blank_model_updates():
 
 class FakeSemanticAdvisorClient:
     available = True
+
+    def rewrite_location_queries(self, location_text, profile, attempted_queries):
+        return ["University Town"] if "NUS University Town" in attempted_queries else []
 
     def respond(self, message, profile, turns, local_evidence):
         updates = blank_model_updates()
@@ -208,6 +239,42 @@ class AdvisorTests(unittest.TestCase):
         )
         self.assertEqual(result["profile"]["institution"], "NUS")
         self.assertIsNone(result["profile"]["school_need"])
+
+    def test_room_options_can_complete_room_profile(self) -> None:
+        profile = HousingProfile(housing_mode="rent")
+        profile.merge({"bedroom_options": [3, 4], "rental_scope": "whole_unit"})
+        progress = self.service._advisor_service()._profile_progress(profile)
+        self.assertTrue(progress["checks"]["rooms"])
+        self.assertEqual(profile.bedroom_options, [3, 4])
+
+    def test_room_preference_can_be_flexible(self) -> None:
+        profile = HousingProfile(housing_mode="buy")
+        profile.merge({"room_preference_flexible": True})
+        progress = self.service._advisor_service()._profile_progress(profile)
+        self.assertTrue(progress["checks"]["rooms"])
+
+    def test_budget_can_be_flexible(self) -> None:
+        profile = HousingProfile(housing_mode="rent")
+        profile.merge({"budget_flexible": True})
+        progress = self.service._advisor_service()._profile_progress(profile)
+        self.assertTrue(progress["checks"]["maximum_budget"])
+
+    def test_empty_onemap_result_can_use_model_query_rewrite(self) -> None:
+        advisor = self.service._advisor_service()
+        advisor.client = FakeSemanticAdvisorClient()
+        resolver = RewriteLocationResolver()
+        self.service._location_resolver = resolver
+        profile = HousingProfile(
+            location_query="NUS University Town",
+            location_raw="NUS University Town",
+        )
+
+        candidates = advisor._resolve_location_candidates(profile)
+
+        self.assertEqual(resolver.queries, ["NUS University Town", "University Town"])
+        self.assertEqual(len(candidates), 1)
+        self.assertEqual(candidates[0]["name"], "UNIVERSITY TOWN")
+        self.assertEqual(profile.location_query, "University Town")
 
     def test_location_confirmation_finishes_the_previous_price_answer(self) -> None:
         first = self.service.advisor_message(

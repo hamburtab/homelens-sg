@@ -53,6 +53,28 @@ class RefreshingClient:
         return "refreshed"
 
 
+class FallbackClient:
+    def __init__(self) -> None:
+        self.queries: list[str] = []
+
+    def search_candidates(self, query, *, limit=5):
+        self.queries.append(query)
+        if query != "University Town":
+            return []
+        return [
+            {
+                "id": "onemap:utown",
+                "provider": "onemap",
+                "name": "UNIVERSITY TOWN",
+                "address": "2 COLLEGE AVENUE EAST UNIVERSITY TOWN SINGAPORE 138612",
+                "postal_code": "138612",
+                "latitude": 1.30833708306266,
+                "longitude": 103.772955615513,
+                "confidence": 1.0,
+            }
+        ][:limit]
+
+
 class LocationResolverTests(unittest.TestCase):
     def test_expired_token_refreshes_and_only_singapore_candidates_are_cached(self) -> None:
         settings = replace(
@@ -69,10 +91,24 @@ class LocationResolverTests(unittest.TestCase):
         second = resolver.search("NUS")
 
         self.assertEqual(client.authentication_calls, 1)
-        self.assertEqual(client.search_calls, 2)
+        self.assertGreaterEqual(client.search_calls, 2)
         self.assertEqual(first, second)
         self.assertEqual(len(first), 1)
         self.assertEqual(first[0]["planning_area"], "QUEENSTOWN")
+
+    def test_location_search_tries_normalised_fallback_queries(self) -> None:
+        settings = replace(Settings.from_environment(), onemap_token="token")
+        resolver = OneMapLocationResolver(settings)
+        client = FallbackClient()
+        resolver._client = client
+
+        result = resolver.search("NUS University Town", limit=5)
+
+        self.assertIn("NUS University Town", client.queries)
+        self.assertIn("University Town", client.queries)
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0]["name"], "UNIVERSITY TOWN")
+        self.assertEqual(result[0]["subzone"], "DOVER")
 
 
 if __name__ == "__main__":

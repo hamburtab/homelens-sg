@@ -109,9 +109,13 @@ class HousingProfile:
     max_anchor_distance_m: float | None = None
     estimated_budget: float | None = None
     max_budget: float | None = None
+    budget_flexible: bool = False
     hdb_flat_type: str | None = None
+    hdb_flat_types: list[str] = field(default_factory=list)
     bedrooms: int | None = None
+    bedroom_options: list[int] = field(default_factory=list)
     rental_scope: str | None = None
+    room_preference_flexible: bool = False
     min_floor_area_sqm: float | None = None
     transport_importance: str | None = None
     school_need: str | None = None
@@ -192,6 +196,12 @@ class HousingProfile:
             value = _finite_number(updates.get(key), minimum=100, maximum=20_000_000)
             if value is not None:
                 setattr(self, key, value)
+                if key == "max_budget":
+                    self.budget_flexible = False
+        if updates.get("budget_flexible") is True:
+            self.budget_flexible = True
+            self.estimated_budget = None
+            self.max_budget = None
         distance = _finite_number(
             updates.get("max_anchor_distance_m"), minimum=100, maximum=50_000
         )
@@ -205,12 +215,40 @@ class HousingProfile:
         flat_type = str(updates.get("hdb_flat_type") or "").strip().upper()
         if flat_type in FLAT_TYPES:
             self.hdb_flat_type = flat_type
+            self.hdb_flat_types = list(dict.fromkeys(self.hdb_flat_types + [flat_type]))
+        flat_types = updates.get("hdb_flat_types")
+        if isinstance(flat_types, list):
+            valid_flat_types = [
+                str(item).strip().upper()
+                for item in flat_types
+                if str(item).strip().upper() in FLAT_TYPES
+            ]
+            if valid_flat_types:
+                self.hdb_flat_types = list(dict.fromkeys(valid_flat_types))[:5]
+                self.hdb_flat_type = self.hdb_flat_types[0]
         bedrooms = _finite_number(updates.get("bedrooms"), minimum=1, maximum=10)
         if bedrooms is not None and bedrooms.is_integer():
             self.bedrooms = int(bedrooms)
+            self.bedroom_options = list(dict.fromkeys(self.bedroom_options + [int(bedrooms)]))
+        bedroom_options = updates.get("bedroom_options")
+        if isinstance(bedroom_options, list):
+            valid_bedrooms: list[int] = []
+            for item in bedroom_options:
+                value = _finite_number(item, minimum=1, maximum=10)
+                if value is not None and value.is_integer():
+                    valid_bedrooms.append(int(value))
+            if valid_bedrooms:
+                self.bedroom_options = list(dict.fromkeys(valid_bedrooms))[:5]
+                self.bedrooms = self.bedroom_options[0]
         rental_scope = updates.get("rental_scope")
         if rental_scope in RENTAL_SCOPES:
             self.rental_scope = rental_scope
+        if updates.get("room_preference_flexible") is True:
+            self.room_preference_flexible = True
+            self.hdb_flat_type = None
+            self.hdb_flat_types = []
+            self.bedrooms = None
+            self.bedroom_options = []
         transport = updates.get("transport_importance")
         if transport in IMPORTANCE_LEVELS:
             self.transport_importance = transport
@@ -412,11 +450,15 @@ class OpenAIAdvisorClient:
                 "max_anchor_distance_m": _nullable({"type": "number"}),
                 "estimated_budget": _nullable({"type": "number"}),
                 "max_budget": _nullable({"type": "number"}),
+                "budget_flexible": _nullable({"type": "boolean"}),
                 "hdb_flat_type": _nullable({"type": "string"}),
+                "hdb_flat_types": {"type": "array", "items": {"type": "string"}},
                 "bedrooms": _nullable({"type": "integer"}),
+                "bedroom_options": {"type": "array", "items": {"type": "integer"}},
                 "rental_scope": _nullable(
                     {"type": "string", "enum": sorted(RENTAL_SCOPES)}
                 ),
+                "room_preference_flexible": _nullable({"type": "boolean"}),
                 "min_floor_area_sqm": _nullable({"type": "number"}),
                 "transport_importance": _nullable(
                     {"type": "string", "enum": sorted(IMPORTANCE_LEVELS)}
@@ -432,7 +474,8 @@ class OpenAIAdvisorClient:
                 "housing_mode", "language", "life_stage", "household_summary",
                 "institution", "workplace", "preferred_towns", "location_intent",
                 "max_anchor_distance_m", "estimated_budget",
-                "max_budget", "hdb_flat_type", "bedrooms", "rental_scope",
+                "max_budget", "budget_flexible", "hdb_flat_type", "hdb_flat_types", "bedrooms",
+                "bedroom_options", "rental_scope", "room_preference_flexible",
                 "min_floor_area_sqm", "transport_importance", "school_need",
                 "childcare_need", "healthcare_need", "park_need", "additional_needs",
                 "needs_discussed",
@@ -597,6 +640,80 @@ class OpenAIAdvisorClient:
         result["web_search_unavailable"] = web_unavailable
         return result
 
+    def rewrite_location_queries(
+        self,
+        location_text: str,
+        profile: HousingProfile,
+        attempted_queries: list[str],
+    ) -> list[str]:
+        """Ask the model for OneMap search phrases, never for coordinates."""
+
+        if not self.available:
+            raise RuntimeError("OpenAI advisor is not configured")
+        schema = {
+            "type": "object",
+            "properties": {
+                "queries": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "maxItems": 5,
+                }
+            },
+            "required": ["queries"],
+            "additionalProperties": False,
+        }
+        instructions = (
+            "Rewrite the user's Singapore place mention into 1-5 concise English search phrases "
+            "that Singapore OneMap is likely to recognise. Return only official place/building/"
+            "road/institution names or common abbreviations. Do not include coordinates, commentary, "
+            "country names, spatial words such as near/around, or housing requirements. Avoid any "
+            "query already attempted."
+        )
+        input_payload = {
+            "location_text": location_text,
+            "current_profile": profile.public(),
+            "attempted_queries": attempted_queries[-20:],
+        }
+        response = requests.post(
+            self.endpoint,
+            headers={
+                "Authorization": f"Bearer {self.settings.openai_api_key}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": self.settings.openai_model,
+                "instructions": instructions,
+                "input": json.dumps(input_payload, ensure_ascii=False, default=str),
+                "store": False,
+                "text": {
+                    "format": {
+                        "type": "json_schema",
+                        "name": "onemap_query_rewrite",
+                        "strict": True,
+                        "schema": schema,
+                    }
+                },
+            },
+            timeout=min(self.timeout_seconds, 30),
+        )
+        response.raise_for_status()
+        result = json.loads(self._extract_text(response.json()))
+        queries = result.get("queries") if isinstance(result, dict) else []
+        if not isinstance(queries, list):
+            return []
+        seen = {item.casefold() for item in attempted_queries}
+        cleaned: list[str] = []
+        for query in queries:
+            value = _clean_text(query, maximum=120)
+            if not value:
+                continue
+            key = value.casefold()
+            if key in seen:
+                continue
+            seen.add(key)
+            cleaned.append(value)
+        return cleaned[:5]
+
 
 def _model_profile_updates(model_result: dict[str, Any]) -> dict[str, Any]:
     """Translate the model's semantic contract into validated profile fields."""
@@ -667,6 +784,43 @@ def _budget_from_text(text: str) -> float | None:
     return None
 
 
+def _budget_flexible_from_text(text: str) -> bool:
+    lower = text.casefold()
+    return bool(
+        re.search(r"(预算|租金|价格|总价).{0,8}(不限|没有上限|无上限|暂不设上限|都可以|不在意)", text)
+        or re.search(r"(不限|没有上限|无上限|暂不设上限|都可以|不在意).{0,8}(预算|租金|价格|总价)", text)
+        or re.search(r"no (?:budget|price|rent) (?:cap|limit)|unlimited budget|budget does(?:n't| not) matter", lower)
+    )
+
+
+def _room_options_from_text(text: str) -> list[int]:
+    options: list[int] = []
+    patterns = (
+        r"\b([1-9])\s*(?:or|/|,|and|-)\s*([1-9])\s*(?:bed|bedroom)s?\b",
+        r"([1-9])\s*(?:或|和|到|至|/|-)\s*([1-9])\s*(?:个)?(?:房间|卧室|房|卧)",
+        r"\b([1-9])\s*(?:bed|bedroom)s?\b",
+        r"([1-9])\s*(?:个)?(?:房间|卧室|房|卧)",
+    )
+    for pattern in patterns:
+        for match in re.finditer(pattern, text, re.I):
+            numbers = [int(value) for value in match.groups() if value]
+            if len(numbers) == 2 and pattern.endswith(r"(?:房间|卧室|房|卧)"):
+                start, end = numbers
+                if abs(start - end) <= 3:
+                    numbers = list(range(min(start, end), max(start, end) + 1))
+            options.extend(numbers)
+    return list(dict.fromkeys(value for value in options if 1 <= value <= 10))[:5]
+
+
+def _room_preference_flexible(text: str) -> bool:
+    lower = text.casefold()
+    return bool(
+        re.search(r"(房型|户型|房间|卧室).{0,8}(不限|都可以|无所谓|不在意|随便)", text)
+        or re.search(r"(不限|都可以|无所谓|不在意|随便).{0,8}(房型|户型|房间|卧室)", text)
+        or re.search(r"any (?:room|bedroom|flat) type|no room preference|do(?:es)?n't matter", lower)
+    )
+
+
 def _institution_from_text(text: str) -> str | None:
     acronyms = re.search(
         r"(?<![A-Za-z])(NUS|NTU|SMU|SUTD|SIT|SUSS|INSEAD|LASALLE|NAFA)(?![A-Za-z])",
@@ -714,6 +868,8 @@ def _rule_profile_updates(text: str, profile: HousingProfile) -> tuple[dict[str,
     budget = _budget_from_text(text)
     if budget is not None:
         updates["max_budget"] = budget
+    elif _budget_flexible_from_text(text):
+        updates["budget_flexible"] = True
 
     rules = parse_with_rules(text)
     if rules.values.get("preferred_towns"):
@@ -727,12 +883,19 @@ def _rule_profile_updates(text: str, profile: HousingProfile) -> tuple[dict[str,
         updates["min_floor_area_sqm"] = rules.values["min_floor_area_sqm"]
     flat_types = rules.values.get("flat_types") or []
     if flat_types:
+        updates["hdb_flat_types"] = flat_types
         updates["hdb_flat_type"] = flat_types[0]
 
     bedroom = re.search(r"\b(\d)\s*(?:bed|bedroom)s?\b|([一二两三四五六])\s*(?:个)?卧室", text, re.I)
     if bedroom:
         chinese_numbers = {"一": 1, "二": 2, "两": 2, "三": 3, "四": 4, "五": 5, "六": 6}
         updates["bedrooms"] = int(bedroom.group(1)) if bedroom.group(1) else chinese_numbers[bedroom.group(2)]
+    bedroom_options = _room_options_from_text(text)
+    if bedroom_options:
+        updates["bedroom_options"] = bedroom_options
+        updates["bedrooms"] = bedroom_options[0]
+    if not bedroom_options and not flat_types and _room_preference_flexible(text):
+        updates["room_preference_flexible"] = True
 
     if re.search(r"普通房|单间|合租|common room|private room|rent a room", lower):
         updates["rental_scope"] = "room"
@@ -801,6 +964,44 @@ class HousingAdvisor:
             payload = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
             self._region_profiles = payload.get("profiles") or {}
         return self._region_profiles
+
+    def _resolve_location_candidates(
+        self,
+        profile: HousingProfile,
+        *,
+        limit: int = 5,
+        max_rewrites: int = 3,
+    ) -> list[dict[str, Any]]:
+        query = profile.location_query or profile.location_raw
+        if not query:
+            return []
+        attempted: list[str] = []
+
+        def search_once(search_query: str) -> list[dict[str, Any]]:
+            attempted.append(search_query)
+            return self.service.search_locations(search_query, limit=limit)["candidates"]
+
+        candidates = search_once(query)
+        if candidates:
+            return candidates
+        if not self.client.available:
+            return []
+
+        location_text = profile.location_raw or profile.location_query or query
+        for _ in range(max_rewrites):
+            rewrites = self.client.rewrite_location_queries(
+                location_text,
+                profile,
+                attempted,
+            )
+            if not rewrites:
+                break
+            for rewrite in rewrites:
+                candidates = search_once(rewrite)
+                if candidates:
+                    profile.location_query = rewrite
+                    return candidates
+        return []
 
     def _local_evidence(self, message: str, profile: HousingProfile) -> dict[str, Any]:
         candidates = self.service._load_candidates()
@@ -913,16 +1114,27 @@ class HousingAdvisor:
     def _profile_progress(profile: HousingProfile) -> dict[str, Any]:
         mode_ready = profile.housing_mode in {"rent", "buy"}
         rooms_ready = (
-            bool(profile.hdb_flat_type or profile.bedrooms)
+            bool(
+                profile.room_preference_flexible
+                or profile.hdb_flat_type
+                or profile.hdb_flat_types
+                or profile.bedrooms
+                or profile.bedroom_options
+            )
             if profile.housing_mode == "buy"
-            else bool(profile.rental_scope == "room" or profile.bedrooms)
+            else bool(
+                profile.room_preference_flexible
+                or profile.rental_scope == "room"
+                or profile.bedrooms
+                or profile.bedroom_options
+            )
             if profile.housing_mode == "rent"
             else False
         )
         checks = {
             "housing_mode": mode_ready,
             "location": profile.has_location,
-            "maximum_budget": profile.max_budget is not None,
+            "maximum_budget": profile.max_budget is not None or profile.budget_flexible,
             "rooms": rooms_ready,
             "extra_needs": profile.needs_discussed,
         }
@@ -1027,13 +1239,17 @@ class HousingAdvisor:
         if rent.empty:
             return {"mode": "rent", "areas": [], "listings": [], "warnings": ["Rental snapshot is unavailable."]}
         prices = pd.to_numeric(rent.get("price_monthly"), errors="coerce")
-        rent = rent.loc[prices.notna() & (prices <= float(profile.max_budget))].copy()
+        rent = rent.loc[prices.notna()].copy()
+        if profile.max_budget is not None:
+            rent = rent.loc[prices <= float(profile.max_budget)].copy()
+        elif profile.budget_flexible:
+            warnings.append("No rental budget cap was applied because the profile says the budget is flexible.")
         rent["_price"] = pd.to_numeric(rent["price_monthly"], errors="coerce")
         if profile.rental_scope == "room":
             rent = rent.loc[rent.get("room_type").notna()].copy()
         elif profile.rental_scope == "whole_unit":
             rent = rent.loc[rent.get("room_type").isna()].copy()
-        if profile.bedrooms is not None:
+        if profile.bedrooms is not None or profile.bedroom_options:
             warnings.append(
                 "The contributed rental snapshot has no reliable bedroom-count field; the requested "
                 "bedroom count is shown in the profile but was not silently enforced."
@@ -1066,7 +1282,8 @@ class HousingAdvisor:
                 "warnings": warnings + ["No rental listing in the partial snapshot satisfies every hard condition."],
             }
 
-        affordability = (1 - rent["_price"] / float(profile.max_budget)).clip(0, 1)
+        price_reference = float(profile.max_budget) if profile.max_budget is not None else float(rent["_price"].quantile(0.95))
+        affordability = (1 - rent["_price"] / max(price_reference, 1)).clip(0, 1)
         score = affordability * 0.32 + rent["_town_match"].astype(float) * 0.18
         weight = pd.Series(0.50, index=rent.index)
         if profile.anchor_latitude is not None:
@@ -1114,7 +1331,11 @@ class HousingAdvisor:
             row = pd.Series(row_dict)
             payload = self.service._listing_payload(row)
             reasons = [
-                f"Monthly rent S${float(payload['price']):,.0f} is within the stated cap.",
+                (
+                    f"Monthly rent S${float(payload['price']):,.0f} is within the stated cap."
+                    if profile.max_budget is not None
+                    else f"Monthly rent S${float(payload['price']):,.0f}; no budget cap was applied."
+                ),
             ]
             if payload.get("anchor_distance_m") is not None:
                 reasons.append(
@@ -1177,12 +1398,20 @@ class HousingAdvisor:
         }
 
     def _buy_recommendations(self, profile: HousingProfile) -> dict[str, Any]:
-        flat_type = profile.hdb_flat_type
+        flat_types = list(profile.hdb_flat_types)
+        if profile.hdb_flat_type and profile.hdb_flat_type not in flat_types:
+            flat_types.insert(0, profile.hdb_flat_type)
         warnings: list[str] = []
-        if flat_type is None and profile.bedrooms is not None:
-            flat_type = f"{min(5, profile.bedrooms + 1)} ROOM"
+        if not flat_types and profile.bedroom_options:
+            flat_types = [f"{min(5, bedrooms + 1)} ROOM" for bedrooms in profile.bedroom_options]
+            flat_types = list(dict.fromkeys(flat_types))
             warnings.append(
-                f"Interpreted {profile.bedrooms} bedrooms as HDB {flat_type}; confirm the HDB flat type before relying on it."
+                "Interpreted bedroom options as HDB flat types; confirm the HDB flat type before relying on it."
+            )
+        elif not flat_types and profile.bedrooms is not None:
+            flat_types = [f"{min(5, profile.bedrooms + 1)} ROOM"]
+            warnings.append(
+                f"Interpreted {profile.bedrooms} bedrooms as HDB {flat_types[0]}; confirm the HDB flat type before relying on it."
             )
         weights: dict[str, float] = {}
         if profile.transport_importance == "high":
@@ -1190,12 +1419,20 @@ class HousingAdvisor:
         if profile.park_need == "important":
             weights["amenities"] = 0.16
         payload: dict[str, Any] = {
-            "budget": profile.max_budget,
             "top_k": 20,
             "use_llm": False,
         }
-        if flat_type:
-            payload["flat_types"] = [flat_type]
+        if profile.max_budget is not None:
+            payload["budget"] = profile.max_budget
+        else:
+            candidates = self.service._load_candidates()
+            budget_cap = pd.to_numeric(candidates.get("observed_price_high"), errors="coerce").max()
+            payload["budget"] = float(budget_cap) if pd.notna(budget_cap) else 20_000_000
+            warnings.append(
+                "No purchase budget cap was provided; the recommendation was ranked without excluding options by price cap."
+            )
+        if flat_types:
+            payload["flat_types"] = flat_types
         if profile.preferred_towns:
             payload["preferred_towns"] = profile.preferred_towns
         if profile.min_floor_area_sqm is not None:
@@ -1276,7 +1513,7 @@ class HousingAdvisor:
         }
 
     def recommendations(self, profile: HousingProfile) -> dict[str, Any]:
-        if profile.max_budget is None:
+        if profile.max_budget is None and not profile.budget_flexible:
             raise ValueError("maximum budget is required before recommendation")
         if profile.housing_mode == "rent":
             return self._rental_recommendations(profile)
@@ -1430,9 +1667,7 @@ class HousingAdvisor:
                 and not profile.location_needs_clarification
             ):
                 try:
-                    session.pending_locations = self.service.search_locations(
-                        profile.location_query, limit=5
-                    )["candidates"]
+                    session.pending_locations = self._resolve_location_candidates(profile, limit=5)
                     profile.location_resolution_status = (
                         "pending_confirmation"
                         if session.pending_locations
@@ -1442,6 +1677,9 @@ class HousingAdvisor:
                     session.pending_locations = []
                     profile.location_resolution_status = "unresolved"
                     web_warning = web_warning or "OneMap is unavailable; the exact location is not confirmed yet."
+                except (requests.RequestException, ValueError, json.JSONDecodeError):
+                    session.pending_locations = []
+                    profile.location_resolution_status = "unresolved"
 
             progress = self._profile_progress(profile)
             recommendation_result = None

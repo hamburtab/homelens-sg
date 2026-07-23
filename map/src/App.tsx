@@ -4,6 +4,7 @@ import { SingaporeMap } from './components/singapore-map';
 import { RedditScorePanel } from './components/singapore-map/RedditScorePanel';
 import type { RedditAreaNlp } from './components/singapore-map/RedditScorePanel';
 import { AdvisorView } from './components/advisor/AdvisorView';
+import type { AdvisorRecommendations } from './components/advisor/AdvisorView';
 import type {
   FacilityCounts,
   LocationAnchor,
@@ -278,6 +279,8 @@ function App() {
   const [selectedRegion, setSelectedRegion] = useState<SelectedRegion | null>(null);
   const [mapListingMode, setMapListingMode] = useState<'none' | ListingMode>('none');
   const [anchorLocation, setAnchorLocation] = useState<LocationAnchor | null>(null);
+  const [advisorRecommendations, setAdvisorRecommendations] = useState<AdvisorRecommendations | null>(null);
+  const [advisorMapListingIds, setAdvisorMapListingIds] = useState<string[] | null>(null);
   const [commentPool, setCommentPool] = useState<DisplayComment[]>([]);
   const [redditAreaScores, setRedditAreaScores] = useState<RedditAreaNlp | null>(null);
 
@@ -361,8 +364,10 @@ function App() {
   );
 
   const mapFilter = useMemo(() => {
+    const advisorIdSet = advisorMapListingIds ? new Set(advisorMapListingIds) : null;
     return (listing: RentalListing) => {
       if (mapListingMode === 'none' || listing.mode !== mapListingMode) return false;
+      if (advisorIdSet && !advisorIdSet.has(listing.id)) return false;
       if (selectedRegion) {
         if (selectedRegion.type === 'planning' && listing.planningArea !== selectedRegion.id) return false;
         if (selectedRegion.type === 'subzone' && listing.subzone !== selectedRegion.id) return false;
@@ -378,7 +383,7 @@ function App() {
       }
       return true;
     };
-  }, [anchorLocation, mapListingMode, selectedRegion]);
+  }, [advisorMapListingIds, anchorLocation, mapListingMode, selectedRegion]);
 
   const chooseAreaForSearch = () => {
     setView('recommend');
@@ -424,6 +429,8 @@ function App() {
             setSelectedRegion={setSelectedRegion}
             mapListingMode={mapListingMode}
             setMapListingMode={setMapListingMode}
+            advisorMapListingIds={advisorMapListingIds}
+            clearAdvisorMapListings={() => setAdvisorMapListingIds(null)}
             regionScores={regionScores}
             subzones={subzones}
             mapFilter={mapFilter}
@@ -437,8 +444,11 @@ function App() {
           <AdvisorView
             available={Boolean(health?.integrations?.openai)}
             onAnchorChange={setAnchorLocation}
-            onShowMap={(mode) => {
+            recommendations={advisorRecommendations}
+            onRecommendationsChange={setAdvisorRecommendations}
+            onShowMap={(mode, listingIds) => {
               setMapListingMode(mode);
+              setAdvisorMapListingIds(listingIds?.length ? listingIds : null);
               setSelectedRegion(null);
               setView('explore');
             }}
@@ -475,6 +485,8 @@ function ExploreView({
   setSelectedRegion,
   mapListingMode,
   setMapListingMode,
+  advisorMapListingIds,
+  clearAdvisorMapListings,
   regionScores,
   subzones,
   mapFilter,
@@ -492,6 +504,8 @@ function ExploreView({
   setSelectedRegion: (value: SelectedRegion) => void;
   mapListingMode: 'none' | ListingMode;
   setMapListingMode: (value: 'none' | ListingMode) => void;
+  advisorMapListingIds: string[] | null;
+  clearAdvisorMapListings: () => void;
   regionScores: Record<string, number>;
   subzones: Record<string, SubzoneProfile>;
   mapFilter: (listing: RentalListing) => boolean;
@@ -550,11 +564,17 @@ function ExploreView({
               <div className="map-mode-control" role="group" aria-label="Map listing overlay">
                 <span>Overlay</span>
                 {(['none', 'sale', 'rent'] as const).map((mode) => (
-                  <button key={mode} className={mapListingMode === mode ? 'active' : ''} onClick={() => setMapListingMode(mode)}>
+                  <button key={mode} className={mapListingMode === mode ? 'active' : ''} onClick={() => { clearAdvisorMapListings(); setMapListingMode(mode); }}>
                     {mode === 'none' ? 'Areas' : mode === 'sale' ? 'For sale' : 'For rent'}
                   </button>
                 ))}
               </div>
+              {advisorMapListingIds?.length ? (
+                <div className="advisor-map-filter">
+                  <span>Advisor picks: {advisorMapListingIds.length}</span>
+                  <button type="button" onClick={clearAdvisorMapListings}>Show all {mapListingMode === 'sale' ? 'sale' : 'rent'} listings</button>
+                </div>
+              ) : null}
               <div className="map-legend"><span><i className="legend-low" />Lower</span><b>Area rating</b><span>Higher<i className="legend-high" /></span></div>
               <RedditScorePanel data={redditAreaScores} selectedRegion={selectedRegion} />
             </div>

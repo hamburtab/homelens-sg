@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 import json
 from pathlib import Path
+import re
 import threading
 import time
 from typing import Any
@@ -131,18 +132,56 @@ class OneMapLocationResolver:
         self._client = client
         return client
 
-    def search(self, query: str, *, limit: int = 5) -> list[dict[str, Any]]:
-        key = " ".join(query.casefold().split())
-        if len(key) < 2 or len(key) > 200:
-            raise ValueError("location query must contain between 2 and 200 characters")
-        now = time.monotonic()
-        with self._lock:
-            cached = self._cache.get(key)
-            if cached and cached.created_at >= now - self.cache_ttl_seconds:
-                return cached.candidates[:limit]
-        client = self._get_client()
+    @staticmethod
+    def _search_variants(query: str) -> list[str]:
+        clean = " ".join(query.split()).strip()
+        variants = [clean]
+        simplified = clean
+        simplified = re.sub(
+            r"\b(?:near|around|nearby|close to|within|in)\b",
+            " ",
+            simplified,
+            flags=re.I,
+        )
+        simplified = re.sub(r"(附近|周边|靠近|在|位于)", " ", simplified)
+        simplified = re.sub(r"\b(?:singapore|sg)\b", " ", simplified, flags=re.I)
+        simplified = " ".join(simplified.split()).strip(" ,.;:-")
+        if simplified and simplified.casefold() != clean.casefold():
+            variants.append(simplified)
+
+        lower = clean.casefold()
+        alias_variants: list[str] = []
+        if "utown" in lower or "u town" in lower or (
+            "university town" in lower and "nus" in lower
+        ):
+            alias_variants.extend(["University Town", "UTown"])
+        if re.search(r"\bnus\b", lower):
+            alias_variants.append("National University of Singapore")
+        if re.search(r"\bntu\b", lower):
+            alias_variants.append("Nanyang Technological University")
+        if re.search(r"\bsmu\b", lower):
+            alias_variants.append("Singapore Management University")
+        if re.search(r"\bsutd\b", lower):
+            alias_variants.append("Singapore University of Technology and Design")
+        if re.search(r"\bsit\b", lower):
+            alias_variants.append("Singapore Institute of Technology")
+        if re.search(r"\bsuss\b", lower):
+            alias_variants.append("Singapore University of Social Sciences")
+        variants.extend(alias_variants)
+
+        result: list[str] = []
+        seen: set[str] = set()
+        for variant in variants:
+            value = " ".join(variant.split()).strip()
+            key = value.casefold()
+            if 2 <= len(value) <= 200 and key not in seen:
+                seen.add(key)
+                result.append(value)
+        return result
+
+    def _search_once(self, client: OneMapClient, query: str, *, limit: int) -> list[dict[str, Any]]:
         try:
-            raw = client.search_candidates(query, limit=limit)
+            return client.search_candidates(query, limit=limit)
         except requests.HTTPError as error:
             status = error.response.status_code if error.response is not None else None
             can_refresh = bool(self.settings.onemap_email and self.settings.onemap_password)
@@ -155,7 +194,7 @@ class OneMapLocationResolver:
                     self.settings.onemap_email,
                     self.settings.onemap_password,
                 )
-                raw = client.search_candidates(query, limit=limit)
+                return client.search_candidates(query, limit=limit)
             except (requests.RequestException, RuntimeError) as retry_error:
                 raise DataUnavailableError(
                     "OneMap authentication expired and could not be refreshed."
@@ -164,12 +203,39 @@ class OneMapLocationResolver:
             raise DataUnavailableError(
                 "OneMap location search is temporarily unavailable."
             ) from error
+
+    def search(self, query: str, *, limit: int = 5) -> list[dict[str, Any]]:
+        key = " ".join(query.casefold().split())
+        if len(key) < 2 or len(key) > 200:
+            raise ValueError("location query must contain between 2 and 200 characters")
+        now = time.monotonic()
+        with self._lock:
+            cached = self._cache.get(key)
+            if cached and cached.created_at >= now - self.cache_ttl_seconds:
+                return cached.candidates[:limit]
+        client = self._get_client()
         candidates: list[dict[str, Any]] = []
-        for item in raw:
-            region = self.index.locate(float(item["latitude"]), float(item["longitude"]))
-            if region is None:
-                continue
-            candidates.append({**item, **region})
+        seen: set[str] = set()
+        for variant in self._search_variants(query):
+            raw = self._search_once(client, variant, limit=limit)
+            for item in raw:
+                region = self.index.locate(float(item["latitude"]), float(item["longitude"]))
+                if region is None:
+                    continue
+                candidate = {**item, **region}
+                dedupe_key = str(candidate.get("id") or "").casefold()
+                if not dedupe_key:
+                    dedupe_key = (
+                        f"{float(candidate['latitude']):.6f}|"
+                        f"{float(candidate['longitude']):.6f}|"
+                        f"{str(candidate.get('address') or '').casefold()}"
+                    )
+                if dedupe_key in seen:
+                    continue
+                seen.add(dedupe_key)
+                candidates.append(candidate)
+            if len(candidates) >= limit:
+                break
         with self._lock:
             if len(self._cache) >= 128:
                 oldest = min(self._cache, key=lambda item: self._cache[item].created_at)

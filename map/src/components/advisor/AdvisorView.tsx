@@ -47,9 +47,13 @@ interface AdvisorProfile {
   max_anchor_distance_m?: number | null;
   estimated_budget?: number | null;
   max_budget?: number | null;
+  budget_flexible?: boolean;
   hdb_flat_type?: string | null;
+  hdb_flat_types?: string[];
   bedrooms?: number | null;
+  bedroom_options?: number[];
   rental_scope?: string | null;
+  room_preference_flexible?: boolean;
   transport_importance?: string | null;
   school_need?: string | null;
   childcare_need?: string | null;
@@ -111,7 +115,7 @@ interface RecommendedListing {
   reasons: string[];
 }
 
-interface AdvisorRecommendations {
+export interface AdvisorRecommendations {
   mode: 'rent' | 'buy';
   areas: RecommendedArea[];
   listings: RecommendedListing[];
@@ -152,12 +156,19 @@ function titleCase(value?: string | null) {
 }
 
 function profileBudget(profile: AdvisorProfile) {
+  if (profile.budget_flexible) return 'No upper limit';
   if (profile.max_budget == null) return 'Not set';
   return `${money.format(profile.max_budget)}${profile.housing_mode === 'rent' ? ' / month' : ''}`;
 }
 
 function profileRooms(profile: AdvisorProfile) {
+  if (profile.room_preference_flexible) return 'Any room type';
+  if (profile.hdb_flat_types?.length) return profile.hdb_flat_types.join(' / ');
   if (profile.hdb_flat_type) return profile.hdb_flat_type;
+  if (profile.bedroom_options?.length) {
+    const label = profile.bedroom_options.join(' or ');
+    return profile.rental_scope === 'whole_unit' ? `${label} BR whole unit` : `${label} bedrooms`;
+  }
   if (profile.rental_scope === 'room') return 'Private room';
   if (profile.rental_scope === 'whole_unit') return `${profile.bedrooms || 'Any'} BR whole unit`;
   if (profile.bedrooms) return `${profile.bedrooms} bedroom${profile.bedrooms > 1 ? 's' : ''}`;
@@ -181,17 +192,20 @@ export function AdvisorView({
   available,
   onAnchorChange,
   onShowMap,
+  recommendations,
+  onRecommendationsChange,
 }: {
   available: boolean;
   onAnchorChange: (anchor: LocationAnchor | null) => void;
-  onShowMap: (mode: 'sale' | 'rent') => void;
+  onShowMap: (mode: 'sale' | 'rent', listingIds?: string[]) => void;
+  recommendations: AdvisorRecommendations | null;
+  onRecommendationsChange: (recommendations: AdvisorRecommendations | null) => void;
 }) {
   const [sessionId, setSessionId] = useState(() => localStorage.getItem(SESSION_KEY) || '');
   const [messages, setMessages] = useState<ChatMessage[]>([WELCOME]);
   const [profile, setProfile] = useState<AdvisorProfile>({});
   const [progress, setProgress] = useState<ProfileProgress>({ completed: 0, total: 5, ready: false, checks: {}, missing: [] });
   const [candidates, setCandidates] = useState<LocationCandidate[]>([]);
-  const [recommendations, setRecommendations] = useState<AdvisorRecommendations | null>(null);
   const [privacy, setPrivacy] = useState('Profile is kept in temporary server memory only.');
   const [draft, setDraft] = useState('');
   const [loading, setLoading] = useState(false);
@@ -255,7 +269,7 @@ export function AdvisorView({
     setProgress(data.progress);
     setCandidates(data.location_candidates || []);
     setPrivacy(data.privacy);
-    setRecommendations(data.recommendations || null);
+    onRecommendationsChange(data.recommendations || null);
     syncAnchor(data.profile);
     setMessages((current) => [
       ...current,
@@ -296,7 +310,7 @@ export function AdvisorView({
     if (!content || loading) return;
     setDraft('');
     setError('');
-    setRecommendations(null);
+    onRecommendationsChange(null);
     setMessages((current) => [...current, { id: `user-${Date.now()}`, role: 'user', content }]);
     setLoading(true);
     try {
@@ -349,7 +363,7 @@ export function AdvisorView({
     setProfile({});
     setProgress({ completed: 0, total: 5, ready: false, checks: {}, missing: [] });
     setCandidates([]);
-    setRecommendations(null);
+    onRecommendationsChange(null);
     setError('');
     onAnchorChange(null);
   }
@@ -458,12 +472,14 @@ export function AdvisorView({
   );
 }
 
-function AdvisorRecommendationsView({ data, profile, onShowMap }: { data: AdvisorRecommendations; profile: AdvisorProfile; onShowMap: (mode: 'sale' | 'rent') => void }) {
+function AdvisorRecommendationsView({ data, profile, onShowMap }: { data: AdvisorRecommendations; profile: AdvisorProfile; onShowMap: (mode: 'sale' | 'rent', listingIds?: string[]) => void }) {
+  const mapMode = data.mode === 'buy' ? 'sale' : 'rent';
+  const listingIds = data.listings.map((listing) => listing.id);
   return (
     <div className="advisor-recommendations">
       <div className="advisor-recommendations__head">
         <div><p className="overline">AGENT SHORTLIST</p><h3>Three places, three real listings.</h3></div>
-        {profile.anchor_latitude != null && <button type="button" onClick={() => onShowMap(data.mode === 'buy' ? 'sale' : 'rent')}>View radius on map →</button>}
+        {profile.anchor_latitude != null && <button type="button" onClick={() => onShowMap(mapMode, listingIds)}>View radius on map →</button>}
       </div>
       {!!data.warnings?.length && data.warnings.map((warning) => <p className="advisor-result-warning" key={warning}>{warning}</p>)}
       <p className="advisor-result-label">Recommended locations</p>
@@ -490,6 +506,7 @@ function AdvisorRecommendationsView({ data, profile, onShowMap }: { data: Adviso
               {listing.nearest_mrt_distance_m != null && <span>{Math.round(listing.nearest_mrt_distance_m)} m to recorded MRT</span>}
               {listing.floor_area_sqft != null && <span>{Number(listing.floor_area_sqft).toLocaleString()} sqft</span>}
             </div>
+            <button className="advisor-listing-map" type="button" onClick={() => onShowMap(mapMode, [listing.id])}>View map →</button>
             <details><summary>Why this match</summary><ul>{listing.reasons?.map((reason) => <li key={reason}>{reason}</li>)}</ul></details>
           </article>
         ))}

@@ -86,6 +86,9 @@ h1, h2, h3, p { text-wrap: pretty; }
 .map-mode-control > span { padding: 0 8px; color: var(--muted); font-size: 9px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
 .map-mode-control button { padding: 8px 12px; border: 0; border-radius: 999px; color: var(--muted); background: none; font-size: 10px; cursor: pointer; }
 .map-mode-control button.active { color: white; background: var(--ink); }
+.advisor-map-filter { position: absolute; top: 73px; left: 52px; z-index: 880; display: flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 10px; color: white; background: rgba(16,44,42,.92); box-shadow: 0 8px 25px rgba(16,44,42,.16); font-size: 9px; }
+.advisor-map-filter span { font-weight: 800; }
+.advisor-map-filter button { border: 0; color: #9bd6ca; background: none; font-size: 8px; font-weight: 800; cursor: pointer; }
 .map-legend { position: absolute; left: 18px; bottom: 17px; z-index: 500; display: flex; align-items: center; gap: 10px; padding: 9px 12px; border-radius: 10px; background: rgba(255,253,248,.9); box-shadow: 0 5px 18px rgba(16,44,42,.12); color: var(--muted); font-size: 9px; backdrop-filter: blur(8px); }
 .map-legend span { display: flex; align-items: center; gap: 5px; }
 .map-legend b { color: var(--ink); font-weight: 700; }
@@ -578,6 +581,8 @@ h1, h2, h3, p { text-wrap: pretty; }
 .advisor-listing-grid h4 { margin-top: 10px; }
 .advisor-listing-tags { display: flex; flex-wrap: wrap; gap: 4px; margin: 9px 0; }
 .advisor-listing-tags span { padding: 3px 5px; border-radius: 99px; color: var(--teal); background: var(--teal-soft); font-size: 6px; }
+.advisor-listing-map { margin: 0 0 8px; padding: 0; border: 0; color: var(--teal); background: none; font-size: 8px; font-weight: 800; cursor: pointer; }
+.advisor-listing-map:hover { color: var(--coral); }
 .advisor-listing-grid details { font-size: 7px; }
 .advisor-listing-grid summary { color: var(--teal); cursor: pointer; }
 .advisor-listing-grid ul { margin: 6px 0 0; padding-left: 14px; color: var(--muted); line-height: 1.45; }
@@ -623,6 +628,7 @@ h1, h2, h3, p { text-wrap: pretty; }
   .region-empty { min-height: 350px; }
   .layer-panel { display: none; }
   .map-mode-control { left: 13px; }
+  .advisor-map-filter { left: 13px; right: 13px; justify-content: space-between; }
   .map-mode-control > span { display: none; }
   .recommend-section, .listings-section, .method-section, .advisor-section { padding: 65px 14px 95px; }
   .recommend-layout { grid-template-columns: 1fr; }

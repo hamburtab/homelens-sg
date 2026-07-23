@@ -23,6 +23,16 @@ from homelens.utils import json_default
 STATIC_DIR = Path(__file__).resolve().parent / "static"
 FRONTEND_DIST = PROJECT_ROOT / "map" / "dist"
 MAX_REQUEST_BYTES = 128 * 1024
+LOCAL_ORIGIN_HOSTS = {"127.0.0.1", "localhost", "::1"}
+
+
+def _local_origin_allowed(origin: str, request_host: str) -> bool:
+    parsed_origin = urlparse(origin)
+    if parsed_origin.scheme not in {"http", "https"}:
+        return False
+    origin_host = (parsed_origin.hostname or "").lower()
+    host_name = (request_host.rsplit("@", 1)[-1].split(":", 1)[0] or "").lower()
+    return origin_host in LOCAL_ORIGIN_HOSTS and host_name in LOCAL_ORIGIN_HOSTS
 
 
 def handler_factory(service: HomeLensService) -> type[BaseHTTPRequestHandler]:
@@ -138,12 +148,8 @@ def handler_factory(service: HomeLensService) -> type[BaseHTTPRequestHandler]:
                 return
             origin = self.headers.get("Origin")
             if origin:
-                parsed_origin = urlparse(origin)
                 request_host = self.headers.get("Host", "").lower()
-                if (
-                    parsed_origin.scheme not in {"http", "https"}
-                    or parsed_origin.netloc.lower() != request_host
-                ):
+                if not _local_origin_allowed(origin, request_host):
                     self._json(
                         HTTPStatus.FORBIDDEN,
                         {"error": "forbidden_origin", "message": "Cross-origin requests are blocked."},
