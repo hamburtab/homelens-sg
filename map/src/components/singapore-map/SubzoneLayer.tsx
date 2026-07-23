@@ -4,7 +4,7 @@ import type { GeoJSON as LGeo, Layer } from 'leaflet';
 import type { Feature } from 'geojson';
 import type { SubzoneCollection, SelectedRegion, ColorMap, SubzoneProfile } from '../../lib/types';
 import { subzoneColor } from '../../lib/colors';
-import { buildScoreTooltip } from '../../lib/subzone-scores';
+import { buildFacilityTooltip } from '../../lib/subzone-scores';
 
 interface P { data: SubzoneCollection; colorMap: ColorMap; selectedArea: SelectedRegion | null; onSelect: (r: SelectedRegion) => void; onHover: (r: SelectedRegion | null) => void; onFocusSubzone?: (id: string, f: Feature) => void; filterParentId?: string | null; outlineOnly?: boolean; subzoneScores?: Record<string, SubzoneProfile>; }
 type PL = { setStyle(s: Record<string,unknown>): void; bringToFront(): void };
@@ -54,7 +54,7 @@ export function SubzoneLayer({ data, colorMap, selectedArea, onSelect, onHover, 
         pl.setStyle({ weight:3, fillOpacity:0.85, color:'#222', dashArray:'' });
         pl.bringToFront();
         l.unbindTooltip();
-        (l as any).bindTooltip(buildScoreTooltip(scores), { direction:'top', sticky:true, className:'subzone-score-tooltip', opacity:0.95, offset:[0,-8] }).openTooltip();
+        (l as any).bindTooltip(buildFacilityTooltip(scores), { direction:'top', sticky:true, className:'subzone-score-tooltip', opacity:0.95, offset:[0,-8] }).openTooltip();
         ohRef.current({ id, name, type:'subzone', parentId:pid });
       }, mouseout: () => {
         if (l !== selRef.current) geoRef.current?.resetStyle(l);

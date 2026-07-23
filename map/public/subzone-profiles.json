@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T11:00:17.074006+00:00",
+  "generatedAt": "2026-07-22T09:24:28.924926+00:00",
   "profiles": {
     "ANG MO KIO TOWN CENTRE": {
       "name": "ANG MO KIO TOWN CENTRE",
@@ -36,6 +36,21 @@
           "places": 19,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 8,
+        "malls": 4,
+        "supermarkets": 2,
+        "convenienceStores": 3,
+        "foodCourts": 4,
+        "restaurants": 18,
+        "cafes": 13,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "CHENG SAN": {
@@ -73,6 +88,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 21,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 2,
+        "foodCourts": 2,
+        "restaurants": 13,
+        "cafes": 5,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 0
       }
     },
     "CHONG BOON": {
@@ -110,6 +140,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 15,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 2,
+        "foodCourts": 3,
+        "restaurants": 4,
+        "cafes": 2,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 4,
+        "kindergartens": 0
       }
     },
     "KEBUN BAHRU": {
@@ -147,6 +192,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 16,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 3,
+        "cafes": 1,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 2,
+        "kindergartens": 1
       }
     },
     "SEMBAWANG HILLS": {
@@ -184,6 +244,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 11,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 5,
+        "foodCourts": 1,
+        "restaurants": 9,
+        "cafes": 3,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "SHANGRI-LA": {
@@ -221,6 +296,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 12,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 1,
+        "foodCourts": 5,
+        "restaurants": 3,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 0
       }
     },
     "TAGORE": {
@@ -258,6 +348,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 24,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 20,
+        "cafes": 2,
+        "parks": 12,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 2
       }
     },
     "TOWNSVILLE": {
@@ -295,6 +400,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 9,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 4,
+        "restaurants": 11,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "YIO CHU KANG": {
@@ -332,6 +452,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 24,
+        "malls": 1,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 4,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "YIO CHU KANG EAST": {
@@ -369,6 +504,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 3,
+        "foodCourts": 7,
+        "restaurants": 1,
+        "cafes": 4,
+        "parks": 8,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "YIO CHU KANG NORTH": {
@@ -406,6 +556,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 8,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "YIO CHU KANG WEST": {
@@ -443,6 +608,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 16,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 2,
+        "foodCourts": 2,
+        "restaurants": 1,
+        "cafes": 2,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 3,
+        "kindergartens": 0
       }
     },
     "BAYSHORE": {
@@ -480,6 +660,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 11,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 3,
+        "cafes": 0,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 3,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "BEDOK NORTH": {
@@ -517,6 +712,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 57,
+        "malls": 3,
+        "supermarkets": 10,
+        "convenienceStores": 7,
+        "foodCourts": 8,
+        "restaurants": 42,
+        "cafes": 11,
+        "parks": 7,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 7,
+        "kindergartens": 1
       }
     },
     "BEDOK RESERVOIR": {
@@ -554,6 +764,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 19,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 6,
+        "cafes": 3,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 3,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "BEDOK SOUTH": {
@@ -591,6 +816,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 37,
+        "malls": 0,
+        "supermarkets": 4,
+        "convenienceStores": 2,
+        "foodCourts": 3,
+        "restaurants": 2,
+        "cafes": 0,
+        "parks": 18,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 5,
+        "kindergartens": 0
       }
     },
     "FRANKEL": {
@@ -628,6 +868,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 80,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 6,
+        "foodCourts": 3,
+        "restaurants": 52,
+        "cafes": 13,
+        "parks": 15,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 13,
+        "kindergartens": 8
       }
     },
     "KAKI BUKIT": {
@@ -665,6 +920,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 38,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 8,
+        "foodCourts": 6,
+        "restaurants": 8,
+        "cafes": 1,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "KEMBANGAN": {
@@ -702,6 +972,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 31,
+        "malls": 0,
+        "supermarkets": 5,
+        "convenienceStores": 4,
+        "foodCourts": 8,
+        "restaurants": 30,
+        "cafes": 5,
+        "parks": 22,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 3,
+        "kindergartens": 7
       }
     },
     "SIGLAP": {
@@ -739,6 +1024,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 14,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 5,
+        "cafes": 3,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BISHAN EAST": {
@@ -776,6 +1076,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 28,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 2,
+        "foodCourts": 5,
+        "restaurants": 17,
+        "cafes": 14,
+        "parks": 8,
+        "natureReserves": 0,
+        "sportsCentres": 3,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "MARYMOUNT": {
@@ -813,6 +1128,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 26,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 4,
+        "restaurants": 5,
+        "cafes": 3,
+        "parks": 9,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 0
       }
     },
     "UPPER THOMSON": {
@@ -850,6 +1180,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 49,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 6,
+        "foodCourts": 3,
+        "restaurants": 57,
+        "cafes": 30,
+        "parks": 18,
+        "natureReserves": 0,
+        "sportsCentres": 7,
+        "schools": 5,
+        "kindergartens": 0
       }
     },
     "LIU FANG": {
@@ -887,6 +1232,21 @@
           "places": 10,
           "reviews": 40
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 23,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 1,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SAMULUN": {
@@ -924,6 +1284,21 @@
           "places": 10,
           "reviews": 20
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 15,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SHIPYARD": {
@@ -961,6 +1336,21 @@
           "places": 12,
           "reviews": 12
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 18,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TUKANG": {
@@ -998,6 +1388,21 @@
           "places": 9,
           "reviews": 20
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 23,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BRICKWORKS": {
@@ -1035,6 +1440,21 @@
           "places": 8,
           "reviews": 29
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 30,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 2,
+        "foodCourts": 6,
+        "restaurants": 4,
+        "cafes": 5,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "BUKIT BATOK CENTRAL": {
@@ -1072,6 +1492,21 @@
           "places": 8,
           "reviews": 15
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 30,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 0,
+        "foodCourts": 4,
+        "restaurants": 4,
+        "cafes": 3,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 3,
+        "kindergartens": 0
       }
     },
     "BUKIT BATOK EAST": {
@@ -1109,6 +1544,21 @@
           "places": 9,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 9,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 2,
+        "foodCourts": 3,
+        "restaurants": 4,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BUKIT BATOK SOUTH": {
@@ -1146,6 +1596,21 @@
           "places": 7,
           "reviews": 0
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 19,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 2,
+        "foodCourts": 3,
+        "restaurants": 4,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "BUKIT BATOK WEST": {
@@ -1183,6 +1648,21 @@
           "places": 10,
           "reviews": 15
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 13,
+        "malls": 0,
+        "supermarkets": 4,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 3,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "GOMBAK": {
@@ -1220,6 +1700,21 @@
           "places": 7,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 13,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 1,
+        "cafes": 2,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "GUILIN": {
@@ -1257,6 +1752,21 @@
           "places": 3,
           "reviews": 0
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 13,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 3,
+        "foodCourts": 0,
+        "restaurants": 5,
+        "cafes": 3,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "HILLVIEW": {
@@ -1294,6 +1804,21 @@
           "places": 7,
           "reviews": 19
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 30,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 4,
+        "foodCourts": 0,
+        "restaurants": 12,
+        "cafes": 4,
+        "parks": 5,
+        "natureReserves": 1,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "HONG KAH NORTH": {
@@ -1331,6 +1856,21 @@
           "places": 4,
           "reviews": 0
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 18,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 1,
+        "foodCourts": 5,
+        "restaurants": 5,
+        "cafes": 2,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 5,
+        "kindergartens": 0
       }
     },
     "ALEXANDRA HILL": {
@@ -1368,6 +1908,21 @@
           "places": 5,
           "reviews": 15
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 26,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 4,
+        "foodCourts": 5,
+        "restaurants": 22,
+        "cafes": 6,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "ALEXANDRA NORTH": {
@@ -1405,6 +1960,21 @@
           "places": 9,
           "reviews": 32
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 4,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 0
       }
     },
     "BUKIT HO SWEE": {
@@ -1442,6 +2012,21 @@
           "places": 12,
           "reviews": 41
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 10,
+        "malls": 2,
+        "supermarkets": 1,
+        "convenienceStores": 2,
+        "foodCourts": 8,
+        "restaurants": 14,
+        "cafes": 1,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BUKIT MERAH": {
@@ -1479,6 +2064,21 @@
           "places": 10,
           "reviews": 15
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 7,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 2,
+        "foodCourts": 2,
+        "restaurants": 9,
+        "cafes": 4,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "CITY TERMINALS": {
@@ -1516,6 +2116,21 @@
           "places": 12,
           "reviews": 35
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 10,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 2,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "DEPOT ROAD": {
@@ -1553,6 +2168,21 @@
           "places": 12,
           "reviews": 13
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 6,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 2,
+        "foodCourts": 1,
+        "restaurants": 2,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "EVERTON PARK": {
@@ -1590,6 +2220,21 @@
           "places": 8,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 9,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 3,
+        "foodCourts": 1,
+        "restaurants": 10,
+        "cafes": 8,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "HENDERSON HILL": {
@@ -1627,6 +2272,21 @@
           "places": 6,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 14,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 3,
+        "kindergartens": 2
       }
     },
     "KAMPONG TIONG BAHRU": {
@@ -1664,6 +2324,21 @@
           "places": 10,
           "reviews": 9
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 7,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 2,
+        "cafes": 2,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MARITIME SQUARE": {
@@ -1701,6 +2376,21 @@
           "places": 12,
           "reviews": 36
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 4,
+        "busStops": 17,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 5,
+        "foodCourts": 6,
+        "restaurants": 62,
+        "cafes": 27,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "REDHILL": {
@@ -1738,6 +2428,21 @@
           "places": 9,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 10,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 4,
+        "foodCourts": 3,
+        "restaurants": 11,
+        "cafes": 3,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 4,
+        "kindergartens": 1
       }
     },
     "SINGAPORE GENERAL HOSPITAL": {
@@ -1775,6 +2480,21 @@
           "places": 7,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 18,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 4,
+        "cafes": 7,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TELOK BLANGAH DRIVE": {
@@ -1812,6 +2532,21 @@
           "places": 9,
           "reviews": 15
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 24,
+        "malls": 0,
+        "supermarkets": 4,
+        "convenienceStores": 0,
+        "foodCourts": 4,
+        "restaurants": 11,
+        "cafes": 1,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "TELOK BLANGAH RISE": {
@@ -1849,6 +2584,21 @@
           "places": 9,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 11,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 0
       }
     },
     "TELOK BLANGAH WAY": {
@@ -1886,6 +2636,21 @@
           "places": 9,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 4,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "TIONG BAHRU": {
@@ -1923,6 +2688,21 @@
           "places": 10,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 5,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 3,
+        "foodCourts": 1,
+        "restaurants": 19,
+        "cafes": 8,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "TIONG BAHRU STATION": {
@@ -1960,6 +2740,21 @@
           "places": 7,
           "reviews": 0
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 6,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 3,
+        "foodCourts": 3,
+        "restaurants": 15,
+        "cafes": 7,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 5,
+        "kindergartens": 0
       }
     },
     "BANGKIT": {
@@ -1997,6 +2792,21 @@
           "places": 8,
           "reviews": 19
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 11,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 2,
+        "foodCourts": 5,
+        "restaurants": 0,
+        "cafes": 1,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "DAIRY FARM": {
@@ -2034,6 +2844,21 @@
           "places": 7,
           "reviews": 20
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 15,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 3,
+        "cafes": 2,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 5,
+        "kindergartens": 2
       }
     },
     "FAJAR": {
@@ -2071,6 +2896,21 @@
           "places": 11,
           "reviews": 20
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 13,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "JELEBU": {
@@ -2108,6 +2948,21 @@
           "places": 11,
           "reviews": 15
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 4,
+        "busStops": 24,
+        "malls": 3,
+        "supermarkets": 3,
+        "convenienceStores": 5,
+        "foodCourts": 6,
+        "restaurants": 24,
+        "cafes": 8,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 3
       }
     },
     "NATURE RESERVE": {
@@ -2145,6 +3000,21 @@
           "places": 6,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 9,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 11,
+        "cafes": 6,
+        "parks": 2,
+        "natureReserves": 3,
+        "sportsCentres": 2,
+        "schools": 2,
+        "kindergartens": 4
       }
     },
     "SAUJANA": {
@@ -2182,6 +3052,21 @@
           "places": 9,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 17,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 1,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "SENJA": {
@@ -2219,6 +3104,21 @@
           "places": 10,
           "reviews": 13
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 19,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 1,
+        "foodCourts": 4,
+        "restaurants": 1,
+        "cafes": 2,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "ANAK BUKIT": {
@@ -2256,6 +3156,21 @@
           "places": 10,
           "reviews": 38
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 34,
+        "malls": 3,
+        "supermarkets": 3,
+        "convenienceStores": 6,
+        "foodCourts": 3,
+        "restaurants": 43,
+        "cafes": 15,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 4,
+        "schools": 3,
+        "kindergartens": 9
       }
     },
     "CORONATION ROAD": {
@@ -2293,6 +3208,21 @@
           "places": 9,
           "reviews": 15
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 10,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 12,
+        "cafes": 7,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 2
       }
     },
     "FARRER COURT": {
@@ -2330,6 +3260,21 @@
           "places": 11,
           "reviews": 20
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 5,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 3,
+        "cafes": 1,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 2
       }
     },
     "HILLCREST": {
@@ -2367,6 +3312,21 @@
           "places": 8,
           "reviews": 25
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 7,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 13,
+        "cafes": 2,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 5,
+        "kindergartens": 4
       }
     },
     "HOLLAND ROAD": {
@@ -2404,6 +3364,21 @@
           "places": 9,
           "reviews": 33
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 24,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 4,
+        "foodCourts": 0,
+        "restaurants": 11,
+        "cafes": 8,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "LEEDON PARK": {
@@ -2441,6 +3416,21 @@
           "places": 9,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 10,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 5,
+        "cafes": 9,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "SWISS CLUB": {
@@ -2478,6 +3468,21 @@
           "places": 5,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 10,
+        "cafes": 2,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 6,
+        "schools": 8,
+        "kindergartens": 2
       }
     },
     "ULU PANDAN": {
@@ -2515,6 +3520,21 @@
           "places": 9,
           "reviews": 19
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 18,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 4,
+        "cafes": 2,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "CENTRAL WATER CATCHMENT": {
@@ -2552,6 +3572,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 28,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 3,
+        "foodCourts": 3,
+        "restaurants": 12,
+        "cafes": 8,
+        "parks": 9,
+        "natureReserves": 1,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CHANGI AIRPORT": {
@@ -2589,6 +3624,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 9,
+        "busStops": 50,
+        "malls": 5,
+        "supermarkets": 3,
+        "convenienceStores": 9,
+        "foodCourts": 5,
+        "restaurants": 88,
+        "cafes": 45,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "CHANGI POINT": {
@@ -2626,6 +3676,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 17,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 2,
+        "restaurants": 16,
+        "cafes": 2,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CHANGI WEST": {
@@ -2663,6 +3728,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 32,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 2,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CHANGI BAY": {
@@ -2700,6 +3780,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 1,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CHOA CHU KANG CENTRAL": {
@@ -2737,6 +3832,21 @@
           "places": 7,
           "reviews": 30
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 22,
+        "malls": 1,
+        "supermarkets": 2,
+        "convenienceStores": 3,
+        "foodCourts": 2,
+        "restaurants": 7,
+        "cafes": 5,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "CHOA CHU KANG NORTH": {
@@ -2774,6 +3884,21 @@
           "places": 8,
           "reviews": 20
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 21,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 3,
+        "cafes": 3,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 4,
+        "kindergartens": 0
       }
     },
     "KEAT HONG": {
@@ -2811,6 +3936,21 @@
           "places": 9,
           "reviews": 16
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 29,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 2,
+        "foodCourts": 2,
+        "restaurants": 3,
+        "cafes": 1,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "PENG SIANG": {
@@ -2848,6 +3988,21 @@
           "places": 10,
           "reviews": 20
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 21,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "TECK WHYE": {
@@ -2885,6 +4040,21 @@
           "places": 8,
           "reviews": 16
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 20,
+        "malls": 1,
+        "supermarkets": 5,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 3,
+        "cafes": 2,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 4,
+        "kindergartens": 1
       }
     },
     "YEW TEE": {
@@ -2922,6 +4092,21 @@
           "places": 8,
           "reviews": 9
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 18,
+        "malls": 2,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 2,
+        "cafes": 4,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 0
       }
     },
     "CLEMENTI CENTRAL": {
@@ -2959,6 +4144,21 @@
           "places": 12,
           "reviews": 36
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 14,
+        "malls": 3,
+        "supermarkets": 5,
+        "convenienceStores": 4,
+        "foodCourts": 8,
+        "restaurants": 10,
+        "cafes": 10,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 2,
+        "kindergartens": 1
       }
     },
     "CLEMENTI NORTH": {
@@ -2996,6 +4196,21 @@
           "places": 11,
           "reviews": 11
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 16,
+        "malls": 0,
+        "supermarkets": 4,
+        "convenienceStores": 2,
+        "foodCourts": 8,
+        "restaurants": 8,
+        "cafes": 2,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "CLEMENTI WEST": {
@@ -3033,6 +4248,21 @@
           "places": 12,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 19,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 1,
+        "restaurants": 6,
+        "cafes": 2,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 4,
+        "kindergartens": 0
       }
     },
     "CLEMENTI WOODS": {
@@ -3070,6 +4300,21 @@
           "places": 11,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 19,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 3,
+        "cafes": 7,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 6,
+        "kindergartens": 3
       }
     },
     "FABER": {
@@ -3107,6 +4352,21 @@
           "places": 10,
           "reviews": 23
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 7,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 1,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "PANDAN": {
@@ -3144,6 +4404,21 @@
           "places": 7,
           "reviews": 4
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 9,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 0,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SUNSET WAY": {
@@ -3181,6 +4456,21 @@
           "places": 8,
           "reviews": 15
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 4,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 1,
+        "restaurants": 8,
+        "cafes": 1,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TOH TUCK": {
@@ -3218,6 +4508,21 @@
           "places": 12,
           "reviews": 28
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 18,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 3,
+        "foodCourts": 6,
+        "restaurants": 4,
+        "cafes": 0,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "WEST COAST": {
@@ -3255,6 +4560,21 @@
           "places": 9,
           "reviews": 6
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 4,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 8,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "ANSON": {
@@ -3292,6 +4612,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 5,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 12,
+        "cafes": 4,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BAYFRONT SUBZONE": {
@@ -3329,6 +4664,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 5,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 1,
+        "restaurants": 13,
+        "cafes": 13,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BUGIS": {
@@ -3366,6 +4716,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 13,
+        "malls": 4,
+        "supermarkets": 2,
+        "convenienceStores": 8,
+        "foodCourts": 4,
+        "restaurants": 102,
+        "cafes": 43,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "CECIL": {
@@ -3403,6 +4768,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 4,
+        "malls": 2,
+        "supermarkets": 1,
+        "convenienceStores": 6,
+        "foodCourts": 32,
+        "restaurants": 36,
+        "cafes": 21,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "CENTRAL SUBZONE": {
@@ -3440,6 +4820,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 4,
+        "busStops": 12,
+        "malls": 2,
+        "supermarkets": 1,
+        "convenienceStores": 2,
+        "foodCourts": 1,
+        "restaurants": 48,
+        "cafes": 23,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CITY HALL": {
@@ -3477,6 +4872,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 16,
+        "malls": 8,
+        "supermarkets": 5,
+        "convenienceStores": 4,
+        "foodCourts": 3,
+        "restaurants": 90,
+        "cafes": 48,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CLIFFORD PIER": {
@@ -3514,6 +4924,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 2,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 21,
+        "cafes": 4,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MARINA CENTRE": {
@@ -3551,6 +4976,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 17,
+        "malls": 6,
+        "supermarkets": 3,
+        "convenienceStores": 8,
+        "foodCourts": 6,
+        "restaurants": 113,
+        "cafes": 47,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "MAXWELL": {
@@ -3588,6 +5028,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 1,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 5,
+        "cafes": 15,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "NICOLL": {
@@ -3625,6 +5080,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 6,
+        "malls": 1,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 2,
+        "cafes": 2,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PHILLIP": {
@@ -3662,6 +5132,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 1,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 3,
+        "cafes": 6,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "RAFFLES PLACE": {
@@ -3699,6 +5184,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 2,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 4,
+        "foodCourts": 1,
+        "restaurants": 21,
+        "cafes": 25,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TANJONG PAGAR": {
@@ -3736,6 +5236,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 2,
+        "malls": 2,
+        "supermarkets": 1,
+        "convenienceStores": 3,
+        "foodCourts": 1,
+        "restaurants": 45,
+        "cafes": 30,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "ALJUNIED": {
@@ -3773,6 +5288,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 46,
+        "malls": 2,
+        "supermarkets": 9,
+        "convenienceStores": 16,
+        "foodCourts": 45,
+        "restaurants": 103,
+        "cafes": 8,
+        "parks": 9,
+        "natureReserves": 0,
+        "sportsCentres": 4,
+        "schools": 10,
+        "kindergartens": 1
       }
     },
     "GEYLANG EAST": {
@@ -3810,6 +5340,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 40,
+        "malls": 6,
+        "supermarkets": 14,
+        "convenienceStores": 17,
+        "foodCourts": 15,
+        "restaurants": 88,
+        "cafes": 37,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 4,
+        "kindergartens": 2
       }
     },
     "KALLANG WAY": {
@@ -3847,6 +5392,21 @@
           "places": 9,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 16,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 2,
+        "foodCourts": 3,
+        "restaurants": 4,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "KAMPONG UBI": {
@@ -3884,6 +5444,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 38,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 2,
+        "foodCourts": 6,
+        "restaurants": 6,
+        "cafes": 8,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 2
       }
     },
     "MACPHERSON": {
@@ -3921,6 +5496,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 22,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 5,
+        "foodCourts": 5,
+        "restaurants": 16,
+        "cafes": 4,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "DEFU INDUSTRIAL PARK": {
@@ -3958,6 +5548,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 17,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 2,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "HOUGANG CENTRAL": {
@@ -3995,6 +5600,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 14,
+        "malls": 2,
+        "supermarkets": 2,
+        "convenienceStores": 3,
+        "foodCourts": 4,
+        "restaurants": 12,
+        "cafes": 11,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "HOUGANG EAST": {
@@ -4032,6 +5652,21 @@
           "places": 9,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 18,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 3,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "HOUGANG WEST": {
@@ -4069,6 +5704,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 32,
+        "malls": 0,
+        "supermarkets": 4,
+        "convenienceStores": 3,
+        "foodCourts": 8,
+        "restaurants": 7,
+        "cafes": 3,
+        "parks": 8,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 5,
+        "kindergartens": 4
       }
     },
     "KANGKAR": {
@@ -4106,6 +5756,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 19,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 2,
+        "cafes": 7,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "KOVAN": {
@@ -4143,6 +5808,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 16,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 3,
+        "foodCourts": 0,
+        "restaurants": 8,
+        "cafes": 3,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 4,
+        "kindergartens": 5
       }
     },
     "LORONG AH SOO": {
@@ -4180,6 +5860,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 27,
+        "malls": 2,
+        "supermarkets": 5,
+        "convenienceStores": 5,
+        "foodCourts": 4,
+        "restaurants": 25,
+        "cafes": 11,
+        "parks": 8,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 3,
+        "kindergartens": 3
       }
     },
     "LORONG HALUS": {
@@ -4217,6 +5912,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 1,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TAI SENG": {
@@ -4254,6 +5964,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 20,
+        "malls": 1,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 7,
+        "restaurants": 18,
+        "cafes": 5,
+        "parks": 7,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 1
       }
     },
     "TRAFALGAR": {
@@ -4291,6 +6016,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 45,
+        "malls": 3,
+        "supermarkets": 3,
+        "convenienceStores": 2,
+        "foodCourts": 4,
+        "restaurants": 10,
+        "cafes": 7,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "INTERNATIONAL BUSINESS PARK": {
@@ -4328,6 +6068,21 @@
           "places": 6,
           "reviews": 20
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 4,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "JURONG GATEWAY": {
@@ -4365,6 +6120,21 @@
           "places": 11,
           "reviews": 28
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 21,
+        "malls": 2,
+        "supermarkets": 5,
+        "convenienceStores": 3,
+        "foodCourts": 6,
+        "restaurants": 21,
+        "cafes": 17,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "JURONG PORT": {
@@ -4402,6 +6172,21 @@
           "places": 11,
           "reviews": 35
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 9,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "JURONG RIVER": {
@@ -4439,6 +6224,21 @@
           "places": 8,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 10,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "LAKESIDE (BUSINESS)": {
@@ -4476,6 +6276,21 @@
           "places": 6,
           "reviews": 6
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 8,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "LAKESIDE (LEISURE)": {
@@ -4513,6 +6328,21 @@
           "places": 5,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 12,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 3,
+        "cafes": 4,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PENJURU CRESCENT": {
@@ -4550,6 +6380,21 @@
           "places": 11,
           "reviews": 30
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 21,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TEBAN GARDENS": {
@@ -4587,6 +6432,21 @@
           "places": 8,
           "reviews": 24
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 33,
+        "malls": 0,
+        "supermarkets": 4,
+        "convenienceStores": 5,
+        "foodCourts": 2,
+        "restaurants": 5,
+        "cafes": 0,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 1,
+        "kindergartens": 2
       }
     },
     "TOH GUAN": {
@@ -4624,6 +6484,21 @@
           "places": 10,
           "reviews": 15
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 11,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 10,
+        "cafes": 3,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "YUHUA EAST": {
@@ -4661,6 +6536,21 @@
           "places": 9,
           "reviews": 0
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 17,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 4,
+        "foodCourts": 1,
+        "restaurants": 5,
+        "cafes": 0,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "YUHUA WEST": {
@@ -4698,6 +6588,21 @@
           "places": 8,
           "reviews": 0
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 12,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 2,
+        "foodCourts": 4,
+        "restaurants": 4,
+        "cafes": 1,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "BOON LAY PLACE": {
@@ -4735,6 +6640,21 @@
           "places": 8,
           "reviews": 27
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 25,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 1,
+        "restaurants": 5,
+        "cafes": 0,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "CHIN BEE": {
@@ -4772,6 +6692,21 @@
           "places": 9,
           "reviews": 26
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 19,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "HONG KAH": {
@@ -4809,6 +6744,21 @@
           "places": 9,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 30,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 6,
+        "foodCourts": 5,
+        "restaurants": 12,
+        "cafes": 2,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 7,
+        "kindergartens": 1
       }
     },
     "JURONG WEST CENTRAL": {
@@ -4846,6 +6796,21 @@
           "places": 8,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 34,
+        "malls": 3,
+        "supermarkets": 3,
+        "convenienceStores": 7,
+        "foodCourts": 6,
+        "restaurants": 15,
+        "cafes": 13,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 4,
+        "kindergartens": 1
       }
     },
     "KIAN TECK": {
@@ -4883,6 +6848,21 @@
           "places": 10,
           "reviews": 27
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 34,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 2,
+        "restaurants": 6,
+        "cafes": 1,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SAFTI": {
@@ -4920,6 +6900,21 @@
           "places": 10,
           "reviews": 15
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 5,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "TAMAN JURONG": {
@@ -4957,6 +6952,21 @@
           "places": 7,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 39,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 3,
+        "foodCourts": 6,
+        "restaurants": 6,
+        "cafes": 2,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 5,
+        "kindergartens": 1
       }
     },
     "WENYA": {
@@ -4994,6 +7004,21 @@
           "places": 10,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 13,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 3,
+        "cafes": 0,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "YUNNAN": {
@@ -5031,6 +7056,21 @@
           "places": 3,
           "reviews": 0
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 52,
+        "malls": 1,
+        "supermarkets": 9,
+        "convenienceStores": 8,
+        "foodCourts": 4,
+        "restaurants": 6,
+        "cafes": 3,
+        "parks": 11,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 6,
+        "kindergartens": 0
       }
     },
     "BENDEMEER": {
@@ -5068,6 +7108,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 20,
+        "malls": 0,
+        "supermarkets": 7,
+        "convenienceStores": 3,
+        "foodCourts": 4,
+        "restaurants": 21,
+        "cafes": 2,
+        "parks": 12,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 5,
+        "kindergartens": 2
       }
     },
     "BOON KENG": {
@@ -5105,6 +7160,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 8,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 3,
+        "foodCourts": 1,
+        "restaurants": 5,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 3
       }
     },
     "CRAWFORD": {
@@ -5142,6 +7212,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 7,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 4,
+        "foodCourts": 6,
+        "restaurants": 27,
+        "cafes": 9,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 2,
+        "kindergartens": 1
       }
     },
     "GEYLANG BAHRU": {
@@ -5179,6 +7264,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 10,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "KALLANG BAHRU": {
@@ -5216,6 +7316,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 12,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 0,
+        "foodCourts": 4,
+        "restaurants": 23,
+        "cafes": 11,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 3,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "KAMPONG BUGIS": {
@@ -5253,6 +7368,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 8,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 11,
+        "cafes": 0,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "KAMPONG JAVA": {
@@ -5290,6 +7420,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 19,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 2,
+        "foodCourts": 2,
+        "restaurants": 22,
+        "cafes": 8,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "LAVENDER": {
@@ -5327,6 +7472,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 14,
+        "malls": 7,
+        "supermarkets": 10,
+        "convenienceStores": 18,
+        "foodCourts": 11,
+        "restaurants": 119,
+        "cafes": 46,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 4,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "TANJONG RHU": {
@@ -5364,6 +7524,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 28,
+        "malls": 2,
+        "supermarkets": 2,
+        "convenienceStores": 3,
+        "foodCourts": 4,
+        "restaurants": 28,
+        "cafes": 10,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 13,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "LIM CHU KANG": {
@@ -5401,6 +7576,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 31,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 2,
+        "cafes": 1,
+        "parks": 2,
+        "natureReserves": 2,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MANDAI EAST": {
@@ -5438,6 +7628,21 @@
           "places": 16,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 7,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MANDAI ESTATE": {
@@ -5475,6 +7680,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 2,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 9,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MANDAI WEST": {
@@ -5512,6 +7732,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MARINA EAST": {
@@ -5549,6 +7784,21 @@
           "places": 2,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MARINA SOUTH": {
@@ -5586,6 +7836,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 9,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 8,
+        "cafes": 7,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "EAST COAST": {
@@ -5623,6 +7888,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 12,
+        "cafes": 5,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "KATONG": {
@@ -5660,6 +7940,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 20,
+        "malls": 2,
+        "supermarkets": 4,
+        "convenienceStores": 4,
+        "foodCourts": 3,
+        "restaurants": 67,
+        "cafes": 23,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 7,
+        "kindergartens": 3
       }
     },
     "MARINA EAST (MP)": {
@@ -5697,6 +7992,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 2,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MARINE PARADE": {
@@ -5734,6 +8044,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 21,
+        "malls": 9,
+        "supermarkets": 10,
+        "convenienceStores": 3,
+        "foodCourts": 7,
+        "restaurants": 35,
+        "cafes": 32,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 5,
+        "kindergartens": 3
       }
     },
     "MOUNTBATTEN": {
@@ -5771,6 +8096,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 19,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 14,
+        "cafes": 1,
+        "parks": 7,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 4,
+        "kindergartens": 3
       }
     },
     "BRAS BASAH": {
@@ -5808,6 +8148,21 @@
           "places": 11,
           "reviews": 52
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 8,
+        "malls": 2,
+        "supermarkets": 0,
+        "convenienceStores": 2,
+        "foodCourts": 1,
+        "restaurants": 7,
+        "cafes": 14,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "DHOBY GHAUT": {
@@ -5845,6 +8200,21 @@
           "places": 11,
           "reviews": 40
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 6,
+        "malls": 2,
+        "supermarkets": 3,
+        "convenienceStores": 4,
+        "foodCourts": 3,
+        "restaurants": 28,
+        "cafes": 15,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "FORT CANNING": {
@@ -5882,6 +8252,21 @@
           "places": 3,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 1,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CAIRNHILL": {
@@ -5919,6 +8304,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "GOODWOOD PARK": {
@@ -5956,6 +8356,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 3,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 4,
+        "cafes": 2,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "ISTANA NEGARA": {
@@ -5993,6 +8408,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "MONK'S HILL": {
@@ -6030,6 +8460,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 1,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 2,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "NEWTON CIRCUS": {
@@ -6067,6 +8512,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 3,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "ORANGE GROVE": {
@@ -6104,6 +8564,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 1,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 0
       }
     },
     "NORTH-EASTERN ISLANDS": {
@@ -6141,6 +8616,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 3,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BALESTIER": {
@@ -6178,6 +8668,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 37,
+        "malls": 3,
+        "supermarkets": 8,
+        "convenienceStores": 25,
+        "foodCourts": 15,
+        "restaurants": 62,
+        "cafes": 27,
+        "parks": 8,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 11
       }
     },
     "DUNEARN": {
@@ -6215,6 +8720,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 3,
+        "foodCourts": 1,
+        "restaurants": 5,
+        "cafes": 0,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "MALCOLM": {
@@ -6252,6 +8772,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 11,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 4,
+        "kindergartens": 2
       }
     },
     "MOULMEIN": {
@@ -6289,6 +8824,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 18,
+        "malls": 5,
+        "supermarkets": 6,
+        "convenienceStores": 6,
+        "foodCourts": 4,
+        "restaurants": 58,
+        "cafes": 29,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 3,
+        "kindergartens": 8
       }
     },
     "MOUNT PLEASANT": {
@@ -6326,6 +8876,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 10,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BOULEVARD": {
@@ -6363,6 +8928,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 9,
+        "malls": 19,
+        "supermarkets": 8,
+        "convenienceStores": 8,
+        "foodCourts": 5,
+        "restaurants": 74,
+        "cafes": 57,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 3,
+        "kindergartens": 2
       }
     },
     "SOMERSET": {
@@ -6400,6 +8980,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 8,
+        "malls": 14,
+        "supermarkets": 2,
+        "convenienceStores": 7,
+        "foodCourts": 7,
+        "restaurants": 73,
+        "cafes": 36,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 3,
+        "schools": 2,
+        "kindergartens": 1
       }
     },
     "TANGLIN": {
@@ -6437,6 +9032,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 2,
+        "malls": 1,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 10,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CHINA SQUARE": {
@@ -6474,6 +9084,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 2,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 6,
+        "foodCourts": 1,
+        "restaurants": 72,
+        "cafes": 21,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CHINATOWN": {
@@ -6511,6 +9136,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 15,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 15,
+        "foodCourts": 9,
+        "restaurants": 378,
+        "cafes": 75,
+        "parks": 12,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "PEARL'S HILL": {
@@ -6548,6 +9188,21 @@
           "places": 15,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 7,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 4,
+        "restaurants": 8,
+        "cafes": 2,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "PEOPLE'S PARK": {
@@ -6585,6 +9240,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 3,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "FLORA DRIVE": {
@@ -6622,6 +9292,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 20,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "LOYANG EAST": {
@@ -6659,6 +9344,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 11,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "LOYANG WEST": {
@@ -6696,6 +9396,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 21,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 3,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PASIR RIS CENTRAL": {
@@ -6733,6 +9448,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 39,
+        "malls": 2,
+        "supermarkets": 4,
+        "convenienceStores": 5,
+        "foodCourts": 4,
+        "restaurants": 47,
+        "cafes": 19,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 3,
+        "kindergartens": 2
       }
     },
     "PASIR RIS DRIVE": {
@@ -6770,6 +9500,21 @@
           "places": 10,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 40,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 3,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 2,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 7,
+        "kindergartens": 0
       }
     },
     "PASIR RIS PARK": {
@@ -6807,6 +9552,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 14,
+        "malls": 1,
+        "supermarkets": 2,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 10,
+        "cafes": 5,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 1,
+        "kindergartens": 2
       }
     },
     "PASIR RIS WAFER FAB PARK": {
@@ -6844,6 +9604,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 5,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PASIR RIS WEST": {
@@ -6881,6 +9656,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 37,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 4,
+        "foodCourts": 2,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 3
       }
     },
     "AIRPORT ROAD": {
@@ -6918,6 +9708,21 @@
           "places": 9,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 2,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PAYA LEBAR EAST": {
@@ -6955,6 +9760,21 @@
           "places": 9,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 2,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PAYA LEBAR NORTH": {
@@ -6992,6 +9812,21 @@
           "places": 17,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 12,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PAYA LEBAR WEST": {
@@ -7029,6 +9864,21 @@
           "places": 5,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 7,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PLAB": {
@@ -7066,6 +9916,21 @@
           "places": 9,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 20,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 2,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BENOI SECTOR": {
@@ -7103,6 +9968,21 @@
           "places": 11,
           "reviews": 46
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 21,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "GUL BASIN": {
@@ -7140,6 +10020,21 @@
           "places": 12,
           "reviews": 35
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 15,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "GUL CIRCLE": {
@@ -7177,6 +10072,21 @@
           "places": 9,
           "reviews": 13
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 34,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "JOO KOON": {
@@ -7214,6 +10124,21 @@
           "places": 11,
           "reviews": 11
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 43,
+        "malls": 1,
+        "supermarkets": 2,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 1,
+        "cafes": 2,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PIONEER SECTOR": {
@@ -7251,6 +10176,21 @@
           "places": 12,
           "reviews": 30
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 18,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CONEY ISLAND": {
@@ -7288,6 +10228,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MATILDA": {
@@ -7325,6 +10280,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 35,
+        "malls": 0,
+        "supermarkets": 5,
+        "convenienceStores": 3,
+        "foodCourts": 5,
+        "restaurants": 1,
+        "cafes": 2,
+        "parks": 10,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 1
       }
     },
     "NORTHSHORE": {
@@ -7362,6 +10332,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 4,
+        "busStops": 27,
+        "malls": 2,
+        "supermarkets": 3,
+        "convenienceStores": 4,
+        "foodCourts": 5,
+        "restaurants": 22,
+        "cafes": 20,
+        "parks": 10,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 4,
+        "kindergartens": 5
       }
     },
     "PUNGGOL CANAL": {
@@ -7399,6 +10384,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 4,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PUNGGOL FIELD": {
@@ -7436,6 +10436,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 5,
+        "busStops": 21,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 4,
+        "foodCourts": 2,
+        "restaurants": 9,
+        "cafes": 7,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 6,
+        "kindergartens": 2
       }
     },
     "PUNGGOL TOWN CENTRE": {
@@ -7473,6 +10488,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 4,
+        "busStops": 22,
+        "malls": 1,
+        "supermarkets": 6,
+        "convenienceStores": 4,
+        "foodCourts": 7,
+        "restaurants": 34,
+        "cafes": 21,
+        "parks": 9,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 8,
+        "kindergartens": 4
       }
     },
     "WATERWAY EAST": {
@@ -7510,6 +10540,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 31,
+        "malls": 0,
+        "supermarkets": 10,
+        "convenienceStores": 2,
+        "foodCourts": 6,
+        "restaurants": 8,
+        "cafes": 6,
+        "parks": 12,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 6,
+        "kindergartens": 1
       }
     },
     "COMMONWEALTH": {
@@ -7547,6 +10592,21 @@
           "places": 10,
           "reviews": 49
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 5,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 3,
+        "restaurants": 1,
+        "cafes": 2,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "DOVER": {
@@ -7584,6 +10644,21 @@
           "places": 8,
           "reviews": 35
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 15,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 3,
+        "foodCourts": 4,
+        "restaurants": 19,
+        "cafes": 8,
+        "parks": 8,
+        "natureReserves": 0,
+        "sportsCentres": 4,
+        "schools": 6,
+        "kindergartens": 1
       }
     },
     "GHIM MOH": {
@@ -7621,6 +10696,21 @@
           "places": 7,
           "reviews": 11
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 8,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 6,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 1
       }
     },
     "HOLLAND DRIVE": {
@@ -7658,6 +10748,21 @@
           "places": 10,
           "reviews": 28
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 9,
+        "malls": 3,
+        "supermarkets": 4,
+        "convenienceStores": 4,
+        "foodCourts": 5,
+        "restaurants": 54,
+        "cafes": 13,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "KENT RIDGE": {
@@ -7695,6 +10800,21 @@
           "places": 2,
           "reviews": 0
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 21,
+        "malls": 1,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 1,
+        "restaurants": 20,
+        "cafes": 7,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 3,
+        "kindergartens": 0
       }
     },
     "MARGARET DRIVE": {
@@ -7732,6 +10852,21 @@
           "places": 9,
           "reviews": 13
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 19,
+        "malls": 1,
+        "supermarkets": 5,
+        "convenienceStores": 1,
+        "foodCourts": 3,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 5,
+        "kindergartens": 1
       }
     },
     "MEI CHIN": {
@@ -7769,6 +10904,21 @@
           "places": 8,
           "reviews": 27
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 16,
+        "malls": 1,
+        "supermarkets": 2,
+        "convenienceStores": 4,
+        "foodCourts": 3,
+        "restaurants": 9,
+        "cafes": 6,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "NATIONAL UNIVERSITY OF S'PORE": {
@@ -7806,6 +10956,21 @@
           "places": 9,
           "reviews": 18
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 37,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 7,
+        "foodCourts": 11,
+        "restaurants": 49,
+        "cafes": 28,
+        "parks": 13,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 4,
+        "kindergartens": 0
       }
     },
     "ONE NORTH": {
@@ -7843,6 +11008,21 @@
           "places": 7,
           "reviews": 16
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 30,
+        "malls": 4,
+        "supermarkets": 2,
+        "convenienceStores": 6,
+        "foodCourts": 3,
+        "restaurants": 60,
+        "cafes": 26,
+        "parks": 7,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "PASIR PANJANG 1": {
@@ -7880,6 +11060,21 @@
           "places": 6,
           "reviews": 17
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 34,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 4,
+        "foodCourts": 0,
+        "restaurants": 19,
+        "cafes": 6,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "PASIR PANJANG 2": {
@@ -7917,6 +11112,21 @@
           "places": 7,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 9,
+        "malls": 1,
+        "supermarkets": 2,
+        "convenienceStores": 5,
+        "foodCourts": 5,
+        "restaurants": 16,
+        "cafes": 7,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PORT": {
@@ -7954,6 +11164,21 @@
           "places": 12,
           "reviews": 20
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 17,
+        "malls": 1,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 31,
+        "cafes": 6,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "QUEENSWAY": {
@@ -7991,6 +11216,21 @@
           "places": 8,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 4,
+        "malls": 1,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 2,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SINGAPORE POLYTECHNIC": {
@@ -8028,6 +11268,21 @@
           "places": 8,
           "reviews": 12
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 11,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 9,
+        "restaurants": 1,
+        "cafes": 7,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "TANGLIN HALT": {
@@ -8065,6 +11320,21 @@
           "places": 12,
           "reviews": 21
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 9,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 2,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "INSTITUTION HILL": {
@@ -8102,6 +11372,21 @@
           "places": 11,
           "reviews": 48
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 2,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 25,
+        "cafes": 6,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "LEONIE HILL": {
@@ -8139,6 +11424,21 @@
           "places": 5,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 3,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "ONE TREE HILL": {
@@ -8176,6 +11476,21 @@
           "places": 10,
           "reviews": 35
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 2
       }
     },
     "OXLEY": {
@@ -8213,6 +11528,21 @@
           "places": 7,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 1,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 1,
+        "restaurants": 12,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 2
       }
     },
     "PATERSON": {
@@ -8250,6 +11580,21 @@
           "places": 10,
           "reviews": 15
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 2,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BENCOOLEN": {
@@ -8287,6 +11632,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 2,
+        "malls": 2,
+        "supermarkets": 2,
+        "convenienceStores": 4,
+        "foodCourts": 1,
+        "restaurants": 28,
+        "cafes": 14,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 1
       }
     },
     "FARRER PARK": {
@@ -8324,6 +11684,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 4,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 4,
+        "foodCourts": 0,
+        "restaurants": 52,
+        "cafes": 2,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "KAMPONG GLAM": {
@@ -8361,6 +11736,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 7,
+        "foodCourts": 0,
+        "restaurants": 84,
+        "cafes": 37,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "LITTLE INDIA": {
@@ -8398,6 +11788,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 3,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 15,
+        "foodCourts": 1,
+        "restaurants": 90,
+        "cafes": 12,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MACKENZIE": {
@@ -8435,6 +11840,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 1,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 2,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MOUNT EMILY": {
@@ -8472,6 +11892,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 2,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "ROCHOR CANAL": {
@@ -8509,6 +11944,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 3,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "SELEGIE": {
@@ -8546,6 +11996,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 2,
+        "malls": 2,
+        "supermarkets": 1,
+        "convenienceStores": 2,
+        "foodCourts": 2,
+        "restaurants": 19,
+        "cafes": 8,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SUNGEI ROAD": {
@@ -8583,6 +12048,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 2,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 2,
+        "foodCourts": 2,
+        "restaurants": 6,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "VICTORIA": {
@@ -8620,6 +12100,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 8,
+        "malls": 3,
+        "supermarkets": 2,
+        "convenienceStores": 10,
+        "foodCourts": 4,
+        "restaurants": 59,
+        "cafes": 30,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "PULAU PUNGGOL BARAT": {
@@ -8657,6 +12152,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PULAU PUNGGOL TIMOR": {
@@ -8694,6 +12204,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SELETAR": {
@@ -8731,6 +12256,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 1,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "SELETAR AEROSPACE PARK": {
@@ -8768,6 +12308,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 21,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 10,
+        "cafes": 5,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "ADMIRALTY": {
@@ -8805,6 +12360,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 21,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 1,
+        "restaurants": 2,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 3,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "SEMBAWANG CENTRAL": {
@@ -8842,6 +12412,21 @@
           "places": 11,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 33,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 5,
+        "foodCourts": 4,
+        "restaurants": 12,
+        "cafes": 7,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 1
       }
     },
     "SEMBAWANG EAST": {
@@ -8879,6 +12464,21 @@
           "places": 14,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 17,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 0,
+        "foodCourts": 4,
+        "restaurants": 3,
+        "cafes": 2,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SEMBAWANG NORTH": {
@@ -8916,6 +12516,21 @@
           "places": 13,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 21,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 4,
+        "cafes": 2,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 5,
+        "kindergartens": 0
       }
     },
     "SEMBAWANG SPRINGS": {
@@ -8953,6 +12568,21 @@
           "places": 14,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 11,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 11,
+        "cafes": 0,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 3,
+        "schools": 2,
+        "kindergartens": 1
       }
     },
     "SEMBAWANG STRAITS": {
@@ -8990,6 +12620,21 @@
           "places": 14,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 9,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 2,
+        "restaurants": 7,
+        "cafes": 1,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SENOKO NORTH": {
@@ -9027,6 +12672,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 22,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 2,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SENOKO SOUTH": {
@@ -9064,6 +12724,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 16,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "THE WHARVES": {
@@ -9101,6 +12776,21 @@
           "places": 17,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 3,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "ANCHORVALE": {
@@ -9138,6 +12828,21 @@
           "places": 3,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 33,
+        "malls": 0,
+        "supermarkets": 4,
+        "convenienceStores": 5,
+        "foodCourts": 6,
+        "restaurants": 5,
+        "cafes": 9,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 6,
+        "kindergartens": 10
       }
     },
     "COMPASSVALE": {
@@ -9175,6 +12880,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 23,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 4,
+        "foodCourts": 7,
+        "restaurants": 10,
+        "cafes": 7,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 5
       }
     },
     "FERNVALE": {
@@ -9212,6 +12932,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 4,
+        "busStops": 39,
+        "malls": 1,
+        "supermarkets": 7,
+        "convenienceStores": 1,
+        "foodCourts": 5,
+        "restaurants": 32,
+        "cafes": 7,
+        "parks": 21,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 6,
+        "kindergartens": 1
       }
     },
     "LORONG HALUS NORTH": {
@@ -9249,6 +12984,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "RIVERVALE": {
@@ -9286,6 +13036,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 35,
+        "malls": 2,
+        "supermarkets": 3,
+        "convenienceStores": 2,
+        "foodCourts": 5,
+        "restaurants": 11,
+        "cafes": 5,
+        "parks": 9,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 4,
+        "kindergartens": 3
       }
     },
     "SENGKANG TOWN CENTRE": {
@@ -9323,6 +13088,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 38,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 6,
+        "foodCourts": 7,
+        "restaurants": 30,
+        "cafes": 17,
+        "parks": 7,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 5,
+        "kindergartens": 12
       }
     },
     "SENGKANG WEST": {
@@ -9360,6 +13140,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 5,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "LORONG CHUAN": {
@@ -9397,6 +13192,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 12,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 7,
+        "cafes": 2,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "SELETAR HILLS": {
@@ -9434,6 +13244,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 15,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 3,
+        "foodCourts": 1,
+        "restaurants": 8,
+        "cafes": 2,
+        "parks": 16,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 2,
+        "kindergartens": 3
       }
     },
     "SERANGOON CENTRAL": {
@@ -9471,6 +13296,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 28,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 3,
+        "foodCourts": 2,
+        "restaurants": 46,
+        "cafes": 11,
+        "parks": 7,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "SERANGOON GARDEN": {
@@ -9508,6 +13348,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 41,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 3,
+        "foodCourts": 2,
+        "restaurants": 22,
+        "cafes": 7,
+        "parks": 9,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 5,
+        "kindergartens": 0
       }
     },
     "SERANGOON NORTH": {
@@ -9545,6 +13400,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 16,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "SERANGOON NORTH IND ESTATE": {
@@ -9582,6 +13452,21 @@
           "places": 17,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 15,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 2,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "UPPER PAYA LEBAR": {
@@ -9619,6 +13504,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 21,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 4,
+        "cafes": 0,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "PULAU SELETAR": {
@@ -9656,6 +13556,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SIMPANG NORTH": {
@@ -9693,6 +13608,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SIMPANG SOUTH": {
@@ -9730,6 +13660,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TANJONG IRAU": {
@@ -9767,6 +13712,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BOAT QUAY": {
@@ -9804,6 +13764,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 5,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 7,
+        "foodCourts": 1,
+        "restaurants": 79,
+        "cafes": 9,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CLARKE QUAY": {
@@ -9841,6 +13816,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 6,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 2,
+        "foodCourts": 1,
+        "restaurants": 49,
+        "cafes": 15,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "ROBERTSON QUAY": {
@@ -9878,6 +13868,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 9,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 6,
+        "foodCourts": 1,
+        "restaurants": 40,
+        "cafes": 14,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SENTOSA": {
@@ -9915,6 +13920,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 47,
+        "malls": 2,
+        "supermarkets": 1,
+        "convenienceStores": 6,
+        "foodCourts": 3,
+        "restaurants": 56,
+        "cafes": 13,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "SOUTHERN GROUP": {
@@ -9952,6 +13972,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "STRAITS VIEW": {
@@ -9989,6 +14024,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 4,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "GALI BATU": {
@@ -10026,6 +14076,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 27,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 2,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "KRANJI": {
@@ -10063,6 +14128,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 25,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 3,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PANG SUA": {
@@ -10100,6 +14180,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 10,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "RESERVOIR VIEW": {
@@ -10137,6 +14232,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 17,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TURF CLUB": {
@@ -10174,6 +14284,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 14,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 5,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SIMEI": {
@@ -10211,6 +14336,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 52,
+        "malls": 2,
+        "supermarkets": 4,
+        "convenienceStores": 4,
+        "foodCourts": 4,
+        "restaurants": 9,
+        "cafes": 8,
+        "parks": 8,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 1
       }
     },
     "TAMPINES EAST": {
@@ -10248,6 +14388,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 88,
+        "malls": 5,
+        "supermarkets": 12,
+        "convenienceStores": 17,
+        "foodCourts": 8,
+        "restaurants": 37,
+        "cafes": 14,
+        "parks": 19,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 12,
+        "kindergartens": 1
       }
     },
     "TAMPINES NORTH": {
@@ -10285,6 +14440,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 47,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 2,
+        "foodCourts": 4,
+        "restaurants": 2,
+        "cafes": 1,
+        "parks": 10,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "TAMPINES WEST": {
@@ -10322,6 +14492,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 67,
+        "malls": 1,
+        "supermarkets": 8,
+        "convenienceStores": 4,
+        "foodCourts": 17,
+        "restaurants": 16,
+        "cafes": 13,
+        "parks": 8,
+        "natureReserves": 0,
+        "sportsCentres": 5,
+        "schools": 7,
+        "kindergartens": 3
       }
     },
     "XILIN": {
@@ -10359,6 +14544,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 37,
+        "malls": 2,
+        "supermarkets": 4,
+        "convenienceStores": 2,
+        "foodCourts": 2,
+        "restaurants": 43,
+        "cafes": 16,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CHATSWORTH": {
@@ -10396,6 +14596,21 @@
           "places": 10,
           "reviews": 42
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 13,
+        "malls": 1,
+        "supermarkets": 2,
+        "convenienceStores": 3,
+        "foodCourts": 2,
+        "restaurants": 7,
+        "cafes": 4,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "NASSIM": {
@@ -10433,6 +14648,21 @@
           "places": 10,
           "reviews": 40
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 13,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 10,
+        "cafes": 5,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "RIDOUT": {
@@ -10470,6 +14700,21 @@
           "places": 11,
           "reviews": 45
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 12,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 31,
+        "cafes": 6,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 6,
+        "kindergartens": 1
       }
     },
     "TYERSALL": {
@@ -10507,6 +14752,21 @@
           "places": 7,
           "reviews": 15
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 13,
+        "malls": 12,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 1,
+        "restaurants": 15,
+        "cafes": 9,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BRICKLAND": {
@@ -10544,6 +14804,21 @@
           "places": 12,
           "reviews": 50
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 5,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "FOREST HILL": {
@@ -10581,6 +14856,21 @@
           "places": 12,
           "reviews": 37
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 1,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "GARDEN": {
@@ -10618,6 +14908,21 @@
           "places": 10,
           "reviews": 25
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 10,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PARK": {
@@ -10655,6 +14960,21 @@
           "places": 11,
           "reviews": 9
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 15,
+        "malls": 1,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "PLANTATION": {
@@ -10692,6 +15012,21 @@
           "places": 7,
           "reviews": 14
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 14,
+        "malls": 1,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 2,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "TENGAH INDUSTRIAL ESTATE": {
@@ -10729,6 +15064,21 @@
           "places": 11,
           "reviews": 4
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BIDADARI": {
@@ -10766,6 +15116,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 16,
+        "malls": 1,
+        "supermarkets": 2,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 12,
+        "cafes": 8,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "BOON TECK": {
@@ -10803,6 +15168,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 13,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 2,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 1
       }
     },
     "BRADDELL": {
@@ -10840,6 +15220,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 10,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 1,
+        "restaurants": 3,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 0
       }
     },
     "JOO SENG": {
@@ -10877,6 +15272,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 10,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 3,
+        "foodCourts": 3,
+        "restaurants": 35,
+        "cafes": 6,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "KIM KEAT": {
@@ -10914,6 +15324,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 7,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 1,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "LORONG 8 TOA PAYOH": {
@@ -10951,6 +15376,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 10,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "PEI CHUN": {
@@ -10988,6 +15428,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 10,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 2,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "POTONG PASIR": {
@@ -11025,6 +15480,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 11,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 2,
+        "foodCourts": 2,
+        "restaurants": 1,
+        "cafes": 3,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "SENNETT": {
@@ -11062,6 +15532,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 12,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 2,
+        "foodCourts": 5,
+        "restaurants": 21,
+        "cafes": 2,
+        "parks": 8,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 2,
+        "kindergartens": 2
       }
     },
     "TOA PAYOH CENTRAL": {
@@ -11099,6 +15584,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 22,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 4,
+        "foodCourts": 9,
+        "restaurants": 22,
+        "cafes": 17,
+        "parks": 4,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 4,
+        "kindergartens": 3
       }
     },
     "TOA PAYOH WEST": {
@@ -11136,6 +15636,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 21,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 3,
+        "restaurants": 11,
+        "cafes": 1,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 4,
+        "kindergartens": 2
       }
     },
     "WOODLEIGH": {
@@ -11173,6 +15688,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 6,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "TENGEH": {
@@ -11210,6 +15740,21 @@
           "places": 12,
           "reviews": 51
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 4,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TUAS BAY": {
@@ -11247,6 +15792,21 @@
           "places": 12,
           "reviews": 27
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 48,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TUAS NORTH": {
@@ -11284,6 +15844,21 @@
           "places": 11,
           "reviews": 30
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 57,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 4,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TUAS PROMENADE": {
@@ -11321,6 +15896,21 @@
           "places": 11,
           "reviews": 39
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 32,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 2,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TUAS VIEW": {
@@ -11358,6 +15948,21 @@
           "places": 10,
           "reviews": 5
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 34,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 2,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "TUAS VIEW EXTENSION": {
@@ -11395,6 +16000,21 @@
           "places": 9,
           "reviews": 9
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 12,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 2,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "JURONG ISLAND AND BUKOM": {
@@ -11432,6 +16052,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 63,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SEMAKAU": {
@@ -11469,6 +16104,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SUDONG": {
@@ -11506,6 +16156,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 0,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "BAHAR": {
@@ -11543,6 +16208,21 @@
           "places": 11,
           "reviews": 44
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 1,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "CLEANTECH": {
@@ -11580,6 +16260,21 @@
           "places": 7,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 5,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MURAI": {
@@ -11617,6 +16312,21 @@
           "places": 12,
           "reviews": 37
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 3,
+        "busStops": 109,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 4,
+        "foodCourts": 12,
+        "restaurants": 23,
+        "cafes": 17,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 5,
+        "schools": 4,
+        "kindergartens": 0
       }
     },
     "GREENWOOD PARK": {
@@ -11654,6 +16364,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 2,
+        "busStops": 7,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 2,
+        "cafes": 0,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "MIDVIEW": {
@@ -11691,6 +16416,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 25,
+        "malls": 2,
+        "supermarkets": 2,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 1,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 4,
+        "kindergartens": 0
       }
     },
     "NORTH COAST": {
@@ -11728,6 +16468,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 20,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 1,
+        "restaurants": 0,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "SENOKO WEST": {
@@ -11765,6 +16520,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 8,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 0,
+        "foodCourts": 0,
+        "restaurants": 5,
+        "cafes": 1,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 0
       }
     },
     "WOODGROVE": {
@@ -11802,6 +16572,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 24,
+        "malls": 1,
+        "supermarkets": 2,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 4,
+        "cafes": 1,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 4,
+        "kindergartens": 1
       }
     },
     "WOODLANDS EAST": {
@@ -11839,6 +16624,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 52,
+        "malls": 1,
+        "supermarkets": 11,
+        "convenienceStores": 2,
+        "foodCourts": 3,
+        "restaurants": 5,
+        "cafes": 4,
+        "parks": 15,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 9,
+        "kindergartens": 3
       }
     },
     "WOODLANDS REGIONAL CENTRE": {
@@ -11876,6 +16676,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 10,
+        "malls": 2,
+        "supermarkets": 2,
+        "convenienceStores": 4,
+        "foodCourts": 2,
+        "restaurants": 25,
+        "cafes": 9,
+        "parks": 0,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "WOODLANDS SOUTH": {
@@ -11913,6 +16728,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 35,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 2,
+        "foodCourts": 4,
+        "restaurants": 0,
+        "cafes": 1,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 5,
+        "kindergartens": 0
       }
     },
     "WOODLANDS WEST": {
@@ -11950,6 +16780,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 36,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 1,
+        "foodCourts": 2,
+        "restaurants": 4,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 3,
+        "kindergartens": 1
       }
     },
     "KHATIB": {
@@ -11987,6 +16832,21 @@
           "places": 15,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 14,
+        "malls": 0,
+        "supermarkets": 1,
+        "convenienceStores": 1,
+        "foodCourts": 1,
+        "restaurants": 2,
+        "cafes": 2,
+        "parks": 1,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 2,
+        "kindergartens": 0
       }
     },
     "LOWER SELETAR": {
@@ -12024,6 +16884,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 22,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 2,
+        "foodCourts": 3,
+        "restaurants": 3,
+        "cafes": 0,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 2,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "NEE SOON": {
@@ -12061,6 +16936,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 12,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 1,
+        "foodCourts": 0,
+        "restaurants": 5,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "NORTHLAND": {
@@ -12098,6 +16988,21 @@
           "places": 16,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 19,
+        "malls": 0,
+        "supermarkets": 2,
+        "convenienceStores": 0,
+        "foodCourts": 4,
+        "restaurants": 4,
+        "cafes": 0,
+        "parks": 2,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 4,
+        "kindergartens": 1
       }
     },
     "SPRINGLEAF": {
@@ -12135,6 +17040,21 @@
           "places": 3,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 8,
+        "malls": 0,
+        "supermarkets": 0,
+        "convenienceStores": 2,
+        "foodCourts": 0,
+        "restaurants": 14,
+        "cafes": 1,
+        "parks": 6,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 1,
+        "kindergartens": 1
       }
     },
     "YISHUN CENTRAL": {
@@ -12172,6 +17092,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 20,
+        "malls": 1,
+        "supermarkets": 3,
+        "convenienceStores": 3,
+        "foodCourts": 5,
+        "restaurants": 12,
+        "cafes": 9,
+        "parks": 5,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 0,
+        "kindergartens": 0
       }
     },
     "YISHUN EAST": {
@@ -12209,6 +17144,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 36,
+        "malls": 1,
+        "supermarkets": 5,
+        "convenienceStores": 2,
+        "foodCourts": 6,
+        "restaurants": 2,
+        "cafes": 1,
+        "parks": 7,
+        "natureReserves": 0,
+        "sportsCentres": 0,
+        "schools": 6,
+        "kindergartens": 1
       }
     },
     "YISHUN SOUTH": {
@@ -12246,6 +17196,21 @@
           "places": 13,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 0,
+        "busStops": 26,
+        "malls": 1,
+        "supermarkets": 4,
+        "convenienceStores": 5,
+        "foodCourts": 0,
+        "restaurants": 1,
+        "cafes": 6,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 5,
+        "kindergartens": 0
       }
     },
     "YISHUN WEST": {
@@ -12283,6 +17248,21 @@
           "places": 20,
           "reviews": 10
         }
+      },
+      "facilityCounts": {
+        "railwayStations": 1,
+        "busStops": 35,
+        "malls": 0,
+        "supermarkets": 3,
+        "convenienceStores": 7,
+        "foodCourts": 4,
+        "restaurants": 10,
+        "cafes": 1,
+        "parks": 3,
+        "natureReserves": 0,
+        "sportsCentres": 1,
+        "schools": 5,
+        "kindergartens": 0
       }
     }
   }

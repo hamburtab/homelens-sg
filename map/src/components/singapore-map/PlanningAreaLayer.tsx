@@ -59,9 +59,8 @@ export function PlanningAreaLayer({ data, colorMap, selectedArea, onSelect, onHo
     const p = _f.properties as Record<string,string>|undefined;
     const id = p?.PLN_AREA_N ?? ''; const name = id;
     if (name && map.getZoom() >= 12) {
-      const score = regionScores?.[id];
-      const label = score == null ? name : `${name} · ${Math.round(score)}`;
-      (l as any).bindTooltip(label, { permanent:true, direction:'center', className:'pa-label-tooltip', opacity:0.82 });
+      (l as any).bindTooltip(name, { permanent:true, direction:'center', className:'pa-label-tooltip', opacity:0.82 });
+      (l as any).bindTooltip(name, { permanent:true, direction:'center', className:'pa-label-tooltip', opacity:0.82 });
     }
     const pl = l as unknown as PL;
     l.on({
@@ -75,7 +74,7 @@ export function PlanningAreaLayer({ data, colorMap, selectedArea, onSelect, onHo
         osRef.current({ id, name, type:'planning' });
       },
     });
-  }, [map, regionScores]);
+  }, [map]);
 
   useEffect(() => () => { selRef.current = null; }, []);
 

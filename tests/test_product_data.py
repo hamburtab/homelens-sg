@@ -96,6 +96,9 @@ class ProductDataTests(unittest.TestCase):
                 set(profile["dimensions"]),
                 {"education", "transport", "food", "shopping", "recreation", "nature"},
             )
+            self.assertIn("facilityCounts", profile)
+            self.assertIn("railwayStations", profile["facilityCounts"])
+            self.assertIn("busStops", profile["facilityCounts"])
 
 
 if __name__ == "__main__":
