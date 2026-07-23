@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T11:00:17.074006+00:00",
+  "generatedAt": "2026-07-22T09:24:28.924926+00:00",
   "historicalMarket": {
     "candidateRows": 7730,
     "towns": 26,
@@ -59,6 +59,21 @@
       "shopping",
       "recreation",
       "nature"
+    ],
+    "facilitySources": [
+      "railwayStations",
+      "busStops",
+      "malls",
+      "supermarkets",
+      "convenienceStores",
+      "foodCourts",
+      "restaurants",
+      "cafes",
+      "parks",
+      "natureReserves",
+      "sportsCentres",
+      "schools",
+      "kindergartens"
     ],
     "privacy": "Only aggregate counts and scores are published; review text and author data stay external."
   },

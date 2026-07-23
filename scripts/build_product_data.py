@@ -28,6 +28,21 @@ from homelens.utils import write_json  # noqa: E402
 
 
 DIMENSIONS = ("education", "transport", "food", "shopping", "recreation", "nature")
+FACILITY_SOURCES = {
+    "railwayStations": "geojson_railway_station.json",
+    "busStops": "BusStop.geojson",
+    "malls": "geojson_mall.json",
+    "supermarkets": "geojson_supermarket.json",
+    "convenienceStores": "geojson_convenience.json",
+    "foodCourts": "geojson_food_court.json",
+    "restaurants": "geojson_restaurant.json",
+    "cafes": "geojson_cafe.json",
+    "parks": "geojson_park.json",
+    "natureReserves": "geojson_nature_reserve.json",
+    "sportsCentres": "geojson_sports_centre.json",
+    "schools": "geojson_school.json",
+    "kindergartens": "geojson_kindergarten.json",
+}
 ADDRESS_REPLACEMENTS = {
     "AVENUE": "AVE",
     "STREET": "ST",
@@ -134,6 +149,61 @@ class SubzoneIndex:
             if _geometry_contains(geometry, longitude, latitude):
                 return properties.get("PLN_AREA_N"), properties.get("SUBZONE_N")
         return None, None
+
+
+def _geometry_point(geometry: dict[str, Any]) -> tuple[float, float] | None:
+    geometry_type = geometry.get("type")
+    coordinates = geometry.get("coordinates")
+    if geometry_type == "Point" and isinstance(coordinates, list) and len(coordinates) >= 2:
+        return float(coordinates[1]), float(coordinates[0])
+
+    points: list[tuple[float, float]] = []
+
+    def collect(value: Any) -> None:
+        if (
+            isinstance(value, list)
+            and len(value) >= 2
+            and isinstance(value[0], (int, float))
+            and isinstance(value[1], (int, float))
+        ):
+            points.append((float(value[1]), float(value[0])))
+            return
+        if isinstance(value, list):
+            for child in value:
+                collect(child)
+
+    collect(coordinates)
+    if not points:
+        return None
+    return (
+        float(sum(latitude for latitude, _ in points) / len(points)),
+        float(sum(longitude for _, longitude in points) / len(points)),
+    )
+
+
+def _empty_facility_counts() -> dict[str, int]:
+    return {key: 0 for key in FACILITY_SOURCES}
+
+
+def _facility_profiles(subzone_index: SubzoneIndex) -> tuple[dict[str, dict[str, int]], dict[str, dict[str, int]]]:
+    region_counts: dict[str, dict[str, int]] = {}
+    subzone_counts: dict[str, dict[str, int]] = {}
+    geojson_root = PROJECT_ROOT / "map" / "public" / "geojson"
+
+    for key, filename in FACILITY_SOURCES.items():
+        payload = json.loads((geojson_root / filename).read_text(encoding="utf-8"))
+        for feature in payload.get("features", []):
+            point = _geometry_point(feature.get("geometry") or {})
+            if point is None:
+                continue
+            latitude, longitude = point
+            planning_area, subzone = subzone_index.locate(latitude, longitude)
+            if not planning_area or not subzone:
+                continue
+            region_counts.setdefault(str(planning_area), _empty_facility_counts())[key] += 1
+            subzone_counts.setdefault(str(subzone), _empty_facility_counts())[key] += 1
+
+    return region_counts, subzone_counts
 
 
 def _stable_location_crosswalk(frame: pd.DataFrame, *, town_column: str | None = None) -> pd.DataFrame:
@@ -446,11 +516,13 @@ def _community_profiles(
     reviews: pd.DataFrame,
     candidates: pd.DataFrame,
     listings: pd.DataFrame,
+    facility_counts: tuple[dict[str, dict[str, int]], dict[str, dict[str, int]]],
 ) -> tuple[dict[str, Any], dict[str, Any]]:
     reviews = reviews.copy()
     reviews["planning_key"] = reviews["planning_area"].astype(str).str.upper().str.strip()
     reviews["subzone_key"] = reviews["subzone"].astype(str).str.upper().str.strip()
     market = _market_profiles(candidates)
+    region_facilities, subzone_facilities = facility_counts
 
     region_profiles: dict[str, Any] = {}
     for planning_area, group in reviews.groupby("planning_key"):
@@ -461,6 +533,7 @@ def _community_profiles(
             "name": planning_area,
             "liveabilityScore": round(float(np.mean(scores)), 1) if scores else None,
             "dimensions": dimensions,
+            "facilityCounts": region_facilities.get(planning_area, _empty_facility_counts()),
             "subzoneCount": int(group["subzone_key"].nunique()),
             "placeEvidence": int(sum(item["places"] for item in dimensions.values())),
             "reviewEvidence": int(sum(item["reviews"] for item in dimensions.values())),
@@ -494,6 +567,7 @@ def _community_profiles(
             "planningArea": str(row["planning_key"]),
             "liveabilityScore": round(float(np.mean(scores)), 1) if scores else None,
             "dimensions": dimensions,
+            "facilityCounts": subzone_facilities.get(key, _empty_facility_counts()),
         }
     return region_profiles, subzone_profiles
 
@@ -536,7 +610,10 @@ def build_product_data() -> dict[str, Any]:
     listings, public_listings, location_quality = _resolve_listings(
         sale, rental, candidate_locations, subzone_index
     )
-    region_profiles, subzone_profiles = _community_profiles(reviews, candidates, listings)
+    facility_counts = _facility_profiles(subzone_index)
+    region_profiles, subzone_profiles = _community_profiles(
+        reviews, candidates, listings, facility_counts
+    )
 
     processed_path = PROJECT_ROOT / "data" / "processed" / "live_listings_enriched.csv"
     public_listing_path = PROJECT_ROOT / "map" / "public" / "live-listings.json"
@@ -574,6 +651,7 @@ def build_product_data() -> dict[str, Any]:
             "planningAreas": int(reviews["planning_area"].nunique()),
             "subzones": int(reviews["subzone"].nunique()),
             "dimensions": list(DIMENSIONS),
+            "facilitySources": list(FACILITY_SOURCES),
             "privacy": "Only aggregate counts and scores are published; review text and author data stay external.",
         },
         "model": {
