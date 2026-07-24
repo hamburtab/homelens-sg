@@ -28,6 +28,11 @@ class ConstantPriceModel:
         return np.full(len(frame), 612_345.0)
 
 
+class BrokenPriceModel:
+    def predict(self, frame):
+        raise AttributeError("'SimpleImputer' object has no attribute '_fill_dtype'")
+
+
 class FakeLocationIndex:
     def locate(self, latitude, longitude):
         return {"planning_area": "QUEENSTOWN", "subzone": "NATIONAL UNIVERSITY OF S'PORE"}
@@ -151,6 +156,15 @@ class ServiceAndWebTests(unittest.TestCase):
         self.assertEqual(result["recommendations"][0]["ml_reference_price"], 612_345.0)
         self.assertEqual(result["model_context"]["training_end_month"], "2025-12")
         self.assertIn("reference estimate only", result["model_context"]["role"])
+
+    def test_incompatible_price_model_does_not_block_recommendations(self) -> None:
+        self.service._price_model_checked = True
+        self.service._price_model_artifact = {"model": BrokenPriceModel(), "metadata": {}}
+        result = self.service.get_recommendations({"budget": 800_000, "top_k": 1})
+        self.assertEqual(len(result["recommendations"]), 1)
+        self.assertTrue(
+            any("price-model reference" in warning for warning in result["warnings"])
+        )
 
     def test_public_bind_is_rejected(self) -> None:
         with self.assertRaises(ValueError):

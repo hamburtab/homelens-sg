@@ -393,7 +393,7 @@ class HomeLensService:
                 "holdout_mape_percent": metadata.get("random_forest", {}).get("mape_percent"),
                 "holdout_mae": metadata.get("random_forest", {}).get("mae"),
             }
-        except (OSError, ValueError, KeyError, TypeError) as error:
+        except (OSError, ValueError, KeyError, TypeError, AttributeError) as error:
             ranking.setdefault("warnings", []).append(
                 f"The price-model reference could not be loaded ({type(error).__name__})."
             )

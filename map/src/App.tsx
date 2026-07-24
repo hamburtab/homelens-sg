@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import type { CSSProperties, FormEvent } from 'react';
+import type { FormEvent } from 'react';
 import { SingaporeMap } from './components/singapore-map';
 import { RedditScorePanel } from './components/singapore-map/RedditScorePanel';
 import type { RedditAreaNlp } from './components/singapore-map/RedditScorePanel';
@@ -193,20 +193,6 @@ function distanceMeters(aLat: number, aLng: number, bLat: number, bLng: number) 
   const value = Math.sin(dLat / 2) ** 2
     + Math.cos(firstLat) * Math.cos(secondLat) * Math.sin(dLng / 2) ** 2;
   return 6_371_000 * 2 * Math.atan2(Math.sqrt(value), Math.sqrt(1 - value));
-}
-
-function ScoreRing({ score, size = 'large' }: { score?: number | null; size?: 'small' | 'large' }) {
-  const value = Math.round(score ?? 0);
-  return (
-    <div
-      className={`score-ring score-ring--${size}`}
-      style={{ '--score-angle': `${value * 3.6}deg` } as CSSProperties}
-      aria-label={score == null ? 'Score unavailable' : `Liveability score ${value} out of 100`}
-    >
-      <span>{score == null ? '-' : value}</span>
-      {size === 'large' && <small>LIVEABILITY</small>}
-    </div>
-  );
 }
 
 function DimensionBars({ profile }: { profile: RegionProfile | SubzoneProfile }) {
@@ -456,7 +442,6 @@ function App() {
         )}
         {view === 'recommend' && (
           <RecommendationView
-            health={health}
             initialArea={selectedRegion?.type === 'planning' ? selectedRegion.id : selectedRegion?.parentId}
             anchorLocation={anchorLocation}
             setAnchorLocation={setAnchorLocation}
@@ -629,25 +614,20 @@ function ExploreView({
 }
 
 function RecommendationView({
-  health,
   initialArea,
   anchorLocation,
   setAnchorLocation,
   onShowMap,
 }: {
-  health: Health | null;
   initialArea?: string;
   anchorLocation: LocationAnchor | null;
   setAnchorLocation: (value: LocationAnchor | null) => void;
   onShowMap: () => void;
 }) {
-  const [query, setQuery] = useState('A spacious 4-room flat under 650k, within 3 km of NUS and close to MRT.');
   const [budget, setBudget] = useState('650000');
   const [flatType, setFlatType] = useState('4 ROOM');
-  const [preferredTown, setPreferredTown] = useState(initialArea || '');
   const [topK, setTopK] = useState('8');
-  const [useLlm, setUseLlm] = useState(false);
-  const [locationQuery, setLocationQuery] = useState('');
+  const [locationQuery, setLocationQuery] = useState(initialArea || '');
   const [maxDistanceKm, setMaxDistanceKm] = useState('3');
   const [locationCandidates, setLocationCandidates] = useState<LocationCandidateResponse[]>([]);
   const [locationLoading, setLocationLoading] = useState(false);
@@ -657,8 +637,12 @@ function RecommendationView({
   const [compare, setCompare] = useState<string[]>([]);
 
   useEffect(() => {
-    if (initialArea) setPreferredTown(initialArea);
-  }, [initialArea]);
+    if (!initialArea) return;
+    setLocationQuery(initialArea);
+    setLocationCandidates([]);
+    setAnchorLocation(null);
+    setResult(null);
+  }, [initialArea, setAnchorLocation]);
 
   async function searchLocations(searchText = locationQuery): Promise<boolean> {
     const cleaned = searchText.trim();
@@ -717,8 +701,8 @@ function RecommendationView({
   async function submit(event: FormEvent) {
     event.preventDefault();
     setError('');
-    if (!query.trim() && !budget.trim()) {
-      setError('Add a budget in the brief or the budget field before searching.');
+    if (!budget.trim()) {
+      setError('Add a maximum budget before building the shortlist.');
       return;
     }
     if (locationQuery.trim() && !anchorLocation) {
@@ -730,14 +714,13 @@ function RecommendationView({
     setLoading(true);
     try {
       const payload: Record<string, unknown> = {
-        query: query.trim(),
+        query: '',
         top_k: Number(topK),
-        use_llm: useLlm,
+        use_llm: false,
       };
       if (budget) payload.budget = Number(budget);
       if (flatType) payload.flat_types = [flatType];
-      if (preferredTown) payload.preferred_towns = [preferredTown.toUpperCase()];
-      if (locationQuery) payload.location_query = locationQuery;
+      if (locationQuery && !anchorLocation) payload.location_query = locationQuery;
       if (anchorLocation) {
         payload.anchor_name = anchorLocation.name;
         payload.anchor_latitude = anchorLocation.latitude;
@@ -780,24 +763,25 @@ function RecommendationView({
   return (
     <section className="recommend-section" id="recommendation">
       <div className="recommend-heading">
-        <div><p className="overline">MICRO RETRIEVAL</p><h1>Tell us what home means to you.</h1></div>
-        <p>Natural language becomes explicit constraints. Budget is never relaxed silently, and every result shows the evidence behind its rank.</p>
+        <div><p className="overline">MICRO RETRIEVAL</p><h1>Build a grounded HDB shortlist.</h1></div>
+        <p>Choose the essential constraints directly. Budget is never relaxed silently, and every result shows the evidence behind its rank.</p>
       </div>
       <div className="recommend-layout">
         <form className="brief-card" onSubmit={submit}>
-          <div className="brief-card__heading"><span>01</span><div><h2>Your housing brief</h2><p>Write naturally, then refine the essentials.</p></div></div>
-          <label htmlFor="homeBrief">What are you looking for?</label>
-          <textarea id="homeBrief" value={query} onChange={(event) => setQuery(event.target.value)} rows={5} placeholder="A 4-room HDB under 650k, ideally in Tampines" />
+          <div className="brief-card__heading"><span>01</span><div><h2>Your search criteria</h2><p>Set the essentials, then verify a map anchor.</p></div></div>
           <div className="brief-grid">
             <label>Maximum budget<input type="number" min="50000" step="10000" value={budget} onChange={(event) => setBudget(event.target.value)} /></label>
             <label>Flat type<select value={flatType} onChange={(event) => setFlatType(event.target.value)}><option value="">Any HDB type</option>{['2 ROOM','3 ROOM','4 ROOM','5 ROOM','EXECUTIVE'].map((item) => <option key={item}>{item}</option>)}</select></label>
-            <label>Preferred town<input id="preferredTown" list="town-options" value={preferredTown} onChange={(event) => setPreferredTown(event.target.value)} /><datalist id="town-options">{(health?.towns || []).map((town) => <option key={town} value={town} />)}</datalist></label>
             <label>Shortlist size<select value={topK} onChange={(event) => setTopK(event.target.value)}><option value="5">Top 5</option><option value="8">Top 8</option><option value="12">Top 12</option></select></label>
+            <label className="radius-field brief-grid__radius">
+              Maximum straight-line distance
+              <span><input type="number" min="0.2" max="30" step="0.5" value={maxDistanceKm} onChange={(event) => updateMaxDistance(event.target.value)} /><i>km</i></span>
+            </label>
           </div>
           <div className="location-search">
             <div className="location-search__heading">
-              <span>Location anchor</span>
-              <small>Resolved privately by the server through OneMap</small>
+              <span>Specific place or address</span>
+              <small>Verified by OneMap before location filters are applied</small>
             </div>
             <div className="location-search__row">
               <input
@@ -837,19 +821,11 @@ function RecommendationView({
                 <button type="button" aria-label="Remove selected location" onClick={() => { setAnchorLocation(null); setLocationQuery(''); setResult(null); }}>x</button>
               </div>
             )}
-            <label className="radius-field">
-              Maximum straight-line distance
-              <span><input type="number" min="0.2" max="30" step="0.5" value={maxDistanceKm} onChange={(event) => updateMaxDistance(event.target.value)} /><i>km</i></span>
-            </label>
             <p className="location-search__note">The radius becomes a hard filter after you confirm a place. It is not walking or public-transport time.</p>
           </div>
           <div className="planned-fields" aria-label="Planned route feature">
             <label>Maximum route travel time<input disabled placeholder="Route data required - coming soon" /></label>
           </div>
-          <label className={`ai-toggle ${health?.integrations?.openai ? '' : 'disabled'}`}>
-            <input type="checkbox" checked={useLlm} disabled={!health?.integrations?.openai} onChange={(event) => setUseLlm(event.target.checked)} />
-            <span><b>AI-assisted intent extraction</b><small>{health?.integrations?.openai ? 'Use the configured language model; deterministic filtering still controls the result.' : 'Not configured in this environment; rule parsing remains available.'}</small></span>
-          </label>
           {error && <p className="form-error">{error}</p>}
           <button className="button button--primary button--wide" disabled={loading}>{loading ? 'Comparing evidence...' : 'Build my shortlist'}<span>&rarr;</span></button>
           <p className="brief-assurance"><i /> Hard constraints stay hard - Missing evidence stays visible</p>
@@ -909,7 +885,6 @@ function RecommendationCard({ item, compared, compareFull, onCompare }: { item: 
       <div className="recommendation-card__top">
         <span className="rank-badge">{String(item.rank).padStart(2, '0')}</span>
         <div><h3>{item.block_address}</h3><p>{titleCase(item.town)} - {item.flat_type} - {item.flat_model}</p></div>
-        <ScoreRing score={item.ranking_score * 100} size="small" />
       </div>
       <div className="tag-row">
         {item.preferred_town_match && <span>Preferred area</span>}
