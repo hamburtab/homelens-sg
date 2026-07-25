@@ -20,6 +20,33 @@ import './App.css';
 type View = 'explore' | 'recommend' | 'listings' | 'method';
 type ListingMode = 'sale' | 'rent';
 
+const ONBOARDING_STEPS = [
+  {
+    label: 'Map',
+    target: '[data-tour="map"]',
+    title: 'Start with the map',
+    body: 'Click a planning area to inspect it. The map will also show HDB listing dots for the selected area.',
+  },
+  {
+    label: 'Area panel',
+    target: '[data-tour="area-panel"]',
+    title: 'Read the area summary',
+    body: 'The right panel shows facility totals, market context, and the current sale or rental listings in that area.',
+  },
+  {
+    label: 'Listings',
+    target: '[data-tour="area-panel"]',
+    title: 'Click a listing to locate it',
+    body: 'Selecting a listing focuses the map on that exact home. Close the detail panel to return to all area listings.',
+  },
+  {
+    label: 'AI advisor',
+    target: '[data-tour="advisor"]',
+    title: 'Ask the AI housing advisor',
+    body: 'Use Ask advisor when you want a guided shortlist instead of manually comparing every area and listing.',
+  },
+] as const;
+
 interface ProductStatus {
   generatedAt: string;
   historicalMarket: {
@@ -250,8 +277,106 @@ function RegionComments({ comments, region, className = '' }: { comments: Displa
   );
 }
 
+function OnboardingTour({
+  step,
+  onStepChange,
+  onClose,
+}: {
+  step: number;
+  onStepChange: (value: number) => void;
+  onClose: () => void;
+}) {
+  const current = ONBOARDING_STEPS[step];
+  const last = step === ONBOARDING_STEPS.length - 1;
+  const [targetRect, setTargetRect] = useState<DOMRect | null>(null);
+
+  useEffect(() => {
+    let frame = 0;
+    const updateTarget = () => {
+      const target = document.querySelector(current.target);
+      if (!target) {
+        setTargetRect(null);
+        return;
+      }
+      target.scrollIntoView({ block: 'center', inline: 'center', behavior: 'smooth' });
+      frame = window.setTimeout(() => {
+        setTargetRect(target.getBoundingClientRect());
+      }, 260);
+    };
+    updateTarget();
+    window.addEventListener('resize', updateTarget);
+    window.addEventListener('scroll', updateTarget, true);
+    return () => {
+      window.clearTimeout(frame);
+      window.removeEventListener('resize', updateTarget);
+      window.removeEventListener('scroll', updateTarget, true);
+    };
+  }, [current.target]);
+
+  const cardStyle = useMemo(() => {
+    if (!targetRect) return undefined;
+    const cardWidth = 360;
+    const gap = 16;
+    const canPlaceRight = targetRect.right + cardWidth + gap < window.innerWidth;
+    const canPlaceLeft = targetRect.left - cardWidth - gap > 0;
+    const left = canPlaceRight
+      ? targetRect.right + gap
+      : canPlaceLeft
+        ? targetRect.left - cardWidth - gap
+        : Math.min(Math.max(16, targetRect.left), window.innerWidth - cardWidth - 16);
+    const top = Math.min(Math.max(16, targetRect.top), window.innerHeight - 300);
+    return { left, top } as const;
+  }, [targetRect]);
+
+  return (
+    <div className="onboarding onboarding--spotlight" role="dialog" aria-modal="true" aria-label="New user guide">
+      <div className="onboarding__shade" onClick={onClose} />
+      {targetRect && (
+        <div
+          className="onboarding__spotlight"
+          style={{
+            left: targetRect.left - 8,
+            top: targetRect.top - 8,
+            width: targetRect.width + 16,
+            height: targetRect.height + 16,
+          }}
+        />
+      )}
+      <section className="onboarding__card onboarding__card--spotlight" style={cardStyle}>
+        <button className="onboarding__close" type="button" onClick={onClose} aria-label="Close guide">x</button>
+        <p className="overline">QUICK GUIDE</p>
+        <div className="onboarding__progress">
+          {ONBOARDING_STEPS.map((item, index) => (
+            <button
+              key={item.label}
+              className={index === step ? 'active' : ''}
+              type="button"
+              onClick={() => onStepChange(index)}
+              aria-label={`Show ${item.label} guide`}
+            />
+          ))}
+        </div>
+        <span className="onboarding__label">{current.label}</span>
+        <h2>{current.title}</h2>
+        <p>{current.body}</p>
+        <div className="onboarding__actions">
+          <button type="button" onClick={onClose}>Skip</button>
+          <div>
+            <button type="button" disabled={step === 0} onClick={() => onStepChange(Math.max(0, step - 1))}>Back</button>
+            <button type="button" onClick={() => last ? onClose() : onStepChange(step + 1)}>
+              {last ? 'Start exploring' : 'Next'}
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
 function App() {
   const [view, setView] = useState<View>('explore');
+  const [showOnboarding, setShowOnboarding] = useState(true);
+  const [onboardingStep, setOnboardingStep] = useState(0);
   const [health, setHealth] = useState<Health | null>(null);
   const [status, setStatus] = useState<ProductStatus | null>(null);
   const [regions, setRegions] = useState<Record<string, RegionProfile>>({});
@@ -385,6 +510,11 @@ function App() {
     };
   }, [advisorMapListingIds, anchorLocation, mapListingMode, selectedRegion]);
 
+  const closeOnboarding = () => {
+    setShowOnboarding(false);
+    setOnboardingStep(0);
+  };
+
   return (
     <div className="app-shell">
       <header className="site-header">
@@ -402,8 +532,11 @@ function App() {
             <button key={id} className={view === id ? 'active' : ''} onClick={() => setView(id)}>{label}</button>
           ))}
         </nav>
-        <div className={`system-pill ${health?.status === 'ready' ? 'ready' : ''}`}>
-          <i /> {health?.status === 'ready' ? 'Knowledge base ready' : 'Local data mode'}
+        <div className="header-tools">
+          <button className="guide-button" type="button" onClick={() => { setOnboardingStep(0); setShowOnboarding(true); }}>Guide</button>
+          <div className={`system-pill ${health?.status === 'ready' ? 'ready' : ''}`}>
+            <i /> {health?.status === 'ready' ? 'Knowledge base ready' : 'Local data mode'}
+          </div>
         </div>
       </header>
 
@@ -444,7 +577,7 @@ function App() {
         {view === 'method' && <MethodView status={status} />}
       </main>
 
-      <div className={`advisor-widget ${advisorOpen ? 'advisor-widget--open' : ''}`}>
+      <div className={`advisor-widget ${advisorOpen ? 'advisor-widget--open' : ''}`} data-tour="advisor">
         {!advisorOpen && (
           <button className="advisor-widget__launcher" type="button" onClick={() => setAdvisorOpen(true)}>
             <span className="advisor-orb"><i /></span>
@@ -469,6 +602,14 @@ function App() {
         <div><strong>SG HomeRadar</strong><span>NUS SWS3023 - Group 3</span></div>
         <p>Decision support from official transactions, partial market listings and aggregate neighbourhood evidence. Not a valuation or financial advice.</p>
       </footer>
+
+      {showOnboarding && (
+        <OnboardingTour
+          step={onboardingStep}
+          onStepChange={setOnboardingStep}
+          onClose={closeOnboarding}
+        />
+      )}
     </div>
   );
 }
@@ -585,7 +726,7 @@ function ExploreView({
           <div><p className="overline">MACRO EXPLORATION</p><h2>Read Singapore at a glance.</h2></div>
           <p>Colour reflects an aggregate, reviews-backed liveability score. Click a planning area, then a subzone, to inspect the evidence behind it.</p>
         </div>
-        <div className="map-workspace">
+        <div className="map-workspace" data-tour="map">
           <div className="map-canvas">
             <div className="map-stage">
               <SingaporeMap
@@ -634,7 +775,7 @@ function ExploreView({
               <RegionComments comments={selectedComments} region={selectedRegion} className="map-comments" />
             )}
           </div>
-          <aside className="region-panel">
+          <aside className="region-panel" data-tour="area-panel">
             {!selectedRegion || !selectedProfile ? (
               <div className="region-empty">
                 <h3>Choose an area</h3>
