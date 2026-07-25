@@ -20,6 +20,7 @@ from homelens.config import PROJECT_ROOT, Settings
 from homelens.errors import DataUnavailableError
 from homelens.geospatial import _geojson_points, haversine_matrix
 from homelens.intent import HDB_TOWNS, parse_with_rules
+from homelens.schemas import ALLOWED_FLAT_TYPES
 
 if TYPE_CHECKING:
     from homelens.service import HomeLensService
@@ -39,7 +40,7 @@ LOCATION_RESOLUTION_STATUSES = {
     "unresolved",
     "confirmed",
 }
-FLAT_TYPES = {"2 ROOM", "3 ROOM", "4 ROOM", "5 ROOM", "EXECUTIVE"}
+FLAT_TYPES = set(ALLOWED_FLAT_TYPES)
 LOCAL_SOURCE_HDB = {
     "kind": "local",
     "title": "data.gov.sg HDB resale transaction snapshot",
@@ -81,6 +82,31 @@ def _clean_text(value: Any, *, maximum: int = 240) -> str | None:
 
 def _contains_cjk(text: str) -> bool:
     return bool(re.search(r"[\u3400-\u9fff]", text))
+
+
+def _normalise_hdb_flat_type(value: Any) -> str | None:
+    """Canonicalise harmless HDB flat-type spelling variants."""
+
+    if not isinstance(value, str):
+        return None
+    text = re.sub(r"[-_–—]+", " ", value.upper())
+    tokens = [
+        token
+        for token in text.split()
+        if token not in {"HDB", "FLAT", "UNIT", "APARTMENT"}
+    ]
+    if len(tokens) == 2 and tokens[0] in {"1", "2", "3", "4", "5"}:
+        if tokens[1] in {"ROOM", "ROOMS"}:
+            candidate = f"{tokens[0]} ROOM"
+            return candidate if candidate in FLAT_TYPES else None
+    candidate = " ".join(tokens)
+    aliases = {
+        "EXECUTIVE": "EXECUTIVE",
+        "MULTI GENERATION": "MULTI-GENERATION",
+        "MULTIGENERATION": "MULTI-GENERATION",
+    }
+    canonical = aliases.get(candidate, candidate)
+    return canonical if canonical in FLAT_TYPES else None
 
 
 @dataclass
@@ -212,24 +238,27 @@ class HousingProfile:
         )
         if floor_area is not None:
             self.min_floor_area_sqm = floor_area
-        flat_type = str(updates.get("hdb_flat_type") or "").strip().upper()
-        if flat_type in FLAT_TYPES:
+        flat_type = _normalise_hdb_flat_type(updates.get("hdb_flat_type"))
+        if flat_type is not None:
             self.hdb_flat_type = flat_type
             self.hdb_flat_types = list(dict.fromkeys(self.hdb_flat_types + [flat_type]))
+            self.room_preference_flexible = False
         flat_types = updates.get("hdb_flat_types")
         if isinstance(flat_types, list):
             valid_flat_types = [
-                str(item).strip().upper()
+                canonical
                 for item in flat_types
-                if str(item).strip().upper() in FLAT_TYPES
+                if (canonical := _normalise_hdb_flat_type(item)) is not None
             ]
             if valid_flat_types:
                 self.hdb_flat_types = list(dict.fromkeys(valid_flat_types))[:5]
                 self.hdb_flat_type = self.hdb_flat_types[0]
+                self.room_preference_flexible = False
         bedrooms = _finite_number(updates.get("bedrooms"), minimum=1, maximum=10)
         if bedrooms is not None and bedrooms.is_integer():
             self.bedrooms = int(bedrooms)
             self.bedroom_options = list(dict.fromkeys(self.bedroom_options + [int(bedrooms)]))
+            self.room_preference_flexible = False
         bedroom_options = updates.get("bedroom_options")
         if isinstance(bedroom_options, list):
             valid_bedrooms: list[int] = []
@@ -240,6 +269,7 @@ class HousingProfile:
             if valid_bedrooms:
                 self.bedroom_options = list(dict.fromkeys(valid_bedrooms))[:5]
                 self.bedrooms = self.bedroom_options[0]
+                self.room_preference_flexible = False
         rental_scope = updates.get("rental_scope")
         if rental_scope in RENTAL_SCOPES:
             self.rental_scope = rental_scope
@@ -408,6 +438,7 @@ class OpenAIAdvisorClient:
     @staticmethod
     def _schema() -> dict[str, Any]:
         need = _nullable({"type": "string", "enum": sorted(NEED_LEVELS)})
+        flat_type = {"type": "string", "enum": sorted(FLAT_TYPES)}
         location_intent = {
             "type": "object",
             "properties": {
@@ -451,8 +482,8 @@ class OpenAIAdvisorClient:
                 "estimated_budget": _nullable({"type": "number"}),
                 "max_budget": _nullable({"type": "number"}),
                 "budget_flexible": _nullable({"type": "boolean"}),
-                "hdb_flat_type": _nullable({"type": "string"}),
-                "hdb_flat_types": {"type": "array", "items": {"type": "string"}},
+                "hdb_flat_type": _nullable(flat_type),
+                "hdb_flat_types": {"type": "array", "items": flat_type},
                 "bedrooms": _nullable({"type": "integer"}),
                 "bedroom_options": {"type": "array", "items": {"type": "integer"}},
                 "rental_scope": _nullable(
@@ -577,6 +608,10 @@ class OpenAIAdvisorClient:
             "budgets are total purchase budgets. Do not collect diagnoses or use nationality, race, "
             "religion, gender or other protected traits to rank housing. Never copy those traits into "
             "profile_updates, including household_summary, even when the user volunteers them. "
+            f"For a purchase flat type, use exactly one of {sorted(FLAT_TYPES)}. In a buying context, "
+            "'3 rooms', '3-room', and '3-room HDB' mean hdb_flat_type='3 ROOM'; only an explicit "
+            "'3 bedrooms' statement belongs in bedrooms. Never claim that a preference was recorded "
+            "unless the corresponding profile_updates field contains the exact structured value. "
             "school_need means schools for the user's child or dependent; never set it merely because "
             "the user is a university student or wants to live near their own institution. "
             "needs_discussed is true only "
@@ -940,6 +975,90 @@ def _rule_profile_updates(text: str, profile: HousingProfile) -> tuple[dict[str,
         )
     )
     return updates, recommendation_requested
+
+
+def _explicit_hdb_flat_types(text: str) -> list[str]:
+    """Read explicit HDB N-room wording without treating bedrooms as flat types."""
+
+    matches = re.findall(r"(?<![A-Za-z0-9])([1-5])\s*[-–—]?\s*rooms?(?![A-Za-z])", text, re.I)
+    chinese_matches = re.findall(r"([一二两三四五1-5])\s*(?:房式|房型)", text)
+    chinese_numbers = {"一": 1, "二": 2, "两": 2, "三": 3, "四": 4, "五": 5}
+    values = [int(value) for value in matches]
+    values.extend(
+        int(value) if value.isdigit() else chinese_numbers[value]
+        for value in chinese_matches
+    )
+    return list(dict.fromkeys(f"{value} ROOM" for value in values))
+
+
+def _valid_bedroom_values(updates: dict[str, Any]) -> bool:
+    values: list[Any] = [updates.get("bedrooms")]
+    options = updates.get("bedroom_options")
+    if isinstance(options, list):
+        values.extend(options)
+    return any(
+        (value := _finite_number(item, minimum=1, maximum=10)) is not None
+        and value.is_integer()
+        for item in values
+    )
+
+
+def _supplement_model_room_updates(
+    text: str,
+    profile: HousingProfile,
+    updates: dict[str, Any],
+) -> dict[str, Any]:
+    """Validate the model's room fields and narrowly recover explicit room replies."""
+
+    result = dict(updates)
+    mode = result.get("housing_mode")
+    if mode not in HOUSING_MODES:
+        mode = profile.housing_mode
+
+    canonical_types: list[str] = []
+    single = _normalise_hdb_flat_type(result.get("hdb_flat_type"))
+    if single is not None:
+        canonical_types.append(single)
+    raw_types = result.get("hdb_flat_types")
+    if isinstance(raw_types, list):
+        canonical_types.extend(
+            canonical
+            for item in raw_types
+            if (canonical := _normalise_hdb_flat_type(item)) is not None
+        )
+    canonical_types = list(dict.fromkeys(canonical_types))
+    if canonical_types:
+        result["hdb_flat_type"] = canonical_types[0]
+        result["hdb_flat_types"] = canonical_types
+        result["room_preference_flexible"] = False
+        return result
+
+    if mode == "buy":
+        explicit_flat_types = _explicit_hdb_flat_types(text)
+        if explicit_flat_types:
+            result["hdb_flat_type"] = explicit_flat_types[0]
+            result["hdb_flat_types"] = explicit_flat_types
+            result["room_preference_flexible"] = False
+            return result
+
+    explicit_bedroom_wording = bool(re.search(r"\b(?:bed|bedroom)s?\b|卧室|卧", text, re.I))
+    if explicit_bedroom_wording and not _valid_bedroom_values(result):
+        bedroom_options = _room_options_from_text(text)
+        if bedroom_options:
+            result["bedrooms"] = bedroom_options[0]
+            result["bedroom_options"] = bedroom_options
+            result["room_preference_flexible"] = False
+
+    if result.get("room_preference_flexible") is not True and _room_preference_flexible(text):
+        result["room_preference_flexible"] = True
+
+    if mode == "rent" and result.get("rental_scope") not in RENTAL_SCOPES:
+        lower = text.casefold()
+        if re.search(r"普通房|单间|合租|common room|private room|rent a room", lower):
+            result["rental_scope"] = "room"
+        elif re.search(r"整租|整套|whole (?:unit|flat|apartment)", lower):
+            result["rental_scope"] = "whole_unit"
+    return result
 
 
 class HousingAdvisor:
@@ -1622,6 +1741,9 @@ class HousingAdvisor:
                         model_result = None
                 if model_result:
                     updates = _model_profile_updates(model_result)
+                    updates = _supplement_model_room_updates(
+                        message, session.profile, updates
+                    )
                     answer = _clean_text(model_result.get("answer"), maximum=4_000) or self._fallback_answer(message, evidence)
                     recommendation_requested = bool(model_result.get("recommendation_requested"))
                     sources.extend(model_result.get("sources") or [])

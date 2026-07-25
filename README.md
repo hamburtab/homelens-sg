@@ -177,7 +177,7 @@ python3 -m unittest discover -s tests -v
 cd map && npm run build
 ```
 
-当前为 58 项 Python 测试；在限制本地 socket 的沙箱中，HTTP loopback 测试会跳过，其余测试通过。前端 lint、TypeScript 与生产构建也已通过；真实 xiaoma Responses API 严格 JSON、联网搜索、AI 对 NTU 的规范地点提取、OneMap 地点候选，以及真实数据下买/租各 3 个地点＋3 条房源均已验收。
+当前为 67 项 Python 测试；在限制本地 socket 的沙箱中，HTTP loopback 测试会跳过，其余测试通过。前端 lint、TypeScript 与生产构建也已通过；真实 xiaoma Responses API 严格 JSON、联网搜索、AI 对 NTU 的规范地点提取、OneMap 地点候选，以及真实数据下买/租各 3 个地点＋3 条房源均已验收。
 
 ## 隐私与数据边界
 
