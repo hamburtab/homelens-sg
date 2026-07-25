@@ -590,14 +590,46 @@ h1, h2, h3, p { text-wrap: pretty; }
 .advisor-message > span { display: grid; place-items: center; width: 29px; height: 29px; border-radius: 50%; color: white; background: var(--teal); font-size: 7px; font-weight: 800; }
 .advisor-message > div { min-width: 0; padding: 13px 16px; border-radius: 2px 15px 15px; background: var(--paper); }
 .advisor-message p { margin: 0; white-space: pre-wrap; font-size: 12px; line-height: 1.65; }
+.advisor-markdown { display: grid; gap: 10px; }
+.advisor-markdown p { white-space: normal; }
+.advisor-markdown h3 { margin: 2px 0 0; font: 600 15px/1.4 Georgia, serif; }
+.advisor-markdown ul, .advisor-markdown ol { display: grid; gap: 5px; margin: 0; padding-left: 21px; }
+.advisor-markdown li { padding-left: 2px; font-size: 12px; line-height: 1.65; }
+.advisor-markdown strong { color: var(--ink); font-weight: 800; }
+.advisor-markdown code { padding: 2px 5px; border-radius: 4px; color: var(--teal); background: rgba(22, 119, 108, .1); font: 10px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
+.advisor-markdown a { color: var(--teal); text-decoration: underline; text-underline-offset: 2px; }
 .advisor-message--user { grid-template-columns: 1fr 31px; margin-left: auto; }
 .advisor-message--user > span { grid-column: 2; color: var(--ink); background: var(--coral-soft); }
 .advisor-message--user > div { grid-column: 1; grid-row: 1; border-radius: 15px 2px 15px 15px; color: white; background: var(--ink); }
+.advisor-message--user .advisor-markdown strong, .advisor-message--user .advisor-markdown a { color: inherit; }
 .advisor-warning { display: block; margin-top: 8px; color: #8a5922; font-size: 8px; line-height: 1.45; }
 .advisor-sources { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
 .advisor-sources summary { color: var(--teal); font-size: 8px; font-weight: 750; cursor: pointer; }
 .advisor-sources a, .advisor-sources > span { display: flex; gap: 6px; align-items: center; margin-top: 7px; color: var(--muted); font-size: 8px; }
 .advisor-sources i { padding: 3px 5px; border-radius: 99px; color: var(--teal); background: var(--teal-soft); font-size: 6px; font-style: normal; font-weight: 800; text-transform: uppercase; }
+.agent-evidence { margin-top: 13px; padding-top: 11px; border-top: 1px solid var(--line); }
+.agent-evidence__label { margin: 0 0 8px !important; color: var(--muted); font-size: 7px !important; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.agent-evidence__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; }
+.agent-evidence__grid > article { min-width: 0; padding: 11px; border: 1px solid var(--line); border-radius: 10px; background: white; }
+.agent-evidence__top { display: flex; justify-content: space-between; gap: 7px; align-items: baseline; }
+.agent-evidence__top > span { color: var(--coral); font-size: 6px; font-weight: 850; letter-spacing: .05em; }
+.agent-evidence__top > b { color: var(--teal); font: 600 13px Georgia, serif; text-align: right; }
+.agent-evidence__top small { display: block; margin-top: 2px; color: var(--muted); font: 6px sans-serif; }
+.agent-evidence h4 { margin: 9px 0 2px; font: 600 12px/1.3 Georgia, serif; overflow-wrap: anywhere; }
+.agent-evidence article > p { margin: 0; color: var(--muted); font-size: 7px; }
+.agent-evidence__windows { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; margin: 10px 0 8px; }
+.agent-evidence__windows > div { display: grid; gap: 3px; min-width: 0; padding: 8px; border-radius: 8px; background: var(--teal-soft); }
+.agent-evidence__windows small { color: var(--teal); font-size: 6px; font-weight: 850; letter-spacing: .04em; text-transform: uppercase; }
+.agent-evidence__windows b { font: 600 12px Georgia, serif; }
+.agent-evidence__windows span, .agent-evidence__windows em { color: var(--muted); font-size: 6px; line-height: 1.4; }
+.agent-evidence__windows em { font-style: normal; }
+.agent-evidence__metrics { display: flex; flex-wrap: wrap; gap: 4px; margin: 9px 0; }
+.agent-evidence__metrics > span { display: grid; gap: 2px; padding: 4px 6px; border-radius: 7px; background: var(--teal-soft); }
+.agent-evidence__metrics small { color: var(--muted); font-size: 5px; text-transform: uppercase; }
+.agent-evidence__metrics b { color: var(--teal); font-size: 7px; }
+.agent-evidence details { font-size: 7px; }
+.agent-evidence summary { color: var(--teal); cursor: pointer; }
+.agent-evidence ul { margin: 6px 0 0; padding-left: 14px; color: var(--muted); line-height: 1.45; }
 .advisor-location-choices { display: grid; gap: 7px; max-width: 780px; margin: -7px 0 22px 41px; }
 .advisor-location-choices > p { display: grid; gap: 3px; margin: 0 0 4px; font-size: 10px; }
 .advisor-location-choices > p small { color: var(--muted); font-size: 8px; font-weight: 400; }
@@ -713,6 +745,7 @@ h1, h2, h3, p { text-wrap: pretty; }
   .pipeline article:nth-child(4) { border-left: 0; }
   .advisor-shell { grid-template-columns: minmax(0, 1fr) 300px; }
   .advisor-area-grid, .advisor-listing-grid { grid-template-columns: 1fr; }
+  .agent-evidence__grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 820px) {

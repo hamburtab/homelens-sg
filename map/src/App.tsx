@@ -716,7 +716,7 @@ function ExploreView({
         </div>
         <div className="hero-proof" aria-label="Data coverage summary">
           <article><b>{status?.communityEvidence.planningAreas ?? 55}</b><span>planning areas</span><small>Complete boundary coverage</small></article>
-          <article><b>{compact.format(status?.historicalMarket.candidateRows ?? 7730)}</b><span>HDB candidates</span><small>24-month evidence windows</small></article>
+          <article><b>{compact.format(status?.historicalMarket.candidateRows ?? 7730)}</b><span>current HDB candidates</span><small>2-year results with 4-year comparison</small></article>
           <article><b>{compact.format((status?.liveListings.sale.rows ?? 6359) + (status?.liveListings.rent.rows ?? 8041))}</b><span>listing records</span><small>Partial research snapshot</small></article>
         </div>
       </section>

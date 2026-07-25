@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
-import type { FormEvent } from 'react';
+import type { FormEvent, ReactNode } from 'react';
 import type { LocationAnchor } from '../../lib/types';
 
-const SESSION_KEY = 'sg-homeradar-advisor-session';
+const SESSION_KEY = 'sg-homeradar-general-agent-session';
 const money = new Intl.NumberFormat('en-SG', {
   style: 'currency',
   currency: 'SGD',
@@ -21,6 +21,36 @@ interface ChatMessage {
   content: string;
   sources?: Source[];
   warnings?: string[];
+  cards?: AgentCard[];
+}
+
+interface AgentCard {
+  kind: 'listing' | 'historical' | 'area';
+  id: string;
+  title: string;
+  subtitle?: string | null;
+  mode?: 'sale' | 'rent' | null;
+  price?: number | null;
+  price_unit?: string | null;
+  planning_area?: string | null;
+  subzone?: string | null;
+  metrics?: Array<{ label: string; value: string }>;
+  historical_windows?: HistoricalWindow[];
+  reasons?: string[];
+  latitude?: number | null;
+  longitude?: number | null;
+}
+
+interface HistoricalWindow {
+  label: string;
+  lookback_months: number;
+  median_resale_price?: number | null;
+  observed_price_low?: number | null;
+  observed_price_high?: number | null;
+  transaction_count: number;
+  first_transaction_month?: string | null;
+  last_transaction_month?: string | null;
+  annual_trend_pct?: number | null;
 }
 
 interface AdvisorProfile {
@@ -130,6 +160,7 @@ interface AdvisorResponse {
   progress: ProfileProgress;
   location_candidates: LocationCandidate[];
   recommendations?: AdvisorRecommendations | null;
+  cards?: AgentCard[];
   sources: Source[];
   warnings?: string[];
   method?: string;
@@ -140,7 +171,13 @@ interface AdvisorStateResponse {
   session_id: string;
   profile: AdvisorProfile;
   progress: ProfileProgress;
-  turns: Array<{ role: 'user' | 'assistant'; content: string }>;
+  turns: Array<{
+    role: 'user' | 'assistant';
+    content: string;
+    sources?: Source[];
+    warnings?: string[];
+    cards?: AgentCard[];
+  }>;
   location_candidates: LocationCandidate[];
   privacy: string;
 }
@@ -148,7 +185,7 @@ interface AdvisorStateResponse {
 const WELCOME: ChatMessage = {
   id: 'welcome',
   role: 'assistant',
-  content: '你好，我是你的新加坡住房顾问。你不需要已经有完整计划：可以先问我任何租房或买房问题，我会先回答，再一次只问一个关键问题，逐步整理出适合你的方案。\n\n你现在对租房还是买房更感兴趣？',
+  content: '你好，我是 HomeRadar AI。你可以像使用 ChatGPT 一样直接问任何与新加坡租房、买房或区域选择有关的问题。我会为每个问题查询项目数据，再给你有依据的回答。\n\n你不需要先填写预算、地点或房型，也可以直接问“怎么使用这个软件？”或“现在有什么房子推荐？”。',
 };
 
 function titleCase(value?: string | null) {
@@ -188,6 +225,108 @@ function sourceLabel(source: Source) {
   return source.kind === 'web' ? 'Web' : 'Project data';
 }
 
+function renderInlineMarkdown(text: string, keyPrefix: string): ReactNode[] {
+  const tokenPattern = /(\*\*.+?\*\*|`[^`]+`|\[[^\]]+\]\(https?:\/\/[^)\s]+\))/g;
+  const nodes: ReactNode[] = [];
+  let cursor = 0;
+
+  for (const match of text.matchAll(tokenPattern)) {
+    const index = match.index ?? 0;
+    const token = match[0];
+    const key = `${keyPrefix}-${index}`;
+    if (index > cursor) nodes.push(text.slice(cursor, index));
+
+    if (token.startsWith('**') && token.endsWith('**')) {
+      nodes.push(<strong key={key}>{token.slice(2, -2)}</strong>);
+    } else if (token.startsWith('`') && token.endsWith('`')) {
+      nodes.push(<code key={key}>{token.slice(1, -1)}</code>);
+    } else {
+      const link = token.match(/^\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)$/);
+      nodes.push(link
+        ? <a key={key} href={link[2]} target="_blank" rel="noreferrer">{link[1]}</a>
+        : token);
+    }
+    cursor = index + token.length;
+  }
+
+  if (cursor < text.length) nodes.push(text.slice(cursor));
+  return nodes;
+}
+
+function MarkdownMessage({ content }: { content: string }) {
+  const blocks: ReactNode[] = [];
+  let paragraph: string[] = [];
+  let listItems: string[] = [];
+  let listType: 'ul' | 'ol' | null = null;
+
+  const flushParagraph = () => {
+    if (!paragraph.length) return;
+    const blockKey = `paragraph-${blocks.length}`;
+    blocks.push(
+      <p key={blockKey}>
+        {paragraph.map((line, index) => (
+          <span key={`${blockKey}-${index}`}>
+            {index > 0 && <br />}
+            {renderInlineMarkdown(line, `${blockKey}-${index}`)}
+          </span>
+        ))}
+      </p>,
+    );
+    paragraph = [];
+  };
+
+  const flushList = () => {
+    if (!listType || !listItems.length) return;
+    const blockKey = `${listType}-${blocks.length}`;
+    const items = listItems.map((item, index) => (
+      <li key={`${blockKey}-${index}`}>
+        {renderInlineMarkdown(item, `${blockKey}-${index}`)}
+      </li>
+    ));
+    blocks.push(listType === 'ol'
+      ? <ol key={blockKey}>{items}</ol>
+      : <ul key={blockKey}>{items}</ul>);
+    listItems = [];
+    listType = null;
+  };
+
+  content.replace(/\r\n?/g, '\n').split('\n').forEach((rawLine) => {
+    const line = rawLine.trim();
+    if (!line) {
+      flushParagraph();
+      flushList();
+      return;
+    }
+
+    const heading = line.match(/^#{1,3}\s+(.+)$/);
+    if (heading) {
+      flushParagraph();
+      flushList();
+      const blockKey = `heading-${blocks.length}`;
+      blocks.push(<h3 key={blockKey}>{renderInlineMarkdown(heading[1], blockKey)}</h3>);
+      return;
+    }
+
+    const bullet = line.match(/^[-*+]\s+(.+)$/);
+    const numbered = line.match(/^\d+[.)]\s+(.+)$/);
+    if (bullet || numbered) {
+      flushParagraph();
+      const nextType = numbered ? 'ol' : 'ul';
+      if (listType && listType !== nextType) flushList();
+      listType = nextType;
+      listItems.push((bullet || numbered)?.[1] || '');
+      return;
+    }
+
+    flushList();
+    paragraph.push(line);
+  });
+
+  flushParagraph();
+  flushList();
+  return <div className="advisor-markdown">{blocks}</div>;
+}
+
 export function AdvisorView({
   available,
   variant = 'page',
@@ -217,7 +356,7 @@ export function AdvisorView({
   useEffect(() => {
     if (!sessionId) return;
     let cancelled = false;
-    fetch(`/api/advisor/session?session_id=${encodeURIComponent(sessionId)}`)
+    fetch(`/api/agent/session?session_id=${encodeURIComponent(sessionId)}`)
       .then(async (response) => {
         const data = await response.json();
         if (!response.ok) throw new Error(data.message || 'Session unavailable');
@@ -281,12 +420,13 @@ export function AdvisorView({
         content: data.reply,
         sources: data.sources,
         warnings: data.warnings,
+        cards: data.cards,
       },
     ]);
   }
 
   async function callAdvisor(body: Record<string, unknown>, retryExpired = true): Promise<AdvisorResponse> {
-    const response = await fetch('/api/advisor/message', {
+    const response = await fetch('/api/agent/message', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body),
@@ -350,7 +490,7 @@ export function AdvisorView({
   async function reset() {
     if (sessionId) {
       try {
-        await fetch('/api/advisor/reset', {
+        await fetch('/api/agent/reset', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ session_id: sessionId }),
@@ -383,8 +523,8 @@ export function AdvisorView({
     <section className={`advisor-section advisor-section--${variant}`}>
       {variant === 'page' && (
         <div className="advisor-heading">
-          <div><p className="overline">CONVERSATIONAL HOUSING AGENT</p><h1>Start with a question.<br /><em>Discover the plan together.</em></h1></div>
-          <p>The advisor answers first, then gradually turns your circumstances into explicit, reviewable housing preferences.</p>
+          <div><p className="overline">DATA-GROUNDED HOUSING AGENT</p><h1>Ask anything.<br /><em>Let the data answer.</em></h1></div>
+          <p>A general Singapore housing AI that decides which project data to query for every turn. No questionnaire is required.</p>
         </div>
       )}
 
@@ -393,7 +533,7 @@ export function AdvisorView({
           <header className="advisor-chat__header">
             <div><span className="advisor-orb"><i /></span><p><b>HomeRadar Advisor</b><small>{available ? 'AI + verified project tools' : 'Deterministic local mode'}</small></p></div>
             <div className="advisor-chat__actions">
-              <button type="button" onClick={reset}>Clear profile</button>
+              <button type="button" onClick={reset}>Clear conversation</button>
               {variant === 'widget' && <button type="button" onClick={onClose} aria-label="Close advisor">Close</button>}
             </div>
           </header>
@@ -403,7 +543,7 @@ export function AdvisorView({
               <div className={`advisor-message advisor-message--${message.role}`} key={message.id}>
                 <span>{message.role === 'assistant' ? 'HR' : 'You'}</span>
                 <div>
-                  <p>{message.content}</p>
+                  <MarkdownMessage content={message.content} />
                   {!!message.warnings?.length && message.warnings.map((warning) => <small className="advisor-warning" key={warning}>{warning}</small>)}
                   {!!message.sources?.length && (
                     <details className="advisor-sources">
@@ -412,6 +552,9 @@ export function AdvisorView({
                         ? <a key={`${source.title}-${source.url}`} href={source.url} target="_blank" rel="noreferrer"><i>{sourceLabel(source)}</i>{source.title}</a>
                         : <span key={source.title}><i>{sourceLabel(source)}</i>{source.title}</span>)}
                     </details>
+                  )}
+                  {!!message.cards?.length && (
+                    <AgentEvidenceCards cards={message.cards} />
                   )}
                 </div>
               </div>
@@ -430,22 +573,22 @@ export function AdvisorView({
             )}
 
             {recommendations && <AdvisorRecommendationsView data={recommendations} profile={profile} />}
-            {loading && <div className="advisor-typing"><i /><i /><i /><span>Checking your profile and evidence…</span></div>}
+            {loading && <div className="advisor-typing"><i /><i /><i /><span>Querying project data and preparing an answer…</span></div>}
             <div ref={endRef} />
           </div>
 
           {!sessionId && messages.length === 1 && (
             <div className="advisor-prompts">
               {[
-                '我是来新加坡读大学的学生，还不知道应该住哪里。',
-                '第一次在新加坡买 HDB，我应该先考虑什么？',
-                '我想租房，但不知道多少预算比较合理。',
+                '我怎么使用这个软件？',
+                '现在有什么推荐的房子？',
+                '比较一下榜鹅和淡滨尼适合什么样的人。',
               ].map((prompt) => <button type="button" key={prompt} onClick={() => send(undefined, prompt)}>{prompt}<span>→</span></button>)}
             </div>
           )}
 
           <form className="advisor-composer" onSubmit={send}>
-            <textarea value={draft} onChange={(event) => setDraft(event.target.value)} rows={2} maxLength={4000} placeholder="Ask a question or tell me something about your situation..." />
+            <textarea value={draft} onChange={(event) => setDraft(event.target.value)} rows={2} maxLength={6000} placeholder="Ask anything about renting or buying in Singapore..." />
             <button disabled={loading || !draft.trim()} aria-label="Send message">&rarr;</button>
           </form>
           {error && <p className="advisor-error">{error}</p>}
@@ -454,8 +597,8 @@ export function AdvisorView({
 
         <aside className="advisor-profile">
           <div className="advisor-profile__head">
-            <div><p className="overline">YOUR WORKING PROFILE</p><h2>What I understand</h2></div>
-            <strong>{progress.completed}/{progress.total}</strong>
+            <div><p className="overline">OPTIONAL CONVERSATION MEMORY</p><h2>What I remember</h2></div>
+            <strong>{progress.completed}</strong>
           </div>
           <div className="advisor-progress"><span style={{ width: `${progress.completed / progress.total * 100}%` }} /></div>
           <div className="advisor-profile__facts">
@@ -470,12 +613,55 @@ export function AdvisorView({
           )}
           <div className={`advisor-readiness ${progress.ready ? 'ready' : ''}`}>
             <i />
-            <p><b>{progress.ready ? 'Ready for a grounded shortlist' : 'Still learning what matters'}</b><small>{progress.ready ? 'Ask for recommendations whenever you are ready.' : 'The advisor asks only one key follow-up at a time.'}</small></p>
+            <p><b>Context is optional</b><small>Ask any question now. These details only help later answers become more relevant.</small></p>
           </div>
-          <p className="advisor-profile__boundary">No diagnosis or protected characteristic is used for ranking. Route travel time and complete live-market coverage remain unavailable.</p>
+          <p className="advisor-profile__boundary">Every housing claim is grounded in project data or an explicitly cited web source. Protected characteristics are never used for ranking.</p>
         </aside>
       </div>
     </section>
+  );
+}
+
+function AgentEvidenceCards({ cards }: { cards: AgentCard[] }) {
+  return (
+    <div className="agent-evidence">
+      <p className="agent-evidence__label">Database results</p>
+      <div className="agent-evidence__grid">
+        {cards.map((card) => (
+          <article key={`${card.kind}:${card.id}`}>
+            <div className="agent-evidence__top">
+              <span>{card.kind === 'listing' ? card.mode === 'rent' ? 'FOR RENT' : 'FOR SALE' : card.kind === 'historical' ? 'HISTORICAL COMPARISON' : 'AREA'}</span>
+              {card.price != null && !card.historical_windows?.length && <b>{money.format(card.price)}<small>{card.price_unit ? ` · ${card.price_unit}` : ''}</small></b>}
+            </div>
+            <h4>{card.title}</h4>
+            <p>{card.subtitle || titleCase(card.subzone || card.planning_area)}</p>
+            {!!card.historical_windows?.length && (
+              <div className="agent-evidence__windows">
+                {card.historical_windows.map((window) => (
+                  <div key={`${card.id}-${window.lookback_months}`}>
+                    <small>{window.label}</small>
+                    <b>{window.median_resale_price != null ? money.format(window.median_resale_price) : 'No data'}</b>
+                    <span>{window.transaction_count.toLocaleString()} transactions{window.first_transaction_month && window.last_transaction_month ? ` · ${window.first_transaction_month}–${window.last_transaction_month}` : ''}</span>
+                    {window.observed_price_low != null && window.observed_price_high != null && (
+                      <em>Middle 50%: {money.format(window.observed_price_low)}–{money.format(window.observed_price_high)}</em>
+                    )}
+                    {window.annual_trend_pct != null && (
+                      <em>Town/type annual trend: {window.annual_trend_pct >= 0 ? '+' : ''}{window.annual_trend_pct.toFixed(1)}%</em>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
+            {!!card.metrics?.length && (
+              <div className="agent-evidence__metrics">
+                {card.metrics.map((metric) => <span key={`${metric.label}:${metric.value}`}><small>{metric.label}</small><b>{metric.value}</b></span>)}
+              </div>
+            )}
+            {!!card.reasons?.length && <details><summary>Evidence details</summary><ul>{card.reasons.map((reason) => <li key={reason}>{reason}</li>)}</ul></details>}
+          </article>
+        ))}
+      </div>
+    </div>
   );
 }
 

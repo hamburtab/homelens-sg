@@ -2,6 +2,7 @@
   "hdb_dataset_id": "d_8b84c4ee58e3cfc0ece0d773c8ca6abc",
   "download_page_size": 5000,
   "candidate_lookback_months": 24,
+  "candidate_comparison_lookback_months": 48,
   "minimum_transactions_per_candidate": 3,
   "test_months": 6,
   "random_seed": 42,

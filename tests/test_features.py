@@ -60,6 +60,35 @@ class FeatureEngineeringTests(unittest.TestCase):
         self.assertTrue(candidates["candidate_id"].is_unique)
         self.assertTrue(candidates["price_trend_pct_annual"].between(0.1, 10).all())
 
+    def test_four_year_window_keeps_a_distinct_larger_evidence_base(self) -> None:
+        frame = demo_hdb_frame()
+        older = frame.copy()
+        older["month"] = (
+            pd.to_datetime(older["month"]) - pd.DateOffset(years=2)
+        ).dt.strftime("%Y-%m")
+        older["_id"] = older["_id"] + 10_000
+        clean, _ = clean_hdb_transactions(
+            pd.concat([older, frame], ignore_index=True)
+        )
+        candidates_2y, manifest_2y = build_candidate_knowledge_base(
+            clean, lookback_months=24, minimum_transactions=3
+        )
+        candidates_4y, manifest_4y = build_candidate_knowledge_base(
+            clean, lookback_months=48, minimum_transactions=3
+        )
+
+        self.assertEqual(manifest_2y["lookback_months"], 24)
+        self.assertEqual(manifest_4y["lookback_months"], 48)
+        self.assertGreater(
+            manifest_4y["recent_transaction_rows"],
+            manifest_2y["recent_transaction_rows"],
+        )
+        self.assertTrue(
+            set(candidates_2y["candidate_id"]).issubset(
+                set(candidates_4y["candidate_id"])
+            )
+        )
+
     def test_partial_current_month_is_excluded_from_candidates(self) -> None:
         frame = demo_hdb_frame()
         partial = frame.iloc[:3].copy()

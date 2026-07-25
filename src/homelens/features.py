@@ -292,33 +292,59 @@ def build_candidate_knowledge_base(
 def write_knowledge_base(
     clean: pd.DataFrame,
     candidates: pd.DataFrame,
+    candidates_4y: pd.DataFrame,
     quality_report: dict[str, Any],
     candidate_manifest: dict[str, Any],
-) -> tuple[Path, Path]:
+    candidate_manifest_4y: dict[str, Any],
+) -> tuple[Path, Path, Path]:
     ensure_output_directories()
     clean_path = PROJECT_ROOT / "data" / "processed" / "hdb_transactions_clean.csv"
     candidates_path = PROJECT_ROOT / "data" / "processed" / "hdb_candidates.csv"
+    candidates_4y_path = (
+        PROJECT_ROOT / "data" / "processed" / "hdb_candidates_4y.csv"
+    )
     clean.to_csv(clean_path, index=False, date_format="%Y-%m-%d")
     candidates.to_csv(candidates_path, index=False, date_format="%Y-%m-%d")
+    candidates_4y.to_csv(candidates_4y_path, index=False, date_format="%Y-%m-%d")
     write_json(PROJECT_ROOT / "artifacts" / "metrics" / "data_quality.json", quality_report)
     write_json(
         PROJECT_ROOT / "artifacts" / "manifests" / "candidate_knowledge_base.json",
         candidate_manifest,
     )
-    return clean_path, candidates_path
+    write_json(
+        PROJECT_ROOT
+        / "artifacts"
+        / "manifests"
+        / "candidate_knowledge_base_4y.json",
+        candidate_manifest_4y,
+    )
+    return clean_path, candidates_path, candidates_4y_path
 
 
 def build_from_csv(raw_path: Path) -> dict[str, Any]:
     frame = pd.read_csv(raw_path, low_memory=False)
     clean, quality = clean_hdb_transactions(frame)
     candidates, candidate_manifest = build_candidate_knowledge_base(clean)
-    clean_path, candidates_path = write_knowledge_base(
-        clean, candidates, quality, candidate_manifest
+    config = load_project_config()
+    comparison_months = int(config["candidate_comparison_lookback_months"])
+    candidates_4y, candidate_manifest_4y = build_candidate_knowledge_base(
+        clean,
+        lookback_months=comparison_months,
+    )
+    clean_path, candidates_path, candidates_4y_path = write_knowledge_base(
+        clean,
+        candidates,
+        candidates_4y,
+        quality,
+        candidate_manifest,
+        candidate_manifest_4y,
     )
     return {
         "raw_path": raw_path,
         "clean_path": clean_path,
         "candidates_path": candidates_path,
+        "candidates_4y_path": candidates_4y_path,
         "quality": quality,
         "candidate_manifest": candidate_manifest,
+        "candidate_manifest_4y": candidate_manifest_4y,
     }

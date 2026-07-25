@@ -5,6 +5,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
+import pandas as pd
+
 from scripts.build_product_data import SubzoneIndex, _match_street_area, normalise_address
 
 
@@ -12,6 +14,25 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
 class ProductDataTests(unittest.TestCase):
+    def test_four_year_candidate_artifact_matches_its_manifest(self) -> None:
+        manifest = json.loads(
+            (
+                PROJECT_ROOT
+                / "artifacts"
+                / "manifests"
+                / "candidate_knowledge_base_4y.json"
+            ).read_text(encoding="utf-8")
+        )
+        candidates = pd.read_csv(
+            PROJECT_ROOT / "data" / "processed" / "hdb_candidates_4y.csv",
+            low_memory=False,
+        )
+
+        self.assertEqual(manifest["lookback_months"], 48)
+        self.assertEqual(len(candidates), manifest["candidate_rows"])
+        self.assertEqual(len(candidates), 12_256)
+        self.assertEqual(manifest["latest_observation_month"][:7], "2026-06")
+
     def test_address_normalisation_reconciles_common_hdb_abbreviations(self) -> None:
         self.assertEqual(
             normalise_address("552 Ang Mo Kio Avenue 10"),

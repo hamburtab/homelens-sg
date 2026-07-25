@@ -49,8 +49,10 @@ def main() -> None:
         "raw_path": str(raw_path),
         "clean_path": str(result["clean_path"]),
         "candidates_path": str(result["candidates_path"]),
+        "candidates_4y_path": str(result["candidates_4y_path"]),
         "quality": result["quality"],
         "candidate_manifest": result["candidate_manifest"],
+        "candidate_manifest_4y": result["candidate_manifest_4y"],
     }
     print(json.dumps(summary, indent=2, default=json_default))
 

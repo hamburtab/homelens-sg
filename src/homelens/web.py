@@ -117,6 +117,10 @@ def handler_factory(service: HomeLensService) -> type[BaseHTTPRequestHandler]:
                     parameters = parse_qs(parsed.query)
                     session_id = (parameters.get("session_id") or [""])[0]
                     self._json(HTTPStatus.OK, service.advisor_state(session_id))
+                elif path == "/api/agent/session":
+                    parameters = parse_qs(parsed.query)
+                    session_id = (parameters.get("session_id") or [""])[0]
+                    self._json(HTTPStatus.OK, service.agent_state(session_id))
                 elif path.startswith("/api/"):
                     self._json(HTTPStatus.NOT_FOUND, {"error": "not_found"})
                 else:
@@ -134,7 +138,13 @@ def handler_factory(service: HomeLensService) -> type[BaseHTTPRequestHandler]:
 
         def do_POST(self) -> None:  # noqa: N802
             path = urlparse(self.path).path
-            if path not in {"/api/recommend", "/api/advisor/message", "/api/advisor/reset"}:
+            if path not in {
+                "/api/recommend",
+                "/api/advisor/message",
+                "/api/advisor/reset",
+                "/api/agent/message",
+                "/api/agent/reset",
+            }:
                 self._json(HTTPStatus.NOT_FOUND, {"error": "not_found"})
                 return
             if self.headers.get_content_type() != "application/json":
@@ -183,8 +193,12 @@ def handler_factory(service: HomeLensService) -> type[BaseHTTPRequestHandler]:
                     result = service.get_recommendations(payload)
                 elif path == "/api/advisor/message":
                     result = service.advisor_message(payload)
-                else:
+                elif path == "/api/advisor/reset":
                     result = service.reset_advisor(payload)
+                elif path == "/api/agent/message":
+                    result = service.agent_message(payload)
+                else:
+                    result = service.reset_agent(payload)
                 self._json(HTTPStatus.OK, result)
             except (ValueError, json.JSONDecodeError) as error:
                 self._json(HTTPStatus.BAD_REQUEST, {"error": "invalid_request", "message": str(error)})

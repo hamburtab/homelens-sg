@@ -24,11 +24,13 @@ class HomeLensService:
     def __init__(self, settings: Settings | None = None) -> None:
         self.settings = settings or Settings.from_environment()
         self._candidates: pd.DataFrame | None = None
+        self._candidates_4y: pd.DataFrame | None = None
         self._live_listings: pd.DataFrame | None = None
         self._price_model_artifact: dict[str, Any] | None = None
         self._price_model_checked = False
         self._location_resolver: OneMapLocationResolver | None = None
         self._advisor = None
+        self._general_agent = None
 
     def _active_candidates_path(self):
         """Prefer the repository's enriched counterpart for the standard candidate file."""
@@ -44,14 +46,24 @@ class HomeLensService:
                 return enriched
         return configured
 
-    def _load_candidates(self) -> pd.DataFrame:
-        if self._candidates is not None:
-            return self._candidates
-        path = self._active_candidates_path()
-        if not path.exists():
-            raise DataUnavailableError(
-                "Candidate knowledge base not found. Run scripts/build_dataset.py first."
-            )
+    def _active_candidates_4y_path(self):
+        """Return the four-year comparison file matching the active candidate source."""
+
+        configured = self.settings.candidates_path
+        standard = PROJECT_ROOT / "data" / "processed" / "hdb_candidates.csv"
+        product = PROJECT_ROOT / "data" / "processed" / "hdb_candidates_product.csv"
+        enriched = PROJECT_ROOT / "data" / "processed" / "hdb_candidates_geocoded.csv"
+        comparison = PROJECT_ROOT / "data" / "processed" / "hdb_candidates_4y.csv"
+        known_repository_paths = {path.resolve() for path in (standard, product, enriched)}
+        if configured.resolve() in known_repository_paths:
+            return comparison
+        sibling = configured.with_name(
+            f"{configured.stem}_4y{configured.suffix}"
+        )
+        return sibling if sibling.exists() else None
+
+    @staticmethod
+    def _read_candidate_frame(path) -> pd.DataFrame:
         frame = pd.read_csv(path, low_memory=False)
         required = {
             "candidate_id",
@@ -70,8 +82,30 @@ class HomeLensService:
         for column in ("first_transaction_month", "last_transaction_month"):
             if column in frame:
                 frame[column] = pd.to_datetime(frame[column], errors="coerce")
-        self._candidates = frame
         return frame
+
+    def _load_candidates(self) -> pd.DataFrame:
+        if self._candidates is not None:
+            return self._candidates
+        path = self._active_candidates_path()
+        if not path.exists():
+            raise DataUnavailableError(
+                "Candidate knowledge base not found. Run scripts/build_dataset.py first."
+            )
+        self._candidates = self._read_candidate_frame(path)
+        return self._candidates
+
+    def _load_candidates_4y(self) -> pd.DataFrame:
+        if self._candidates_4y is not None:
+            return self._candidates_4y
+        path = self._active_candidates_4y_path()
+        if path is None or not path.exists():
+            raise DataUnavailableError(
+                "Four-year candidate knowledge base not found. "
+                "Run scripts/build_dataset.py first."
+            )
+        self._candidates_4y = self._read_candidate_frame(path)
+        return self._candidates_4y
 
     def _load_live_listings(self) -> pd.DataFrame:
         if self._live_listings is not None:
@@ -92,6 +126,7 @@ class HomeLensService:
 
     def reload(self) -> None:
         self._candidates = None
+        self._candidates_4y = None
         self._live_listings = None
         self._load_candidates()
 
@@ -126,6 +161,22 @@ class HomeLensService:
     def advisor_state(self, session_id: str) -> dict[str, Any]:
         return self._advisor_service().state(session_id)
 
+    def _general_agent_service(self):
+        if self._general_agent is None:
+            from homelens.general_agent import GeneralHousingAgent
+
+            self._general_agent = GeneralHousingAgent(self, self.settings)
+        return self._general_agent
+
+    def agent_message(self, payload: dict[str, Any]) -> dict[str, Any]:
+        return self._general_agent_service().message(payload)
+
+    def reset_agent(self, payload: dict[str, Any]) -> dict[str, Any]:
+        return self._general_agent_service().reset(payload)
+
+    def agent_state(self, session_id: str) -> dict[str, Any]:
+        return self._general_agent_service().state(session_id)
+
     def health(self) -> dict[str, Any]:
         candidates_path = self._active_candidates_path()
         model_path = self.settings.model_path
@@ -153,6 +204,20 @@ class HomeLensService:
                 )
             coordinates = frame[["latitude", "longitude"]].notna().all(axis=1)
             result["candidate_rows_with_coordinates"] = int(coordinates.sum())
+            comparison_path = self._active_candidates_4y_path()
+            result["candidate_4y_available"] = bool(
+                comparison_path is not None and comparison_path.exists()
+            )
+            if result["candidate_4y_available"]:
+                comparison = self._load_candidates_4y()
+                result["candidate_rows_4y"] = int(len(comparison))
+                result["latest_observation_month_4y"] = (
+                    pd.Timestamp(comparison["last_transaction_month"].max()).strftime(
+                        "%Y-%m"
+                    )
+                    if comparison["last_transaction_month"].notna().any()
+                    else None
+                )
         live = self._load_live_listings()
         result["live_listings"] = {
             "available": not live.empty,
