@@ -611,6 +611,8 @@ h1, h2, h3, p { text-wrap: pretty; }
 .agent-evidence__label { margin: 0 0 8px !important; color: var(--muted); font-size: 7px !important; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
 .agent-evidence__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; }
 .agent-evidence__grid > article { min-width: 0; padding: 11px; border: 1px solid var(--line); border-radius: 10px; background: white; }
+.agent-evidence__card--clickable { cursor: pointer; transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease; }
+.agent-evidence__card--clickable:hover, .agent-evidence__card--clickable:focus-visible { border-color: var(--teal); box-shadow: 0 10px 26px rgba(31,122,109,.14); transform: translateY(-1px); outline: none; }
 .agent-evidence__top { display: flex; justify-content: space-between; gap: 7px; align-items: baseline; }
 .agent-evidence__top > span { color: var(--coral); font-size: 6px; font-weight: 850; letter-spacing: .05em; }
 .agent-evidence__top > b { color: var(--teal); font: 600 13px Georgia, serif; text-align: right; }

@@ -20,6 +20,7 @@ from homelens.general_agent import (  # noqa: E402
     AgentMemory,
     HousingDataTools,
     OpenAIGeneralAgentClient,
+    _rule_plan,
 )
 from homelens.service import HomeLensService  # noqa: E402
 
@@ -135,6 +136,46 @@ class GeneralAgentTests(unittest.TestCase):
                     "subzone": "DOVER",
                 },
                 {
+                    "listing_id": "rent-unit-2",
+                    "mode": "rent",
+                    "title": "Large whole unit",
+                    "address": "88 Big Road",
+                    "scraped_at": "2026-07-18T00:00:00Z",
+                    "price_monthly": 8_800,
+                    "asking_price": None,
+                    "room_type": None,
+                    "bedrooms": None,
+                    "property_type": "HDB Flat",
+                    "floor_area_sqft": 1_300,
+                    "nearest_mrt_name": "Dover MRT Station",
+                    "nearest_mrt_distance_m": 650,
+                    "resolved_latitude": 1.3010,
+                    "resolved_longitude": 103.7810,
+                    "resolved_town": "QUEENSTOWN",
+                    "planning_area": "QUEENSTOWN",
+                    "subzone": "DOVER",
+                },
+                {
+                    "listing_id": "rent-unit-3",
+                    "mode": "rent",
+                    "title": "Alternative whole unit",
+                    "address": "40 Dover Road",
+                    "scraped_at": "2026-07-17T00:00:00Z",
+                    "price_monthly": 3_500,
+                    "asking_price": None,
+                    "room_type": None,
+                    "bedrooms": None,
+                    "property_type": "HDB Flat",
+                    "floor_area_sqft": 850,
+                    "nearest_mrt_name": "Dover MRT Station",
+                    "nearest_mrt_distance_m": 700,
+                    "resolved_latitude": 1.3020,
+                    "resolved_longitude": 103.7820,
+                    "resolved_town": "QUEENSTOWN",
+                    "planning_area": "QUEENSTOWN",
+                    "subzone": "DOVER",
+                },
+                {
                     "listing_id": "sale-1",
                     "mode": "sale",
                     "title": "4-room HDB",
@@ -209,6 +250,55 @@ class GeneralAgentTests(unittest.TestCase):
         self.assertLessEqual(listing_cards[0]["price"], 1_500)
         self.assertEqual(result["profile"]["max_budget"], 1_500)
         self.assertEqual(result["profile"]["housing_mode"], "rent")
+
+    def test_chinese_large_no_budget_rule_plan_updates_preferences(self) -> None:
+        plan = _rule_plan("我很有钱，不在意预算，但是我要房子特别大")
+
+        self.assertTrue(plan["clear_budget"])
+        self.assertIn("space", plan["priorities"])
+        self.assertEqual(plan["rental_scope"], "whole_unit")
+
+    def test_large_no_budget_rental_refinement_requeries_by_floor_area(self) -> None:
+        first = self.service.agent_message(
+            {"message": "Recommend some rental options under 4000."}
+        )
+        second = self.service.agent_message(
+            {
+                "session_id": first["session_id"],
+                "message": "I have no budget limit and want a very large rental home.",
+            }
+        )
+
+        listing_cards = [
+            card for card in second["cards"] if card["kind"] == "listing"
+        ]
+        self.assertGreaterEqual(len(listing_cards), 2)
+        self.assertEqual(listing_cards[0]["id"], "rent-unit-2")
+        self.assertEqual(second["profile"]["max_budget"], None)
+        self.assertIn("space", second["profile"]["additional_needs"])
+
+    def test_more_options_excludes_previous_listing_cards(self) -> None:
+        first = self.service.agent_message(
+            {"message": "Recommend rental options under 4000."}
+        )
+        seen = {
+            card["id"]
+            for card in first["cards"]
+            if card["kind"] == "listing"
+        }
+
+        second = self.service.agent_message(
+            {
+                "session_id": first["session_id"],
+                "message": "Show me other rental options with no budget limit.",
+            }
+        )
+        listing_cards = [
+            card for card in second["cards"] if card["kind"] == "listing"
+        ]
+
+        self.assertTrue(listing_cards)
+        self.assertTrue(all(card["id"] not in seen for card in listing_cards))
 
     def test_landmark_question_resumes_after_onemap_confirmation(self) -> None:
         first = self.service.agent_message(

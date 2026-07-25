@@ -24,7 +24,7 @@ interface ChatMessage {
   cards?: AgentCard[];
 }
 
-interface AgentCard {
+export interface AgentCard {
   kind: 'listing' | 'historical' | 'area';
   id: string;
   title: string;
@@ -334,6 +334,7 @@ export function AdvisorView({
   onAnchorChange,
   recommendations,
   onRecommendationsChange,
+  onListingFocus,
 }: {
   available: boolean;
   variant?: 'page' | 'widget';
@@ -341,6 +342,7 @@ export function AdvisorView({
   onAnchorChange: (anchor: LocationAnchor | null) => void;
   recommendations: AdvisorRecommendations | null;
   onRecommendationsChange: (recommendations: AdvisorRecommendations | null) => void;
+  onListingFocus?: (card: AgentCard, peerCards: AgentCard[]) => void;
 }) {
   const [sessionId, setSessionId] = useState(() => localStorage.getItem(SESSION_KEY) || '');
   const [messages, setMessages] = useState<ChatMessage[]>([WELCOME]);
@@ -554,7 +556,7 @@ export function AdvisorView({
                     </details>
                   )}
                   {!!message.cards?.length && (
-                    <AgentEvidenceCards cards={message.cards} />
+                    <AgentEvidenceCards cards={message.cards} onListingFocus={onListingFocus} />
                   )}
                 </div>
               </div>
@@ -622,13 +624,28 @@ export function AdvisorView({
   );
 }
 
-function AgentEvidenceCards({ cards }: { cards: AgentCard[] }) {
+function AgentEvidenceCards({ cards, onListingFocus }: { cards: AgentCard[]; onListingFocus?: (card: AgentCard, peerCards: AgentCard[]) => void }) {
   return (
     <div className="agent-evidence">
       <p className="agent-evidence__label">Database results</p>
       <div className="agent-evidence__grid">
-        {cards.map((card) => (
-          <article key={`${card.kind}:${card.id}`}>
+        {cards.map((card) => {
+          const canFocus = card.kind === 'listing' && card.latitude != null && card.longitude != null && onListingFocus;
+          return (
+          <article
+            key={`${card.kind}:${card.id}`}
+            className={canFocus ? 'agent-evidence__card--clickable' : undefined}
+            role={canFocus ? 'button' : undefined}
+            tabIndex={canFocus ? 0 : undefined}
+            onClick={() => { if (canFocus) onListingFocus(card, cards); }}
+            onKeyDown={(event) => {
+              if (!canFocus) return;
+              if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                onListingFocus(card, cards);
+              }
+            }}
+          >
             <div className="agent-evidence__top">
               <span>{card.kind === 'listing' ? card.mode === 'rent' ? 'FOR RENT' : 'FOR SALE' : card.kind === 'historical' ? 'HISTORICAL COMPARISON' : 'AREA'}</span>
               {card.price != null && !card.historical_windows?.length && <b>{money.format(card.price)}<small>{card.price_unit ? ` · ${card.price_unit}` : ''}</small></b>}
@@ -659,7 +676,8 @@ function AgentEvidenceCards({ cards }: { cards: AgentCard[] }) {
             )}
             {!!card.reasons?.length && <details><summary>Evidence details</summary><ul>{card.reasons.map((reason) => <li key={reason}>{reason}</li>)}</ul></details>}
           </article>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

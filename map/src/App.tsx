@@ -4,7 +4,7 @@ import { SingaporeMap } from './components/singapore-map';
 import { RedditScorePanel } from './components/singapore-map/RedditScorePanel';
 import type { RedditAreaNlp } from './components/singapore-map/RedditScorePanel';
 import { AdvisorView } from './components/advisor/AdvisorView';
-import type { AdvisorRecommendations } from './components/advisor/AdvisorView';
+import type { AdvisorRecommendations, AgentCard } from './components/advisor/AdvisorView';
 import type {
   FacilityCounts,
   LocationAnchor,
@@ -389,6 +389,7 @@ function App() {
   const [advisorOpen, setAdvisorOpen] = useState(false);
   const [advisorRecommendations, setAdvisorRecommendations] = useState<AdvisorRecommendations | null>(null);
   const [advisorMapListingIds, setAdvisorMapListingIds] = useState<string[] | null>(null);
+  const [focusedListingId, setFocusedListingId] = useState<string | null>(null);
   const [commentPool, setCommentPool] = useState<DisplayComment[]>([]);
   const [redditAreaScores, setRedditAreaScores] = useState<RedditAreaNlp | null>(null);
 
@@ -474,6 +475,7 @@ function App() {
   useEffect(() => {
     if (!advisorRecommendations) {
       setAdvisorMapListingIds(null);
+      setFocusedListingId(null);
       return;
     }
     const listingIds = advisorRecommendations.listings.map((listing) => listing.id).filter(Boolean);
@@ -481,12 +483,28 @@ function App() {
     setMapListingMode(advisorRecommendations.mode === 'buy' ? 'sale' : 'rent');
     setSelectedRegion(null);
     if (listingIds.length) {
+      setFocusedListingId(null);
       setView('explore');
       window.setTimeout(() => {
         document.querySelector('#explore-map')?.scrollIntoView({ behavior: 'smooth' });
       }, 0);
     }
   }, [advisorRecommendations]);
+
+  const focusAdvisorListing = (card: AgentCard, peerCards: AgentCard[]) => {
+    if (card.kind !== 'listing' || !card.id || !card.mode) return;
+    const peerIds = peerCards
+      .filter((item) => item.kind === 'listing' && item.mode === card.mode && item.id)
+      .map((item) => item.id);
+    setAdvisorMapListingIds(peerIds.length ? peerIds : [card.id]);
+    setFocusedListingId(card.id);
+    setMapListingMode(card.mode);
+    setSelectedRegion(null);
+    setView('explore');
+    window.setTimeout(() => {
+      document.querySelector('#explore-map')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 0);
+  };
 
   const mapFilter = useMemo(() => {
     const advisorIdSet = advisorMapListingIds ? new Set(advisorMapListingIds) : null;
@@ -563,6 +581,8 @@ function App() {
             goRecommend={() => setView('recommend')}
             goAdvisor={() => setAdvisorOpen(true)}
             anchorLocation={anchorLocation}
+            focusedListingId={focusedListingId}
+            setFocusedListingId={setFocusedListingId}
           />
         )}
         {view === 'recommend' && (
@@ -593,6 +613,7 @@ function App() {
               onAnchorChange={setAnchorLocation}
               recommendations={advisorRecommendations}
               onRecommendationsChange={setAdvisorRecommendations}
+              onListingFocus={focusAdvisorListing}
             />
           </div>
         )}
@@ -633,6 +654,8 @@ function ExploreView({
   goRecommend,
   goAdvisor,
   anchorLocation,
+  focusedListingId,
+  setFocusedListingId,
 }: {
   status: ProductStatus | null;
   regions: Record<string, RegionProfile>;
@@ -652,9 +675,10 @@ function ExploreView({
   goRecommend: () => void;
   goAdvisor: () => void;
   anchorLocation: LocationAnchor | null;
+  focusedListingId: string | null;
+  setFocusedListingId: (value: string | null) => void;
 }) {
   const [areaListingMode, setAreaListingMode] = useState<ListingMode>('sale');
-  const [focusedListingId, setFocusedListingId] = useState<string | null>(null);
   const profileIsRegion = selectedProfile && 'subzoneCount' in selectedProfile;
   const selectedAreaListings = useMemo(() => {
     if (!selectedRegion) return [];

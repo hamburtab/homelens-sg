@@ -44,6 +44,20 @@ PLAN_INTENTS = {
 }
 HOUSING_MODES = {"rent", "buy", "both", "unknown"}
 RENTAL_SCOPES = {"room", "whole_unit", "any"}
+SORT_OPTIONS = {
+    "default",
+    "price_asc",
+    "price_desc",
+    "floor_area_desc",
+    "mrt_distance_asc",
+    "newest",
+}
+REFINEMENT_TYPES = {
+    "none",
+    "new_search",
+    "more_options",
+    "explain_current",
+}
 PRIORITIES = {
     "affordability",
     "space",
@@ -217,6 +231,12 @@ def _normalise_plan(raw: dict[str, Any] | None) -> dict[str, Any]:
     language = str(raw.get("language") or "other")
     if language not in {"zh", "en", "other"}:
         language = "other"
+    sort_by = str(raw.get("sort_by") or "default")
+    if sort_by not in SORT_OPTIONS:
+        sort_by = "default"
+    refinement_type = str(raw.get("refinement_type") or "none")
+    if refinement_type not in REFINEMENT_TYPES:
+        refinement_type = "none"
     bedrooms: list[int] = []
     if isinstance(raw.get("bedrooms"), list):
         for item in raw["bedrooms"]:
@@ -242,6 +262,11 @@ def _normalise_plan(raw: dict[str, Any] | None) -> dict[str, Any]:
         "priorities": list(dict.fromkeys(priorities)),
         "wants_recommendations": bool(raw.get("wants_recommendations")),
         "wants_listings": bool(raw.get("wants_listings")),
+        "wants_more_options": bool(raw.get("wants_more_options")),
+        "exclude_previous_results": bool(raw.get("exclude_previous_results")),
+        "sort_by": sort_by,
+        "refinement_type": refinement_type,
+        "referenced_listing_id": _clean_text(raw.get("referenced_listing_id"), maximum=120),
         "needs_current_web": bool(raw.get("needs_current_web")),
         "clear_budget": bool(raw.get("clear_budget")),
         "clear_location": bool(raw.get("clear_location")),
@@ -252,6 +277,13 @@ def _normalise_plan(raw: dict[str, Any] | None) -> dict[str, Any]:
 def _rule_plan(message: str) -> dict[str, Any]:
     lower = message.casefold()
     parsed = parse_with_rules(message).values
+    budget_free_request = bool(
+        re.search(
+            r"不在意预算|预算无所谓|钱不是问题|我很有钱|预算不限|不限预算|没有预算上限|"
+            r"no budget limit|no upper budget|budget does(?:n't| not) matter",
+            lower,
+        )
+    )
     help_request = bool(
         re.search(
             r"怎么(?:用|使用)|如何(?:用|使用)|使用方法|能做什么|有哪些功能|"
@@ -269,6 +301,13 @@ def _rule_plan(message: str) -> dict[str, Any]:
     listing_request = bool(
         re.search(
             r"房源|挂牌|在售|出租|能租到|available|listing|for rent|for sale",
+            lower,
+        )
+    )
+    more_options_request = bool(
+        re.search(
+            r"其他|别的|还有|换一批|更多|重新推荐|another|other|more options?|show me more|"
+            r"different options?|anything else",
             lower,
         )
     )
@@ -368,9 +407,23 @@ def _rule_plan(message: str) -> dict[str, Any]:
     for priority, keywords in keyword_map.items():
         if any(keyword in lower for keyword in keywords):
             priorities.append(priority)
+    if re.search(
+        r"房(?:子|间)?.{0,6}大|面积.{0,6}大|特别大|越大越好|大房|大一点|large|spacious|big",
+        lower,
+    ):
+        priorities.append("space")
+    large_space_request = "space" in priorities
+    sort_by = "floor_area_desc" if large_space_request else "default"
+    refinement_type = (
+        "more_options"
+        if more_options_request
+        else "new_search"
+        if recommendation_request or listing_request
+        else "none"
+    )
 
     radius = _finite_number(parsed.get("max_anchor_distance_m"), minimum=100, maximum=50_000)
-    return _normalise_plan(
+    plan = _normalise_plan(
         {
             "intent": intent,
             "language": "zh" if _contains_cjk(message) else "en",
@@ -387,8 +440,13 @@ def _rule_plan(message: str) -> dict[str, Any]:
             "location_query": location_query,
             "radius_m": radius,
             "priorities": priorities,
-            "wants_recommendations": recommendation_request,
-            "wants_listings": listing_request or recommendation_request,
+            "wants_recommendations": recommendation_request or more_options_request,
+            "wants_listings": listing_request or recommendation_request or more_options_request,
+            "wants_more_options": more_options_request,
+            "exclude_previous_results": more_options_request,
+            "sort_by": sort_by,
+            "refinement_type": refinement_type,
+            "referenced_listing_id": None,
             "needs_current_web": external_current_request,
             "clear_budget": bool(
                 re.search(r"不限预算|没有预算上限|no budget limit", lower)
@@ -405,6 +463,16 @@ def _rule_plan(message: str) -> dict[str, Any]:
             ),
         }
     )
+    if large_space_request and plan["rental_scope"] is None:
+        plan["rental_scope"] = "whole_unit"
+    if budget_free_request:
+        plan["clear_budget"] = True
+    if plan["housing_mode"] == "rent" and (plan["priorities"] or plan["clear_budget"]):
+        plan["wants_recommendations"] = True
+        plan["wants_listings"] = True
+        if plan["refinement_type"] == "none":
+            plan["refinement_type"] = "new_search"
+    return plan
 
 
 def _reconcile_plans(
@@ -430,12 +498,23 @@ def _reconcile_plans(
     for field in (
         "wants_recommendations",
         "wants_listings",
+        "wants_more_options",
+        "exclude_previous_results",
         "needs_current_web",
         "clear_budget",
         "clear_location",
         "clear_rooms",
     ):
         result[field] = bool(result.get(field) or rule_plan.get(field))
+    if result.get("sort_by") == "default" and rule_plan.get("sort_by") != "default":
+        result["sort_by"] = rule_plan["sort_by"]
+    if (
+        result.get("refinement_type") == "none"
+        and rule_plan.get("refinement_type") != "none"
+    ):
+        result["refinement_type"] = rule_plan["refinement_type"]
+    if not result.get("referenced_listing_id") and rule_plan.get("referenced_listing_id"):
+        result["referenced_listing_id"] = rule_plan["referenced_listing_id"]
     if rule_plan.get("intent") == "help":
         result["intent"] = "help"
     elif rule_plan.get("wants_recommendations") and result.get("intent") in {
@@ -651,6 +730,54 @@ class GeneralAgentSessionStore:
             self._sessions.pop(session_id, None)
 
 
+def _recent_listing_cards(turns: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    cards: list[dict[str, Any]] = []
+    for turn in reversed(turns):
+        for card in turn.get("cards") or []:
+            if isinstance(card, dict) and card.get("kind") == "listing":
+                cards.append(card)
+    return cards
+
+
+def _referenced_listing_card(
+    message: str,
+    turns: list[dict[str, Any]],
+    listing_id: str | None = None,
+) -> dict[str, Any] | None:
+    if listing_id:
+        normalized_id = listing_id.strip().casefold()
+        for card in _recent_listing_cards(turns):
+            if str(card.get("id") or "").strip().casefold() == normalized_id:
+                return card
+    normalized = message.casefold()
+    for card in _recent_listing_cards(turns):
+        candidates = [str(card.get("title") or ""), str(card.get("id") or "")]
+        for candidate in candidates:
+            cleaned = candidate.strip().casefold()
+            if cleaned and cleaned in normalized:
+                return card
+    if re.search(r"这个|这套|这间|this one|this listing|that one|it\b", normalized):
+        for turn in reversed(turns):
+            if turn.get("role") != "assistant":
+                continue
+            content = str(turn.get("content") or "").casefold()
+            for card in _recent_listing_cards([turn]):
+                title = str(card.get("title") or "").strip().casefold()
+                if title and title in content:
+                    return card
+    return None
+
+
+def _message_asks_about_place_anchor(message: str) -> bool:
+    lower = message.casefold()
+    return bool(
+        re.search(
+            r"附近|靠近|周边|旁边|以.{0,12}为中心|near|around|close to|within",
+            lower,
+        )
+    )
+
+
 class OpenAIGeneralAgentClient:
     """Two-pass Responses API client: plan local tools, then answer from evidence."""
 
@@ -700,6 +827,11 @@ class OpenAIGeneralAgentClient:
                 },
                 "wants_recommendations": {"type": "boolean"},
                 "wants_listings": {"type": "boolean"},
+                "wants_more_options": {"type": "boolean"},
+                "exclude_previous_results": {"type": "boolean"},
+                "sort_by": {"type": "string", "enum": sorted(SORT_OPTIONS)},
+                "refinement_type": {"type": "string", "enum": sorted(REFINEMENT_TYPES)},
+                "referenced_listing_id": _nullable({"type": "string"}),
                 "needs_current_web": {"type": "boolean"},
                 "clear_budget": {"type": "boolean"},
                 "clear_location": {"type": "boolean"},
@@ -719,6 +851,11 @@ class OpenAIGeneralAgentClient:
                 "priorities",
                 "wants_recommendations",
                 "wants_listings",
+                "wants_more_options",
+                "exclude_previous_results",
+                "sort_by",
+                "refinement_type",
+                "referenced_listing_id",
                 "needs_current_web",
                 "clear_budget",
                 "clear_location",
@@ -842,7 +979,19 @@ class OpenAIGeneralAgentClient:
             "institution, building or address that needs OneMap. Put HDB towns in preferred_towns. "
             "For rent, budgets are monthly; for buy, budgets are purchase totals. Preserve an "
             "unknown mode when the user did not choose rent or buy. needs_current_web is only for "
-            "time-sensitive policies, news, laws, rates or current external facts. Do not collect "
+            "time-sensitive policies, news, laws, rates or current external facts. Treat natural "
+            "refinements as executable search plans: if the user changes preferences or asks for "
+            "recommendations, set refinement_type='new_search' and wants_listings=true; if they "
+            "ask for other, more, another batch, alternatives or anything else, set "
+            "refinement_type='more_options', wants_more_options=true and "
+            "exclude_previous_results=true. Map broad wording to priorities, not literal "
+            "keywords: spacious, roomy, comfortable, bigger or large means priority 'space' and "
+            "usually sort_by='floor_area_desc'; convenient commute or near MRT means priority "
+            "'transit' and sort_by='mrt_distance_asc'; budget is flexible, money is not an issue "
+            "or no upper limit means clear_budget=true. If the user refers to a previous result, "
+            "set referenced_listing_id when recent_result_cards contains the match; do not turn a "
+            "previous listing title into location_query unless they explicitly ask to search near "
+            "that address. Do not collect "
             "or use protected traits. Never invent coordinates or housing facts. Return strict "
             "JSON."
         )
@@ -854,6 +1003,7 @@ class OpenAIGeneralAgentClient:
                     {"role": item.get("role"), "content": item.get("content")}
                     for item in turns[-8:]
                 ],
+                "recent_result_cards": _recent_listing_cards(turns)[:8],
                 "user_message": message,
             },
             schema_name="general_housing_agent_plan",
@@ -1237,12 +1387,20 @@ class HousingDataTools:
         *,
         limit: int = 4,
         broad: bool = False,
+        exclude_ids: set[str] | None = None,
+        prioritize_space: bool = False,
+        sort_by: str = "default",
     ) -> tuple[dict[str, Any], list[dict[str, Any]], list[str]]:
         listings = self.service._load_live_listings()
         frame = listings.loc[listings.get("mode") == mode].copy()
         warnings: list[str] = []
         if frame.empty:
             return {"mode": mode, "matched": 0}, [], warnings
+        if exclude_ids:
+            listing_ids = frame.get("listing_id", pd.Series("", index=frame.index)).astype(str)
+            frame = frame.loc[~listing_ids.isin(exclude_ids)].copy()
+            if frame.empty:
+                return {"mode": mode, "matched": 0}, [], warnings
         price_column = "price_monthly" if mode == "rent" else "asking_price"
         frame["_price"] = pd.to_numeric(frame.get(price_column), errors="coerce")
         frame = frame.loc[frame["_price"].notna()].copy()
@@ -1321,11 +1479,39 @@ class HousingDataTools:
         frame["_scraped"] = pd.to_datetime(frame.get("scraped_at"), errors="coerce", utc=True)
         sort_columns: list[str] = []
         ascending: list[bool] = []
+        if sort_by == "default" and prioritize_space:
+            sort_by = "floor_area_desc"
+        if sort_by == "floor_area_desc":
+            frame["_floor_area"] = pd.to_numeric(frame.get("floor_area_sqft"), errors="coerce")
+            sort_columns.append("_floor_area")
+            ascending.append(False)
+            if mode == "rent":
+                room_type = frame.get("room_type", pd.Series(np.nan, index=frame.index))
+                frame["_whole_unit"] = room_type.isna().astype(int)
+                sort_columns.insert(0, "_whole_unit")
+                ascending.insert(0, False)
+        if sort_by == "mrt_distance_asc":
+            frame["_mrt_distance"] = pd.to_numeric(
+                frame.get("nearest_mrt_distance_m"),
+                errors="coerce",
+            )
+            sort_columns.append("_mrt_distance")
+            ascending.append(True)
         if memory.anchor_latitude is not None:
             sort_columns.append("_anchor_distance_m")
             ascending.append(True)
-        sort_columns.extend(["_scraped", "_price"])
-        ascending.extend([False, True])
+        if sort_by == "price_asc":
+            sort_columns.append("_price")
+            ascending.append(True)
+        elif sort_by == "price_desc":
+            sort_columns.append("_price")
+            ascending.append(False)
+        elif sort_by == "newest":
+            sort_columns.append("_scraped")
+            ascending.append(False)
+        else:
+            sort_columns.extend(["_scraped", "_price"])
+            ascending.extend([False, True])
         frame = frame.sort_values(sort_columns, ascending=ascending, kind="mergesort")
 
         chosen: list[pd.Series] = []
@@ -1462,8 +1648,13 @@ class HousingDataTools:
         self,
         plan: dict[str, Any],
         memory: AgentMemory,
+        *,
+        exclude_listing_ids: set[str] | None = None,
+        referenced_listing: dict[str, Any] | None = None,
     ) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, str]], list[str]]:
         evidence: dict[str, Any] = {"system_status": self.system_status()}
+        if referenced_listing:
+            evidence["referenced_listing"] = referenced_listing
         cards: list[dict[str, Any]] = []
         sources: list[dict[str, str]] = [LOCAL_SOURCE_STATUS]
         warnings: list[str] = []
@@ -1501,12 +1692,27 @@ class HousingDataTools:
         if wants_results:
             mode = memory.housing_mode or plan["housing_mode"]
             broad = memory.max_budget is None and not memory.preferred_towns
+            prioritize_space = (
+                "space" in memory.priorities
+                or "space" in plan.get("priorities", [])
+            )
+            sort_by = str(plan.get("sort_by") or "default")
+            if sort_by == "default" and prioritize_space:
+                sort_by = "floor_area_desc"
+            elif sort_by == "default" and (
+                "transit" in memory.priorities
+                or "transit" in plan.get("priorities", [])
+            ):
+                sort_by = "mrt_distance_asc"
             if mode in {"rent", "both", "unknown"}:
                 summary, listing_cards, tool_warnings = self.listing_search(
                     "rent",
                     memory,
                     limit=3 if mode == "rent" else 2,
                     broad=broad,
+                    exclude_ids=exclude_listing_ids,
+                    prioritize_space=prioritize_space,
+                    sort_by=sort_by,
                 )
                 evidence["rental_results"] = summary
                 cards.extend(listing_cards)
@@ -1527,6 +1733,9 @@ class HousingDataTools:
                     memory,
                     limit=3 if mode == "buy" else 2,
                     broad=broad,
+                    exclude_ids=exclude_listing_ids,
+                    prioritize_space=prioritize_space,
+                    sort_by=sort_by,
                 )
                 evidence["sale_listing_results"] = sale_summary
                 cards.extend(sale_cards)
@@ -1833,6 +2042,26 @@ class GeneralHousingAgent:
                         method = "openai"
                     except (requests.RequestException, ValueError, json.JSONDecodeError):
                         method = "rules_plan_fallback"
+                referenced_listing = _referenced_listing_card(
+                    message,
+                    session.turns,
+                    plan.get("referenced_listing_id"),
+                )
+                if (
+                    referenced_listing
+                    and plan.get("location_query")
+                    and not _message_asks_about_place_anchor(message)
+                ):
+                    plan["location_query"] = None
+                exclude_listing_ids: set[str] = set()
+                if plan.get("wants_more_options") or plan.get("exclude_previous_results"):
+                    exclude_listing_ids = {
+                        str(card.get("id"))
+                        for card in _recent_listing_cards(session.turns)
+                        if card.get("id")
+                    }
+                    if referenced_listing and referenced_listing.get("id"):
+                        exclude_listing_ids.add(str(referenced_listing["id"]))
                 # A new user message replaces any unconfirmed location choice from an
                 # earlier turn; stale candidates must never control a later answer.
                 session.pending_locations = []
@@ -1868,7 +2097,10 @@ class GeneralHousingAgent:
                     warnings = []
                 else:
                     evidence, cards, sources, warnings = self.tools.execute(
-                        plan, session.memory
+                        plan,
+                        session.memory,
+                        exclude_listing_ids=exclude_listing_ids,
+                        referenced_listing=referenced_listing,
                     )
                     if unresolved_location:
                         warnings.append(
