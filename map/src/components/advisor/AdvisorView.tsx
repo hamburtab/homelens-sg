@@ -190,14 +190,16 @@ function sourceLabel(source: Source) {
 
 export function AdvisorView({
   available,
+  variant = 'page',
+  onClose,
   onAnchorChange,
-  onShowMap,
   recommendations,
   onRecommendationsChange,
 }: {
   available: boolean;
+  variant?: 'page' | 'widget';
+  onClose?: () => void;
   onAnchorChange: (anchor: LocationAnchor | null) => void;
-  onShowMap: (mode: 'sale' | 'rent', listingIds?: string[]) => void;
   recommendations: AdvisorRecommendations | null;
   onRecommendationsChange: (recommendations: AdvisorRecommendations | null) => void;
 }) {
@@ -378,17 +380,22 @@ export function AdvisorView({
   ].filter(Boolean) as string[];
 
   return (
-    <section className="advisor-section">
-      <div className="advisor-heading">
-        <div><p className="overline">CONVERSATIONAL HOUSING AGENT</p><h1>Start with a question.<br /><em>Discover the plan together.</em></h1></div>
-        <p>The advisor answers first, then gradually turns your circumstances into explicit, reviewable housing preferences.</p>
-      </div>
+    <section className={`advisor-section advisor-section--${variant}`}>
+      {variant === 'page' && (
+        <div className="advisor-heading">
+          <div><p className="overline">CONVERSATIONAL HOUSING AGENT</p><h1>Start with a question.<br /><em>Discover the plan together.</em></h1></div>
+          <p>The advisor answers first, then gradually turns your circumstances into explicit, reviewable housing preferences.</p>
+        </div>
+      )}
 
       <div className="advisor-shell">
         <div className="advisor-chat">
           <header className="advisor-chat__header">
             <div><span className="advisor-orb"><i /></span><p><b>HomeRadar Advisor</b><small>{available ? 'AI + verified project tools' : 'Deterministic local mode'}</small></p></div>
-            <button type="button" onClick={reset}>Clear profile</button>
+            <div className="advisor-chat__actions">
+              <button type="button" onClick={reset}>Clear profile</button>
+              {variant === 'widget' && <button type="button" onClick={onClose} aria-label="Close advisor">Close</button>}
+            </div>
           </header>
 
           <div className="advisor-messages" aria-live="polite">
@@ -422,7 +429,7 @@ export function AdvisorView({
               </div>
             )}
 
-            {recommendations && <AdvisorRecommendationsView data={recommendations} profile={profile} onShowMap={onShowMap} />}
+            {recommendations && <AdvisorRecommendationsView data={recommendations} profile={profile} />}
             {loading && <div className="advisor-typing"><i /><i /><i /><span>Checking your profile and evidence…</span></div>}
             <div ref={endRef} />
           </div>
@@ -438,8 +445,8 @@ export function AdvisorView({
           )}
 
           <form className="advisor-composer" onSubmit={send}>
-            <textarea value={draft} onChange={(event) => setDraft(event.target.value)} rows={2} maxLength={4000} placeholder="Ask a question or tell me something about your situation…" />
-            <button disabled={loading || !draft.trim()} aria-label="Send message">↑</button>
+            <textarea value={draft} onChange={(event) => setDraft(event.target.value)} rows={2} maxLength={4000} placeholder="Ask a question or tell me something about your situation..." />
+            <button disabled={loading || !draft.trim()} aria-label="Send message">&rarr;</button>
           </form>
           {error && <p className="advisor-error">{error}</p>}
           <p className="advisor-privacy">{privacy}</p>
@@ -472,14 +479,12 @@ export function AdvisorView({
   );
 }
 
-function AdvisorRecommendationsView({ data, profile, onShowMap }: { data: AdvisorRecommendations; profile: AdvisorProfile; onShowMap: (mode: 'sale' | 'rent', listingIds?: string[]) => void }) {
-  const mapMode = data.mode === 'buy' ? 'sale' : 'rent';
-  const listingIds = data.listings.map((listing) => listing.id);
+function AdvisorRecommendationsView({ data, profile }: { data: AdvisorRecommendations; profile: AdvisorProfile }) {
   return (
     <div className="advisor-recommendations">
       <div className="advisor-recommendations__head">
         <div><p className="overline">AGENT SHORTLIST</p><h3>Three places, three real listings.</h3></div>
-        {profile.anchor_latitude != null && <button type="button" onClick={() => onShowMap(mapMode, listingIds)}>View radius on map →</button>}
+        {profile.anchor_latitude != null && <span>Highlighted on the map</span>}
       </div>
       {!!data.warnings?.length && data.warnings.map((warning) => <p className="advisor-result-warning" key={warning}>{warning}</p>)}
       <p className="advisor-result-label">Recommended locations</p>
@@ -506,7 +511,6 @@ function AdvisorRecommendationsView({ data, profile, onShowMap }: { data: Adviso
               {listing.nearest_mrt_distance_m != null && <span>{Math.round(listing.nearest_mrt_distance_m)} m to recorded MRT</span>}
               {listing.floor_area_sqft != null && <span>{Number(listing.floor_area_sqft).toLocaleString()} sqft</span>}
             </div>
-            <button className="advisor-listing-map" type="button" onClick={() => onShowMap(mapMode, [listing.id])}>View map →</button>
             <details><summary>Why this match</summary><ul>{listing.reasons?.map((reason) => <li key={reason}>{reason}</li>)}</ul></details>
           </article>
         ))}

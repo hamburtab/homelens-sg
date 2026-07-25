@@ -1,5 +1,5 @@
-import { useCallback, useState } from 'react';
-import { MapContainer } from 'react-leaflet';
+import { useCallback, useEffect, useState } from 'react';
+import { MapContainer, useMap } from 'react-leaflet';
 import type { Feature } from 'geojson';
 import type { Polygon, MultiPolygon } from 'geojson';
 import type { SingaporeMapProps, SelectedRegion, FocusState } from '../../lib/types';
@@ -16,7 +16,30 @@ import bbox from '@turf/bbox';
 const SG: [number, number] = [1.3521, 103.8198];
 type FGeom = Feature<Polygon | MultiPolygon> | null;
 
-export function SingaporeMap({ onSelect, onHover, className, listingsUrl, listingFilter, listingSort, listingLabelMap, regionScores, subzoneScores, maxListingMarkers = 350, anchorLocation }: SingaporeMapProps) {
+function ListingFocusController({
+  listings,
+  focusedListingId,
+  onFocus,
+}: {
+  listings: any[];
+  focusedListingId?: string | null;
+  onFocus: (listing: any) => void;
+}) {
+  const map = useMap();
+
+  useEffect(() => {
+    if (!focusedListingId) return;
+    const listing = listings.find((item) => item.id === focusedListingId);
+    if (!listing || !Number.isFinite(listing.latitude) || !Number.isFinite(listing.longitude)) return;
+    const position: [number, number] = [Number(listing.latitude), Number(listing.longitude)];
+    map.flyTo(position, Math.max(map.getZoom(), 16), { duration: 0.55 });
+    onFocus(listing);
+  }, [focusedListingId, listings, map, onFocus]);
+
+  return null;
+}
+
+export function SingaporeMap({ onSelect, onHover, className, listingsUrl, listingFilter, listingSort, listingLabelMap, regionScores, subzoneScores, maxListingMarkers = 350, anchorLocation, focusedListingId, onFocusedListingClose }: SingaporeMapProps) {
   const { planningAreas, subzones, loading, error } = useGeoJson();
   const { listings } = useRentalListings(listingsUrl);
   const filtered = useFilteredListings(listings, listingFilter, listingSort)
@@ -90,12 +113,18 @@ export function SingaporeMap({ onSelect, onHover, className, listingsUrl, listin
     });
   }, []);
 
+  const closeListing = useCallback(() => {
+    setSelListing(null);
+    onFocusedListingClose?.();
+  }, [onFocusedListingClose]);
+
   if (error) return <div className="sg-map sg-map--error"><p>Failed to load map data: {error}</p></div>;
 
   return (
     <div className={`sg-map ${className ?? ''}`}>
       {loading && <div className="sg-map__loading"><div className="sg-map__spinner" /><span>Loading...</span></div>}
       <MapContainer center={SG} zoom={11} minZoom={10} maxZoom={18} className="sg-map__container">
+        <ListingFocusController listings={filtered} focusedListingId={focusedListingId} onFocus={setSelListing} />
         <MapLayers
           planningAreas={planningAreas} subzones={subzones} colorMap={colorMap} selectedArea={selectedArea}
           drillPA={drillPA} drillSZ={drillSZ} focusGeom={focusGeom} maskGeom={maskGeom} focusState={focusState}
@@ -107,7 +136,7 @@ export function SingaporeMap({ onSelect, onHover, className, listingsUrl, listin
       </MapContainer>
       <button className="basemap-toggle" onClick={() => setSatellite(s => !s)}>{satellite ? '🗺️ 街道' : '🛰️ 卫星'}</button>
       <LayerPanel groups={OSM_GROUPS} active={activeCats} onToggle={tog} onToggleGroup={togG} />
-      <RentalDetailPanel listing={selListing} onClose={() => setSelListing(null)} labelMap={listingLabelMap} />
+      <RentalDetailPanel listing={selListing} onClose={closeListing} labelMap={listingLabelMap} />
       <OsmDetailPanel feature={osmFeat} categoryLabel={osmLabel} onClose={() => setOsmFeat(null)} />
       {(drillPA || drillSZ) && (
         <div className="drill-banner"><span>{drillSZ ? `📍 ${drillSZ}` : `📍 ${drillPA} — 点击子区深入查看`}</span>

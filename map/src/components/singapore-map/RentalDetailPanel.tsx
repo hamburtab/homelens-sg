@@ -2,7 +2,7 @@
  * Right-side slide-in panel showing rental listing details.
  *
  * Adaptive: auto-renders ALL fields from the listing object.
- * - Known fields (title, price, images, etc.) get special formatting.
+ * - Known fields (title, price, etc.) get special formatting.
  * - Unknown fields are rendered as key-value rows using `labelMap` for display names.
  * - If `labelMap` doesn't cover a field, the raw key name is used as fallback.
  */
@@ -16,8 +16,8 @@ interface RentalDetailPanelProps {
 }
 
 // ---- Field role detection (for special rendering) ----
-const KNOWN_ROLES: Record<string, 'image' | 'price' | 'title' | 'address' | 'link' | 'meta' | 'tags' | 'skip'> = {
-  images: 'image',
+const KNOWN_ROLES: Record<string, 'price' | 'title' | 'address' | 'link' | 'meta' | 'tags' | 'skip'> = {
+  images: 'skip',
   price: 'price',
   title: 'title',
   address: 'address',
@@ -68,11 +68,8 @@ export function RentalDetailPanel({ listing, onClose, labelMap }: RentalDetailPa
   const title = listing.title ?? listing.address ?? 'Listing';
   const price = listing.price;
   const address = listing.address;
-  const images = listing.images as string[] | undefined;
   const url = listing.url;
   const amenities = listing.amenities as string[] | undefined;
-
-  const primaryImage = images && images.length > 0 ? images[0] : null;
 
   // Meta fields (bedrooms, bathrooms, propertyType, etc.)
   const metaKeys = keys.filter((k) => KNOWN_ROLES[k] === 'meta');
@@ -87,18 +84,6 @@ export function RentalDetailPanel({ listing, onClose, labelMap }: RentalDetailPa
         <button className="rental-detail__close" onClick={onClose} aria-label="Close">
           ✕
         </button>
-
-        {/* Image */}
-        <div className="rental-detail__image-wrap">
-          {primaryImage ? (
-            <img className="rental-detail__image" src={primaryImage} alt={title} loading="lazy" />
-          ) : (
-            <div className="rental-detail__image rental-detail__image--empty" aria-label="No listing image available">No image supplied</div>
-          )}
-          {images && images.length > 1 && (
-            <span className="rental-detail__image-count">1 / {images.length}</span>
-          )}
-        </div>
 
         <div className="rental-detail__body">
           {/* Price */}

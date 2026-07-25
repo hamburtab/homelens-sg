@@ -36,6 +36,8 @@ export interface SingaporeMapProps {
   subzoneScores?: Record<string, SubzoneProfile>;
   maxListingMarkers?: number;
   anchorLocation?: LocationAnchor | null;
+  focusedListingId?: string | null;
+  onFocusedListingClose?: () => void;
 }
 
 export interface RentalListing {

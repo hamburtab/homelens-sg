@@ -17,7 +17,7 @@ import type { DisplayComment } from './lib/display-comments';
 import { parseCommentPool, pickRegionComments } from './lib/display-comments';
 import './App.css';
 
-type View = 'explore' | 'advisor' | 'recommend' | 'listings' | 'method';
+type View = 'explore' | 'recommend' | 'listings' | 'method';
 type ListingMode = 'sale' | 'rent';
 
 interface ProductStatus {
@@ -195,24 +195,20 @@ function distanceMeters(aLat: number, aLng: number, bLat: number, bLng: number) 
   return 6_371_000 * 2 * Math.atan2(Math.sqrt(value), Math.sqrt(1 - value));
 }
 
-function DimensionBars({ profile }: { profile: RegionProfile | SubzoneProfile }) {
+function CompactFacilitySummary({ profile }: { profile: RegionProfile | SubzoneProfile }) {
   const counts = profile.facilityCounts;
   return (
-    <div className="facility-list">
+    <div className="facility-summary">
       {FACILITY_GROUPS.map((group) => {
         const total = group.items.reduce(
           (sum, [, key]) => sum + facilityValue(counts, key),
           0,
         );
         return (
-          <div className="facility-group" key={group.label}>
-            <div className="facility-group__head"><span>{group.label}</span><b>{compact.format(total)}</b></div>
-            <div className="facility-group__items">
-              {group.items.map(([label, key]) => (
-                <span key={key}>{label}<b>{compact.format(facilityValue(counts, key))}</b></span>
-              ))}
-            </div>
-          </div>
+          <article key={group.label}>
+            <span>{group.label}</span>
+            <b>{compact.format(total)}</b>
+          </article>
         );
       })}
     </div>
@@ -265,6 +261,7 @@ function App() {
   const [selectedRegion, setSelectedRegion] = useState<SelectedRegion | null>(null);
   const [mapListingMode, setMapListingMode] = useState<'none' | ListingMode>('none');
   const [anchorLocation, setAnchorLocation] = useState<LocationAnchor | null>(null);
+  const [advisorOpen, setAdvisorOpen] = useState(false);
   const [advisorRecommendations, setAdvisorRecommendations] = useState<AdvisorRecommendations | null>(null);
   const [advisorMapListingIds, setAdvisorMapListingIds] = useState<string[] | null>(null);
   const [commentPool, setCommentPool] = useState<DisplayComment[]>([]);
@@ -349,6 +346,23 @@ function App() {
     [commentPool, selectedRegion],
   );
 
+  useEffect(() => {
+    if (!advisorRecommendations) {
+      setAdvisorMapListingIds(null);
+      return;
+    }
+    const listingIds = advisorRecommendations.listings.map((listing) => listing.id).filter(Boolean);
+    setAdvisorMapListingIds(listingIds.length ? listingIds : null);
+    setMapListingMode(advisorRecommendations.mode === 'buy' ? 'sale' : 'rent');
+    setSelectedRegion(null);
+    if (listingIds.length) {
+      setView('explore');
+      window.setTimeout(() => {
+        document.querySelector('#explore-map')?.scrollIntoView({ behavior: 'smooth' });
+      }, 0);
+    }
+  }, [advisorRecommendations]);
+
   const mapFilter = useMemo(() => {
     const advisorIdSet = advisorMapListingIds ? new Set(advisorMapListingIds) : null;
     return (listing: RentalListing) => {
@@ -371,13 +385,6 @@ function App() {
     };
   }, [advisorMapListingIds, anchorLocation, mapListingMode, selectedRegion]);
 
-  const chooseAreaForSearch = () => {
-    setView('recommend');
-    window.setTimeout(() => {
-      document.querySelector('#recommendation')?.scrollIntoView({ behavior: 'smooth' });
-    }, 0);
-  };
-
   return (
     <div className="app-shell">
       <header className="site-header">
@@ -388,7 +395,6 @@ function App() {
         <nav aria-label="Primary navigation">
           {([
             ['explore', 'Explore'],
-            ['advisor', 'AI advisor'],
             ['recommend', 'Find a home'],
             ['listings', 'Live listings'],
             ['method', 'How it works'],
@@ -411,6 +417,7 @@ function App() {
             selectedRegion={selectedRegion}
             selectedProfile={selectedProfile}
             selectedComments={selectedComments}
+            listings={listings}
             redditAreaScores={redditAreaScores}
             setSelectedRegion={setSelectedRegion}
             mapListingMode={mapListingMode}
@@ -420,24 +427,9 @@ function App() {
             regionScores={regionScores}
             subzones={subzones}
             mapFilter={mapFilter}
-            chooseAreaForSearch={chooseAreaForSearch}
             goRecommend={() => setView('recommend')}
-            goAdvisor={() => setView('advisor')}
+            goAdvisor={() => setAdvisorOpen(true)}
             anchorLocation={anchorLocation}
-          />
-        )}
-        {view === 'advisor' && (
-          <AdvisorView
-            available={Boolean(health?.integrations?.openai)}
-            onAnchorChange={setAnchorLocation}
-            recommendations={advisorRecommendations}
-            onRecommendationsChange={setAdvisorRecommendations}
-            onShowMap={(mode, listingIds) => {
-              setMapListingMode(mode);
-              setAdvisorMapListingIds(listingIds?.length ? listingIds : null);
-              setSelectedRegion(null);
-              setView('explore');
-            }}
           />
         )}
         {view === 'recommend' && (
@@ -451,6 +443,27 @@ function App() {
         {view === 'listings' && <ListingsView listings={listings} status={status} />}
         {view === 'method' && <MethodView status={status} />}
       </main>
+
+      <div className={`advisor-widget ${advisorOpen ? 'advisor-widget--open' : ''}`}>
+        {!advisorOpen && (
+          <button className="advisor-widget__launcher" type="button" onClick={() => setAdvisorOpen(true)}>
+            <span className="advisor-orb"><i /></span>
+            <span><b>Ask advisor</b><small>Get guided housing picks</small></span>
+          </button>
+        )}
+        {advisorOpen && (
+          <div className="advisor-widget__panel" role="dialog" aria-label="HomeRadar advisor">
+            <AdvisorView
+              available={Boolean(health?.integrations?.openai)}
+              variant="widget"
+              onClose={() => setAdvisorOpen(false)}
+              onAnchorChange={setAnchorLocation}
+              recommendations={advisorRecommendations}
+              onRecommendationsChange={setAdvisorRecommendations}
+            />
+          </div>
+        )}
+      </div>
 
       <footer className="site-footer">
         <div><strong>SG HomeRadar</strong><span>NUS SWS3023 - Group 3</span></div>
@@ -466,6 +479,7 @@ function ExploreView({
   selectedRegion,
   selectedProfile,
   selectedComments,
+  listings,
   redditAreaScores,
   setSelectedRegion,
   mapListingMode,
@@ -475,7 +489,6 @@ function ExploreView({
   regionScores,
   subzones,
   mapFilter,
-  chooseAreaForSearch,
   goRecommend,
   goAdvisor,
   anchorLocation,
@@ -485,6 +498,7 @@ function ExploreView({
   selectedRegion: SelectedRegion | null;
   selectedProfile: RegionProfile | SubzoneProfile | null;
   selectedComments: DisplayComment[];
+  listings: RentalListing[];
   redditAreaScores: RedditAreaNlp | null;
   setSelectedRegion: (value: SelectedRegion) => void;
   mapListingMode: 'none' | ListingMode;
@@ -494,12 +508,58 @@ function ExploreView({
   regionScores: Record<string, number>;
   subzones: Record<string, SubzoneProfile>;
   mapFilter: (listing: RentalListing) => boolean;
-  chooseAreaForSearch: () => void;
   goRecommend: () => void;
   goAdvisor: () => void;
   anchorLocation: LocationAnchor | null;
 }) {
+  const [areaListingMode, setAreaListingMode] = useState<ListingMode>('sale');
+  const [focusedListingId, setFocusedListingId] = useState<string | null>(null);
   const profileIsRegion = selectedProfile && 'subzoneCount' in selectedProfile;
+  const selectedAreaListings = useMemo(() => {
+    if (!selectedRegion) return [];
+    return listings
+      .filter((listing) => {
+        if (listing.mode !== areaListingMode) return false;
+        if (!Number.isFinite(listing.latitude) || !Number.isFinite(listing.longitude)) return false;
+        if (selectedRegion.type === 'planning') return listing.planningArea === selectedRegion.id;
+        return listing.subzone === selectedRegion.id;
+      })
+      .sort((a, b) => Number(a.price ?? Number.MAX_SAFE_INTEGER) - Number(b.price ?? Number.MAX_SAFE_INTEGER));
+  }, [areaListingMode, listings, selectedRegion]);
+  const selectedAreaCounts = useMemo(() => {
+    if (!selectedRegion) return { sale: 0, rent: 0, total: 0 };
+    const areaListings = listings.filter((listing) => (
+      selectedRegion.type === 'planning'
+        ? listing.planningArea === selectedRegion.id
+        : listing.subzone === selectedRegion.id
+    ));
+    const sale = areaListings.filter((listing) => listing.mode === 'sale').length;
+    const rent = areaListings.filter((listing) => listing.mode === 'rent').length;
+    return { sale, rent, total: sale + rent };
+  }, [listings, selectedRegion]);
+
+  useEffect(() => {
+    if (!selectedRegion) return;
+    const preferredMode = selectedAreaCounts.sale ? 'sale' : 'rent';
+    setAreaListingMode(preferredMode);
+    setFocusedListingId(null);
+    clearAdvisorMapListings();
+    setMapListingMode(preferredMode);
+  }, [selectedRegion?.id]);
+
+  const setInlineListingMode = (mode: ListingMode) => {
+    setAreaListingMode(mode);
+    setFocusedListingId(null);
+    clearAdvisorMapListings();
+    setMapListingMode(mode);
+  };
+  const effectiveMapFilter = useMemo(() => {
+    return (listing: RentalListing) => {
+      if (!mapFilter(listing)) return false;
+      return focusedListingId ? listing.id === focusedListingId : true;
+    };
+  }, [focusedListingId, mapFilter]);
+
   return (
     <>
       <section className="hero-section">
@@ -530,13 +590,20 @@ function ExploreView({
             <div className="map-stage">
               <SingaporeMap
                 onSelect={setSelectedRegion}
+                className={[
+                  advisorMapListingIds?.length ? 'sg-map--advisor-picks' : '',
+                  selectedRegion && mapListingMode !== 'none' ? 'sg-map--area-listings' : '',
+                  focusedListingId ? 'sg-map--single-listing' : '',
+                ].filter(Boolean).join(' ')}
                 listingsUrl="/live-listings.json"
-                listingFilter={mapFilter}
+                listingFilter={effectiveMapFilter}
                 listingSort={(a, b) => (b.price ?? 0) - (a.price ?? 0)}
                 regionScores={regionScores}
                 subzoneScores={subzones}
-                maxListingMarkers={300}
+                maxListingMarkers={1000}
                 anchorLocation={anchorLocation}
+                focusedListingId={focusedListingId}
+                onFocusedListingClose={() => setFocusedListingId(null)}
                 listingLabelMap={{
                   nearestMRT: 'Nearest MRT',
                   listedOn: 'Listed',
@@ -549,7 +616,7 @@ function ExploreView({
               <div className="map-mode-control" role="group" aria-label="Map listing overlay">
                 <span>Overlay</span>
                 {(['none', 'sale', 'rent'] as const).map((mode) => (
-                  <button key={mode} className={mapListingMode === mode ? 'active' : ''} onClick={() => { clearAdvisorMapListings(); setMapListingMode(mode); }}>
+                  <button key={mode} className={mapListingMode === mode ? 'active' : ''} onClick={() => { setFocusedListingId(null); clearAdvisorMapListings(); setMapListingMode(mode); }}>
                     {mode === 'none' ? 'Areas' : mode === 'sale' ? 'For sale' : 'For rent'}
                   </button>
                 ))}
@@ -585,7 +652,7 @@ function ExploreView({
                 <div className="region-detail__top">
                   <div><p className="overline">{selectedRegion.type === 'planning' ? 'PLANNING AREA' : `SUBZONE - ${titleCase(selectedRegion.parentId || '')}`}</p><h3>{titleCase(selectedRegion.name)}</h3></div>
                 </div>
-                <DimensionBars profile={selectedProfile} />
+                <CompactFacilitySummary profile={selectedProfile} />
                 {profileIsRegion && (
                   <>
                     <div className="region-facts">
@@ -602,7 +669,41 @@ function ExploreView({
                     ) : <div className="market-note market-note--empty">Historical HDB comparison is not available for this planning area.</div>}
                   </>
                 )}
-                <button className="button button--primary button--wide" onClick={chooseAreaForSearch}>Find HDB options near here <span>&rarr;</span></button>
+                <div className="area-listing-block">
+                  <div className="area-listing-head">
+                    <div><p className="overline">HDB LISTINGS</p><h4>{compact.format(selectedAreaListings.length)} highlighted on the map</h4></div>
+                    <button type="button" onClick={goRecommend}>Refine</button>
+                  </div>
+                  <div className="area-listing-tabs" role="group" aria-label="Listing type">
+                    {(['sale', 'rent'] as const).map((mode) => (
+                      <button key={mode} className={areaListingMode === mode ? 'active' : ''} type="button" onClick={() => setInlineListingMode(mode)}>
+                        <span>{mode === 'sale' ? 'For sale' : 'For rent'}</span>
+                        <b>{compact.format(selectedAreaCounts[mode])}</b>
+                      </button>
+                    ))}
+                  </div>
+                  <div className="area-listing-list">
+                    {selectedAreaListings.slice(0, 6).map((listing) => (
+                      <button
+                        key={listing.id}
+                        className={focusedListingId === listing.id ? 'active' : ''}
+                        type="button"
+                        onClick={() => setFocusedListingId(listing.id)}
+                      >
+                        <p>{listingPrice(listing)}</p>
+                        <h4>{listing.address || listing.title || 'HDB listing'}</h4>
+                        <span>{titleCase(listingLocation(listing))}</span>
+                        <div>
+                          {listing.areaSqft && <small>{Number(listing.areaSqft).toLocaleString()} sqft</small>}
+                          {listing.bedrooms && <small>{listing.bedrooms} BR</small>}
+                          {listing.nearestMRT && <small>{String(listing.nearestMRT).replace(/ MRT Station/i, '')}</small>}
+                        </div>
+                      </button>
+                    ))}
+                  </div>
+                  {!selectedAreaListings.length && <div className="area-listing-empty">No {areaListingMode === 'sale' ? 'sale' : 'rental'} listing is classified inside this area yet.</div>}
+                  <button className="button button--secondary button--wide" type="button" onClick={goRecommend}>Refine these listings <span>&rarr;</span></button>
+                </div>
                 <p className="evidence-footnote">Facility counts are mapped from public GeoJSON layers within each area; review-derived scores remain available only as background evidence.</p>
               </div>
             )}
