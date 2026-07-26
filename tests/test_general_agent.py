@@ -25,6 +25,11 @@ from homelens.general_agent import (  # noqa: E402
 from homelens.service import HomeLensService  # noqa: E402
 
 
+class ConstantPriceModel:
+    def predict(self, frame):
+        return [612_345.0 for _ in range(len(frame))]
+
+
 class FakeLocationIndex:
     def locate(self, latitude, longitude):
         if 1.13 <= latitude <= 1.50 and 103.55 <= longitude <= 104.15:
@@ -324,6 +329,31 @@ class GeneralAgentTests(unittest.TestCase):
         assistant_turn = state["turns"][-1]
         self.assertEqual(assistant_turn["role"], "assistant")
         self.assertEqual(assistant_turn["cards"], first["cards"])
+
+    def test_general_agent_historical_cards_include_model_reference(self) -> None:
+        self.service._price_model_checked = True
+        self.service._price_model_artifact = {
+            "model": ConstantPriceModel(),
+            "metadata": {
+                "training_end_month": "2025-12-01",
+                "test_end_month": "2026-06-01",
+                "random_forest": {"mape_percent": 6.1, "mae": 40_000},
+            },
+        }
+
+        result = self.service.agent_message(
+            {"message": "Show historical HDB options with model reference."}
+        )
+        historical = next(
+            card for card in result["cards"] if card["kind"] == "historical"
+        )
+
+        self.assertEqual(historical["model_reference"]["price"], 612_345.0)
+        self.assertEqual(
+            historical["model_reference"]["holdout_mape_percent"],
+            6.1,
+        )
+        self.assertIn("RF reference", {metric["label"] for metric in historical["metrics"]})
 
     def test_historical_tools_return_separate_two_and_four_year_windows(self) -> None:
         overview = HousingDataTools(self.service).market_overview()

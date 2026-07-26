@@ -1,4 +1,4 @@
-"""Application service that grounds every response in the local knowledge base."""
+﻿"""Application service that grounds every response in the local knowledge base."""
 
 from __future__ import annotations
 
@@ -422,16 +422,27 @@ class HomeLensService:
             rows: list[dict[str, Any]] = []
             for item in recommendations:
                 month = pd.Period(item["last_transaction_month"], freq="M")
-                storey_mid = float(item["median_storey"])
+                storey_mid = pd.to_numeric(
+                    pd.Series([item.get("median_storey")]), errors="coerce"
+                ).iloc[0]
                 rows.append(
                     {
                         "town": item["town"],
                         "flat_type": item["flat_type"],
                         "flat_model": item["flat_model"],
-                        "storey_range": self._storey_range(storey_mid),
-                        "floor_area_sqm": item["median_floor_area_sqm"],
-                        "remaining_lease_years": item["median_remaining_lease_years"],
-                        "storey_mid": storey_mid,
+                        "storey_range": (
+                            self._storey_range(float(storey_mid))
+                            if pd.notna(storey_mid)
+                            else np.nan
+                        ),
+                        "floor_area_sqm": pd.to_numeric(
+                            pd.Series([item.get("median_floor_area_sqm")]), errors="coerce"
+                        ).iloc[0],
+                        "remaining_lease_years": pd.to_numeric(
+                            pd.Series([item.get("median_remaining_lease_years")]),
+                            errors="coerce",
+                        ).iloc[0],
+                        "storey_mid": float(storey_mid) if pd.notna(storey_mid) else np.nan,
                         "month_index": month.year * 12 + month.month,
                     }
                 )

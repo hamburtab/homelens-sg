@@ -36,9 +36,19 @@ export interface AgentCard {
   subzone?: string | null;
   metrics?: Array<{ label: string; value: string }>;
   historical_windows?: HistoricalWindow[];
+  model_reference?: ModelReference | null;
   reasons?: string[];
   latitude?: number | null;
   longitude?: number | null;
+}
+
+interface ModelReference {
+  label: string;
+  price?: number | null;
+  vs_observed_percent?: number | null;
+  role?: string | null;
+  holdout_mape_percent?: number | null;
+  training_end_month?: string | null;
 }
 
 interface HistoricalWindow {
@@ -667,6 +677,16 @@ function AgentEvidenceCards({ cards, onListingFocus }: { cards: AgentCard[]; onL
                     )}
                   </div>
                 ))}
+              </div>
+            )}
+            {card.model_reference && (
+              <div className="agent-evidence__model-reference">
+                <small>{card.model_reference.label || 'Random forest reference'}</small>
+                <b>{card.model_reference.price != null ? money.format(card.model_reference.price) : 'No model price'}</b>
+                {card.model_reference.vs_observed_percent != null && (
+                  <span>{card.model_reference.vs_observed_percent >= 0 ? '+' : ''}{card.model_reference.vs_observed_percent.toFixed(1)}% vs observed median</span>
+                )}
+                <em>{card.model_reference.role || 'reference estimate only'}{card.model_reference.holdout_mape_percent != null ? ` · holdout MAPE ${card.model_reference.holdout_mape_percent.toFixed(1)}%` : ''}</em>
               </div>
             )}
             {!!card.metrics?.length && (

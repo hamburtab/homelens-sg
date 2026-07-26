@@ -1565,6 +1565,8 @@ class HousingDataTools:
             if memory.anchor_latitude is not None else None,
         )
         ranking = recommend(candidates, preferences, top_k=limit)
+        self.service._add_model_reference_prices(ranking)
+        model_context = ranking.get("model_context") or {}
         cards: list[dict[str, Any]] = []
         comparisons: list[dict[str, Any]] = []
         for item in ranking.get("recommendations", []):
@@ -1597,6 +1599,22 @@ class HousingDataTools:
                         "value": f"{float(item['nearest_mrt_distance_m']):,.0f} m",
                     }
                 )
+            model_reference = None
+            if item.get("ml_reference_price") is not None:
+                metrics.append(
+                    {
+                        "label": "RF reference",
+                        "value": f"S${float(item['ml_reference_price']):,.0f}",
+                    }
+                )
+                model_reference = {
+                    "label": "Random forest reference",
+                    "price": _safe_value(item.get("ml_reference_price")),
+                    "vs_observed_percent": _safe_value(item.get("ml_vs_observed_percent")),
+                    "role": model_context.get("role") or "reference estimate only",
+                    "holdout_mape_percent": _safe_value(model_context.get("holdout_mape_percent")),
+                    "training_end_month": model_context.get("training_end_month"),
+                }
             reasons = list(item.get("reasons") or [])[:3]
             two_year_price = historical_windows[0]["median_resale_price"]
             four_year_price = historical_windows[1]["median_resale_price"]
@@ -1621,6 +1639,7 @@ class HousingDataTools:
                     "subzone": None,
                     "metrics": metrics,
                     "historical_windows": historical_windows,
+                    "model_reference": model_reference,
                     "reasons": reasons[:4],
                     "latitude": item.get("latitude"),
                     "longitude": item.get("longitude"),
@@ -1641,6 +1660,7 @@ class HousingDataTools:
             "candidate_groups_4y": int(len(candidates_4y)),
             "hard_filters": ranking.get("hard_filters"),
             "budget_cap": memory.max_budget,
+            "model_context": model_context,
             "comparisons": comparisons,
         }, cards, warnings + list(ranking.get("warnings") or [])
 
@@ -1687,7 +1707,7 @@ class HousingDataTools:
         wants_results = bool(
             plan["wants_recommendations"]
             or plan["wants_listings"]
-            or intent in {"recommendation", "listing_search"}
+            or intent in {"recommendation", "listing_search", "historical_price"}
         )
         if wants_results:
             mode = memory.housing_mode or plan["housing_mode"]
