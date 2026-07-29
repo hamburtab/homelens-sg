@@ -195,7 +195,7 @@ interface AdvisorStateResponse {
 const WELCOME: ChatMessage = {
   id: 'welcome',
   role: 'assistant',
-  content: '你好，我是 HomeRadar AI。你可以像使用 ChatGPT 一样直接问任何与新加坡租房、买房或区域选择有关的问题。我会为每个问题查询项目数据，再给你有依据的回答。\n\n你不需要先填写预算、地点或房型，也可以直接问“怎么使用这个软件？”或“现在有什么房子推荐？”。',
+  content: 'Hello, I’m the HomeRadar housing advisor. Ask me anything about renting, buying, or choosing an area in Singapore. I’ll check the project’s verified data and explain the evidence behind each answer.\n\nYou can start right away—there’s no need to enter a budget, location, or home type first. For example, ask “How do I use this tool?” or “What homes do you recommend right now?”',
 };
 
 function titleCase(value?: string | null) {
@@ -592,9 +592,9 @@ export function AdvisorView({
           {!sessionId && messages.length === 1 && (
             <div className="advisor-prompts">
               {[
-                '我怎么使用这个软件？',
-                '现在有什么推荐的房子？',
-                '比较一下榜鹅和淡滨尼适合什么样的人。',
+                'How do I use this tool?',
+                'What homes do you recommend right now?',
+                'Compare Punggol and Tampines for different types of residents.',
               ].map((prompt) => <button type="button" key={prompt} onClick={() => send(undefined, prompt)}>{prompt}<span>→</span></button>)}
             </div>
           )}

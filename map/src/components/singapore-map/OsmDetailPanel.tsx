@@ -1,18 +1,18 @@
 import type { Feature } from 'geojson';
 
 const LABELS: Record<string, string> = {
-  name: '名称',
-  'name:en': '英文名称',
-  'name:zh': '中文名称',
-  'name:ms': '马来语名称',
-  'name:ta': '泰米尔语名称',
-  'addr:street': '街道',
-  'addr:city': '城市',
-  operator: '运营商',
-  network: '线路',
-  opening_hours: '营业时间',
-  phone: '电话',
-  website: '网站',
+  name: 'Name',
+  'name:en': 'English Name',
+  'name:zh': 'Chinese Name',
+  'name:ms': 'Malay Name',
+  'name:ta': 'Tamil Name',
+  'addr:street': 'Street',
+  'addr:city': 'City',
+  operator: 'Operator',
+  network: 'Line',
+  opening_hours: 'Opening Hours',
+  phone: 'Phone',
+  website: 'Website',
 };
 
 const MRT_LINES: Record<string, string> = {
@@ -57,9 +57,9 @@ function buildAddress(properties: Record<string, unknown>) {
 }
 
 function stationType(properties: Record<string, unknown>, categoryLabel: string) {
-  if (text(properties.station) === 'light_rail' || text(properties.light_rail) === 'yes') return '轻轨站';
-  if (text(properties.station) === 'monorail' || text(properties.monorail) === 'yes') return '单轨站';
-  return categoryLabel || '地铁站';
+  if (text(properties.station) === 'light_rail' || text(properties.light_rail) === 'yes') return 'LRT Station';
+  if (text(properties.station) === 'monorail' || text(properties.monorail) === 'yes') return 'Monorail Station';
+  return categoryLabel || 'MRT Station';
 }
 
 function lineNames(properties: Record<string, unknown>) {
@@ -72,15 +72,15 @@ function lineNames(properties: Record<string, unknown>) {
 
 function compactRailwayRows(properties: Record<string, unknown>, categoryLabel: string): DetailRow[] {
   const rows: DetailRow[] = [
-    { label: '类型', value: stationType(properties, categoryLabel) },
-    { label: '地址', value: buildAddress(properties) },
-    { label: '线路', value: lineNames(properties) },
-    { label: '站点编号', value: text(properties.ref) },
-    { label: '运营商', value: text(properties.operator) },
-    { label: '英文名称', value: text(properties['name:en']) || text(properties.name) },
-    { label: '中文名称', value: text(properties['name:zh']) },
-    { label: '马来语名称', value: text(properties['name:ms']) },
-    { label: '泰米尔语名称', value: text(properties['name:ta']) },
+    { label: 'Type', value: stationType(properties, categoryLabel) },
+    { label: 'Address', value: buildAddress(properties) },
+    { label: 'Line', value: lineNames(properties) },
+    { label: 'Station Code', value: text(properties.ref) },
+    { label: 'Operator', value: text(properties.operator) },
+    { label: 'English Name', value: text(properties['name:en']) || text(properties.name) },
+    { label: 'Chinese Name', value: text(properties['name:zh']) },
+    { label: 'Malay Name', value: text(properties['name:ms']) },
+    { label: 'Tamil Name', value: text(properties['name:ta']) },
   ];
   return rows.filter((row) => row.value);
 }
@@ -100,7 +100,7 @@ export function OsmDetailPanel({ feature, categoryLabel, onClose }: { feature: F
   if (!feature) return null;
   const p = feature.properties ?? {};
   const name = text(p.name) || text(p['name:en']);
-  const isRailwayStation = categoryLabel === '地铁站' || text(p.railway) === 'station' || text(p.station) === 'subway';
+  const isRailwayStation = categoryLabel === 'MRT Station' || text(p.railway) === 'station' || text(p.station) === 'subway';
   const rows = isRailwayStation ? compactRailwayRows(p, categoryLabel) : genericRows(p);
   return (
     <div className="osm-detail">

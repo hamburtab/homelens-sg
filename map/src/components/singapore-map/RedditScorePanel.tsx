@@ -15,13 +15,13 @@ interface P {
 }
 
 const SCORE_LABELS: Array<[string, string]> = [
-  ['overall', '综合'],
-  ['transport', '交通'],
-  ['food', '餐饮'],
-  ['noise', '安静程度'],
-  ['nature', '自然'],
-  ['safety', '安全'],
-  ['affordability', '负担能力'],
+  ['overall', 'Overall'],
+  ['transport', 'Transit'],
+  ['food', 'Food'],
+  ['noise', 'Quietness'],
+  ['nature', 'Nature'],
+  ['safety', 'Safety'],
+  ['affordability', 'Affordability'],
 ];
 
 function areaId(region: SelectedRegion | null) {
@@ -63,14 +63,14 @@ export function RedditScorePanel({ data, selectedRegion }: P) {
         aria-expanded={open}
         onClick={() => setOpen((value) => !value)}
       >
-        <span><i className="reddit-score-panel__emoji" aria-hidden="true">👩🏻‍💻</i>网友评分</span>
+        <span><i className="reddit-score-panel__emoji" aria-hidden="true">👩🏻‍💻</i>Reddit Scores</span>
         <b>{open ? '▾' : '▸'}</b>
       </button>
       {open && (
         <div className="reddit-score-panel__body">
-          <p>评分基于 Reddit 网友对各规划区的评价提取，高于 0.5 表示整体倾向正向。</p>
-          {!id && <div className="reddit-score-panel__empty">点击一个 Planning area 查看评分。</div>}
-          {id && !profile && <div className="reddit-score-panel__empty">{id} 暂无网友评分。</div>}
+          <p>Scores are derived from Reddit comments about each planning area. Values above 0.5 indicate positive sentiment.</p>
+          {!id && <div className="reddit-score-panel__empty">Select a planning area to view its scores.</div>}
+          {id && !profile && <div className="reddit-score-panel__empty">No Reddit scores are available for {id}.</div>}
           {profile && (
             <div className="reddit-score-panel__scores">
               {SCORE_LABELS.map(([key, label]) => {

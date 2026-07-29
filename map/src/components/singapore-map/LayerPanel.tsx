@@ -29,7 +29,7 @@ export function LayerPanel({ groups, active, onToggle, onToggleGroup }: P) {
         aria-expanded={panelOpen}
         onClick={() => setPanelOpen((open) => !open)}
       >
-        <span>📍 地图图层</span>
+        <span>📍 Map Layers</span>
         <b>{panelOpen ? '▾' : '▸'}</b>
       </button>
       {panelOpen && (
@@ -62,7 +62,7 @@ export function LayerPanel({ groups, active, onToggle, onToggleGroup }: P) {
                     type="button"
                     onClick={() => onToggleGroup(group.id, !allActive)}
                   >
-                    {allActive ? '取消' : '全选'}
+                    {allActive ? 'Clear' : 'Select all'}
                   </button>
                 </div>
                 {groupOpen && (

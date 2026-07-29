@@ -448,7 +448,7 @@ h1, h2, h3, p { text-wrap: pretty; }
 .reddit-score-panel__body p { margin: 10px 0 0; color: var(--muted); font-size: 8px; line-height: 1.45; }
 .reddit-score-panel__empty { padding: 10px 0 2px; color: var(--muted); font-size: 9px; line-height: 1.45; }
 .reddit-score-panel__scores { display: grid; gap: 8px; }
-.reddit-score-panel__row { display: grid; grid-template-columns: 48px minmax(0, 1fr) 28px; gap: 8px; align-items: center; }
+.reddit-score-panel__row { display: grid; grid-template-columns: 64px minmax(0, 1fr) 28px; gap: 8px; align-items: center; }
 .reddit-score-panel__row span { color: var(--ink); font-size: 8px; font-weight: 750; }
 .reddit-score-panel__row i { position: relative; overflow: hidden; height: 5px; border-radius: 99px; background: var(--paper-2); }
 .reddit-score-panel__row i::after { content: ""; position: absolute; top: -2px; bottom: -2px; left: 50%; width: 1px; background: rgba(16,44,42,.24); }
